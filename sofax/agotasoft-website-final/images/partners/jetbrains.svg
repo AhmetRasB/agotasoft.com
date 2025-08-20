@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="#000">
+  <rect x="10" y="10" width="30" height="30" fill="#000"/>
+  <rect x="13" y="13" width="24" height="24" fill="#fff"/>
+  <text x="15" y="28" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#000">JB</text>
+  <text x="50" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#000">
+    JetBrains
+  </text>
+</svg>

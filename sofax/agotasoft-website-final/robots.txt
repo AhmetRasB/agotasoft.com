@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://agotasoft.com/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Disallow specific paths
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+Disallow: /*.json$
+
+# Allow important directories
+Allow: /images/
+Allow: /css/
+Allow: /js/

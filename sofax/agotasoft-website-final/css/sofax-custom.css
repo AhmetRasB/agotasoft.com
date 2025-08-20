@@ -1,0 +1,627 @@
+/**
+ * Sofax Yazılım Firması - Özel Stiller
+ * ERP, CRM, Ön Muhasebe ve LMS Çözümleri
+ * Kurumsal kimlik ve özelleştirmeler
+ */
+
+:root {
+  /* Sofax Kurumsal Renk Paleti */
+  --sofax-primary: #1e3a8a;          /* Koyu mavi - ana renk */
+  --sofax-secondary: #3b82f6;        /* Orta mavi - ikincil renk */
+  --sofax-accent: #10b981;           /* Yeşil - vurgu rengi */
+  --sofax-dark: #0f172a;             /* Çok koyu lacivert */
+  --sofax-light: #f8fafc;            /* Açık gri/beyaz */
+  --sofax-gray: #64748b;             /* Orta gri */
+  --sofax-light-gray: #e2e8f0;       /* Açık gri */
+  --sofax-success: #059669;          /* Başarı yeşili */
+  --sofax-warning: #d97706;          /* Uyarı turuncu */
+  --sofax-danger: #dc2626;           /* Hata kırmızısı */
+  --sofax-info: #0ea5e9;             /* Bilgi mavisi */
+  
+  /* Gradient Renkler */
+  --sofax-gradient-primary: linear-gradient(135deg, var(--sofax-primary) 0%, var(--sofax-secondary) 100%);
+  --sofax-gradient-accent: linear-gradient(135deg, var(--sofax-accent) 0%, #059669 100%);
+  --sofax-gradient-dark: linear-gradient(135deg, var(--sofax-dark) 0%, #1e293b 100%);
+  
+  /* Gölge Değerleri */
+  --sofax-shadow-sm: 0 1px 2px 0 rgba(30, 58, 138, 0.05);
+  --sofax-shadow: 0 4px 6px -1px rgba(30, 58, 138, 0.1);
+  --sofax-shadow-md: 0 10px 15px -3px rgba(30, 58, 138, 0.1);
+  --sofax-shadow-lg: 0 20px 25px -5px rgba(30, 58, 138, 0.1);
+  --sofax-shadow-xl: 0 25px 50px -12px rgba(30, 58, 138, 0.25);
+  
+  /* Animasyon Süreleri */
+  --sofax-transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --sofax-transition-fast: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  --sofax-transition-slow: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Sofax Logo ve Marka */
+.sofax-logo {
+  font-family: 'Clash Grotesk', 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  color: var(--sofax-primary);
+  text-decoration: none;
+  letter-spacing: -0.02em;
+  transition: var(--sofax-transition);
+}
+
+.sofax-logo:hover {
+  color: var(--sofax-secondary);
+  text-decoration: none;
+}
+
+.sofax-logo-white {
+  color: white;
+}
+
+.sofax-logo-white:hover {
+  color: var(--sofax-accent);
+}
+
+/* Buton Stilleri */
+.sofax-btn-primary {
+  background: var(--sofax-gradient-primary);
+  color: white;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: var(--sofax-transition);
+  box-shadow: var(--sofax-shadow);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sofax-btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--sofax-shadow-lg);
+  color: white;
+  text-decoration: none;
+}
+
+.sofax-btn-secondary {
+  background: transparent;
+  color: var(--sofax-primary);
+  border: 2px solid var(--sofax-primary);
+  padding: 10px 30px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: var(--sofax-transition);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sofax-btn-secondary:hover {
+  background: var(--sofax-primary);
+  color: white;
+  text-decoration: none;
+}
+
+.sofax-btn-accent {
+  background: var(--sofax-gradient-accent);
+  color: white;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: var(--sofax-transition);
+  box-shadow: var(--sofax-shadow);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sofax-btn-accent:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--sofax-shadow-lg);
+  color: white;
+  text-decoration: none;
+}
+
+/* Hero Section */
+.sofax-hero {
+  background: linear-gradient(135deg, var(--sofax-light) 0%, #ffffff 100%);
+  position: relative;
+  overflow: hidden;
+  padding: 120px 0;
+}
+
+.sofax-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M 20 0 L 0 0 0 20" fill="none" stroke="%23e2e8f0" stroke-width="1"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+  opacity: 0.3;
+  z-index: 0;
+}
+
+.sofax-hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.sofax-hero-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 24px;
+  color: var(--sofax-dark);
+}
+
+.sofax-hero-subtitle {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: var(--sofax-gray);
+  margin-bottom: 40px;
+  max-width: 600px;
+}
+
+/* Özellik Kartları */
+.sofax-feature-card {
+  background: white;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: var(--sofax-shadow-md);
+  border: 1px solid var(--sofax-light-gray);
+  transition: var(--sofax-transition);
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.sofax-feature-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: var(--sofax-gradient-primary);
+}
+
+.sofax-feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--sofax-shadow-xl);
+}
+
+.sofax-feature-icon {
+  width: 72px;
+  height: 72px;
+  background: var(--sofax-gradient-primary);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  color: white;
+  font-size: 28px;
+}
+
+.sofax-feature-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--sofax-dark);
+  margin-bottom: 16px;
+}
+
+.sofax-feature-description {
+  color: var(--sofax-gray);
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+/* Ürün Kartları */
+.sofax-product-card {
+  background: white;
+  border-radius: 20px;
+  padding: 48px;
+  box-shadow: var(--sofax-shadow-lg);
+  border: 1px solid var(--sofax-light-gray);
+  transition: var(--sofax-transition);
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.sofax-product-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6px;
+  height: 100%;
+  background: var(--sofax-gradient-accent);
+}
+
+.sofax-product-card:hover {
+  transform: translateY(-12px);
+  box-shadow: var(--sofax-shadow-xl);
+}
+
+.sofax-product-icon {
+  width: 80px;
+  height: 80px;
+  background: var(--sofax-gradient-accent);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+  color: white;
+  font-size: 32px;
+}
+
+.sofax-product-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--sofax-dark);
+  margin-bottom: 20px;
+}
+
+.sofax-product-description {
+  color: var(--sofax-gray);
+  line-height: 1.7;
+  margin-bottom: 32px;
+  font-size: 1.1rem;
+}
+
+/* Partner/Sponsor Logoları */
+.sofax-partners {
+  background: var(--sofax-light);
+  padding: 80px 0;
+}
+
+.sofax-partner-logo {
+  filter: grayscale(100%);
+  opacity: 0.6;
+  transition: var(--sofax-transition);
+  max-height: 60px;
+  width: auto;
+}
+
+.sofax-partner-logo:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+/* Testimonial Stilleri */
+.sofax-testimonial {
+  background: white;
+  border-radius: 24px;
+  padding: 48px;
+  box-shadow: var(--sofax-shadow-lg);
+  border-left: 6px solid var(--sofax-accent);
+  position: relative;
+}
+
+.sofax-testimonial::before {
+  content: '"';
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 4rem;
+  color: var(--sofax-accent);
+  opacity: 0.3;
+  font-family: serif;
+}
+
+.sofax-testimonial-rating {
+  color: var(--sofax-warning);
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+
+.sofax-testimonial-text {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: var(--sofax-gray);
+  margin-bottom: 32px;
+  font-style: italic;
+}
+
+.sofax-testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.sofax-testimonial-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.sofax-testimonial-name {
+  font-weight: 600;
+  color: var(--sofax-dark);
+  margin-bottom: 4px;
+}
+
+.sofax-testimonial-role {
+  color: var(--sofax-gray);
+  font-size: 0.9rem;
+}
+
+/* Stats/Counter Stilleri */
+.sofax-stats {
+  background: var(--sofax-gradient-dark);
+  padding: 100px 0;
+  color: white;
+}
+
+.sofax-stat-item {
+  text-align: center;
+  padding: 20px;
+}
+
+.sofax-stat-number {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--sofax-accent);
+  display: block;
+  margin-bottom: 12px;
+}
+
+.sofax-stat-label {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Footer Stilleri */
+.sofax-footer {
+  background: var(--sofax-dark);
+  color: rgba(255, 255, 255, 0.8);
+  padding: 80px 0 40px;
+}
+
+.sofax-footer h5 {
+  color: white;
+  font-weight: 600;
+  margin-bottom: 32px;
+  font-size: 1.25rem;
+}
+
+.sofax-footer a {
+  color: rgba(255, 255, 255, 0.7);
+  transition: var(--sofax-transition);
+  text-decoration: none;
+}
+
+.sofax-footer a:hover {
+  color: var(--sofax-accent);
+  text-decoration: none;
+}
+
+.sofax-footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 40px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+/* Responsive Tasarım */
+@media (max-width: 768px) {
+  .sofax-logo {
+    font-size: 28px;
+  }
+  
+  .sofax-hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .sofax-hero-subtitle {
+    font-size: 1.1rem;
+  }
+  
+  .sofax-feature-card,
+  .sofax-product-card {
+    padding: 32px 24px;
+  }
+  
+  .sofax-feature-icon,
+  .sofax-product-icon {
+    width: 64px;
+    height: 64px;
+    font-size: 24px;
+  }
+  
+  .sofax-testimonial {
+    padding: 32px 24px;
+  }
+  
+  .sofax-stat-number {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .sofax-hero-title {
+    font-size: 2rem;
+  }
+  
+  .sofax-hero-subtitle {
+    font-size: 1rem;
+  }
+  
+  .sofax-btn-primary,
+  .sofax-btn-secondary,
+  .sofax-btn-accent {
+    padding: 10px 24px;
+    font-size: 14px;
+  }
+}
+
+/* Animasyon Sınıfları */
+.sofax-fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: var(--sofax-transition-slow);
+}
+
+.sofax-fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.sofax-slide-in-left {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: var(--sofax-transition-slow);
+}
+
+.sofax-slide-in-left.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.sofax-slide-in-right {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: var(--sofax-transition-slow);
+}
+
+.sofax-slide-in-right.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Utility Sınıfları */
+.sofax-gradient-text {
+  background: var(--sofax-gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.sofax-section-padding {
+  padding: 120px 0;
+}
+
+.sofax-section-padding-sm {
+  padding: 80px 0;
+}
+
+/* Loading Animation */
+.sofax-loading {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border: 2px solid var(--sofax-light-gray);
+  border-radius: 50%;
+  border-top-color: var(--sofax-primary);
+  animation: sofax-spin 1s ease-in-out infinite;
+}
+
+@keyframes sofax-spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Badge Stilleri */
+.sofax-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 16px;
+  border-radius: 24px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.sofax-badge-success {
+  background: rgba(5, 150, 105, 0.1);
+  color: var(--sofax-success);
+}
+
+.sofax-badge-warning {
+  background: rgba(217, 119, 6, 0.1);
+  color: var(--sofax-warning);
+}
+
+.sofax-badge-primary {
+  background: rgba(30, 58, 138, 0.1);
+  color: var(--sofax-primary);
+}
+
+.sofax-badge-info {
+  background: rgba(14, 165, 233, 0.1);
+  color: var(--sofax-info);
+}
+
+/* Form Stilleri */
+.sofax-form-group {
+  margin-bottom: 24px;
+}
+
+.sofax-form-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: var(--sofax-dark);
+}
+
+.sofax-form-control {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid var(--sofax-light-gray);
+  border-radius: 8px;
+  font-size: 16px;
+  transition: var(--sofax-transition);
+  background: white;
+}
+
+.sofax-form-control:focus {
+  outline: none;
+  border-color: var(--sofax-primary);
+  box-shadow: 0 0 0 3px rgba(30, 58, 138, 0.1);
+}
+
+.sofax-form-control::placeholder {
+  color: var(--sofax-gray);
+}
+
+/* Çözüm Kategorileri */
+.sofax-solution-erp {
+  --solution-color: #dc2626;
+  --solution-bg: rgba(220, 38, 38, 0.1);
+}
+
+.sofax-solution-crm {
+  --solution-color: #2563eb;
+  --solution-bg: rgba(37, 99, 235, 0.1);
+}
+
+.sofax-solution-accounting {
+  --solution-color: #059669;
+  --solution-bg: rgba(5, 150, 105, 0.1);
+}
+
+.sofax-solution-lms {
+  --solution-color: #7c3aed;
+  --solution-bg: rgba(124, 58, 237, 0.1);
+}
+
+.sofax-solution-icon {
+  background: var(--solution-bg);
+  color: var(--solution-color);
+}
+
+.sofax-solution-card:hover .sofax-solution-icon {
+  background: var(--solution-color);
+  color: white;
+}
