@@ -4,7 +4,6 @@ import MobileNavbar from "@/components/common/navigation/mobile-nav/MobileNavbar
 import { useCms } from "@/hooks/useCms";
 import HeaderButton from "./HeaderButton";
 import HeaderLogo from "./HeaderLogo";
-import LanguageSwitcher from "./LanguageSwitcher";
 
 function Header() {
 	const cms = useCms();
@@ -19,7 +18,6 @@ function Header() {
 					<div className="menu-block-wrapper">
 						<DesktopMenu />
 					</div>
-					<LanguageSwitcher />
 					<HeaderButton />
 					<MobileNavbar menuItemsData={menuItemsData} title={title} />
 				</nav>

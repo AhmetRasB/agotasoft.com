@@ -1,7 +1,7 @@
 "use client";
 import Card from "@/public/images/v1/card.png";
 import CheckCircle from "@/public/images/v1/check-circle.png";
-import Contentimg2 from "@/public/images/v1/contentimg2.png";
+import Contentimg2 from "@/public/images/about/DashboardTR.png";
 import ContentThumb from "@/public/images/v1/contentthumb1.png";
 import Icon4 from "@/public/images/v1/icon4.png";
 import Icon9 from "@/public/images/v1/icon9.png";

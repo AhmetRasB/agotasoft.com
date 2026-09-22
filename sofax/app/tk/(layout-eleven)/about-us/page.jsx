@@ -6,7 +6,7 @@ import { buildAlternates } from "@/lib/i18n/config";
 export const metadata = {
 	title: "Biz hakda | AgotaSoft",
 	description: "2021-nji ýyldan bäri bilermenler toparymyz ERP, CRM, buhgalteriýa we LMS ugurlarynda kompaniýalaryň sanly özgertmesine ýol açýar.",
-	author: "AgotaSoft Software",
+	author: "AgotaSoft",
 	alternates: buildAlternates("/about-us"),
 	openGraph: {
 		title: "Biz hakda | AgotaSoft",

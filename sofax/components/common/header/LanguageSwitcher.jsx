@@ -24,13 +24,15 @@ function pathWithLocale(pathname, targetLocale) {
 	return `/${targetLocale}${restPath ? `/${restPath}` : ""}`;
 }
 
+// Designed to sit in a dark footer bar, next to the copyright line. The
+// dropdown opens upward so it never runs off the bottom of the page.
 function LanguageSwitcher() {
 	const pathname = usePathname() || "/";
 	const current = useLocale();
 	const [open, setOpen] = useState(false);
 
 	return (
-		<div className="sofax-lang-switcher" style={{ position: "relative", marginLeft: "12px" }}>
+		<div className="sofax-lang-switcher" style={{ position: "relative", display: "inline-block" }}>
 			<button
 				type="button"
 				onClick={() => setOpen((v) => !v)}
@@ -39,11 +41,12 @@ function LanguageSwitcher() {
 					display: "flex",
 					alignItems: "center",
 					gap: "6px",
-					background: "transparent",
-					border: "1px solid #e2e2e2",
+					background: "rgba(255,255,255,.08)",
+					border: "1px solid rgba(255,255,255,.25)",
 					borderRadius: "20px",
-					padding: "6px 12px",
-					fontSize: "14px",
+					padding: "5px 12px",
+					fontSize: "13px",
+					color: "inherit",
 					cursor: "pointer",
 				}}
 			>
@@ -54,12 +57,12 @@ function LanguageSwitcher() {
 				<ul
 					style={{
 						position: "absolute",
-						top: "110%",
+						bottom: "110%",
 						right: 0,
 						background: "#fff",
 						border: "1px solid #eee",
 						borderRadius: "10px",
-						boxShadow: "0 8px 24px rgba(0,0,0,.12)",
+						boxShadow: "0 -8px 24px rgba(0,0,0,.18)",
 						listStyle: "none",
 						margin: 0,
 						padding: "6px",

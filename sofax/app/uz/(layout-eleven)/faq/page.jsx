@@ -6,7 +6,7 @@ import { buildAlternates } from "@/lib/i18n/config";
 export const metadata = {
 	title: "Tez-tez so'raladigan savollar | AgotaSoft",
 	description: "Tez-tez so'raladigan savollar",
-	author: "AgotaSoft Software",
+	author: "AgotaSoft",
 	alternates: buildAlternates("/faq"),
 	openGraph: {
 		title: "Tez-tez so'raladigan savollar | AgotaSoft",

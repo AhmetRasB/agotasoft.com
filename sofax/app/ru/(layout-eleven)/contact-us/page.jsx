@@ -9,7 +9,7 @@ import { buildAlternates } from "@/lib/i18n/config";
 export const metadata = {
 	title: "Контакты | AgotaSoft",
 	description: "Свяжитесь с нами, чтобы узнать подробности о программных решениях AgotaSoft, запросить демо или обсудить ваши проекты.",
-	author: "AgotaSoft Software",
+	author: "AgotaSoft",
 	alternates: buildAlternates("/contact-us"),
 	openGraph: {
 		title: "Контакты | AgotaSoft",

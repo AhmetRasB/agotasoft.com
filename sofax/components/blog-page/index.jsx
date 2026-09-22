@@ -6,8 +6,6 @@ import Search from "./Search";
 import Tags from "./Tags";
 import FadeInStagger from "../animation/FadeInStagger";
 import BlogCard from "./BlogCard";
-import NewsLetter from "./NewsLetter";
-import Pagination from "./Pagination";
 import { useCms } from "@/hooks/useCms";
 
 function Blog() {
@@ -24,7 +22,6 @@ function Blog() {
 								<BlogCard blog={blog} />
 							</FadeInStagger>
 						))}
-						<Pagination />
 					</div>
 					<div className="col-lg-4">
 						<div className="sofax-inner-blog-sidebar-menu">
@@ -32,7 +29,6 @@ function Blog() {
 							<Categories />
 							<RecentPosts />
 							<Tags />
-							<NewsLetter />
 						</div>
 					</div>
 				</div>

@@ -6,7 +6,7 @@ import { buildAlternates } from "@/lib/i18n/config";
 export const metadata = {
 	title: "Yechimlarimiz | AgotaSoft",
 	description: "Mutaxassis jamoamiz ERP, CRM, buxgalteriya va LMS sohalarida biznesingizning barcha ehtiyojlariga javob beradi.",
-	author: "AgotaSoft Software",
+	author: "AgotaSoft",
 	alternates: buildAlternates("/service"),
 	openGraph: {
 		title: "Yechimlarimiz | AgotaSoft",

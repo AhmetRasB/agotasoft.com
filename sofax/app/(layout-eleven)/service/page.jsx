@@ -6,7 +6,7 @@ export const metadata = {
 	title: "AgotaSoft Çözümlerimiz | ERP, CRM, Ön Muhasebe ve LMS Hizmetleri",
 	description: "AgotaSoft'ın sunduğu ERP, CRM, Ön Muhasebe ve LMS çözümlerini keşfedin. İşletmenizin ihtiyaçlarına özel yazılım hizmetleri.",
 	keywords: "AgotaSoft hizmetler, ERP çözümleri, CRM hizmetleri, ön muhasebe, LMS eğitim sistemi",
-	author: "AgotaSoft Yazılım",
+	author: "AgotaSoft",
 	openGraph: {
 		title: "AgotaSoft Çözümlerimiz | Yazılım Hizmetleri",
 		description: "İşletmenizin dijital dönüşümü için kapsamlı yazılım çözümleri.",

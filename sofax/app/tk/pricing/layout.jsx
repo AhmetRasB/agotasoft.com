@@ -5,7 +5,7 @@ import { buildAlternates } from "@/lib/i18n/config";
 export const metadata = {
 	title: "Bahalar | AgotaSoft",
 	description: "AgotaSoft programma çözgütleri üçin çeýe baha mümkinçilikleri. Kiçi kärhanalardan uly kompaniýalara çenli hemmeler üçin paketler.",
-	author: "AgotaSoft Software",
+	author: "AgotaSoft",
 	alternates: buildAlternates("/pricing"),
 	openGraph: {
 		title: "Biznesiňiziň ululygyna laýyk paketler",

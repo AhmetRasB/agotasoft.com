@@ -1,5 +1,4 @@
 import Categories from "../Categories";
-import NewsLetter from "../NewsLetter";
 import RecentPosts from "../RecentPosts";
 import Search from "../Search";
 import Tags from "../Tags";
@@ -18,7 +17,6 @@ function SingleBlog({ itemSlug }) {
 							<Categories />
 							<RecentPosts />
 							<Tags />
-							<NewsLetter />
 						</div>
 					</div>
 				</div>

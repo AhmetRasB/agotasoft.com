@@ -9,7 +9,7 @@ import { buildAlternates } from "@/lib/i18n/config";
 export const metadata = {
 	title: "Habarlaşmak | AgotaSoft",
 	description: "AgotaSoft programma çözgütleri barada jikme-jik maglumat almak, demo sorap ýa-da taslamalaryňyzy maslahatlaşmak üçin biz bilen habarlaşyň.",
-	author: "AgotaSoft Software",
+	author: "AgotaSoft",
 	alternates: buildAlternates("/contact-us"),
 	openGraph: {
 		title: "Habarlaşmak | AgotaSoft",

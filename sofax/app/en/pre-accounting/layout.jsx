@@ -5,7 +5,7 @@ import { buildAlternates } from "@/lib/i18n/config";
 export const metadata = {
 	title: "AgotaSoft Bookkeeping System | AgotaSoft",
 	description: "A comprehensive bookkeeping solution that simplifies SMEs' financial processes with Turkish e-invoice integration, current-account management, expense tracking and financial reporting.",
-	author: "AgotaSoft Software",
+	author: "AgotaSoft",
 	alternates: buildAlternates("/pre-accounting"),
 	openGraph: {
 		title: "AgotaSoft Bookkeeping: Financial Control, Fully in Your Hands",

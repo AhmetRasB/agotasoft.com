@@ -9,7 +9,7 @@ export const metadata = {
 	title: "AgotaSoft İletişim | Bizimle İletişime Geçin - Demo Talep Edin",
 	description: "AgotaSoft ERP, CRM, Ön Muhasebe ve LMS çözümleri hakkında bilgi almak, demo talep etmek için bizimle iletişime geçin.",
 	keywords: "AgotaSoft iletişim, demo talep, yazılım danışmanlığı, ERP demo, CRM demo",
-	author: "AgotaSoft Yazılım",
+	author: "AgotaSoft",
 	openGraph: {
 		title: "AgotaSoft İletişim | Demo Talep Edin",
 		description: "Yazılım çözümlerimiz hakkında bilgi almak için bizimle iletişime geçin.",

@@ -6,7 +6,7 @@ export const metadata = {
 	title: "AgotaSoft Hakkımızda | İşletmenizi Geleceğe Taşıyan Yazılım Çözümleri",
 	description: "AgotaSoft olarak, ERP, CRM, Ön Muhasebe ve LMS alanlarında uzman ekibimizle işletmelerin dijital dönüşümüne öncülük ediyoruz.",
 	keywords: "AgotaSoft hakkımızda, yazılım firması, ERP uzmanı, CRM çözümleri, dijital dönüşüm",
-	author: "AgotaSoft Yazılım",
+	author: "AgotaSoft",
 	openGraph: {
 		title: "AgotaSoft Hakkımızda | Yazılım Çözümlerinde Uzman Ekip",
 		description: "3 yıllık deneyimimizle işletmelerin dijital dönüşümüne öncülük ediyoruz.",

@@ -79,8 +79,8 @@ function Pricing() {
 								<div className="sofax-section-title text-center mb-5">
 									<h2 className="sofax-big-title">
 										{selectedProduct === "all"
-											? "AgotaSoft Yazılım Paketleri"
-											: (products.find((p) => p.id === selectedProduct)?.name || "") + " Paketleri"}
+											? page.all_packages_title || "AgotaSoft Paketleri"
+											: (products.find((p) => p.id === selectedProduct)?.name || "") + (page.package_suffix || " Paketleri")}
 									</h2>
 									<p>{page.packages_subtitle || "İşletmenizin büyüklüğüne uygun çözüm paketleri"}</p>
 								</div>

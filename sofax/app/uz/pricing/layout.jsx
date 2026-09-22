@@ -5,7 +5,7 @@ import { buildAlternates } from "@/lib/i18n/config";
 export const metadata = {
 	title: "Narxlar | AgotaSoft",
 	description: "AgotaSoft dasturiy yechimlari uchun moslashuvchan narx variantlari. Kichik bizneslardan yirik kompaniyalargacha hammaga mos paketlar.",
-	author: "AgotaSoft Software",
+	author: "AgotaSoft",
 	alternates: buildAlternates("/pricing"),
 	openGraph: {
 		title: "Biznesingiz hajmiga mos paketlar",

@@ -5,7 +5,7 @@ import { buildAlternates } from "@/lib/i18n/config";
 export const metadata = {
 	title: "AgotaSoft ERP ulgamy | AgotaSoft",
 	description: "Ammar, maliýe, öndüriş meýilnamalaşdyrmasy, satyn alma we adam resurslary proseslerini ýeke-täk integrirlenen ulgam bilen dolandyryň. Netijeligi ýokarlandyryň, çykdajylary azaldyň we ösüşi çaltlandyryň.",
-	author: "AgotaSoft Software",
+	author: "AgotaSoft",
 	alternates: buildAlternates("/erp"),
 	openGraph: {
 		title: "AgotaSoft ERP: öndürişden maliýä çenli ähli proseslerňiz bir platformada",

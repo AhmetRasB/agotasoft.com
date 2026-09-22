@@ -5,7 +5,7 @@ import { buildAlternates } from "@/lib/i18n/config";
 export const metadata = {
 	title: "Тарифы | AgotaSoft",
 	description: "Гибкие тарифные планы для программных решений AgotaSoft. Пакеты для всех — от малого бизнеса до крупных предприятий.",
-	author: "AgotaSoft Software",
+	author: "AgotaSoft",
 	alternates: buildAlternates("/pricing"),
 	openGraph: {
 		title: "Пакеты, подходящие для размера вашего бизнеса",

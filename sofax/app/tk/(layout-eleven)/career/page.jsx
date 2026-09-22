@@ -10,7 +10,7 @@ import { buildAlternates } from "@/lib/i18n/config";
 export const metadata = {
 	title: "Karýera | AgotaSoft",
 	description: "Açyk orunlarymyza goşulyň, AgotaSoft toparynda programma üpjünçilik we sanly özgertme taslamalarynda ýer alyň.",
-	author: "AgotaSoft Software",
+	author: "AgotaSoft",
 	alternates: buildAlternates("/career"),
 	openGraph: {
 		title: "Karýera | AgotaSoft",

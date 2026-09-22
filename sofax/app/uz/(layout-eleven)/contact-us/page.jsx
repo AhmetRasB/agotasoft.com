@@ -9,7 +9,7 @@ import { buildAlternates } from "@/lib/i18n/config";
 export const metadata = {
 	title: "Aloqa | AgotaSoft",
 	description: "AgotaSoft dasturiy yechimlari haqida batafsil ma'lumot olish, demo so'rash yoki loyihalaringizni muhokama qilish uchun biz bilan bog'laning.",
-	author: "AgotaSoft Software",
+	author: "AgotaSoft",
 	alternates: buildAlternates("/contact-us"),
 	openGraph: {
 		title: "Aloqa | AgotaSoft",

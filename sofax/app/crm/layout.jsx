@@ -5,7 +5,7 @@ export const metadata = {
 	title: "AgotaSoft CRM | Müşteri İlişkilerinizi Güçlendirin, Satışlarınızı Artırın",
 	description: "AgotaSoft CRM sistemi ile müşteri veritabanı yönetimi, satış fırsatı takibi, pazarlama otomasyonu ve müşteri hizmetlerini optimize edin.",
 	keywords: "CRM, müşteri ilişkileri yönetimi, satış yönetimi, pazarlama otomasyonu, müşteri hizmetleri, AgotaSoft CRM",
-	author: "AgotaSoft Yazılım",
+	author: "AgotaSoft",
 	openGraph: {
 		title: "AgotaSoft CRM | Müşteri İlişkileri Yönetim Sistemi",
 		description: "Müşteri ilişkilerinizi güçlendirin, satış süreçlerinizi optimize edin ve büyümenizi hızlandırın.",

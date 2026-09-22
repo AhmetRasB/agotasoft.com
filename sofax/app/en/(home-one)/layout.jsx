@@ -4,7 +4,7 @@ import { buildAlternates } from "@/lib/i18n/config";
 export const metadata = {
 	title: "AgotaSoft | ERP, CRM, Bookkeeping and LMS Software Solutions",
 	description: "Empower your business with digital transformation. Boost efficiency and cut costs with AgotaSoft's ERP, CRM, Bookkeeping and LMS software.",
-	author: "AgotaSoft Software",
+	author: "AgotaSoft",
 	alternates: buildAlternates("/"),
 	openGraph: {
 		title: "AgotaSoft: Smart Software That Takes Your Business Into the Future",

@@ -5,7 +5,7 @@ import { buildAlternates } from "@/lib/i18n/config";
 export const metadata = {
 	title: "AgotaSoft CRM tizimi | AgotaSoft",
 	description: "Keng qamrovli mijozlar ma'lumotlar bazasi, sotuv imkoniyatlarini kuzatish, marketing avtomatlashtirish va mijozlarga xizmat bilan biznesingiz o'sishini tezlashtiring.",
-	author: "AgotaSoft Software",
+	author: "AgotaSoft",
 	alternates: buildAlternates("/crm"),
 	openGraph: {
 		title: "AgotaSoft CRM: mijozlar bilan munosabatlaringizni mustahkamlang, sotuvlaringizni oshiring",

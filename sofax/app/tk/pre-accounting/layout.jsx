@@ -5,7 +5,7 @@ import { buildAlternates } from "@/lib/i18n/config";
 export const metadata = {
 	title: "AgotaSoft buhgalteriýa ulgamy | AgotaSoft",
 	description: "E-hasap-faktura integrasiýasy, jari hasap dolandyryşy, çykdajy yzarlamasy we maliýe hasabaty bilen kiçi we orta kärhanalaryň maliýe proseslerini ýeňilleşdirýän giň gerimli buhgalteriýa çözgüdi.",
-	author: "AgotaSoft Software",
+	author: "AgotaSoft",
 	alternates: buildAlternates("/pre-accounting"),
 	openGraph: {
 		title: "AgotaSoft buhgalteriýa: maliýe gözegçiligi doly siziň elilizde",

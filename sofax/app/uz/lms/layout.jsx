@@ -5,7 +5,7 @@ import { buildAlternates } from "@/lib/i18n/config";
 export const metadata = {
 	title: "AgotaSoft LMS tizimi | AgotaSoft",
 	description: "Kurs boshqaruvi, onlayn imtihon, samaradorlik hisoboti bilan korporativ ta'lim jarayonlaringizni raqamlashtiring.",
-	author: "AgotaSoft Software",
+	author: "AgotaSoft",
 	alternates: buildAlternates("/lms"),
 	openGraph: {
 		title: "AgotaSoft LMS: korporativ ta'lim va rivojlanish platformangiz",

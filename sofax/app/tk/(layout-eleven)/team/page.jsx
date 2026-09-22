@@ -7,7 +7,7 @@ import { buildAlternates } from "@/lib/i18n/config";
 export const metadata = {
 	title: "Toparymyz | AgotaSoft",
 	description: "Bilermenler toparymyz bilen kompaniýalaryň sanly özgertmesine ýol açýarys.",
-	author: "AgotaSoft Software",
+	author: "AgotaSoft",
 	alternates: buildAlternates("/team"),
 	openGraph: {
 		title: "Toparymyz | AgotaSoft",

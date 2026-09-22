@@ -5,7 +5,7 @@ export const metadata = {
 	title: "AgotaSoft LMS | Kurumsal Eğitim ve Gelişim Platformunuz",
 	description: "AgotaSoft LMS ile ders yönetimi, online sınav, performans raporlama ve kurumsal eğitim süreçlerinizi dijitalleştirin.",
 	keywords: "LMS, öğrenme yönetim sistemi, kurumsal eğitim, online eğitim, ders yönetimi, sınav sistemi, AgotaSoft LMS",
-	author: "AgotaSoft Yazılım",
+	author: "AgotaSoft",
 	openGraph: {
 		title: "AgotaSoft LMS | Kurumsal Öğrenme Yönetim Sistemi",
 		description: "Çalışan gelişimi, online eğitimler ve performans takibi için kapsamlı LMS çözümü.",

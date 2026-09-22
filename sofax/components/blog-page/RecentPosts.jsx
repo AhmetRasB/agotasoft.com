@@ -12,7 +12,7 @@ function RecentPosts() {
 
 	return (
 		<div className="sofax-subscription-field-post">
-			<h4>Recent Posts:</h4>
+			<h4>Son Yazılar:</h4>
 			{recentPostData.map((post, index) => (
 				<Link href={itemPath("blog", post)} key={post.slug || post.title || index}>
 					<div className="title-post-thumb">

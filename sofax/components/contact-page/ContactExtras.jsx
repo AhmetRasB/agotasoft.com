@@ -79,11 +79,11 @@ export default function ContactExtras() {
 									allowFullScreen=""
 									loading="lazy"
 									referrerPolicy="no-referrer-when-downgrade"
-									title="AgotaSoft Yazılım Ofis Konumu"
+									title="AgotaSoft Ofis Konumu"
 								></iframe>
 								<div className="position-absolute top-50 start-50 translate-middle">
 									<div className="bg-white p-3 rounded shadow">
-										<h6 className="mb-1">{page.map_label || "AgotaSoft Yazılım"}</h6>
+										<h6 className="mb-1">{page.map_label || "AgotaSoft"}</h6>
 										<p className="small mb-0">{settings.address || "Üsküdar, İstanbul"}</p>
 									</div>
 								</div>

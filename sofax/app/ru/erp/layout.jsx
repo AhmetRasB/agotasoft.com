@@ -5,7 +5,7 @@ import { buildAlternates } from "@/lib/i18n/config";
 export const metadata = {
 	title: "Система AgotaSoft ERP | AgotaSoft",
 	description: "Управляйте складом, финансами, планированием производства, закупками и кадрами в единой интегрированной системе. Повышайте эффективность, снижайте затраты и ускоряйте рост.",
-	author: "AgotaSoft Software",
+	author: "AgotaSoft",
 	alternates: buildAlternates("/erp"),
 	openGraph: {
 		title: "AgotaSoft ERP: все процессы от производства до финансов на одной платформе",

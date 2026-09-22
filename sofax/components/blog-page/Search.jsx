@@ -4,9 +4,9 @@ import Link from "next/link";
 function Search() {
 	return (
 		<div className="sofax-subscription-field-inner">
-			<input type="email" placeholder="Serach" />
+			<input type="email" placeholder="Ara..." />
 			<div className="search-icon-img">
-				<Link href="https://www.google.com/">
+				<Link href="/blog">
 					<Image src={SearchIcon} alt="search icon" />
 				</Link>
 			</div>

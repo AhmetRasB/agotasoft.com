@@ -5,7 +5,7 @@ export const metadata = {
 	title: "AgotaSoft ERP | Üretimden Finansa Tüm Süreçleriniz Tek Platformda",
 	description: "AgotaSoft ERP sistemi ile stok yönetimi, finans, üretim, satın alma ve daha fazlasını tek platformda yönetin. İşletmenizin verimliliğini artırın.",
 	keywords: "ERP, işletme kaynak planlaması, stok yönetimi, finans yönetimi, üretim planlaması, satın alma yönetimi, AgotaSoft ERP",
-	author: "AgotaSoft Yazılım",
+	author: "AgotaSoft",
 	openGraph: {
 		title: "AgotaSoft ERP | Entegre İşletme Yönetim Sistemi",
 		description: "Üretimden finansa, stoktan satın almaya kadar tüm işletme süreçlerinizi tek platformda yönetin.",

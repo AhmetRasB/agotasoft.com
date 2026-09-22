@@ -29,7 +29,7 @@ function BlogCard({ blog }) {
 					<p>{description}</p>
 				</div>
 				<Link className="sofax-icon-btn sofax-blog-icon-btn" href={href}>
-					Learn More <Image src={ArrowRight} alt="arrow right" />
+					Devamını Oku <Image src={ArrowRight} alt="arrow right" />
 				</Link>
 			</div>
 		</>

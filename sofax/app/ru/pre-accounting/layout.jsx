@@ -5,7 +5,7 @@ import { buildAlternates } from "@/lib/i18n/config";
 export const metadata = {
 	title: "Система AgotaSoft «Бухгалтерия» | AgotaSoft",
 	description: "Комплексное бухгалтерское решение, упрощающее финансовые процессы малого и среднего бизнеса благодаря интеграции с турецкими электронными счетами, учёту контрагентов, расходов и финансовой отчётности.",
-	author: "AgotaSoft Software",
+	author: "AgotaSoft",
 	alternates: buildAlternates("/pre-accounting"),
 	openGraph: {
 		title: "AgotaSoft «Бухгалтерия»: финансовый контроль полностью в ваших руках",

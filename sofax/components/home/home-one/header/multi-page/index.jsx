@@ -2,7 +2,6 @@
 import DesktopMenu from "@/components/common/navigation/desktop-nav";
 import MobileNavbar from "@/components/common/navigation/mobile-nav/MobileNavbar";
 import { useCms } from "@/hooks/useCms";
-import LanguageSwitcher from "@/components/common/header/LanguageSwitcher";
 import HeaderButton from "../HeaderButton";
 import HeaderLogo from "../HeaderLogo";
 
@@ -19,7 +18,6 @@ function Header() {
 					<div className="menu-block-wrapper">
 						<DesktopMenu />
 					</div>
-					<LanguageSwitcher />
 					<HeaderButton />
 
 					<MobileNavbar menuItemsData={menuItemsData} title={title} />

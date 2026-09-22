@@ -5,10 +5,10 @@
 		"email": "info@agotasoft.com",
 		"phone": "+90 (216) 555 12 34",
 		"address": "İstanbul, Üsküdar",
-		"copyright": "© 2024 AgotaSoft Yazılım. Tüm hakları saklıdır.",
+		"copyright": "© 2026 AgotaSoft. Tüm hakları saklıdır.",
 		"header_cta": "Demo Talep Edin",
 		"header_cta_url": "/contact-us",
-		"header_cta_secondary": "Get started",
+		"header_cta_secondary": "Ücretsiz Başlayın",
 		"social_twitter": "",
 		"social_facebook": "",
 		"social_instagram": "https://www.instagram.com/agotasoft_tr/",
@@ -135,7 +135,7 @@
 		"privacy_label": "Gizlilik Politikası",
 		"privacy_url": "/privacy-policy",
 		"terms_label": "Kullanım Şartları",
-		"terms_url": "/terms-of-service",
+		"terms_url": "/terms-and-condition",
 		"cookies_label": "Çerez Politikası",
 		"cookies_url": "/cookies-policy"
 	},
@@ -651,7 +651,7 @@
 		{
 			"name": "Ahmet Rasim Beyhan",
 			"title": "Founder & CEO",
-			"image": "/images/about/image1.png",
+			"image": "/images/team/founder-ceo.png",
 			"className": "sofax-team-member-aboutus",
 			"column": "0",
 			"bio": "",
@@ -713,27 +713,34 @@
 	],
 	"blog": [
 		{
-			"title": "Optimizing your online store for a maximum to sales impact your business to the world.",
-			"category": "Technology",
-			"date": "April 13, 2024",
+			"title": "KOBİ'ler İçin ERP Seçerken Dikkat Edilmesi Gereken 7 Kriter",
+			"category": "ERP",
+			"date": "15 Ocak 2026",
 			"image": "/images/blog/blogthumb1.png",
-			"description": "Optimizing your online store for maximum sales impact and exposure involves a multifaceted approach & incorporating a blog can be a crucial aspect.",
-			"content": "Optimizing your online store for maximum sales impact & exposure involves a multifaceted approach & incorporating a blog can be a crucial aspect of that strategy. Here's a detailed breakdown of how to leverage a blog to enhance your online store's performance:\n\n1. Mobile Optimization\nEnsure your online store is mobile-friendly, as a significant portion of online shopping occurs on mobile devices. Optimize your website design and user experience for smartphones and tablets to maximize accessibility and conversion rates.\n\n2. Search Engine Optimization\nImplement SEO best practices to improve your website's visibility in search engine results. This includes optimizing product descriptions, meta tags & URLs as well as building quality backlinks & creating valuable content that aligns with relevant keywords.\n\n3. Review & Testimonials\nDisplay customer reviews and testimonials prominently on your website to build trust and credibility. Positive reviews can reassure potential buyers and encourage them to complete their purchase.\n\n4. Social Media Marketing\nLeverage social media platforms to promote your online store & engage with your target audience. Create compelling content, run targeted ad campaigns, and actively interact with followers to drive traffic and generate sales.",
-			"slug": "optimizing-your-online-store"
+			"description": "Doğru ERP sistemini seçmek, işletmenizin büyüme hızını doğrudan etkiler. İşte karar vermeden önce gözden geçirmeniz gereken 7 temel kriter.",
+			"content": "Küçük ve orta ölçekli işletmeler için ERP yatırımı, hem zaman hem de bütçe açısından ciddi bir karardır. Yanlış seçilen bir sistem, süreçleri kolaylaştıracağına daha da karmaşık hale getirebilir. Aşağıdaki kriterler, karar sürecinizi netleştirmenize yardımcı olabilir.\n\n1. Sektörünüze uygunluk\nGenel amaçlı bir ERP yerine, üretim, tekstil, perakende gibi kendi sektörünüzün süreçlerine (stok, üretim planlama, cari hesap gibi) hazır destek sunan bir sistem, uygulama süresini kısaltır.\n\n2. Kullanım kolaylığı\nEkibinizin teknik bilgisi ne olursa olsun, arayüzü anlaşılır bir sistem benimseme oranını doğrudan artırır. Karmaşık ekranlar, eğitim maliyetini ve dirençleri büyütür.\n\n3. Modüler yapı\nİşletmeniz büyüdükçe ihtiyaçlarınız değişir. Stok, finans, üretim ve İK modüllerini ihtiyaç duydukça ekleyebildiğiniz bir yapı, gereksiz maliyetten kaçınmanızı sağlar.\n\n4. Entegrasyon kabiliyeti\nE-Fatura, e-ticaret, ödeme sistemleri ve muhasebe programlarıyla sorunsuz entegre olabilen bir ERP, veri tekrarını ve manuel hataları azaltır.\n\n5. Bulut tabanlı erişim\nOfis dışından, mobil cihazlardan erişim; özellikle birden fazla lokasyonu veya sahada çalışan ekipleri olan işletmeler için artık bir tercih değil, ihtiyaç haline geldi.\n\n6. Kurulum ve destek süreci\nKurulum süresi, veri aktarımı ve eğitim desteğinin nasıl yürütüleceği net olmalı. Kurulum sonrası destek kalitesi, sistemin uzun vadeli başarısını belirler.\n\n7. Toplam sahip olma maliyeti\nLisans bedeli kadar, kullanıcı başı ücretlendirme, entegrasyon maliyetleri ve olası özelleştirme giderlerini de hesaba katmak gerekir.\n\nAgotaSoft ERP, bu kriterlerin çoğunu KOBİ'lerin bütçesine uygun şekilde karşılamak üzere tasarlandı. Sisteme ücretsiz demo talebiyle daha yakından göz atabilirsiniz.",
+			"slug": "kobiler-icin-erp-secerken-dikkat-edilmesi-gereken-7-kriter",
+			"id": "kobiler-icin-erp-secerken-dikkat-edilmesi-gereken-7-kriter"
 		},
 		{
-			"title": "We’re here to explain how data analytics with AgotaSoft can help to grow your business.",
-			"category": "Business",
-			"date": "11 April 2024",
+			"title": "Dijital Dönüşüm Neden Artık Ertelenemez?",
+			"category": "Dijital Dönüşüm",
+			"date": "3 Şubat 2026",
 			"image": "/images/blog/blogthumb2.png",
-			"description": "Businesses better understand their customer base by segmenting them based on various criteria such as demographics, purchasing behavior, and preferences."
+			"description": "Excel tabloları ve kağıt üzerinde takip edilen süreçler, işletmenizi rakiplerinizin gerisinde bırakabilir. Dijital dönüşümü ertelemenin gerçek maliyeti nedir?",
+			"content": "Birçok KOBİ, dijital dönüşümü \"daha sonra ele alınacak\" bir konu olarak görüyor. Oysa manuel süreçlerin görünmeyen maliyeti, çoğu zaman bir yazılım yatırımından çok daha yüksek.\n\n1. Kaybolan zaman\nFarklı Excel dosyaları arasında veri taşımak, stok sayımını elle kontrol etmek ya da fatura bilgilerini tekrar tekrar girmek, çalışanların stratejik işlere ayırması gereken zamanı tüketir.\n\n2. Karar verme hızı\nVerileriniz farklı tablolarda dağınık durduğunda, güncel ve doğru bir tabloya ulaşmak günler alabilir. Entegre bir sistemde ise aynı rapor birkaç saniyede hazır olur.\n\n3. İnsan kaynaklı hatalar\nManuel veri girişi, özellikle stok ve finansal kayıtlarda hata riskini artırır. Bu hatalar, zamanla ciddi maliyetlere dönüşebilir.\n\n4. Büyüme engelleri\nİşletme büyüdükçe manuel süreçler ölçeklenemez hale gelir. Yeni bir şube veya yeni bir ürün hattı açmak, sistemsiz işletmelerde çok daha zor bir operasyona dönüşür.\n\n5. Rekabet kaybı\nRakipleriniz stok, sipariş ve müşteri süreçlerini otomatikleştirdiğinde, siz hâlâ manuel işlerle uğraşıyorsanız, hem hız hem de maliyet avantajınızı kaybedersiniz.\n\nDijital dönüşüm, tek seferde her şeyi değiştirmek zorunda değildir. AgotaSoft'ta çoğu müşterimiz, önce tek bir modülle (örneğin stok yönetimi veya e-fatura) başlayıp süreç içinde diğer alanlara genişliyor. Önemli olan, ilk adımı atmak.",
+			"slug": "dijital-donusum-neden-artik-ertelenemez",
+			"id": "dijital-donusum-neden-artik-ertelenemez"
 		},
 		{
-			"title": "The importance of logo design in branding strategies development with logo design.",
-			"category": "Agency",
-			"date": "10 April 2024",
+			"title": "CRM ile Satış Ekibinizin Verimliliğini Nasıl Artırırsınız?",
+			"category": "CRM",
+			"date": "20 Şubat 2026",
 			"image": "/images/blog/blogthumb3.png",
-			"description": "A logo is often the first point of contact between a company & its audience. It’s the visual representation of the brand & sets the tone for how the brand is perceived."
+			"description": "Satış fırsatlarını takip etmek artık not defterleriyle değil, doğru bir CRM sistemiyle yönetiliyor. İşte CRM'in satış ekibinize somut olarak sağladığı faydalar.",
+			"content": "Satış ekipleri genellikle en değerli varlıkları olan zamanlarını, fırsatları takip etmek yerine bu fırsatları hatırlamaya çalışmakla harcar. Doğru kurulmuş bir CRM sistemi bu dengeyi tersine çevirir.\n\n1. Tek bir doğru kaynak\nMüşteri bilgileri, geçmiş görüşmeler ve teklifler tek bir sistemde toplandığında, ekip üyeleri arasında bilgi kaybı yaşanmaz; bir satış temsilcisi izinli olsa bile süreç aksamaz.\n\n2. Fırsat önceliklendirme\nHangi fırsatın kapanmaya yakın olduğunu, hangisinin takip gerektirdiğini görmek, ekibin zamanını doğru fırsatlara yönlendirmesini sağlar.\n\n3. Otomatik hatırlatmalar\n\"Bu müşteriyi aramam gerekiyordu\" unutkanlığı, CRM'in otomatik hatırlatmalarıyla ortadan kalkar.\n\n4. Ölçülebilir performans\nKaç görüşme yapıldığı, kaç teklif gönderildiği ve dönüşüm oranının ne olduğu net biçimde raporlanabildiğinde, yöneticiler doğru kararlar alabilir.\n\n5. Müşteri deneyiminde tutarlılık\nMüşteri hangi temsilciyle görüşürse görüşsün, geçmiş yazışmalara ve tercihlere hâkim bir ekip, daha profesyonel bir izlenim bırakır.\n\nAgotaSoft CRM, satış hunisini uçtan uca görünür kılarak ekiplerin fırsatları kaçırmadan takip etmesini sağlıyor. İsterseniz kendi satış sürecinizle birebir örtüşüp örtüşmediğini ücretsiz demo ile test edebilirsiniz.",
+			"slug": "crm-ile-satis-ekibinizin-verimliligini-nasil-artirirsiniz",
+			"id": "crm-ile-satis-ekibinizin-verimliligini-nasil-artirirsiniz"
 		}
 	],
 	"faq": [
@@ -917,7 +924,7 @@
 			"email_title": "E-posta Gönder",
 			"email_text": "Detaylı sorularınızı e-posta ile iletin",
 			"email_button": "E-posta Gönder",
-			"map_label": "AgotaSoft Yazılım"
+			"map_label": "AgotaSoft"
 		},
 		"service": {
 			"title": "Çözümlerimiz",
@@ -963,7 +970,9 @@
 			"cta_primary": "Ücretsiz Danışmanlık",
 			"cta_secondary": "İletişime Geçin",
 			"contact_label": "İletişime Geçin",
-			"popular_label": "Popüler"
+			"popular_label": "Popüler",
+			"all_packages_title": "AgotaSoft Paketleri",
+			"package_suffix": " Paketleri"
 		},
 		"erp": {
 			"title": "AgotaSoft ERP Sistemi",
@@ -1493,42 +1502,53 @@
 			"hero_image": "/images/products/pre-accounting-dashboard.png"
 		},
 		"terms": {
-			"title": "Terms & condition of service :",
-			"hero_title": "Terms & condition of service :",
-			"body": "Welcome to our agency. These terms and conditions outline the rules and regulations for our services. By the accessing this website and or using to our services. You accepts these the terms and conditions in full.",
-			"intro": "Welcome to our agency. These terms and conditions outline the rules and regulations for our services. By the accessing this website and or using to our services. You accepts these the terms and conditions in full.",
+			"title": "Kullanım Şartları",
+			"hero_title": "Kullanım Şartları",
+			"intro": "Bu sayfa, agotasoft.com web sitesini ve AgotaSoft yazılım çözümlerini kullanırken geçerli olan genel şartları özetler. Ürünlerimize özel sözleşme ve hizmet seviyesi koşulları, imzalanan ticari sözleşmelerde ayrıca belirtilir.",
 			"sections": [
 				{
-					"title": "Interpretation",
-					"text": "outlining the rules, responsibilities, and expectations for both parties. These terms typically cover aspects such as usage rights, payment terms, privacy policies, dispute resolution, and any other relevant terms that govern the use of the service. Users are usually required to agree to these terms before using the service, and they serve as a legally binding contract between the user and the provider.",
+					"title": "1. Genel Hükümler",
+					"text": "agotasoft.com web sitesini ziyaret ederek veya AgotaSoft ürünlerine (ERP, CRM, Ön Muhasebe, LMS ve diğer çözümler) üye olarak bu kullanım şartlarını kabul etmiş sayılırsınız. AgotaSoft, bu şartları önceden haber vermeksizin güncelleme hakkını saklı tutar; güncel sürüm her zaman bu sayfada yayınlanır."
+				},
+				{
+					"title": "2. Hizmetin Kapsamı",
+					"text": "AgotaSoft, işletmelere yönelik bulut tabanlı ERP, CRM, ön muhasebe ve öğrenme yönetim sistemi (LMS) çözümleri sunar. Hizmet kapsamı, seçilen pakete ve varsa özel olarak imzalanan sözleşmeye göre değişiklik gösterebilir."
+				},
+				{
+					"title": "3. Hesap Sorumluluğu",
 					"items": [
-						"‘’Client you & your refer to you, the person accessing this website’’ .",
-						"“Party parties, or us refer to both the clients and ourselves”.",
-						"“The company , ourselves we & us refer to our agency”."
+						"Hesap bilgilerinizin (kullanıcı adı, şifre) gizliliğinden siz sorumlusunuz.",
+						"Hesabınız üzerinden gerçekleştirilen işlemlerden, yetkisiz erişimi derhal bize bildirmediğiniz sürece siz sorumlusunuz.",
+						"Sisteme yalnızca yasal ve meşru iş amaçlarıyla erişilebilir; kötüye kullanım tespit edilmesi durumunda hesap askıya alınabilir."
 					]
 				},
 				{
-					"title": "Intellectual Property",
-					"text": "Both Parties agree to keep confidential any information provided by the other Party that is not publicly available. This includes but is not limited to business strategies, financial information, and proprietary data.All intellectual property rights in the work produced during the engagement shall belong to the Client upon full payment, unless otherwise agreed upon in writing.",
-					"text2": "Either party may terminate the agreement with written notice if the other party breaches any material term or condition. Termination may also occur by mutual agreement."
+					"title": "4. Ücretlendirme ve Ödeme",
+					"text": "Paket ücretleri fiyatlandırma sayfamızda veya imzalanan teklif/sözleşmede belirtilir. Ödemeler, aksi belirtilmedikçe aylık veya yıllık abonelik esasına göre alınır. Geç ödemelerde hizmet erişimi geçici olarak kısıtlanabilir."
 				},
 				{
-					"title": "Fees and Payment",
-					"items": [
-						"The client agrees to pay the fees as specified in the proposal or agreement.",
-						"Late payments may incur additional charges or result in the suspension.",
-						"Payment trems, including any deposit requirements."
-					]
+					"title": "5. Fikri Mülkiyet",
+					"text": "AgotaSoft yazılımları, arayüzleri, logoları ve içerikleri AgotaSoft'a aittir. Hizmet kapsamında size tanınan, yazılımı münhasır olmayan ve devredilemez şekilde kullanma hakkıdır; kaynak kodun kopyalanması, tersine mühendislik yapılması veya yeniden dağıtılması yasaktır."
 				},
 				{
-					"title": "Changees to Terms & Conditions",
-					"text": "We reserve the right to amend these terms and conditions at any time. All changes will be posted on this website. These terms and conditions constitute the entire agreement between the Parties and supersede all prior discussions, negotiations, and understandings. We shall not be liable for any indirect, special, or consequential damages, or any loss of revenue, profits, or data arising in connection with our services."
+					"title": "6. Verilerin Mülkiyeti",
+					"text": "Sisteme girdiğiniz iş verileri (stok, cari, müşteri, fatura vb.) size aittir. AgotaSoft, bu verileri yalnızca hizmeti sunmak ve sözleşmede belirtilen amaçlarla işler; talebiniz halinde verilerinizin bir kopyasını dışa aktarabilirsiniz."
 				},
 				{
-					"title": "Contact Information",
-					"text": "If you have any questions or concerns regarding these terms and conditions, please contact us."
+					"title": "7. Sorumluluğun Sınırlandırılması",
+					"text": "AgotaSoft, hizmetin kesintisiz veya hatasız olacağını garanti etmez. Yasaların izin verdiği ölçüde, hizmetin kullanımından doğabilecek dolaylı zararlardan (kâr kaybı, veri kaybı vb.) AgotaSoft sorumlu tutulamaz."
+				},
+				{
+					"title": "8. Şartlarda Değişiklik",
+					"text": "Bu kullanım şartları güncellenebilir. Önemli değişiklikler, kayıtlı e-posta adresiniz üzerinden veya web sitemizde duyurularak bildirilir."
+				},
+				{
+					"title": "9. İletişim",
+					"text": "Kullanım şartlarıyla ilgili sorularınız için info@agotasoft.com adresinden bize ulaşabilirsiniz."
 				}
-			]
+			],
+			"slug": "terms",
+			"id": "terms"
 		},
 		"faq": {
 			"title": "Sıkça Sorulan Sorular",
@@ -1575,6 +1595,78 @@
 		},
 		"single-career": {
 			"title": "UI/UX Designer"
+		},
+		"privacy": {
+			"title": "Gizlilik Politikası",
+			"hero_title": "Gizlilik Politikası",
+			"intro": "AgotaSoft olarak müşterilerimizin ve ziyaretçilerimizin kişisel verilerinin gizliliğine önem veriyoruz. Bu politika, hangi verileri, hangi amaçla topladığımızı ve nasıl koruduğumuzu açıklar.",
+			"sections": [
+				{
+					"title": "1. Toplanan Veriler",
+					"items": [
+						"İletişim formları aracılığıyla paylaştığınız ad, e-posta, telefon ve şirket bilgileri.",
+						"Demo talebi veya destek talebi sırasında ilettiğiniz mesaj içerikleri.",
+						"Web sitesi kullanımına dair temel analitik veriler (ziyaret edilen sayfalar, tarayıcı bilgisi).",
+						"AgotaSoft ürünlerine kayıtlı işletmelerin, hizmetin sunumu için sisteme girdiği iş verileri (stok, cari, fatura vb.)."
+					]
+				},
+				{
+					"title": "2. Verilerin Kullanım Amacı",
+					"text": "Toplanan veriler; demo taleplerinize yanıt vermek, destek sağlamak, hizmet kalitemizi geliştirmek ve yasal yükümlülüklerimizi yerine getirmek amacıyla kullanılır. Verileriniz, açık rızanız olmadan pazarlama amacıyla üçüncü taraflarla paylaşılmaz."
+				},
+				{
+					"title": "3. Veri Güvenliği",
+					"text": "Verileriniz 256-bit SSL şifreleme ile korunur, düzenli olarak yedeklenir ve yetkisiz erişime karşı rol bazlı erişim kontrolleriyle sınırlandırılır."
+				},
+				{
+					"title": "4. Veri Saklama Süresi",
+					"text": "Kişisel veriler, toplama amacının gerektirdiği süre boyunca veya ilgili mevzuatın öngördüğü yasal saklama süresince muhafaza edilir; bu sürenin sonunda silinir veya anonim hale getirilir."
+				},
+				{
+					"title": "5. Haklarınız",
+					"items": [
+						"Kişisel verilerinizin işlenip işlenmediğini öğrenme.",
+						"İşlenen verileriniz hakkında bilgi talep etme.",
+						"Verilerinizin düzeltilmesini veya silinmesini talep etme.",
+						"İşlemeye itiraz etme ve rızanızı geri çekme."
+					]
+				},
+				{
+					"title": "6. İletişim",
+					"text": "Gizlilik politikamızla ilgili sorularınız veya haklarınızı kullanmak istemeniz halinde info@agotasoft.com adresinden bize ulaşabilirsiniz."
+				}
+			],
+			"slug": "privacy",
+			"id": "privacy"
+		},
+		"cookies": {
+			"title": "Çerez Politikası",
+			"hero_title": "Çerez Politikası",
+			"intro": "agotasoft.com, ziyaretçi deneyimini iyileştirmek ve site kullanımını analiz etmek amacıyla çerezler (cookies) kullanır.",
+			"sections": [
+				{
+					"title": "1. Çerez Nedir?",
+					"text": "Çerezler, bir web sitesini ziyaret ettiğinizde tarayıcınıza kaydedilen küçük metin dosyalarıdır. Sitenin düzgün çalışmasına ve tercihlerinizin hatırlanmasına yardımcı olurlar."
+				},
+				{
+					"title": "2. Kullandığımız Çerez Türleri",
+					"items": [
+						"Zorunlu çerezler: Sitenin temel işlevleri (oturum yönetimi, güvenlik) için gereklidir.",
+						"Performans çerezleri: Sitenin nasıl kullanıldığını anlamamıza ve iyileştirmemize yardımcı olur.",
+						"Tercih çerezleri: Dil seçimi gibi tercihlerinizi hatırlamak için kullanılır."
+					]
+				},
+				{
+					"title": "3. Çerezleri Nasıl Yönetebilirsiniz?",
+					"text": "Çoğu tarayıcı, çerezleri kabul etme, reddetme veya silme seçenekleri sunar. Tarayıcı ayarlarınızdan çerez tercihlerinizi istediğiniz zaman değiştirebilirsiniz; ancak zorunlu çerezlerin engellenmesi, sitenin bazı bölümlerinin düzgün çalışmamasına neden olabilir."
+				},
+				{
+					"title": "4. İletişim",
+					"text": "Çerez politikamızla ilgili sorularınız için info@agotasoft.com adresinden bize ulaşabilirsiniz."
+				}
+			],
+			"slug": "cookies",
+			"id": "cookies"
 		}
 	}
 }

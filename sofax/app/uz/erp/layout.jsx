@@ -5,7 +5,7 @@ import { buildAlternates } from "@/lib/i18n/config";
 export const metadata = {
 	title: "AgotaSoft ERP tizimi | AgotaSoft",
 	description: "Ombor, moliya, ishlab chiqarishni rejalashtirish, xarid va inson resurslari jarayonlarini yagona integratsiyalashgan tizim bilan boshqaring. Samaradorlikni oshiring, xarajatlarni kamaytiring va o'sishni tezlashtiring.",
-	author: "AgotaSoft Software",
+	author: "AgotaSoft",
 	alternates: buildAlternates("/erp"),
 	openGraph: {
 		title: "AgotaSoft ERP: ishlab chiqarishdan moliyagacha barcha jarayonlar bitta platformada",

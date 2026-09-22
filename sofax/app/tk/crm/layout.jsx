@@ -5,7 +5,7 @@ import { buildAlternates } from "@/lib/i18n/config";
 export const metadata = {
 	title: "AgotaSoft CRM ulgamy | AgotaSoft",
 	description: "Giň gerimli müşderi maglumat bazasy, satuw mümkinçiligi yzarlamasy, marketing awtomatlaşdyrmasy we müşderi hyzmaty bilen biznesiňiziň ösüşini çaltlandyryň.",
-	author: "AgotaSoft Software",
+	author: "AgotaSoft",
 	alternates: buildAlternates("/crm"),
 	openGraph: {
 		title: "AgotaSoft CRM: müşderi gatnaşyklaryňyzy güýçlendiriň, satuwlaryňyzy artdyryň",
