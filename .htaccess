@@ -1,0 +1,41 @@
+# AgotaSoft.com — production rewrite for cPanel/Plesk document root
+# Place this file in the same folder as the Next.js static export (index.html).
+
+Options -Indexes
+
+<FilesMatch "^(\.env|\.env\..*|composer\.(json|lock)|cms-router\.php)$">
+    Require all denied
+</FilesMatch>
+
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Force HTTPS (comment out on local Apache if needed)
+    RewriteCond %{HTTPS} off
+    RewriteCond %{HTTP_HOST} !^(localhost|127\.0\.0\.1)$ [NC]
+    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+    # PHP admin front controller
+    RewriteCond %{REQUEST_URI} ^/admin
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^admin(/.*)?$ admin/index.php [QSA,L]
+
+    # Next.js static export (output: "export" + trailingSlash)
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{DOCUMENT_ROOT}/$1/index.html -f
+    RewriteRule ^(.*)$ /$1/index.html [L]
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+    RewriteRule ^(.*)$ /$1.html [L]
+</IfModule>
+
+ErrorDocument 404 /404.html

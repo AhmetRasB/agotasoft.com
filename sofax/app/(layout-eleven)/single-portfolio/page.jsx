@@ -3,13 +3,13 @@ import BreadCrumb from "@/components/common/Breadcrumb";
 import PortfolioDetails from "@/components/portfolio/single/PortfolioDetails";
 import RelatedProject from "@/components/portfolio/single/RelatedProject";
 export const metadata = {
-	title: "Sofax || Responsive Next.js Template Single Portfolio Page",
-	description: "Sofax || Responsive Next.js Template",
+	title: "Referans Detayı | AgotaSoft",
+	description: "AgotaSoft referans proje detayı.",
 };
 function SinglePortfolioPage() {
 	return (
 		<>
-			<BreadCrumb title="Portfolio Deatails" />
+			<BreadCrumb title="Referans Detayı" />
 			<PortfolioDetails />
 			<RelatedProject />
 			<AutoSlider />

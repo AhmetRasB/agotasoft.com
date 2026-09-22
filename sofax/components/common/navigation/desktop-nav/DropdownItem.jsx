@@ -1,8 +1,10 @@
 /* eslint-disable react/prop-types */
 import Link from "next/link";
+import { useLocalePrefix } from "@/hooks/useLocale";
 import ArrowDown from "./ArrowDown";
 function DropdownItem({ dropdown, children, title, url }) {
-	const urlFormated = url !== "/" ? `/${url}` : "/";
+	const prefix = useLocalePrefix();
+	const urlFormated = url !== "/" ? `${prefix}/${url}` : prefix || "/";
 	return dropdown ? (
 		<li className="sub-menu--item nav-item-has-children">
 			<a href="#" data-menu-get="h3" className="drop-trigger">

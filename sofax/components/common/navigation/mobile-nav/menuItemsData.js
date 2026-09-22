@@ -12,6 +12,10 @@ export const menuItemsData = [
 		url: "#",
 		submenu: [
 			{
+				title: "Tüm Çözümler",
+				url: "service",
+			},
+			{
 				title: "ERP Sistemi",
 				url: "erp",
 			},
@@ -28,6 +32,22 @@ export const menuItemsData = [
 				url: "lms",
 			},
 		],
+	},
+	{
+		title: "Referanslar",
+		url: "portfolio",
+	},
+	{
+		title: "Ekip",
+		url: "team",
+	},
+	{
+		title: "Blog",
+		url: "blog",
+	},
+	{
+		title: "Kariyer",
+		url: "career",
 	},
 	{
 		title: "İletişim",

@@ -1,8 +1,18 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import { useCms } from "@/hooks/useCms";
+import { useLocalePrefix } from "@/hooks/useLocale";
+import { withLocale } from "@/lib/i18n/config";
 import CopyRight from "./CopyRight";
 
 function Footer() {
+	const cms = useCms();
+	const prefix = useLocalePrefix();
+	const settings = cms.settings || {};
+	const footer = cms.footer || {};
+	const col1 = footer.col1_links || [];
+	const col2 = footer.col2_links || [];
 	return (
 		<footer className="sofax-footer-section sofax-footer">
 			<div className="container">
@@ -10,56 +20,58 @@ function Footer() {
 					<div className="row">
 						<div className="col-xl-4 col-md-12">
 							<div className="sofax-footer-wrap mr-15">
-								<Link href="/" className="sofax-logo sofax-logo-white">
+								<Link href={prefix || "/"} className="sofax-logo sofax-logo-white">
 									<Image 
-										src="/images/agotasoft-logo.png" 
-										alt="AgotaSoft Logo" 
+										src={settings.logo || "/images/agotasoft-logo.png"} 
+										alt={`${settings.site_name || "AgotaSoft"} Logo`} 
 										width={320} 
 										height={110}
 										style={{ objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
 									/>
 								</Link>
 								<p>
-									İşletmenizi geleceğe taşıyan akıllı yazılım çözümleri. 
-									ERP, CRM, Ön Muhasebe ve LMS alanlarında 15 yıllık deneyimimizle 
-									dijital dönüşümünüze öncülük ediyoruz.
+									{footer.about}
 								</p>
 								<div className="sofax-social-icon">
 									<ul>
+										{settings.social_twitter ? (
+											<li>
+												<a target="_blank" rel="noopener noreferrer" href={settings.social_twitter}>
+													<svg
+														width="17"
+														height="18"
+														viewBox="0 0 17 18"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+													>
+														<path
+															d="M9.96447 7.24539L16.1975 0H14.7205L9.30833 6.29107L4.98567 0H0L6.5367 9.51321L0 17.1111H1.47711L7.19246 10.4675L11.7575 17.1111H16.7432L9.9641 7.24539H9.96447ZM7.94136 9.59702L7.27906 8.64972L2.00933 1.11194H4.27809L8.53082 7.19517L9.19312 8.14247L14.7212 16.0497H12.4524L7.94136 9.59739V9.59702Z"
+															fill="#0E0E0E"
+														/>
+													</svg>
+												</a>
+											</li>
+										) : null}
+										{settings.social_facebook ? (
+											<li>
+												<a href={settings.social_facebook} target="_blank" rel="noopener noreferrer">
+													<svg
+														width="11"
+														height="18"
+														viewBox="0 0 11 18"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+													>
+														<path
+															d="M9.88663 0.00357362L7.65153 0C5.14046 0 3.5177 1.65905 3.5177 4.22688V6.17575H1.27039C1.0762 6.17575 0.918945 6.33263 0.918945 6.52614V9.34984C0.918945 9.54335 1.07638 9.70005 1.27039 9.70005H3.5177V16.8251C3.5177 17.0187 3.67495 17.1754 3.86914 17.1754H6.80123C6.99543 17.1754 7.15268 17.0185 7.15268 16.8251V9.70005H9.7803C9.9745 9.70005 10.1318 9.54335 10.1318 9.34984L10.1328 6.52614C10.1328 6.43323 10.0957 6.34425 10.0299 6.27849C9.9641 6.21274 9.87444 6.17575 9.7812 6.17575H7.15268V4.52367C7.15268 3.72961 7.34257 3.3265 8.3806 3.3265L9.88627 3.32597C10.0803 3.32597 10.2375 3.16909 10.2375 2.97575V0.353788C10.2375 0.160634 10.0805 0.00393098 9.88663 0.00357362Z"
+															fill="#0E0E0E"
+														/>
+													</svg>
+												</a>
+											</li>
+										) : null}
 										<li>
-											<a target="_blank" href="https://www.twitter.com/">
-												<svg
-													width="17"
-													height="18"
-													viewBox="0 0 17 18"
-													fill="none"
-													xmlns="http://www.w3.org/2000/svg"
-												>
-													<path
-														d="M9.96447 7.24539L16.1975 0H14.7205L9.30833 6.29107L4.98567 0H0L6.5367 9.51321L0 17.1111H1.47711L7.19246 10.4675L11.7575 17.1111H16.7432L9.9641 7.24539H9.96447ZM7.94136 9.59702L7.27906 8.64972L2.00933 1.11194H4.27809L8.53082 7.19517L9.19312 8.14247L14.7212 16.0497H12.4524L7.94136 9.59739V9.59702Z"
-														fill="#0E0E0E"
-													/>
-												</svg>
-											</a>
-										</li>
-										<li>
-											<a href="https://www.facebook.com/" target="_blank">
-												<svg
-													width="11"
-													height="18"
-													viewBox="0 0 11 18"
-													fill="none"
-													xmlns="http://www.w3.org/2000/svg"
-												>
-													<path
-														d="M9.88663 0.00357362L7.65153 0C5.14046 0 3.5177 1.65905 3.5177 4.22688V6.17575H1.27039C1.0762 6.17575 0.918945 6.33263 0.918945 6.52614V9.34984C0.918945 9.54335 1.07638 9.70005 1.27039 9.70005H3.5177V16.8251C3.5177 17.0187 3.67495 17.1754 3.86914 17.1754H6.80123C6.99543 17.1754 7.15268 17.0185 7.15268 16.8251V9.70005H9.7803C9.9745 9.70005 10.1318 9.54335 10.1318 9.34984L10.1328 6.52614C10.1328 6.43323 10.0957 6.34425 10.0299 6.27849C9.9641 6.21274 9.87444 6.17575 9.7812 6.17575H7.15268V4.52367C7.15268 3.72961 7.34257 3.3265 8.3806 3.3265L9.88627 3.32597C10.0803 3.32597 10.2375 3.16909 10.2375 2.97575V0.353788C10.2375 0.160634 10.0805 0.00393098 9.88663 0.00357362Z"
-														fill="#0E0E0E"
-													/>
-												</svg>
-											</a>
-										</li>
-										<li>
-											<a href="https://www.instagram.com/agotasoft_tr/" target="_blank">
+											<a href={settings.social_instagram || "https://www.instagram.com/agotasoft_tr/"} target="_blank">
 												<svg
 													width="18"
 													height="17"
@@ -83,7 +95,7 @@ function Footer() {
 											</a>
 										</li>
 										<li>
-											<a href="https://www.linkedin.com/company/agotasoft" target="_blank">
+											<a href={settings.social_linkedin || "https://www.linkedin.com/company/agotasoft"} target="_blank">
 												<svg
 													width="16"
 													height="16"
@@ -107,7 +119,7 @@ function Footer() {
 											</a>
 										</li>
 										<li>
-											<a href="https://github.com/AgotaSoft" target="_blank">
+											<a href={settings.social_github || "https://github.com/AgotaSoft"} target="_blank">
 												<svg
 													width="16"
 													height="16"
@@ -128,57 +140,43 @@ function Footer() {
 						</div>
 						<div className="col-xl-2 col-md-4">
 							<div className="sofax-footer-menu ml-50">
-								<h5>Kurumsal</h5>
+								<h5>{footer.col1_title}</h5>
 								<ul>
-									<li>
-										<Link href="/about-us">Hakkımızda</Link>
-									</li>
-									<li>
-										<Link href="/contact-us">İletişim</Link>
-									</li>
-									<li>
-										<Link href="/service">Çözümlerimiz</Link>
-									</li>
-									<li>
-										<Link href="/pricing">Fiyatlandırma</Link>
-									</li>
+									{col1.map((link) => (
+										<li key={link.url}>
+											<Link href={withLocale(link.url, prefix)}>{link.label}</Link>
+										</li>
+									))}
 								</ul>
 							</div>
 						</div>
 						<div className="col-xl-3 col-md-4">
 							<div className="sofax-footer-menu">
-								<h5>Çözümlerimiz</h5>
+								<h5>{footer.col2_title}</h5>
 								<ul>
-									<li>
-										<Link href="/erp">ERP Sistemi</Link>
-									</li>
-									<li>
-										<Link href="/crm">CRM Sistemi</Link>
-									</li>
-									<li>
-										<Link href="/pre-accounting">Ön Muhasebe</Link>
-									</li>
-									<li>
-										<Link href="/lms">LMS Sistemi</Link>
-									</li>
+									{col2.map((link) => (
+										<li key={link.url}>
+											<Link href={withLocale(link.url, prefix)}>{link.label}</Link>
+										</li>
+									))}
 								</ul>
 							</div>
 						</div>
 						<div className="col-xl-3 col-md-4">
 							<div className="sofax-footer-menu">
-								<h5>İletişim Bilgileri</h5>
+								<h5>{footer.col3_title}</h5>
 								<div className="sofax-footer-contact">
 									<div className="sofax-footer-contact-item mb-3">
 										<i className="fas fa-map-marker-alt me-2"></i>
-										<span>İstanbul, Üsküdar</span>
+										<span>{settings.address}</span>
 									</div>
 									<div className="sofax-footer-contact-item mb-3">
 										<i className="fas fa-phone me-2"></i>
-										<a href="tel:+902165551234">+90 (216) 555 12 34</a>
+										<a href={`tel:${(settings.phone || "").replace(/[^\d+]/g, "")}`}>{settings.phone}</a>
 									</div>
 									<div className="sofax-footer-contact-item mb-3">
 										<i className="fas fa-envelope me-2"></i>
-										<a href="mailto:info@agotasoft.com">info@agotasoft.com</a>
+										<a href={`mailto:${settings.email}`}>{settings.email}</a>
 									</div>
 								</div>
 							</div>

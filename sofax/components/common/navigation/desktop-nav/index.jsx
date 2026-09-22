@@ -1,21 +1,33 @@
+"use client";
+import { useCms } from "@/hooks/useCms";
 import DesktopNav from "./DesktopNav";
 import Dropdown from "./Dropdown";
 import DropdownItem from "./DropdownItem";
 import NavItem from "./NavItem";
+
 function DesktopMenu() {
+	const cms = useCms();
+	const items = cms.nav?.length ? cms.nav : [];
+
 	return (
 		<DesktopNav>
-			<NavItem url="/">Anasayfa</NavItem>
-			<NavItem url="about-us">Hakkımızda</NavItem>
-			<NavItem dropdown title="Çözümlerimiz">
-				<Dropdown>
-					<DropdownItem url="erp">ERP Sistemi</DropdownItem>
-					<DropdownItem url="crm">CRM Sistemi</DropdownItem>
-					<DropdownItem url="pre-accounting">Ön Muhasebe</DropdownItem>
-					<DropdownItem url="lms">LMS Sistemi</DropdownItem>
-				</Dropdown>
-			</NavItem>
-			<NavItem url="contact-us">İletişim</NavItem>
+			{items.map((item) =>
+				item.submenu?.length ? (
+					<NavItem dropdown title={item.title} key={item.title}>
+						<Dropdown>
+							{item.submenu.map((sub) => (
+								<DropdownItem url={sub.url} key={sub.title}>
+									{sub.title}
+								</DropdownItem>
+							))}
+						</Dropdown>
+					</NavItem>
+				) : (
+					<NavItem url={item.url} key={item.title}>
+						{item.title}
+					</NavItem>
+				)
+			)}
 		</DesktopNav>
 	);
 }

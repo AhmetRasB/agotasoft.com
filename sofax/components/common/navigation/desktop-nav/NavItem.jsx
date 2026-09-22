@@ -1,8 +1,10 @@
 /* eslint-disable react/prop-types */
 import Link from "next/link";
+import { useLocalePrefix } from "@/hooks/useLocale";
 import ArrowDown from "./ArrowDown";
 function NavItem({ dropdown, title, children, url = "" }) {
-	const urlFormated = url !== "/" ? `/${url}` : "/";
+	const prefix = useLocalePrefix();
+	const urlFormated = url !== "/" ? `${prefix}/${url}` : prefix || "/";
 
 	return dropdown ? (
 		<li className="nav-item nav-item-has-children">

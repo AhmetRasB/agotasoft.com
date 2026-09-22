@@ -2,8 +2,8 @@ import JobDetails from "@/components/career-page/single/JobDetails";
 import BreadCrumb from "@/components/common/Breadcrumb";
 import LogoSlider from "@/components/common/logo-slider";
 export const metadata = {
-	title: "Sofax || Responsive Next.js Template Single Carrer Page",
-	description: "Sofax || Responsive Next.js Template",
+	title: "Pozisyon Detayı | AgotaSoft",
+	description: "AgotaSoft açık pozisyon detayı.",
 };
 function SingleCareerPage() {
 	return (

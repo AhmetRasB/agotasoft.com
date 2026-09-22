@@ -3,8 +3,10 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { useState } from "react";
+import { useLocalePrefix } from "@/hooks/useLocale";
 import Dropdown from "./Dropdown";
 const NavItem = ({ items, depthLevel, showMenu, setShowMenu, onePage }) => {
+	const prefix = useLocalePrefix();
 	const [dropdown, setDropdown] = useState(false);
 
 	const closeDropdown = () => {
@@ -34,7 +36,9 @@ const NavItem = ({ items, depthLevel, showMenu, setShowMenu, onePage }) => {
 		},
 	};
 
-	return items.submenu ? (
+	const urlFormated = items.url && items.url !== "/" ? `${prefix}/${items.url}` : prefix || "/";
+
+	return items.submenu?.length ? (
 		<li className="nav-item nav-item-has-children" onClick={closeDropdown}>
 			<button type="button" aria-expanded={dropdown ? "true" : "false"} onClick={(e) => toggleDropdown(e)}>
 				{items.title}
@@ -56,7 +60,7 @@ const NavItem = ({ items, depthLevel, showMenu, setShowMenu, onePage }) => {
 		</li>
 	) : (
 		<li className="nav-item" onClick={closeDropdown}>
-			{onePage ? <a href={items.url}>{items.title}</a> : <Link href={`/${items.url}`}>{items.title}</Link>}
+			{onePage ? <a href={items.url}>{items.title}</a> : <Link href={urlFormated}>{items.title}</Link>}
 		</li>
 	);
 };

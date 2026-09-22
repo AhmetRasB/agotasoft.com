@@ -1,24 +1,30 @@
+"use client";
 import Shape4 from "@/public/images/v1/shape4.png";
 import Image from "next/image";
 import Link from "next/link";
 import FadeInUp from "../../../animation/FadeInUp";
+import { useCms } from "@/hooks/useCms";
+import { useLocalePrefix } from "@/hooks/useLocale";
+import { withLocale } from "@/lib/i18n/config";
 function Cta() {
+	const cms = useCms();
+	const prefix = useLocalePrefix();
+	const cta = cms.cta || {};
 	return (
 		<section className="sofax-section-padding2 bg-light">
 			<div className="container">
 				<div className="sofax-cta-content">
 					<div className="tg-heading-subheading animation-style3">
-						<h2 className="sofax-big-title">AgotaSoft ile Dijital Dönüşümünüzü Başlatın</h2>
+						<h2 className="sofax-big-title">{cta.title}</h2>
 					</div>
 					<p>
-						ERP, CRM, Ön Muhasebe ve LMS çözümlerimizle işletmenizin verimliliğini artırın. 
-						Uzman ekibimizle ücretsiz demo alın ve farkı görün.
+						{cta.text}
 					</p>
 					<FadeInUp className="extra-mt">
-						<Link className="sofax-default-btn pill" data-text="Ücretsiz Demo Talep Edin" href="/contact-us">
-							<span className="button-wraper">Ücretsiz Demo Talep Edin</span>
+						<Link className="sofax-default-btn pill" data-text={cta.button} href={withLocale(cta.button_url || "/contact-us", prefix)}>
+							<span className="button-wraper">{cta.button}</span>
 						</Link>
-						<span className="cta-bottom">30 günlük deneme süresi. Kredi kartı gerekmez.</span>
+						<span className="cta-bottom">{cta.note}</span>
 					</FadeInUp>
 					<div className="sofax-cta-shape">
 						<Image src={Shape4} alt="Shape" />

@@ -4,13 +4,13 @@ import RecentPosts from "../RecentPosts";
 import Search from "../Search";
 import Tags from "../Tags";
 import BlogDetails from "./BlogDetails";
-function SingleBlog() {
+function SingleBlog({ itemSlug }) {
 	return (
 		<section className="sofax-section-padding2">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-8">
-						<BlogDetails />
+						<BlogDetails itemSlug={itemSlug} />
 					</div>
 					<div className="col-lg-4">
 						<div className="right-sidebar">

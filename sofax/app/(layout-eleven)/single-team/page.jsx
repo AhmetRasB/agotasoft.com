@@ -3,8 +3,8 @@ import BreadCrumb from "@/components/common/Breadcrumb";
 import Faq from "@/components/home/home-five/faq";
 import SingleTeamDetails from "@/components/team-page/single/SingleTeamDetails";
 export const metadata = {
-	title: "Sofax || Responsive Next.js Template Single Team Page",
-	description: "Sofax || Responsive Next.js Template",
+	title: "Ekip Üyesi | AgotaSoft",
+	description: "AgotaSoft ekip üyesi detayı.",
 };
 function SingleTeamPage() {
 	return (

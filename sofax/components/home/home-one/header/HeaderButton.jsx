@@ -1,9 +1,19 @@
+"use client";
 import Link from "next/link";
+import { useCms } from "@/hooks/useCms";
+import { useLocalePrefix } from "@/hooks/useLocale";
+import { withLocale } from "@/lib/i18n/config";
+
 function HeaderButton() {
+	const cms = useCms();
+	const prefix = useLocalePrefix();
+	const label = cms.settings?.header_cta || "Demo Talep Edin";
+	const href = withLocale(cms.settings?.header_cta_url || "/contact-us", prefix);
+
 	return (
 		<div className="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
-			<Link className="sofax-btn-primary sofax-header-btn" data-text="Demo Talep Edin" href="/contact-us">
-				<span className="button-wraper">Demo Talep Edin</span>
+			<Link className="sofax-btn-primary sofax-header-btn" data-text={label} href={href}>
+				<span className="button-wraper">{label}</span>
 			</Link>
 		</div>
 	);

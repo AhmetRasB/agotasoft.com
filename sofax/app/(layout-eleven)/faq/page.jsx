@@ -1,14 +1,15 @@
 import AutoSlider from "@/components/common/auto-slider";
 import BreadCrumb from "@/components/common/Breadcrumb";
+import CmsText from "@/components/cms/CmsText";
 import Faq from "@/components/faq-page";
 export const metadata = {
-	title: "Sofax || Responsive Next.js Template FAQ Page",
-	description: "Sofax || Responsive Next.js Template",
+	title: "Sıkça Sorulan Sorular | AgotaSoft",
+	description: "AgotaSoft ürünleri hakkında sıkça sorulan sorular.",
 };
 function FaqPage() {
 	return (
 		<>
-			<BreadCrumb title="Faq" />
+			<BreadCrumb title={<CmsText path="pages.faq.title" fallback="Faq" />} />
 			<Faq />
 			<AutoSlider />
 		</>

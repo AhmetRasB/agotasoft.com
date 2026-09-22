@@ -1,16 +1,21 @@
 import ArrowRight from "@/public/images/v1/arrow-right.png";
 import Image from "next/image";
 import Link from "next/link";
+import CmsImg from "@/components/cms/CmsImg";
 
-function BlogCard({ blog: { title, category, description, date, image } }) {
+import { itemPath } from "@/lib/cms/itemSlug";
+
+function BlogCard({ blog }) {
+	const href = itemPath("blog", blog);
+	const { title, category, description, date, image } = blog;
 	return (
 		<>
 			<div className="sofax-inner-blog-img">
-				<Image src={image} alt="blog thumb" />
+				<CmsImg src={image} alt={title || "blog thumb"} width={900} height={520} />
 			</div>
 			<div className="sofax-inner-blog-content">
 				<div className="sofax-inner-blog-meta">
-					<Link href="/single-blog">
+					<Link href={href}>
 						<h5>{category}</h5>
 						<ul>
 							<li>{date}</li>
@@ -18,12 +23,12 @@ function BlogCard({ blog: { title, category, description, date, image } }) {
 					</Link>
 				</div>
 				<div className="sofax-inner-blog-text">
-					<Link href="/single-blog">
+					<Link href={href}>
 						<h3>{title}</h3>
 					</Link>
 					<p>{description}</p>
 				</div>
-				<Link className="sofax-icon-btn sofax-blog-icon-btn" href="/single-blog">
+				<Link className="sofax-icon-btn sofax-blog-icon-btn" href={href}>
 					Learn More <Image src={ArrowRight} alt="arrow right" />
 				</Link>
 			</div>

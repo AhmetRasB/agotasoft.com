@@ -1,146 +1,53 @@
+"use client";
+
 import Icon from "@/public/images/v2/icon9.png";
 import Image from "next/image";
+import { useCms } from "@/hooks/useCms";
+
+function FaqColumn({ items, accordionId, extraClass = "", openFirst = false }) {
+	return (
+		<div className={`accordion sofax-accordion-section-v2 ${extraClass}`.trim()} id={accordionId}>
+			{items.map((item, index) => {
+				const target = `${accordionId}-item-${index}`;
+				const isOpen = openFirst && index === 0;
+				return (
+					<div className="accordion-item sofax-accordion-item " key={item.question + index}>
+						<h3 className="accordion-header sofax-accordion-header">
+							<button
+								className={`accordion-button${isOpen ? "" : " collapsed"}`}
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target={`#${target}`}
+							>
+								{item.question}
+							</button>
+							<div className="accordion-icon">
+								<Image src={Icon} alt="Icon" />
+							</div>
+						</h3>
+						<div
+							id={target}
+							className={`accordion-collapse collapse${isOpen ? " show" : ""}`}
+							data-bs-parent={`#${accordionId}`}
+						>
+							<div className="accordion-body sofax-accordion-body">{item.answer}</div>
+						</div>
+					</div>
+				);
+			})}
+		</div>
+	);
+}
+
 function FaqAccordion() {
+	const cms = useCms();
+	const col1 = cms.faq_columns?.["1"]?.length ? cms.faq_columns["1"] : cms.faq_columns?.[1] || [];
+	const col2 = cms.faq_columns?.["2"]?.length ? cms.faq_columns["2"] : cms.faq_columns?.[2] || [];
+
 	return (
 		<div className="sofax-accordion-section-wrapper">
-			<div className="accordion sofax-accordion-section-v2" id="sofax-accordion2">
-				<div className="accordion-item sofax-accordion-item ">
-					<h3 className="accordion-header sofax-accordion-header">
-						<button
-							className="accordion-button"
-							type="button"
-							data-bs-toggle="collapse"
-							data-bs-target="#collapseOne"
-						>
-							How do I make money with cryptocurrencies?
-						</button>
-						<div className="accordion-icon">
-							<Image src={Icon} alt="Icon" />
-						</div>
-					</h3>
-					<div
-						id="collapseOne"
-						className="accordion-collapse collapse show"
-						data-bs-parent="#sofax-accordion2"
-					>
-						<div className="accordion-body sofax-accordion-body">
-							Cryptocurrencies are digital or virtual currencies that use cryptography for security and a
-							operate on decentralized.
-						</div>
-					</div>
-				</div>
-				<div className="accordion-item sofax-accordion-item ">
-					<h3 className="accordion-header sofax-accordion-header">
-						<button
-							className="accordion-button collapsed"
-							type="button"
-							data-bs-toggle="collapse"
-							data-bs-target="#collapseTwo"
-						>
-							Is cryptocurrency used for illegal activies?
-						</button>
-						<div className="accordion-icon">
-							<Image src={Icon} alt="Icon" />
-						</div>
-					</h3>
-					<div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#sofax-accordion2">
-						<div className="accordion-body sofax-accordion-body">
-							Cryptocurrencies are digital or virtual currencies that use cryptography for security and a
-							operate on decentralized.
-						</div>
-					</div>
-				</div>
-				<div className="accordion-item sofax-accordion-item ">
-					<h3 className="accordion-header sofax-accordion-header">
-						<button
-							className="accordion-button collapsed"
-							type="button"
-							data-bs-toggle="collapse"
-							data-bs-target="#collapseThree"
-						>
-							How to start trading in cryptocurrency?
-						</button>
-						<div className="accordion-icon">
-							<Image src={Icon} alt="Icon" />
-						</div>
-					</h3>
-					<div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#sofax-accordion2">
-						<div className="accordion-body sofax-accordion-body">
-							Cryptocurrencies are digital or virtual currencies that use cryptography for security and a
-							operate on decentralized.
-						</div>
-					</div>
-				</div>
-			</div>
-			<div className="accordion sofax-accordion-section-v2 mt-24" id="sofax-accordion3">
-				<div className="accordion-item sofax-accordion-item ">
-					<h3 className="accordion-header sofax-accordion-header">
-						<button
-							className="accordion-button"
-							type="button"
-							data-bs-toggle="collapse"
-							data-bs-target="#collapseFour"
-						>
-							What is the coin to invest in today?
-						</button>
-						<div className="accordion-icon">
-							<Image src={Icon} alt="Icon" />
-						</div>
-					</h3>
-					<div
-						id="collapseFour"
-						className="accordion-collapse collapse show"
-						data-bs-parent="#sofax-accordion3"
-					>
-						<div className="accordion-body sofax-accordion-body">
-							Cryptocurrencies are digital or virtual currencies that use cryptography for security and a
-							operate on decentralized.
-						</div>
-					</div>
-				</div>
-				<div className="accordion-item sofax-accordion-item ">
-					<h3 className="accordion-header sofax-accordion-header">
-						<button
-							className="accordion-button collapsed"
-							type="button"
-							data-bs-toggle="collapse"
-							data-bs-target="#collapseFive"
-						>
-							How can one buy/sell crypto tokens?
-						</button>
-						<div className="accordion-icon">
-							<Image src={Icon} alt="Icon" />
-						</div>
-					</h3>
-					<div id="collapseFive" className="accordion-collapse collapse" data-bs-parent="#sofax-accordion3">
-						<div className="accordion-body sofax-accordion-body">
-							Cryptocurrencies are digital or virtual currencies that use cryptography for security and a
-							operate on decentralized.
-						</div>
-					</div>
-				</div>
-				<div className="accordion-item sofax-accordion-item ">
-					<h3 className="accordion-header sofax-accordion-header">
-						<button
-							className="accordion-button collapsed"
-							type="button"
-							data-bs-toggle="collapse"
-							data-bs-target="#collapseSix"
-						>
-							How to start tranding in cryptocurrency?
-						</button>
-						<div className="accordion-icon">
-							<Image src={Icon} alt="Icon" />
-						</div>
-					</h3>
-					<div id="collapseSix" className="accordion-collapse collapse" data-bs-parent="#sofax-accordion3">
-						<div className="accordion-body sofax-accordion-body">
-							Cryptocurrencies are digital or virtual currencies that use cryptography for security and a
-							operate on decentralized.
-						</div>
-					</div>
-				</div>
-			</div>
+			<FaqColumn items={col1} accordionId="sofax-accordion2" openFirst />
+			<FaqColumn items={col2} accordionId="sofax-accordion3" extraClass="mt-24" openFirst />
 		</div>
 	);
 }

@@ -1,17 +1,25 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import { useCms } from "@/hooks/useCms";
+import { useLocalePrefix } from "@/hooks/useLocale";
 
 function HeaderLogo() {
+	const cms = useCms();
+	const prefix = useLocalePrefix();
+	const src = cms.settings?.logo || "/images/agotasoft-logo.png";
+	const alt = `${cms.settings?.site_name || "AgotaSoft"} Logo`;
+
 	return (
 		<div className="brand-logo">
-			<Link href="/" className="sofax-logo">
-				<Image 
-					src="/images/agotasoft-logo.png" 
-					alt="AgotaSoft Logo" 
-					width={300} 
+			<Link href={prefix || "/"} className="sofax-logo">
+				<Image
+					src={src}
+					alt={alt}
+					width={300}
 					height={100}
 					priority
-					style={{ objectFit: 'contain' }}
+					style={{ objectFit: "contain" }}
 				/>
 			</Link>
 		</div>

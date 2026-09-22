@@ -1,0 +1,17 @@
+{
+  "name": "agotasoft/cms",
+  "description": "PHP+MySQL CMS for the existing AgotaSoft Sofax marketing site",
+  "type": "project",
+  "license": "proprietary",
+  "require": {
+    "php": ">=8.1",
+    "ext-pdo": "*",
+    "ext-pdo_mysql": "*",
+    "ext-mbstring": "*",
+    "phpmailer/phpmailer": "^6.9"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}

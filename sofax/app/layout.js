@@ -21,6 +21,7 @@ import ImportBsJS from "@/components/BootstrapClient";
 
 // ScrollToTop
 import ScrollToTop from "@/hooks/ScrollToTop";
+import CmsSeo from "@/components/cms/CmsSeo";
 // main css
 import "../public/css/app.css";
 import "../public/css/main.css";
@@ -77,6 +78,7 @@ export default function RootLayout({ children }) {
 			</head>
 			<body className={`${inter.variable} ${DMSans.variable} ${clashGrotesk.variable}`}>
 				<ImportBsJS />
+				<CmsSeo />
 				{children}
 				<ScrollToTop />
 			</body>

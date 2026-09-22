@@ -1,4 +1,5 @@
 import BreadCrumb from "@/components/common/Breadcrumb";
+import CmsText from "@/components/cms/CmsText";
 import Faq from "@/components/home/home-five/faq";
 import dynamic from "next/dynamic";
 
@@ -7,13 +8,13 @@ const PortfolioList = dynamic(() => import("@/components/portfolio/PortfolioList
 });
 
 export const metadata = {
-	title: "Sofax || Responsive Next.js Template Portfolio Page",
-	description: "Sofax || Responsive Next.js Template",
+	title: "Referanslarımız | AgotaSoft",
+	description: "AgotaSoft'un gerçekleştirdiği projeler ve referans müşterileri.",
 };
 function PortfolioPage() {
 	return (
 		<>
-			<BreadCrumb title="Our Portfolio" />
+			<BreadCrumb title={<CmsText path="pages.portfolio.title" fallback="Referanslar" />} />
 			<PortfolioList />
 			<Faq />
 		</>
