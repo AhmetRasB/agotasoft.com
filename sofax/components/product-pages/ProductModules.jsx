@@ -1,45 +1,35 @@
 "use client";
 
-import FadeInUp from "@/components/animation/FadeInUp";
-
-export default function ProductModules({ title, subtitle, modules, cardClass }) {
+export default function ProductModules({ title, subtitle, modules, numberLabel = "01", sectionLabel = "MODÜLLER" }) {
 	return (
-		<div className="section sofax-section-padding bg-light" id="features">
-			<div className="container">
-				<div className="row">
-					<div className="col-12">
-						<FadeInUp>
-							<div className="sofax-section-title text-center mb-5">
-								<h2>{title}</h2>
-								<p>{subtitle}</p>
-							</div>
-						</FadeInUp>
+		<section className="agf-section" id="features">
+			<div className="agf-container">
+				<div className="agf-platform-head">
+					<div className="agf-eyebrow">
+						<span className="agf-eyebrow-num">{numberLabel}</span> {sectionLabel}
 					</div>
+					<h2 className="agf-headline agf-h2">{title}</h2>
+					<p className="agf-lede" style={{ margin: "12px auto 0" }}>
+						{subtitle}
+					</p>
 				</div>
-				<div className="row g-4">
-					{modules.map((mod) => (
-						<div className="col-lg-4 col-md-6" key={mod.title}>
-							<FadeInUp>
-								<div className={`sofax-feature-card ${cardClass}`}>
-									<div className="sofax-feature-icon sofax-solution-icon">
-										<i className={mod.icon}></i>
-									</div>
-									<h3 className="sofax-feature-title">{mod.title}</h3>
-									<p className="sofax-feature-description">{mod.description}</p>
-									<ul className="list-unstyled mt-3">
-										{(mod.bullets || []).map((bullet) => (
-											<li key={bullet}>
-												<i className="fas fa-check text-success me-2"></i>
-												{bullet}
-											</li>
-										))}
-									</ul>
-								</div>
-							</FadeInUp>
+				<div className="agf-grid agf-grid--3">
+					{(modules || []).map((mod) => (
+						<div className="agf-card" key={mod.title}>
+							<div className="agf-card-icon">
+								<i className={mod.icon}></i>
+							</div>
+							<h3>{mod.title}</h3>
+							<p>{mod.description}</p>
+							<ul>
+								{(mod.bullets || []).slice(0, 3).map((bullet) => (
+									<li key={bullet}>{bullet}</li>
+								))}
+							</ul>
 						</div>
 					))}
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 }

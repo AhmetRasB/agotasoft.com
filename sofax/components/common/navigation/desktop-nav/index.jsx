@@ -1,34 +1,43 @@
 "use client";
+import Link from "next/link";
 import { useCms } from "@/hooks/useCms";
-import DesktopNav from "./DesktopNav";
-import Dropdown from "./Dropdown";
-import DropdownItem from "./DropdownItem";
-import NavItem from "./NavItem";
+import { useLocalePrefix } from "@/hooks/useLocale";
+import { withLocale } from "@/lib/i18n/config";
 
 function DesktopMenu() {
 	const cms = useCms();
+	const prefix = useLocalePrefix();
 	const items = cms.nav?.length ? cms.nav : [];
 
 	return (
-		<DesktopNav>
-			{items.map((item) =>
-				item.submenu?.length ? (
-					<NavItem dropdown title={item.title} key={item.title}>
-						<Dropdown>
-							{item.submenu.map((sub) => (
-								<DropdownItem url={sub.url} key={sub.title}>
-									{sub.title}
-								</DropdownItem>
-							))}
-						</Dropdown>
-					</NavItem>
-				) : (
-					<NavItem url={item.url} key={item.title}>
-						{item.title}
-					</NavItem>
-				)
-			)}
-		</DesktopNav>
+		<nav className="agf-nav">
+			{items.map((item) => {
+				const hasSub = item.submenu?.length;
+				const href = withLocale(item.url === "/" ? "/" : `/${item.url}`, prefix);
+				return (
+					<div className="agf-nav-item" key={item.title}>
+						{hasSub ? (
+							<>
+								<span className="agf-nav-link" style={{ cursor: "default" }}>
+									{item.title} <i className="fas fa-chevron-down" style={{ fontSize: "10px" }}></i>
+								</span>
+								<div className="agf-nav-dropdown">
+									{item.submenu.map((sub) => (
+										<Link href={withLocale(`/${sub.url}`, prefix)} key={sub.title}>
+											{sub.title}
+										</Link>
+									))}
+								</div>
+							</>
+						) : (
+							<Link href={href} className="agf-nav-link">
+								{item.title}
+							</Link>
+						)}
+					</div>
+				);
+			})}
+		</nav>
 	);
 }
 

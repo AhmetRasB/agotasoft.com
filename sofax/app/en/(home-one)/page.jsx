@@ -1,19 +1,23 @@
-import Cta from "@/components/home/home-one/cta";
-import HeroSection from "@/components/home/home-one/hero";
-import LogoSlider from "@/components/home/home-one/logo-slider";
-import Services from "@/components/home/home-one/services";
-import Testimonial from "@/components/home/home-one/testimonial";
-import WhyChooseUs from "@/components/home/home-one/why-choose-us";
+import Hero from "@/components/erp-landing/Hero";
+import TrustStrip from "@/components/erp-landing/TrustStrip";
+import PlatformSection from "@/components/erp-landing/PlatformSection";
+import AiSection from "@/components/erp-landing/AiSection";
+import StatsSection from "@/components/erp-landing/StatsSection";
+import CaseStudies from "@/components/erp-landing/CaseStudies";
+import OtherProducts from "@/components/erp-landing/OtherProducts";
+import FinalCta from "@/components/erp-landing/FinalCta";
 
 function HomeOne() {
 	return (
 		<>
-			<HeroSection />
-			<LogoSlider />
-			<Services />
-			<WhyChooseUs />
-			<Testimonial />
-			<Cta />
+			<Hero />
+			<TrustStrip />
+			<PlatformSection />
+			<AiSection />
+			<StatsSection />
+			<CaseStudies />
+			<OtherProducts />
+			<FinalCta />
 		</>
 	);
 }

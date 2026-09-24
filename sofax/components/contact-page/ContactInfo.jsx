@@ -5,12 +5,21 @@ import { useCms } from "@/hooks/useCms";
 export default function ContactInfo() {
 	const cms = useCms();
 	const settings = cms.settings || {};
-	return (
-		<div className="sofax-contact-info">
-			<h3 className="mb-4">İletişim Bilgileri</h3>
+	const socials = [
+		{ href: settings.social_linkedin, icon: "fab fa-linkedin-in" },
+		{ href: settings.social_twitter, icon: "fab fa-x-twitter" },
+		{ href: settings.social_facebook, icon: "fab fa-facebook-f" },
+		{ href: settings.social_instagram, icon: "fab fa-instagram" },
+	].filter((s) => s.href);
 
-			<div className="sofax-contact-item mb-4">
-				<div className="sofax-feature-icon me-3" style={{ width: "50px", height: "50px", fontSize: "20px" }}>
+	return (
+		<div>
+			<h3 className="agf-h3" style={{ marginBottom: 24 }}>
+				İletişim Bilgileri
+			</h3>
+
+			<div className="agf-contact-item">
+				<div className="agf-card-icon" style={{ width: 44, height: 44, flexShrink: 0 }}>
 					<i className="fas fa-map-marker-alt"></i>
 				</div>
 				<div>
@@ -19,35 +28,37 @@ export default function ContactInfo() {
 				</div>
 			</div>
 
-			<div className="sofax-contact-item mb-4">
-				<div className="sofax-feature-icon me-3" style={{ width: "50px", height: "50px", fontSize: "20px" }}>
+			{settings.phone ? (
+				<div className="agf-contact-item">
+					<div className="agf-card-icon" style={{ width: 44, height: 44, flexShrink: 0 }}>
+						<i className="fas fa-phone"></i>
+					</div>
+					<div>
+						<h6>Telefon</h6>
+						<a href={`tel:${settings.phone.replace(/[^\d+]/g, "")}`}>{settings.phone}</a>
+					</div>
+				</div>
+			) : null}
+
+			<div className="agf-contact-item">
+				<div className="agf-card-icon" style={{ width: 44, height: 44, flexShrink: 0 }}>
 					<i className="fas fa-envelope"></i>
 				</div>
 				<div>
 					<h6>E-posta</h6>
-					<p>
-						<a href={`mailto:${settings.email}`}>{settings.email}</a>
-					</p>
+					<a href={`mailto:${settings.email}`}>{settings.email}</a>
 				</div>
 			</div>
 
-			<div className="sofax-social-links mt-4">
-				<h6>Sosyal Medya</h6>
-				<div className="d-flex gap-3">
-					<a href={settings.social_linkedin} target="_blank" className="sofax-social-link">
-						<i className="fab fa-linkedin"></i>
-					</a>
-					<a href={settings.social_twitter} target="_blank" className="sofax-social-link">
-						<i className="fab fa-twitter"></i>
-					</a>
-					<a href={settings.social_facebook} target="_blank" className="sofax-social-link">
-						<i className="fab fa-facebook"></i>
-					</a>
-					<a href={settings.social_instagram} target="_blank" className="sofax-social-link">
-						<i className="fab fa-instagram"></i>
-					</a>
+			{socials.length ? (
+				<div className="agf-social-row" style={{ marginTop: 8 }}>
+					{socials.map((s) => (
+						<a key={s.icon} href={s.href} target="_blank" rel="noopener noreferrer">
+							<i className={s.icon}></i>
+						</a>
+					))}
 				</div>
-			</div>
+			) : null}
 		</div>
 	);
 }

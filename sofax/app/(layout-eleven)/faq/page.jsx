@@ -1,4 +1,4 @@
-import AutoSlider from "@/components/common/auto-slider";
+
 import BreadCrumb from "@/components/common/Breadcrumb";
 import CmsText from "@/components/cms/CmsText";
 import Faq from "@/components/faq-page";
@@ -11,7 +11,6 @@ function FaqPage() {
 		<>
 			<BreadCrumb title={<CmsText path="pages.faq.title" fallback="Faq" />} />
 			<Faq />
-			<AutoSlider />
 		</>
 	);
 }

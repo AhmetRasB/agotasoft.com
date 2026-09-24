@@ -8,19 +8,16 @@ import HeaderLogo from "./HeaderLogo";
 function Header() {
 	const cms = useCms();
 	const menuItemsData = cms.nav?.length ? cms.nav : [];
-	const title = cms.settings?.site_name || "AgotaSoft";
 
 	return (
-		<header className="site-header sofax-header-section site-header--menu-center bg-white" id="sticky-menu">
-			<div className="container">
-				<nav className="navbar site-navbar">
-					<HeaderLogo />
-					<div className="menu-block-wrapper">
-						<DesktopMenu />
-					</div>
+		<header className="agf-header">
+			<div className="agf-container agf-header-inner">
+				<HeaderLogo />
+				<DesktopMenu />
+				<div className="agf-header-actions">
 					<HeaderButton />
-					<MobileNavbar menuItemsData={menuItemsData} title={title} />
-				</nav>
+					<MobileNavbar menuItemsData={menuItemsData} />
+				</div>
 			</div>
 		</header>
 	);

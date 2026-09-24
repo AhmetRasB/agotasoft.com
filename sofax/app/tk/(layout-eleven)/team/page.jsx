@@ -1,4 +1,4 @@
-import AutoSlider from "@/components/common/auto-slider";
+
 import BreadCrumb from "@/components/common/Breadcrumb";
 import CmsText from "@/components/cms/CmsText";
 import Faq from "@/components/home/home-five/faq";
@@ -26,7 +26,6 @@ function TeamPage() {
 		<>
 			<BreadCrumb title={<CmsText path="pages.team.title" fallback="Toparymyz" />} />
 			<TeamMembers />
-			<AutoSlider />
 			<Faq />
 		</>
 	);

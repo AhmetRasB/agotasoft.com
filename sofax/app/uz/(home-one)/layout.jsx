@@ -2,20 +2,20 @@ import Footer from "@/components/home/home-one/footer";
 import Header from "@/components/home/home-one/header/multi-page";
 import { buildAlternates } from "@/lib/i18n/config";
 export const metadata = {
-	title: "AgotaSoft | ERP, CRM, Buxgalteriya va LMS dasturiy yechimlari",
-	description: "Biznesingizni raqamli transformatsiya bilan kuchaytiring. AgotaSoft ERP, CRM, buxgalteriya va LMS yechimlari bilan samaradorlikni oshiring, xarajatlarni kamaytiring.",
+	title: "AgotaSoft ERP | Biznesingizni boshqaradigan yagona platforma",
+	description: "AI yordamidagi AgotaSoft ERP bilan ombor, ishlab chiqarish, moliya va xarid jarayonlarini bitta platformada boshqaring.",
 	author: "AgotaSoft",
 	alternates: buildAlternates("/"),
 	openGraph: {
-		title: "AgotaSoft: biznesingizni kelajakka olib boradigan aqlli dasturiy yechimlar",
-		description: "Integratsiyalashgan ERP, CRM, buxgalteriya va LMS tizimlarimiz bilan operatsion samaradorlikni oshiring, xarajatlarni kamaytiring va raqobatda bir qadam oldinda bo'ling. AgotaSoft bilan raqamli transformatsiyangizni yakunlang.",
+		title: "AgotaSoft ERP: biznesingizni boshqaradigan yagona platforma",
+		description: "Ombor, ishlab chiqarish, moliya va xaridni bitta ekranda birlashtiring. AI yordamida, tez o'rnatiladi.",
 		type: "website",
-		url: "https://agotasoft.com/",
+		url: "https://agotasoft.com/uz/",
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "AgotaSoft | ERP, CRM, Buxgalteriya va LMS dasturiy yechimlari",
-		description: "Biznesingizni raqamli transformatsiya bilan kuchaytiring. AgotaSoft ERP, CRM, buxgalteriya va LMS yechimlari bilan samaradorlikni oshiring, xarajatlarni kamaytiring.",
+		title: "AgotaSoft ERP | Biznesingizni boshqaradigan yagona platforma",
+		description: "AI yordamidagi AgotaSoft ERP bilan ombor, ishlab chiqarish, moliya va xarid jarayonlarini bitta platformada boshqaring.",
 	},
 };
 function LayoutOne({ children }) {

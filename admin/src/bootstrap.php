@@ -25,4 +25,11 @@ if (is_file($autoload)) {
 }
 
 Config::load(ROOT_PATH . '/.env');
+
+// Shared hosts often ship display_errors=On; never leak stack traces (DB user, paths) to visitors.
+$debug = filter_var(Config::get('APP_DEBUG', 'false'), FILTER_VALIDATE_BOOLEAN);
+ini_set('display_errors', $debug ? '1' : '0');
+ini_set('log_errors', '1');
+ini_set('error_log', STORAGE_PATH . '/logs/php-error.log');
+
 Session::start();

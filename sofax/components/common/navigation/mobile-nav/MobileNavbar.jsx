@@ -1,84 +1,47 @@
-/* eslint-disable react/prop-types */
 "use client";
-import { motion } from "framer-motion";
+import Link from "next/link";
 import { useState } from "react";
-import NavItem from "./NavItem";
+import { useLocalePrefix } from "@/hooks/useLocale";
+import { withLocale } from "@/lib/i18n/config";
 
-const MobileNavbar = ({ menuItemsData, title, onePage }) => {
-	const depthLevel = 0;
-	const [showMenu, setShowMenu] = useState(false);
-
-	function handleOpenMobileMenu() {
-		setShowMenu((prev) => !prev);
-	}
-
-	const animationVariants = {
-		initial: {
-			x: "-100%",
-		},
-		animate: () => {
-			if (showMenu) {
-				return {
-					x: 0,
-				};
-			}
-		},
-	};
-	const overlayAnimationVariants = {
-		initial: {
-			opacity: 0,
-			visibility: "hidden",
-		},
-		animate: () => {
-			if (showMenu) {
-				return {
-					opacity: 1,
-					visibility: "visible",
-				};
-			}
-		},
-	};
+function MobileNavbar({ menuItemsData = [] }) {
+	const [open, setOpen] = useState(false);
+	const prefix = useLocalePrefix();
 
 	return (
-		<div className="mobile-nav-wrap">
-			<div className="mobile-menu-trigger" onClick={handleOpenMobileMenu}>
-				<span></span>
-			</div>
-			{showMenu && (
-				<motion.nav className="mobile-navbar" variants={animationVariants} initial="initial" animate="animate">
-					<div className="mobile-menu-head">
-						<div className="mobile-menu-head--title">{title}</div>
-						<div className="mobile-menu-head--close" onClick={() => setShowMenu(false)}>
-							&times;
-						</div>
-					</div>
-
-					<ul>
-						{menuItemsData.map((menu, index) => {
-							return (
-								<NavItem
-									items={menu}
-									key={index}
-									depthLevel={depthLevel}
-									showMenu={showMenu}
-									setShowMenu={setShowMenu}
-									onePage={onePage}
-								/>
-							);
-						})}
-					</ul>
-				</motion.nav>
-			)}
-
-			<motion.div
-				initial="initial"
-				animate="animate"
-				variants={overlayAnimationVariants}
-				className="mobile-nav--overlay"
-				onClick={handleOpenMobileMenu}
-			></motion.div>
-		</div>
+		<>
+			<button type="button" className="agf-burger" onClick={() => setOpen((v) => !v)} aria-label="Menü">
+				<i className={`fas ${open ? "fa-xmark" : "fa-bars"}`} style={{ fontSize: "20px" }}></i>
+			</button>
+			{open ? (
+				<div className="agf-mobile-panel">
+					{menuItemsData.map((item) => {
+						const href = withLocale(item.url === "/" ? "/" : `/${item.url}`, prefix);
+						return (
+							<div key={item.title}>
+								{item.submenu?.length ? (
+									<>
+										<div className="agf-mobile-link">{item.title}</div>
+										<div className="agf-mobile-sub">
+											{item.submenu.map((sub) => (
+												<Link href={withLocale(`/${sub.url}`, prefix)} key={sub.title} onClick={() => setOpen(false)}>
+													{sub.title}
+												</Link>
+											))}
+										</div>
+									</>
+								) : (
+									<Link href={href} className="agf-mobile-link" onClick={() => setOpen(false)}>
+										{item.title}
+									</Link>
+								)}
+							</div>
+						);
+					})}
+				</div>
+			) : null}
+		</>
 	);
-};
+}
 
 export default MobileNavbar;

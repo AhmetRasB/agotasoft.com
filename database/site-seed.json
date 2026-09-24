@@ -1,152 +1,43 @@
 {
+  "generated_at": "2026-09-18T12:27:40+00:00",
   "settings": {
     "site_name": "AgotaSoft",
     "logo": "/images/agotasoft-logo.png",
     "email": "info@agotasoft.com",
     "phone": "+90 (216) 555 12 34",
     "address": "İstanbul, Üsküdar",
-    "copyright": "© 2024 AgotaSoft Yazılım. Tüm hakları saklıdır.",
+    "copyright": "© 2026 AgotaSoft. Tüm hakları saklıdır.",
     "header_cta": "Demo Talep Edin",
     "header_cta_url": "/contact-us",
-    "header_cta_secondary": "Get started",
-    "social_twitter": "https://www.twitter.com/",
-    "social_facebook": "https://www.facebook.com/",
+    "header_cta_secondary": "Ücretsiz Başlayın",
+    "social_twitter": "",
+    "social_facebook": "",
     "social_instagram": "https://www.instagram.com/agotasoft_tr/",
     "social_linkedin": "https://www.linkedin.com/company/agotasoft",
     "social_github": "https://github.com/AgotaSoft",
     "map_embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12040.31!2d29.0236!3d41.0214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7650656bd63%3A0x8ca058b28c20b6c3!2zw5xza8O8ZGFyLCDEsHN0YW5idWw!5e0!3m2!1str!2str!4v1234567890!5m2!1str!2str",
     "calendly_url": "https://calendly.com/agotasoft",
-    "seo_title": "AgotaSoft | ERP, CRM, Ön Muhasebe ve LMS Yazılım Çözümleri",
-    "seo_description": "İşletmenizi dijital dönüşümle güçlendirin. AgotaSoft ERP, CRM, Ön Muhasebe ve LMS yazılım çözümleriyle operasyonel verimliliğinizi artırın, maliyetlerinizi düşürün."
-  },
-  "partners_heading": "Teknoloji Partnerlerimiz ve Sponsorlarımız",
-  "testimonials_heading": "Müşterilerimizin AgotaSoft Deneyimi",
-  "hero": {
-    "title": "AgotaSoft: İşletmenizi Geleceğe Taşıyan Akıllı Yazılım Çözümleri",
-    "subtitle": "Entegre ERP, CRM, Ön Muhasebe ve LMS sistemlerimizle operasyonel verimliliği artırın, maliyetleri düşürün ve rekabette bir adım öne geçin. AgotaSoft ile dijital dönüşümünüzü tamamlayın.",
-    "cta_primary": "Demo Talep Edin",
-    "cta_primary_url": "/contact-us",
-    "cta_secondary": "Çözümlerimizi Keşfedin",
-    "cta_secondary_url": "#solutions",
-    "rating_text": "4.8/5 müşteri memnuniyeti - Binlerce işletmenin tercihi"
-  },
-  "home_services": {
-    "title": "İşletmenizi Güçlendiren Yazılım Çözümleri",
-    "button": "Tüm Çözümler",
-    "button_url": "/service"
-  },
-  "cta": {
-    "title": "AgotaSoft ile Dijital Dönüşümünüzü Başlatın",
-    "text": "ERP, CRM, Ön Muhasebe ve LMS çözümlerimizle işletmenizin verimliliğini artırın. Uzman ekibimizle ücretsiz demo alın ve farkı görün.",
-    "button": "Ücretsiz Demo Talep Edin",
-    "button_url": "/contact-us",
-    "note": "30 günlük deneme süresi. Kredi kartı gerekmez."
-  },
-  "why_choose": {
-    "section1_title": "İşletmenizi Dijital Dönüşümle Güçlendirin",
-    "section1_text": "AgotaSoft yazılım çözümleri ile operasyonel verimliliğinizi artırın, maliyetlerinizi düşürün ve rekabette öne geçin. Entegre sistemlerimizle iş süreçlerinizi optimize edin.",
-    "section1_items": [
-      {
-        "title": "Süreçleri Otomatikleştirin",
-        "text": "Manuel işlemleri minimize edin, iş akışlarınızı otomatikleştirin ve çalışanlarınızın daha stratejik işlere odaklanmasını sağlayın."
-      },
-      {
-        "title": "Veri Odaklı Kararlar Alın",
-        "text": "Gerçek zamanlı raporlar ve analizlerle işletmenizin performansını takip edin, doğru kararlar alın ve büyümenizi hızlandırın."
-      },
-      {
-        "title": "Müşteri Memnuniyetini Artırın",
-        "text": "CRM sistemimizle müşteri ilişkilerinizi güçlendirin, hizmet kalitesini yükseltin ve müşteri sadakatini artırın."
-      }
-    ],
-    "section2_title": "Teknoloji ile İş Süreçlerinizi Dönüştürün",
-    "section2_text": "AgotaSoft'ın entegre yazılım çözümleri ile işletmenizin tüm departmanlarını birbirine bağlayın, verimliliği artırın ve maliyetleri optimize edin.",
-    "section2_items": [
-      {
-        "title": "%60 Daha Hızlı İş Süreçleri",
-        "text": "Otomatik iş akışları ve entegre sistemlerle süreç sürelerinizi kısaltın, çalışan verimliliğini artırın."
-      },
-      {
-        "title": "Anlık Veri Erişimi ve Raporlama",
-        "text": "Tüm verilerinize tek noktadan erişin, gerçek zamanlı raporlarla hızlı ve doğru kararlar alın."
-      }
-    ],
-    "button": "Demo Talep Edin",
-    "button_url": "/contact-us"
-  },
-  "footer": {
-    "about": "İşletmenizi geleceğe taşıyan akıllı yazılım çözümleri. ERP, CRM, Ön Muhasebe ve LMS alanlarında 15 yıllık deneyimimizle dijital dönüşümünüze öncülük ediyoruz.",
-    "about_alt": "AgotaSoft, işletmelerin dijital dönüşüm yolculuğunda güvenilir teknoloji partneridir. ERP, CRM, Ön Muhasebe ve LMS çözümlerimizle verimliliğinizi artırıyoruz.",
-    "col1_title": "Kurumsal",
-    "col1_links": [
-      {
-        "label": "Hakkımızda",
-        "url": "/about-us"
-      },
-      {
-        "label": "Referanslar",
-        "url": "/portfolio"
-      },
-      {
-        "label": "Ekip",
-        "url": "/team"
-      },
-      {
-        "label": "Blog",
-        "url": "/blog"
-      },
-      {
-        "label": "Kariyer",
-        "url": "/career"
-      },
-      {
-        "label": "İletişim",
-        "url": "/contact-us"
-      },
-      {
-        "label": "Çözümlerimiz",
-        "url": "/service"
-      },
-      {
-        "label": "Fiyatlandırma",
-        "url": "/pricing"
-      }
-    ],
-    "col2_title": "Çözümlerimiz",
-    "col2_links": [
-      {
-        "label": "ERP Sistemi",
-        "url": "/erp"
-      },
-      {
-        "label": "CRM Sistemi",
-        "url": "/crm"
-      },
-      {
-        "label": "Ön Muhasebe",
-        "url": "/pre-accounting"
-      },
-      {
-        "label": "LMS Sistemi",
-        "url": "/lms"
-      }
-    ],
-    "col3_title": "İletişim Bilgileri",
-    "privacy_label": "Gizlilik Politikası",
-    "privacy_url": "/privacy-policy",
-    "terms_label": "Kullanım Şartları",
-    "terms_url": "/terms-of-service",
-    "cookies_label": "Çerez Politikası",
-    "cookies_url": "/cookies-policy"
+    "seo_title": "AgotaSoft ERP | İşletmenizi Yöneten Tek Platform",
+    "seo_description": "AI destekli AgotaSoft ERP ile stok, üretim, finans ve satın alma süreçlerinizi tek platformda yönetin.",
+    "hero": "{\"title\": \"AgotaSoft ERP: İşletmenizi Yöneten Tek Platform\", \"subtitle\": \"Stok, üretim, finans ve satın almayı tek ekranda birleştirin. AI destekli, kolay kurulan ve öğrenmesi kolay bir ERP — karmaşık masaüstü yazılımlarına veda edin.\", \"cta_primary\": \"Demo Talep Edin\", \"cta_primary_url\": \"/contact-us\", \"cta_secondary\": \"Modülleri İncele\", \"cta_secondary_url\": \"/erp\", \"rating_text\": \"AI destekli, KOBİ'ler için tasarlandı\"}",
+    "cta": "{\"title\":\"AgotaSoft ile Dijital Dönüşümünüzü Başlatın\",\"text\":\"ERP, CRM, Ön Muhasebe ve LMS çözümlerimizle işletmenizin verimliliğini artırın. Uzman ekibimizle ücretsiz demo alın ve farkı görün.\",\"button\":\"Ücretsiz Demo Talep Edin\",\"button_url\":\"/contact-us\",\"note\":\"30 günlük deneme süresi. Kredi kartı gerekmez.\"}",
+    "why_choose": "{\"section1_title\":\"İşletmenizi Dijital Dönüşümle Güçlendirin\",\"section1_text\":\"AgotaSoft yazılım çözümleri ile operasyonel verimliliğinizi artırın, maliyetlerinizi düşürün ve rekabette öne geçin. Entegre sistemlerimizle iş süreçlerinizi optimize edin.\",\"section1_items\":[{\"title\":\"Süreçleri Otomatikleştirin\",\"text\":\"Manuel işlemleri minimize edin, iş akışlarınızı otomatikleştirin ve çalışanlarınızın daha stratejik işlere odaklanmasını sağlayın.\"},{\"title\":\"Veri Odaklı Kararlar Alın\",\"text\":\"Gerçek zamanlı raporlar ve analizlerle işletmenizin performansını takip edin, doğru kararlar alın ve büyümenizi hızlandırın.\"},{\"title\":\"Müşteri Memnuniyetini Artırın\",\"text\":\"CRM sistemimizle müşteri ilişkilerinizi güçlendirin, hizmet kalitesini yükseltin ve müşteri sadakatini artırın.\"}],\"section2_title\":\"Teknoloji ile İş Süreçlerinizi Dönüştürün\",\"section2_text\":\"AgotaSoft'ın entegre yazılım çözümleri ile işletmenizin tüm departmanlarını birbirine bağlayın, verimliliği artırın ve maliyetleri optimize edin.\",\"section2_items\":[{\"title\":\"%60 Daha Hızlı İş Süreçleri\",\"text\":\"Otomatik iş akışları ve entegre sistemlerle süreç sürelerinizi kısaltın, çalışan verimliliğini artırın.\"},{\"title\":\"Anlık Veri Erişimi ve Raporlama\",\"text\":\"Tüm verilerinize tek noktadan erişin, gerçek zamanlı raporlarla hızlı ve doğru kararlar alın.\"}],\"button\":\"Demo Talep Edin\",\"button_url\":\"/contact-us\"}",
+    "home_services": "{\"title\":\"İşletmenizi Güçlendiren Yazılım Çözümleri\",\"button\":\"Tüm Çözümler\",\"button_url\":\"/service\"}",
+    "footer": "{\"about\": \"İşletmenizi geleceğe taşıyan akıllı yazılım çözümleri. ERP, CRM, Ön Muhasebe ve LMS alanlarında 15 yıllık deneyimimizle dijital dönüşümünüze öncülük ediyoruz.\", \"about_alt\": \"AgotaSoft, işletmelerin dijital dönüşüm yolculuğunda güvenilir teknoloji partneridir. ERP, CRM, Ön Muhasebe ve LMS çözümlerimizle verimliliğinizi artırıyoruz.\", \"col1_title\": \"Kurumsal\", \"col1_links\": [{\"label\": \"Hakkımızda\", \"url\": \"/about-us\"}, {\"label\": \"Referanslar\", \"url\": \"/portfolio\"}, {\"label\": \"Ekip\", \"url\": \"/team\"}, {\"label\": \"Blog\", \"url\": \"/blog\"}, {\"label\": \"Kariyer\", \"url\": \"/career\"}, {\"label\": \"İletişim\", \"url\": \"/contact-us\"}, {\"label\": \"Çözümlerimiz\", \"url\": \"/service\"}, {\"label\": \"Fiyatlandırma\", \"url\": \"/pricing\"}], \"col2_title\": \"Çözümlerimiz\", \"col2_links\": [{\"label\": \"ERP Sistemi\", \"url\": \"/erp\"}, {\"label\": \"CRM Sistemi\", \"url\": \"/crm\"}, {\"label\": \"Ön Muhasebe\", \"url\": \"/pre-accounting\"}, {\"label\": \"LMS Sistemi\", \"url\": \"/lms\"}], \"col3_title\": \"İletişim Bilgileri\", \"privacy_label\": \"Gizlilik Politikası\", \"privacy_url\": \"/privacy-policy\", \"terms_label\": \"Kullanım Şartları\", \"terms_url\": \"/terms-and-condition\", \"cookies_label\": \"Çerez Politikası\", \"cookies_url\": \"/cookies-policy\"}",
+    "pricing_products": "[{\"id\":\"all\",\"name\":\"Tüm Çözümler\",\"icon\":\"fas fa-th-large\"},{\"id\":\"erp\",\"name\":\"ERP Sistemi\",\"icon\":\"fas fa-industry\"},{\"id\":\"crm\",\"name\":\"CRM Sistemi\",\"icon\":\"fas fa-users\"},{\"id\":\"accounting\",\"name\":\"Ön Muhasebe\",\"icon\":\"fas fa-calculator\"},{\"id\":\"lms\",\"name\":\"LMS Eğitim\",\"icon\":\"fas fa-graduation-cap\"}]",
+    "partners_heading": "Teknoloji Partnerlerimiz ve Sponsorlarımız",
+    "testimonials_heading": "Müşterilerimizin AgotaSoft Deneyimi"
   },
   "nav": [
     {
       "title": "Anasayfa",
-      "url": "/"
+      "url": "/",
+      "submenu": []
     },
     {
       "title": "Hakkımızda",
-      "url": "about-us"
+      "url": "about-us",
+      "submenu": []
     },
     {
       "title": "Çözümlerimiz",
@@ -171,80 +62,73 @@
         {
           "title": "LMS Sistemi",
           "url": "lms"
+        },
+        {
+          "title": "Karlılık.NET",
+          "url": "karlilik"
+        },
+        {
+          "title": "Adisyon QR",
+          "url": "adisyon-qr"
         }
       ]
     },
     {
       "title": "Referanslar",
-      "url": "portfolio"
+      "url": "portfolio",
+      "submenu": []
     },
     {
       "title": "Ekip",
-      "url": "team"
-    },
-    {
-      "title": "Blog",
-      "url": "blog"
-    },
-    {
-      "title": "Kariyer",
-      "url": "career"
+      "url": "team",
+      "submenu": []
     },
     {
       "title": "İletişim",
-      "url": "contact-us"
+      "url": "contact-us",
+      "submenu": []
     }
   ],
   "partners": [
     {
       "name": "Microsoft for Startups",
       "img": "/images/partners/microsoft-startups.svg",
-      "alt": "Microsoft for Startups Logo"
+      "alt": "Microsoft for Startups Logo",
+      "title": "Microsoft for Startups",
+      "slug": "microsoft-for-startups",
+      "id": "microsoft-for-startups"
     },
     {
       "name": "Azure",
       "img": "/images/partners/azure.svg",
-      "alt": "Microsoft Azure Logo"
+      "alt": "Microsoft Azure Logo",
+      "title": "Azure",
+      "slug": "azure",
+      "id": "azure"
     },
     {
       "name": "Cloudflare",
       "img": "/images/partners/cloudflare.svg",
-      "alt": "Cloudflare Logo"
+      "alt": "Cloudflare Logo",
+      "title": "Cloudflare",
+      "slug": "cloudflare",
+      "id": "cloudflare"
     },
     {
       "name": "JetBrains",
       "img": "/images/partners/jetbrains.svg",
-      "alt": "JetBrains Logo"
+      "alt": "JetBrains Logo",
+      "title": "JetBrains",
+      "slug": "jetbrains",
+      "id": "jetbrains"
     },
     {
       "name": "Syncfusion",
       "img": "/images/partners/syncfusion.svg",
-      "alt": "Syncfusion Logo"
-    },
-    {
-      "name": "Microsoft for Startups",
-      "img": "/images/partners/microsoft-startups.svg",
-      "alt": "Microsoft for Startups Logo"
-    },
-    {
-      "name": "Azure",
-      "img": "/images/partners/azure.svg",
-      "alt": "Microsoft Azure Logo"
-    },
-    {
-      "name": "Cloudflare",
-      "img": "/images/partners/cloudflare.svg",
-      "alt": "Cloudflare Logo"
-    },
-    {
-      "name": "JetBrains",
-      "img": "/images/partners/jetbrains.svg",
-      "alt": "JetBrains Logo"
-    },
-    {
-      "name": "Syncfusion",
-      "img": "/images/partners/syncfusion.svg",
-      "alt": "Syncfusion Logo"
+      "alt": "Syncfusion Logo",
+      "title": "Syncfusion",
+      "slug": "syncfusion",
+      "id": "syncfusion"
     }
   ],
   "services": [
@@ -263,7 +147,9 @@
         "Üretim Planlaması",
         "Satın Alma Yönetimi",
         "İnsan Kaynakları"
-      ]
+      ],
+      "slug": "erp-sistemi",
+      "id": "erp-sistemi"
     },
     {
       "title": "CRM Sistemi",
@@ -280,7 +166,9 @@
         "Pazarlama Otomasyonu",
         "Müşteri Hizmetleri",
         "Analiz ve Raporlama"
-      ]
+      ],
+      "slug": "crm-sistemi",
+      "id": "crm-sistemi"
     },
     {
       "title": "Ön Muhasebe",
@@ -297,7 +185,9 @@
         "Gider Takibi",
         "Vergi Yönetimi",
         "Finansal Raporlama"
-      ]
+      ],
+      "slug": "-n-muhasebe",
+      "id": "-n-muhasebe"
     },
     {
       "title": "LMS Sistemi",
@@ -314,30 +204,53 @@
         "Sertifika Yönetimi",
         "Performans Takibi",
         "İletişim Araçları"
-      ]
+      ],
+      "slug": "lms-sistemi",
+      "id": "lms-sistemi"
     },
     {
-      "title": "QrMenu Sistemi",
-      "description": "Restoran ve kafelerde temassız menü deneyimi. QR kod ile dijital menü, sipariş takibi ve ödeme entegrasyonu.",
-      "icon": "/images/v1/icon2.png",
-      "link": "/service",
-      "category": "sofax-solution-qrmenu",
-      "fa_icon": "fas fa-qrcode",
-      "page_class": "sofax-solution-qrmenu",
-      "long_description": "Restoran ve kafeler için temassız dijital menü çözümü. QR kod ile kolay erişim, sipariş yönetimi ve ödeme entegrasyonu.",
+      "title": "Karlılık.NET",
+      "description": "Trendyol ve Hepsiburada satıcıları için komisyon, kargo ve vergiler dahil gerçek net kârı gösteren, AI destekli kâr analizi platformu.",
+      "icon": "/images/v1/icon1.png",
+      "link": "/karlilik",
+      "category": "sofax-solution-karlilik",
+      "fa_icon": "fas fa-chart-pie",
+      "page_class": "sofax-solution-karlilik",
+      "long_description": "Pazaryeri satıcılarının gerçek net kârını tek panelde gösteren AI destekli SaaS. Mağazanızı bağlayın, maliyetlerinizi girin; sipariş, ürün ve mağaza bazında ne kazandığınızı görün.",
       "bullets": [
-        "Dijital Menü Yönetimi",
-        "QR Kod Entegrasyonu",
-        "Sipariş Takibi",
-        "Ödeme Entegrasyonu",
-        "Çoklu Dil Desteği"
-      ]
+        "Trendyol ve Hepsiburada entegrasyonu",
+        "Sipariş ve ürün bazında net kâr",
+        "AI ile fatura okuma ve soru-cevap",
+        "Hedef marjdan fiyat hesaplama",
+        "Hakediş mutabakatı"
+      ],
+      "slug": "karlilik-net",
+      "id": "karlilik-net"
+    },
+    {
+      "title": "AgotaSoft Adisyon QR",
+      "description": "Kafe ve restoranlar için QR menü, sipariş, mutfak ekranı ve adisyonu tek sistemde birleştiren bulut çözüm.",
+      "icon": "/images/v1/icon1.png",
+      "link": "/adisyon-qr",
+      "category": "sofax-solution-adisyon-qr",
+      "fa_icon": "fas fa-qrcode",
+      "page_class": "sofax-solution-adisyon-qr",
+      "long_description": "Masadaki QR'dan kasaya kadar tüm akışı tek sistemde yönetin: uygulamasız QR menü ve sipariş, garson onayı, mutfak ekranı, yazıcı ve adisyon.",
+      "bullets": [
+        "QR ile uygulamasız menü ve sipariş",
+        "Garson onayı ve canlı salon görünümü",
+        "Mutfak ekranı ve fiş yazıcı entegrasyonu",
+        "Adisyon bölme, indirim ve kasa",
+        "iPhone, iPad ve Android uygulaması"
+      ],
+      "slug": "adisyon-qr",
+      "id": "adisyon-qr"
     },
     {
       "title": "Kurumsal Website",
       "description": "Profesyonel kurumsal web sitesi tasarımı ve geliştirme. Responsive, SEO uyumlu ve yönetim panelli çözümler.",
       "icon": "/images/v1/icon3.png",
-      "link": "/service",
+      "link": "/kurumsal-website",
       "category": "sofax-solution-website",
       "fa_icon": "fas fa-globe",
       "page_class": "sofax-solution-website",
@@ -348,46 +261,341 @@
         "İçerik Yönetim Sistemi",
         "Hızlı Yükleme",
         "Güvenlik Sertifikaları"
-      ]
+      ],
+      "slug": "kurumsal-website",
+      "id": "kurumsal-website"
+    },
+    {
+      "title": "Mobil Barkod Sistemi",
+      "description": "Depo ve mağazalarınızda stok sayımı, giriş-çıkış ve envanter takibini mobil barkod okuyucularla hızlandırın.",
+      "icon": "/images/v1/icon2.png",
+      "link": "/mobil-barkod",
+      "category": "sofax-solution-barkod",
+      "fa_icon": "fas fa-barcode",
+      "page_class": "sofax-solution-barkod",
+      "long_description": "Mobil cihaz veya el terminalleri ile barkod okutarak stok sayımı, depo transferi ve ürün giriş-çıkışlarını anlık olarak AgotaSoft ERP'ye işleyin.",
+      "bullets": [
+        "Mobil Barkod Okuma",
+        "Anlık Stok Güncelleme",
+        "Depo Transfer Yönetimi",
+        "Toplu Sayım Modu",
+        "ERP ile Tam Entegrasyon"
+      ],
+      "slug": "mobil-barkod-sistemi",
+      "id": "mobil-barkod-sistemi"
+    },
+    {
+      "title": "Cepte Ne Var",
+      "description": "WhatsApp ve Telegram üzerinden mesaj atarak harcamalarınızı, bütçenizi ve yatırımlarınızı AI koçunuzla yönetin.",
+      "icon": "/images/v1/icon1.png",
+      "link": "https://ceptenevar.com",
+      "category": "sofax-solution-ceptenevar",
+      "fa_icon": "fas fa-comments-dollar",
+      "page_class": "sofax-solution-ceptenevar",
+      "long_description": "AgotaSoft'ın bireysel kullanıcılara yönelik AI destekli kişisel finans asistanı. WhatsApp veya Telegram'dan mesaj atarak harcama takibi, bütçe analizi ve tasarruf önerileri alın.",
+      "bullets": [
+        "WhatsApp / Telegram Entegrasyonu",
+        "OCR ile Fiş Okuma",
+        "Proaktif Tasarruf Önerileri",
+        "Yatırım ve Döviz Takibi"
+      ],
+      "slug": "cepte-ne-var",
+      "id": "cepte-ne-var",
+      "external": true
+    },
+    {
+      "title": "Görevim Ne",
+      "description": "WhatsApp, Telegram, Slack veya Teams üzerinden ekibinizin görevlerini AI ile oluşturun, atayın ve takip edin.",
+      "icon": "/images/v1/icon3.png",
+      "link": "https://gorevimne.com",
+      "category": "sofax-solution-gorevimne",
+      "fa_icon": "fas fa-tasks",
+      "page_class": "sofax-solution-gorevimne",
+      "long_description": "AgotaSoft'ın AI destekli omnichannel görev yönetimi ürünü. Mesajlaşma platformlarından görev oluşturma, otomatik atama, akıllı eskalasyon ve her sabah ekibinizi arayan AI Daily özelliği ile ekip verimliliğinizi artırın.",
+      "bullets": [
+        "Omnichannel Görev Yönetimi",
+        "Otomatik Yetkilendirme",
+        "AI Daily Sesli Standup",
+        "Akıllı Eskalasyon Motoru"
+      ],
+      "slug": "gorevim-ne",
+      "id": "gorevim-ne",
+      "external": true
     }
   ],
-  "testimonials": [
-    {
-      "rating": 5,
-      "description": "AgotaSoft ERP sistemi sayesinde tüm operasyonlarımızı tek platformda yönetiyoruz. Stok yönetiminden finansa kadar her şey çok daha kolay hale geldi. Kesinlikle tavsiye ederim!",
-      "author": "Ahmet Yılmaz",
-      "designation": "Genel Müdür, ABC Tekstil",
-      "img": "/images/v1/member1.png"
-    },
-    {
-      "rating": 5,
-      "description": "CRM sistemi ile müşteri ilişkilerimizi çok daha etkili yönetiyoruz. Satış fırsatlarımız %40 arttı. AgotaSoft ekibinin desteği de mükemmel.",
-      "author": "Ayşe Kaya",
-      "designation": "Satış Müdürü, XYZ Otomotiv",
-      "img": "/images/v1/member2.png"
-    },
-    {
-      "rating": 5,
-      "description": "Ön muhasebe sistemini kullanmaya başladığımızdan beri e-fatura süreçlerimiz otomatikleşti. Zaman tasarrufu sağladık ve hata oranımız sıfıra indi.",
-      "author": "Mehmet Öz",
-      "designation": "Mali İşler Müdürü, DEF İnşaat",
-      "img": "/images/v1/member3.png"
-    },
-    {
-      "rating": 5,
-      "description": "LMS platformu ile çalışan eğitimlerimizi dijitalleştirdik. Online sınavlar ve sertifika sistemi çok başarılı. Eğitim verimliliğimiz katlandı.",
-      "author": "Fatma Demir",
-      "designation": "İK Müdürü, GHI Teknoloji",
-      "img": "/images/v1/member1.png"
-    },
-    {
-      "rating": 5,
-      "description": "15 yıldır farklı yazılımlar kullandık ama Sofax kadar entegre ve kullanıcı dostu bir sistem görmedik. Gerçekten işimizi kolaylaştırdı.",
-      "author": "Ali Veli",
-      "designation": "İşletme Sahibi, JKL Gıda",
-      "img": "/images/v1/member2.png"
-    }
-  ],
+  "testimonials": [],
+  "pricing": {
+    "all": [
+      {
+        "title": "Başlangıç Paketi",
+        "subtitle": "Küçük işletmeler için ideal",
+        "icon": "fas fa-seedling",
+        "className": "sofax-solution-starter",
+        "features": [
+          "Temel ERP modülleri",
+          "CRM müşteri yönetimi",
+          "Ön muhasebe sistemi",
+          "5 kullanıcıya kadar",
+          "E-posta desteği",
+          "Temel raporlar"
+        ],
+        "product_id": "all",
+        "popular": false,
+        "slug": "all-0",
+        "id": "all-0"
+      },
+      {
+        "title": "Profesyonel Paket",
+        "subtitle": "Büyüyen işletmeler için",
+        "icon": "fas fa-rocket",
+        "className": "sofax-solution-professional",
+        "popular": true,
+        "features": [
+          "Tüm ERP modülleri",
+          "Gelişmiş CRM özellikleri",
+          "LMS eğitim sistemi",
+          "25 kullanıcıya kadar",
+          "Telefon desteği",
+          "Gelişmiş raporlar",
+          "Mobil uygulama"
+        ],
+        "product_id": "all",
+        "slug": "all-1",
+        "id": "all-1"
+      },
+      {
+        "title": "Kurumsal Paket",
+        "subtitle": "Büyük şirketler için",
+        "icon": "fas fa-crown",
+        "className": "sofax-solution-enterprise",
+        "features": [
+          "Özelleştirilebilir tüm modüller",
+          "AI destekli analiz",
+          "API entegrasyonları",
+          "Sınırsız kullanıcı",
+          "7/24 öncelikli destek",
+          "Özel raporlar",
+          "Özel entegrasyonlar"
+        ],
+        "product_id": "all",
+        "popular": false,
+        "slug": "all-2",
+        "id": "all-2"
+      }
+    ],
+    "erp": [
+      {
+        "title": "Temel ERP",
+        "subtitle": "Küçük işletmeler için",
+        "icon": "fas fa-seedling",
+        "className": "sofax-solution-starter",
+        "features": [
+          "Stok yönetimi",
+          "Temel finans",
+          "Satış takibi",
+          "5 kullanıcı",
+          "E-posta desteği"
+        ],
+        "product_id": "erp",
+        "popular": false,
+        "slug": "erp-3",
+        "id": "erp-3"
+      },
+      {
+        "title": "Profesyonel ERP",
+        "subtitle": "Büyüyen işletmeler için",
+        "icon": "fas fa-industry",
+        "className": "sofax-solution-professional",
+        "popular": true,
+        "features": [
+          "Tüm ERP modülleri",
+          "Üretim planlaması",
+          "Gelişmiş raporlar",
+          "25 kullanıcı",
+          "Telefon desteği"
+        ],
+        "product_id": "erp",
+        "slug": "erp-4",
+        "id": "erp-4"
+      },
+      {
+        "title": "Kurumsal ERP",
+        "subtitle": "Büyük şirketler için",
+        "icon": "fas fa-crown",
+        "className": "sofax-solution-enterprise",
+        "features": [
+          "Özelleştirilebilir modüller",
+          "API entegrasyonları",
+          "Sınırsız kullanıcı",
+          "7/24 destek",
+          "Özel raporlar"
+        ],
+        "product_id": "erp",
+        "popular": false,
+        "slug": "erp-5",
+        "id": "erp-5"
+      }
+    ],
+    "crm": [
+      {
+        "title": "Temel CRM",
+        "subtitle": "Küçük satış ekipleri için",
+        "icon": "fas fa-user-friends",
+        "className": "sofax-solution-starter",
+        "features": [
+          "Müşteri yönetimi",
+          "Satış takibi",
+          "E-posta entegrasyonu",
+          "5 kullanıcı",
+          "Temel raporlar"
+        ],
+        "product_id": "crm",
+        "popular": false,
+        "slug": "crm-6",
+        "id": "crm-6"
+      },
+      {
+        "title": "Profesyonel CRM",
+        "subtitle": "Büyüyen satış ekipleri için",
+        "icon": "fas fa-chart-line",
+        "className": "sofax-solution-professional",
+        "popular": true,
+        "features": [
+          "Gelişmiş CRM özellikleri",
+          "Pazarlama otomasyonu",
+          "Mobil uygulama",
+          "25 kullanıcı",
+          "Telefon desteği"
+        ],
+        "product_id": "crm",
+        "slug": "crm-7",
+        "id": "crm-7"
+      },
+      {
+        "title": "Kurumsal CRM",
+        "subtitle": "Büyük satış organizasyonları için",
+        "icon": "fas fa-trophy",
+        "className": "sofax-solution-enterprise",
+        "features": [
+          "AI destekli analiz",
+          "Özel entegrasyonlar",
+          "Sınırsız kullanıcı",
+          "7/24 destek",
+          "Özel raporlar"
+        ],
+        "product_id": "crm",
+        "popular": false,
+        "slug": "crm-8",
+        "id": "crm-8"
+      }
+    ],
+    "accounting": [
+      {
+        "title": "Temel Ön Muhasebe",
+        "subtitle": "Küçük işletmeler için",
+        "icon": "fas fa-calculator",
+        "className": "sofax-solution-starter",
+        "features": [
+          "E-Fatura entegrasyonu",
+          "Temel cari hesap",
+          "Gider takibi",
+          "3 kullanıcı",
+          "E-posta desteği"
+        ],
+        "product_id": "accounting",
+        "popular": false,
+        "slug": "accounting-9",
+        "id": "accounting-9"
+      },
+      {
+        "title": "Profesyonel Ön Muhasebe",
+        "subtitle": "Büyüyen işletmeler için",
+        "icon": "fas fa-file-invoice-dollar",
+        "className": "sofax-solution-professional",
+        "popular": true,
+        "features": [
+          "Gelişmiş cari hesap",
+          "Vergi hesaplamaları",
+          "Detaylı raporlar",
+          "10 kullanıcı",
+          "Telefon desteği"
+        ],
+        "product_id": "accounting",
+        "slug": "accounting-10",
+        "id": "accounting-10"
+      },
+      {
+        "title": "Kurumsal Ön Muhasebe",
+        "subtitle": "Büyük şirketler için",
+        "icon": "fas fa-building",
+        "className": "sofax-solution-enterprise",
+        "features": [
+          "Çoklu şirket desteği",
+          "API entegrasyonları",
+          "Sınırsız kullanıcı",
+          "7/24 destek",
+          "Özel raporlar"
+        ],
+        "product_id": "accounting",
+        "popular": false,
+        "slug": "accounting-11",
+        "id": "accounting-11"
+      }
+    ],
+    "lms": [
+      {
+        "title": "Temel LMS",
+        "subtitle": "Küçük eğitim kurumları için",
+        "icon": "fas fa-book",
+        "className": "sofax-solution-starter",
+        "features": [
+          "Online ders yönetimi",
+          "Temel sınav sistemi",
+          "Sertifika yönetimi",
+          "50 öğrenci",
+          "E-posta desteği"
+        ],
+        "product_id": "lms",
+        "popular": false,
+        "slug": "lms-12",
+        "id": "lms-12"
+      },
+      {
+        "title": "Profesyonel LMS",
+        "subtitle": "Büyüyen eğitim kurumları için",
+        "icon": "fas fa-graduation-cap",
+        "className": "sofax-solution-professional",
+        "popular": true,
+        "features": [
+          "Gelişmiş sınav sistemi",
+          "Video konferans entegrasyonu",
+          "Performans analizi",
+          "500 öğrenci",
+          "Telefon desteği"
+        ],
+        "product_id": "lms",
+        "slug": "lms-13",
+        "id": "lms-13"
+      },
+      {
+        "title": "Kurumsal LMS",
+        "subtitle": "Büyük eğitim organizasyonları için",
+        "icon": "fas fa-university",
+        "className": "sofax-solution-enterprise",
+        "features": [
+          "Özelleştirilebilir platform",
+          "API entegrasyonları",
+          "Sınırsız öğrenci",
+          "7/24 destek",
+          "Özel raporlar"
+        ],
+        "product_id": "lms",
+        "popular": false,
+        "slug": "lms-14",
+        "id": "lms-14"
+      }
+    ]
+  },
   "pricing_products": [
     {
       "id": "all",
@@ -415,463 +623,210 @@
       "icon": "fas fa-graduation-cap"
     }
   ],
-  "pricing": {
-    "all": [
-      {
-        "title": "Başlangıç Paketi",
-        "subtitle": "Küçük işletmeler için ideal",
-        "icon": "fas fa-seedling",
-        "className": "sofax-solution-starter",
-        "features": [
-          "Temel ERP modülleri",
-          "CRM müşteri yönetimi",
-          "Ön muhasebe sistemi",
-          "5 kullanıcıya kadar",
-          "E-posta desteği",
-          "Temel raporlar"
-        ]
-      },
-      {
-        "title": "Profesyonel Paket",
-        "subtitle": "Büyüyen işletmeler için",
-        "icon": "fas fa-rocket",
-        "className": "sofax-solution-professional",
-        "popular": true,
-        "features": [
-          "Tüm ERP modülleri",
-          "Gelişmiş CRM özellikleri",
-          "LMS eğitim sistemi",
-          "25 kullanıcıya kadar",
-          "Telefon desteği",
-          "Gelişmiş raporlar",
-          "Mobil uygulama"
-        ]
-      },
-      {
-        "title": "Kurumsal Paket",
-        "subtitle": "Büyük şirketler için",
-        "icon": "fas fa-crown",
-        "className": "sofax-solution-enterprise",
-        "features": [
-          "Özelleştirilebilir tüm modüller",
-          "AI destekli analiz",
-          "API entegrasyonları",
-          "Sınırsız kullanıcı",
-          "7/24 öncelikli destek",
-          "Özel raporlar",
-          "Özel entegrasyonlar"
-        ]
-      }
-    ],
-    "erp": [
-      {
-        "title": "Temel ERP",
-        "subtitle": "Küçük işletmeler için",
-        "icon": "fas fa-seedling",
-        "className": "sofax-solution-starter",
-        "features": [
-          "Stok yönetimi",
-          "Temel finans",
-          "Satış takibi",
-          "5 kullanıcı",
-          "E-posta desteği"
-        ]
-      },
-      {
-        "title": "Profesyonel ERP",
-        "subtitle": "Büyüyen işletmeler için",
-        "icon": "fas fa-industry",
-        "className": "sofax-solution-professional",
-        "popular": true,
-        "features": [
-          "Tüm ERP modülleri",
-          "Üretim planlaması",
-          "Gelişmiş raporlar",
-          "25 kullanıcı",
-          "Telefon desteği"
-        ]
-      },
-      {
-        "title": "Kurumsal ERP",
-        "subtitle": "Büyük şirketler için",
-        "icon": "fas fa-crown",
-        "className": "sofax-solution-enterprise",
-        "features": [
-          "Özelleştirilebilir modüller",
-          "API entegrasyonları",
-          "Sınırsız kullanıcı",
-          "7/24 destek",
-          "Özel raporlar"
-        ]
-      }
-    ],
-    "crm": [
-      {
-        "title": "Temel CRM",
-        "subtitle": "Küçük satış ekipleri için",
-        "icon": "fas fa-user-friends",
-        "className": "sofax-solution-starter",
-        "features": [
-          "Müşteri yönetimi",
-          "Satış takibi",
-          "E-posta entegrasyonu",
-          "5 kullanıcı",
-          "Temel raporlar"
-        ]
-      },
-      {
-        "title": "Profesyonel CRM",
-        "subtitle": "Büyüyen satış ekipleri için",
-        "icon": "fas fa-chart-line",
-        "className": "sofax-solution-professional",
-        "popular": true,
-        "features": [
-          "Gelişmiş CRM özellikleri",
-          "Pazarlama otomasyonu",
-          "Mobil uygulama",
-          "25 kullanıcı",
-          "Telefon desteği"
-        ]
-      },
-      {
-        "title": "Kurumsal CRM",
-        "subtitle": "Büyük satış organizasyonları için",
-        "icon": "fas fa-trophy",
-        "className": "sofax-solution-enterprise",
-        "features": [
-          "AI destekli analiz",
-          "Özel entegrasyonlar",
-          "Sınırsız kullanıcı",
-          "7/24 destek",
-          "Özel raporlar"
-        ]
-      }
-    ],
-    "accounting": [
-      {
-        "title": "Temel Ön Muhasebe",
-        "subtitle": "Küçük işletmeler için",
-        "icon": "fas fa-calculator",
-        "className": "sofax-solution-starter",
-        "features": [
-          "E-Fatura entegrasyonu",
-          "Temel cari hesap",
-          "Gider takibi",
-          "3 kullanıcı",
-          "E-posta desteği"
-        ]
-      },
-      {
-        "title": "Profesyonel Ön Muhasebe",
-        "subtitle": "Büyüyen işletmeler için",
-        "icon": "fas fa-file-invoice-dollar",
-        "className": "sofax-solution-professional",
-        "popular": true,
-        "features": [
-          "Gelişmiş cari hesap",
-          "Vergi hesaplamaları",
-          "Detaylı raporlar",
-          "10 kullanıcı",
-          "Telefon desteği"
-        ]
-      },
-      {
-        "title": "Kurumsal Ön Muhasebe",
-        "subtitle": "Büyük şirketler için",
-        "icon": "fas fa-building",
-        "className": "sofax-solution-enterprise",
-        "features": [
-          "Çoklu şirket desteği",
-          "API entegrasyonları",
-          "Sınırsız kullanıcı",
-          "7/24 destek",
-          "Özel raporlar"
-        ]
-      }
-    ],
-    "lms": [
-      {
-        "title": "Temel LMS",
-        "subtitle": "Küçük eğitim kurumları için",
-        "icon": "fas fa-book",
-        "className": "sofax-solution-starter",
-        "features": [
-          "Online ders yönetimi",
-          "Temel sınav sistemi",
-          "Sertifika yönetimi",
-          "50 öğrenci",
-          "E-posta desteği"
-        ]
-      },
-      {
-        "title": "Profesyonel LMS",
-        "subtitle": "Büyüyen eğitim kurumları için",
-        "icon": "fas fa-graduation-cap",
-        "className": "sofax-solution-professional",
-        "popular": true,
-        "features": [
-          "Gelişmiş sınav sistemi",
-          "Video konferans entegrasyonu",
-          "Performans analizi",
-          "500 öğrenci",
-          "Telefon desteği"
-        ]
-      },
-      {
-        "title": "Kurumsal LMS",
-        "subtitle": "Büyük eğitim organizasyonları için",
-        "icon": "fas fa-university",
-        "className": "sofax-solution-enterprise",
-        "features": [
-          "Özelleştirilebilir platform",
-          "API entegrasyonları",
-          "Sınırsız öğrenci",
-          "7/24 destek",
-          "Özel raporlar"
-        ]
-      }
-    ]
-  },
   "team": [
     {
-      "name": "Jonathon Marics",
+      "name": "Ahmet Rasim Beyhan",
       "title": "Founder & CEO",
-      "image": "/images/about/image1.png",
+      "image": "/images/team/founder-ceo.png",
       "className": "sofax-team-member-aboutus",
-      "column": "0"
+      "column": "0",
+      "bio": "AgotaSoft'un kurucusu olarak, karmaşık iş süreçlerine çözüm üreten ERP sistemleri geliştirmeye odaklanıyorum. Halen Teklas'ta Junior Software Developer olarak çalışıyor, sürekli öğrenme ve yenilikçilikle kurumlara ve kullanıcılarına değer katan ölçeklenebilir teknolojiler üretmeyi hedefliyorum.",
+      "experience": "",
+      "phone": "+90 552 517 57 81 ",
+      "social_twitter": "",
+      "social_facebook": "",
+      "social_instagram": "",
+      "social_linkedin": "https://www.linkedin.com/in/ahmetrasimbeyhan/",
+      "experience_text": "",
+      "experience_text_2": "",
+      "slug": "founder-ceo",
+      "id": "founder-ceo"
     },
     {
-      "name": "Sellimers Terrony",
-      "title": "Marketing expert",
-      "image": "/images/about/image5.png",
-      "className": "",
-      "column": "0"
-    },
-    {
-      "name": "Helmioll Vesters",
-      "title": "Chief financial officer",
-      "image": "/images/about/image2.png",
-      "className": "",
-      "column": "1"
-    },
-    {
-      "name": "Elimerson Sanvry",
-      "title": "Chief executive officer",
-      "image": "/images/about/image6.png",
-      "className": "",
-      "column": "1"
-    },
-    {
-      "name": "Willemor Smilty",
-      "title": "Chief Strategy Officer",
-      "image": "/images/about/image3.png",
+      "name": "Mehmet Altekin",
+      "title": "Ortak Kurucu",
+      "image": "/images/team/mehmet-altekin.png",
       "className": "sofax-team-member-aboutus",
-      "column": "2"
-    },
-    {
-      "name": "Ferroliam Centrl",
-      "title": "Creative director",
-      "image": "/images/about/image7.png",
-      "className": "",
-      "column": "2"
-    },
-    {
-      "name": "Amillen Canver",
-      "title": "Director of HR",
-      "image": "/images/about/image4.png",
-      "className": "",
-      "column": "3"
-    },
-    {
-      "name": "Jovenners Willom",
-      "title": "Market researcher",
-      "image": "/images/about/image8.png",
-      "className": "",
-      "column": "3"
+      "column": "1",
+      "bio": "AgotaSoft'un ortak kurucusu. Marmara Üniversitesi'nde Almanca İşletme (Finans) bölümünde eğitimine devam ediyor; finans, davranışsal finans, sermaye piyasaları ve yatırım stratejileri alanlarına ilgi duyuyor.",
+      "experience": "",
+      "phone": "",
+      "social_twitter": "",
+      "social_facebook": "",
+      "social_instagram": "",
+      "social_linkedin": "",
+      "experience_text": "",
+      "experience_text_2": "",
+      "slug": "mehmet-altekin",
+      "id": "mehmet-altekin"
     }
   ],
   "portfolio": [
     {
-      "title": "Gradient Web Design",
-      "category_label": "Web design & development",
-      "mix_class": "business consultancy",
-      "image": "/images/v5/image1.png",
-      "url": "/single-portfolio"
+      "title": "Ronex Tekstil",
+      "category_label": "Tekstil Üretimi · AgotaSoft ERP",
+      "mix_class": "erp",
+      "image": "/images/portfolio/ronex-tekstil.png",
+      "url": "/single-portfolio",
+      "slug": "ronex-tekstil",
+      "id": "ronex-tekstil",
+      "client": "Ronex Tekstil",
+      "services": "AgotaSoft ERP",
+      "date": "Devam eden proje",
+      "website": "https://ronextekstil.com",
+      "overview": "Ronex Tekstil, üretim planlama, stok/depo yönetimi ve satın alma süreçlerini AgotaSoft ERP üzerinden tek platformda yönetiyor. Entegrasyon; cari hesap takibi ve finansal raporlamayı da kapsayacak şekilde genişletildi."
     },
     {
-      "title": "Mobile Web Design",
-      "category_label": "APP",
-      "mix_class": "development",
-      "image": "/images/v5/image2.png",
-      "url": "/single-portfolio"
+      "title": "Şimad Brode",
+      "category_label": "Tekstil Nakış & İşleme · AgotaSoft ERP",
+      "mix_class": "erp",
+      "image": "/images/portfolio/simad-brode.png",
+      "url": "/single-portfolio",
+      "slug": "simad-brode",
+      "id": "simad-brode",
+      "client": "Şimad Brode",
+      "services": "AgotaSoft ERP",
+      "date": "Devam eden proje",
+      "website": "https://simadbrode.com",
+      "overview": "Şimad Brode, tedarikçi yönetimi, sipariş takibi ve üretim raporlamasını AgotaSoft ERP ile dijitalleştirdi. Tekstil nakış üretiminde uçtan uca süreç görünürlüğü sağlandı."
     },
     {
-      "title": "Responsive Web Design",
-      "category_label": "UI/UX Design",
-      "mix_class": "Security business consultancy",
-      "image": "/images/v5/image4.png",
-      "url": "/single-portfolio"
-    },
-    {
-      "title": "Smart Watch Design",
-      "category_label": "Digital World",
-      "mix_class": "consultancy",
-      "image": "/images/v5/image3.png",
-      "url": "/single-portfolio"
-    },
-    {
-      "title": "Gradient Web Design",
-      "category_label": "Web Design",
-      "mix_class": "development security",
-      "image": "/images/v5/image1.png",
-      "url": "/single-portfolio"
-    },
-    {
-      "title": "Website SEO Ranking",
-      "category_label": "Development",
-      "mix_class": "development security",
-      "image": "/images/v5/image2.png",
-      "url": "/single-portfolio"
+      "title": "Özsim İplik",
+      "category_label": "Tekstil Aksesuar & Tuhafiye · E-Ticaret Dönüşümü",
+      "mix_class": "eticaret",
+      "image": "/images/portfolio/ozsim-iplik.png",
+      "url": "/single-portfolio",
+      "slug": "ozsim-iplik",
+      "id": "ozsim-iplik",
+      "client": "Özsim İplik",
+      "services": "E-Ticaret Altyapısı & Entegrasyon",
+      "date": "Devam eden proje",
+      "website": "https://ozsimiplik.com",
+      "overview": "Özsim İplik icin fiziksel mağazadan e-ticarete açılan dijital dönüşüm sürecini yönetiyoruz: e-ticaret altyapısının kurulumu, reklam hesaplarının (Google/Meta) yönetimi ve online ödeme entegrasyonu ile mağazanın internet üzerinden satış yapabilmesi sağlandı."
     }
   ],
   "blog": [
     {
-      "title": "Optimizing your online store for a maximum to sales impact your business to the world.",
-      "category": "Technology",
-      "date": "April 13, 2024",
+      "title": "KOBİ'ler İçin ERP Seçerken Dikkat Edilmesi Gereken 7 Kriter",
+      "category": "ERP",
+      "date": "15 Ocak 2026",
       "image": "/images/blog/blogthumb1.png",
-      "description": "Optimizing your online store for maximum sales impact and exposure involves a multifaceted approach & incorporating a blog can be a crucial aspect.",
-      "content": "Optimizing your online store for maximum sales impact & exposure involves a multifaceted approach & incorporating a blog can be a crucial aspect of that strategy. Here's a detailed breakdown of how to leverage a blog to enhance your online store's performance:\n\n1. Mobile Optimization\nEnsure your online store is mobile-friendly, as a significant portion of online shopping occurs on mobile devices. Optimize your website design and user experience for smartphones and tablets to maximize accessibility and conversion rates.\n\n2. Search Engine Optimization\nImplement SEO best practices to improve your website's visibility in search engine results. This includes optimizing product descriptions, meta tags & URLs as well as building quality backlinks & creating valuable content that aligns with relevant keywords.\n\n3. Review & Testimonials\nDisplay customer reviews and testimonials prominently on your website to build trust and credibility. Positive reviews can reassure potential buyers and encourage them to complete their purchase.\n\n4. Social Media Marketing\nLeverage social media platforms to promote your online store & engage with your target audience. Create compelling content, run targeted ad campaigns, and actively interact with followers to drive traffic and generate sales.",
-      "slug": "optimizing-your-online-store"
+      "description": "Doğru ERP sistemini seçmek, işletmenizin büyüme hızını doğrudan etkiler. İşte karar vermeden önce gözden geçirmeniz gereken 7 temel kriter.",
+      "content": "Küçük ve orta ölçekli işletmeler için ERP yatırımı, hem zaman hem de bütçe açısından ciddi bir karardır. Yanlış seçilen bir sistem, süreçleri kolaylaştıracağına daha da karmaşık hale getirebilir. Aşağıdaki kriterler, karar sürecinizi netleştirmenize yardımcı olabilir.\n\n1. Sektörünüze uygunluk\nGenel amaçlı bir ERP yerine, üretim, tekstil, perakende gibi kendi sektörünüzün süreçlerine (stok, üretim planlama, cari hesap gibi) hazır destek sunan bir sistem, uygulama süresini kısaltır.\n\n2. Kullanım kolaylığı\nEkibinizin teknik bilgisi ne olursa olsun, arayüzü anlaşılır bir sistem benimseme oranını doğrudan artırır. Karmaşık ekranlar, eğitim maliyetini ve dirençleri büyütür.\n\n3. Modüler yapı\nİşletmeniz büyüdükçe ihtiyaçlarınız değişir. Stok, finans, üretim ve İK modüllerini ihtiyaç duydukça ekleyebildiğiniz bir yapı, gereksiz maliyetten kaçınmanızı sağlar.\n\n4. Entegrasyon kabiliyeti\nE-Fatura, e-ticaret, ödeme sistemleri ve muhasebe programlarıyla sorunsuz entegre olabilen bir ERP, veri tekrarını ve manuel hataları azaltır.\n\n5. Bulut tabanlı erişim\nOfis dışından, mobil cihazlardan erişim; özellikle birden fazla lokasyonu veya sahada çalışan ekipleri olan işletmeler için artık bir tercih değil, ihtiyaç haline geldi.\n\n6. Kurulum ve destek süreci\nKurulum süresi, veri aktarımı ve eğitim desteğinin nasıl yürütüleceği net olmalı. Kurulum sonrası destek kalitesi, sistemin uzun vadeli başarısını belirler.\n\n7. Toplam sahip olma maliyeti\nLisans bedeli kadar, kullanıcı başı ücretlendirme, entegrasyon maliyetleri ve olası özelleştirme giderlerini de hesaba katmak gerekir.\n\nAgotaSoft ERP, bu kriterlerin çoğunu KOBİ'lerin bütçesine uygun şekilde karşılamak üzere tasarlandı. Sisteme ücretsiz demo talebiyle daha yakından göz atabilirsiniz.",
+      "slug": "kobiler-icin-erp-secerken-dikkat-edilmesi-gereken-7-kriter",
+      "id": "kobiler-icin-erp-secerken-dikkat-edilmesi-gereken-7-kriter"
     },
     {
-      "title": "We’re here to explain how data analytics with sofax can help to grow your business.",
-      "category": "Business",
-      "date": "11 April 2024",
+      "title": "Dijital Dönüşüm Neden Artık Ertelenemez?",
+      "category": "Dijital Dönüşüm",
+      "date": "3 Şubat 2026",
       "image": "/images/blog/blogthumb2.png",
-      "description": "Businesses better understand their customer base by segmenting them based on various criteria such as demographics, purchasing behavior, and preferences."
+      "description": "Excel tabloları ve kağıt üzerinde takip edilen süreçler, işletmenizi rakiplerinizin gerisinde bırakabilir. Dijital dönüşümü ertelemenin gerçek maliyeti nedir?",
+      "content": "Birçok KOBİ, dijital dönüşümü \"daha sonra ele alınacak\" bir konu olarak görüyor. Oysa manuel süreçlerin görünmeyen maliyeti, çoğu zaman bir yazılım yatırımından çok daha yüksek.\n\n1. Kaybolan zaman\nFarklı Excel dosyaları arasında veri taşımak, stok sayımını elle kontrol etmek ya da fatura bilgilerini tekrar tekrar girmek, çalışanların stratejik işlere ayırması gereken zamanı tüketir.\n\n2. Karar verme hızı\nVerileriniz farklı tablolarda dağınık durduğunda, güncel ve doğru bir tabloya ulaşmak günler alabilir. Entegre bir sistemde ise aynı rapor birkaç saniyede hazır olur.\n\n3. İnsan kaynaklı hatalar\nManuel veri girişi, özellikle stok ve finansal kayıtlarda hata riskini artırır. Bu hatalar, zamanla ciddi maliyetlere dönüşebilir.\n\n4. Büyüme engelleri\nİşletme büyüdükçe manuel süreçler ölçeklenemez hale gelir. Yeni bir şube veya yeni bir ürün hattı açmak, sistemsiz işletmelerde çok daha zor bir operasyona dönüşür.\n\n5. Rekabet kaybı\nRakipleriniz stok, sipariş ve müşteri süreçlerini otomatikleştirdiğinde, siz hâlâ manuel işlerle uğraşıyorsanız, hem hız hem de maliyet avantajınızı kaybedersiniz.\n\nDijital dönüşüm, tek seferde her şeyi değiştirmek zorunda değildir. AgotaSoft'ta çoğu müşterimiz, önce tek bir modülle (örneğin stok yönetimi veya e-fatura) başlayıp süreç içinde diğer alanlara genişliyor. Önemli olan, ilk adımı atmak.",
+      "slug": "dijital-donusum-neden-artik-ertelenemez",
+      "id": "dijital-donusum-neden-artik-ertelenemez"
     },
     {
-      "title": "The importance of logo design in branding strategies development with logo design.",
-      "category": "Agency",
-      "date": "10 April 2024",
+      "title": "CRM ile Satış Ekibinizin Verimliliğini Nasıl Artırırsınız?",
+      "category": "CRM",
+      "date": "20 Şubat 2026",
       "image": "/images/blog/blogthumb3.png",
-      "description": "A logo is often the first point of contact between a company & its audience. It’s the visual representation of the brand & sets the tone for how the brand is perceived."
+      "description": "Satış fırsatlarını takip etmek artık not defterleriyle değil, doğru bir CRM sistemiyle yönetiliyor. İşte CRM'in satış ekibinize somut olarak sağladığı faydalar.",
+      "content": "Satış ekipleri genellikle en değerli varlıkları olan zamanlarını, fırsatları takip etmek yerine bu fırsatları hatırlamaya çalışmakla harcar. Doğru kurulmuş bir CRM sistemi bu dengeyi tersine çevirir.\n\n1. Tek bir doğru kaynak\nMüşteri bilgileri, geçmiş görüşmeler ve teklifler tek bir sistemde toplandığında, ekip üyeleri arasında bilgi kaybı yaşanmaz; bir satış temsilcisi izinli olsa bile süreç aksamaz.\n\n2. Fırsat önceliklendirme\nHangi fırsatın kapanmaya yakın olduğunu, hangisinin takip gerektirdiğini görmek, ekibin zamanını doğru fırsatlara yönlendirmesini sağlar.\n\n3. Otomatik hatırlatmalar\n\"Bu müşteriyi aramam gerekiyordu\" unutkanlığı, CRM'in otomatik hatırlatmalarıyla ortadan kalkar.\n\n4. Ölçülebilir performans\nKaç görüşme yapıldığı, kaç teklif gönderildiği ve dönüşüm oranının ne olduğu net biçimde raporlanabildiğinde, yöneticiler doğru kararlar alabilir.\n\n5. Müşteri deneyiminde tutarlılık\nMüşteri hangi temsilciyle görüşürse görüşsün, geçmiş yazışmalara ve tercihlere hâkim bir ekip, daha profesyonel bir izlenim bırakır.\n\nAgotaSoft CRM, satış hunisini uçtan uca görünür kılarak ekiplerin fırsatları kaçırmadan takip etmesini sağlıyor. İsterseniz kendi satış sürecinizle birebir örtüşüp örtüşmediğini ücretsiz demo ile test edebilirsiniz.",
+      "slug": "crm-ile-satis-ekibinizin-verimliligini-nasil-artirirsiniz",
+      "id": "crm-ile-satis-ekibinizin-verimliligini-nasil-artirirsiniz"
     }
   ],
   "faq": [
     {
-      "question": "What everybody ought to knoe about digital?",
-      "answer": "Take a trivial example which undertakes laborious physical a exercise except to obtain some advantage pleasure.",
-      "column": "1"
+      "question": "AgotaSoft ERP kurulumu ne kadar sürede tamamlanır?",
+      "answer": "İşletmenizin büyüklüğüne ve modül sayısına bağlı olarak kurulum genellikle 2-4 hafta içinde tamamlanır. Bu süreçte veri aktarımı, kullanıcı eğitimi ve entegrasyon testleri de dahildir.",
+      "column": "1",
+      "title": "AgotaSoft ERP kurulumu ne kadar sürede tamamlanır?",
+      "slug": "agotasoft-erp-kurulumu-ne-kadar-surede-tamamlanir",
+      "id": "agotasoft-erp-kurulumu-ne-kadar-surede-tamamlanir"
     },
     {
-      "question": "What services does a digital agency provide?",
-      "answer": "Take a trivial example which undertakes laborious physical a exercise except to obtain some advantage pleasure.",
-      "column": "1"
+      "question": "Mevcut sistemimizdeki verileri AgotaSoft'a aktarabilir miyiz?",
+      "answer": "Evet. Excel, mevcut ERP/muhasebe programları ve diğer veri kaynaklarından cari, stok, fatura ve müşteri verilerinizi güvenli şekilde aktarıyoruz. Aktarım süreci uzman ekibimiz tarafından yönetilir.",
+      "column": "1",
+      "title": "Mevcut sistemimizdeki verileri AgotaSoft'a aktarabilir miyiz?",
+      "slug": "mevcut-sistemimizdeki-verileri-agotasoft-a-aktarabilir-miyiz",
+      "id": "mevcut-sistemimizdeki-verileri-agotasoft-a-aktarabilir-miyiz"
     },
     {
-      "question": "How do you approach strategic planning?",
-      "answer": "Take a trivial example which undertakes laborious physical a exercise except to obtain some advantage pleasure.",
-      "column": "1"
+      "question": "Verilerimiz ne kadar güvende?",
+      "answer": "Tüm veriler 256-bit SSL şifreleme ile korunur, düzenli olarak yedeklenir ve ISO 27001 standartlarına uygun altyapıda barındırılır. Kullanıcı bazlı yetkilendirme ile kimin hangi veriye erişebileceğini siz belirlersiniz.",
+      "column": "1",
+      "title": "Verilerimiz ne kadar güvende?",
+      "slug": "verilerimiz-ne-kadar-guvende",
+      "id": "verilerimiz-ne-kadar-guvende"
     },
     {
-      "question": "Is there a guaranteed result?",
-      "answer": "Take a trivial example which undertakes laborious physical a exercise except to obtain some advantage pleasure.",
-      "column": "1"
+      "question": "Yapay zeka desteğini kapatabilir miyiz?",
+      "answer": "Evet. AgotaSoft çözümleri hem AI destekli hem de klasik modda kullanılabilir. AI önerileri, otomasyonlar ve akıllı raporlama tamamen isteğe bağlıdır; dilerseniz sistemi tamamen manuel kullanabilirsiniz.",
+      "column": "1",
+      "title": "Yapay zeka desteğini kapatabilir miyiz?",
+      "slug": "yapay-zeka-destegini-kapatabilir-miyiz",
+      "id": "yapay-zeka-destegini-kapatabilir-miyiz"
     },
     {
-      "question": "What services does Sofax provide?",
-      "answer": "Take a trivial example which undertakes laborious physical a exercise except to obtain some advantage pleasure.",
-      "column": "1"
+      "question": "Hangi ödeme yöntemlerini destekliyorsunuz?",
+      "answer": "Aylık veya yıllık abonelik modeliyle kredi kartı ve havale/EFT ile ödeme kabul ediyoruz. Kurumsal paketlerde fatura karşılığı ödeme seçeneği de sunuyoruz.",
+      "column": "2",
+      "title": "Hangi ödeme yöntemlerini destekliyorsunuz?",
+      "slug": "hangi-odeme-yontemlerini-destekliyorsunuz",
+      "id": "hangi-odeme-yontemlerini-destekliyorsunuz"
     },
     {
-      "question": "Is full outsourcing profitable?",
-      "answer": "Take a trivial example which undertakes laborious physical a exercise except to obtain some advantage pleasure.",
-      "column": "2"
+      "question": "Kaç kullanıcıyla başlayabiliriz?",
+      "answer": "1 kullanıcıdan başlayıp işletmeniz büyüdükçe kullanıcı sayınızı istediğiniz zaman artırabilirsiniz. Paket detayları için fiyatlandırma sayfamızı inceleyebilirsiniz.",
+      "column": "2",
+      "title": "Kaç kullanıcıyla başlayabiliriz?",
+      "slug": "kac-kullaniciyla-baslayabiliriz",
+      "id": "kac-kullaniciyla-baslayabiliriz"
     },
     {
-      "question": "What is a strategic to block?",
-      "answer": "Take a trivial example which undertakes laborious physical a exercise except to obtain some advantage pleasure.",
-      "column": "2"
+      "question": "E-Fatura ve GİB entegrasyonu var mı?",
+      "answer": "Evet, AgotaSoft Ön Muhasebe modülü GİB ile tam entegre çalışır; e-fatura, e-arşiv fatura ve e-irsaliye işlemlerinizi sistem üzerinden otomatik yürütebilirsiniz.",
+      "column": "2",
+      "title": "E-Fatura ve GİB entegrasyonu var mı?",
+      "slug": "e-fatura-ve-gi-b-entegrasyonu-var-mi",
+      "id": "e-fatura-ve-gi-b-entegrasyonu-var-mi"
     },
     {
-      "question": "How often should I update my website?",
-      "answer": "Take a trivial example which undertakes laborious physical a exercise except to obtain some advantage pleasure.",
-      "column": "2"
+      "question": "Destek hizmeti nasıl işliyor?",
+      "answer": "Tüm müşterilerimize e-posta ve telefon desteği sağlıyoruz; kurumsal paketlerde 7/24 öncelikli destek sunuyoruz. Kurulum sonrası ekibinize ücretsiz eğitim veriyoruz.",
+      "column": "2",
+      "title": "Destek hizmeti nasıl işliyor?",
+      "slug": "destek-hizmeti-nasil-isliyor",
+      "id": "destek-hizmeti-nasil-isliyor"
     },
     {
-      "question": "How digital agencies charge for their services?",
-      "answer": "Take a trivial example which undertakes laborious physical a exercise except to obtain some advantage pleasure.",
-      "column": "2"
+      "question": "Ücretsiz demo veya deneme süresi var mı?",
+      "answer": "Evet, tüm ürünlerimizde ücretsiz demo talep edebilir, kredi kartı bilgisi girmeden sistemi deneyebilirsiniz. Deneme süresi ürüne göre 14-30 gün arasında değişir.",
+      "column": "2",
+      "title": "Ücretsiz demo veya deneme süresi var mı?",
+      "slug": "ucretsiz-demo-veya-deneme-suresi-var-mi",
+      "id": "ucretsiz-demo-veya-deneme-suresi-var-mi"
     },
     {
-      "question": "How often should I update my website?",
-      "answer": "Take a trivial example which undertakes laborious physical a exercise except to obtain some advantage pleasure.",
-      "column": "2"
+      "question": "Mobil cihazlardan erişebilir miyiz?",
+      "answer": "Evet, tüm AgotaSoft ürünleri tarayıcı üzerinden mobil uyumlu çalışır; ERP ve CRM için ayrıca mobil uygulama seçeneklerimiz mevcuttur.",
+      "column": "2",
+      "title": "Mobil cihazlardan erişebilir miyiz?",
+      "slug": "mobil-cihazlardan-erisebilir-miyiz",
+      "id": "mobil-cihazlardan-erisebilir-miyiz"
     }
   ],
-  "careers": [
-    {
-      "title": "UI/UX & Product Designer",
-      "type": "Full Time",
-      "location": "London, UK",
-      "salary": "$23k-35K",
-      "description": "Product design encompasses both UI/UX design but it also a involves a broader understanding of the entire product.",
-      "mix_class": "business consultancy",
-      "url": "/single-career"
-    },
-    {
-      "title": "Social Media Marketing",
-      "type": "Remote",
-      "location": "United State",
-      "salary": "$45k-55K",
-      "description": "It involves creating and sharing to content on social media networks to achieve marketing and branding goals.",
-      "mix_class": "development",
-      "url": "/single-career"
-    },
-    {
-      "title": "Web Developer",
-      "type": "Remote",
-      "location": "New Work",
-      "salary": "$45k-55K",
-      "description": "Encompasses a rang of task including web design fornt end development back end development & server management.",
-      "mix_class": "Security business consultancy",
-      "url": "/single-career"
-    },
-    {
-      "title": "Graphic Designer",
-      "type": "Full Time",
-      "location": "New Work",
-      "salary": "$25k-35K",
-      "description": "Graphic designers combine art technology to the message through images & the layout of web screens & Printed.",
-      "mix_class": "consultancy",
-      "url": "/single-career"
-    },
-    {
-      "title": "VP of Growth Marketing",
-      "type": "Full Time",
-      "location": "London, UK",
-      "salary": "$30k-40K",
-      "description": "Marketing often works closely with other departments such as product development sales & analytics implement.",
-      "mix_class": "development security",
-      "url": "/single-career"
-    },
-    {
-      "title": "Lead of Product Design",
-      "type": "Remote",
-      "location": "United State",
-      "salary": "$30k-40K",
-      "description": "Encompasses a rang of task including web design fornt end development back end development & server management.",
-      "mix_class": "development security",
-      "url": "/single-career"
-    }
-  ],
+  "careers": [],
   "pages": {
     "home": {
       "title": "Anasayfa",
-      "hero_title": "AgotaSoft: İşletmenizi Geleceğe Taşıyan Akıllı Yazılım Çözümleri",
-      "hero_subtitle": "Entegre ERP, CRM, Ön Muhasebe ve LMS sistemlerimizle operasyonel verimliliği artırın, maliyetleri düşürün ve rekabette bir adım öne geçin. AgotaSoft ile dijital dönüşümünüzü tamamlayın."
+      "hero_title": "AgotaSoft ERP: İşletmenizi Yöneten Tek Platform",
+      "hero_subtitle": "Stok, üretim, finans ve satın almayı tek ekranda birleştirin. AI destekli, kolay kurulan ve öğrenmesi kolay bir ERP — karmaşık masaüstü yazılımlarına veda edin.",
+      "slug": "home",
+      "id": "home"
     },
     "about": {
       "title": "Hakkımızda",
@@ -946,7 +901,9 @@
           "title": "Kolay Entegrasyon",
           "text": "Mevcut sistemlerinizle sorunsuz entegrasyon."
         }
-      ]
+      ],
+      "slug": "about",
+      "id": "about"
     },
     "contact": {
       "title": "İletişim",
@@ -965,7 +922,9 @@
       "email_title": "E-posta Gönder",
       "email_text": "Detaylı sorularınızı e-posta ile iletin",
       "email_button": "E-posta Gönder",
-      "map_label": "AgotaSoft Yazılım"
+      "map_label": "AgotaSoft",
+      "slug": "contact",
+      "id": "contact"
     },
     "service": {
       "title": "Çözümlerimiz",
@@ -998,7 +957,9 @@
       "cta_title": "Hangi Çözüm İşletmenize Uygun?",
       "cta_text": "Uzman danışmanlarımızla görüşerek işletmenizin ihtiyaçlarına en uygun çözümü belirleyin.",
       "cta_primary": "Ücretsiz Danışmanlık",
-      "cta_secondary": "Fiyatları İncele"
+      "cta_secondary": "Fiyatları İncele",
+      "slug": "service",
+      "id": "service"
     },
     "pricing": {
       "title": "Fiyatlandırma",
@@ -1011,7 +972,11 @@
       "cta_primary": "Ücretsiz Danışmanlık",
       "cta_secondary": "İletişime Geçin",
       "contact_label": "İletişime Geçin",
-      "popular_label": "Popüler"
+      "popular_label": "Popüler",
+      "slug": "pricing",
+      "id": "pricing",
+      "all_packages_title": "AgotaSoft Paketleri",
+      "package_suffix": " Paketleri"
     },
     "erp": {
       "title": "AgotaSoft ERP Sistemi",
@@ -1133,7 +1098,33 @@
       "cta_title": "ERP Sisteminizi Bugün Kurmaya Başlayın",
       "cta_text": "30 günlük ücretsiz deneme ile AgotaSoft ERP'nin gücünü keşfedin. Kurulum ve eğitim desteği dahil.",
       "cta_button": "Ücretsiz Demo Talep Edin",
-      "cta_pricing": "Fiyatları İncele"
+      "cta_pricing": "Fiyatları İncele",
+      "slug": "erp",
+      "id": "erp",
+      "ai_title": "Yapay Zeka ile Herkesin Kullanabileceği ERP",
+      "ai_subtitle": "Amacımız karmaşık ekranlar değil, doğal bir sohbet. AI rutin işleri sizin yerinize yapar, siz işinize odaklanırsınız.",
+      "ai_items": [
+        {
+          "icon": "fas fa-comment-dots",
+          "title": "Doğal Dilde Sorun",
+          "text": "\"Bu ay en çok satan 5 ürün ne?\" gibi sorular sorun, raporu saniyeler içinde alın."
+        },
+        {
+          "icon": "fas fa-bolt",
+          "title": "Rutin İşleri Otomatikleştirin",
+          "text": "Stok yeniden sipariş, fatura hatırlatma ve onay akışlarını AI yönetsin."
+        },
+        {
+          "icon": "fas fa-triangle-exclamation",
+          "title": "Anormallikleri Yakalayın",
+          "text": "Beklenmeyen stok düşüşü veya maliyet artışında AI sizi otomatik uyarır."
+        },
+        {
+          "icon": "fas fa-toggle-on",
+          "title": "İsterseniz Kapatın",
+          "text": "AI tamamen opsiyoneldir; dilerseniz sistemi klasik modda, tamamen manuel kullanın."
+        }
+      ]
     },
     "crm": {
       "title": "AgotaSoft CRM Sistemi",
@@ -1252,7 +1243,9 @@
       "cta_title": "CRM Dönüşümünüzü Bugün Başlatın",
       "cta_text": "14 günlük ücretsiz deneme ile AgotaSoft CRM'in gücünü keşfedin. Kurulum ve eğitim desteği dahil.",
       "cta_button": "Ücretsiz Demo Talep Edin",
-      "cta_pricing": "Fiyatları İncele"
+      "cta_pricing": "Fiyatları İncele",
+      "slug": "crm",
+      "id": "crm"
     },
     "lms": {
       "title": "AgotaSoft LMS Sistemi",
@@ -1398,7 +1391,10 @@
       "cta_title": "Kurumsal Eğitim Dönüşümünüzü Başlatın",
       "cta_text": "30 günlük ücretsiz deneme ile AgotaSoft LMS'in gücünü keşfedin. Kurulum, içerik yükleme ve eğitim desteği dahil.",
       "cta_button": "Ücretsiz Demo Talep Edin",
-      "cta_pricing": "Fiyatları İncele"
+      "cta_pricing": "Fiyatları İncele",
+      "slug": "lms",
+      "id": "lms",
+      "hero_image": "/images/products/lms-dashboard.png"
     },
     "pre-accounting": {
       "title": "AgotaSoft Ön Muhasebe Sistemi",
@@ -1536,70 +1532,96 @@
       "cta_text": "30 günlük ücretsiz deneme ile Sofax Ön Muhasebe'nin gücünü keşfedin. Kurulum ve eğitim desteği dahil.",
       "cta_button": "Ücretsiz Demo Talep Edin",
       "cta_phone": "Hemen Arayın",
-      "cta_phone_url": "tel:+908001234567"
+      "cta_phone_url": "tel:+908001234567",
+      "slug": "pre-accounting",
+      "id": "pre-accounting",
+      "hero_image": "/images/products/pre-accounting-dashboard.png"
     },
     "terms": {
-      "title": "Terms & condition of service :",
-      "hero_title": "Terms & condition of service :",
-      "body": "Welcome to our agency. These terms and conditions outline the rules and regulations for our services. By the accessing this website and or using to our services. You accepts these the terms and conditions in full.",
-      "intro": "Welcome to our agency. These terms and conditions outline the rules and regulations for our services. By the accessing this website and or using to our services. You accepts these the terms and conditions in full.",
+      "title": "Kullanım Şartları",
+      "hero_title": "Kullanım Şartları",
+      "intro": "Bu sayfa, agotasoft.com web sitesini ve AgotaSoft yazılım çözümlerini kullanırken geçerli olan genel şartları özetler. Ürünlerimize özel sözleşme ve hizmet seviyesi koşulları, imzalanan ticari sözleşmelerde ayrıca belirtilir.",
       "sections": [
         {
-          "title": "Interpretation",
-          "text": "outlining the rules, responsibilities, and expectations for both parties. These terms typically cover aspects such as usage rights, payment terms, privacy policies, dispute resolution, and any other relevant terms that govern the use of the service. Users are usually required to agree to these terms before using the service, and they serve as a legally binding contract between the user and the provider.",
+          "title": "1. Genel Hükümler",
+          "text": "agotasoft.com web sitesini ziyaret ederek veya AgotaSoft ürünlerine (ERP, CRM, Ön Muhasebe, LMS ve diğer çözümler) üye olarak bu kullanım şartlarını kabul etmiş sayılırsınız. AgotaSoft, bu şartları önceden haber vermeksizin güncelleme hakkını saklı tutar; güncel sürüm her zaman bu sayfada yayınlanır."
+        },
+        {
+          "title": "2. Hizmetin Kapsamı",
+          "text": "AgotaSoft, işletmelere yönelik bulut tabanlı ERP, CRM, ön muhasebe ve öğrenme yönetim sistemi (LMS) çözümleri sunar. Hizmet kapsamı, seçilen pakete ve varsa özel olarak imzalanan sözleşmeye göre değişiklik gösterebilir."
+        },
+        {
+          "title": "3. Hesap Sorumluluğu",
           "items": [
-            "‘’Client you & your refer to you, the person accessing this website’’ .",
-            "“Party parties, or us refer to both the clients and ourselves”.",
-            "“The company , ourselves we & us refer to our agency”."
+            "Hesap bilgilerinizin (kullanıcı adı, şifre) gizliliğinden siz sorumlusunuz.",
+            "Hesabınız üzerinden gerçekleştirilen işlemlerden, yetkisiz erişimi derhal bize bildirmediğiniz sürece siz sorumlusunuz.",
+            "Sisteme yalnızca yasal ve meşru iş amaçlarıyla erişilebilir; kötüye kullanım tespit edilmesi durumunda hesap askıya alınabilir."
           ]
         },
         {
-          "title": "Intellectual Property",
-          "text": "Both Parties agree to keep confidential any information provided by the other Party that is not publicly available. This includes but is not limited to business strategies, financial information, and proprietary data.All intellectual property rights in the work produced during the engagement shall belong to the Client upon full payment, unless otherwise agreed upon in writing.",
-          "text2": "Either party may terminate the agreement with written notice if the other party breaches any material term or condition. Termination may also occur by mutual agreement."
+          "title": "4. Ücretlendirme ve Ödeme",
+          "text": "Paket ücretleri fiyatlandırma sayfamızda veya imzalanan teklif/sözleşmede belirtilir. Ödemeler, aksi belirtilmedikçe aylık veya yıllık abonelik esasına göre alınır. Geç ödemelerde hizmet erişimi geçici olarak kısıtlanabilir."
         },
         {
-          "title": "Fees and Payment",
-          "items": [
-            "The client agrees to pay the fees as specified in the proposal or agreement.",
-            "Late payments may incur additional charges or result in the suspension.",
-            "Payment trems, including any deposit requirements."
-          ]
+          "title": "5. Fikri Mülkiyet",
+          "text": "AgotaSoft yazılımları, arayüzleri, logoları ve içerikleri AgotaSoft'a aittir. Hizmet kapsamında size tanınan, yazılımı münhasır olmayan ve devredilemez şekilde kullanma hakkıdır; kaynak kodun kopyalanması, tersine mühendislik yapılması veya yeniden dağıtılması yasaktır."
         },
         {
-          "title": "Changees to Terms & Conditions",
-          "text": "We reserve the right to amend these terms and conditions at any time. All changes will be posted on this website. These terms and conditions constitute the entire agreement between the Parties and supersede all prior discussions, negotiations, and understandings. We shall not be liable for any indirect, special, or consequential damages, or any loss of revenue, profits, or data arising in connection with our services."
+          "title": "6. Verilerin Mülkiyeti",
+          "text": "Sisteme girdiğiniz iş verileri (stok, cari, müşteri, fatura vb.) size aittir. AgotaSoft, bu verileri yalnızca hizmeti sunmak ve sözleşmede belirtilen amaçlarla işler; talebiniz halinde verilerinizin bir kopyasını dışa aktarabilirsiniz."
         },
         {
-          "title": "Contact Information",
-          "text": "If you have any questions or concerns regarding these terms and conditions, please contact us."
+          "title": "7. Sorumluluğun Sınırlandırılması",
+          "text": "AgotaSoft, hizmetin kesintisiz veya hatasız olacağını garanti etmez. Yasaların izin verdiği ölçüde, hizmetin kullanımından doğabilecek dolaylı zararlardan (kâr kaybı, veri kaybı vb.) AgotaSoft sorumlu tutulamaz."
+        },
+        {
+          "title": "8. Şartlarda Değişiklik",
+          "text": "Bu kullanım şartları güncellenebilir. Önemli değişiklikler, kayıtlı e-posta adresiniz üzerinden veya web sitemizde duyurularak bildirilir."
+        },
+        {
+          "title": "9. İletişim",
+          "text": "Kullanım şartlarıyla ilgili sorularınız için info@agotasoft.com adresinden bize ulaşabilirsiniz."
         }
-      ]
+      ],
+      "slug": "terms",
+      "id": "terms"
     },
     "faq": {
-      "title": "Faq",
-      "hero_title": "These FAQs help clients learn about us"
+      "title": "Sıkça Sorulan Sorular",
+      "hero_title": "Sıkça sorulan sorular",
+      "slug": "faq",
+      "id": "faq"
     },
     "career": {
       "title": "Kariyer",
       "hero_title": "Kariyerinizi bizimle büyütün",
       "hero_subtitle": "Açık pozisyonlarımıza katılın, AgotaSoft ekibinde yazılım ve dijital dönüşüm projelerinde yer alın.",
-      "open_title": "Açık pozisyonlar"
+      "open_title": "Açık pozisyonlar",
+      "slug": "career",
+      "id": "career"
     },
     "team": {
       "title": "Ekibimiz",
       "hero_title": "Başarımızın arkasındaki ekip",
-      "hero_subtitle": "Uzman kadromuzla işletmelerin dijital dönüşümüne öncülük ediyoruz."
+      "hero_subtitle": "Uzman kadromuzla işletmelerin dijital dönüşümüne öncülük ediyoruz.",
+      "slug": "team",
+      "id": "team"
     },
     "portfolio": {
       "title": "Referanslar",
-      "hero_title": "Referanslarımız ve tamamladığımız projeler"
+      "hero_title": "Referanslarımız ve tamamladığımız projeler",
+      "slug": "portfolio",
+      "id": "portfolio"
     },
     "blog": {
-      "title": "Blog"
+      "title": "Blog",
+      "slug": "blog",
+      "id": "blog"
     },
     "single-blog": {
-      "title": "Blog Details"
+      "title": "Blog Details",
+      "slug": "single-blog",
+      "id": "single-blog"
     },
     "single-portfolio": {
       "title": "Portfolio Deatails",
@@ -1614,13 +1636,1347 @@
       "website": "Preview Project",
       "overview_title": "Project Overview :",
       "overview": "\"Gradient Web Design\" sounds like a project focused on incorporating gradients into web design. Gradients are a popular design element that involve a smooth transition between two or more colors. By creating a comprehensive project overview, you can ensure that the Gradient Web Design project progresses smoothly and achieves its objectives effectivel",
-      "related_title": "Related Project"
+      "related_title": "Related Project",
+      "slug": "single-portfolio",
+      "id": "single-portfolio"
     },
     "single-team": {
-      "title": "Team Details"
+      "title": "Team Details",
+      "slug": "single-team",
+      "id": "single-team"
     },
     "single-career": {
-      "title": "UI/UX Designer"
+      "title": "UI/UX Designer",
+      "slug": "single-career",
+      "id": "single-career"
+    },
+    "privacy": {
+      "title": "Gizlilik Politikası",
+      "hero_title": "Gizlilik Politikası",
+      "intro": "AgotaSoft olarak müşterilerimizin ve ziyaretçilerimizin kişisel verilerinin gizliliğine önem veriyoruz. Bu politika, hangi verileri, hangi amaçla topladığımızı ve nasıl koruduğumuzu açıklar.",
+      "sections": [
+        {
+          "title": "1. Toplanan Veriler",
+          "items": [
+            "İletişim formları aracılığıyla paylaştığınız ad, e-posta, telefon ve şirket bilgileri.",
+            "Demo talebi veya destek talebi sırasında ilettiğiniz mesaj içerikleri.",
+            "Web sitesi kullanımına dair temel analitik veriler (ziyaret edilen sayfalar, tarayıcı bilgisi).",
+            "AgotaSoft ürünlerine kayıtlı işletmelerin, hizmetin sunumu için sisteme girdiği iş verileri (stok, cari, fatura vb.)."
+          ]
+        },
+        {
+          "title": "2. Verilerin Kullanım Amacı",
+          "text": "Toplanan veriler; demo taleplerinize yanıt vermek, destek sağlamak, hizmet kalitemizi geliştirmek ve yasal yükümlülüklerimizi yerine getirmek amacıyla kullanılır. Verileriniz, açık rızanız olmadan pazarlama amacıyla üçüncü taraflarla paylaşılmaz."
+        },
+        {
+          "title": "3. Veri Güvenliği",
+          "text": "Verileriniz 256-bit SSL şifreleme ile korunur, düzenli olarak yedeklenir ve yetkisiz erişime karşı rol bazlı erişim kontrolleriyle sınırlandırılır."
+        },
+        {
+          "title": "4. Veri Saklama Süresi",
+          "text": "Kişisel veriler, toplama amacının gerektirdiği süre boyunca veya ilgili mevzuatın öngördüğü yasal saklama süresince muhafaza edilir; bu sürenin sonunda silinir veya anonim hale getirilir."
+        },
+        {
+          "title": "5. Haklarınız",
+          "items": [
+            "Kişisel verilerinizin işlenip işlenmediğini öğrenme.",
+            "İşlenen verileriniz hakkında bilgi talep etme.",
+            "Verilerinizin düzeltilmesini veya silinmesini talep etme.",
+            "İşlemeye itiraz etme ve rızanızı geri çekme."
+          ]
+        },
+        {
+          "title": "6. İletişim",
+          "text": "Gizlilik politikamızla ilgili sorularınız veya haklarınızı kullanmak istemeniz halinde info@agotasoft.com adresinden bize ulaşabilirsiniz."
+        }
+      ],
+      "slug": "privacy",
+      "id": "privacy"
+    },
+    "cookies": {
+      "title": "Çerez Politikası",
+      "hero_title": "Çerez Politikası",
+      "intro": "agotasoft.com, ziyaretçi deneyimini iyileştirmek ve site kullanımını analiz etmek amacıyla çerezler (cookies) kullanır.",
+      "sections": [
+        {
+          "title": "1. Çerez Nedir?",
+          "text": "Çerezler, bir web sitesini ziyaret ettiğinizde tarayıcınıza kaydedilen küçük metin dosyalarıdır. Sitenin düzgün çalışmasına ve tercihlerinizin hatırlanmasına yardımcı olurlar."
+        },
+        {
+          "title": "2. Kullandığımız Çerez Türleri",
+          "items": [
+            "Zorunlu çerezler: Sitenin temel işlevleri (oturum yönetimi, güvenlik) için gereklidir.",
+            "Performans çerezleri: Sitenin nasıl kullanıldığını anlamamıza ve iyileştirmemize yardımcı olur.",
+            "Tercih çerezleri: Dil seçimi gibi tercihlerinizi hatırlamak için kullanılır."
+          ]
+        },
+        {
+          "title": "3. Çerezleri Nasıl Yönetebilirsiniz?",
+          "text": "Çoğu tarayıcı, çerezleri kabul etme, reddetme veya silme seçenekleri sunar. Tarayıcı ayarlarınızdan çerez tercihlerinizi istediğiniz zaman değiştirebilirsiniz; ancak zorunlu çerezlerin engellenmesi, sitenin bazı bölümlerinin düzgün çalışmamasına neden olabilir."
+        },
+        {
+          "title": "4. İletişim",
+          "text": "Çerez politikamızla ilgili sorularınız için info@agotasoft.com adresinden bize ulaşabilirsiniz."
+        }
+      ],
+      "slug": "cookies",
+      "id": "cookies"
+    },
+    "karlilik": {
+      "title": "Karlılık.NET",
+      "badge": "Erken erişim",
+      "hero_subtitle": "Trendyol ve Hepsiburada'da satış yapan e-ticaret satıcıları için gerçek net kârı tek panelde gösteren, AI destekli kâr analizi platformu. Komisyon, kargo, hizmet bedeli, stopaj, KDV ve reklam giderleri dahil her siparişin size gerçekte ne kazandırdığını görün.",
+      "cta_primary": "Erken Erişim Talep Edin",
+      "cta_secondary": "Modülleri İncele",
+      "facts_title": "Bir bakışta",
+      "facts": [
+        {
+          "icon": "fas fa-store",
+          "label": "Trendyol ve Hepsiburada"
+        },
+        {
+          "icon": "fas fa-robot",
+          "label": "AI destekli analiz"
+        },
+        {
+          "icon": "fas fa-shield-halved",
+          "label": "Şifreli API anahtarları, KVKK uyumlu"
+        },
+        {
+          "icon": "fas fa-file-excel",
+          "label": "Excel ve faturayla maliyet girişi"
+        }
+      ],
+      "steps_label": "NASIL ÇALIŞIR",
+      "steps_title": "Dört adımda gerçek kârınız",
+      "steps": [
+        {
+          "title": "Mağazanızı bağlayın",
+          "text": "Pazaryeri API anahtarınızla mağazanızı ekleyin; ürünleriniz barkoddan otomatik eşleşir."
+        },
+        {
+          "title": "Maliyetlerinizi girin",
+          "text": "Elle, Excel ile ya da alış faturanızı AI'a okutarak girin. Maliyet bir kez girilir, tüm pazaryerlerinde kullanılır."
+        },
+        {
+          "title": "Veriler otomatik çekilir",
+          "text": "Siparişler, komisyonlar, kargo ve hakediş kayıtları arka planda düzenli olarak senkronize edilir."
+        },
+        {
+          "title": "Net kârınızı görün",
+          "text": "Sipariş, ürün, kategori ve mağaza bazında net kâr; hangi ürünün zarar ettirdiğini anında görün."
+        }
+      ],
+      "modules_label": "MODÜLLER",
+      "modules_title": "Kâr resminizi netleştiren her şey tek panelde",
+      "modules_subtitle": "Mağaza bağlantısından hakediş mutabakatına kadar pazaryeri satıcısının ihtiyacı olan modüller",
+      "modules": [
+        {
+          "icon": "fas fa-link",
+          "title": "Mağaza Bağlantıları",
+          "description": "Trendyol ve Hepsiburada mağazalarınızı API anahtarıyla bağlayın; anahtarlar AES-256 ile şifrelenerek saklanır.",
+          "bullets": [
+            "Bağlantı testiyle anında doğrulama",
+            "Barkoddan otomatik ürün eşleştirme",
+            "Birden fazla mağaza tek hesapta"
+          ]
+        },
+        {
+          "icon": "fas fa-coins",
+          "title": "Maliyet Yönetimi",
+          "description": "Ürün maliyetlerini üç yoldan girin, maliyet geçmişini tarihli olarak saklayın.",
+          "bullets": [
+            "Elle giriş ve maliyet geçmişi",
+            "Excel içe aktarma ve önizleme",
+            "AI ile alış faturası okuma"
+          ]
+        },
+        {
+          "icon": "fas fa-calculator",
+          "title": "Kâr Motoru",
+          "description": "Komisyon, desi bazlı kargo, hizmet bedeli, stopaj ve KDV kurallarıyla her sipariş için net kâr hesaplanır.",
+          "bullets": [
+            "Sipariş anında tahmini kâr",
+            "Hakediş gelince kesin kâr",
+            "Mağaza bazında masraf kuralları"
+          ]
+        },
+        {
+          "icon": "fas fa-chart-line",
+          "title": "Raporlar ve Dashboard",
+          "description": "Sipariş, ürün, kategori ve mağaza bazında kârlılık raporları.",
+          "bullets": [
+            "En çok kazandıran ve zarar ettiren ürünler",
+            "Dönem karşılaştırma",
+            "Excel'e dışa aktarma"
+          ]
+        },
+        {
+          "icon": "fas fa-tags",
+          "title": "Fiyat Hesaplayıcı",
+          "description": "Hedef kâr marjınızı girin, pazaryeri kesintilerini hesaba katan satış fiyatını görün.",
+          "bullets": [
+            "Hedef marjdan satış fiyatı",
+            "Toplu fiyat önerisi",
+            "Fiyattan marj hesabı"
+          ]
+        },
+        {
+          "icon": "fas fa-scale-balanced",
+          "title": "Hakediş Mutabakatı",
+          "description": "Pazaryerinin beklenenden eksik veya fazla kestiği tutarları sipariş bazında yakalayın.",
+          "bullets": [
+            "Tahmini ve kesin kâr farkı",
+            "Kesinti kalemi bazında fark",
+            "Mutabakat farkı listesi"
+          ]
+        }
+      ],
+      "benefits_title": "Yapay zekâ rakam uydurmaz, aksiyon önerir",
+      "benefits_text": "Tüm rakamlar hesap motorundan gelir. AI yalnızca bu sonuçları okur, yorumlar ve ne yapmanız gerektiğini söyler.",
+      "benefits": [
+        {
+          "icon": "fas fa-comments",
+          "title": "Doğal dilde soru-cevap",
+          "text": "\"Geçen ay en çok zarar ettiren 5 ürün hangisi?\" diye sorun; cevap kendi verinizden gelir."
+        },
+        {
+          "icon": "fas fa-envelope-open-text",
+          "title": "Haftalık özet",
+          "text": "Her pazartesi geçen haftanın kâr özeti ve 3 somut aksiyon önerisi e-postanızda."
+        },
+        {
+          "icon": "fas fa-file-invoice",
+          "title": "Fatura okuma",
+          "text": "Alış faturanızı yükleyin; AI kalemleri ürünlerinizle eşleştirir. Siz onaylamadan hiçbir maliyet uygulanmaz."
+        },
+        {
+          "icon": "fas fa-triangle-exclamation",
+          "title": "Eksik maliyet uyarıları",
+          "text": "Maliyeti girilmemiş ciro kârı anlamsızlaştırır; sistem en çok etkileyen ürünleri öne çıkarır."
+        },
+        {
+          "icon": "fas fa-user-shield",
+          "title": "KVKK uyumlu",
+          "text": "Alıcıların adı, adresi, telefonu ve TC kimlik numarası hiç saklanmaz."
+        },
+        {
+          "icon": "fas fa-users",
+          "title": "Ekip ve roller",
+          "text": "Ekibinizi davet edin, her kullanıcıya uygun yetkiyi verin."
+        }
+      ],
+      "cta_title": "Gerçek kârınızı görmeye hazır mısınız?",
+      "cta_text": "Karlılık.NET erken erişim sürecinde. Mağazasını ilk bağlayanlardan olmak için bizimle iletişime geçin.",
+      "cta_button": "Erken Erişim Talep Edin",
+      "cta_secondary_link": "Tüm Çözümler",
+      "slug": "karlilik",
+      "id": "karlilik"
+    },
+    "adisyon-qr": {
+      "title": "AgotaSoft Adisyon QR",
+      "badge": "Erken erişim",
+      "hero_subtitle": "Kafe ve restoranlar için QR menü, sipariş, mutfak ekranı ve adisyonu tek sistemde birleştiren bulut çözüm. Müşteri masadaki QR'ı okutur, menüyü telefonunda açar ve sipariş verir; sipariş garsondan mutfağa, oradan kasaya kesintisiz akar.",
+      "cta_primary": "Erken Erişim Talep Edin",
+      "cta_secondary": "Modülleri İncele",
+      "facts_title": "Bir bakışta",
+      "facts": [
+        {
+          "icon": "fas fa-qrcode",
+          "label": "Uygulama kurulumu yok, QR ile açılır"
+        },
+        {
+          "icon": "fas fa-mobile-screen",
+          "label": "iPhone, iPad ve Android"
+        },
+        {
+          "icon": "fas fa-print",
+          "label": "Mutfak ekranı ve fiş yazıcı"
+        },
+        {
+          "icon": "fas fa-language",
+          "label": "Çok dilli menü"
+        }
+      ],
+      "steps_label": "NASIL ÇALIŞIR",
+      "steps_title": "Masadan kasaya tek akış",
+      "steps": [
+        {
+          "title": "QR'ı okutun",
+          "text": "Müşteri masadaki QR kodu okutur; menü telefonunun tarayıcısında açılır, uygulama indirmesi gerekmez."
+        },
+        {
+          "title": "Sipariş verin",
+          "text": "Ürünü ve ekstra seçenekleri seçip siparişi gönderir; garson çağırabilir, hesap isteyebilir."
+        },
+        {
+          "title": "Onay ve mutfak",
+          "text": "Garson siparişi onaylar; sipariş anında mutfak ekranına ve ilgili yazıcıya düşer."
+        },
+        {
+          "title": "Adisyon ve ödeme",
+          "text": "Kasada adisyon bölünür veya birleştirilir, indirim uygulanır, ödeme alınır ve fiş yazdırılır."
+        }
+      ],
+      "modules_label": "MODÜLLER",
+      "modules_title": "Salondan mutfağa, mutfaktan kasaya",
+      "modules_subtitle": "İşletmenizin tüm servis akışını kapsayan modüller",
+      "modules": [
+        {
+          "icon": "fas fa-book-open",
+          "title": "QR Menü",
+          "description": "Kategoriler, ürün görselleri, alerjen ve gramaj bilgisiyle dijital menü.",
+          "bullets": [
+            "Alerjen ve gramaj bilgisi",
+            "Türkçe, İngilizce, Arapça, Rusça ve Almanca",
+            "Kahvaltı ve akşam gibi saat bazlı menüler"
+          ]
+        },
+        {
+          "icon": "fas fa-bell-concierge",
+          "title": "Sipariş ve Masa Yönetimi",
+          "description": "Masa bazlı oturumlar ve anlık sipariş takibi.",
+          "bullets": [
+            "QR veya garson üzerinden sipariş",
+            "Garson çağırma ve hesap isteme",
+            "Canlı salon görünümü"
+          ]
+        },
+        {
+          "icon": "fas fa-fire-burner",
+          "title": "Mutfak Ekranı (KDS)",
+          "description": "Siparişler sıcak, soğuk ve bar gibi istasyonlara göre mutfak ekranına düşer.",
+          "bullets": [
+            "İstasyon bazlı yönlendirme",
+            "Bekleme süresine göre renkli uyarı",
+            "Tablette çalışır"
+          ]
+        },
+        {
+          "icon": "fas fa-cash-register",
+          "title": "Adisyon ve Kasa",
+          "description": "Adisyon bölme ve birleştirme, indirim ve farklı ödeme yöntemleri.",
+          "bullets": [
+            "Nakit, kart ve yemek kartı",
+            "Adisyon bölme ve birleştirme",
+            "Kasa açılış ve kapanışı"
+          ]
+        },
+        {
+          "icon": "fas fa-print",
+          "title": "Yazıcı Entegrasyonu",
+          "description": "Mevcut fiş ve mutfak yazıcılarınızla (ESC/POS) çalışır, ek donanım gerektirmez.",
+          "bullets": [
+            "Kategoriye göre yazıcı yönlendirme",
+            "Türkçe karakter desteği",
+            "Başarısız baskıda otomatik tekrar"
+          ]
+        },
+        {
+          "icon": "fas fa-chart-simple",
+          "title": "Menü Yönetimi ve Raporlar",
+          "description": "Menüyü Excel ile içe/dışa aktarın, şube bazında fiyat belirleyin.",
+          "bullets": [
+            "Excel ve CSV içe/dışa aktarma",
+            "Şube bazında fiyat ve ürün durumu",
+            "Gün sonu raporu"
+          ]
+        }
+      ],
+      "benefits_title": "Donanım satmıyoruz, mevcut cihazlarınızla çalışır",
+      "benefits_text": "Telefon, tablet ve bilgisayarlarınız yeterli; özel donanım gerekmez.",
+      "benefits": [
+        {
+          "icon": "fas fa-mobile-screen-button",
+          "title": "Tek uygulama, iki platform",
+          "text": "Garson, kasa ve mutfak ekipleri aynı uygulamayı iPhone, iPad ve Android cihazlarda kullanır."
+        },
+        {
+          "icon": "fas fa-bolt",
+          "title": "Anlık senkron",
+          "text": "Sipariş, mutfak ve kasa ekranları gerçek zamanlı güncellenir."
+        },
+        {
+          "icon": "fas fa-wifi",
+          "title": "İnternet kesintisine dayanıklı",
+          "text": "Bağlantı koptuğunda garson siparişleri kuyruğa alınır, bağlantı gelince gönderilir."
+        },
+        {
+          "icon": "fas fa-store",
+          "title": "Çok şubeli yapı",
+          "text": "Menü tek yerden yönetilir; şube bazında fiyat ve ürün durumu ayarlanır."
+        },
+        {
+          "icon": "fas fa-shield-halved",
+          "title": "Güvenli QR",
+          "text": "Her masanın QR kodu imzalıdır; kopyalanan kodla sahte sipariş verilemez."
+        },
+        {
+          "icon": "fas fa-user-lock",
+          "title": "Rol bazlı yetki",
+          "text": "Garson, kasiyer, mutfak ve yönetici için ayrı ekranlar ve yetkiler."
+        }
+      ],
+      "cta_title": "İşletmenizi QR ile hızlandırın",
+      "cta_text": "AgotaSoft Adisyon QR erken erişim sürecinde. İşletmeniz için demo planlamak ve ilk kullanıcılardan olmak için bizimle iletişime geçin.",
+      "cta_button": "Erken Erişim Talep Edin",
+      "cta_secondary_link": "Tüm Çözümler",
+      "slug": "adisyon-qr",
+      "id": "adisyon-qr"
     }
+  },
+  "seo": {
+    "/": {
+      "path": "/",
+      "label": "Anasayfa",
+      "title": "AgotaSoft | ERP, CRM, Ön Muhasebe ve LMS Yazılım Çözümleri",
+      "description": "İşletmenizi dijital dönüşümle güçlendirin. AgotaSoft ERP, CRM, Ön Muhasebe ve LMS yazılım çözümleriyle operasyonel verimliliğinizi artırın, maliyetlerinizi düşürün.",
+      "keywords": "ERP, CRM, ön muhasebe, LMS, yazılım çözümleri, dijital dönüşüm, işletme yönetimi, AgotaSoft",
+      "author": "AgotaSoft",
+      "robots": "index, follow",
+      "canonical": "https://agotasoft.com",
+      "og_title": "AgotaSoft | İşletmenizi Geleceğe Taşıyan Akıllı Yazılım Çözümleri",
+      "og_description": "Entegre ERP, CRM, Ön Muhasebe ve LMS sistemlerimizle dijital dönüşümünüzü tamamlayın.",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "https://agotasoft.com",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    },
+    "/about-us": {
+      "path": "/about-us",
+      "label": "Hakkımızda",
+      "title": "AgotaSoft Hakkımızda | İşletmenizi Geleceğe Taşıyan Yazılım Çözümleri",
+      "description": "AgotaSoft olarak, ERP, CRM, Ön Muhasebe ve LMS alanlarında uzman ekibimizle işletmelerin dijital dönüşümüne öncülük ediyoruz.",
+      "keywords": "AgotaSoft hakkımızda, yazılım firması, ERP uzmanı, CRM çözümleri, dijital dönüşüm",
+      "author": "AgotaSoft",
+      "robots": "index, follow",
+      "canonical": "https://agotasoft.com/about-us",
+      "og_title": "",
+      "og_description": "",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "https://agotasoft.com/about-us",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    },
+    "/service": {
+      "path": "/service",
+      "label": "Çözümlerimiz",
+      "title": "AgotaSoft Çözümlerimiz | ERP, CRM, Ön Muhasebe ve LMS Hizmetleri",
+      "description": "AgotaSoft'ın sunduğu ERP, CRM, Ön Muhasebe ve LMS çözümlerini keşfedin.",
+      "keywords": "AgotaSoft hizmetler, ERP çözümleri, CRM hizmetleri, ön muhasebe, LMS",
+      "author": "AgotaSoft",
+      "robots": "index, follow",
+      "canonical": "https://agotasoft.com/service",
+      "og_title": "",
+      "og_description": "",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    },
+    "/erp": {
+      "path": "/erp",
+      "label": "ERP",
+      "title": "AgotaSoft ERP | Üretimden Finansa Tüm Süreçleriniz Tek Platformda",
+      "description": "AgotaSoft ERP sistemi ile stok, finans, üretim ve satın alma süreçlerinizi tek platformda yönetin.",
+      "keywords": "ERP, stok yönetimi, finans yönetimi, üretim planlaması, AgotaSoft ERP",
+      "author": "AgotaSoft",
+      "robots": "index, follow",
+      "canonical": "https://agotasoft.com/erp",
+      "og_title": "",
+      "og_description": "",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    },
+    "/crm": {
+      "path": "/crm",
+      "label": "CRM",
+      "title": "AgotaSoft CRM | Müşteri İlişkilerinizi Güçlendirin",
+      "description": "Müşteri veritabanı, satış fırsatı takibi, pazarlama otomasyonu ve müşteri hizmetleri.",
+      "keywords": "CRM, müşteri ilişkileri, satış yönetimi, AgotaSoft CRM",
+      "author": "AgotaSoft",
+      "robots": "index, follow",
+      "canonical": "https://agotasoft.com/crm",
+      "og_title": "",
+      "og_description": "",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    },
+    "/pre-accounting": {
+      "path": "/pre-accounting",
+      "label": "Ön Muhasebe",
+      "title": "AgotaSoft Ön Muhasebe | Finansal Kontrol Tamamen Sizin Elinizde",
+      "description": "E-Fatura, cari hesap, gider takibi ve finansal raporlama.",
+      "keywords": "ön muhasebe, e-fatura, cari hesap, AgotaSoft",
+      "author": "AgotaSoft",
+      "robots": "index, follow",
+      "canonical": "https://agotasoft.com/pre-accounting",
+      "og_title": "",
+      "og_description": "",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    },
+    "/lms": {
+      "path": "/lms",
+      "label": "LMS",
+      "title": "AgotaSoft LMS | Kurumsal Eğitim ve Gelişim Platformunuz",
+      "description": "Ders yönetimi, online sınav, performans raporlama ve kurumsal eğitim.",
+      "keywords": "LMS, öğrenme yönetim sistemi, kurumsal eğitim, AgotaSoft LMS",
+      "author": "AgotaSoft",
+      "robots": "index, follow",
+      "canonical": "https://agotasoft.com/lms",
+      "og_title": "",
+      "og_description": "",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    },
+    "/pricing": {
+      "path": "/pricing",
+      "label": "Fiyatlandırma",
+      "title": "AgotaSoft Fiyatlandırma | ERP, CRM, Ön Muhasebe ve LMS Paketleri",
+      "description": "AgotaSoft yazılım çözümleri için uygun fiyat paketlerini keşfedin.",
+      "keywords": "AgotaSoft fiyat, ERP fiyat, CRM fiyat, yazılım paketleri",
+      "author": "AgotaSoft",
+      "robots": "index, follow",
+      "canonical": "https://agotasoft.com/pricing",
+      "og_title": "",
+      "og_description": "",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    },
+    "/contact-us": {
+      "path": "/contact-us",
+      "label": "İletişim",
+      "title": "AgotaSoft İletişim | Demo Talep Edin",
+      "description": "Demo talep etmek veya projelerinizi görüşmek için bizimle iletişime geçin.",
+      "keywords": "AgotaSoft iletişim, demo talep, ERP demo, CRM demo",
+      "author": "AgotaSoft",
+      "robots": "index, follow",
+      "canonical": "https://agotasoft.com/contact-us",
+      "og_title": "",
+      "og_description": "",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    },
+    "/team": {
+      "path": "/team",
+      "label": "Ekip",
+      "title": "AgotaSoft Ekip | Uzman Kadromuz",
+      "description": "AgotaSoft yazılım ekibi ve uzman kadromuz.",
+      "keywords": "",
+      "author": "AgotaSoft",
+      "robots": "index, follow",
+      "canonical": "https://agotasoft.com/team",
+      "og_title": "",
+      "og_description": "",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    },
+    "/portfolio": {
+      "path": "/portfolio",
+      "label": "Referanslar",
+      "title": "AgotaSoft Referanslar | Projelerimiz",
+      "description": "AgotaSoft referansları ve tamamlanan projeler.",
+      "keywords": "",
+      "author": "AgotaSoft",
+      "robots": "index, follow",
+      "canonical": "https://agotasoft.com/portfolio",
+      "og_title": "",
+      "og_description": "",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    },
+    "/blog": {
+      "path": "/blog",
+      "label": "Blog",
+      "title": "AgotaSoft Blog | Yazılım ve Dijital Dönüşüm",
+      "description": "ERP, CRM ve dijital dönüşüm yazıları.",
+      "keywords": "",
+      "author": "AgotaSoft",
+      "robots": "index, follow",
+      "canonical": "https://agotasoft.com/blog",
+      "og_title": "",
+      "og_description": "",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    },
+    "/faq": {
+      "path": "/faq",
+      "label": "SSS",
+      "title": "AgotaSoft SSS | Sıkça Sorulan Sorular",
+      "description": "AgotaSoft ürünleri hakkında sıkça sorulan sorular.",
+      "keywords": "",
+      "author": "AgotaSoft",
+      "robots": "index, follow",
+      "canonical": "https://agotasoft.com/faq",
+      "og_title": "",
+      "og_description": "",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    },
+    "/career": {
+      "path": "/career",
+      "label": "Kariyer",
+      "title": "AgotaSoft Kariyer | Açık Pozisyonlar",
+      "description": "AgotaSoft açık pozisyonları ve iş başvuruları.",
+      "keywords": "",
+      "author": "AgotaSoft",
+      "robots": "index, follow",
+      "canonical": "https://agotasoft.com/career",
+      "og_title": "",
+      "og_description": "",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    },
+    "/terms-and-condition": {
+      "path": "/terms-and-condition",
+      "label": "Kullanım Şartları",
+      "title": "AgotaSoft Kullanım Şartları",
+      "description": "AgotaSoft web sitesi kullanım şartları.",
+      "keywords": "",
+      "author": "AgotaSoft",
+      "robots": "noindex, follow",
+      "canonical": "https://agotasoft.com/terms-and-condition",
+      "og_title": "",
+      "og_description": "",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    },
+    "/single-blog": {
+      "path": "/single-blog",
+      "label": "Tekil blog (şablon)",
+      "title": "AgotaSoft Blog Yazısı",
+      "description": "AgotaSoft blog detay sayfası.",
+      "keywords": "",
+      "author": "AgotaSoft",
+      "robots": "index, follow",
+      "canonical": "https://agotasoft.com/single-blog",
+      "og_title": "",
+      "og_description": "",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    },
+    "/single-portfolio": {
+      "path": "/single-portfolio",
+      "label": "Tekil portföy (şablon)",
+      "title": "AgotaSoft Proje Detayı",
+      "description": "AgotaSoft portföy detay sayfası.",
+      "keywords": "",
+      "author": "AgotaSoft",
+      "robots": "index, follow",
+      "canonical": "https://agotasoft.com/single-portfolio",
+      "og_title": "",
+      "og_description": "",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    },
+    "/single-career": {
+      "path": "/single-career",
+      "label": "Tekil kariyer (şablon)",
+      "title": "AgotaSoft İş İlanı",
+      "description": "AgotaSoft açık pozisyon detayı.",
+      "keywords": "",
+      "author": "AgotaSoft",
+      "robots": "index, follow",
+      "canonical": "https://agotasoft.com/single-career",
+      "og_title": "",
+      "og_description": "",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    },
+    "/single-team": {
+      "path": "/single-team",
+      "label": "Tekil ekip (şablon)",
+      "title": "AgotaSoft Ekip Üyesi",
+      "description": "AgotaSoft ekip üyesi profili.",
+      "keywords": "",
+      "author": "AgotaSoft",
+      "robots": "index, follow",
+      "canonical": "https://agotasoft.com/single-team",
+      "og_title": "",
+      "og_description": "",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    },
+    "/single-service": {
+      "path": "/single-service",
+      "label": "Tekil çözüm (şablon)",
+      "title": "AgotaSoft Çözüm Detayı",
+      "description": "AgotaSoft çözüm detay sayfası.",
+      "keywords": "",
+      "author": "AgotaSoft",
+      "robots": "index, follow",
+      "canonical": "https://agotasoft.com/single-service",
+      "og_title": "",
+      "og_description": "",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    },
+    "/error-page": {
+      "path": "/error-page",
+      "label": "404 sayfası",
+      "title": "404 - Sayfa Bulunamadı | AgotaSoft",
+      "description": "Aradığınız sayfa bulunamadı.",
+      "keywords": "",
+      "author": "AgotaSoft",
+      "robots": "noindex, nofollow",
+      "canonical": "",
+      "og_title": "",
+      "og_description": "",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    },
+    "/coming-soon": {
+      "path": "/coming-soon",
+      "label": "Yakında",
+      "title": "AgotaSoft | Yakında",
+      "description": "Sayfa yakında yayınlanacak.",
+      "keywords": "",
+      "author": "AgotaSoft",
+      "robots": "noindex, follow",
+      "canonical": "",
+      "og_title": "",
+      "og_description": "",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    },
+    "/sign-in": {
+      "path": "/sign-in",
+      "label": "Giriş (tema)",
+      "title": "Giriş | AgotaSoft",
+      "description": "",
+      "keywords": "",
+      "author": "AgotaSoft",
+      "robots": "noindex, nofollow",
+      "canonical": "",
+      "og_title": "",
+      "og_description": "",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    },
+    "/sign-up": {
+      "path": "/sign-up",
+      "label": "Kayıt (tema)",
+      "title": "Kayıt | AgotaSoft",
+      "description": "",
+      "keywords": "",
+      "author": "AgotaSoft",
+      "robots": "noindex, nofollow",
+      "canonical": "",
+      "og_title": "",
+      "og_description": "",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    },
+    "/reset-password": {
+      "path": "/reset-password",
+      "label": "Şifre sıfırla (tema)",
+      "title": "Şifre sıfırla | AgotaSoft",
+      "description": "",
+      "keywords": "",
+      "author": "AgotaSoft",
+      "robots": "noindex, nofollow",
+      "canonical": "",
+      "og_title": "",
+      "og_description": "",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    },
+    "/multi-page/home-one": {
+      "path": "/multi-page/home-one",
+      "label": "Multi-page home (tema)",
+      "title": "Sofax Multi-page Home",
+      "description": "",
+      "keywords": "",
+      "author": "AgotaSoft",
+      "robots": "noindex, follow",
+      "canonical": "",
+      "og_title": "",
+      "og_description": "",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    },
+    "/one-page/home-one": {
+      "path": "/one-page/home-one",
+      "label": "One-page 1 (tema)",
+      "title": "Sofax One-page 1",
+      "description": "",
+      "keywords": "",
+      "author": "AgotaSoft",
+      "robots": "noindex, follow",
+      "canonical": "",
+      "og_title": "",
+      "og_description": "",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    },
+    "/one-page/home-two": {
+      "path": "/one-page/home-two",
+      "label": "One-page 2 (tema)",
+      "title": "Sofax One-page 2",
+      "description": "",
+      "keywords": "",
+      "author": "AgotaSoft",
+      "robots": "noindex, follow",
+      "canonical": "",
+      "og_title": "",
+      "og_description": "",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    },
+    "/one-page/home-three": {
+      "path": "/one-page/home-three",
+      "label": "One-page 3 (tema)",
+      "title": "Sofax One-page 3",
+      "description": "",
+      "keywords": "",
+      "author": "AgotaSoft",
+      "robots": "noindex, follow",
+      "canonical": "",
+      "og_title": "",
+      "og_description": "",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    },
+    "/one-page/home-four": {
+      "path": "/one-page/home-four",
+      "label": "One-page 4 (tema)",
+      "title": "Sofax One-page 4",
+      "description": "",
+      "keywords": "",
+      "author": "AgotaSoft",
+      "robots": "noindex, follow",
+      "canonical": "",
+      "og_title": "",
+      "og_description": "",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    },
+    "/one-page/home-five": {
+      "path": "/one-page/home-five",
+      "label": "One-page 5 (tema)",
+      "title": "Sofax One-page 5",
+      "description": "",
+      "keywords": "",
+      "author": "AgotaSoft",
+      "robots": "noindex, follow",
+      "canonical": "",
+      "og_title": "",
+      "og_description": "",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    },
+    "/one-page/home-six": {
+      "path": "/one-page/home-six",
+      "label": "One-page 6 (tema)",
+      "title": "Sofax One-page 6",
+      "description": "",
+      "keywords": "",
+      "author": "AgotaSoft",
+      "robots": "noindex, follow",
+      "canonical": "",
+      "og_title": "",
+      "og_description": "",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    },
+    "/one-page/home-seven": {
+      "path": "/one-page/home-seven",
+      "label": "One-page 7 (tema)",
+      "title": "Sofax One-page 7",
+      "description": "",
+      "keywords": "",
+      "author": "AgotaSoft",
+      "robots": "noindex, follow",
+      "canonical": "",
+      "og_title": "",
+      "og_description": "",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    },
+    "/one-page/home-eight": {
+      "path": "/one-page/home-eight",
+      "label": "One-page 8 (tema)",
+      "title": "Sofax One-page 8",
+      "description": "",
+      "keywords": "",
+      "author": "AgotaSoft",
+      "robots": "noindex, follow",
+      "canonical": "",
+      "og_title": "",
+      "og_description": "",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    },
+    "/one-page/home-nine": {
+      "path": "/one-page/home-nine",
+      "label": "One-page 9 (tema)",
+      "title": "Sofax One-page 9",
+      "description": "",
+      "keywords": "",
+      "author": "AgotaSoft",
+      "robots": "noindex, follow",
+      "canonical": "",
+      "og_title": "",
+      "og_description": "",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    },
+    "/one-page/home-ten": {
+      "path": "/one-page/home-ten",
+      "label": "One-page 10 (tema)",
+      "title": "Sofax One-page 10",
+      "description": "",
+      "keywords": "",
+      "author": "AgotaSoft",
+      "robots": "noindex, follow",
+      "canonical": "",
+      "og_title": "",
+      "og_description": "",
+      "og_image": "/images/agotasoft-logo.png",
+      "og_url": "",
+      "og_type": "website",
+      "og_locale": "tr_TR",
+      "og_site_name": "AgotaSoft",
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "/images/agotasoft-logo.png",
+      "json_ld": "",
+      "extra_tags": []
+    }
+  },
+  "why_choose": {
+    "section1_title": "İşletmenizi Dijital Dönüşümle Güçlendirin",
+    "section1_text": "AgotaSoft yazılım çözümleri ile operasyonel verimliliğinizi artırın, maliyetlerinizi düşürün ve rekabette öne geçin. Entegre sistemlerimizle iş süreçlerinizi optimize edin.",
+    "section1_items": [
+      {
+        "title": "Süreçleri Otomatikleştirin",
+        "text": "Manuel işlemleri minimize edin, iş akışlarınızı otomatikleştirin ve çalışanlarınızın daha stratejik işlere odaklanmasını sağlayın."
+      },
+      {
+        "title": "Veri Odaklı Kararlar Alın",
+        "text": "Gerçek zamanlı raporlar ve analizlerle işletmenizin performansını takip edin, doğru kararlar alın ve büyümenizi hızlandırın."
+      },
+      {
+        "title": "Müşteri Memnuniyetini Artırın",
+        "text": "CRM sistemimizle müşteri ilişkilerinizi güçlendirin, hizmet kalitesini yükseltin ve müşteri sadakatini artırın."
+      }
+    ],
+    "section2_title": "Teknoloji ile İş Süreçlerinizi Dönüştürün",
+    "section2_text": "AgotaSoft'ın entegre yazılım çözümleri ile işletmenizin tüm departmanlarını birbirine bağlayın, verimliliği artırın ve maliyetleri optimize edin.",
+    "section2_items": [
+      {
+        "title": "%60 Daha Hızlı İş Süreçleri",
+        "text": "Otomatik iş akışları ve entegre sistemlerle süreç sürelerinizi kısaltın, çalışan verimliliğini artırın."
+      },
+      {
+        "title": "Anlık Veri Erişimi ve Raporlama",
+        "text": "Tüm verilerinize tek noktadan erişin, gerçek zamanlı raporlarla hızlı ve doğru kararlar alın."
+      }
+    ],
+    "button": "Demo Talep Edin",
+    "button_url": "/contact-us"
+  },
+  "cta": {
+    "title": "AgotaSoft ERP ile Büyümeye Bugün Başlayın",
+    "text": "Finans, stok ve operasyonlarınızı tek platformda birleştirin. Uzman ekibimizle ücretsiz bir demo görüşmesi planlayın.",
+    "button": "Ücretsiz Demo Talep Edin",
+    "button_url": "/contact-us",
+    "note": "Kurulum, uzman ekibimizle ücretsiz bir görüşmeyle başlar."
+  },
+  "hero": {
+    "title": "AgotaSoft ERP: İşletmenizi Yöneten Tek Platform",
+    "subtitle": "Stok, üretim, finans ve satın almayı tek ekranda birleştirin. AI destekli, kolay kurulan ve öğrenmesi kolay bir ERP — karmaşık masaüstü yazılımlarına veda edin.",
+    "cta_primary": "Demo Talep Edin",
+    "cta_primary_url": "/contact-us",
+    "cta_secondary": "Modülleri İncele",
+    "cta_secondary_url": "/erp",
+    "rating_text": "AI destekli, KOBİ'ler için tasarlandı"
+  },
+  "home_services": {
+    "title": "İşletmenizi Güçlendiren Yazılım Çözümleri",
+    "button": "Tüm Çözümler",
+    "button_url": "/service"
+  },
+  "partners_heading": "Teknoloji Partnerlerimiz ve Sponsorlarımız",
+  "testimonials_heading": "Müşterilerimizin AgotaSoft Deneyimi",
+  "footer": {
+    "about": "İşletmenizi büyüten yapay zekâ destekli ERP platformu. 15 yıllık deneyimimizle üretim ve ticaret şirketlerinin dijital dönüşümüne öncülük ediyoruz.",
+    "about_alt": "AgotaSoft, işletmelerin büyümesini hızlandıran modern ERP platformudur. Finans, stok ve operasyonlarınızı tek bir sistemde birleştiriyoruz.",
+    "col1_title": "Kurumsal",
+    "col1_links": [
+      {
+        "label": "Hakkımızda",
+        "url": "/about-us"
+      },
+      {
+        "label": "Referanslar",
+        "url": "/portfolio"
+      },
+      {
+        "label": "Ekip",
+        "url": "/team"
+      },
+      {
+        "label": "Kariyer",
+        "url": "/career"
+      },
+      {
+        "label": "İletişim",
+        "url": "/contact-us"
+      },
+      {
+        "label": "Çözümlerimiz",
+        "url": "/service"
+      },
+      {
+        "label": "Fiyatlandırma",
+        "url": "/pricing"
+      }
+    ],
+    "col2_title": "Çözümlerimiz",
+    "col2_links": [
+      {
+        "label": "ERP Sistemi",
+        "url": "/erp"
+      },
+      {
+        "label": "CRM Sistemi",
+        "url": "/crm"
+      },
+      {
+        "label": "Ön Muhasebe",
+        "url": "/pre-accounting"
+      },
+      {
+        "label": "LMS Sistemi",
+        "url": "/lms"
+      },
+      {
+        "label": "Karlılık.NET",
+        "url": "/karlilik"
+      },
+      {
+        "label": "Adisyon QR",
+        "url": "/adisyon-qr"
+      }
+    ],
+    "col3_title": "İletişim Bilgileri",
+    "privacy_label": "Gizlilik Politikası",
+    "privacy_url": "/privacy-policy",
+    "terms_label": "Kullanım Şartları",
+    "terms_url": "/terms-and-condition",
+    "cookies_label": "Çerez Politikası",
+    "cookies_url": "/cookies-policy"
   }
 }

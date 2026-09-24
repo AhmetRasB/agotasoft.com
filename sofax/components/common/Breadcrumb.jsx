@@ -1,7 +1,5 @@
 "use client";
 
-import Arrow from "@/public/images/about/arrow.png";
-import Image from "next/image";
 import Link from "next/link";
 import { useCms } from "@/hooks/useCms";
 import { useLocalePrefix } from "@/hooks/useLocale";
@@ -11,20 +9,14 @@ function BreadCrumb({ title }) {
 	const prefix = useLocalePrefix();
 	const homeLabel = cms.nav?.[0]?.title || "Anasayfa";
 	return (
-		<div className="sofax-breadcrumb">
-			<div className="container">
-				<h1 className="post__title">{title}</h1>
-				<nav className="breadcrumbs">
-					<ul>
-						<li>
-							<Link href={prefix || "/"}>{homeLabel}</Link>
-						</li>
-						<li>
-							<Image src={Arrow} alt="arrow" />
-						</li>
-						<li aria-current="page"> {title}</li>
-					</ul>
-				</nav>
+		<div className="agf-page-head">
+			<div className="agf-container">
+				<h1 className="agf-headline agf-h2">{title}</h1>
+				<div className="agf-crumb">
+					<Link href={prefix || "/"}>{homeLabel}</Link>
+					<i className="fas fa-chevron-right" style={{ fontSize: "10px" }}></i>
+					<span>{title}</span>
+				</div>
 			</div>
 		</div>
 	);

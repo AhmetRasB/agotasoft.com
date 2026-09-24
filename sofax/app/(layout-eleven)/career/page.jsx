@@ -1,4 +1,3 @@
-import LogoSlider from "@/components/career-page/logo-slider";
 import BreadCrumb from "@/components/common/Breadcrumb";
 import CmsText from "@/components/cms/CmsText";
 import dynamic from "next/dynamic";
@@ -15,7 +14,6 @@ function CareerPage() {
 		<>
 			<BreadCrumb title={<CmsText path="pages.career.title" fallback="Kariyer" />} />
 			<Career />
-			<LogoSlider />
 		</>
 	);
 }

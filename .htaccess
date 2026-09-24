@@ -21,6 +21,10 @@ Options -Indexes
     RewriteCond %{HTTP_HOST} !^(localhost|127\.0\.0\.1)$ [NC]
     RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
+    # QR Menü and Adisyon were merged into one product page
+    RewriteRule ^((?:en|ru|uz|tk)/)?(?:qr-menu|adisyon)/?$ /$1adisyon-qr/ [R=301,L]
+    RewriteRule ^((?:en|ru|uz|tk)/)?service/(?:qrmenu-sistemi|adisyon-sistemi)/?$ /$1adisyon-qr/ [R=301,L]
+
     # PHP admin front controller
     RewriteCond %{REQUEST_URI} ^/admin
     RewriteCond %{REQUEST_FILENAME} !-f

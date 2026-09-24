@@ -9,7 +9,6 @@ import { findItem } from "@/lib/cms/itemSlug";
 function seoFromItem(cms, path) {
 	const rules = [
 		[/^\/team\/(.+)$/, "team", (item) => ({ title: `${item.name} | AgotaSoft Ekip`, description: item.bio || item.title })],
-		[/^\/blog\/(.+)$/, "blog", (item) => ({ title: `${item.title} | AgotaSoft Blog`, description: item.description })],
 		[/^\/portfolio\/(.+)$/, "portfolio", (item) => ({ title: `${item.title} | AgotaSoft Portföy`, description: item.overview || item.category_label })],
 		[/^\/career\/(.+)$/, "careers", (item) => ({ title: `${item.title} | AgotaSoft Kariyer`, description: item.description })],
 		[/^\/service\/(.+)$/, "services", (item) => ({ title: `${item.title} | AgotaSoft`, description: item.description })],

@@ -1,4 +1,4 @@
-import AutoSlider from "@/components/common/auto-slider";
+
 import BreadCrumb from "@/components/common/Breadcrumb";
 import Faq from "@/components/home/home-five/faq";
 import SingleTeamDetails from "@/components/team-page/single/SingleTeamDetails";
@@ -23,8 +23,7 @@ export default function TeamMemberPage({ params }) {
 	return (
 		<>
 			<BreadCrumb title={item.name || "Team Details"} />
-			<SingleTeamDetails itemSlug={params.slug} />
-			<AutoSlider />
+			<SingleTeamDetails itemSlug={params.slug} locale="en" />
 			<Faq />
 		</>
 	);

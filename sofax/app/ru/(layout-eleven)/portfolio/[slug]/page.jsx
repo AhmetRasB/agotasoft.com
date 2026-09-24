@@ -1,4 +1,4 @@
-import AutoSlider from "@/components/common/auto-slider";
+
 import BreadCrumb from "@/components/common/Breadcrumb";
 import PortfolioDetails from "@/components/portfolio/single/PortfolioDetails";
 import RelatedProject from "@/components/portfolio/single/RelatedProject";
@@ -24,7 +24,6 @@ export default function PortfolioItemPage({ params }) {
 			<BreadCrumb title={item.title || "О проекте"} />
 			<PortfolioDetails itemSlug={params.slug} />
 			<RelatedProject itemSlug={params.slug} />
-			<AutoSlider />
 		</>
 	);
 }
