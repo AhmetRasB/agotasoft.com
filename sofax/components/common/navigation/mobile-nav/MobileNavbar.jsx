@@ -3,6 +3,8 @@ import Link from "next/link";
 import { useState } from "react";
 import { useLocalePrefix } from "@/hooks/useLocale";
 import { withLocale } from "@/lib/i18n/config";
+import MobileSolutions from "@/components/solutions/MobileSolutions";
+import { isSolutionsNavItem } from "@/lib/solutions";
 
 function MobileNavbar({ menuItemsData = [] }) {
 	const [open, setOpen] = useState(false);
@@ -19,7 +21,9 @@ function MobileNavbar({ menuItemsData = [] }) {
 						const href = withLocale(item.url === "/" ? "/" : `/${item.url}`, prefix);
 						return (
 							<div key={item.title}>
-								{item.submenu?.length ? (
+								{isSolutionsNavItem(item) ? (
+									<MobileSolutions title={item.title} onNavigate={() => setOpen(false)} />
+								) : item.submenu?.length ? (
 									<>
 										<div className="agf-mobile-link">{item.title}</div>
 										<div className="agf-mobile-sub">

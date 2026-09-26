@@ -13,7 +13,7 @@ export default function ProductModules({ title, subtitle, modules, numberLabel =
 						{subtitle}
 					</p>
 				</div>
-				<div className="agf-grid agf-grid--3">
+				<div className={`agf-grid ${(modules || []).length % 4 === 0 && (modules || []).length > 4 ? "agf-grid--4" : "agf-grid--3"}`}>
 					{(modules || []).map((mod) => (
 						<div className="agf-card" key={mod.title}>
 							<div className="agf-card-icon">
@@ -21,11 +21,13 @@ export default function ProductModules({ title, subtitle, modules, numberLabel =
 							</div>
 							<h3>{mod.title}</h3>
 							<p>{mod.description}</p>
-							<ul>
-								{(mod.bullets || []).slice(0, 3).map((bullet) => (
-									<li key={bullet}>{bullet}</li>
-								))}
-							</ul>
+							{mod.bullets?.length ? (
+								<ul>
+									{mod.bullets.slice(0, 3).map((bullet) => (
+										<li key={bullet}>{bullet}</li>
+									))}
+								</ul>
+							) : null}
 						</div>
 					))}
 				</div>

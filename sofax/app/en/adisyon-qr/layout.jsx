@@ -2,21 +2,25 @@ import Footer from "@/components/home/home-one/footer";
 import Header from "@/components/home/home-one/header/multi-page";
 import { buildAlternates } from "@/lib/i18n/config";
 
+const title = "AgotaSoft QR Menü | QR menu, table ordering and billing";
+const description = "QR menu, ordering and payment at the table, kitchen display (KDS), receipt printer and billing system for cafés and restaurants. qrmenu.agotasoft.com";
+
 export const metadata = {
-	title: "AgotaSoft Adisyon QR",
-	description: "A cloud solution for cafés and restaurants that combines QR menu, ordering, kitchen display and billing in one system.",
+	title,
+	description,
 	author: "AgotaSoft",
 	alternates: buildAlternates("/adisyon-qr"),
 	openGraph: {
-		title: "AgotaSoft Adisyon QR",
-		description: "A cloud solution for cafés and restaurants that combines QR menu, ordering, kitchen display and billing in one system.",
+		title,
+		description,
 		type: "website",
-		url: "https://agotasoft.com/adisyon-qr",
+		url: "https://agotasoft.com/en/adisyon-qr",
+		locale: "en_US",
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "AgotaSoft Adisyon QR",
-		description: "A cloud solution for cafés and restaurants that combines QR menu, ordering, kitchen display and billing in one system.",
+		title,
+		description,
 	},
 };
 

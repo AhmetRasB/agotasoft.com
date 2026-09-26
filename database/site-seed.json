@@ -4,7 +4,7 @@
     "site_name": "AgotaSoft",
     "logo": "/images/agotasoft-logo.png",
     "email": "info@agotasoft.com",
-    "phone": "+90 (216) 555 12 34",
+    "phone": "+90 (552) 517 57 81",
     "address": "İstanbul, Üsküdar",
     "copyright": "© 2026 AgotaSoft. Tüm hakları saklıdır.",
     "header_cta": "Demo Talep Edin",
@@ -19,11 +19,11 @@
     "calendly_url": "https://calendly.com/agotasoft",
     "seo_title": "AgotaSoft ERP | İşletmenizi Yöneten Tek Platform",
     "seo_description": "AI destekli AgotaSoft ERP ile stok, üretim, finans ve satın alma süreçlerinizi tek platformda yönetin.",
-    "hero": "{\"title\": \"AgotaSoft ERP: İşletmenizi Yöneten Tek Platform\", \"subtitle\": \"Stok, üretim, finans ve satın almayı tek ekranda birleştirin. AI destekli, kolay kurulan ve öğrenmesi kolay bir ERP — karmaşık masaüstü yazılımlarına veda edin.\", \"cta_primary\": \"Demo Talep Edin\", \"cta_primary_url\": \"/contact-us\", \"cta_secondary\": \"Modülleri İncele\", \"cta_secondary_url\": \"/erp\", \"rating_text\": \"AI destekli, KOBİ'ler için tasarlandı\"}",
-    "cta": "{\"title\":\"AgotaSoft ile Dijital Dönüşümünüzü Başlatın\",\"text\":\"ERP, CRM, Ön Muhasebe ve LMS çözümlerimizle işletmenizin verimliliğini artırın. Uzman ekibimizle ücretsiz demo alın ve farkı görün.\",\"button\":\"Ücretsiz Demo Talep Edin\",\"button_url\":\"/contact-us\",\"note\":\"30 günlük deneme süresi. Kredi kartı gerekmez.\"}",
+    "hero": "{\"title\":\"AgotaSoft ERP: İşletmenizi Yöneten Tek Platform\",\"subtitle\":\"Stok, üretim, finans ve satın almayı tek ekranda birleştirin. AI destekli, kolay kurulan ve öğrenmesi kolay bir ERP — karmaşık masaüstü yazılımlarına veda edin.\",\"cta_primary\":\"Demo Talep Edin\",\"cta_primary_url\":\"/contact-us\",\"cta_secondary\":\"Modülleri İncele\",\"cta_secondary_url\":\"/erp\",\"rating_text\":\"AI destekli, KOBİ'ler için tasarlandı\"}",
+    "cta": "{\"title\":\"AgotaSoft ERP ile Büyümeye Bugün Başlayın\",\"text\":\"Finans, stok ve operasyonlarınızı tek platformda birleştirin. Uzman ekibimizle ücretsiz bir demo görüşmesi planlayın.\",\"button\":\"Ücretsiz Demo Talep Edin\",\"button_url\":\"/contact-us\",\"note\":\"Kurulum, uzman ekibimizle ücretsiz bir görüşmeyle başlar.\"}",
     "why_choose": "{\"section1_title\":\"İşletmenizi Dijital Dönüşümle Güçlendirin\",\"section1_text\":\"AgotaSoft yazılım çözümleri ile operasyonel verimliliğinizi artırın, maliyetlerinizi düşürün ve rekabette öne geçin. Entegre sistemlerimizle iş süreçlerinizi optimize edin.\",\"section1_items\":[{\"title\":\"Süreçleri Otomatikleştirin\",\"text\":\"Manuel işlemleri minimize edin, iş akışlarınızı otomatikleştirin ve çalışanlarınızın daha stratejik işlere odaklanmasını sağlayın.\"},{\"title\":\"Veri Odaklı Kararlar Alın\",\"text\":\"Gerçek zamanlı raporlar ve analizlerle işletmenizin performansını takip edin, doğru kararlar alın ve büyümenizi hızlandırın.\"},{\"title\":\"Müşteri Memnuniyetini Artırın\",\"text\":\"CRM sistemimizle müşteri ilişkilerinizi güçlendirin, hizmet kalitesini yükseltin ve müşteri sadakatini artırın.\"}],\"section2_title\":\"Teknoloji ile İş Süreçlerinizi Dönüştürün\",\"section2_text\":\"AgotaSoft'ın entegre yazılım çözümleri ile işletmenizin tüm departmanlarını birbirine bağlayın, verimliliği artırın ve maliyetleri optimize edin.\",\"section2_items\":[{\"title\":\"%60 Daha Hızlı İş Süreçleri\",\"text\":\"Otomatik iş akışları ve entegre sistemlerle süreç sürelerinizi kısaltın, çalışan verimliliğini artırın.\"},{\"title\":\"Anlık Veri Erişimi ve Raporlama\",\"text\":\"Tüm verilerinize tek noktadan erişin, gerçek zamanlı raporlarla hızlı ve doğru kararlar alın.\"}],\"button\":\"Demo Talep Edin\",\"button_url\":\"/contact-us\"}",
     "home_services": "{\"title\":\"İşletmenizi Güçlendiren Yazılım Çözümleri\",\"button\":\"Tüm Çözümler\",\"button_url\":\"/service\"}",
-    "footer": "{\"about\": \"İşletmenizi geleceğe taşıyan akıllı yazılım çözümleri. ERP, CRM, Ön Muhasebe ve LMS alanlarında 15 yıllık deneyimimizle dijital dönüşümünüze öncülük ediyoruz.\", \"about_alt\": \"AgotaSoft, işletmelerin dijital dönüşüm yolculuğunda güvenilir teknoloji partneridir. ERP, CRM, Ön Muhasebe ve LMS çözümlerimizle verimliliğinizi artırıyoruz.\", \"col1_title\": \"Kurumsal\", \"col1_links\": [{\"label\": \"Hakkımızda\", \"url\": \"/about-us\"}, {\"label\": \"Referanslar\", \"url\": \"/portfolio\"}, {\"label\": \"Ekip\", \"url\": \"/team\"}, {\"label\": \"Blog\", \"url\": \"/blog\"}, {\"label\": \"Kariyer\", \"url\": \"/career\"}, {\"label\": \"İletişim\", \"url\": \"/contact-us\"}, {\"label\": \"Çözümlerimiz\", \"url\": \"/service\"}, {\"label\": \"Fiyatlandırma\", \"url\": \"/pricing\"}], \"col2_title\": \"Çözümlerimiz\", \"col2_links\": [{\"label\": \"ERP Sistemi\", \"url\": \"/erp\"}, {\"label\": \"CRM Sistemi\", \"url\": \"/crm\"}, {\"label\": \"Ön Muhasebe\", \"url\": \"/pre-accounting\"}, {\"label\": \"LMS Sistemi\", \"url\": \"/lms\"}], \"col3_title\": \"İletişim Bilgileri\", \"privacy_label\": \"Gizlilik Politikası\", \"privacy_url\": \"/privacy-policy\", \"terms_label\": \"Kullanım Şartları\", \"terms_url\": \"/terms-and-condition\", \"cookies_label\": \"Çerez Politikası\", \"cookies_url\": \"/cookies-policy\"}",
+    "footer": "{\"about\":\"İşletmenizi büyüten yapay zekâ destekli ERP platformu. 15 yıllık deneyimimizle üretim ve ticaret şirketlerinin dijital dönüşümüne öncülük ediyoruz.\",\"about_alt\":\"AgotaSoft, işletmelerin büyümesini hızlandıran modern ERP platformudur. Finans, stok ve operasyonlarınızı tek bir sistemde birleştiriyoruz.\",\"col1_title\":\"Kurumsal\",\"col1_links\":[{\"label\":\"Hakkımızda\",\"url\":\"/about-us\"},{\"label\":\"Referanslar\",\"url\":\"/portfolio\"},{\"label\":\"Ekip\",\"url\":\"/team\"},{\"label\":\"Kariyer\",\"url\":\"/career\"},{\"label\":\"İletişim\",\"url\":\"/contact-us\"},{\"label\":\"Çözümlerimiz\",\"url\":\"/service\"},{\"label\":\"Fiyatlandırma\",\"url\":\"/pricing\"}],\"col2_title\":\"Çözümlerimiz\",\"col2_links\":[{\"label\":\"ERP Sistemi\",\"url\":\"/erp\"},{\"label\":\"CRM Sistemi\",\"url\":\"/crm\"},{\"label\":\"Ön Muhasebe\",\"url\":\"/pre-accounting\"},{\"label\":\"LMS Sistemi\",\"url\":\"/lms\"},{\"label\":\"Kârlılık.NET\",\"url\":\"/karlilik\"},{\"label\":\"QR Menü\",\"url\":\"/adisyon-qr\"}],\"col3_title\":\"İletişim Bilgileri\",\"privacy_label\":\"Gizlilik Politikası\",\"privacy_url\":\"/privacy-policy\",\"terms_label\":\"Kullanım Şartları\",\"terms_url\":\"/terms-and-condition\",\"cookies_label\":\"Çerez Politikası\",\"cookies_url\":\"/cookies-policy\"}",
     "pricing_products": "[{\"id\":\"all\",\"name\":\"Tüm Çözümler\",\"icon\":\"fas fa-th-large\"},{\"id\":\"erp\",\"name\":\"ERP Sistemi\",\"icon\":\"fas fa-industry\"},{\"id\":\"crm\",\"name\":\"CRM Sistemi\",\"icon\":\"fas fa-users\"},{\"id\":\"accounting\",\"name\":\"Ön Muhasebe\",\"icon\":\"fas fa-calculator\"},{\"id\":\"lms\",\"name\":\"LMS Eğitim\",\"icon\":\"fas fa-graduation-cap\"}]",
     "partners_heading": "Teknoloji Partnerlerimiz ve Sponsorlarımız",
     "testimonials_heading": "Müşterilerimizin AgotaSoft Deneyimi"
@@ -64,11 +64,11 @@
           "url": "lms"
         },
         {
-          "title": "Karlılık.NET",
+          "title": "Kârlılık.NET",
           "url": "karlilik"
         },
         {
-          "title": "Adisyon QR",
+          "title": "QR Menü",
           "url": "adisyon-qr"
         }
       ]
@@ -172,19 +172,19 @@
     },
     {
       "title": "Ön Muhasebe",
-      "description": "E-Fatura, cari hesap yönetimi ve gider takibi ile finansal kontrolünüzü elinizde tutun.",
+      "description": "TL, USD ve EUR'u aynı anda takip eden, barkodla satış yapan ön muhasebe programı; iOS uygulaması ve web paneli.",
       "icon": "/images/v1/icon3.png",
       "link": "/pre-accounting",
       "category": "sofax-solution-accounting",
       "fa_icon": "fas fa-calculator",
       "page_class": "sofax-solution-accounting",
-      "long_description": "E-Fatura entegrasyonu, cari hesap yönetimi ve gider takibi ile KOBİ'lerin finansal süreçlerini kolaylaştıran kapsamlı ön muhasebe çözümü.",
+      "long_description": "Satış, cari, stok ve kasayı tek yerde yöneten ön muhasebe programı. TRY, USD ve EUR bakiyeleri ayrı ayrı tutulur; iPhone uygulaması ve web paneli aynı veriyle çalışır.",
       "bullets": [
-        "E-Fatura Entegrasyonu",
-        "Cari Hesap Yönetimi",
-        "Gider Takibi",
-        "Vergi Yönetimi",
-        "Finansal Raporlama"
+        "TRY, USD ve EUR çoklu döviz",
+        "Barkodla hızlı satış",
+        "Cari, kasa ve tahsilat takibi",
+        "Varyantlı stok ve kritik stok uyarısı",
+        "iOS uygulaması ve web paneli"
       ],
       "slug": "-n-muhasebe",
       "id": "-n-muhasebe"
@@ -209,39 +209,39 @@
       "id": "lms-sistemi"
     },
     {
-      "title": "Karlılık.NET",
-      "description": "Trendyol ve Hepsiburada satıcıları için komisyon, kargo ve vergiler dahil gerçek net kârı gösteren, AI destekli kâr analizi platformu.",
+      "title": "Kârlılık.NET",
+      "description": "Trendyol ve Hepsiburada satıcıları için komisyon, kargo, stopaj, KDV ve reklam düşülmüş gerçek net kârı sipariş, ürün ve mağaza bazında gösteren analiz platformu.",
       "icon": "/images/v1/icon1.png",
       "link": "/karlilik",
       "category": "sofax-solution-karlilik",
       "fa_icon": "fas fa-chart-pie",
       "page_class": "sofax-solution-karlilik",
-      "long_description": "Pazaryeri satıcılarının gerçek net kârını tek panelde gösteren AI destekli SaaS. Mağazanızı bağlayın, maliyetlerinizi girin; sipariş, ürün ve mağaza bazında ne kazandığınızı görün.",
+      "long_description": "Pazaryeri panelleri ciroyu gösterir, kârı değil. Kârlılık.NET mağazanızı API anahtarıyla bağlar, siparişleri 15 dakikada bir çeker ve her siparişin net kârını hesaplar; hakediş kesinleşince gerçek kesintilerle kesin kârı gösterir. 14 gün ücretsiz: karlilik.net",
       "bullets": [
-        "Trendyol ve Hepsiburada entegrasyonu",
-        "Sipariş ve ürün bazında net kâr",
-        "AI ile fatura okuma ve soru-cevap",
-        "Hedef marjdan fiyat hesaplama",
-        "Hakediş mutabakatı"
+        "Trendyol ve Hepsiburada mağaza bağlantısı",
+        "Sipariş, ürün ve mağaza bazında net kâr",
+        "Fiyat hesaplayıcı ve hakediş mutabakatı",
+        "Yapay zekâ ile fatura okuma ve kâr asistanı",
+        "14 gün ücretsiz, kart bilgisi gerekmez"
       ],
       "slug": "karlilik-net",
       "id": "karlilik-net"
     },
     {
-      "title": "AgotaSoft Adisyon QR",
-      "description": "Kafe ve restoranlar için QR menü, sipariş, mutfak ekranı ve adisyonu tek sistemde birleştiren bulut çözüm.",
+      "title": "AgotaSoft QR Menü",
+      "description": "Kafe ve restoranlar için QR menü, masadan sipariş, mutfak ekranı ve adisyon sistemi.",
       "icon": "/images/v1/icon1.png",
       "link": "/adisyon-qr",
       "category": "sofax-solution-adisyon-qr",
       "fa_icon": "fas fa-qrcode",
       "page_class": "sofax-solution-adisyon-qr",
-      "long_description": "Masadaki QR'dan kasaya kadar tüm akışı tek sistemde yönetin: uygulamasız QR menü ve sipariş, garson onayı, mutfak ekranı, yazıcı ve adisyon.",
+      "long_description": "Masadaki QR'dan kasaya kadar tüm akış tek sistemde: uygulama indirmeden menü, sipariş ve ödeme; garson onayı, mutfak ekranı, fiş yazıcı ve adisyon. qrmenu.agotasoft.com",
       "bullets": [
-        "QR ile uygulamasız menü ve sipariş",
-        "Garson onayı ve canlı salon görünümü",
-        "Mutfak ekranı ve fiş yazıcı entegrasyonu",
-        "Adisyon bölme, indirim ve kasa",
-        "iPhone, iPad ve Android uygulaması"
+        "QR ile uygulama indirmeden menü, sipariş ve ödeme",
+        "QR sipariş onayı ve canlı salon görünümü",
+        "Mutfak ekranı (KDS) ve ESC/POS fiş yazıcı",
+        "Adisyon bölme, indirim, ikram ve kasa vardiyası",
+        "Excel/CSV ile menü aktarımı ve gün sonu özeti"
       ],
       "slug": "adisyon-qr",
       "id": "adisyon-qr"
@@ -496,7 +496,7 @@
         "icon": "fas fa-calculator",
         "className": "sofax-solution-starter",
         "features": [
-          "E-Fatura entegrasyonu",
+          "TRY, USD ve EUR çoklu döviz",
           "Temel cari hesap",
           "Gider takibi",
           "3 kullanıcı",
@@ -788,7 +788,7 @@
     },
     {
       "question": "E-Fatura ve GİB entegrasyonu var mı?",
-      "answer": "Evet, AgotaSoft Ön Muhasebe modülü GİB ile tam entegre çalışır; e-fatura, e-arşiv fatura ve e-irsaliye işlemlerinizi sistem üzerinden otomatik yürütebilirsiniz.",
+      "answer": "AgotaSoft Ön Muhasebe'de faturalar sistem içinde kesilir ve her faturaya belge türü (e-Fatura, e-Arşiv veya fiziki fatura) atanabilir. GİB'e doğrudan gönderim yapan bir entegratör bağlantısı şu an bulunmuyor.",
       "column": "2",
       "title": "E-Fatura ve GİB entegrasyonu var mı?",
       "slug": "e-fatura-ve-gi-b-entegrasyonu-var-mi",
@@ -1397,145 +1397,146 @@
       "hero_image": "/images/products/lms-dashboard.png"
     },
     "pre-accounting": {
-      "title": "AgotaSoft Ön Muhasebe Sistemi",
-      "hero_title": "AgotaSoft Ön Muhasebe: Finansal Kontrol Tamamen Sizin Elinizde",
-      "hero_subtitle": "E-Fatura entegrasyonu, cari hesap yönetimi, gider takibi ve finansal raporlama ile KOBİ'lerin finansal süreçlerini kolaylaştıran kapsamlı ön muhasebe çözümü.",
+      "title": "AgotaSoft Ön Muhasebe",
+      "badge": "iOS uygulaması + web paneli",
+      "hero_subtitle": "TL, USD ve EUR'u aynı anda takip eden, barkodu okutup satışı saniyeler içinde kapatan ön muhasebe programı. Satış, cari, stok ve kasa tek yerde; iPhone uygulaması ve web paneli aynı veriyle çalışır.",
       "cta_primary": "Ücretsiz Demo",
       "cta_secondary": "Özellikleri İncele",
-      "hero_card_title": "AgotaSoft Ön Muhasebe",
-      "hero_card_text": "Finansal Kontrol Sistemi",
-      "modules_title": "Ön Muhasebe Modülleri ve Özellikleri",
-      "modules_subtitle": "KOBİ'ler için özel tasarlanmış finansal yönetim araçları",
+      "facts_title": "Bir bakışta",
+      "facts": [
+        {
+          "icon": "fas fa-coins",
+          "label": "TRY, USD ve EUR aynı anda"
+        },
+        {
+          "icon": "fas fa-mobile-screen",
+          "label": "iOS uygulaması ve web paneli"
+        },
+        {
+          "icon": "fas fa-barcode",
+          "label": "Barkodla saniyede satış"
+        },
+        {
+          "icon": "fas fa-user-lock",
+          "label": "Rol ve izin yönetimi"
+        }
+      ],
+      "features": [
+        {
+          "label": "ÖNE ÇIKAN",
+          "title": "Barkodu okutun, ürün kendi para biriminde açılsın",
+          "text": "Kamerayla ya da elle barkod girerek ürünü saniyede bulun. Sepet boşken fatura, okutulan ürünün para birimine geçer: USD ürün USD, EUR ürün EUR olarak gelir.",
+          "bullets": [
+            "Kamerayla veya elle barkod ve ürün adı arama",
+            "Renk ve beden varyantları için ayrı adet girişi",
+            "Yeni satışta TRY, USD ve EUR arasında tek dokunuşla geçiş"
+          ],
+          "image": "/images/products/on-muhasebe/barkod-urun.webp",
+          "image_alt": "Barkod okutularak bulunan ürün"
+        },
+        {
+          "label": "ÇOKLU DÖVİZ",
+          "title": "Üç para birimi, birbirine karışmayan bakiyeler",
+          "text": "Her fatura kendi para biriminde kesilir; her cari kartı TRY, USD ve EUR bakiyesini ayrı ayrı gösterir. Kur alınamadığında sistem sessizce 1:1 varsaymaz, sizi uyarır.",
+          "bullets": [
+            "Güncel USD/TRY ve EUR/TRY kuru",
+            "Fatura, tahsilat ve iade aynı dövizde takip edilir",
+            "Borç, alacak ve ekstre cari kartında"
+          ],
+          "image": "/images/products/on-muhasebe/satis-doviz-secimi.webp",
+          "image_alt": "Yeni satışta TRY, USD ve EUR seçimi"
+        }
+      ],
+      "modules_label": "MODÜLLER",
+      "modules_title": "Bir ön muhasebe programında olması gereken her şey",
+      "modules_subtitle": "Hepsi tek veritabanı ve tek kur mantığı üzerinde çalışır.",
       "modules": [
         {
           "icon": "fas fa-file-invoice",
-          "title": "E-Fatura Entegrasyonu",
-          "description": "GİB entegrasyonu ile e-fatura oluşturma, gönderme ve alma işlemlerini otomatikleştirin.",
+          "title": "Satış ve Fatura",
+          "description": "Yeni fatura, değişim ve iade akışları; barkodla hızlı kalem ekleme.",
           "bullets": [
-            "GİB entegrasyonu",
-            "Otomatik fatura oluşturma",
-            "E-arşiv fatura",
-            "Toplu fatura işlemleri"
+            "Satış, değişim ve iade",
+            "Renk ve beden varyantlı kalemler",
+            "Açık ve ödenmiş fatura takibi"
           ]
         },
         {
           "icon": "fas fa-address-book",
-          "title": "Cari Hesap Yönetimi",
-          "description": "Müşteri ve tedarikçi hesaplarınızı takip edin, borç-alacak durumlarını kontrol edin.",
+          "title": "Cari Yönetimi",
+          "description": "Her müşteri için TRY, USD ve EUR bakiyesi ayrı ayrı; borç, alacak ve ekstre tek yerde.",
           "bullets": [
-            "Cari kart yönetimi",
-            "Borç-alacak takibi",
-            "Vade analizleri",
-            "Cari ekstre raporları"
+            "Döviz bazında bakiye",
+            "Ekstre ve manuel borç/alacak",
+            "Tahsilat kaydı"
           ]
         },
         {
-          "icon": "fas fa-receipt",
-          "title": "Gider Takibi",
-          "description": "Tüm giderlerinizi kategorize edin, takip edin ve gider analizleri yapın.",
+          "icon": "fas fa-truck",
+          "title": "Alış ve Tedarikçi",
+          "description": "Alış faturaları ağırlıklı ortalama maliyeti otomatik günceller; tedarikçi ödemeleri ayrı takip edilir.",
           "bullets": [
-            "Gider kategorileri",
-            "Fiş ve belge yönetimi",
-            "Gider onay süreçleri",
-            "Gider raporları"
+            "Alış faturaları",
+            "Ağırlıklı ortalama maliyet",
+            "Tedarikçi bakiyeleri ve ödemeler"
           ]
         },
         {
-          "icon": "fas fa-university",
-          "title": "Banka Yönetimi",
-          "description": "Banka hesaplarınızı takip edin, nakit akışınızı kontrol edin ve banka mutabakatı yapın.",
+          "icon": "fas fa-cash-register",
+          "title": "Kasa ve Tahsilat",
+          "description": "TL, dolar ve euro kasaları ayrı bakiyelerle; her hareket ilgili kasaya anında yansır.",
           "bullets": [
-            "Çoklu banka hesabı",
-            "Nakit akış takibi",
-            "Banka mutabakatı",
-            "Çek-senet yönetimi"
+            "Çoklu kasa",
+            "Tahsilat ve ödeme kaydı",
+            "Kasa hareketleri"
           ]
         },
         {
-          "icon": "fas fa-percentage",
-          "title": "Vergi Yönetimi",
-          "description": "KDV, stopaj ve diğer vergi hesaplamalarını otomatikleştirin, beyanname hazırlayın.",
+          "icon": "fas fa-barcode",
+          "title": "Stok ve Barkod",
+          "description": "Renk ve beden varyantlı ürünler, kritik stok uyarıları ve barkodla hızlı ürün bulma.",
           "bullets": [
-            "Otomatik vergi hesaplama",
-            "KDV beyannamesi",
-            "Stopaj hesaplamaları",
-            "Vergi raporları"
+            "Varyantlı ürün yönetimi",
+            "Kritik stok uyarıları",
+            "Kamerayla barkod okuma"
           ]
         },
         {
-          "icon": "fas fa-chart-bar",
-          "title": "Finansal Raporlama",
-          "description": "Detaylı finansal raporlar, gelir-gider analizleri ve karlılık raporları.",
+          "icon": "fas fa-chart-line",
+          "title": "Raporlar",
+          "description": "Kâr-zarar, ürün kârlılığı ve 6 aylık finansal analiz; brüt ve net marj ayrı ayrı.",
           "bullets": [
-            "Gelir-gider raporu",
-            "Karlılık analizi",
-            "Nakit akış raporu",
-            "Özelleştirilebilir raporlar"
+            "Kâr-zarar raporu",
+            "Ürün kârlılığı",
+            "6 aylık finansal analiz"
           ]
         }
       ],
-      "benefits_title": "KOBİ'ler İçin Özel Tasarlandı",
-      "benefits_text": "AgotaSoft Ön Muhasebe, küçük ve orta ölçekli işletmelerin finansal süreçlerini kolaylaştırmak için özel olarak tasarlanmıştır.",
+      "benefits_title": "Büyürken de kontrol sizde",
+      "benefits_text": "Ekibiniz büyüdükçe kimin neyi gördüğünü ve neyi değiştirdiğini siz belirlersiniz.",
       "benefits": [
         {
-          "icon": "fas fa-clock",
-          "title": "%70 Daha Hızlı Faturalama",
-          "text": "E-Fatura entegrasyonu ile faturalama süreçlerinizi hızlandırın."
+          "icon": "fas fa-user-lock",
+          "title": "Rol ve izin yönetimi",
+          "text": "Her kullanıcı yalnızca yetkili olduğu modülü görür; yetkisini aşan rol ataması sistem tarafından engellenir."
         },
         {
-          "icon": "fas fa-shield-alt",
-          "title": "%100 Yasal Uyumluluk",
-          "text": "Türkiye'deki tüm yasal düzenlemelere tam uyumlu sistem."
+          "icon": "fas fa-clock-rotate-left",
+          "title": "İşlem geçmişi",
+          "text": "Kim, ne zaman, hangi kaydı değiştirdi; tüm hareketler denetlenebilir şekilde saklanır."
         },
         {
-          "icon": "fas fa-calculator",
-          "title": "Otomatik Hesaplamalar",
-          "text": "Vergi, KDV ve stopaj hesaplamalarını otomatik olarak yapın."
+          "icon": "fas fa-mobile-screen-button",
+          "title": "iOS ve web aynı veride",
+          "text": "Sahada iPhone uygulaması, ofiste web paneli; aynı hesap, anında güncel veri."
         }
       ],
-      "panel_title": "Finansal Raporlama",
-      "panel_text": "Detaylı mali raporlar ve analiz araçları",
-      "local_pricing_title": "Uygun Fiyatlarla Başlayın",
-      "local_pricing_subtitle": "KOBİ'ler için özel fiyatlandırma paketleri",
-      "local_plans": [
-        {
-          "title": "Başlangıç",
-          "icon": "fas fa-seedling",
-          "price": "₺299",
-          "period": "/ay",
-          "popular": false,
-          "features": [
-            "5 Kullanıcıya kadar",
-            "E-Fatura entegrasyonu",
-            "Temel raporlar",
-            "E-posta desteği"
-          ],
-          "button": "Başlayın"
-        },
-        {
-          "title": "Profesyonel",
-          "icon": "fas fa-rocket",
-          "price": "₺599",
-          "period": "/ay",
-          "popular": true,
-          "features": [
-            "15 Kullanıcıya kadar",
-            "Tüm modüller",
-            "Gelişmiş raporlar",
-            "Telefon desteği",
-            "Entegrasyon desteği"
-          ],
-          "button": "Başlayın"
-        }
-      ],
-      "cta_title": "Finansal Kontrolünüzü Elinize Alın",
-      "cta_text": "30 günlük ücretsiz deneme ile Sofax Ön Muhasebe'nin gücünü keşfedin. Kurulum ve eğitim desteği dahil.",
-      "cta_button": "Ücretsiz Demo Talep Edin",
-      "cta_phone": "Hemen Arayın",
-      "cta_phone_url": "tel:+908001234567",
+      "cta_title": "Dövizi, stoğu ve satışı tek yerde toplayın",
+      "cta_text": "Kısa bir demoda barkodla satıştan çoklu kasaya kadar tüm akışı birlikte gezelim.",
+      "cta_button": "Demo Talep Edin",
+      "cta_secondary_link": "Tüm Çözümler",
       "slug": "pre-accounting",
-      "id": "pre-accounting",
-      "hero_image": "/images/products/pre-accounting-dashboard.png"
+      "id": "pre-accounting"
     },
     "terms": {
       "title": "Kullanım Şartları",
@@ -1723,11 +1724,14 @@
       "id": "cookies"
     },
     "karlilik": {
-      "title": "Karlılık.NET",
-      "badge": "Erken erişim",
-      "hero_subtitle": "Trendyol ve Hepsiburada'da satış yapan e-ticaret satıcıları için gerçek net kârı tek panelde gösteren, AI destekli kâr analizi platformu. Komisyon, kargo, hizmet bedeli, stopaj, KDV ve reklam giderleri dahil her siparişin size gerçekte ne kazandırdığını görün.",
-      "cta_primary": "Erken Erişim Talep Edin",
-      "cta_secondary": "Modülleri İncele",
+      "title": "Kârlılık.NET",
+      "badge": "Yayında · 14 gün ücretsiz",
+      "hero_subtitle": "Trendyol ve Hepsiburada satıcıları için: cironuz değil, net kârınız. Komisyon, kargo, hizmet bedeli, stopaj, KDV, reklam ve iadeler düşüldükten sonra her siparişin size gerçekte ne kazandırdığını sipariş, ürün ve mağaza bazında görün.",
+      "cta_primary": "Ücretsiz deneyin",
+      "cta_primary_url": "https://karlilik.net/register",
+      "cta_secondary": "Demoyu deneyin",
+      "cta_secondary_url": "https://karlilik.net/login",
+      "hero_note": "14 gün ücretsiz · Kart bilgisi gerekmez · İstediğiniz zaman iptal · Demo için kayıt yok",
       "facts_title": "Bir bakışta",
       "facts": [
         {
@@ -1735,167 +1739,367 @@
           "label": "Trendyol ve Hepsiburada"
         },
         {
-          "icon": "fas fa-robot",
-          "label": "AI destekli analiz"
+          "icon": "fas fa-lock",
+          "label": "Şifreli API anahtarları (AES-256)"
         },
         {
-          "icon": "fas fa-shield-halved",
-          "label": "Şifreli API anahtarları, KVKK uyumlu"
+          "icon": "fas fa-user-shield",
+          "label": "KVKK: alıcı verisi saklanmaz"
         },
         {
-          "icon": "fas fa-file-excel",
-          "label": "Excel ve faturayla maliyet girişi"
+          "icon": "fas fa-gift",
+          "label": "14 gün ücretsiz, kart gerekmez"
+        }
+      ],
+      "highlights": {
+        "label": "CİRO KÂR DEĞİLDİR",
+        "title": "Cebinize kalana kadar her kesinti",
+        "text": "Pazaryeri panelleri ciroyu gösterir, kârı değil. Kârlılık.NET her siparişten aşağıdaki kalemleri düşer ve maliyeti eksik ürünleri ayrıca uyarır; böylece gördüğünüz net kâr gerçekten cebinize kalandır.",
+        "items": [
+          "Kategori komisyonu",
+          "Desi bazlı kargo ve iade kargosu",
+          "Platform hizmet bedeli",
+          "E-ticaret stopajı",
+          "Net KDV",
+          "Reklam ve influencer giderleri",
+          "Cezalar ve erken ödeme kesintileri",
+          "Depo, muhasebe gibi ek giderler"
+        ]
+      },
+      "features_label": "EKRANLAR",
+      "features_title": "Karar vermek için ihtiyacınız olan her şey",
+      "features_text": "Ekran görüntüleri Kârlılık.NET demo hesabındandır; örnek verilerle gösterilmiştir.",
+      "features_frame": "browser",
+      "features_url": "karlilik.net",
+      "features": [
+        {
+          "label": "Dashboard",
+          "title": "İşletmenizin kâr resmi tek ekranda",
+          "bullets": [
+            "Ciro, brüt kâr, net kâr ve maliyet kapsaması",
+            "Masraf kırılımı: paranın nereye gittiği kalem kalem",
+            "Trendyol ve Hepsiburada karşılaştırması"
+          ],
+          "image": "/images/products/karlilik/dashboard.webp",
+          "image_alt": "Kârlılık.NET dashboard: ciro, brüt kâr, net kâr ve maliyet kapsaması kartları"
+        },
+        {
+          "label": "Siparişler",
+          "title": "Her siparişin kârı, tahminiden kesine",
+          "bullets": [
+            "Sipariş anında tahmini kâr, hakedişle kesin kâr",
+            "Durum, mağaza ve kâr filtreleri",
+            "Sipariş, paket veya barkodla arama"
+          ],
+          "image": "/images/products/karlilik/siparisler.webp",
+          "image_alt": "Kârlılık.NET siparişler listesi: tutar ve sipariş bazında kâr"
+        },
+        {
+          "label": "Raporlar",
+          "title": "Hangi ürün kazandırıyor, hangisi zarar ettiriyor?",
+          "bullets": [
+            "Ürün, kategori, mağaza, iade ve reklam kırılımları",
+            "Satılan, iade, ciro, maliyet, pazaryeri giderleri ve marj",
+            "Tek tıkla Excel'e aktarma"
+          ],
+          "image": "/images/products/karlilik/raporlar.webp",
+          "image_alt": "Kârlılık.NET ürün kârlılığı raporu"
+        },
+        {
+          "label": "Fiyat Hesaplayıcı",
+          "title": "Fiyatınızı hedef marjınıza göre belirleyin",
+          "bullets": [
+            "Ürünün maliyeti, komisyonu ve desisi otomatik gelir",
+            "Kalem kalem kesinti dökümü",
+            "Mevcut fiyatla farkı anında görün"
+          ],
+          "image": "/images/products/karlilik/fiyat-hesaplayici.webp",
+          "image_alt": "Kârlılık.NET fiyat hesaplayıcı: hedef marjdan önerilen satış fiyatı"
+        },
+        {
+          "label": "Mutabakat",
+          "title": "Fazla kesilen her kuruşu görün",
+          "bullets": [
+            "Tahmini ve kesin kesinti farkı: komisyon, kargo, hizmet bedeli",
+            "Şüpheli kesintiler sipariş bazında listelenir",
+            "Kâra etkisi ayrı gösterilir"
+          ],
+          "image": "/images/products/karlilik/mutabakat.webp",
+          "image_alt": "Kârlılık.NET hakediş mutabakatı: kesinti farkları"
         }
       ],
       "steps_label": "NASIL ÇALIŞIR",
       "steps_title": "Dört adımda gerçek kârınız",
       "steps": [
         {
+          "title": "Hesabınızı açın",
+          "text": "14 gün ücretsiz; kart bilgisi istenmez."
+        },
+        {
           "title": "Mağazanızı bağlayın",
-          "text": "Pazaryeri API anahtarınızla mağazanızı ekleyin; ürünleriniz barkoddan otomatik eşleşir."
+          "text": "API anahtarınızı girin; ürünler barkoddan eşleşir, geçmiş siparişler çekilir."
         },
         {
           "title": "Maliyetlerinizi girin",
-          "text": "Elle, Excel ile ya da alış faturanızı AI'a okutarak girin. Maliyet bir kez girilir, tüm pazaryerlerinde kullanılır."
-        },
-        {
-          "title": "Veriler otomatik çekilir",
-          "text": "Siparişler, komisyonlar, kargo ve hakediş kayıtları arka planda düzenli olarak senkronize edilir."
+          "text": "Elle, Excel ile ya da faturayı okutarak. Bir kez girilir, tüm mağazalarda kullanılır."
         },
         {
           "title": "Net kârınızı görün",
-          "text": "Sipariş, ürün, kategori ve mağaza bazında net kâr; hangi ürünün zarar ettirdiğini anında görün."
+          "text": "Siparişler 15 dakikada, hakedişler saatte bir güncellenir."
         }
       ],
-      "modules_label": "MODÜLLER",
+      "modules_label": "ÖZELLİKLER",
       "modules_title": "Kâr resminizi netleştiren her şey tek panelde",
-      "modules_subtitle": "Mağaza bağlantısından hakediş mutabakatına kadar pazaryeri satıcısının ihtiyacı olan modüller",
+      "modules_subtitle": "Mağaza bağlantısından hakediş mutabakatına kadar pazaryeri satıcısının ihtiyacı olan modüller.",
       "modules": [
         {
-          "icon": "fas fa-link",
-          "title": "Mağaza Bağlantıları",
-          "description": "Trendyol ve Hepsiburada mağazalarınızı API anahtarıyla bağlayın; anahtarlar AES-256 ile şifrelenerek saklanır.",
-          "bullets": [
-            "Bağlantı testiyle anında doğrulama",
-            "Barkoddan otomatik ürün eşleştirme",
-            "Birden fazla mağaza tek hesapta"
-          ]
+          "icon": "fas fa-plug",
+          "title": "Mağaza bağlantısı",
+          "description": "Trendyol ve Hepsiburada mağazalarınızı API anahtarıyla bağlayın; sipariş, ilan ve hakedişler kendiliğinden gelir."
         },
         {
           "icon": "fas fa-coins",
-          "title": "Maliyet Yönetimi",
-          "description": "Ürün maliyetlerini üç yoldan girin, maliyet geçmişini tarihli olarak saklayın.",
-          "bullets": [
-            "Elle giriş ve maliyet geçmişi",
-            "Excel içe aktarma ve önizleme",
-            "AI ile alış faturası okuma"
-          ]
+          "title": "Maliyet yönetimi",
+          "description": "Maliyeti elle, Excel ile ya da alış faturasını yapay zekâya okutarak girin. Maliyet geçmişi tarihli tutulur."
+        },
+        {
+          "icon": "fas fa-receipt",
+          "title": "Sipariş bazında kâr",
+          "description": "Sipariş gelir gelmez tahmini kâr; hakediş kesinleşince pazaryerinin gerçek kesintileriyle kesin kâr."
+        },
+        {
+          "icon": "fas fa-chart-column",
+          "title": "Raporlar",
+          "description": "Ürün, kategori, mağaza, iade ve reklam raporları; en çok kazandıran ve zarar ettiren ürünler. Excel'e aktarın."
         },
         {
           "icon": "fas fa-calculator",
-          "title": "Kâr Motoru",
-          "description": "Komisyon, desi bazlı kargo, hizmet bedeli, stopaj ve KDV kurallarıyla her sipariş için net kâr hesaplanır.",
-          "bullets": [
-            "Sipariş anında tahmini kâr",
-            "Hakediş gelince kesin kâr",
-            "Mağaza bazında masraf kuralları"
-          ]
-        },
-        {
-          "icon": "fas fa-chart-line",
-          "title": "Raporlar ve Dashboard",
-          "description": "Sipariş, ürün, kategori ve mağaza bazında kârlılık raporları.",
-          "bullets": [
-            "En çok kazandıran ve zarar ettiren ürünler",
-            "Dönem karşılaştırma",
-            "Excel'e dışa aktarma"
-          ]
-        },
-        {
-          "icon": "fas fa-tags",
-          "title": "Fiyat Hesaplayıcı",
-          "description": "Hedef kâr marjınızı girin, pazaryeri kesintilerini hesaba katan satış fiyatını görün.",
-          "bullets": [
-            "Hedef marjdan satış fiyatı",
-            "Toplu fiyat önerisi",
-            "Fiyattan marj hesabı"
-          ]
+          "title": "Fiyat hesaplayıcı",
+          "description": "Hedef marjınızdan satış fiyatı ya da fiyattan kâr; tüm kesintiler hesaba katılır. Toplu fiyat önerisi."
         },
         {
           "icon": "fas fa-scale-balanced",
-          "title": "Hakediş Mutabakatı",
-          "description": "Pazaryerinin beklenenden eksik veya fazla kestiği tutarları sipariş bazında yakalayın.",
-          "bullets": [
-            "Tahmini ve kesin kâr farkı",
-            "Kesinti kalemi bazında fark",
-            "Mutabakat farkı listesi"
-          ]
-        }
-      ],
-      "benefits_title": "Yapay zekâ rakam uydurmaz, aksiyon önerir",
-      "benefits_text": "Tüm rakamlar hesap motorundan gelir. AI yalnızca bu sonuçları okur, yorumlar ve ne yapmanız gerektiğini söyler.",
-      "benefits": [
-        {
-          "icon": "fas fa-comments",
-          "title": "Doğal dilde soru-cevap",
-          "text": "\"Geçen ay en çok zarar ettiren 5 ürün hangisi?\" diye sorun; cevap kendi verinizden gelir."
+          "title": "Hakediş mutabakatı",
+          "description": "Pazaryerinin beklenenden fazla kestiği komisyon, kargo ve hizmet bedelini sipariş bazında yakalayın."
         },
         {
-          "icon": "fas fa-envelope-open-text",
-          "title": "Haftalık özet",
-          "text": "Her pazartesi geçen haftanın kâr özeti ve 3 somut aksiyon önerisi e-postanızda."
-        },
-        {
-          "icon": "fas fa-file-invoice",
-          "title": "Fatura okuma",
-          "text": "Alış faturanızı yükleyin; AI kalemleri ürünlerinizle eşleştirir. Siz onaylamadan hiçbir maliyet uygulanmaz."
-        },
-        {
-          "icon": "fas fa-triangle-exclamation",
-          "title": "Eksik maliyet uyarıları",
-          "text": "Maliyeti girilmemiş ciro kârı anlamsızlaştırır; sistem en çok etkileyen ürünleri öne çıkarır."
-        },
-        {
-          "icon": "fas fa-user-shield",
-          "title": "KVKK uyumlu",
-          "text": "Alıcıların adı, adresi, telefonu ve TC kimlik numarası hiç saklanmaz."
+          "icon": "fas fa-wand-magic-sparkles",
+          "title": "AI asistan",
+          "description": "Kârınızı doğal dilde sorun; cevaplar kendi raporlarınızdan gelir. Her pazartesi haftalık özet ve aksiyon önerileri."
         },
         {
           "icon": "fas fa-users",
           "title": "Ekip ve roller",
-          "text": "Ekibinizi davet edin, her kullanıcıya uygun yetkiyi verin."
+          "description": "Ekibinizi davet edin; hesap sahibi, yönetici ve üye rolleriyle kimin neyi göreceğini belirleyin."
         }
       ],
-      "cta_title": "Gerçek kârınızı görmeye hazır mısınız?",
-      "cta_text": "Karlılık.NET erken erişim sürecinde. Mağazasını ilk bağlayanlardan olmak için bizimle iletişime geçin.",
-      "cta_button": "Erken Erişim Talep Edin",
-      "cta_secondary_link": "Tüm Çözümler",
+      "benefits_title": "Mağazanızın anahtarı bizde güvende",
+      "benefits_text": "Kâr analizi için gereken veriyi alırız, fazlasını değil.",
+      "benefits": [
+        {
+          "icon": "fas fa-lock",
+          "title": "Şifreli API anahtarları",
+          "text": "Pazaryeri anahtarlarınız AES-256 ile şifrelenerek saklanır; hiçbir kayıtta ve ekranda açık gösterilmez."
+        },
+        {
+          "icon": "fas fa-user-shield",
+          "title": "Alıcı verisi saklanmaz",
+          "text": "Alıcıların adı, adresi, telefonu ve TC kimlik numarası sisteme hiç yazılmaz (KVKK)."
+        },
+        {
+          "icon": "fas fa-trash-can",
+          "title": "Verileriniz sizin",
+          "text": "Hesabınızı istediğiniz zaman silebilirsiniz; 7 günlük bekleme süresinin sonunda tüm veriler kalıcı olarak silinir."
+        },
+        {
+          "icon": "fas fa-credit-card",
+          "title": "Güvenli ödeme",
+          "text": "Abonelik ödemeleri iyzico üzerinden alınır; kart bilgileriniz Kârlılık.NET'te saklanmaz."
+        }
+      ],
+      "links_title": "Kârlılık.NET bağlantıları",
+      "links": [
+        {
+          "icon": "fas fa-globe",
+          "title": "karlilik.net",
+          "text": "Ürün tanıtımı, ekranlar ve sık sorulan sorular",
+          "url": "https://karlilik.net/"
+        },
+        {
+          "icon": "fas fa-play",
+          "title": "Demoyu deneyin",
+          "text": "Kayıt olmadan örnek verili mağazada tüm ekranları gezin; demo verileri her gece sıfırlanır.",
+          "url": "https://karlilik.net/login"
+        },
+        {
+          "icon": "fas fa-user-plus",
+          "title": "Ücretsiz hesap açın",
+          "text": "14 gün ücretsiz; kart bilgisi istenmez, istediğiniz zaman iptal.",
+          "url": "https://karlilik.net/register"
+        },
+        {
+          "icon": "fas fa-tags",
+          "title": "Planlar ve fiyatlar",
+          "text": "Güncel planları ve fiyatları karlilik.net'te inceleyin.",
+          "url": "https://karlilik.net/#fiyatlar"
+        }
+      ],
+      "faq_title": "Sık sorulan sorular",
+      "faq": [
+        {
+          "question": "Hangi pazaryerlerini destekliyorsunuz?",
+          "answer": "Trendyol ve Hepsiburada. Birden fazla mağazayı tek hesapta bağlayıp birlikte ya da ayrı ayrı raporlayabilirsiniz."
+        },
+        {
+          "question": "Verilerim ne sıklıkla güncellenir?",
+          "answer": "Siparişler 15 dakikada, hakediş ve finans kayıtları saatte bir, ilanlar 6 saatte bir çekilir. Mağazayı ilk bağladığınızda geçmiş siparişler de gelir."
+        },
+        {
+          "question": "Tahmini kâr ile kesin kâr arasındaki fark nedir?",
+          "answer": "Sipariş geldiğinde kâr, mağazanızın komisyon, kargo baremi ve hizmet bedeli kurallarıyla tahmin edilir. Pazaryeri hakedişi kesinleştirdiğinde gerçek kesintilerle kesin kâr hesaplanır; aradaki fark mutabakat ekranında görünür."
+        },
+        {
+          "question": "Ürün maliyetlerini nasıl girerim?",
+          "answer": "Ürün ekranından tek tek, Excel şablonuyla toplu olarak ya da alış faturanızı yükleyerek. Faturayı yapay zekâ okur ve ürünlerinizle eşleştirir; siz onaylamadan hiçbir maliyet uygulanmaz."
+        },
+        {
+          "question": "Yapay zekâ rakamları kendisi mi hesaplıyor?",
+          "answer": "Hayır. Tüm rakamlar kâr motorundan gelir; asistan yalnızca sizin raporlarınızı okuyup yorumlar ve öneri verir. Veri aktarımı için açık rızanız istenir."
+        },
+        {
+          "question": "Ücretsiz deneme nasıl işliyor?",
+          "answer": "Kayıt olduğunuzda 14 günlük deneme başlar, kart bilgisi istenmez. Deneme bitmeden istediğiniz planı seçip iyzico ile ödeyebilirsiniz."
+        },
+        {
+          "question": "Kayıt olmadan deneyebilir miyim?",
+          "answer": "Evet. karlilik.net'teki \"Demoyu deneyin\" ile örnek verili bir mağazada tüm ekranları gezebilirsiniz; demo verileri her gece sıfırlanır."
+        }
+      ],
+      "cta_title": "Gerçek kârınızı bugün görün",
+      "cta_text": "Mağazanızı bağlayın, maliyetlerinizi girin; zarar ettiren ürünleri ilk gün bulun.",
+      "cta_button": "14 gün ücretsiz deneyin",
+      "cta_button_url": "https://karlilik.net/register",
+      "cta_secondary_link": "Demoyu deneyin",
+      "cta_secondary_link_url": "https://karlilik.net/login",
       "slug": "karlilik",
       "id": "karlilik"
     },
     "adisyon-qr": {
-      "title": "AgotaSoft Adisyon QR",
-      "badge": "Erken erişim",
-      "hero_subtitle": "Kafe ve restoranlar için QR menü, sipariş, mutfak ekranı ve adisyonu tek sistemde birleştiren bulut çözüm. Müşteri masadaki QR'ı okutur, menüyü telefonunda açar ve sipariş verir; sipariş garsondan mutfağa, oradan kasaya kesintisiz akar.",
-      "cta_primary": "Erken Erişim Talep Edin",
-      "cta_secondary": "Modülleri İncele",
+      "title": "AgotaSoft QR Menü",
+      "badge": "Yayında",
+      "hero_subtitle": "Kafe ve restoranlar için QR menü, masadan sipariş, mutfak ekranı ve adisyon sistemi. Müşteri masadaki QR kodu okutur; menü telefonunun tarayıcısında açılır, sipariş verir, garsonu çağırır ve hesabı görür. Sipariş garsondan mutfağa, oradan kasaya kesintisiz akar.",
+      "cta_primary": "Demo talep edin",
+      "cta_secondary": "qrmenu.agotasoft.com",
+      "cta_secondary_url": "https://qrmenu.agotasoft.com/",
+      "hero_note": "Müşteri için uygulama indirmek, hesap açmak veya giriş yapmak gerekmez.",
       "facts_title": "Bir bakışta",
       "facts": [
         {
           "icon": "fas fa-qrcode",
-          "label": "Uygulama kurulumu yok, QR ile açılır"
+          "label": "Menü QR ile tarayıcıda açılır"
         },
         {
-          "icon": "fas fa-mobile-screen",
-          "label": "iPhone, iPad ve Android"
+          "icon": "fas fa-users-gear",
+          "label": "Garson, kasa, mutfak ve yönetici rolleri"
         },
         {
-          "icon": "fas fa-print",
-          "label": "Mutfak ekranı ve fiş yazıcı"
+          "icon": "fas fa-fire-burner",
+          "label": "Mutfak ekranı (KDS) ve fiş yazıcı"
         },
         {
-          "icon": "fas fa-language",
-          "label": "Çok dilli menü"
+          "icon": "fas fa-credit-card",
+          "label": "iyzico ile masadan online ödeme"
+        }
+      ],
+      "highlights": {
+        "label": "MÜŞTERİ TARAFI",
+        "title": "Masadan sipariş, garson çağırma ve ödeme",
+        "text": "Müşterileriniz hesap açmadan, uygulama indirmeden sipariş verir. Ad, telefon veya e-posta istenmez; reklam ve izleme yoktur.",
+        "items": [
+          "Kategoriler, arama ve ürün ayrıntıları: fotoğraf, açıklama, gramaj, kalori ve alerjen",
+          "Alerjen filtresi: seçilen alerjenleri içeren ürünleri gizler",
+          "Ürün seçenekleri, adet ve ürün notu",
+          "Menü işletmenin çevirdiği dillerde gösterilir",
+          "Siparişlerim: onay bekliyor, hazırlanıyor, hazır durumlarını canlı izleme",
+          "Tek dokunuşla garson çağırma, su veya hesap isteme",
+          "Adisyonu görme: kalemler, indirimler, ödenen ve kalan tutar",
+          "İşletme açtıysa hesabın tamamını veya bir kısmını bahşişle birlikte iyzico ile ödeme"
+        ]
+      },
+      "gallery_title": "Müşteri ekranları",
+      "gallery_text": "Masadaki QR okutulduğunda açılan menü, sipariş ve hesap ekranları. Görüntüler demo işletmeden alınmıştır.",
+      "gallery": [
+        {
+          "src": "/images/products/qr-menu/01-musteri-menu.webp",
+          "caption": "Menü: kategoriler, etiketler, fiyatlar ve alerjen filtresi"
+        },
+        {
+          "src": "/images/products/qr-menu/02-musteri-urun-ayrintisi.webp",
+          "caption": "Ürün ayrıntısı: açıklama, hazırlanma süresi, adet ve not"
+        },
+        {
+          "src": "/images/products/qr-menu/03-musteri-siparislerim.webp",
+          "caption": "Siparişlerim: sipariş durumu; garson çağır, su ve hesap iste"
+        },
+        {
+          "src": "/images/products/qr-menu/04-musteri-hesap.webp",
+          "caption": "Hesap: masanın adisyonu kalem kalem ve kalan tutar"
+        }
+      ],
+      "features_label": "PERSONEL VE YÖNETİM",
+      "features_title": "Salondan mutfağa, mutfaktan kasaya",
+      "features_text": "Garson, mutfak, kasa ve yönetici ekranları. Görüntüler demo işletmeden alınmıştır.",
+      "features": [
+        {
+          "label": "Salon",
+          "title": "Masaların canlı durumu tek ekranda",
+          "bullets": [
+            "Boş, açık ve hesap istendi durumları",
+            "Onay bekleyen QR siparişleri",
+            "Garson, su ve hesap çağrıları"
+          ],
+          "image": "/images/products/qr-menu/05-salon.webp",
+          "image_alt": "AgotaSoft QR Menü salon ekranı: masaların canlı durumu ve bekleyen çağrılar",
+          "frame": "browser",
+          "frame_url": "qrmenu.agotasoft.com/admin"
+        },
+        {
+          "label": "Mutfak ekranı (KDS)",
+          "title": "Siparişler istasyonlara göre mutfağa düşer",
+          "bullets": [
+            "Bar ve mutfak istasyonları",
+            "Bekleme süresine göre renklenen biletler",
+            "Kaleme dokunarak hazırlanıyor / hazır"
+          ],
+          "image": "/images/products/qr-menu/06-mutfak-ekrani.webp",
+          "image_alt": "AgotaSoft QR Menü mutfak ekranı (KDS): istasyon bazında sipariş biletleri",
+          "frame": "screen"
+        },
+        {
+          "label": "Adisyon ve kasa",
+          "title": "Masa adisyonu: ödeme al, böl, kapat",
+          "bullets": [
+            "Siparişler, ara toplam ve KDV",
+            "Ödeme alma, indirim ve ikram",
+            "Adisyon bölme ve birleştirme"
+          ],
+          "image": "/images/products/qr-menu/07-adisyon.webp",
+          "image_alt": "AgotaSoft QR Menü masa adisyonu: siparişler, ara toplam, KDV ve ödeme düğmeleri",
+          "frame": "browser",
+          "frame_url": "qrmenu.agotasoft.com/admin"
+        },
+        {
+          "label": "Yönetim paneli",
+          "title": "Menüyü tek yerden yönetin",
+          "bullets": [
+            "Ürünler, kategoriler, fiyat ve KDV",
+            "Excel ve CSV ile içe/dışa aktarma",
+            "Seçenekler, menüler, masalar ve QR kodları"
+          ],
+          "image": "/images/products/qr-menu/08-menu-yonetimi.webp",
+          "image_alt": "AgotaSoft QR Menü yönetim paneli: ürün listesi, fiyat, KDV ve Excel/CSV aktarımı",
+          "frame": "browser",
+          "frame_url": "qrmenu.agotasoft.com/admin"
         }
       ],
       "steps_label": "NASIL ÇALIŞIR",
@@ -1907,90 +2111,85 @@
         },
         {
           "title": "Sipariş verin",
-          "text": "Ürünü ve ekstra seçenekleri seçip siparişi gönderir; garson çağırabilir, hesap isteyebilir."
+          "text": "Ürünü ve seçenekleri seçip siparişi gönderir; garson çağırabilir, su veya hesap isteyebilir."
         },
         {
           "title": "Onay ve mutfak",
-          "text": "Garson siparişi onaylar; sipariş anında mutfak ekranına ve ilgili yazıcıya düşer."
+          "text": "Garson QR siparişini onaylar (isterseniz otomatik onaylanır); sipariş mutfak ekranına ve ilgili yazıcıya düşer."
         },
         {
           "title": "Adisyon ve ödeme",
-          "text": "Kasada adisyon bölünür veya birleştirilir, indirim uygulanır, ödeme alınır ve fiş yazdırılır."
+          "text": "Kasada ödeme alınır; adisyon bölünür veya birleştirilir, indirim ve ikram uygulanır, fiş yazdırılır."
         }
       ],
       "modules_label": "MODÜLLER",
       "modules_title": "Salondan mutfağa, mutfaktan kasaya",
-      "modules_subtitle": "İşletmenizin tüm servis akışını kapsayan modüller",
+      "modules_subtitle": "Garson, kasa, mutfak ve yönetici ekipleri için tek sistem; menü, masa, kullanıcı ve ayarlar web yönetim panelinde.",
       "modules": [
         {
           "icon": "fas fa-book-open",
           "title": "QR Menü",
-          "description": "Kategoriler, ürün görselleri, alerjen ve gramaj bilgisiyle dijital menü.",
+          "description": "Kategoriler, ürün görselleri, alerjen, gramaj ve kalori bilgisiyle dijital menü.",
           "bullets": [
-            "Alerjen ve gramaj bilgisi",
-            "Türkçe, İngilizce, Arapça, Rusça ve Almanca",
-            "Kahvaltı ve akşam gibi saat bazlı menüler"
+            "Alerjen filtresi ve ürün seçenekleri",
+            "İşletmenin seçtiği dillerde menü",
+            "Kahvaltı ve akşam gibi zaman bazlı menüler"
           ]
         },
         {
           "icon": "fas fa-bell-concierge",
-          "title": "Sipariş ve Masa Yönetimi",
-          "description": "Masa bazlı oturumlar ve anlık sipariş takibi.",
+          "title": "Salon ve Sipariş",
+          "description": "Canlı masa görünümü ve hızlı sipariş alma.",
           "bullets": [
-            "QR veya garson üzerinden sipariş",
-            "Garson çağırma ve hesap isteme",
-            "Canlı salon görünümü"
+            "Boş, açık ve hesap istendi durumları",
+            "Kategori, seçenek, not ve turla hızlı sipariş",
+            "İnternet kesilirse garson siparişleri kuyruğa alınır"
+          ]
+        },
+        {
+          "icon": "fas fa-circle-check",
+          "title": "QR Sipariş Onayı",
+          "description": "Müşterilerin QR ile verdiği siparişleri onaylayın veya reddedin.",
+          "bullets": [
+            "İsteğe bağlı otomatik onay",
+            "Garson, su ve hesap çağrıları",
+            "Onay bekleyen sipariş işaretleri"
           ]
         },
         {
           "icon": "fas fa-fire-burner",
           "title": "Mutfak Ekranı (KDS)",
-          "description": "Siparişler sıcak, soğuk ve bar gibi istasyonlara göre mutfak ekranına düşer.",
+          "description": "Siparişler istasyonlara göre mutfak ekranına düşer.",
           "bullets": [
-            "İstasyon bazlı yönlendirme",
-            "Bekleme süresine göre renkli uyarı",
-            "Tablette çalışır"
+            "Mutfak ve bar gibi istasyonlar",
+            "Kalem bazında hazırlanıyor / hazır",
+            "Bekleme süresine göre renkler; tablette yatay"
           ]
         },
         {
           "icon": "fas fa-cash-register",
-          "title": "Adisyon ve Kasa",
-          "description": "Adisyon bölme ve birleştirme, indirim ve farklı ödeme yöntemleri.",
+          "title": "Kasa ve Adisyon",
+          "description": "Ödeme alın, adisyonu bölün, birleştirin ve kapatın.",
           "bullets": [
-            "Nakit, kart ve yemek kartı",
-            "Adisyon bölme ve birleştirme",
-            "Kasa açılış ve kapanışı"
+            "Nakit, kart, yemek kartı ve hediye çeki",
+            "İndirim, ikram; kaleme göre veya eşit bölme",
+            "Kasa vardiyası ve beklenen nakit"
           ]
         },
         {
-          "icon": "fas fa-print",
-          "title": "Yazıcı Entegrasyonu",
-          "description": "Mevcut fiş ve mutfak yazıcılarınızla (ESC/POS) çalışır, ek donanım gerektirmez.",
+          "icon": "fas fa-sliders",
+          "title": "Yönetim Paneli ve Raporlar",
+          "description": "Menü, masa, kullanıcı ve ayar yönetimi web panelinde.",
           "bullets": [
-            "Kategoriye göre yazıcı yönlendirme",
-            "Türkçe karakter desteği",
-            "Başarısız baskıda otomatik tekrar"
-          ]
-        },
-        {
-          "icon": "fas fa-chart-simple",
-          "title": "Menü Yönetimi ve Raporlar",
-          "description": "Menüyü Excel ile içe/dışa aktarın, şube bazında fiyat belirleyin.",
-          "bullets": [
-            "Excel ve CSV içe/dışa aktarma",
-            "Şube bazında fiyat ve ürün durumu",
-            "Gün sonu raporu"
+            "Excel ve CSV ile menü içe/dışa aktarma",
+            "Masalar ve QR baskı sayfası",
+            "Gün sonu özeti: satışlar, ödeme türleri, siparişler"
           ]
         }
       ],
-      "benefits_title": "Donanım satmıyoruz, mevcut cihazlarınızla çalışır",
-      "benefits_text": "Telefon, tablet ve bilgisayarlarınız yeterli; özel donanım gerekmez.",
+      "benefits_title": "Mevcut cihazlarınızla çalışır",
+      "benefits_text": "Telefon, tablet ve bilgisayarlarınız yeterli; baskılar mevcut ESC/POS fiş ve mutfak yazıcılarınızdan alınır.",
       "benefits": [
-        {
-          "icon": "fas fa-mobile-screen-button",
-          "title": "Tek uygulama, iki platform",
-          "text": "Garson, kasa ve mutfak ekipleri aynı uygulamayı iPhone, iPad ve Android cihazlarda kullanır."
-        },
         {
           "icon": "fas fa-bolt",
           "title": "Anlık senkron",
@@ -1998,8 +2197,13 @@
         },
         {
           "icon": "fas fa-wifi",
-          "title": "İnternet kesintisine dayanıklı",
-          "text": "Bağlantı koptuğunda garson siparişleri kuyruğa alınır, bağlantı gelince gönderilir."
+          "title": "Kesintiye dayanıklı sipariş",
+          "text": "Bağlantı koptuğunda garson siparişleri cihazda kuyruğa alınır, bağlantı gelince tekrarsız gönderilir."
+        },
+        {
+          "icon": "fas fa-print",
+          "title": "Fiş ve mutfak yazıcıları",
+          "text": "Ağa bağlı ESC/POS yazıcılar, işletmedeki bilgisayarda çalışan Print Agent ile kullanılır; kategoriye göre yönlendirilir."
         },
         {
           "icon": "fas fa-store",
@@ -2009,18 +2213,77 @@
         {
           "icon": "fas fa-shield-halved",
           "title": "Güvenli QR",
-          "text": "Her masanın QR kodu imzalıdır; kopyalanan kodla sahte sipariş verilemez."
+          "text": "Her masanın QR bağlantısı gizli bir anahtar taşır; masa numarası tahmin edilerek sipariş verilemez."
         },
         {
           "icon": "fas fa-user-lock",
           "title": "Rol bazlı yetki",
-          "text": "Garson, kasiyer, mutfak ve yönetici için ayrı ekranlar ve yetkiler."
+          "text": "Garson, kasiyer, mutfak, yönetici ve işletme sahibi için ayrı ekranlar ve yetkiler."
+        }
+      ],
+      "links_title": "AgotaSoft QR Menü bağlantıları",
+      "links": [
+        {
+          "icon": "fas fa-globe",
+          "title": "qrmenu.agotasoft.com",
+          "text": "AgotaSoft QR Menü'nün ana sayfası",
+          "url": "https://qrmenu.agotasoft.com/"
+        },
+        {
+          "icon": "fas fa-right-to-bracket",
+          "title": "Yönetim paneli",
+          "text": "İşletme sahibi ve yönetici girişi",
+          "url": "https://qrmenu.agotasoft.com/admin"
+        },
+        {
+          "icon": "fas fa-life-ring",
+          "title": "Destek",
+          "text": "Müşteriler ve işletmeler için sık sorulan sorular",
+          "url": "https://qrmenu.agotasoft.com/destek"
+        },
+        {
+          "icon": "fas fa-user-shield",
+          "title": "Gizlilik",
+          "text": "Gizlilik politikası ve veri silme",
+          "url": "https://qrmenu.agotasoft.com/gizlilik"
+        }
+      ],
+      "faq_title": "Sık sorulan sorular",
+      "faq": [
+        {
+          "question": "Müşterinin uygulama indirmesi gerekir mi?",
+          "answer": "Hayır. Masadaki QR kod telefon kamerasıyla okutulduğunda menü tarayıcıda açılır; müşteri sipariş verebilir, garson çağırabilir ve hesabı görebilir. Kayıt veya giriş yoktur; ad, telefon veya e-posta istenmez."
+        },
+        {
+          "question": "İşletme hesabını nasıl açarım?",
+          "answer": "İşletme hesapları AgotaSoft tarafından açılır. İletişim formundan ya da info@agotasoft.com adresinden işletme adınızla yazın; kurulum için sizinle iletişime geçelim."
+        },
+        {
+          "question": "Personel hesapları nasıl oluşturulur?",
+          "answer": "Yönetim panelindeki Kullanıcılar sayfasından. Ekranlar role göre (garson, kasiyer, mutfak, yönetici, işletme sahibi) açılır; personel uygulamasının arayüzü Türkçedir."
+        },
+        {
+          "question": "Yazıcılar nasıl çalışır?",
+          "answer": "Ağa bağlı ESC/POS fiş ve mutfak yazıcıları, işletmedeki bir bilgisayarda çalışan Print Agent ile kullanılır. Yazıcılar ve kategori yönlendirmeleri yönetim panelinden tanımlanır."
+        },
+        {
+          "question": "İnternet kesilirse ne olur?",
+          "answer": "Personel uygulaması garson siparişlerini cihazda kuyruğa alır ve bağlantı gelince gönderir; kasa işlemleri çevrimdışıyken yapılamaz. Müşteri menüsü son görülen menüyü gösterebilir ama bağlantı yokken sipariş alınmaz."
+        },
+        {
+          "question": "Online ödemeyi nasıl açarım?",
+          "answer": "Her işletme kendi iyzico üye işyeri hesabıyla çalışır; para doğrudan işletmenin hesabına geçer. İşletme sahibi yönetim panelindeki Ayarlar sayfasından iyzico anahtarlarını girerek online ödemeyi açar."
+        },
+        {
+          "question": "Menü hangi dillerde gösterilir?",
+          "answer": "Menü içeriği işletmenin çevirdiği dillerde gösterilir; müşteri arayüzü Türkçe ve İngilizcedir."
         }
       ],
       "cta_title": "İşletmenizi QR ile hızlandırın",
-      "cta_text": "AgotaSoft Adisyon QR erken erişim sürecinde. İşletmeniz için demo planlamak ve ilk kullanıcılardan olmak için bizimle iletişime geçin.",
-      "cta_button": "Erken Erişim Talep Edin",
-      "cta_secondary_link": "Tüm Çözümler",
+      "cta_text": "Menünüzü, masalarınızı ve ekibinizi birlikte kuralım. İşletme hesabı açmak ve demo planlamak için bizimle iletişime geçin.",
+      "cta_button": "Demo talep edin",
+      "cta_secondary_link": "qrmenu.agotasoft.com",
+      "cta_secondary_link_url": "https://qrmenu.agotasoft.com/",
       "slug": "adisyon-qr",
       "id": "adisyon-qr"
     }
@@ -2144,9 +2407,9 @@
     "/pre-accounting": {
       "path": "/pre-accounting",
       "label": "Ön Muhasebe",
-      "title": "AgotaSoft Ön Muhasebe | Finansal Kontrol Tamamen Sizin Elinizde",
-      "description": "E-Fatura, cari hesap, gider takibi ve finansal raporlama.",
-      "keywords": "ön muhasebe, e-fatura, cari hesap, AgotaSoft",
+      "title": "AgotaSoft Ön Muhasebe | Çoklu Döviz, Barkodla Satış, iOS ve Web",
+      "description": "TL, USD ve EUR'u aynı anda takip eden, barkodla satış yapan ön muhasebe programı; iOS uygulaması ve web paneli.",
+      "keywords": "ön muhasebe, çoklu döviz, barkodlu satış, cari hesap, kasa takibi, AgotaSoft",
       "author": "AgotaSoft",
       "robots": "index, follow",
       "canonical": "https://agotasoft.com/pre-accounting",
@@ -2963,11 +3226,11 @@
         "url": "/lms"
       },
       {
-        "label": "Karlılık.NET",
+        "label": "Kârlılık.NET",
         "url": "/karlilik"
       },
       {
-        "label": "Adisyon QR",
+        "label": "QR Menü",
         "url": "/adisyon-qr"
       }
     ],

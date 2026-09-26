@@ -1,0 +1,458 @@
+{
+	"agota-fatura": {
+		"summary": "Gelen fatura ve fişlerin fotoğrafını, PDF'ini veya e-postasını okur; kaydı açar, cariyi eşler ve KDV'yi ayırır.",
+		"manual": "Fatura ve fişleri tek tek elle girmek, cariyi bulup KDV'yi ayrı ayrı hesaplamak.",
+		"features": ["Fotoğraf, PDF ve e-postadan fatura okuma", "Cari ve stok kartıyla otomatik eşleştirme", "KDV oranı ve matrahı kalem kalem ayırma", "Emin olamadığı alanları onayınıza sunma"],
+		"audience": "Ayda yüzlerce alış faturası işleyen KOBİ'ler ve muhasebe ekipleri."
+	},
+	"agota-banka": {
+		"summary": "Banka hareketlerini çeker, faturalarla eşleştirir ve açık hesapları kapatır; eşleştiremediği hareketleri size sorar.",
+		"manual": "Ekstreyi indirip her satırı ilgili fatura ve cariyle elle eşleştirmek.",
+		"features": ["Banka hareketlerini düzenli olarak içeri alma", "Tutar, açıklama ve tarihe göre akıllı eşleştirme", "Açık hesapları otomatik kapatma", "Eşleşmeyen hareketler için soru listesi"],
+		"audience": "Birden fazla banka hesabıyla çalışan, günlük tahsilat ve ödemesi yoğun işletmeler."
+	},
+	"agota-tahsilat": {
+		"summary": "Vadesi gelen alacaklar için müşterilere WhatsApp ve e-postayla hatırlatma gönderir, ödeme sözlerini takip eder ve müşteri risk skoru çıkarır.",
+		"manual": "Vadesi geçen müşterileri tek tek arayıp hatırlatmak, verilen ödeme sözlerini deftere not etmek.",
+		"features": ["WhatsApp ve e-postayla kademeli hatırlatma", "Ödeme sözü kaydı ve takibi", "Ödeme alışkanlığına göre müşteri risk skoru", "Günlük tahsilat listesi ve özet"],
+		"audience": "Vadeli satış yapan toptancı, distribütör ve hizmet işletmeleri."
+	},
+	"agota-mutabakat": {
+		"summary": "Cari mutabakat e-postalarını gönderir, gelen cevapları okur, farkları bulur ve size yalnızca uyuşmazlıkları gösterir.",
+		"manual": "Dönem sonunda her cariye mutabakat mektubu yollamak, cevapları toplayıp bakiyeleri tek tek karşılaştırmak.",
+		"features": ["Toplu mutabakat e-postası gönderimi", "Gelen cevapları ve ekleri okuma", "Bakiye farkını belge bazında bulma", "Yalnızca uyuşmazlıklardan oluşan iş listesi"],
+		"audience": "Çok sayıda cariyle çalışan ve dönem sonu mutabakatı yapan firmalar."
+	},
+	"agota-nakit": {
+		"summary": "Alacak, borç, çek ve düzenli giderlerinizden 13 haftalık nakit akışı tahmini çıkarır; \"bu ay maaşlar çıkar mı?\" sorusunu cevaplar.",
+		"manual": "Nakit durumunu Excel tablolarında tahmin etmek ve her hafta yeniden güncellemek.",
+		"features": ["13 haftalık kayan nakit akışı tahmini", "Tahsilat ve ödeme vadelerinden otomatik projeksiyon", "Nakit açığından önce erken uyarı", "Senaryo karşılaştırma: tahsilat gecikirse ne olur?"],
+		"audience": "Nakit planlaması yapan işletme sahipleri ve finans yöneticileri."
+	},
+	"agota-cek": {
+		"summary": "Çek ve senet portföyünüzü, vade takviminizi ve ciro zincirini takip eder; karşılıksız çıkma riskine karşı sizi önceden uyarır.",
+		"manual": "Çek ve senetleri defterde veya Excel'de tutmak, vadeleri takvimden kovalamak.",
+		"features": ["Alınan ve verilen çek/senet portföyü", "Vade takvimi ve günlük hatırlatma", "Ciro ve tahsil durumu takibi", "Keşideci bazında risk uyarısı"],
+		"audience": "Çek ve senetle ticaret yapan toptan, inşaat ve sanayi işletmeleri."
+	},
+	"agota-masraf": {
+		"summary": "Çalışanlar fişin fotoğrafını çeker; masraf formu kendiliğinden dolar ve onay akışına düşer.",
+		"manual": "Fişleri biriktirip ay sonunda masraf formunu elle doldurmak ve imzaya dolaştırmak.",
+		"features": ["Fotoğraftan tutar, tarih ve KDV okuma", "Masraf türü ve proje ataması", "Yönetici onay akışı", "Ön muhasebeye tek tıkla aktarım"],
+		"audience": "Sahada ve seyahatte masraf yapan ekipleri olan firmalar."
+	},
+	"agota-beyan": {
+		"summary": "Ay sonunda mali müşavirinize gidecek evrakı derler, eksikleri kovalar ve beyanname takvimini izler. Müşavirinizle birlikte çalışır, onun yerine geçmez.",
+		"manual": "Ay sonu evrakını klasörlerden toplamak, müşavirin eksik listesini telefonla takip etmek.",
+		"features": ["Aylık evrak kontrol listesi", "Eksik belge için otomatik hatırlatma", "Beyanname ve ödeme takvimi", "Müşavirle ortak paylaşım alanı"],
+		"audience": "Mali müşavirle çalışan KOBİ'ler ve şahıs şirketleri."
+	},
+	"agota-liste": {
+		"summary": "Bir fotoğraf ve birkaç kelimeden başlık, açıklama, özellik seti, kategori ve SEO metni üretir; ilanı her pazaryerinin formatına uyarlar.",
+		"manual": "Her pazaryeri için başlık, açıklama ve özellikleri ayrı ayrı yazıp kategori eşlemek.",
+		"features": ["Fotoğraftan ürün özelliklerini çıkarma", "Pazaryerine özel başlık ve açıklama", "Kategori ve zorunlu alan eşleştirme", "Toplu ilan hazırlama"],
+		"audience": "Çok ürünlü ve çok kanallı satış yapan e-ticaret satıcıları."
+	},
+	"agota-fiyat": {
+		"summary": "Rakip fiyatına, stok yaşına ve hedef marjınıza göre fiyatı dinamik olarak günceller ve buybox durumunu takip eder.",
+		"manual": "Rakip fiyatlarına tek tek bakıp fiyatları elle değiştirmek.",
+		"features": ["Hedef marj ve taban fiyat kuralları", "Rakip fiyat ve buybox takibi", "Stok yaşına göre fiyat stratejisi", "Değişiklik geçmişi ve onay modu"],
+		"audience": "Rekabetin fiyatla belirlendiği kategorilerde satan pazaryeri satıcıları."
+	},
+	"agota-stoksenk": {
+		"summary": "Stoğu tüm satış kanallarında senkron tutar; ürün tükenince ilanı kapatır, fazla stokta kampanya önerir.",
+		"manual": "Bir kanalda satılan ürünün stoğunu diğer kanallarda elle düşmek, fazla satışla uğraşmak.",
+		"features": ["Kanallar arası stok senkronu", "Tükenen ürünün ilanını otomatik kapatma", "Fazla ve yaşlanan stok için kampanya önerisi", "Kanal bazında stok ayırma"],
+		"audience": "Aynı stoğu birden fazla pazaryerinde ve kendi sitesinde satan işletmeler."
+	},
+	"agota-yorum": {
+		"summary": "Müşteri sorularına, yorumlara ve iade taleplerine hedef yanıt süreniz (SLA) içinde cevap verir; olumsuz yorumların kök nedenini analiz eder.",
+		"manual": "Paneller arasında gezip soruları tek tek cevaplamak ve yanıt süresini kaçırmak.",
+		"features": ["Tüm kanalların soruları tek ekranda", "Ürün bilgisine dayalı yanıt taslağı", "SLA takibi ve gecikme uyarısı", "Olumsuz yorum kök neden raporu"],
+		"audience": "Günde onlarca müşteri sorusu alan pazaryeri mağazaları."
+	},
+	"agota-reklam": {
+		"summary": "Pazaryeri, Meta ve Google reklam bütçenizi ürün kârlılığına göre dağıtır; zarar ettiren kampanyaları durdurur.",
+		"manual": "Reklam panellerinden rapor indirip hangi kampanyanın kâr ettirdiğini Excel'de hesaplamak.",
+		"features": ["Kampanya bazında net kâr hesabı", "Kârlı ürünlere bütçe kaydırma önerisi", "Zarar eden kampanya için durdurma kuralı", "Haftalık reklam verimliliği özeti"],
+		"audience": "Pazaryeri ve sosyal medya reklamına düzenli bütçe ayıran satıcılar."
+	},
+	"agota-iade": {
+		"summary": "İade edilen ürünün fotoğrafından hasar tespiti yapar, iade kararını önerir, kargo etiketini ve para iadesi kaydını hazırlar.",
+		"manual": "Her iadeyi tek tek inceleyip karar vermek, etiketi ve iade kaydını ayrı sistemlerde açmak.",
+		"features": ["Fotoğraftan hasar ve kusur tespiti", "İade politikanıza göre karar önerisi", "Kargo etiketi ve iade kaydı", "İade nedeni ve ürün bazında rapor"],
+		"audience": "İade oranı yüksek kategorilerde satan e-ticaret işletmeleri."
+	},
+	"agota-kargo": {
+		"summary": "Desi, fiyat ve hıza göre en uygun kargo firmasını seçer, etiketleri toplu basar ve geciken teslimatı müşteriye kendisi bildirir.",
+		"manual": "Her gönderi için kargo firması seçmek, etiketleri tek tek basmak ve gecikmeleri takip etmek.",
+		"features": ["Desi, fiyat ve hıza göre firma seçimi", "Toplu etiket basımı", "Teslimat takibi ve gecikme uyarısı", "Müşteriye otomatik durum bildirimi"],
+		"audience": "Günde onlarca gönderi çıkaran e-ticaret işletmeleri."
+	},
+	"agota-rakip": {
+		"summary": "Rakiplerinizin fiyat, stok ve yorum hareketlerini takip eder; haftalık sesli ve yazılı özet gönderir.",
+		"manual": "Rakip mağazaları her gün tek tek ziyaret edip not almak.",
+		"features": ["Rakip ürün ve mağaza izleme listesi", "Fiyat ve stok değişikliği uyarıları", "Yorum ve puan trendi", "Haftalık sesli ve yazılı özet"],
+		"audience": "Rekabetçi kategorilerde pazar payını izlemek isteyen markalar ve satıcılar."
+	},
+	"agota-katalog": {
+		"summary": "Tedarikçinin Excel veya PDF fiyat listesini ürün kartlarına ve pazaryeri ilanlarına dönüştürür.",
+		"manual": "Tedarikçi listelerini satır satır ürün kartına kopyalamak, fiyat değişince hepsini tek tek güncellemek.",
+		"features": ["Excel ve PDF fiyat listesi okuma", "Mevcut ürünlerle eşleştirme", "Yeni ürün kartı ve ilan taslağı", "Fiyat değişikliklerini toplu güncelleme"],
+		"audience": "Çok tedarikçiyle çalışan, kataloğu sık değişen perakende ve e-ticaret işletmeleri."
+	},
+	"agota-teklif": {
+		"summary": "WhatsApp'tan gelen \"5 ton X, fiyat?\" gibi bir mesajdan fiyat listesine, maliyete ve stoğa bakarak teklif PDF'i hazırlar ve onayınıza sunar.",
+		"manual": "Her fiyat sorusu için listeye, maliyete ve stoğa bakıp teklifi Word'de sıfırdan hazırlamak.",
+		"features": ["Mesajdan ürün ve miktar çıkarma", "Fiyat listesi, maliyet ve stok kontrolü", "Kurumsal kimliğinize uygun teklif PDF'i", "Onaydan sonra tek tıkla gönderim"],
+		"audience": "WhatsApp ve e-postayla fiyat talebi alan üretici ve toptancılar."
+	},
+	"agota-siparis": {
+		"summary": "E-posta, WhatsApp, Excel veya sesli mesajla gelen siparişi yapılandırılmış siparişe çevirir; stok ve vade kontrolünü yapar.",
+		"manual": "Farklı kanallardan gelen siparişleri sisteme tek tek girmek, stok ve risk limitini ayrıca kontrol etmek.",
+		"features": ["E-posta, WhatsApp, Excel ve ses kaydından sipariş", "Ürün ve müşteri eşleştirme", "Stok, fiyat, vade ve risk kontrolü", "Onaylanınca ERP'ye sipariş kaydı"],
+		"audience": "Bayilerinden ve müşterilerinden dağınık kanallarla sipariş alan firmalar."
+	},
+	"agota-musteri": {
+		"summary": "Mesajlardan, arama notlarından ve e-postalardan CRM'i kendisi günceller; unutulan fırsatları ve sessizleşen müşterileri hatırlatır.",
+		"manual": "Görüşme notlarını CRM'e girmeyi unutmak, takip edilmesi gereken müşteriyi kaçırmak.",
+		"features": ["Mesaj ve e-postadan otomatik müşteri kaydı", "Görüşme özeti ve sonraki adım", "Unutulan fırsat hatırlatmaları", "Sessizleşen müşteri uyarısı"],
+		"audience": "Satış ekibinin CRM'e veri girmekte zorlandığı B2B işletmeler."
+	},
+	"agota-bayi": {
+		"summary": "Bayileriniz ekstrelerini ve siparişlerini kendi portallarında görür; asistan her bayiye geçmişine göre sipariş önerir.",
+		"manual": "Bayilerin ekstre ve sipariş durumu sorularına telefonla tek tek cevap vermek.",
+		"features": ["Bayiye özel ekstre ve bakiye ekranı", "Portal üzerinden sipariş", "Geçmişe dayalı sipariş önerisi", "Bayi bazında kampanya ve fiyat listesi"],
+		"audience": "Bayi ağıyla satış yapan üretici ve distribütörler."
+	},
+	"agota-plasiyer": {
+		"summary": "Saha satış ekibine sesli asistan: \"Bu müşterinin bakiyesi ne, son siparişi neydi?\" sorusuna anında cevap, günlük rota ve tahsilat listesi.",
+		"manual": "Sahadaki satışçının bakiye ve sipariş bilgisi için merkezi arayıp beklemesi.",
+		"features": ["Sesle müşteri bakiyesi ve geçmişi sorgulama", "Günlük ziyaret rotası", "Sahada sipariş ve tahsilat kaydı", "Ziyaret notunu sesle bırakma"],
+		"audience": "Plasiyer ve saha satış ekibiyle çalışan dağıtım firmaları."
+	},
+	"agota-satinal": {
+		"summary": "Stok minimum seviyeye düşünce tedarikçilerden fiyat toplar, teklifleri karşılaştırır ve satın alma siparişi taslağı çıkarır.",
+		"manual": "Stok azaldığında tedarikçileri tek tek arayıp fiyat almak ve karşılaştırma tablosu hazırlamak.",
+		"features": ["Minimum stok tetikleyicisi", "Tedarikçilere toplu teklif talebi", "Fiyat, vade ve teslim süresi karşılaştırması", "Onaya hazır satın alma siparişi"],
+		"audience": "Düzenli malzeme ve ürün alımı yapan üretim ve ticaret firmaları."
+	},
+	"agota-tedarikci": {
+		"summary": "Tedarikçilerinizi gecikme, kalite ve fiyat sapmasına göre puanlar; hangi tedarikçiyle devam edeceğinizi veriyle gösterir.",
+		"manual": "Tedarikçi performansını hafızaya ve kulaktan dolma bilgiye göre değerlendirmek.",
+		"features": ["Zamanında teslim oranı", "Kalite ve iade kayıtları", "Fiyat sapması takibi", "Tedarikçi karnesi ve sıralama"],
+		"audience": "Çok tedarikçiyle çalışan satın alma ekipleri."
+	},
+	"agota-ihale": {
+		"summary": "EKAP ve özel ihale ilanlarını tarar, işletmenize uygun olanları önerir ve teklif dosyası taslağını hazırlar.",
+		"manual": "İhale ilanlarını her gün elle taramak ve teklif dosyasını sıfırdan hazırlamak.",
+		"features": ["İhale ilanı tarama ve filtreleme", "Uygunluk puanı ve öneri", "Son başvuru tarihi hatırlatmaları", "Teklif dosyası taslağı"],
+		"audience": "Kamu ve özel sektör ihalelerine teklif veren firmalar."
+	},
+	"agota-maliyet": {
+		"summary": "Hammadde, işçilik ve genel gider bazında ürün maliyetini hesaplar; girdi fiyatı değişince maliyeti ve önerilen satış fiyatını günceller.",
+		"manual": "Maliyet tablolarını her fiyat artışında Excel'de yeniden hesaplamak.",
+		"features": ["Hammadde, işçilik ve genel gider dağıtımı", "Reçeteye bağlı maliyet hesabı", "Girdi fiyatı değişiminde otomatik güncelleme", "Hedef marja göre satış fiyatı önerisi"],
+		"audience": "Üretim yapan ve maliyetleri sık değişen işletmeler."
+	},
+	"agota-depo": {
+		"summary": "Telefon kamerasıyla sayım yapar, barkodu olmayan ürünleri görüntüsünden tanır ve raf yerleşimi önerir.",
+		"manual": "Sayım listelerini kâğıda yazıp sonra sisteme girmek, barkodsuz ürünleri elle aramak.",
+		"features": ["Kamerayla hızlı sayım", "Barkodsuz ürünü görüntüden tanıma", "Raf ve yerleşim önerisi", "Sayım farkı raporu"],
+		"audience": "Depoda ve mağazada düzenli sayım yapan işletmeler."
+	},
+	"agota-talep": {
+		"summary": "Geçmiş satışlardan ve sezonsallıktan talep tahmini yapar; \"hangi üründen ne kadar alınmalı\" listesini çıkarır.",
+		"manual": "Sipariş miktarlarını tecrübeye ve geçen yılın rakamlarına bakarak tahmin etmek.",
+		"features": ["Sezonsallığı hesaba katan talep tahmini", "Ürün bazında önerilen sipariş miktarı", "Stoksuz kalma ve fazla stok riski", "Satın almaya tek tıkla aktarım"],
+		"audience": "Sezonluk ürün satan perakende ve toptan işletmeler."
+	},
+	"agota-sevk": {
+		"summary": "Araç rotasını planlar, irsaliyeyi otomatikleştirir; sürücüye rotayı WhatsApp'tan gönderir ve teslimat fotoğrafını toplar.",
+		"manual": "Rotaları elle planlamak, irsaliyeleri tek tek kesmek, teslimatı telefonla teyit etmek.",
+		"features": ["Araç ve rota planlama", "İrsaliye otomasyonu", "Sürücüye WhatsApp üzerinden rota", "Fotoğraflı teslimat onayı"],
+		"audience": "Kendi araçlarıyla dağıtım yapan toptancı ve üreticiler."
+	},
+	"agota-uretim": {
+		"summary": "Siparişten iş emri ve üretim planı oluşturur; reçete (BOM) ve kapasiteye göre \"bu sipariş ne zaman biter?\" sorusunu cevaplar.",
+		"manual": "Üretim planını beyaz tahtada veya Excel'de tutmak, termin sorusuna tahminle cevap vermek.",
+		"features": ["Reçete (BOM) yönetimi", "Siparişten otomatik iş emri", "Kapasiteye göre üretim planı", "Termin tahmini ve gecikme uyarısı"],
+		"audience": "Siparişe göre üretim yapan küçük ve orta ölçekli üreticiler."
+	},
+	"agota-fason": {
+		"summary": "Tekstil ve metal gibi sektörlerde fason atölyeleri takip eder; aşama bildirimlerini WhatsApp'tan alır ve fason kârlılığını hesaplar.",
+		"manual": "Fason atölyeleri telefonla arayıp işin hangi aşamada olduğunu sormak.",
+		"features": ["Fasona giden iş ve malzeme takibi", "WhatsApp'tan aşama bildirimi", "Termin ve gecikme takibi", "Fason bazında kârlılık"],
+		"audience": "Fason üretimle çalışan tekstil, metal ve mobilya firmaları."
+	},
+	"agota-kalite": {
+		"summary": "Hatalı ürün fotoğrafından hata sınıfını belirler ve tedarikçiye gidecek uygunsuzluk raporunu otomatik hazırlar.",
+		"manual": "Hataları kâğıt formlara yazmak, tedarikçi raporlarını elle hazırlamak.",
+		"features": ["Fotoğraftan hata sınıflandırma", "Uygunsuzluk raporu taslağı", "Tedarikçi ve parti bazında hata istatistiği", "Düzeltici faaliyet takibi"],
+		"audience": "Kalite kontrol yapan üretim işletmeleri."
+	},
+	"agota-bakim": {
+		"summary": "Makine bakım takvimini yönetir, arızaların sesle bildirilmesini sağlar ve duruş maliyetini hesaplar.",
+		"manual": "Bakım tarihlerini defterde tutmak, arızayı sözlü iletmek, duruşları kayda geçirmemek.",
+		"features": ["Periyodik bakım takvimi", "Sesli arıza bildirimi", "Arıza ve müdahale geçmişi", "Duruş süresi ve maliyeti"],
+		"audience": "Makine parkı olan üretim tesisleri."
+	},
+	"agota-bordro": {
+		"summary": "Puantajdan bordro taslağı hazırlar, izin bakiyelerini tutar ve SGK takvimini hatırlatır. Bordro, mali müşavir onayından sonra kesinleşir.",
+		"manual": "Puantajı Excel'de toplayıp müşavire göndermek, izin bakiyelerini elle hesaplamak.",
+		"features": ["Puantajdan bordro taslağı", "İzin bakiyesi takibi", "SGK ve ödeme takvimi hatırlatması", "Müşavir onay akışı"],
+		"audience": "Bordrosunu mali müşavirle hazırlayan KOBİ'ler."
+	},
+	"agota-aday": {
+		"summary": "İş ilanını yazar, CV'leri eler, adayla WhatsApp'tan ön görüşme yapar ve mülakat takvimini kurar.",
+		"manual": "Yüzlerce CV'yi tek tek okumak, adaylarla telefonla randevu ayarlamak.",
+		"features": ["İlan metni hazırlama", "Kriterlere göre CV eleme", "WhatsApp üzerinden ön görüşme", "Mülakat takvimi ve hatırlatma"],
+		"audience": "Sık personel alımı yapan perakende, üretim ve hizmet işletmeleri."
+	},
+	"agota-vardiya": {
+		"summary": "Vardiya planını hazırlar, izin çakışmalarını çözer ve fazla mesaiyi hesaplar.",
+		"manual": "Vardiya çizelgesini her hafta elle hazırlamak, değişiklikleri gruptan duyurmak.",
+		"features": ["Otomatik vardiya planı", "İzin ve çakışma kontrolü", "Fazla mesai hesabı", "Çalışana bildirim"],
+		"audience": "Vardiyalı çalışan fabrika, mağaza, restoran ve sağlık işletmeleri."
+	},
+	"agota-rehber": {
+		"summary": "\"İzin nasıl alınır, kimden onay alınır?\" gibi sorulara şirket kurallarınızdan cevap veren iç asistan; yeni çalışanların uyumunu hızlandırır.",
+		"manual": "Aynı soruları her yeni çalışana tekrar tekrar anlatmak.",
+		"features": ["Kural ve prosedür bilgi tabanı", "Doğal dilde soru-cevap", "Yeni çalışan uyum planı", "Güncel doküman bağlantıları"],
+		"audience": "Büyüyen ve sık yeni çalışan alan ekipler."
+	},
+	"agota-hat": {
+		"summary": "WhatsApp, Instagram ve e-postayı tek gelen kutusunda toplar; ilk cevabı verir, mesajı sınıflandırır, ilgiliye atar ve sipariş/kargo durumunu kendisi söyler.",
+		"manual": "Birden fazla uygulamadan gelen mesajları takip etmek, aynı soruları tekrar tekrar cevaplamak.",
+		"features": ["Çok kanallı ortak gelen kutusu", "Otomatik ilk yanıt ve sınıflandırma", "Sipariş ve kargo durumu sorgulama", "Ekip içi atama ve takip"],
+		"audience": "Müşteri mesajlarını birden fazla kanaldan alan işletmeler."
+	},
+	"agota-ses": {
+		"summary": "Gelen aramaları karşılayan sesli asistan: randevu, sipariş ve adres bilgisini alır, her aramanın yazılı özetini çıkarır.",
+		"manual": "Telefonlara yetişememek, kaçan aramalara geri dönememek, görüşmeleri not almamak.",
+		"features": ["Mesai dışında da çağrı karşılama", "Randevu, sipariş ve adres alma", "Her aramanın yazılı özeti", "Gerektiğinde ilgili kişiye aktarma"],
+		"audience": "Telefonla sipariş ve randevu alan işletmeler."
+	},
+	"agota-sikayet": {
+		"summary": "Şikâyet sitelerindeki, Google'daki ve pazaryerlerindeki yorumları tek yerde toplar, yanıtlar ve kök nedenleri raporlar.",
+		"manual": "Farklı sitelerdeki şikâyetleri tek tek takip etmek ve geç cevap vermek.",
+		"features": ["Şikâyet ve yorum kaynaklarını tek listede toplama", "Yanıt taslağı ve onay", "Kök neden sınıflandırması", "Tekrarlayan sorun raporu"],
+		"audience": "Online itibarı satışlarını doğrudan etkileyen markalar ve işletmeler."
+	},
+	"agota-sadakat": {
+		"summary": "Müşterilerinizi segmentlere ayırır, geri kazanım kampanyaları kurar ve kaybolmaya başlayan müşteriye otomatik olarak ulaşır.",
+		"manual": "Uzun süredir alışveriş yapmayan müşterileri fark etmemek.",
+		"features": ["Satın alma davranışına göre segmentasyon", "Kaybolma riski tespiti", "Otomatik geri kazanım mesajları", "Kampanya sonuç ölçümü"],
+		"audience": "Tekrarlayan müşteriyle büyüyen perakende, e-ticaret ve hizmet işletmeleri."
+	},
+	"agota-studyo": {
+		"summary": "Ürün fotoğrafından sosyal medya gönderisi, reels senaryosu ve ürün feed'i üretir; haftalık içerik takviminizi kendiliğinden doldurur.",
+		"manual": "Her hafta ne paylaşılacağını düşünmek, görselleri ve metinleri sıfırdan hazırlamak.",
+		"features": ["Fotoğraftan gönderi ve metin", "Reels senaryosu", "Ürün feed'i hazırlama", "Haftalık içerik takvimi"],
+		"audience": "Sosyal medyada düzenli içerik üretmek isteyen markalar."
+	},
+	"agota-site": {
+		"summary": "ERP'ye ürün eklendiğinde web sitenizde ürün sayfası oluşur ve SEO metni yazılır.",
+		"manual": "Her yeni ürün için sitede ayrıca sayfa açmak ve açıklama yazmak.",
+		"features": ["ERP ile senkron ürün sayfaları", "Otomatik SEO başlığı ve açıklaması", "Fiyat ve stok güncellemesi", "Çok dilli içerik desteği"],
+		"audience": "Ürün kataloğunu web sitesinde de sergileyen işletmeler."
+	},
+	"agota-kampanya": {
+		"summary": "E-posta, SMS ve WhatsApp kampanyalarını segment, metin ve zamanlamasıyla hazırlar; sonuç raporunu çıkarır.",
+		"manual": "Kampanya listelerini elle hazırlamak ve sonucunu ölçememek.",
+		"features": ["Hedef segment seçimi", "Kanala uygun metin önerisi", "Zamanlama ve otomatik gönderim", "Açılma, tıklama ve satış raporu"],
+		"audience": "Müşteri listesine düzenli kampanya gönderen işletmeler."
+	},
+	"agota-harita": {
+		"summary": "Google İşletme Profilinizi yönetir: yorumlara yanıt verir, çalışma saatlerini ve fotoğrafları güncel tutar.",
+		"manual": "Google yorumlarını cevapsız bırakmak, tatil saatlerini güncellemeyi unutmak.",
+		"features": ["Yorumlara yanıt taslağı", "Çalışma saati ve bilgi güncellemesi", "Fotoğraf ve gönderi yönetimi", "Görüntülenme ve arama raporu"],
+		"audience": "Yerel müşteriye hizmet veren mağaza, restoran ve klinikler."
+	},
+	"agota-sozlesme": {
+		"summary": "Sözleşmeleri okur, riskli maddeleri işaretler, şablondan yeni sözleşme hazırlar ve yenileme tarihlerini hatırlatır. Hukuki danışmanın yerine geçmez, işini hızlandırır.",
+		"manual": "Sözleşmeleri satır satır okumak ve yenileme tarihlerini kaçırmak.",
+		"features": ["Riskli madde tespiti", "Şablondan sözleşme taslağı", "Yenileme ve fesih tarihi hatırlatması", "Sözleşme özet kartı"],
+		"audience": "Tedarikçi, müşteri ve kira sözleşmesi yoğun işletmeler."
+	},
+	"agota-kvkk": {
+		"summary": "Kişisel veri envanterini çıkarır, aydınlatma metni taslağı hazırlar, VERBİS yükümlülüklerini hatırlatır ve başvurulara cevap taslağı yazar.",
+		"manual": "KVKK yükümlülüklerini dağınık dosyalarda takip etmek.",
+		"features": ["Kişisel veri envanteri", "Aydınlatma metni taslağı", "VERBİS ve süre hatırlatmaları", "İlgili kişi başvurusuna cevap taslağı"],
+		"audience": "Müşteri ve çalışan verisi işleyen tüm işletmeler."
+	},
+	"agota-arsiv": {
+		"summary": "Tüm evrakınızı aranabilir hale getirir: \"geçen yılki kira sözleşmesini bul\" demeniz yeterli.",
+		"manual": "Klasörlerde ve e-postalarda belge aramak.",
+		"features": ["Tarama ve metin tanıma (OCR)", "Doğal dilde arama", "Belge türüne göre otomatik etiketleme", "Yetki bazlı erişim"],
+		"audience": "Kâğıt ve dijital evrakı dağınık duran işletmeler."
+	},
+	"agota-onay": {
+		"summary": "Harcama, izin ve indirim onaylarını tek akışta toplar; asistan talebi hazırlar, yetkili tek tıkla onaylar.",
+		"manual": "Onay için e-posta zincirleri ve telefon trafiğiyle uğraşmak.",
+		"features": ["Tanımlanabilir onay kuralları", "Talep taslağını otomatik hazırlama", "Mobilden tek tıkla onay", "Onay geçmişi ve denetim izi"],
+		"audience": "Birden fazla onay seviyesi olan ekipler."
+	},
+	"agota-dilekce": {
+		"summary": "Resmi kurumlarla yazışmaları, dilekçe ve başvuru taslaklarını hazırlar.",
+		"manual": "Her resmi yazı için doğru formatı aramak ve metni sıfırdan yazmak.",
+		"features": ["Kuruma uygun format", "Şirket bilgileriyle otomatik doldurma", "Yazışma arşivi", "Süre takibi"],
+		"audience": "Resmi kurumlarla sık yazışan işletmeler."
+	},
+	"agota-sor": {
+		"summary": "\"Bu ay en kârlı 10 ürün hangisi?\" diye sorun; sorguyu kendisi yazar, cevabı tablo ve grafikle verir.",
+		"manual": "Rapor için IT'ye talep açmak veya Excel'de pivot tablo hazırlamak.",
+		"features": ["Doğal dilde sorgu", "Otomatik tablo ve grafik", "Sorguyu kaydetme ve paylaşma", "Yetkiye göre veri erişimi"],
+		"audience": "Rapor için başkasına bağımlı kalmak istemeyen yöneticiler."
+	},
+	"agota-panel": {
+		"summary": "İşletme sahibine her hafta sesli ve yazılı özet gönderir; özet WhatsApp'tan da okunabilir.",
+		"manual": "Haftalık durumu öğrenmek için farklı raporları tek tek açmak.",
+		"features": ["Haftalık yönetici özeti", "Sesli ve yazılı format", "WhatsApp üzerinden teslim", "Önemli değişikliklerin vurgulanması"],
+		"audience": "İşinin nabzını kısa sürede tutmak isteyen işletme sahipleri."
+	},
+	"agota-uyari": {
+		"summary": "Anormallikleri yakalar: \"X müşterisinin siparişleri %40 düştü\", \"stok 3 güne bitiyor\", \"bu tedarikçi 3. kez geç kaldı\".",
+		"manual": "Sorunları iş işten geçtikten sonra fark etmek.",
+		"features": ["Satış, stok ve tedarik anomalileri", "Eşik ve kural tanımlama", "WhatsApp ve e-posta bildirimi", "Uyarı geçmişi"],
+		"audience": "Sorunları erkenden yakalamak isteyen yöneticiler."
+	},
+	"agota-senaryo": {
+		"summary": "\"Fiyatı %5 artırırsam kâr ve satış adedi ne olur?\" gibi senaryoları kendi verinizle hesaplar.",
+		"manual": "Fiyat ve maliyet senaryolarını Excel'de elle modellemek.",
+		"features": ["Fiyat, maliyet ve adet senaryoları", "Geçmiş veriye dayalı talep esnekliği tahmini", "Senaryo karşılaştırma", "Paylaşılabilir sonuç raporu"],
+		"audience": "Fiyat ve bütçe kararı veren yöneticiler."
+	},
+	"agota-saha": {
+		"summary": "Teknisyene görev atar, konumunu izler; fotoğraflı iş bitirmeden servis formunu ve faturayı kendiliğinden oluşturur.",
+		"manual": "Servis formlarını kâğıda doldurup ofiste faturaya çevirmek.",
+		"features": ["Görev atama ve rota", "Konum takibi", "Fotoğraflı iş bitirme", "Otomatik servis formu ve fatura"],
+		"audience": "Teknik servis, bakım ve kurulum ekipleri."
+	},
+	"agota-kesif": {
+		"summary": "Keşif ziyaretindeki fotoğraflardan ve sesli notlardan teklif hazırlar: klima, tadilat, mobilya, cam balkon.",
+		"manual": "Keşif notlarını ofiste temize çekip teklifi günler sonra göndermek.",
+		"features": ["Fotoğraf ve sesli notla keşif", "Ölçü ve malzeme listesi", "Teklif taslağı", "Teklif takibi"],
+		"audience": "Klima, tadilat, mobilya ve cam balkon firmaları."
+	},
+	"agota-mutfak": {
+		"summary": "Reçete maliyetini hesaplar, fireyi takip eder ve tedarikçiye gidecek günlük sipariş listesini hazırlar.",
+		"manual": "Reçete maliyetlerini Excel'de tutmak, günlük malzeme siparişini tahminle vermek.",
+		"features": ["Reçete ve porsiyon maliyeti", "Fire takibi", "Günlük tedarikçi sipariş listesi", "Menü kârlılık analizi"],
+		"audience": "Restoran, kafe ve merkezi mutfaklar."
+	},
+	"agota-randevu": {
+		"summary": "Kuaför, klinik, veteriner ve oto yıkama gibi işletmelerde WhatsApp ve Instagram mesajlarını randevuya çevirir.",
+		"manual": "Mesajla gelen randevu taleplerini takvime elle işlemek.",
+		"features": ["WhatsApp ve Instagram'dan randevu", "Personel ve hizmet bazlı takvim", "Hatırlatma ve iptal yönetimi", "Boş saatleri doldurma önerisi"],
+		"audience": "Randevuyla çalışan hizmet işletmeleri."
+	},
+	"agota-klinik": {
+		"summary": "Hasta kaydını, tedavi planını, randevu hatırlatmalarını ve sigorta evrakını tek yerde yönetir.",
+		"manual": "Hasta bilgilerini dağınık dosyalarda tutmak, kontrol randevularını hatırlatmayı unutmak.",
+		"features": ["Hasta kartı ve geçmişi", "Tedavi planı", "Randevu ve kontrol hatırlatması", "Sigorta evrakı takibi"],
+		"audience": "Diş, estetik ve fizik tedavi klinikleri ile özel poliklinikler."
+	},
+	"agota-konak": {
+		"summary": "Otel ve pansiyonlarda Booking ve Airbnb gibi kanalların müsaitliğini senkron tutar, misafirlere WhatsApp asistanıyla cevap verir ve check-in'i hızlandırır.",
+		"manual": "Her kanalda müsaitliği elle güncellemek, misafir sorularına tek tek cevap vermek.",
+		"features": ["Kanallar arası müsaitlik senkronu", "Misafir WhatsApp asistanı", "Online check-in", "Doluluk ve gelir raporu"],
+		"audience": "Butik otel, pansiyon ve apart işletmeleri."
+	},
+	"agota-servis": {
+		"summary": "Oto serviste plakadan araç geçmişini getirir, iş emrini sesle açar, parça siparişi verir ve müşteriye durum mesajı gönderir.",
+		"manual": "İş emirlerini kâğıda yazmak, müşteriye aracın durumunu telefonla bildirmek.",
+		"features": ["Plakayla araç ve bakım geçmişi", "Sesli iş emri", "Parça siparişi", "Müşteriye otomatik durum mesajı"],
+		"audience": "Oto servis, lastik ve kaporta atölyeleri."
+	},
+	"agota-emlak": {
+		"summary": "İlan metnini hazırlar, portföyünüzü alıcı talepleriyle eşleştirir ve gösterim randevularını planlar.",
+		"manual": "Alıcı taleplerini hafızada tutmak ve uygun portföyü elle aramak.",
+		"features": ["İlan başlığı ve metni", "Alıcı talebi–portföy eşleştirme", "Gösterim randevusu", "Müşteri takip hatırlatmaları"],
+		"audience": "Emlak ofisleri ve gayrimenkul danışmanları."
+	},
+	"agota-santiye": {
+		"summary": "Şantiyede hakediş, metraj ve puantajı takip eder; malzeme taleplerini WhatsApp'tan alır.",
+		"manual": "Hakediş ve puantajı Excel'de, malzeme taleplerini telefonla yönetmek.",
+		"features": ["Hakediş hazırlama", "Metraj takibi", "Şantiye puantajı", "WhatsApp'tan malzeme talebi"],
+		"audience": "Müteahhit ve taşeron firmalar."
+	},
+	"agota-tarla": {
+		"summary": "Çiftlik ve seralarda üretim maliyetini hesaplar, hal fiyatlarını takip eder, ilaçlama ve sulama kayıtlarını tutar.",
+		"manual": "Tarladaki masrafları ve uygulamaları deftere yazmak.",
+		"features": ["Parsel ve ürün bazında maliyet", "Hal fiyatı takibi", "İlaçlama ve sulama kayıtları", "Hasat ve satış takibi"],
+		"audience": "Çiftçiler, sera işletmeleri ve üretici birlikleri."
+	},
+	"agota-kurs": {
+		"summary": "Kurs, etüt merkezi ve spor salonlarında kayıt, taksit, yoklama ve veli/üye bilgilendirmesini yönetir.",
+		"manual": "Kayıt ve taksitleri defterde tutmak, velilere tek tek mesaj atmak.",
+		"features": ["Öğrenci ve üye kaydı", "Taksit ve tahsilat takibi", "Yoklama", "Veli ve üye bilgilendirme mesajları"],
+		"audience": "Kurslar, etüt merkezleri, spor ve dans salonları."
+	},
+	"agota-musavir": {
+		"summary": "Mali müşavir ofislerinde mükelleflerden evrak toplar, eksikleri kovalar ve beyanname takvimini yönetir.",
+		"manual": "Her ay onlarca mükellefi arayıp evrak istemek.",
+		"features": ["Mükellef bazında evrak takibi", "Eksik evrak hatırlatmaları", "Beyanname takvimi", "Mükellef portalı"],
+		"audience": "Mali müşavir ve muhasebe ofisleri."
+	},
+	"agota-atolye": {
+		"summary": "Konfeksiyon atölyelerinde model ve numune takibini, kesim planını, fason ile iplik ve kumaş takibini yönetir.",
+		"manual": "Model ve kesim bilgilerini kâğıt föylerle takip etmek.",
+		"features": ["Model ve numune kartı", "Kesim planı", "Fason takibi", "İplik ve kumaş stoğu"],
+		"audience": "Konfeksiyon ve tekstil atölyeleri."
+	},
+	"agota-filo": {
+		"summary": "Nakliye firmalarında araç, sürücü ve yük eşleştirmesini yapar; yakıt ve ceza takibini tutar.",
+		"manual": "Yükleri telefonla eşleştirmek, yakıt ve cezaları Excel'de izlemek.",
+		"features": ["Araç ve sürücü yönetimi", "Yük–araç eşleştirme", "Yakıt takibi", "Ceza ve belge süresi takibi"],
+		"audience": "Nakliye ve lojistik firmaları."
+	},
+	"agota-market": {
+		"summary": "Market ve bakkallarda satış noktası (POS), son kullanma tarihi takibi ve tedarikçiye otomatik sipariş.",
+		"manual": "Son kullanma tarihi yaklaşan ürünleri raf raf kontrol etmek, siparişi göz kararı vermek.",
+		"features": ["Hızlı satış ekranı (POS)", "Son kullanma tarihi uyarıları", "Tedarikçiye otomatik sipariş", "Günlük ciro ve kâr özeti"],
+		"audience": "Market, bakkal ve şarküteriler."
+	},
+	"agota-store": {
+		"summary": "Agota için uygulama ve asistan marketi: üçüncü parti geliştiriciler asistan yazar ve gelir paylaşımıyla yayınlar.",
+		"manual": "İhtiyaç duyulan her özellik için ayrı yazılım aramak ve entegre etmek.",
+		"features": ["Uygulama ve asistan kataloğu", "Tek tıkla kurulum", "Geliştirici programı", "Gelir paylaşımı"],
+		"audience": "Agota kullanıcıları ve yazılım geliştiriciler."
+	},
+	"agota-tedarik": {
+		"summary": "Agota kullanan işletmeler arasında B2B pazar yeri: stoktaki ürün otomatik listelenir; alıcının satın alma asistanı, satıcının satış asistanından teklif alır.",
+		"manual": "Tedarikçi bulmak için telefon ve e-postayla teklif toplamak.",
+		"features": ["Stoktan otomatik listeleme", "Asistanlar arası teklif alışverişi", "ERP'ye otomatik sipariş kaydı", "Doğrulanmış işletme profilleri"],
+		"audience": "Alım ve satım yapan KOBİ'ler."
+	},
+	"agota-fasonpazar": {
+		"summary": "Boş üretim kapasitesini işle eşleştirir: \"1.000 adet tişört dikimi, 2 hafta\" talebine uygun atölyeyi bulur.",
+		"manual": "Fason atölye bulmak için tanıdık çevresine sormak.",
+		"features": ["Kapasite ilanı", "İş–atölye eşleştirme", "Teklif ve termin karşılaştırma", "Atölye puanlama"],
+		"audience": "Üreticiler ve fason atölyeler."
+	},
+	"agota-hizmet": {
+		"summary": "Nakliye, temizlik, tadilat ve güvenlik gibi kurumsal hizmetler için teklif toplar ve karşılaştırır.",
+		"manual": "Her hizmet için ayrı ayrı firma arayıp teklif istemek.",
+		"features": ["Hizmet talebi oluşturma", "Otomatik teklif toplama", "Fiyat ve kapsam karşılaştırma", "Hizmet sağlayıcı değerlendirmesi"],
+		"audience": "Düzenli hizmet satın alan işletmeler."
+	},
+	"agota-makine": {
+		"summary": "İkinci el makine ve ekipman pazarı: ERP'deki demirbaş listenizden tek tıkla satışa çıkarın.",
+		"manual": "Kullanılmayan makineleri ilan sitelerinde tek tek listelemek.",
+		"features": ["Demirbaş listesinden ilan", "Fotoğraf ve teknik bilgi", "Alıcı talepleriyle eşleştirme", "Güvenli iletişim"],
+		"audience": "Ekipmanını yenileyen üretim işletmeleri."
+	},
+	"agota-endeks": {
+		"summary": "Anonimleştirilmiş verilerden sektörel fiyat, marj ve tahsilat süresi endeksleri üretir; işletmenizi sektör ortalamasıyla kıyaslar.",
+		"manual": "Sektör ortalamalarını tahminle veya kulaktan dolma bilgiyle bilmek.",
+		"features": ["Sektör ve bölge bazında endeksler", "Kendi performansınızla kıyaslama", "Anonimleştirilmiş ve toplulaştırılmış veri", "Aylık endeks raporu"],
+		"audience": "Kararlarını sektör verisiyle desteklemek isteyen işletmeler."
+	},
+	"agota-finans": {
+		"summary": "Fatura, tahsilat ve nakit verinize dayanarak faktoring ve işletme kredisi seçeneklerini değerlendirmenize ve başvuru dosyasını hazırlamanıza yardımcı olur.",
+		"manual": "Banka ve faktoring şirketlerine ayrı ayrı belge hazırlayıp başvurmak.",
+		"features": ["Finansman ihtiyacı analizi", "Fatura ve alacak bazlı finansman seçenekleri", "Başvuru dosyası hazırlığı", "Teklif karşılaştırma"],
+		"audience": "Büyüme veya nakit ihtiyacı için finansman arayan KOBİ'ler."
+	}
+}

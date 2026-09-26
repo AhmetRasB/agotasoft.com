@@ -46,9 +46,9 @@ final class SeoRoutes
                 'canonical' => $site . '/crm',
             ]),
             self::row('/pre-accounting', 'Ön Muhasebe', 'Asıl site', [
-                'title' => 'AgotaSoft Ön Muhasebe | Finansal Kontrol Tamamen Sizin Elinizde',
-                'description' => 'E-Fatura, cari hesap, gider takibi ve finansal raporlama.',
-                'keywords' => 'ön muhasebe, e-fatura, cari hesap, AgotaSoft',
+                'title' => 'AgotaSoft Ön Muhasebe | Çoklu Döviz, Barkodla Satış, iOS ve Web',
+                'description' => 'TL, USD ve EUR\'u aynı anda takip eden, barkodla satış yapan ön muhasebe programı; iOS uygulaması ve web paneli.',
+                'keywords' => 'ön muhasebe, çoklu döviz, barkodlu satış, cari hesap, kasa takibi, AgotaSoft',
                 'canonical' => $site . '/pre-accounting',
             ]),
             self::row('/lms', 'LMS', 'Asıl site', [

@@ -2,21 +2,27 @@ import Footer from "@/components/home/home-one/footer";
 import Header from "@/components/home/home-one/header/multi-page";
 import { buildAlternates } from "@/lib/i18n/config";
 
+const title = "Kârlılık.NET | Trendyol we Hepsiburada üçin arassa girdeji seljermesi";
+const description = "Komissiýa, eltip bermek, hyzmat tölegi, saklanýan salgyt, GBS we mahabat aýrylandan soňky hakyky arassa girdeji: sargyt, önüm we dükan boýunça. 14 gün mugt, karlilik.net";
+
 export const metadata = {
-	title: "Karlılık.NET | AgotaSoft",
-	description: "Trendyol we Hepsiburada satyjylary üçin komissiýa, eltip bermek we salgytlar hasaba alnyp hakyky arassa girdejini görkezýän emeli intellektli seljeriş platformasy.",
+	title,
+	description,
 	author: "AgotaSoft",
 	alternates: buildAlternates("/karlilik"),
 	openGraph: {
-		title: "Karlılık.NET | AgotaSoft",
-		description: "Trendyol we Hepsiburada satyjylary üçin komissiýa, eltip bermek we salgytlar hasaba alnyp hakyky arassa girdejini görkezýän emeli intellektli seljeriş platformasy.",
+		title,
+		description,
 		type: "website",
-		url: "https://agotasoft.com/karlilik",
+		url: "https://agotasoft.com/tk/karlilik",
+		locale: "tk_TM",
+		images: [{ url: "/images/products/karlilik/dashboard.webp", width: 1600, height: 900 }],
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "Karlılık.NET | AgotaSoft",
-		description: "Trendyol we Hepsiburada satyjylary üçin komissiýa, eltip bermek we salgytlar hasaba alnyp hakyky arassa girdejini görkezýän emeli intellektli seljeriş platformasy.",
+		title,
+		description,
+		images: ["/images/products/karlilik/dashboard.webp"],
 	},
 };
 

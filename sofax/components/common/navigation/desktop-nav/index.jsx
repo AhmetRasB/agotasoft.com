@@ -3,6 +3,8 @@ import Link from "next/link";
 import { useCms } from "@/hooks/useCms";
 import { useLocalePrefix } from "@/hooks/useLocale";
 import { withLocale } from "@/lib/i18n/config";
+import MegaMenu from "@/components/solutions/MegaMenu";
+import { isSolutionsNavItem } from "@/lib/solutions";
 
 function DesktopMenu() {
 	const cms = useCms();
@@ -12,6 +14,9 @@ function DesktopMenu() {
 	return (
 		<nav className="agf-nav">
 			{items.map((item) => {
+				if (isSolutionsNavItem(item)) {
+					return <MegaMenu title={item.title} key={item.title} />;
+				}
 				const hasSub = item.submenu?.length;
 				const href = withLocale(item.url === "/" ? "/" : `/${item.url}`, prefix);
 				return (

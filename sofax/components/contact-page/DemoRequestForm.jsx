@@ -1,7 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useCms } from "@/hooks/useCms";
+import { useLocale } from "@/hooks/useLocale";
+import { fill, findProduct, getCatalog } from "@/lib/solutions";
 
 function contactApi() {
 	const base = process.env.NEXT_PUBLIC_CMS_API || "";
@@ -13,6 +15,21 @@ export default function DemoRequestForm() {
 	const page = cms.pages?.contact || {};
 	const [status, setStatus] = useState("");
 	const [submitting, setSubmitting] = useState(false);
+	const locale = useLocale();
+	const [preset, setPreset] = useState(null);
+
+	// /contact-us/?urun=<slug> (from a solution page) preselects that product.
+	useEffect(() => {
+		const slug = new URLSearchParams(window.location.search).get("urun");
+		if (!slug) return;
+		const catalog = getCatalog(locale);
+		const found = findProduct(catalog, slug);
+		if (!found) return;
+		setPreset({
+			name: found.product.name,
+			message: fill(catalog.ui.contact_message, { product: found.product.name }),
+		});
+	}, [locale]);
 
 	async function onSubmit(event) {
 		event.preventDefault();
@@ -60,7 +77,7 @@ export default function DemoRequestForm() {
 					"Aşağıdaki formu doldurarak ücretsiz demo talebinde bulunabilir, uzman ekibimizle görüşme ayarlayabilirsiniz."}
 			</p>
 
-			<form onSubmit={onSubmit}>
+			<form onSubmit={onSubmit} key={preset?.name || "default"}>
 				<input type="text" name="website" tabIndex={-1} autoComplete="off" style={{ display: "none" }} />
 
 				<div className="agf-form-row">
@@ -88,8 +105,9 @@ export default function DemoRequestForm() {
 				<div className="agf-form-row">
 					<div className="agf-field">
 						<label>İlgilendiğiniz Çözüm *</label>
-						<select name="subject" required defaultValue="">
+						<select name="subject" required defaultValue={preset?.name || ""}>
 							<option value="">Seçiniz</option>
+							{preset ? <option value={preset.name}>{preset.name}</option> : null}
 							<option value="erp">ERP Sistemi</option>
 							<option value="crm">CRM Sistemi</option>
 							<option value="accounting">Ön Muhasebe</option>
@@ -113,7 +131,7 @@ export default function DemoRequestForm() {
 
 				<div className="agf-field">
 					<label>Mesajınız</label>
-					<textarea name="message" rows="5" placeholder="Projeniz, ihtiyaçlarınız veya sorularınız hakkında detaylar..."></textarea>
+					<textarea name="message" rows="5" defaultValue={preset?.message || ""} placeholder="Projeniz, ihtiyaçlarınız veya sorularınız hakkında detaylar..."></textarea>
 				</div>
 
 				<label className="agf-checkbox">

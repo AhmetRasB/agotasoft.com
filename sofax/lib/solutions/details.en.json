@@ -1,0 +1,458 @@
+{
+	"agota-fatura": {
+		"summary": "Reads incoming invoices and receipts from a photo, PDF or email; creates the entry, matches the account and separates out the VAT.",
+		"manual": "Keying in invoices and receipts one by one, finding the right account and calculating VAT separately.",
+		"features": ["Invoice capture from photos, PDFs and email", "Automatic matching to account and stock cards", "Line-by-line split of VAT rate and tax base", "Uncertain fields sent to you for approval"],
+		"audience": "SMEs and accounting teams processing hundreds of purchase invoices a month."
+	},
+	"agota-banka": {
+		"summary": "Pulls in bank transactions, matches them to invoices and closes open items; asks you about any transaction it can't match.",
+		"manual": "Downloading the bank statement and matching each line to the right invoice and account by hand.",
+		"features": ["Regular import of bank transactions", "Smart matching by amount, description and date", "Automatic closing of open items", "A question list for unmatched transactions"],
+		"audience": "Businesses with several bank accounts and a high daily volume of collections and payments."
+	},
+	"agota-tahsilat": {
+		"summary": "Sends customers WhatsApp and email reminders for receivables coming due, tracks payment promises and builds a risk score for each customer.",
+		"manual": "Calling overdue customers one by one and writing their payment promises down in a notebook.",
+		"features": ["Escalating reminders via WhatsApp and email", "Payment promise logging and follow-up", "Customer risk score based on payment behavior", "Daily collection list and summary"],
+		"audience": "Wholesalers, distributors and service businesses that sell on credit terms."
+	},
+	"agota-mutabakat": {
+		"summary": "Sends balance confirmation emails to your customers and suppliers, reads the replies, finds the differences and shows you only the discrepancies.",
+		"manual": "Sending a reconciliation letter to every account at period end, then collecting the replies and comparing balances one by one.",
+		"features": ["Bulk reconciliation emails", "Reads incoming replies and attachments", "Pinpoints balance differences document by document", "A worklist made up of discrepancies only"],
+		"audience": "Companies that work with many customer and supplier accounts and reconcile balances at period end."
+	},
+	"agota-nakit": {
+		"summary": "Builds a 13-week cash flow forecast from your receivables, payables, cheques and recurring expenses, and answers the question \"can we cover payroll this month?\"",
+		"manual": "Estimating the cash position in Excel spreadsheets and updating them all over again every week.",
+		"features": ["Rolling 13-week cash flow forecast", "Automatic projection from collection and payment due dates", "Early warning before a cash shortfall", "Scenario comparison: what if collections are late?"],
+		"audience": "Business owners and finance managers responsible for cash planning."
+	},
+	"agota-cek": {
+		"summary": "Tracks your cheque and promissory note portfolio, maturity calendar and endorsement chain, and warns you in advance about the risk of a bounced cheque.",
+		"manual": "Keeping cheques and notes in a ledger or Excel and chasing due dates on a calendar.",
+		"features": ["Portfolio of received and issued cheques and notes", "Maturity calendar and daily reminders", "Endorsement and collection status tracking", "Risk alerts by drawer"],
+		"audience": "Wholesale, construction and industrial businesses that trade with cheques and promissory notes."
+	},
+	"agota-masraf": {
+		"summary": "Employees take a photo of the receipt; the expense form fills itself in and goes into the approval flow.",
+		"manual": "Collecting receipts, filling in the expense form by hand at month end and circulating it for signatures.",
+		"features": ["Reads amount, date and VAT from the photo", "Expense type and project assignment", "Manager approval flow", "One-click transfer to bookkeeping"],
+		"audience": "Companies whose teams incur expenses in the field or while traveling."
+	},
+	"agota-beyan": {
+		"summary": "At month end, gathers the documents your accountant needs, chases what's missing and keeps track of the tax filing calendar. It works alongside your accountant, not in place of them.",
+		"manual": "Pulling month-end documents out of folders and following up on the accountant's list of missing items by phone.",
+		"features": ["Monthly document checklist", "Automatic reminders for missing documents", "Tax return and payment calendar", "Shared workspace with your accountant"],
+		"audience": "SMEs and sole proprietorships that work with an external accountant."
+	},
+	"agota-liste": {
+		"summary": "Turns a photo and a few words into a title, description, attribute set, category and SEO copy, then adapts the listing to each marketplace's format.",
+		"manual": "Writing titles, descriptions and attributes separately for each marketplace and mapping categories by hand.",
+		"features": ["Extracts product attributes from photos", "Marketplace-specific titles and descriptions", "Category and required-field mapping", "Bulk listing preparation"],
+		"audience": "E-commerce sellers with large catalogs selling across multiple channels."
+	},
+	"agota-fiyat": {
+		"summary": "Updates prices dynamically based on competitor prices, stock age and your target margin, and tracks your Buy Box status.",
+		"manual": "Checking competitor prices one by one and changing your own prices by hand.",
+		"features": ["Target margin and floor price rules", "Competitor price and Buy Box tracking", "Pricing strategy by stock age", "Change history and approval mode"],
+		"audience": "Marketplace sellers in categories where price decides the sale."
+	},
+	"agota-stoksenk": {
+		"summary": "Keeps stock in sync across all your sales channels; closes the listing when a product sells out and suggests promotions for excess stock.",
+		"manual": "Manually deducting stock on other channels when an item sells on one, and dealing with overselling.",
+		"features": ["Stock sync across channels", "Automatic closing of sold-out listings", "Promotion suggestions for excess and aging stock", "Stock allocation by channel"],
+		"audience": "Businesses selling the same stock on several marketplaces and on their own website."
+	},
+	"agota-yorum": {
+		"summary": "Answers customer questions, reviews and return requests within your target response time (SLA), and analyzes the root causes of negative reviews.",
+		"manual": "Jumping between seller panels to answer questions one by one, and missing response deadlines.",
+		"features": ["Questions from every channel on one screen", "Reply drafts based on product information", "SLA tracking and delay alerts", "Root-cause report for negative reviews"],
+		"audience": "Marketplace stores that receive dozens of customer questions a day."
+	},
+	"agota-reklam": {
+		"summary": "Allocates your marketplace, Meta and Google ad budget according to product profitability and stops loss-making campaigns.",
+		"manual": "Downloading reports from ad dashboards and working out in Excel which campaigns actually turn a profit.",
+		"features": ["Net profit per campaign", "Suggestions to shift budget to profitable products", "Stop rules for loss-making campaigns", "Weekly ad efficiency summary"],
+		"audience": "Sellers with a regular budget for marketplace and social media advertising."
+	},
+	"agota-iade": {
+		"summary": "Detects damage from photos of returned items, recommends a return decision, and prepares the shipping label and refund record.",
+		"manual": "Inspecting and deciding on each return individually, then creating the label and return record in separate systems.",
+		"features": ["Damage and defect detection from photos", "Decision suggestions based on your return policy", "Shipping label and return record", "Reports by return reason and product"],
+		"audience": "E-commerce businesses selling in categories with high return rates."
+	},
+	"agota-kargo": {
+		"summary": "Picks the best carrier by volumetric weight, price and speed, prints labels in bulk and lets customers know about delayed deliveries on its own.",
+		"manual": "Choosing a carrier for every shipment, printing labels one at a time and keeping track of delays.",
+		"features": ["Carrier selection by volumetric weight, price and speed", "Bulk label printing", "Delivery tracking and delay alerts", "Automatic status updates to customers"],
+		"audience": "E-commerce businesses shipping dozens of parcels a day."
+	},
+	"agota-rakip": {
+		"summary": "Follows your competitors' price, stock and review activity, and sends you a weekly summary in audio and text.",
+		"manual": "Visiting competitor stores one by one every day and taking notes.",
+		"features": ["Watchlist of competitor products and stores", "Price and stock change alerts", "Review and rating trends", "Weekly audio and text summary"],
+		"audience": "Brands and sellers who want to monitor market share in competitive categories."
+	},
+	"agota-katalog": {
+		"summary": "Turns a supplier's Excel or PDF price list into product cards and marketplace listings.",
+		"manual": "Copying supplier lists into product cards line by line, then updating every one of them when prices change.",
+		"features": ["Reads Excel and PDF price lists", "Matching with existing products", "Drafts of new product cards and listings", "Bulk price updates"],
+		"audience": "Retail and e-commerce businesses with many suppliers and a frequently changing catalog."
+	},
+	"agota-teklif": {
+		"summary": "From a WhatsApp message like \"5 tons of X, price?\", checks your price list, costs and stock, prepares a quote PDF and sends it to you for approval.",
+		"manual": "Checking the price list, costs and stock for every price inquiry and building the quote in Word from scratch.",
+		"features": ["Extracts products and quantities from messages", "Price list, cost and stock checks", "Quote PDFs in your corporate branding", "One-click sending after approval"],
+		"audience": "Manufacturers and wholesalers that receive price requests via WhatsApp and email."
+	},
+	"agota-siparis": {
+		"summary": "Turns orders arriving by email, WhatsApp, Excel or voice message into structured orders, and checks stock and payment terms.",
+		"manual": "Entering orders from different channels into the system one by one, then checking stock and credit limits separately.",
+		"features": ["Orders from email, WhatsApp, Excel and voice recordings", "Product and customer matching", "Stock, price, payment term and credit risk checks", "Order recorded in the ERP once approved"],
+		"audience": "Companies that receive orders from dealers and customers through scattered channels."
+	},
+	"agota-musteri": {
+		"summary": "Updates your CRM on its own from messages, call notes and emails; reminds you of forgotten opportunities and customers who have gone quiet.",
+		"manual": "Forgetting to log meeting notes in the CRM and losing track of customers who needed a follow-up.",
+		"features": ["Automatic customer records from messages and emails", "Conversation summary and next step", "Reminders for forgotten opportunities", "Alerts for customers going quiet"],
+		"audience": "B2B businesses whose sales teams struggle to keep the CRM up to date."
+	},
+	"agota-bayi": {
+		"summary": "Your dealers see their statements and orders in their own portal; the assistant suggests orders to each dealer based on their history.",
+		"manual": "Answering dealers' questions about statements and order status by phone, one call at a time.",
+		"features": ["Dealer-specific statement and balance view", "Ordering through the portal", "Order suggestions based on history", "Promotions and price lists per dealer"],
+		"audience": "Manufacturers and distributors that sell through a dealer network."
+	},
+	"agota-plasiyer": {
+		"summary": "A voice assistant for field sales teams: instant answers to \"What's this customer's balance, and what was their last order?\", plus a daily route and collection list.",
+		"manual": "Field reps calling head office and waiting for balance and order information.",
+		"features": ["Customer balance and history by voice query", "Daily visit route", "Orders and collections recorded in the field", "Visit notes left by voice"],
+		"audience": "Distribution companies that work with field sales reps."
+	},
+	"agota-satinal": {
+		"summary": "When stock drops to its minimum level, gathers prices from suppliers, compares the quotes and drafts a purchase order.",
+		"manual": "Calling suppliers one by one for prices whenever stock runs low and building a comparison table.",
+		"features": ["Minimum stock trigger", "Bulk quote requests to suppliers", "Comparison of price, payment terms and lead time", "Purchase orders ready for approval"],
+		"audience": "Manufacturing and trading companies that buy materials and products on a regular basis."
+	},
+	"agota-tedarikci": {
+		"summary": "Scores your suppliers on delays, quality and price deviation, and shows you with data which ones to keep working with.",
+		"manual": "Judging supplier performance from memory and hearsay.",
+		"features": ["On-time delivery rate", "Quality and return records", "Price deviation tracking", "Supplier scorecards and rankings"],
+		"audience": "Purchasing teams that work with many suppliers."
+	},
+	"agota-ihale": {
+		"summary": "Scans EKAP (Turkey's public procurement platform) and private tender notices, recommends the ones that fit your business and drafts the bid file.",
+		"manual": "Going through tender notices by hand every day and preparing each bid file from scratch.",
+		"features": ["Tender notice scanning and filtering", "Fit score and recommendations", "Submission deadline reminders", "Bid file draft"],
+		"audience": "Companies that bid in public and private sector tenders."
+	},
+	"agota-maliyet": {
+		"summary": "Calculates product cost from raw materials, labor and overhead; when an input price changes, it updates the cost and the suggested selling price.",
+		"manual": "Recalculating cost sheets in Excel after every price increase.",
+		"features": ["Allocation of raw materials, labor and overhead", "Costing based on bills of materials", "Automatic updates when input prices change", "Selling price suggestions by target margin"],
+		"audience": "Manufacturers whose costs change frequently."
+	},
+	"agota-depo": {
+		"summary": "Counts stock with a phone camera, recognizes products without barcodes from their image and suggests shelf placement.",
+		"manual": "Writing counts on paper and entering them into the system later, and looking up products without barcodes by hand.",
+		"features": ["Fast counting by camera", "Image recognition for products without barcodes", "Shelf and placement suggestions", "Count variance report"],
+		"audience": "Businesses that run regular stock counts in warehouses and stores."
+	},
+	"agota-talep": {
+		"summary": "Forecasts demand from past sales and seasonality, and produces a list of how much of each product to buy.",
+		"manual": "Estimating order quantities from experience and last year's figures.",
+		"features": ["Demand forecasting that accounts for seasonality", "Suggested order quantity per product", "Stockout and overstock risk", "One-click transfer to purchasing"],
+		"audience": "Retail and wholesale businesses that sell seasonal products."
+	},
+	"agota-sevk": {
+		"summary": "Plans vehicle routes and automates delivery notes; sends drivers their route via WhatsApp and collects delivery photos.",
+		"manual": "Planning routes by hand, issuing delivery notes one by one and confirming deliveries by phone.",
+		"features": ["Vehicle and route planning", "Delivery note automation", "Routes sent to drivers via WhatsApp", "Delivery confirmation with photos"],
+		"audience": "Wholesalers and manufacturers that deliver with their own vehicles."
+	},
+	"agota-uretim": {
+		"summary": "Creates work orders and a production plan from sales orders, and answers \"when will this order be ready?\" based on the bill of materials (BOM) and capacity.",
+		"manual": "Keeping the production plan on a whiteboard or in Excel, and guessing when customers ask about delivery dates.",
+		"features": ["Bill of materials (BOM) management", "Automatic work orders from sales orders", "Capacity-based production planning", "Delivery date estimates and delay alerts"],
+		"audience": "Small and mid-sized manufacturers that produce to order."
+	},
+	"agota-fason": {
+		"summary": "Tracks subcontractor workshops in industries such as textiles and metalworking; receives stage updates via WhatsApp and calculates the profitability of subcontracted work.",
+		"manual": "Phoning subcontractor workshops to ask what stage each job is at.",
+		"features": ["Tracking of jobs and materials sent to subcontractors", "Stage updates via WhatsApp", "Deadline and delay tracking", "Profitability by subcontractor"],
+		"audience": "Textile, metal and furniture companies that rely on subcontracted production."
+	},
+	"agota-kalite": {
+		"summary": "Identifies the defect class from a photo of a faulty product and automatically prepares the non-conformance report for the supplier.",
+		"manual": "Recording defects on paper forms and preparing supplier reports by hand.",
+		"features": ["Defect classification from photos", "Non-conformance report drafts", "Defect statistics by supplier and batch", "Corrective action tracking"],
+		"audience": "Manufacturers that carry out quality control."
+	},
+	"agota-bakim": {
+		"summary": "Manages the machine maintenance schedule, lets staff report breakdowns by voice and calculates the cost of downtime.",
+		"manual": "Keeping maintenance dates in a notebook, reporting breakdowns verbally and never recording downtime.",
+		"features": ["Periodic maintenance schedule", "Breakdown reporting by voice", "Breakdown and repair history", "Downtime duration and cost"],
+		"audience": "Production facilities running a large number of machines."
+	},
+	"agota-bordro": {
+		"summary": "Prepares a payroll draft from timesheets, keeps track of leave balances and reminds you of SGK (Turkish social security) deadlines. Payroll is finalized once your accountant approves it.",
+		"manual": "Compiling timesheets in Excel to send to the accountant and calculating leave balances by hand.",
+		"features": ["Payroll draft from timesheets", "Leave balance tracking", "SGK and payment calendar reminders", "Accountant approval flow"],
+		"audience": "SMEs that prepare payroll together with an external accountant."
+	},
+	"agota-aday": {
+		"summary": "Writes the job posting, screens CVs, runs initial interviews with candidates over WhatsApp and sets up the interview schedule.",
+		"manual": "Reading hundreds of CVs one by one and arranging interviews with candidates by phone.",
+		"features": ["Job posting drafts", "CV screening against your criteria", "Initial interviews via WhatsApp", "Interview schedule and reminders"],
+		"audience": "Retail, manufacturing and service businesses that hire frequently."
+	},
+	"agota-vardiya": {
+		"summary": "Builds the shift plan, resolves leave conflicts and calculates overtime.",
+		"manual": "Drawing up the shift roster by hand every week and announcing changes in the group chat.",
+		"features": ["Automatic shift planning", "Leave and conflict checks", "Overtime calculation", "Employee notifications"],
+		"audience": "Factories, stores, restaurants and healthcare businesses that work in shifts."
+	},
+	"agota-rehber": {
+		"summary": "An internal assistant that answers questions like \"How do I request leave, and who approves it?\" from your company rules, helping new hires get up to speed faster.",
+		"manual": "Explaining the same things over and over to every new employee.",
+		"features": ["Knowledge base of rules and procedures", "Q&A in plain language", "Onboarding plan for new hires", "Links to up-to-date documents"],
+		"audience": "Growing teams that hire new people often."
+	},
+	"agota-hat": {
+		"summary": "Brings WhatsApp, Instagram and email into one inbox; sends the first reply, classifies each message, assigns it to the right person and gives order and shipping status on its own.",
+		"manual": "Keeping up with messages across several apps and answering the same questions again and again.",
+		"features": ["Shared multichannel inbox", "Automatic first reply and classification", "Order and shipping status lookup", "Team assignment and follow-up"],
+		"audience": "Businesses that receive customer messages through more than one channel."
+	},
+	"agota-ses": {
+		"summary": "A voice assistant that answers incoming calls: it takes appointments, orders and addresses, and writes a summary of every call.",
+		"manual": "Not keeping up with the phone, failing to return missed calls and taking no notes on conversations.",
+		"features": ["Answers calls, even outside business hours", "Takes appointments, orders and addresses", "Written summary of every call", "Transfers to the right person when needed"],
+		"audience": "Businesses that take orders and appointments by phone."
+	},
+	"agota-sikayet": {
+		"summary": "Brings together reviews from complaint sites, Google and marketplaces in one place, responds to them and reports on root causes.",
+		"manual": "Following complaints on different sites one by one and responding late.",
+		"features": ["All complaint and review sources in one list", "Reply drafts with approval", "Root-cause classification", "Recurring issue report"],
+		"audience": "Brands and businesses whose online reputation directly affects sales."
+	},
+	"agota-sadakat": {
+		"summary": "Segments your customers, sets up win-back campaigns and automatically reaches out to customers who are starting to drift away.",
+		"manual": "Not noticing customers who haven't bought anything in a long time.",
+		"features": ["Segmentation by purchasing behavior", "Churn risk detection", "Automatic win-back messages", "Campaign results measurement"],
+		"audience": "Retail, e-commerce and service businesses that grow through repeat customers."
+	},
+	"agota-studyo": {
+		"summary": "Creates social media posts, Reels scripts and product feeds from your product photos, and fills your weekly content calendar automatically.",
+		"manual": "Figuring out what to post every week and creating visuals and copy from scratch.",
+		"features": ["Posts and captions from photos", "Reels scripts", "Product feed preparation", "Weekly content calendar"],
+		"audience": "Brands that want to post content on social media regularly."
+	},
+	"agota-site": {
+		"summary": "When you add a product to the ERP, a product page is created on your website and its SEO copy is written.",
+		"manual": "Creating a separate page on the website and writing a description for every new product.",
+		"features": ["Product pages in sync with the ERP", "Automatic SEO titles and descriptions", "Price and stock updates", "Multilingual content support"],
+		"audience": "Businesses that also showcase their product catalog on their website."
+	},
+	"agota-kampanya": {
+		"summary": "Prepares email, SMS and WhatsApp campaigns complete with segment, copy and timing, and produces a results report.",
+		"manual": "Building campaign lists by hand, with no way to measure the results.",
+		"features": ["Target segment selection", "Copy suggestions suited to each channel", "Scheduling and automatic sending", "Open, click and sales reports"],
+		"audience": "Businesses that send regular campaigns to their customer lists."
+	},
+	"agota-harita": {
+		"summary": "Manages your Google Business Profile: replies to reviews and keeps your opening hours and photos up to date.",
+		"manual": "Leaving Google reviews unanswered and forgetting to update holiday hours.",
+		"features": ["Reply drafts for reviews", "Opening hours and information updates", "Photo and post management", "Views and search report"],
+		"audience": "Stores, restaurants and clinics that serve local customers."
+	},
+	"agota-sozlesme": {
+		"summary": "Reads contracts, flags risky clauses, prepares new contracts from templates and reminds you of renewal dates. It doesn't replace legal counsel; it speeds up their work.",
+		"manual": "Reading contracts line by line and missing renewal dates.",
+		"features": ["Risky clause detection", "Contract drafts from templates", "Renewal and termination date reminders", "Contract summary card"],
+		"audience": "Businesses that handle many supplier, customer and lease contracts."
+	},
+	"agota-kvkk": {
+		"summary": "Maps your personal data inventory, drafts privacy notices, reminds you of your VERBİS (Turkey's data controller registry) obligations and drafts replies to data subject requests.",
+		"manual": "Tracking KVKK (Turkish personal data law) obligations across scattered files.",
+		"features": ["Personal data inventory", "Privacy notice drafts", "VERBİS and deadline reminders", "Reply drafts for data subject requests"],
+		"audience": "Any business that processes customer and employee data."
+	},
+	"agota-arsiv": {
+		"summary": "Makes all your documents searchable: just say \"find last year's lease agreement\".",
+		"manual": "Hunting for documents in folders and email inboxes.",
+		"features": ["Scanning and text recognition (OCR)", "Search in plain language", "Automatic tagging by document type", "Permission-based access"],
+		"audience": "Businesses whose paper and digital documents are scattered."
+	},
+	"agota-onay": {
+		"summary": "Brings expense, leave and discount approvals into a single flow; the assistant prepares the request and the approver signs off with one click.",
+		"manual": "Wrestling with email chains and phone calls to get approvals.",
+		"features": ["Configurable approval rules", "Automatic request drafts", "One-tap approval on mobile", "Approval history and audit trail"],
+		"audience": "Teams with more than one level of approval."
+	},
+	"agota-dilekce": {
+		"summary": "Prepares drafts of correspondence, petitions and applications to government agencies.",
+		"manual": "Looking up the right format for every official letter and writing the text from scratch.",
+		"features": ["Formatting suited to each agency", "Auto-fill with your company details", "Correspondence archive", "Deadline tracking"],
+		"audience": "Businesses that correspond frequently with government agencies."
+	},
+	"agota-sor": {
+		"summary": "Ask \"What were our 10 most profitable products this month?\" and it writes the query itself, then answers with a table and chart.",
+		"manual": "Opening a request with IT for a report, or building a pivot table in Excel.",
+		"features": ["Queries in plain language", "Automatic tables and charts", "Save and share queries", "Data access based on permissions"],
+		"audience": "Managers who don't want to depend on someone else for reports."
+	},
+	"agota-panel": {
+		"summary": "Sends the business owner a weekly summary in audio and text; the summary can also be read on WhatsApp.",
+		"manual": "Opening separate reports one by one to find out how the week went.",
+		"features": ["Weekly executive summary", "Audio and text formats", "Delivery via WhatsApp", "Key changes highlighted"],
+		"audience": "Business owners who want to take the pulse of their business in minutes."
+	},
+	"agota-uyari": {
+		"summary": "Catches anomalies: \"Customer X's orders are down 40%\", \"stock runs out in 3 days\", \"this supplier is late for the 3rd time\".",
+		"manual": "Noticing problems only after the damage is done.",
+		"features": ["Sales, stock and supply anomalies", "Custom thresholds and rules", "WhatsApp and email notifications", "Alert history"],
+		"audience": "Managers who want to catch problems early."
+	},
+	"agota-senaryo": {
+		"summary": "Calculates scenarios such as \"What happens to profit and units sold if I raise prices by 5%?\" using your own data.",
+		"manual": "Modeling price and cost scenarios by hand in Excel.",
+		"features": ["Price, cost and volume scenarios", "Demand elasticity estimates from historical data", "Scenario comparison", "Shareable results report"],
+		"audience": "Managers who make pricing and budget decisions."
+	},
+	"agota-saha": {
+		"summary": "Assigns jobs to technicians and tracks their location; once a job is closed with photos, it creates the service form and invoice automatically.",
+		"manual": "Filling in service forms on paper and turning them into invoices back at the office.",
+		"features": ["Job assignment and routing", "Location tracking", "Photo-verified job completion", "Automatic service form and invoice"],
+		"audience": "Technical service, maintenance and installation teams."
+	},
+	"agota-kesif": {
+		"summary": "Prepares quotes from the photos and voice notes taken on a site survey: air conditioning, renovation, furniture, glass balcony systems.",
+		"manual": "Writing up survey notes neatly back at the office and sending the quote days later.",
+		"features": ["Site surveys with photos and voice notes", "Measurements and materials list", "Quote draft", "Quote follow-up"],
+		"audience": "Air conditioning, renovation, furniture and glass balcony companies."
+	},
+	"agota-mutfak": {
+		"summary": "Calculates recipe costs, tracks waste and prepares the daily order list for your suppliers.",
+		"manual": "Keeping recipe costs in Excel and placing daily ingredient orders by guesswork.",
+		"features": ["Recipe and portion costing", "Waste tracking", "Daily supplier order list", "Menu profitability analysis"],
+		"audience": "Restaurants, cafés and central kitchens."
+	},
+	"agota-randevu": {
+		"summary": "Turns WhatsApp and Instagram messages into appointments for businesses such as hair salons, clinics, vets and car washes.",
+		"manual": "Entering appointment requests that arrive by message into the calendar by hand.",
+		"features": ["Bookings from WhatsApp and Instagram", "Calendar by staff member and service", "Reminders and cancellation management", "Suggestions for filling empty slots"],
+		"audience": "Service businesses that work by appointment."
+	},
+	"agota-klinik": {
+		"summary": "Manages patient records, treatment plans, appointment reminders and insurance paperwork in one place.",
+		"manual": "Keeping patient information in scattered files and forgetting to remind patients about follow-up visits.",
+		"features": ["Patient card and history", "Treatment plan", "Appointment and follow-up reminders", "Insurance paperwork tracking"],
+		"audience": "Dental, aesthetic and physiotherapy clinics, and private outpatient clinics."
+	},
+	"agota-konak": {
+		"summary": "Keeps availability in sync across channels such as Booking.com and Airbnb for hotels and guesthouses, answers guests through a WhatsApp assistant and speeds up check-in.",
+		"manual": "Updating availability by hand on every channel and answering guest questions one by one.",
+		"features": ["Availability sync across channels", "WhatsApp assistant for guests", "Online check-in", "Occupancy and revenue report"],
+		"audience": "Boutique hotels, guesthouses and apartment rentals."
+	},
+	"agota-servis": {
+		"summary": "In the auto repair shop, pulls up a vehicle's history from its license plate, opens work orders by voice, orders parts and sends customers status messages.",
+		"manual": "Writing work orders on paper and phoning customers to update them on their vehicle.",
+		"features": ["Vehicle and service history by license plate", "Work orders by voice", "Parts ordering", "Automatic status messages to customers"],
+		"audience": "Auto repair, tire and body shops."
+	},
+	"agota-emlak": {
+		"summary": "Writes listing copy, matches your portfolio with buyer requests and schedules viewings.",
+		"manual": "Keeping buyer requests in your head and searching the portfolio for a match by hand.",
+		"features": ["Listing titles and copy", "Buyer request–property matching", "Viewing appointments", "Client follow-up reminders"],
+		"audience": "Real estate agencies and property consultants."
+	},
+	"agota-santiye": {
+		"summary": "Tracks progress payments, quantity take-offs and timesheets on the construction site, and takes material requests via WhatsApp.",
+		"manual": "Managing progress payments and timesheets in Excel and material requests by phone.",
+		"features": ["Progress payment preparation", "Quantity take-off tracking", "Site timesheets", "Material requests via WhatsApp"],
+		"audience": "Contractors and subcontractors."
+	},
+	"agota-tarla": {
+		"summary": "Calculates production costs on farms and in greenhouses, tracks wholesale produce market prices, and keeps spraying and irrigation records.",
+		"manual": "Writing field expenses and treatments down in a notebook.",
+		"features": ["Costs by plot and crop", "Wholesale produce market price tracking", "Spraying and irrigation records", "Harvest and sales tracking"],
+		"audience": "Farmers, greenhouse operations and producer associations."
+	},
+	"agota-kurs": {
+		"summary": "Manages enrollment, installments, attendance and updates to parents and members for courses, tutoring centers and gyms.",
+		"manual": "Keeping enrollments and installments in a ledger and messaging parents one by one.",
+		"features": ["Student and member enrollment", "Installment and payment tracking", "Attendance", "Update messages for parents and members"],
+		"audience": "Courses, tutoring centers, gyms and dance studios."
+	},
+	"agota-musavir": {
+		"summary": "Helps accounting offices collect documents from their clients, chase missing items and manage the tax filing calendar.",
+		"manual": "Calling dozens of clients every month to ask for their documents.",
+		"features": ["Document tracking per client", "Missing document reminders", "Tax return calendar", "Client portal"],
+		"audience": "Certified public accountants (mali müşavir) and accounting offices."
+	},
+	"agota-atolye": {
+		"summary": "Manages style and sample tracking, cutting plans, subcontracting, and yarn and fabric tracking for apparel workshops.",
+		"manual": "Tracking style and cutting details on paper spec sheets.",
+		"features": ["Style and sample cards", "Cutting plan", "Subcontractor tracking", "Yarn and fabric stock"],
+		"audience": "Apparel and textile workshops."
+	},
+	"agota-filo": {
+		"summary": "Matches vehicles, drivers and loads for freight companies, and keeps track of fuel and traffic fines.",
+		"manual": "Matching loads by phone and tracking fuel and fines in Excel.",
+		"features": ["Vehicle and driver management", "Load–vehicle matching", "Fuel tracking", "Tracking of fines and document expiry dates"],
+		"audience": "Freight and logistics companies."
+	},
+	"agota-market": {
+		"summary": "Point of sale (POS), expiry date tracking and automatic supplier orders for grocery and corner stores.",
+		"manual": "Checking shelf by shelf for products nearing their expiry date and placing orders by eye.",
+		"features": ["Fast checkout screen (POS)", "Expiry date alerts", "Automatic supplier orders", "Daily revenue and profit summary"],
+		"audience": "Grocery stores, corner shops and delis."
+	},
+	"agota-store": {
+		"summary": "An app and assistant marketplace for Agota: third-party developers build assistants and publish them under a revenue-sharing model.",
+		"manual": "Searching for and integrating separate software for every feature you need.",
+		"features": ["App and assistant catalog", "One-click installation", "Developer program", "Revenue sharing"],
+		"audience": "Agota users and software developers."
+	},
+	"agota-tedarik": {
+		"summary": "A B2B marketplace for businesses that use Agota: products in stock are listed automatically, and the buyer's purchasing assistant gets quotes from the seller's sales assistant.",
+		"manual": "Gathering quotes by phone and email to find suppliers.",
+		"features": ["Automatic listing from stock", "Quote exchange between assistants", "Orders recorded automatically in the ERP", "Verified business profiles"],
+		"audience": "SMEs that buy and sell."
+	},
+	"agota-fasonpazar": {
+		"summary": "Matches idle production capacity with work: finds the right workshop for a request like \"sewing 1,000 T-shirts in 2 weeks\".",
+		"manual": "Asking around your network to find a subcontract workshop.",
+		"features": ["Capacity listings", "Job–workshop matching", "Quote and lead time comparison", "Workshop ratings"],
+		"audience": "Manufacturers and subcontract workshops."
+	},
+	"agota-hizmet": {
+		"summary": "Collects and compares quotes for business services such as transport, cleaning, renovation and security.",
+		"manual": "Calling a different set of companies for each service and asking each for a quote.",
+		"features": ["Service request creation", "Automatic quote collection", "Price and scope comparison", "Service provider ratings"],
+		"audience": "Businesses that purchase services on a regular basis."
+	},
+	"agota-makine": {
+		"summary": "A marketplace for used machinery and equipment: put items up for sale straight from the fixed-asset list in your ERP with one click.",
+		"manual": "Listing unused machines one by one on classifieds sites.",
+		"features": ["Listings from your fixed-asset list", "Photos and technical details", "Matching with buyer requests", "Secure communication"],
+		"audience": "Manufacturers that are renewing their equipment."
+	},
+	"agota-endeks": {
+		"summary": "Produces industry indices for prices, margins and collection times from anonymized data, and benchmarks your business against the industry average.",
+		"manual": "Knowing industry averages only through guesswork or hearsay.",
+		"features": ["Indices by industry and region", "Comparison with your own performance", "Anonymized, aggregated data", "Monthly index report"],
+		"audience": "Businesses that want to back their decisions with industry data."
+	},
+	"agota-finans": {
+		"summary": "Based on your invoice, collection and cash data, helps you evaluate factoring and business loan options and prepare your application file.",
+		"manual": "Preparing documents separately for each bank and factoring company and applying to each one individually.",
+		"features": ["Financing needs analysis", "Invoice- and receivables-based financing options", "Application file preparation", "Offer comparison"],
+		"audience": "SMEs looking for financing to grow or to meet cash needs."
+	}
+}

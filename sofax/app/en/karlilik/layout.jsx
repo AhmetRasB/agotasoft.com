@@ -2,21 +2,27 @@ import Footer from "@/components/home/home-one/footer";
 import Header from "@/components/home/home-one/header/multi-page";
 import { buildAlternates } from "@/lib/i18n/config";
 
+const title = "Kârlılık.NET | Net profit analytics for Trendyol and Hepsiburada";
+const description = "True net profit by order, product and store after commission, shipping, service fees, withholding tax, VAT and ads. 14-day free trial, karlilik.net";
+
 export const metadata = {
-	title: "Karlılık.NET | AgotaSoft",
-	description: "AI-powered profit analytics for Trendyol and Hepsiburada sellers, showing true net profit after commissions, shipping and taxes.",
+	title,
+	description,
 	author: "AgotaSoft",
 	alternates: buildAlternates("/karlilik"),
 	openGraph: {
-		title: "Karlılık.NET | AgotaSoft",
-		description: "AI-powered profit analytics for Trendyol and Hepsiburada sellers, showing true net profit after commissions, shipping and taxes.",
+		title,
+		description,
 		type: "website",
-		url: "https://agotasoft.com/karlilik",
+		url: "https://agotasoft.com/en/karlilik",
+		locale: "en_US",
+		images: [{ url: "/images/products/karlilik/dashboard.webp", width: 1600, height: 900 }],
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "Karlılık.NET | AgotaSoft",
-		description: "AI-powered profit analytics for Trendyol and Hepsiburada sellers, showing true net profit after commissions, shipping and taxes.",
+		title,
+		description,
+		images: ["/images/products/karlilik/dashboard.webp"],
 	},
 };
 

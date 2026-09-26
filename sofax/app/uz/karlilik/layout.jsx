@@ -2,21 +2,27 @@ import Footer from "@/components/home/home-one/footer";
 import Header from "@/components/home/home-one/header/multi-page";
 import { buildAlternates } from "@/lib/i18n/config";
 
+const title = "Kârlılık.NET | Trendyol va Hepsiburada uchun sof foyda tahlili";
+const description = "Komissiya, yetkazib berish, xizmat haqi, ushlab qolinadigan soliq, QQS va reklama ayirilgandan so'ng buyurtma, mahsulot va do'kon bo'yicha haqiqiy sof foyda. 14 kun bepul, karlilik.net";
+
 export const metadata = {
-	title: "Karlılık.NET | AgotaSoft",
-	description: "Trendyol va Hepsiburada sotuvchilari uchun komissiya, yetkazib berish va soliqlarni hisobga olgan holda haqiqiy sof foydani ko'rsatuvchi sun'iy intellektli tahlil platformasi.",
+	title,
+	description,
 	author: "AgotaSoft",
 	alternates: buildAlternates("/karlilik"),
 	openGraph: {
-		title: "Karlılık.NET | AgotaSoft",
-		description: "Trendyol va Hepsiburada sotuvchilari uchun komissiya, yetkazib berish va soliqlarni hisobga olgan holda haqiqiy sof foydani ko'rsatuvchi sun'iy intellektli tahlil platformasi.",
+		title,
+		description,
 		type: "website",
-		url: "https://agotasoft.com/karlilik",
+		url: "https://agotasoft.com/uz/karlilik",
+		locale: "uz_UZ",
+		images: [{ url: "/images/products/karlilik/dashboard.webp", width: 1600, height: 900 }],
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "Karlılık.NET | AgotaSoft",
-		description: "Trendyol va Hepsiburada sotuvchilari uchun komissiya, yetkazib berish va soliqlarni hisobga olgan holda haqiqiy sof foydani ko'rsatuvchi sun'iy intellektli tahlil platformasi.",
+		title,
+		description,
+		images: ["/images/products/karlilik/dashboard.webp"],
 	},
 };
 

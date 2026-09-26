@@ -1,0 +1,458 @@
+{
+	"agota-fatura": {
+		"summary": "Gelen faktura we çekleriň suratyny, PDF-ini ýa-da e-poçtasyny okaýar; ýazgyny açýar, kontragenti gabat getirýär we GBS-i aýratyn çykarýar.",
+		"manual": "Faktura we çekleri birin-birin el bilen girizmek, kontragenti tapyp, GBS-i aýratyn hasaplamak.",
+		"features": ["Suratdan, PDF-den we e-poçtadan faktura okamak", "Kontragent we önüm kartasy bilen awtomatik gabat getirmek", "GBS stawkasyny we salgyt binýadyny her pozisiýa boýunça aýyrmak", "Ynamy bolmadyk meýdanlary tassyklamaňyza hödürlemek"],
+		"audience": "Aýda ýüzlerçe satyn alyş fakturasyny işleýän kiçi we orta kärhanalar hem-de buhgalteriýa toparlary."
+	},
+	"agota-banka": {
+		"summary": "Bank hereketlerini alýar, fakturalar bilen gabat getirýär we açyk hasaplary ýapýar; gabat getirip bilmedik hereketleri barada sizden soraýar.",
+		"manual": "Bank göçürmesini ýükläp, her setiri degişli faktura we kontragent bilen el bilen gabat getirmek.",
+		"features": ["Bank hereketlerini yzygiderli import etmek", "Möçber, düşündiriş we sene boýunça akylly gabat getirmek", "Açyk hasaplary awtomatik ýapmak", "Gabat gelmedik hereketler üçin soraglar sanawy"],
+		"audience": "Birnäçe bank hasaby bilen işleýän, gündelik alýan we geçirýän tölegleri köp bolan kärhanalar."
+	},
+	"agota-tahsilat": {
+		"summary": "Möhleti ýetýän bergiler üçin müşderilere WhatsApp we e-poçta arkaly ýatlatma iberýär, töleg wadalaryny yzarlaýar we müşderiniň töwekgelçilik balyny çykarýar.",
+		"manual": "Möhleti geçen müşderilere birin-birin jaň edip ýatlatmak, berlen töleg wadalaryny depdere ýazmak.",
+		"features": ["WhatsApp we e-poçta arkaly tapgyrlaýyn ýatlatma", "Töleg wadasyny bellige almak we yzarlamak", "Töleg endigine görä müşderi töwekgelçilik baly", "Gündelik töleg ýygnamak sanawy we gysgaça hasabat"],
+		"audience": "Möhletli satuw edýän lomaý satyjylar, distribýutorlar we hyzmat kärhanalary."
+	},
+	"agota-mutabakat": {
+		"summary": "Kontragentlere hasaplaşyk deňeşdirmesi üçin e-poçta iberýär, gelen jogaplary okaýar, tapawutlary tapýar we size diňe gabat gelmezlikleri görkezýär.",
+		"manual": "Döwrüň ahyrynda her kontragente deňeşdirme hatyny ibermek, jogaplary ýygnap, balanslary birin-birin deňeşdirmek.",
+		"features": ["Deňeşdirme hatlaryny köpçülikleýin ibermek", "Gelen jogaplary we goşundylary okamak", "Balans tapawudyny resminama boýunça tapmak", "Diňe gabat gelmezliklerden ybarat iş sanawy"],
+		"audience": "Köp kontragent bilen işleýän we döwür ahyrynda hasaplaşyk deňeşdirmesini geçirýän kompaniýalar."
+	},
+	"agota-nakit": {
+		"summary": "Alynjak we tölenjek bergilerden, çeklerden we yzygiderli çykdajylardan 13 hepdelik pul akymy çaklamasyny düzýär; \"şu aý aýlyklary töläp bilerismi?\" diýen soraga jogap berýär.",
+		"manual": "Nagt pul ýagdaýyny Excel-de çaklamak we her hepde täzeden düzetmek.",
+		"features": ["13 hepdelik süýşýän pul akymy çaklamasy", "Alynjak we tölenjek tölegleriň möhletlerinden awtomatik çaklama", "Pul ýetmezçiliginden öň irki duýduryş", "Ssenariý deňeşdirmesi: töleg gijikse näme bolar?"],
+		"audience": "Pul akymyny meýilleşdirýän biznes eýeleri we maliýe ýolbaşçylary."
+	},
+	"agota-cek": {
+		"summary": "Çek we weksel portfeliňizi, möhletler senenamasyny we geçiriliş zynjyryny yzarlaýar; çekiň tölenmän galmak töwekgelçiligi barada öňünden duýdurýar.",
+		"manual": "Çek we wekselleri depderde ýa-da Excel-de ýöretmek, möhletleri senenamadan yzarlamak.",
+		"features": ["Alnan we berlen çek/weksel portfeli", "Möhletler senenamasy we gündelik ýatlatma", "Geçirilişini we tölenişini yzarlamak", "Çeki beren tarap boýunça töwekgelçilik duýduryşy"],
+		"audience": "Çek we weksel bilen söwda edýän lomaý, gurluşyk we senagat kärhanalary."
+	},
+	"agota-masraf": {
+		"summary": "Işgärler çegiň suratyny alýar; çykdajy formy öz-özünden doldurylýar we tassyklama akymyna düşýär.",
+		"manual": "Çekleri ýygnap, aýyň ahyrynda çykdajy formuny el bilen doldurmak we gol çekdirmek üçin aýlamak.",
+		"features": ["Suratdan möçberi, senäni we GBS-i okamak", "Çykdajy görnüşini we taslamany bellemek", "Ýolbaşçynyň tassyklama akymy", "Buhgalteriýa bir basyşda geçirmek"],
+		"audience": "Meýdanda we iş saparlarynda çykdajy edýän toparlary bolan kompaniýalar."
+	},
+	"agota-beyan": {
+		"summary": "Aýyň ahyrynda maliýe geňeşçiňize (salgyt hasabatlaryňyzy taýýarlaýan daşarky buhgaltere) gidýän resminamalary ýygnaýar, ýetmeýänlerini yzarlaýar we beýannama senenamasyna gözegçilik edýär. Geňeşçiňiz bilen bilelikde işleýär, onuň ornuny tutmaýar.",
+		"manual": "Aý ahyrynyň resminamalaryny papkalardan ýygnamak, geňeşçiniň ýetmeýän resminamalar sanawyny telefon arkaly yzarlamak.",
+		"features": ["Her aý üçin resminama barlag sanawy", "Ýetmeýän resminama üçin awtomatik ýatlatma", "Beýannama we töleg senenamasy", "Geňeşçi bilen umumy paýlaşylýan giňişlik"],
+		"audience": "Maliýe geňeşçisi bilen işleýän kiçi we orta kärhanalar hem-de hususy telekeçiler."
+	},
+	"agota-liste": {
+		"summary": "Bir surat we birnäçe sözden sözbaşy, düşündiriş, häsiýetnamalar, kategoriýa we SEO tekstini taýýarlaýar; bildirişi her marketpleýsiň formatyna uýgunlaşdyrýar.",
+		"manual": "Her marketpleýs üçin sözbaşyny, düşündirişi we häsiýetnamalary aýratyn ýazyp, kategoriýany saýlamak.",
+		"features": ["Suratdan önüm häsiýetnamalaryny çykarmak", "Marketpleýse ýörite sözbaşy we düşündiriş", "Kategoriýa we hökmany meýdanlary gabat getirmek", "Bildirişleri köpçülikleýin taýýarlamak"],
+		"audience": "Köp önüm bilen we birnäçe kanalda satuw edýän e-söwda satyjylary."
+	},
+	"agota-fiyat": {
+		"summary": "Bäsdeşleriň bahasyna, önümiň ammarda ýatan wagtyna we maksat marjaňyza görä bahany dinamik täzeleýär we buybox ýagdaýyny (önüm sahypasyndaky esasy satyjy ornuny) yzarlaýar.",
+		"manual": "Bäsdeşleriň bahalaryny birin-birin barlap, bahalary el bilen üýtgetmek.",
+		"features": ["Maksat marjasy we iň pes baha düzgünleri", "Bäsdeş bahasyny we buybox-y yzarlamak", "Ätiýaçlygyň ýatan wagtyna görä baha strategiýasy", "Üýtgeşmeler taryhy we tassyklama tertibi"],
+		"audience": "Bäsdeşlik esasan baha bilen kesgitlenýän kategoriýalarda satýan marketpleýs satyjylary."
+	},
+	"agota-stoksenk": {
+		"summary": "Ätiýaçlygy ähli satuw kanallarynda sinhron saklaýar; önüm gutaranda bildirişi ýapýar, artyk ätiýaçlyk üçin kampaniýa teklip edýär.",
+		"manual": "Bir kanalda satylan önümiň ätiýaçlygyny beýleki kanallarda el bilen azaltmak, ätiýaçlykda ýok önümiň satylmagy bilen başagaý bolmak.",
+		"features": ["Kanallar arasynda ätiýaçlyk sinhronlaşdyrmasy", "Gutaran önümiň bildirişini awtomatik ýapmak", "Artyk we köne ätiýaçlyk üçin kampaniýa teklibi", "Kanallar boýunça ätiýaçlygy bölüp goýmak"],
+		"audience": "Şol bir ätiýaçlygy birnäçe marketpleýsde we öz web sahypasynda satýan kärhanalar."
+	},
+	"agota-yorum": {
+		"summary": "Müşderi soraglaryna, teswirlere we yzyna gaýtarma islegine maksat jogap wagtyňyzyň (SLA) içinde jogap berýär; negatiw teswirleriň düýp sebäplerini seljerýär.",
+		"manual": "Panelleriň arasynda gezip, soraglara birin-birin jogap bermek we jogap wagtyny gaçyrmak.",
+		"features": ["Ähli kanallaryň soraglary bir ekranda", "Önüm maglumatyna esaslanýan jogap taslamasy", "SLA-ny yzarlamak we gijikme duýduryşy", "Negatiw teswirleriň düýp sebäbi boýunça hasabat"],
+		"audience": "Günde onlarça müşderi soragyny alýan marketpleýs dükanlary."
+	},
+	"agota-reklam": {
+		"summary": "Marketpleýs, Meta we Google mahabat býudjetiňizi önümleriň girdejiligine görä paýlaýar; zyýan getirýän kampaniýalary togtadýar.",
+		"manual": "Mahabat panellerinden hasabat ýükläp, haýsy kampaniýanyň girdeji getirýändigini Excel-de hasaplamak.",
+		"features": ["Kampaniýa boýunça arassa girdeji hasaby", "Girdejili önümlere býudjet geçirmek teklibi", "Zyýanly kampaniýa üçin togtatmak düzgüni", "Mahabat netijeliligi boýunça hepdelik gysgaça hasabat"],
+		"audience": "Marketpleýs we sosial media mahabatyna yzygiderli býudjet goýýan satyjylar."
+	},
+	"agota-iade": {
+		"summary": "Yzyna gaýtarylan önümiň suratyndan zeperi kesgitleýär, gaýtarma boýunça karar teklip edýär, eltip beriş etiketkasyny we pul gaýtarma ýazgysyny taýýarlaýar.",
+		"manual": "Her gaýtarmany birin-birin barlap karar bermek, etiketkany we gaýtarma ýazgysyny aýry ulgamlarda açmak.",
+		"features": ["Suratdan zeperi we kemçiligi kesgitlemek", "Gaýtarma syýasatyňyza görä karar teklibi", "Eltip beriş etiketkasy we gaýtarma ýazgysy", "Gaýtarma sebäbi we önüm boýunça hasabat"],
+		"audience": "Gaýtarma derejesi ýokary kategoriýalarda satýan e-söwda kärhanalary."
+	},
+	"agota-kargo": {
+		"summary": "Göwrüm agramyna, baha we tizlige görä iň laýyk eltip beriş gullugyny saýlaýar, etiketkalary köpçülikleýin çap edýär we gijikýän eltip bermäni müşderä özi habar berýär.",
+		"manual": "Her ugradyş üçin eltip beriş gullugyny saýlamak, etiketkalary birin-birin çap etmek we gijikmeleri yzarlamak.",
+		"features": ["Göwrüm agramy, baha we tizlik boýunça gulluk saýlamak", "Etiketkalary köpçülikleýin çap etmek", "Eltip bermäni yzarlamak we gijikme duýduryşy", "Müşderä awtomatik ýagdaý habary"],
+		"audience": "Günde onlarça ugradyş iberýän e-söwda kärhanalary."
+	},
+	"agota-rakip": {
+		"summary": "Bäsdeşleriňiziň baha, ätiýaçlyk we teswir üýtgeşmelerini yzarlaýar; hepdelik sesli we ýazmaça gysgaça hasabat iberýär.",
+		"manual": "Bäsdeş dükanlara her gün birin-birin girip bellik etmek.",
+		"features": ["Bäsdeş önümleriniň we dükanlarynyň gözegçilik sanawy", "Baha we ätiýaçlyk üýtgeşmeleri barada duýduryş", "Teswir we reýting tendensiýasy", "Hepdelik sesli we ýazmaça gysgaça hasabat"],
+		"audience": "Bäsdeşlikli kategoriýalarda bazar paýyny yzarlamak isleýän brendler we satyjylar."
+	},
+	"agota-katalog": {
+		"summary": "Üpjün edijiniň Excel ýa-da PDF baha sanawyny önüm kartalaryna we marketpleýs bildirişlerine öwürýär.",
+		"manual": "Üpjün ediji sanawlaryny setir-setir önüm kartasyna göçürmek, baha üýtgände hemmesini birin-birin täzelemek.",
+		"features": ["Excel we PDF baha sanawyny okamak", "Bar bolan önümler bilen gabat getirmek", "Täze önüm kartasy we bildiriş taslamasy", "Baha üýtgeşmelerini köpçülikleýin täzelemek"],
+		"audience": "Köp üpjün ediji bilen işleýän, katalogy ýygy-ýygydan üýtgeýän bölek satuw we e-söwda kärhanalary."
+	},
+	"agota-teklif": {
+		"summary": "WhatsApp arkaly gelen \"5 tonna X, bahasy näçe?\" ýaly habardan baha sanawyna, özüne düşýän bahasyna we ätiýaçlyga seredip, PDF teklip taýýarlaýar we tassyklamaňyza hödürleýär.",
+		"manual": "Her baha soragy üçin sanawa, özüne düşýän bahasyna we ätiýaçlyga seredip, teklibi Word-da noldan taýýarlamak.",
+		"features": ["Habardan önümi we mukdary çykarmak", "Baha sanawy, özüne düşýän baha we ätiýaçlyk barlagy", "Korporatiw stiliňize laýyk PDF teklip", "Tassyklanandan soň bir basyşda ibermek"],
+		"audience": "WhatsApp we e-poçta arkaly baha soraglaryny alýan öndürijiler we lomaý satyjylar."
+	},
+	"agota-siparis": {
+		"summary": "E-poçta, WhatsApp, Excel ýa-da sesli habar arkaly gelen sargydy tertipli sargyt ýazgysyna öwürýär; ätiýaçlygy we töleg möhletini barlaýar.",
+		"manual": "Dürli kanallardan gelen sargytlary ulgama birin-birin girizmek, ätiýaçlygy we töwekgelçilik çägini aýratyn barlamak.",
+		"features": ["E-poçta, WhatsApp, Excel we ses ýazgysyndan sargyt", "Önümi we müşderini gabat getirmek", "Ätiýaçlyk, baha, möhlet we töwekgelçilik barlagy", "Tassyklanandan soň sargydy ERP-de hasaba almak"],
+		"audience": "Dilerlerinden we müşderilerinden dürli kanallar arkaly sargyt alýan kompaniýalar."
+	},
+	"agota-musteri": {
+		"summary": "Habarlardan, jaň belliklerinden we e-poçtalardan CRM-i özi täzeleýär; ýatdan çykan mümkinçilikleri we dymyp galan müşderileri ýatladýar.",
+		"manual": "Duşuşyk belliklerini CRM-e girizmegi unutmak, yzarlanmaly müşderini gaçyrmak.",
+		"features": ["Habardan we e-poçtadan awtomatik müşderi ýazgysy", "Duşuşygyň gysgaça mazmuny we indiki ädim", "Ýatdan çykan mümkinçilikler barada ýatlatma", "Dymyp galan müşderi barada duýduryş"],
+		"audience": "Satuw toparynyň CRM-e maglumat girizmekde kynçylyk çekýän B2B kärhanalary."
+	},
+	"agota-bayi": {
+		"summary": "Dilerleriňiz göçürmelerini we sargytlaryny öz portallarynda görýär; kömekçi her dilere geçmişine görä sargyt teklip edýär.",
+		"manual": "Dilerleriň göçürme we sargyt ýagdaýy baradaky soraglaryna telefon arkaly birin-birin jogap bermek.",
+		"features": ["Dilere ýörite göçürme we balans ekrany", "Portal arkaly sargyt", "Geçmişe esaslanýan sargyt teklibi", "Diler boýunça kampaniýa we baha sanawy"],
+		"audience": "Diler ulgamy arkaly satýan öndürijiler we distribýutorlar."
+	},
+	"agota-plasiyer": {
+		"summary": "Meýdan satuw topary üçin sesli kömekçi: \"Bu müşderiniň balansy näçe, soňky sargydy näme boldy?\" diýen soraga derrew jogap, gündelik marşrut we töleg ýygnamak sanawy.",
+		"manual": "Balans ýa-da sargyt maglumaty gerek bolanda meýdandaky satyjynyň merkeze jaň edip garaşmagy.",
+		"features": ["Müşderiniň balansyny we geçmişini ses bilen soramak", "Gündelik sapar marşruty", "Meýdanda sargyt we töleg ýazgysy", "Sapar belligini ses bilen galdyrmak"],
+		"audience": "Satuw agentleri we meýdan satuw topary bilen işleýän distribýutor kompaniýalary."
+	},
+	"agota-satinal": {
+		"summary": "Ätiýaçlyk iň pes derejä düşende üpjün edijilerden baha ýygnaýar, teklipleri deňeşdirýär we satyn alma sargydynyň taslamasyny düzýär.",
+		"manual": "Ätiýaçlyk azalanda üpjün edijilere birin-birin jaň edip baha soramak we deňeşdirme tablisasyny taýýarlamak.",
+		"features": ["Minimum ätiýaçlyk derejesinde awtomatik başlamak", "Üpjün edijilere köpçülikleýin teklip soragy", "Baha, töleg möhleti we eltip bermek möhletini deňeşdirmek", "Tassyklamaga taýýar satyn alma sargydy"],
+		"audience": "Material we önümleri yzygiderli satyn alýan öndüriş we söwda kompaniýalary."
+	},
+	"agota-tedarikci": {
+		"summary": "Üpjün edijileriňize gijikmä, hile we baha gyşarmasyna görä bal berýär; haýsy üpjün ediji bilen dowam etmelidigini maglumatlar bilen görkezýär.",
+		"manual": "Üpjün edijileriň işini ýatda galanlara we eşidilen gürrüňlere esaslanyp bahalandyrmak.",
+		"features": ["Wagtynda eltip bermegiň paýy", "Hil we yzyna gaýtarma ýazgylary", "Baha gyşarmasyny yzarlamak", "Üpjün edijiniň netijelilik kartasy we reýtingi"],
+		"audience": "Köp üpjün ediji bilen işleýän satyn alma toparlary."
+	},
+	"agota-ihale": {
+		"summary": "EKAP (Türkiýäniň döwlet satyn alyşlary boýunça elektron platformasy) we hususy tender bildirişlerini gözden geçirýär, kärhanaňyza laýyklaryny teklip edýär we teklip bukjasynyň taslamasyny taýýarlaýar.",
+		"manual": "Tender bildirişlerini her gün el bilen gözden geçirmek we teklip bukjasyny noldan taýýarlamak.",
+		"features": ["Tender bildirişlerini gözden geçirmek we süzmek", "Laýyklyk baly we maslahat", "Soňky tabşyryş senesi barada ýatlatma", "Teklip bukjasynyň taslamasy"],
+		"audience": "Döwlet we hususy pudak tenderlerine teklip berýän kompaniýalar."
+	},
+	"agota-maliyet": {
+		"summary": "Çig mal, zähmet we umumy çykdajylar boýunça önümiň özüne düşýän bahasyny hasaplaýar; çykdajy bahalary üýtgände özüne düşýän bahany we maslahat berilýän satuw bahasyny täzeleýär.",
+		"manual": "Özüne düşýän baha tablisalaryny her gezek baha ýokarlananda Excel-de täzeden hasaplamak.",
+		"features": ["Çig mal, zähmet we umumy çykdajylary paýlamak", "Resepte baglanyşykly özüne düşýän baha hasaby", "Çykdajy bahasy üýtgände awtomatik täzelemek", "Maksat marjasyna görä satuw bahasy teklibi"],
+		"audience": "Öndüriş bilen meşgullanýan we çykdajylary ýygy-ýygydan üýtgeýän kärhanalar."
+	},
+	"agota-depo": {
+		"summary": "Telefon kamerasy bilen sanaw geçirýär, ştrih-kody bolmadyk önümleri şekilinden tanaýar we tekjelerde ýerleşdiriş teklip edýär.",
+		"manual": "Sanaw netijelerini kagyza ýazyp, soňra ulgama girizmek, ştrih-kodsyz önümleri el bilen gözlemek.",
+		"features": ["Kamera bilen çalt sanaw", "Ştrih-kodsyz önümi şekilinden tanamak", "Tekje we ýerleşdiriş teklibi", "Sanaw tapawudy boýunça hasabat"],
+		"audience": "Ammarda we dükanda yzygiderli sanaw geçirýän kärhanalar."
+	},
+	"agota-talep": {
+		"summary": "Geçmişdäki satuwlardan we möwsümleýinlikden isleg çaklamasyny düzýär; \"haýsy önümden näçe almaly\" sanawyny taýýarlaýar.",
+		"manual": "Sargyt mukdarlaryny tejribä we geçen ýylyň sanlaryna seredip çaklamak.",
+		"features": ["Möwsümleýinligi hasaba alýan isleg çaklamasy", "Önüm boýunça maslahat berilýän sargyt mukdary", "Ätiýaçlygyň gutarmak we artyk ätiýaçlyk töwekgelçiligi", "Satyn alma moduluna bir basyşda geçirmek"],
+		"audience": "Möwsümleýin önüm satýan bölek we lomaý satuw kärhanalary."
+	},
+	"agota-sevk": {
+		"summary": "Ulag marşrutyny meýilleşdirýär, ýük hatlaryny awtomatlaşdyrýar; sürüjä marşruty WhatsApp arkaly iberýär we eltip bermegiň suratyny ýygnaýar.",
+		"manual": "Marşrutlary el bilen meýilleşdirmek, ýük hatlaryny birin-birin ýazmak, eltip bermegi telefon arkaly tassyklamak.",
+		"features": ["Ulag we marşrut meýilleşdirmesi", "Ýük hatlaryny awtomatlaşdyrmak", "Sürüjä WhatsApp arkaly marşrut", "Suratly eltip beriş tassyklamasy"],
+		"audience": "Öz ulaglary bilen haryt paýlaýan lomaý satyjylar we öndürijiler."
+	},
+	"agota-uretim": {
+		"summary": "Sargytdan iş tabşyrygyny we öndüriş meýilnamasyny düzýär; önüm resepti (BOM) we kuwwat esasynda \"bu sargyt haçan taýýar bolar?\" diýen soraga jogap berýär.",
+		"manual": "Öndüriş meýilnamasyny ak tagtada ýa-da Excel-de ýöretmek, möhlet baradaky soraga çaklama bilen jogap bermek.",
+		"features": ["Önüm reseptini (BOM) dolandyrmak", "Sargytdan awtomatik iş tabşyrygy", "Kuwwata görä öndüriş meýilnamasy", "Taýýar bolmak möhletiniň çaklamasy we gijikme duýduryşy"],
+		"audience": "Sargyt boýunça önüm öndürýän kiçi we orta öndürijiler."
+	},
+	"agota-fason": {
+		"summary": "Dokma we metal ýaly pudaklarda daşarky ussahanalary yzarlaýar; iş tapgyrlary barada habarlary WhatsApp arkaly alýar we daşarky öndürişiň girdejiligini hasaplaýar.",
+		"manual": "Daşarky ussahanalara jaň edip, işiň haýsy tapgyrdadygyny soramak.",
+		"features": ["Daşarky ussahana iberilen iş we material yzarlamasy", "WhatsApp arkaly tapgyr habary", "Möhlet we gijikme yzarlamasy", "Ussahana boýunça girdejilik"],
+		"audience": "Daşarky ussahanalar bilen işleýän dokma, metal we mebel kompaniýalary."
+	},
+	"agota-kalite": {
+		"summary": "Kemçilikli önümiň suratyndan kemçiligiň görnüşini kesgitleýär we üpjün edijä iberilýän laýyk gelmezlik hasabatyny awtomatik taýýarlaýar.",
+		"manual": "Kemçilikleri kagyz formlara ýazmak, üpjün ediji hasabatlaryny el bilen taýýarlamak.",
+		"features": ["Suratdan kemçilikleri toparlara bölmek", "Laýyk gelmezlik hasabatynyň taslamasy", "Üpjün ediji we partiýa boýunça kemçilik statistikasy", "Düzediş çärelerini yzarlamak"],
+		"audience": "Hil gözegçiligini geçirýän öndüriş kärhanalary."
+	},
+	"agota-bakim": {
+		"summary": "Enjamlaryň tehniki hyzmat senenamasyny dolandyrýar, näsazlyklary ses bilen habar bermäge mümkinçilik berýär we iş duran wagtyň çykdajysyny hasaplaýar.",
+		"manual": "Tehniki hyzmat senelerini depderde ýöretmek, näsazlygy dilden habar bermek, iş duran wagtlary hasaba almazlyk.",
+		"features": ["Döwürleýin tehniki hyzmat senenamasy", "Näsazlyk barada sesli habar", "Näsazlyk we abatlaýyş taryhy", "Iş duran wagt we onuň çykdajysy"],
+		"audience": "Enjam parky bolan öndüriş kärhanalary."
+	},
+	"agota-bordro": {
+		"summary": "Iş wagty tabelinden aýlyk taslamasyny taýýarlaýar, galan rugsat günlerini ýöredýär we SGK (Türkiýäniň sosial üpjünçilik edarasy) boýunça möhletleri ýatladýar. Aýlyk hasaby diňe maliýe geňeşçisi tassyklandan soň gutarnykly bolýar.",
+		"manual": "Iş wagty tabelini Excel-de jemläp geňeşçä ibermek, galan rugsat günlerini el bilen hasaplamak.",
+		"features": ["Iş wagty tabelinden aýlyk taslamasy", "Galan rugsat günlerini yzarlamak", "SGK we töleg möhletleri barada ýatlatma", "Geňeşçiniň tassyklama akymy"],
+		"audience": "Aýlyk hasabyny maliýe geňeşçisi bilen taýýarlaýan kiçi we orta kärhanalar."
+	},
+	"agota-aday": {
+		"summary": "Iş bildirişini ýazýar, CV-leri saýlaýar, dalaşgär bilen WhatsApp arkaly deslapky söhbetdeşlik geçirýär we söhbetdeşlikleriň tertibini düzýär.",
+		"manual": "Ýüzlerçe CV-ni birin-birin okamak, dalaşgärler bilen telefon arkaly duşuşyk bellemek.",
+		"features": ["Bildiriş tekstini taýýarlamak", "Ölçeglere görä CV saýlamak", "WhatsApp arkaly deslapky söhbetdeşlik", "Söhbetdeşlik tertibi we ýatlatma"],
+		"audience": "Işgärleri ýygy-ýygydan işe alýan bölek satuw, öndüriş we hyzmat kärhanalary."
+	},
+	"agota-vardiya": {
+		"summary": "Smena meýilnamasyny taýýarlaýar, rugsatlaryň çaknyşmagyny çözýär we artyk iş wagtyny hasaplaýar.",
+		"manual": "Smena tertibini her hepde el bilen düzmek, üýtgeşmeleri toparlaýyn çatda habar bermek.",
+		"features": ["Awtomatik smena meýilnamasy", "Rugsat we çaknyşyk barlagy", "Artyk iş wagtynyň hasaby", "Işgäre habar bermek"],
+		"audience": "Smena bilen işleýän zawodlar, dükanlar, restoranlar we saglygy goraýyş edaralary."
+	},
+	"agota-rehber": {
+		"summary": "\"Rugsady nädip almaly, kimden tassyklama almaly?\" ýaly soraglara kompaniýaňyzyň düzgünlerine esaslanyp jogap berýän içerki kömekçi; täze işgärleriň uýgunlaşmagyny çaltlandyrýar.",
+		"manual": "Şol bir soraglary her täze işgäre gaýta-gaýta düşündirmek.",
+		"features": ["Düzgünler we proseduralar bilim bazasy", "Gündelik dilde sorag-jogap", "Täze işgäriň uýgunlaşma meýilnamasy", "Häzirki resminamalara salgylanmalar"],
+		"audience": "Ösýän we ýygy-ýygydan täze işgär kabul edýän toparlar."
+	},
+	"agota-hat": {
+		"summary": "WhatsApp, Instagram we e-poçtany bir gelen habarlar gutusynda jemleýär; ilkinji jogaby berýär, habary toparlara bölýär, jogapkär işgäre berýär we sargyt/eltip beriş ýagdaýyny özi habar berýär.",
+		"manual": "Birnäçe programmadan gelýän habarlary yzarlamak, şol bir soraglara gaýta-gaýta jogap bermek.",
+		"features": ["Köp kanally umumy gelen habarlar gutusy", "Awtomatik ilkinji jogap we toparlara bölmek", "Sargyt we eltip beriş ýagdaýyny soramak", "Toparyň içinde bellemek we yzarlamak"],
+		"audience": "Müşderi habarlaryny birnäçe kanaldan alýan kärhanalar."
+	},
+	"agota-ses": {
+		"summary": "Gelýän jaňlary kabul edýän sesli kömekçi: nobata ýazylyşy, sargyt we salgy maglumatlaryny alýar, her jaňyň ýazmaça gysgaça mazmunyny taýýarlaýar.",
+		"manual": "Jaňlara ýetişip bilmezlik, jogapsyz galan jaňlara gaýtadan jaň edip bilmezlik, gepleşikleri ýazyp almazlyk.",
+		"features": ["Iş wagtyndan daşary hem jaň kabul etmek", "Nobata ýazylyş, sargyt we salgy almak", "Her jaňyň ýazmaça gysgaça mazmuny", "Zerur bolanda jogapkär adama geçirmek"],
+		"audience": "Telefon arkaly sargyt we nobata ýazylyş kabul edýän kärhanalar."
+	},
+	"agota-sikayet": {
+		"summary": "Şikaýat saýtlaryndaky, Google-daky we marketpleýslerdäki teswirleri bir ýerde jemleýär, olara jogap berýär we düýp sebäpleri boýunça hasabat taýýarlaýar.",
+		"manual": "Dürli saýtlardaky şikaýatlary birin-birin yzarlamak we gijä galyp jogap bermek.",
+		"features": ["Şikaýat we teswir çeşmelerini bir sanawda jemlemek", "Jogap taslamasy we tassyklama", "Düýp sebäpleri toparlara bölmek", "Gaýtalanýan meseleler boýunça hasabat"],
+		"audience": "Onlaýn abraýy satuwyna göni täsir edýän brendler we kärhanalar."
+	},
+	"agota-sadakat": {
+		"summary": "Müşderileriňizi segmentlere bölýär, yzyna getirmek kampaniýalaryny gurýar we sizden daşlaşyp başlan müşderä awtomatik ýüzlenýär.",
+		"manual": "Köpden bäri satyn alyş etmeýän müşderileri duýman galmak.",
+		"features": ["Satyn alyş häsiýetine görä segmentasiýa", "Müşderini ýitirmek töwekgelçiligini kesgitlemek", "Müşderini yzyna getirmek üçin awtomatik habarlar", "Kampaniýa netijelerini ölçemek"],
+		"audience": "Gaýtalanýan müşderiler arkaly ösýän bölek satuw, e-söwda we hyzmat kärhanalary."
+	},
+	"agota-studyo": {
+		"summary": "Önüm suratyndan sosial media postuny, Reels ssenariýasyny we önüm feed-ini taýýarlaýar; hepdelik mazmun meýilnamaňyzy özi doldurýar.",
+		"manual": "Her hepde näme paýlaşmalydygyny pikirlenmek, suratlary we tekstleri noldan taýýarlamak.",
+		"features": ["Suratdan post we tekst", "Reels ssenariýasy", "Önüm feed-ini taýýarlamak", "Hepdelik mazmun meýilnamasy"],
+		"audience": "Sosial mediada yzygiderli mazmun çykarmak isleýän brendler."
+	},
+	"agota-site": {
+		"summary": "ERP-de täze önüm goşulanda web sahypaňyzda önüm sahypasy döredilýär we SEO teksti ýazylýar.",
+		"manual": "Her täze önüm üçin web sahypada aýratyn sahypa açmak we düşündiriş ýazmak.",
+		"features": ["ERP bilen sinhron önüm sahypalary", "Awtomatik SEO sözbaşysy we düşündirişi", "Baha we ätiýaçlyk täzelenmesi", "Köp dilli mazmun goldawy"],
+		"audience": "Önüm katalogyny web sahypasynda hem görkezýän kärhanalar."
+	},
+	"agota-kampanya": {
+		"summary": "E-poçta, SMS we WhatsApp kampaniýalaryny segmenti, teksti we wagty bilen taýýarlaýar; netijeler boýunça hasabat çykarýar.",
+		"manual": "Kampaniýa sanawlaryny el bilen taýýarlamak we netijesini ölçäp bilmezlik.",
+		"features": ["Maksatly segmenti saýlamak", "Kanala laýyk tekst teklibi", "Wagt bellemek we awtomatik ibermek", "Açylyş, basyş we satuw hasabaty"],
+		"audience": "Müşderi sanawyna yzygiderli kampaniýa iberýän kärhanalar."
+	},
+	"agota-harita": {
+		"summary": "Google Business Profile sahypaňyzy dolandyrýar: teswirlere jogap berýär, iş wagtyny we suratlary täzeläp durýar.",
+		"manual": "Google teswirlerini jogapsyz goýmak, baýramçylyk günleriniň iş wagtyny täzelemegi unutmak.",
+		"features": ["Teswirlere jogap taslamasy", "Iş wagtyny we maglumatlary täzelemek", "Surat we post dolandyryşy", "Görlüş we gözleg hasabaty"],
+		"audience": "Ýerli müşderilere hyzmat edýän dükanlar, restoranlar we klinikalar."
+	},
+	"agota-sozlesme": {
+		"summary": "Şertnamalary okaýar, töwekgelçilikli maddalary belleýär, şablondan täze şertnama taýýarlaýar we uzaltmak senelerini ýatladýar. Hukuk geňeşçisiniň ornuny tutmaýar, onuň işini çaltlandyrýar.",
+		"manual": "Şertnamalary setir-setir okamak we uzaltmak senelerini gaçyrmak.",
+		"features": ["Töwekgelçilikli maddalary kesgitlemek", "Şablondan şertnama taslamasy", "Uzaltmak we ýatyrmak seneleri barada ýatlatma", "Şertnamanyň gysgaça kartasy"],
+		"audience": "Üpjün ediji, müşderi we kärende şertnamalary köp bolan kärhanalar."
+	},
+	"agota-kvkk": {
+		"summary": "Şahsy maglumatlaryň sanawyny düzýär, gizlinlik habarnamasynyň taslamasyny taýýarlaýar, VERBİS (Türkiýedäki maglumat jogapkärleriniň döwlet sanawy) boýunça borçlary ýatladýar we ýüzlenmelere jogap taslamasyny ýazýar.",
+		"manual": "KVKK (Türkiýäniň şahsy maglumatlary goramak kanuny) boýunça borçlary dargynyk faýllarda yzarlamak.",
+		"features": ["Şahsy maglumatlar sanawy", "Gizlinlik habarnamasynyň taslamasy", "VERBİS we möhletler barada ýatlatma", "Maglumat eýesiniň ýüzlenmesine jogap taslamasy"],
+		"audience": "Müşderi we işgär maglumatlaryny işleýän ähli kärhanalar."
+	},
+	"agota-arsiv": {
+		"summary": "Ähli resminamalaryňyzy gözläp tapyp bolar ýaly edýär: \"geçen ýylky kärende şertnamasyny tap\" diýmegiňiz ýeterlik.",
+		"manual": "Papkalarda we e-poçtalarda resminama gözlemek.",
+		"features": ["Skanirlemek we tekst tanamak (OCR)", "Gündelik dilde gözleg", "Resminama görnüşine görä awtomatik bellik goýmak", "Ygtyýara görä giriş"],
+		"audience": "Kagyz we sanly resminamalary dargynyk saklanýan kärhanalar."
+	},
+	"agota-onay": {
+		"summary": "Çykdajy, rugsat we arzanladyş tassyklamalaryny bir akymda jemleýär; kömekçi islegi taýýarlaýar, ygtyýarly adam bir basyşda tassyklaýar.",
+		"manual": "Tassyklama üçin e-poçta zynjyrlary we telefon jaňlary bilen başagaý bolmak.",
+		"features": ["Sazlanýan tassyklama düzgünleri", "Isleg taslamasyny awtomatik taýýarlamak", "Mobil enjamdan bir basyşda tassyklamak", "Tassyklama taryhy we barlag yzy"],
+		"audience": "Birnäçe tassyklama derejesi bolan toparlar."
+	},
+	"agota-dilekce": {
+		"summary": "Resmi edaralar bilen hat alyşmalary, arza we ýüzlenme taslamalaryny taýýarlaýar.",
+		"manual": "Her resmi hat üçin dogry formaty gözlemek we teksti noldan ýazmak.",
+		"features": ["Edara laýyk format", "Kompaniýa maglumatlary bilen awtomatik doldurmak", "Hat alyşma arhiwi", "Möhletleri yzarlamak"],
+		"audience": "Resmi edaralar bilen ýygy-ýygydan hat alyşýan kärhanalar."
+	},
+	"agota-sor": {
+		"summary": "\"Şu aý iň girdejili 10 önüm haýsy?\" diýip soraň; maglumat bazasyna soragy özi düzýär, jogaby tablisa we grafik görnüşinde berýär.",
+		"manual": "Hasabat üçin IT bölümine ýüz tutmak ýa-da Excel-de pivot tablisa taýýarlamak.",
+		"features": ["Gündelik dilde sorag", "Awtomatik tablisa we grafik", "Soragy ýatda saklamak we paýlaşmak", "Ygtyýara görä maglumata giriş"],
+		"audience": "Hasabat üçin başgalara garaşly bolmak islemeýän ýolbaşçylar."
+	},
+	"agota-panel": {
+		"summary": "Biznes eýesine her hepde sesli we ýazmaça gysgaça hasabat iberýär; ony WhatsApp arkaly hem okap bolýar.",
+		"manual": "Hepdelik ýagdaýy bilmek üçin dürli hasabatlary birin-birin açmak.",
+		"features": ["Hepdelik ýolbaşçy hasabaty", "Sesli we ýazmaça görnüş", "WhatsApp arkaly ibermek", "Möhüm üýtgeşmeleri aýratyn bellemek"],
+		"audience": "Işiniň ýagdaýyndan gysga wagtda habarly bolmak isleýän biznes eýeleri."
+	},
+	"agota-uyari": {
+		"summary": "Adaty bolmadyk ýagdaýlary tapýar: \"X müşderiniň sargytlary 40% azaldy\", \"ätiýaçlyk 3 günde gutarýar\", \"bu üpjün ediji 3-nji gezek gijä galdy\".",
+		"manual": "Meseleleri eýýäm giç bolanda duýmak.",
+		"features": ["Satuw, ätiýaçlyk we üpjünçilik boýunça adaty bolmadyk ýagdaýlar", "Çäkleri we düzgünleri kesgitlemek", "WhatsApp we e-poçta arkaly habar", "Duýduryşlar taryhy"],
+		"audience": "Meseleleri ir tapmak isleýän ýolbaşçylar."
+	},
+	"agota-senaryo": {
+		"summary": "\"Bahany 5% ýokarlandyrsam, girdeji we satuw mukdary näçe bolar?\" ýaly ssenariýleri öz maglumatlaryňyz esasynda hasaplaýar.",
+		"manual": "Baha we çykdajy ssenariýlerini Excel-de el bilen modellemek.",
+		"features": ["Baha, çykdajy we mukdar ssenariýleri", "Geçmiş maglumatlara esaslanýan islegiň çeýeligini çaklamak", "Ssenariýleri deňeşdirmek", "Paýlaşyp bolýan netije hasabaty"],
+		"audience": "Baha we býudjet boýunça karar kabul edýän ýolbaşçylar."
+	},
+	"agota-saha": {
+		"summary": "Tehnige wezipe berýär, ýerleşýän ýerini yzarlaýar; suratly iş tamamlanmasyndan hyzmat formuny we fakturany özi döredýär.",
+		"manual": "Hyzmat formlaryny kagyzda doldurmak we ofisde fakturalara öwürmek.",
+		"features": ["Wezipe bermek we marşrut", "Ýerleşýän ýerini yzarlamak", "Iş tamamlananda surat bilen tassyklamak", "Awtomatik hyzmat formy we faktura"],
+		"audience": "Tehniki hyzmat, abatlaýyş we gurnama toparlary."
+	},
+	"agota-kesif": {
+		"summary": "Ýerinde barlag wagtynda alnan suratlardan we sesli belliklerden teklip taýýarlaýar: kondisioner, abatlaýyş, mebel, aýnaly balkon.",
+		"manual": "Barlag belliklerini ofisde arassa göçürip, teklibi birnäçe günden soň ibermek.",
+		"features": ["Surat we sesli bellik bilen barlag", "Ölçegler we material sanawy", "Teklip taslamasy", "Teklibi yzarlamak"],
+		"audience": "Kondisioner, abatlaýyş, mebel we aýnaly balkon kompaniýalary."
+	},
+	"agota-mutfak": {
+		"summary": "Reseptiň özüne düşýän bahasyny hasaplaýar, ýitgileri yzarlaýar we üpjün edijä iberilýän gündelik sargyt sanawyny taýýarlaýar.",
+		"manual": "Reseptleriň özüne düşýän bahasyny Excel-de ýöretmek, gündelik önüm sargydyny çaklama bilen bermek.",
+		"features": ["Resept we porsiýa bahasy", "Ýitgileri yzarlamak", "Üpjün ediji üçin gündelik sargyt sanawy", "Menýunyň girdejilik seljermesi"],
+		"audience": "Restoranlar, kafeler we merkezi aşhanalar."
+	},
+	"agota-randevu": {
+		"summary": "Saç salony, klinika, weterinar we awtoýuwulyş ýaly kärhanalarda WhatsApp we Instagram habarlaryny nobata ýazylyşa öwürýär.",
+		"manual": "Habar arkaly gelen nobata ýazylyş isleglerini senenama el bilen girizmek.",
+		"features": ["WhatsApp we Instagram arkaly nobata ýazylyş", "Işgär we hyzmat boýunça senenama", "Ýatlatma we ýatyrmalary dolandyrmak", "Boş wagtlary doldurmak boýunça teklip"],
+		"audience": "Nobata ýazylyş esasynda işleýän hyzmat kärhanalary."
+	},
+	"agota-klinik": {
+		"summary": "Näsag kartasyny, bejeriş meýilnamasyny, nobat ýatlatmalaryny we ätiýaçlandyryş resminamalaryny bir ýerde dolandyrýar.",
+		"manual": "Näsag maglumatlaryny dargynyk faýllarda saklamak, gaýtadan barlaga çagyrmagy ýatdan çykarmak.",
+		"features": ["Näsag kartasy we taryhy", "Bejeriş meýilnamasy", "Nobat we gaýtadan barlag ýatlatmasy", "Ätiýaçlandyryş resminamalaryny yzarlamak"],
+		"audience": "Diş, estetik we fizioterapiýa klinikalary hem-de hususy poliklinikalar."
+	},
+	"agota-konak": {
+		"summary": "Myhmanhana we myhman öýlerinde Booking we Airbnb ýaly kanallardaky boş otag maglumatyny sinhron saklaýar, myhmanlara WhatsApp kömekçisi arkaly jogap berýär we check-in-i çaltlandyrýar.",
+		"manual": "Her kanalda boş otaglary el bilen täzelemek, myhman soraglaryna birin-birin jogap bermek.",
+		"features": ["Kanallar arasynda boş otag sinhronlaşdyrmasy", "Myhmanlar üçin WhatsApp kömekçisi", "Onlaýn check-in", "Dolulyk we girdeji hasabaty"],
+		"audience": "Butik myhmanhanalar, myhman öýleri we apartament kärhanalary."
+	},
+	"agota-servis": {
+		"summary": "Awtoserwisde döwlet belgisi boýunça awtoulagyň taryhyny getirýär, iş tabşyrygyny ses bilen açýar, şaý sargydyny berýär we müşderä ýagdaý habaryny iberýär.",
+		"manual": "Iş tabşyryklaryny kagyza ýazmak, awtoulagyň ýagdaýyny müşderä telefon arkaly habar bermek.",
+		"features": ["Döwlet belgisi boýunça ulag we hyzmat taryhy", "Sesli iş tabşyrygy", "Şaý sargydy", "Müşderä awtomatik ýagdaý habary"],
+		"audience": "Awtoserwisler, şina we kuzow ussahanalary."
+	},
+	"agota-emlak": {
+		"summary": "Bildiriş tekstini taýýarlaýar, emläk portfeliňizi alyjylaryň islegleri bilen gabat getirýär we görkeziş duşuşyklaryny meýilleşdirýär.",
+		"manual": "Alyjylaryň isleglerini ýatda saklamak we laýyk emlägi el bilen gözlemek.",
+		"features": ["Bildiriş sözbaşysy we teksti", "Alyjy islegini portfel bilen gabat getirmek", "Görkeziş duşuşygy", "Müşderini yzarlamak boýunça ýatlatmalar"],
+		"audience": "Gozgalmaýan emläk agentlikleri we maslahatçylary."
+	},
+	"agota-santiye": {
+		"summary": "Gurluşyk meýdançasynda ýerine ýetirilen işler boýunça töleg hasaplaryny, iş göwrümlerini we iş wagty tabelini yzarlaýar; material isleglerini WhatsApp arkaly kabul edýär.",
+		"manual": "Ýerine ýetirilen işleriň hasabyny we tabeli Excel-de, material isleglerini telefon arkaly dolandyrmak.",
+		"features": ["Ýerine ýetirilen işler boýunça töleg hasabyny taýýarlamak", "Iş göwrümlerini yzarlamak", "Gurluşyk meýdançasynyň iş wagty tabeli", "WhatsApp arkaly material islegi"],
+		"audience": "Potratçy we kömekçi potratçy gurluşyk kompaniýalary."
+	},
+	"agota-tarla": {
+		"summary": "Fermer hojalyklarynda we ýyladyşhanalarda özüne düşýän bahany hasaplaýar, lomaý miwe-gök önüm bazarynyň bahalaryny yzarlaýar, dermanlama we suwaryş ýazgylaryny ýöredýär.",
+		"manual": "Ekin meýdanyndaky çykdajylary we edilen işleri depdere ýazmak.",
+		"features": ["Ýer bölegi we ekin boýunça özüne düşýän baha", "Lomaý bazar bahalaryny yzarlamak", "Dermanlama we suwaryş ýazgylary", "Hasyl we satuw yzarlamasy"],
+		"audience": "Fermerler, ýyladyşhana hojalyklary we öndüriji birleşikleri."
+	},
+	"agota-kurs": {
+		"summary": "Kurslarda, goşmaça sapak merkezlerinde we sport zallarynda hasaba alyşy, bölekleýin tölegleri, gatnaşygy we ene-atalara/agzalara habar bermegi dolandyrýar.",
+		"manual": "Hasaba alyşy we bölekleýin tölegleri depderde ýöretmek, ene-atalara birin-birin habar ýazmak.",
+		"features": ["Okuwçy we agza hasaba alyşy", "Bölekleýin töleg we töleg ýygnamak", "Gatnaşyk barlagy", "Ene-atalara we agzalara habarlar"],
+		"audience": "Kurslar, goşmaça sapak merkezleri, sport we tans zallary."
+	},
+	"agota-musavir": {
+		"summary": "Maliýe geňeşçileriniň edaralarynda müşderilerden (salgyt töleýjilerden) resminama ýygnaýar, ýetmeýänlerini yzarlaýar we beýannama senenamasyny dolandyrýar.",
+		"manual": "Her aý onlarça müşderä jaň edip resminama soramak.",
+		"features": ["Müşderi boýunça resminama yzarlamasy", "Ýetmeýän resminama barada ýatlatmalar", "Beýannama senenamasy", "Müşderi portaly"],
+		"audience": "Maliýe geňeşçileri we buhgalteriýa edaralary."
+	},
+	"agota-atolye": {
+		"summary": "Tikinçilik ussahanalarynda model we nusga yzarlamasyny, biçiş meýilnamasyny, daşarky ussahanalary, ýüplük we mata ätiýaçlygyny dolandyrýar.",
+		"manual": "Model we biçiş maglumatlaryny kagyz kartalarda ýöretmek.",
+		"features": ["Model we nusga kartasy", "Biçiş meýilnamasy", "Daşarky ussahanalary yzarlamak", "Ýüplük we mata ätiýaçlygy"],
+		"audience": "Tikinçilik we dokma ussahanalary."
+	},
+	"agota-filo": {
+		"summary": "Ýük daşaýjy kompaniýalarda ulagy, sürüjini we ýüki gabat getirýär; ýangyjy we jerimeleri yzarlaýar.",
+		"manual": "Ýükleri telefon arkaly gabat getirmek, ýangyjy we jerimeleri Excel-de yzarlamak.",
+		"features": ["Ulag we sürüji dolandyryşy", "Ýük bilen ulagy gabat getirmek", "Ýangyç yzarlamasy", "Jerime we resminama möhletlerini yzarlamak"],
+		"audience": "Ýük daşaýjy we logistika kompaniýalary."
+	},
+	"agota-market": {
+		"summary": "Marketlerde we azyk dükanlarynda satuw nokady (POS), ýaramlylyk möhletini yzarlamak we üpjün edijä awtomatik sargyt.",
+		"manual": "Ýaramlylyk möhleti ýakynlaşýan önümleri tekjeme-tekje barlamak, sargydy çen bilen bermek.",
+		"features": ["Çalt satuw ekrany (POS)", "Ýaramlylyk möhleti barada duýduryşlar", "Üpjün edijä awtomatik sargyt", "Gündelik dolanyşyk we girdeji boýunça gysgaça hasabat"],
+		"audience": "Marketler, azyk dükanlary we gastronomlar."
+	},
+	"agota-store": {
+		"summary": "Agota üçin programma we kömekçi dükany: üçünji tarap işläp düzüjiler kömekçi döredýär we girdejini paýlaşmak esasynda ýerleşdirýär.",
+		"manual": "Gerek bolan her funksiýa üçin aýratyn programma gözlemek we ony integrirlemek.",
+		"features": ["Programma we kömekçi katalogy", "Bir basyşda gurnamak", "Işläp düzüjiler üçin programma", "Girdejini paýlaşmak"],
+		"audience": "Agota ulanyjylary we programma üpjünçiligini işläp düzüjiler."
+	},
+	"agota-tedarik": {
+		"summary": "Agota ulanýan kärhanalaryň arasynda B2B söwda meýdançasy: ammardaky önüm awtomatik sanawa goşulýar; alyjynyň satyn alma kömekçisi satyjynyň satuw kömekçisinden teklip alýar.",
+		"manual": "Üpjün ediji tapmak üçin telefon we e-poçta arkaly teklip ýygnamak.",
+		"features": ["Ätiýaçlykdan awtomatik sanawa goşmak", "Kömekçileriň arasynda teklip alyşmak", "ERP-de awtomatik sargyt ýazgysy", "Barlanan kärhana profilleri"],
+		"audience": "Satyn alýan we satýan kiçi we orta kärhanalar."
+	},
+	"agota-fasonpazar": {
+		"summary": "Boş öndüriş kuwwatyny iş bilen gabat getirýär: \"1 000 sany futbolka tikmek, 2 hepde\" diýen islege laýyk ussahanany tapýar.",
+		"manual": "Daşarky ussahana tapmak üçin tanyş-bilişlerden soramak.",
+		"features": ["Kuwwat bildirişi", "Işi ussahana bilen gabat getirmek", "Teklip we möhlet deňeşdirmesi", "Ussahanalara bal bermek"],
+		"audience": "Öndürijiler we daşarky ussahanalar."
+	},
+	"agota-hizmet": {
+		"summary": "Ýük daşamak, arassaçylyk, abatlaýyş we howpsuzlyk ýaly korporatiw hyzmatlar üçin teklip ýygnaýar we deňeşdirýär.",
+		"manual": "Her hyzmat üçin aýry-aýry kompaniýalara jaň edip teklip soramak.",
+		"features": ["Hyzmat islegini döretmek", "Awtomatik teklip ýygnamak", "Baha we gerimi deňeşdirmek", "Hyzmat berijini bahalandyrmak"],
+		"audience": "Yzygiderli hyzmat satyn alýan kärhanalar."
+	},
+	"agota-makine": {
+		"summary": "Ulanylan enjam we abzal bazary: ERP-däki esasy serişdeler sanawyňyzdan bir basyşda satuwa çykaryň.",
+		"manual": "Ulanylmaýan enjamlary bildiriş sahypalarynda birin-birin ýerleşdirmek.",
+		"features": ["Esasy serişdeler sanawyndan bildiriş", "Surat we tehniki maglumat", "Alyjy islegleri bilen gabat getirmek", "Howpsuz aragatnaşyk"],
+		"audience": "Enjamlaryny täzeleýän öndüriş kärhanalary."
+	},
+	"agota-endeks": {
+		"summary": "Anonimleşdirilen maglumatlardan pudak boýunça baha, marja we töleg ýygnamak möhleti indekslerini düzýär; kärhanaňyzy pudagyň ortaça görkezijileri bilen deňeşdirýär.",
+		"manual": "Pudagyň ortaça görkezijilerini çaklama ýa-da eşidilen gürrüňler arkaly bilmek.",
+		"features": ["Pudak we sebit boýunça indeksler", "Öz netijeleriňiz bilen deňeşdirmek", "Anonimleşdirilen we jemlenen maglumatlar", "Aýda bir gezek indeks hasabaty"],
+		"audience": "Kararlaryny pudak maglumatlary bilen esaslandyrmak isleýän kärhanalar."
+	},
+	"agota-finans": {
+		"summary": "Faktura, töleg ýygnamak we nagt pul maglumatlaryňyza esaslanyp, faktoring we biznes karzy mümkinçiliklerine baha bermäge we ýüzlenme bukjasyny taýýarlamaga kömek edýär.",
+		"manual": "Banklara we faktoring kompaniýalaryna aýry-aýry resminama taýýarlap ýüz tutmak.",
+		"features": ["Maliýeleşdirme zerurlygynyň seljermesi", "Faktura we alynjak bergi esasly maliýeleşdirme mümkinçilikleri", "Ýüzlenme bukjasyny taýýarlamak", "Teklipleri deňeşdirmek"],
+		"audience": "Ösüş ýa-da nagt pul zerurlygy üçin maliýeleşdirme gözleýän kiçi we orta kärhanalar."
+	}
+}

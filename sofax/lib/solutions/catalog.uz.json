@@ -1,0 +1,796 @@
+{
+	"ui": {
+		"all_solutions": "Barcha yechimlar",
+		"demo": "Demo so'rash",
+		"explore_category": "Kategoriyani ko'rish",
+		"soon": "Tez orada",
+		"view": "Batafsil",
+		"groups": {
+			"core": "Platforma",
+			"functions": "Biznes yo'nalishlari",
+			"industries": "Sohalar",
+			"ecosystem": "Ekotizim"
+		},
+		"catalog_badge": "{products} ta yechim · {categories} ta kategoriya",
+		"catalog_title": "Biznesingizning har bir yo'nalishi uchun Agota yechimi",
+		"catalog_subtitle": "Qo'lda bajariladigan ishni dasturga topshiradigan yechimlar: moliyadan marketpleysgacha, ishlab chiqarishdan mijozlar bilan muloqotgacha. Ishga tushirilgan mahsulotlarimiz bilan hoziroq tanishing; ishlab chiqilayotganlari uchun demo va erta kirish so'rovingizni bizga yuboring.",
+		"manual_label": "Bugun qo'lda bajariladigan ish",
+		"does_label": "Agota nima qiladi?",
+		"features_label": "Asosiy imkoniyatlar",
+		"audience_label": "Kimlar uchun?",
+		"soon_note": "Bu yechim ishlab chiqish bosqichida. Biz bilan bog'laning: demo va erta kirish ochilganda sizni birinchilardan bo'lib xabardor qilamiz, ehtiyojlaringizni esa yo'l xaritamizga kiritamiz.",
+		"demo_cta": "Demo uchun bog'laning",
+		"related_title": "Shu kategoriyadagi boshqa yechimlar",
+		"cta_title": "Qaysi yechimdan boshlamoqchisiz?",
+		"cta_text": "Ehtiyojingizni aytib bering: biznesingizga mos Agota yechimlarini birgalikda tanlab, siz uchun maxsus demo rejalashtiramiz.",
+		"home": "Bosh sahifa",
+		"solutions": "Yechimlar",
+		"contact_message": "{product} haqida ma'lumot olish va demo so'rash istagidaman.",
+		"meta_catalog_title": "Yechimlar | AgotaSoft",
+		"meta_catalog_description": "Moliya, marketpleys, sotuv, ishlab chiqarish, kadrlar, mijozlar bilan muloqot va sohaviy yechimlar: AgotaSoft mahsulotlar katalogi."
+	},
+	"categories": [
+		{
+			"id": "cekirdek",
+			"group": "core",
+			"icon": "fas fa-cubes",
+			"name": "Asosiy platforma",
+			"description": "Barcha Agota ilovalari ishlaydigan ERP, CRM va ta'lim infratuzilmasi.",
+			"products": [
+				{
+					"slug": "erp",
+					"name": "AgotaSoft ERP",
+					"icon": "fas fa-diagram-project",
+					"status": "live",
+					"href": "/erp",
+					"tagline": "Ombor, sotuv, xarid va moliya yagona tizimda"
+				},
+				{
+					"slug": "crm",
+					"name": "AgotaSoft CRM",
+					"icon": "fas fa-address-book",
+					"status": "live",
+					"href": "/crm",
+					"tagline": "Mijozlar, imkoniyatlar va sotuv voronkasini boshqarish"
+				},
+				{
+					"slug": "lms",
+					"name": "AgotaSoft LMS",
+					"icon": "fas fa-graduation-cap",
+					"status": "live",
+					"href": "/lms",
+					"tagline": "Korporativ ta'lim, test va rivojlanish platformasi"
+				}
+			]
+		},
+		{
+			"id": "finans",
+			"group": "functions",
+			"icon": "fas fa-coins",
+			"name": "Moliya va buxgalteriya",
+			"description": "Hisob-fakturalar, bank, to'lovlarni yig'ish va pul oqimi bo'yicha qo'lda yuritiladigan qayd va nazoratni avtomatlashtiradi.",
+			"products": [
+				{
+					"slug": "on-muhasebe",
+					"name": "AgotaSoft Buxgalteriya",
+					"icon": "fas fa-calculator",
+					"status": "live",
+					"href": "/pre-accounting",
+					"tagline": "Ko'p valyuta, shtrix-kod bilan sotuv, iOS va veb"
+				},
+				{
+					"slug": "agota-fatura",
+					"name": "AgotaFatura",
+					"icon": "fas fa-file-invoice",
+					"status": "soon",
+					"tagline": "Hisob-faktura va chekni o'qib, yozuvni o'zi ochadi"
+				},
+				{
+					"slug": "agota-banka",
+					"name": "AgotaBanka",
+					"icon": "fas fa-building-columns",
+					"status": "soon",
+					"tagline": "Bank operatsiyalarini hisob-fakturalar bilan moslaydi"
+				},
+				{
+					"slug": "agota-tahsilat",
+					"name": "AgotaTahsilat",
+					"icon": "fas fa-hand-holding-dollar",
+					"status": "soon",
+					"tagline": "Muddati kelgan qarzni eslatadi, va'dani kuzatadi"
+				},
+				{
+					"slug": "agota-mutabakat",
+					"name": "AgotaMutabakat",
+					"icon": "fas fa-scale-balanced",
+					"status": "soon",
+					"tagline": "Kontragent bilan solishtiruvda faqat farqni ko'rsatadi"
+				},
+				{
+					"slug": "agota-nakit",
+					"name": "AgotaNakit",
+					"icon": "fas fa-chart-line",
+					"status": "soon",
+					"tagline": "13 haftalik pul oqimi prognozi"
+				},
+				{
+					"slug": "agota-cek",
+					"name": "AgotaCek",
+					"icon": "fas fa-money-check",
+					"status": "soon",
+					"tagline": "Chek va veksel portfeli, to'lov muddatlari taqvimi"
+				},
+				{
+					"slug": "agota-masraf",
+					"name": "AgotaMasraf",
+					"icon": "fas fa-receipt",
+					"status": "soon",
+					"tagline": "Chekni suratga oling, xarajat hisoboti o'zi to'ldirilsin"
+				},
+				{
+					"slug": "agota-beyan",
+					"name": "AgotaBeyan",
+					"icon": "fas fa-folder-open",
+					"status": "soon",
+					"tagline": "Maslahatchi uchun hujjatlarni yig'adi, kamini so'raydi"
+				},
+				{
+					"slug": "cepte-ne-var",
+					"name": "Cepte Ne Var",
+					"icon": "fas fa-wallet",
+					"status": "live",
+					"href": "/service/cepte-ne-var",
+					"tagline": "WhatsApp orqali xarajat va byudjet kochi"
+				}
+			]
+		},
+		{
+			"id": "pazaryeri",
+			"group": "functions",
+			"icon": "fas fa-store",
+			"name": "Marketpleys va e-tijorat",
+			"description": "Marketpleys va e-tijorat sotuvchilari uchun foyda, e'lonlar, narx, zaxira va operatsiyalarni avtomatlashtirish.",
+			"products": [
+				{
+					"slug": "karlilik",
+					"name": "Kârlılık.NET",
+					"icon": "fas fa-chart-pie",
+					"status": "live",
+					"href": "/karlilik",
+					"tagline": "Marketpleys sotuvchilari uchun haqiqiy sof foyda"
+				},
+				{
+					"slug": "agota-liste",
+					"name": "AgotaListe",
+					"icon": "fas fa-wand-magic-sparkles",
+					"status": "soon",
+					"tagline": "1 ta surat + 3 ta so'zdan marketpleys e'loni"
+				},
+				{
+					"slug": "agota-fiyat",
+					"name": "AgotaFiyat",
+					"icon": "fas fa-tags",
+					"status": "soon",
+					"tagline": "Raqib narxi va maqsadli marjaga qarab dinamik narx"
+				},
+				{
+					"slug": "agota-stoksenk",
+					"name": "AgotaStokSenk",
+					"icon": "fas fa-arrows-rotate",
+					"status": "soon",
+					"tagline": "Barcha savdo kanallarida yagona zaxira"
+				},
+				{
+					"slug": "agota-yorum",
+					"name": "AgotaYorum",
+					"icon": "fas fa-comments",
+					"status": "soon",
+					"tagline": "Savol, sharh va qaytarish so'rovlariga o'z vaqtida javob"
+				},
+				{
+					"slug": "agota-reklam",
+					"name": "AgotaReklam",
+					"icon": "fas fa-bullhorn",
+					"status": "soon",
+					"tagline": "Reklama byudjetini mahsulot rentabelligiga qarab taqsimlaydi"
+				},
+				{
+					"slug": "agota-iade",
+					"name": "AgotaIade",
+					"icon": "fas fa-rotate-left",
+					"status": "soon",
+					"tagline": "Suratdan shikastni aniqlash, qaytarish qarori va qaydi"
+				},
+				{
+					"slug": "agota-kargo",
+					"name": "AgotaKargo",
+					"icon": "fas fa-truck-fast",
+					"status": "soon",
+					"tagline": "Mos yetkazish xizmati, ommaviy yorliq, kechikish xabari"
+				},
+				{
+					"slug": "agota-rakip",
+					"name": "AgotaRakip",
+					"icon": "fas fa-binoculars",
+					"status": "soon",
+					"tagline": "Raqiblar narxi, zaxirasi va sharhlarini kuzatish"
+				},
+				{
+					"slug": "agota-katalog",
+					"name": "AgotaKatalog",
+					"icon": "fas fa-table-list",
+					"status": "soon",
+					"tagline": "Yetkazib beruvchi narx ro'yxatidan mahsulot kartasigacha"
+				}
+			]
+		},
+		{
+			"id": "satis",
+			"group": "functions",
+			"icon": "fas fa-handshake",
+			"name": "Sotuv va CRM",
+			"description": "Tijorat takliflari, buyurtmalar va mijozlar hisobini xabarlar va qaydlardan o'zi shakllantiradi.",
+			"products": [
+				{
+					"slug": "agota-teklif",
+					"name": "AgotaTeklif",
+					"icon": "fas fa-file-invoice-dollar",
+					"status": "soon",
+					"tagline": "WhatsApp xabaridan PDF tijorat taklifi"
+				},
+				{
+					"slug": "agota-siparis",
+					"name": "AgotaSiparis",
+					"icon": "fas fa-cart-shopping",
+					"status": "soon",
+					"tagline": "Har qanday kanaldan kelgan buyurtmani tartibga soladi"
+				},
+				{
+					"slug": "agota-musteri",
+					"name": "AgotaMusteri",
+					"icon": "fas fa-user-group",
+					"status": "soon",
+					"tagline": "CRM'ni o'zi yangilab boradigan yordamchi"
+				},
+				{
+					"slug": "agota-bayi",
+					"name": "AgotaBayi",
+					"icon": "fas fa-network-wired",
+					"status": "soon",
+					"tagline": "Dilerlaringiz uchun o'z-o'ziga xizmat portali"
+				},
+				{
+					"slug": "agota-plasiyer",
+					"name": "AgotaPlasiyer",
+					"icon": "fas fa-route",
+					"status": "soon",
+					"tagline": "Savdo agenti uchun ovozli yordamchi"
+				}
+			]
+		},
+		{
+			"id": "satinalma",
+			"group": "functions",
+			"icon": "fas fa-cart-flatbed",
+			"name": "Xarid va ta'minot",
+			"description": "Narxlarni yig'ish, yetkazib beruvchilarni baholash va tannarx hisobini avtomatlashtiradi.",
+			"products": [
+				{
+					"slug": "agota-satinal",
+					"name": "AgotaSatinal",
+					"icon": "fas fa-cart-arrow-down",
+					"status": "soon",
+					"tagline": "Zaxira kamaysa, taklif yig'ib, buyurtma loyihasini tuzadi"
+				},
+				{
+					"slug": "agota-tedarikci",
+					"name": "AgotaTedarikci",
+					"icon": "fas fa-star-half-stroke",
+					"status": "soon",
+					"tagline": "Yetkazib beruvchilar samaradorligi bahosi"
+				},
+				{
+					"slug": "agota-ihale",
+					"name": "AgotaIhale",
+					"icon": "fas fa-gavel",
+					"status": "soon",
+					"tagline": "Sizga mos tenderni topadi, hujjatlarini tayyorlaydi"
+				},
+				{
+					"slug": "agota-maliyet",
+					"name": "AgotaMaliyet",
+					"icon": "fas fa-sack-dollar",
+					"status": "soon",
+					"tagline": "Resurslar narxi o'zgarsa, tannarxni yangilaydi"
+				}
+			]
+		},
+		{
+			"id": "stok",
+			"group": "functions",
+			"icon": "fas fa-warehouse",
+			"name": "Zaxira, ombor va logistika",
+			"description": "Inventarizatsiya, talab prognozi va jo'natmalarni telefon kamerasi va WhatsApp orqali boshqaradi.",
+			"products": [
+				{
+					"slug": "mobil-barkod",
+					"name": "Mobil shtrix-kod tizimi",
+					"icon": "fas fa-barcode",
+					"status": "live",
+					"href": "/mobil-barkod",
+					"tagline": "Telefon orqali inventarizatsiya va zaxira nazorati"
+				},
+				{
+					"slug": "agota-depo",
+					"name": "AgotaDepo",
+					"icon": "fas fa-boxes-stacked",
+					"status": "soon",
+					"tagline": "Kamera bilan sanash, shtrix-kodsiz mahsulotni tanish"
+				},
+				{
+					"slug": "agota-talep",
+					"name": "AgotaTalep",
+					"icon": "fas fa-chart-column",
+					"status": "soon",
+					"tagline": "Qaysi mahsulotdan qancha xarid qilish kerak?"
+				},
+				{
+					"slug": "agota-sevk",
+					"name": "AgotaSevk",
+					"icon": "fas fa-truck",
+					"status": "soon",
+					"tagline": "Marshrut, yuk xati va suratli yetkazib berish"
+				}
+			]
+		},
+		{
+			"id": "uretim",
+			"group": "functions",
+			"icon": "fas fa-industry",
+			"name": "Ishlab chiqarish va sex",
+			"description": "Ish topshiriqlari, subpudrat, sifat va texnik xizmat jarayonlarini buyurtma va suratlar asosida boshqaradi.",
+			"products": [
+				{
+					"slug": "agota-uretim",
+					"name": "AgotaUretim",
+					"icon": "fas fa-gears",
+					"status": "soon",
+					"tagline": "Buyurtmadan ish topshirig'i va ishlab chiqarish rejasi"
+				},
+				{
+					"slug": "agota-fason",
+					"name": "AgotaFason",
+					"icon": "fas fa-people-carry-box",
+					"status": "soon",
+					"tagline": "Subpudratchi sexlar va ish bosqichlarini kuzatish"
+				},
+				{
+					"slug": "agota-kalite",
+					"name": "AgotaKalite",
+					"icon": "fas fa-clipboard-check",
+					"status": "soon",
+					"tagline": "Suratdan nuqson turi va nomuvofiqlik hisoboti"
+				},
+				{
+					"slug": "agota-bakim",
+					"name": "AgotaBakim",
+					"icon": "fas fa-screwdriver-wrench",
+					"status": "soon",
+					"tagline": "Uskunalarga texnik xizmat taqvimi va nosozlik xabari"
+				}
+			]
+		},
+		{
+			"id": "ik",
+			"group": "functions",
+			"icon": "fas fa-users",
+			"name": "Kadrlar va ish haqi",
+			"description": "Tabel, ishga qabul, smenalar va kompaniya ichidagi axborot almashinuvini soddalashtiradi.",
+			"products": [
+				{
+					"slug": "agota-bordro",
+					"name": "AgotaBordro",
+					"icon": "fas fa-money-bill-wave",
+					"status": "soon",
+					"tagline": "Tabel asosida ish haqi hisob-kitobi loyihasi"
+				},
+				{
+					"slug": "agota-aday",
+					"name": "AgotaAday",
+					"icon": "fas fa-user-plus",
+					"status": "soon",
+					"tagline": "E'londan suhbatgacha ishga qabul yordamchisi"
+				},
+				{
+					"slug": "agota-vardiya",
+					"name": "AgotaVardiya",
+					"icon": "fas fa-business-time",
+					"status": "soon",
+					"tagline": "Smena rejasi va qo'shimcha ish vaqti hisobi"
+				},
+				{
+					"slug": "agota-rehber",
+					"name": "AgotaRehber",
+					"icon": "fas fa-book-open",
+					"status": "soon",
+					"tagline": "Ichki bilimlar va yangi xodimlar moslashuvi yordamchisi"
+				},
+				{
+					"slug": "gorevim-ne",
+					"name": "Görevim Ne",
+					"icon": "fas fa-list-check",
+					"status": "live",
+					"href": "/service/gorevim-ne",
+					"tagline": "Messenjer orqali vazifalarni boshqarish"
+				}
+			]
+		},
+		{
+			"id": "iletisim",
+			"group": "functions",
+			"icon": "fas fa-headset",
+			"name": "Mijozlar bilan muloqot",
+			"description": "WhatsApp, Instagram, e-pochta va telefon orqali keladigan mijoz murojaatlarini bir joyda qabul qiladi.",
+			"products": [
+				{
+					"slug": "agota-hat",
+					"name": "AgotaHat",
+					"icon": "fas fa-inbox",
+					"status": "soon",
+					"tagline": "WhatsApp, Instagram va e-pochta yagona kiruvchi qutida"
+				},
+				{
+					"slug": "agota-ses",
+					"name": "AgotaSes",
+					"icon": "fas fa-phone-volume",
+					"status": "soon",
+					"tagline": "Kiruvchi qo'ng'iroqlarni qabul qiluvchi ovozli yordamchi"
+				},
+				{
+					"slug": "agota-sikayet",
+					"name": "AgotaSikayet",
+					"icon": "fas fa-face-frown",
+					"status": "soon",
+					"tagline": "Shikoyat va sharhlarni yig'adi, ularga javob beradi"
+				},
+				{
+					"slug": "agota-sadakat",
+					"name": "AgotaSadakat",
+					"icon": "fas fa-heart",
+					"status": "soon",
+					"tagline": "Segmentatsiya va mijozlarni qaytarish"
+				}
+			]
+		},
+		{
+			"id": "pazarlama",
+			"group": "functions",
+			"icon": "fas fa-bullseye",
+			"name": "Marketing va kontent",
+			"description": "Kontent yaratish, kampaniyalar va raqamli muhitdagi ko'rinishni avtomatlashtiradi.",
+			"products": [
+				{
+					"slug": "kurumsal-website",
+					"name": "Korporativ veb-sayt",
+					"icon": "fas fa-globe",
+					"status": "live",
+					"href": "/kurumsal-website",
+					"tagline": "SEO'ga mos, boshqaruv panelli korporativ sayt"
+				},
+				{
+					"slug": "agota-studyo",
+					"name": "AgotaStudyo",
+					"icon": "fas fa-camera",
+					"status": "soon",
+					"tagline": "Mahsulot suratidan kontent taqvimi"
+				},
+				{
+					"slug": "agota-site",
+					"name": "AgotaSite",
+					"icon": "fas fa-window-maximize",
+					"status": "soon",
+					"tagline": "ERP'ga qo'shilgan mahsulot saytda ham paydo bo'ladi"
+				},
+				{
+					"slug": "agota-kampanya",
+					"name": "AgotaKampanya",
+					"icon": "fas fa-envelope-open-text",
+					"status": "soon",
+					"tagline": "E-pochta, SMS va WhatsApp kampaniyalari"
+				},
+				{
+					"slug": "agota-harita",
+					"name": "AgotaHarita",
+					"icon": "fas fa-map-location-dot",
+					"status": "soon",
+					"tagline": "Google Biznes profilini boshqarish"
+				}
+			]
+		},
+		{
+			"id": "dokuman",
+			"group": "functions",
+			"icon": "fas fa-file-contract",
+			"name": "Hujjatlar, huquq va muvofiqlik",
+			"description": "Shartnomalar, KVKK (shaxsiy ma'lumotlar himoyasi), arxiv va tasdiqlash jarayonlarini qidiriladigan va kuzatiladigan qiladi.",
+			"products": [
+				{
+					"slug": "agota-sozlesme",
+					"name": "AgotaSozlesme",
+					"icon": "fas fa-file-signature",
+					"status": "soon",
+					"tagline": "Xavfli bandni belgilaydi, uzaytirishni eslatadi"
+				},
+				{
+					"slug": "agota-kvkk",
+					"name": "AgotaKVKK",
+					"icon": "fas fa-user-shield",
+					"status": "soon",
+					"tagline": "KVKK (shaxsiy ma'lumotlar himoyasi) talablarini kuzatish"
+				},
+				{
+					"slug": "agota-arsiv",
+					"name": "AgotaArsiv",
+					"icon": "fas fa-box-archive",
+					"status": "soon",
+					"tagline": "Barcha hujjatlaringiz bitta qidiruvda"
+				},
+				{
+					"slug": "agota-onay",
+					"name": "AgotaOnay",
+					"icon": "fas fa-stamp",
+					"status": "soon",
+					"tagline": "Xarajat, ta'til va chegirmalarni tasdiqlash jarayonlari"
+				},
+				{
+					"slug": "agota-dilekce",
+					"name": "AgotaDilekce",
+					"icon": "fas fa-file-pen",
+					"status": "soon",
+					"tagline": "Rasmiy yozishmalar va ariza loyihalari"
+				}
+			]
+		},
+		{
+			"id": "raporlama",
+			"group": "functions",
+			"icon": "fas fa-chart-simple",
+			"name": "Hisobot va qarorlar",
+			"description": "Ma'lumotlaringizga oddiy tilda savol bering: xulosalar, ogohlantirishlar va ssenariy tahlillari o'zi keladi.",
+			"products": [
+				{
+					"slug": "agota-sor",
+					"name": "AgotaSor",
+					"icon": "fas fa-magnifying-glass-chart",
+					"status": "soon",
+					"tagline": "Ma'lumotlaringizga oddiy tilda savol bering"
+				},
+				{
+					"slug": "agota-panel",
+					"name": "AgotaPanel",
+					"icon": "fas fa-gauge-high",
+					"status": "soon",
+					"tagline": "Biznes egasiga haftalik xulosa"
+				},
+				{
+					"slug": "agota-uyari",
+					"name": "AgotaUyari",
+					"icon": "fas fa-bell",
+					"status": "soon",
+					"tagline": "G'ayrioddiy holatda sizni ogohlantiradi"
+				},
+				{
+					"slug": "agota-senaryo",
+					"name": "AgotaSenaryo",
+					"icon": "fas fa-sliders",
+					"status": "soon",
+					"tagline": "\"Agar shunday bo'lsa-chi?\" tahlili"
+				}
+			]
+		},
+		{
+			"id": "saha",
+			"group": "functions",
+			"icon": "fas fa-toolbox",
+			"name": "Joyida xizmat va servis",
+			"description": "Texnik servis va obyekt ko'rigi jamoalarining joyidagi ishini servis varaqasidan hisob-fakturagacha avtomatlashtiradi.",
+			"products": [
+				{
+					"slug": "agota-saha",
+					"name": "AgotaSaha",
+					"icon": "fas fa-user-gear",
+					"status": "soon",
+					"tagline": "Vazifa berish va ishni surat bilan yakunlash"
+				},
+				{
+					"slug": "agota-kesif",
+					"name": "AgotaKesif",
+					"icon": "fas fa-ruler-combined",
+					"status": "soon",
+					"tagline": "Obyekt ko'rigidan tijorat taklifigacha"
+				}
+			]
+		},
+		{
+			"id": "sektorel",
+			"group": "industries",
+			"layout": "tiles",
+			"icon": "fas fa-shop",
+			"name": "Sohaviy yechimlar",
+			"description": "Asosiy platforma va sohaga xos yordamchi: har bir sohaning o'z ish jarayoniga moslab tayyorlangan yechimlar.",
+			"products": [
+				{
+					"slug": "adisyon-qr",
+					"name": "AgotaSoft QR Menü",
+					"sector": "Restoran va kafe",
+					"icon": "fas fa-qrcode",
+					"status": "live",
+					"href": "/adisyon-qr",
+					"tagline": "QR menyu, stoldan buyurtma, oshxona ekrani va hisob"
+				},
+				{
+					"slug": "agota-mutfak",
+					"name": "AgotaMutfak",
+					"sector": "Restoran oshxonasi",
+					"icon": "fas fa-utensils",
+					"status": "soon",
+					"tagline": "Retsept tannarxi, yo'qotishlar va kunlik buyurtma ro'yxati"
+				},
+				{
+					"slug": "agota-randevu",
+					"name": "AgotaRandevu",
+					"sector": "Sartaroshxona va go'zallik",
+					"icon": "fas fa-calendar-check",
+					"status": "soon",
+					"tagline": "WhatsApp va Instagram xabaridan qabulga yozish"
+				},
+				{
+					"slug": "agota-klinik",
+					"name": "AgotaKlinik",
+					"sector": "Klinika",
+					"icon": "fas fa-stethoscope",
+					"status": "soon",
+					"tagline": "Bemor kartasi, davolash rejasi va eslatmalar"
+				},
+				{
+					"slug": "agota-konak",
+					"name": "AgotaKonak",
+					"sector": "Mehmonxona va mehmon uyi",
+					"icon": "fas fa-hotel",
+					"status": "soon",
+					"tagline": "Kanallarni sinxronlash va mehmonlar uchun yordamchi"
+				},
+				{
+					"slug": "agota-servis",
+					"name": "AgotaServis",
+					"sector": "Avtoservis",
+					"icon": "fas fa-car-side",
+					"status": "soon",
+					"tagline": "Davlat raqamidan avtomobil tarixi, ovozli ish topshirig'i"
+				},
+				{
+					"slug": "agota-emlak",
+					"name": "AgotaEmlak",
+					"sector": "Ko'chmas mulk",
+					"icon": "fas fa-house-chimney",
+					"status": "soon",
+					"tagline": "E'lon matni va xaridor–obyekt moslashtirish"
+				},
+				{
+					"slug": "agota-santiye",
+					"name": "AgotaSantiye",
+					"sector": "Qurilish",
+					"icon": "fas fa-helmet-safety",
+					"status": "soon",
+					"tagline": "Bajarilgan ishlar dalolatnomasi, hajmlar va tabel"
+				},
+				{
+					"slug": "agota-tarla",
+					"name": "AgotaTarla",
+					"sector": "Qishloq xo'jaligi va issiqxona",
+					"icon": "fas fa-tractor",
+					"status": "soon",
+					"tagline": "Tannarx, ulgurji bozor narxi, dorilash va sug'orish qaydi"
+				},
+				{
+					"slug": "agota-kurs",
+					"name": "AgotaKurs",
+					"sector": "O'quv kurslari va sport zali",
+					"icon": "fas fa-chalkboard-user",
+					"status": "soon",
+					"tagline": "Qabul, bo'lib to'lash, davomat va ota-onalarga xabar"
+				},
+				{
+					"slug": "agota-musavir",
+					"name": "AgotaMusavir",
+					"sector": "Moliyaviy maslahatchi",
+					"icon": "fas fa-briefcase",
+					"status": "soon",
+					"tagline": "Mijozlardan hujjat yig'ish, deklaratsiyalar taqvimi"
+				},
+				{
+					"slug": "agota-atolye",
+					"name": "AgotaAtolye",
+					"sector": "Tikuvchilik",
+					"icon": "fas fa-shirt",
+					"status": "soon",
+					"tagline": "Model, namuna, bichish rejasi va subpudrat nazorati"
+				},
+				{
+					"slug": "agota-filo",
+					"name": "AgotaFilo",
+					"sector": "Yuk tashish",
+					"icon": "fas fa-truck-moving",
+					"status": "soon",
+					"tagline": "Transport, haydovchi va yukni moslashtirish"
+				},
+				{
+					"slug": "agota-market",
+					"name": "AgotaMarket",
+					"sector": "Market va do'kon",
+					"icon": "fas fa-basket-shopping",
+					"status": "soon",
+					"tagline": "Kassa (POS), yaroqlilik muddati, avtomatik buyurtma"
+				}
+			]
+		},
+		{
+			"id": "ekosistem",
+			"group": "ecosystem",
+			"icon": "fas fa-circle-nodes",
+			"name": "Ekotizim va marketpleyslar",
+			"description": "Bu marketpleyslarda odamlar emas, korxonalarning yordamchilari o'zaro savdo qiladi: AgotaSoft'ning platforma qatlami.",
+			"products": [
+				{
+					"slug": "agota-store",
+					"name": "AgotaStore",
+					"icon": "fas fa-puzzle-piece",
+					"status": "soon",
+					"tagline": "Agota ilovalari va yordamchilari do'koni"
+				},
+				{
+					"slug": "agota-tedarik",
+					"name": "AgotaTedarik",
+					"icon": "fas fa-right-left",
+					"status": "soon",
+					"tagline": "ERP'dan ERP'ga B2B savdo"
+				},
+				{
+					"slug": "agota-fasonpazar",
+					"name": "AgotaFasonPazar",
+					"icon": "fas fa-handshake-angle",
+					"status": "soon",
+					"tagline": "Bo'sh ishlab chiqarish quvvatini buyurtma bilan bog'laydi"
+				},
+				{
+					"slug": "agota-hizmet",
+					"name": "AgotaHizmet",
+					"icon": "fas fa-bell-concierge",
+					"status": "soon",
+					"tagline": "Korporativ xizmatlarni xarid qilish"
+				},
+				{
+					"slug": "agota-makine",
+					"name": "AgotaMakine",
+					"icon": "fas fa-dolly",
+					"status": "soon",
+					"tagline": "Ishlatilgan stanok va uskunalar bozori"
+				},
+				{
+					"slug": "agota-endeks",
+					"name": "AgotaEndeks",
+					"icon": "fas fa-chart-area",
+					"status": "soon",
+					"tagline": "Sohaviy narx, marja va to'lov yig'ish indeksi"
+				},
+				{
+					"slug": "agota-finans",
+					"name": "AgotaFinans",
+					"icon": "fas fa-landmark",
+					"status": "soon",
+					"tagline": "Biznes ma'lumotlaringiz asosida moliyalashtirishga yo'l"
+				}
+			]
+		}
+	]
+}

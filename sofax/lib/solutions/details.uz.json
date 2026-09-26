@@ -1,0 +1,458 @@
+{
+	"agota-fatura": {
+		"summary": "Kelgan hisob-faktura va cheklarning surati, PDF fayli yoki e-pochtasini o'qiydi; yozuv ochadi, kontragentni moslaydi va QQSni ajratadi.",
+		"manual": "Hisob-faktura va cheklarni birma-bir qo'lda kiritish, kontragentni topib, QQSni alohida hisoblash.",
+		"features": ["Surat, PDF va e-pochtadan hisob-faktura o'qish", "Kontragent va mahsulot kartasi bilan avtomatik moslashtirish", "QQS stavkasi va soliq bazasini har bir pozitsiya bo'yicha ajratish", "Aniq bo'lmagan maydonlarni tasdig'ingizga yuborish"],
+		"audience": "Oyiga yuzlab xarid hisob-fakturalarini qayta ishlaydigan kichik va o'rta biznes hamda buxgalteriya jamoalari."
+	},
+	"agota-banka": {
+		"summary": "Bank operatsiyalarini yuklab oladi, hisob-fakturalar bilan moslaydi va ochiq qarzlarni yopadi; moslay olmagan operatsiyalarni sizdan so'raydi.",
+		"manual": "Bank ko'chirmasini yuklab olib, har bir qatorni tegishli hisob-faktura va kontragent bilan qo'lda moslash.",
+		"features": ["Bank operatsiyalarini muntazam import qilish", "Summa, izoh va sana bo'yicha aqlli moslashtirish", "Ochiq qarzlarni avtomatik yopish", "Moslashmagan operatsiyalar uchun savollar ro'yxati"],
+		"audience": "Bir nechta bank hisobi bilan ishlaydigan, kunlik tushum va to'lovlari ko'p bo'lgan korxonalar."
+	},
+	"agota-tahsilat": {
+		"summary": "Muddati kelgan debitorlik qarzlari bo'yicha mijozlarga WhatsApp va e-pochta orqali eslatma yuboradi, to'lov va'dalarini kuzatadi va mijozning risk bahosini chiqaradi.",
+		"manual": "Muddati o'tgan mijozlarga birma-bir qo'ng'iroq qilib eslatish, berilgan to'lov va'dalarini daftarga yozib borish.",
+		"features": ["WhatsApp va e-pochta orqali bosqichma-bosqich eslatma", "To'lov va'dasini qayd etish va kuzatish", "To'lov odatiga qarab mijoz risk bahosi", "Kunlik to'lov yig'ish ro'yxati va xulosa"],
+		"audience": "To'lov muddati berib sotadigan ulgurji savdo, distribyutorlik va xizmat ko'rsatish korxonalari."
+	},
+	"agota-mutabakat": {
+		"summary": "Kontragentlarga solishtirma dalolatnoma so'rovlarini e-pochta orqali yuboradi, kelgan javoblarni o'qiydi, farqlarni topadi va sizga faqat nomuvofiqliklarni ko'rsatadi.",
+		"manual": "Davr oxirida har bir kontragentga solishtirma xat yuborish, javoblarni yig'ib, qoldiqlarni birma-bir taqqoslash.",
+		"features": ["Solishtirma xatlarini ommaviy yuborish", "Kelgan javoblar va ilovalarni o'qish", "Qoldiq farqini hujjatlar kesimida topish", "Faqat nomuvofiqliklardan iborat vazifalar ro'yxati"],
+		"audience": "Ko'plab kontragentlar bilan ishlaydigan va davr oxirida hisob-kitoblarni solishtiradigan kompaniyalar."
+	},
+	"agota-nakit": {
+		"summary": "Debitorlik va kreditorlik qarzlari, cheklar va doimiy xarajatlaringizdan 13 haftalik pul oqimi prognozini tuzadi; \"bu oy ish haqini to'lay olamizmi?\" degan savolga javob beradi.",
+		"manual": "Pul holatini Excel jadvallarida taxmin qilish va har hafta qaytadan yangilab turish.",
+		"features": ["13 haftalik siljuvchi pul oqimi prognozi", "Tushum va to'lov muddatlaridan avtomatik prognoz", "Pul yetishmovchiligidan oldin erta ogohlantirish", "Ssenariylarni taqqoslash: tushum kechiksa nima bo'ladi?"],
+		"audience": "Pul oqimini rejalashtiradigan biznes egalari va moliya rahbarlari."
+	},
+	"agota-cek": {
+		"summary": "Chek va veksellar portfelingizni, to'lov muddatlari taqvimini va indossament zanjirini kuzatadi; qoplanmay qolish xavfi haqida oldindan ogohlantiradi.",
+		"manual": "Chek va veksellarni daftarda yoki Excel'da yuritish, muddatlarni taqvimdan kuzatib borish.",
+		"features": ["Olingan va berilgan chek/veksellar portfeli", "To'lov muddatlari taqvimi va kunlik eslatma", "Indossament va inkasso holatini kuzatish", "Chek beruvchi kesimida risk ogohlantirishi"],
+		"audience": "Chek va veksel bilan savdo qiladigan ulgurji savdo, qurilish va sanoat korxonalari."
+	},
+	"agota-masraf": {
+		"summary": "Xodimlar chekni suratga oladi; xarajat hisoboti o'zi to'ldiriladi va tasdiqlash jarayoniga tushadi.",
+		"manual": "Cheklarni yig'ib, oy oxirida xarajat hisobotini qo'lda to'ldirish va imzo uchun qo'lma-qo'l aylantirish.",
+		"features": ["Suratdan summa, sana va QQSni o'qish", "Xarajat turi va loyihaga biriktirish", "Rahbar tasdiqlash jarayoni", "Buxgalteriya dasturiga bir bosishda o'tkazish"],
+		"audience": "Joylarda va xizmat safarlarida xarajat qiladigan jamoalari bor kompaniyalar."
+	},
+	"agota-beyan": {
+		"summary": "Oy oxirida moliyaviy maslahatchingizga (tashqi buxgalteringizga) yuboriladigan hujjatlarni yig'adi, yetishmaganlarini so'rab boradi va deklaratsiyalar taqvimini kuzatadi. Maslahatchingiz bilan birga ishlaydi, uning o'rnini bosmaydi.",
+		"manual": "Oy oxiri hujjatlarini papkalardan yig'ish, maslahatchining yetishmayotgan hujjatlar ro'yxatini telefon orqali kuzatish.",
+		"features": ["Oylik hujjatlar nazorat ro'yxati", "Yetishmayotgan hujjat uchun avtomatik eslatma", "Deklaratsiya va to'lovlar taqvimi", "Maslahatchi bilan umumiy almashuv maydoni"],
+		"audience": "Moliyaviy maslahatchi bilan ishlaydigan kichik va o'rta biznes hamda yakka tartibdagi tadbirkorlar."
+	},
+	"agota-liste": {
+		"summary": "Bitta surat va bir necha so'zdan sarlavha, tavsif, xususiyatlar to'plami, kategoriya va SEO matnini yaratadi; e'lonni har bir marketpleys formatiga moslaydi.",
+		"manual": "Har bir marketpleys uchun sarlavha, tavsif va xususiyatlarni alohida yozib, kategoriyani moslash.",
+		"features": ["Suratdan mahsulot xususiyatlarini aniqlash", "Marketpleysga moslashtirilgan sarlavha va tavsif", "Kategoriya va majburiy maydonlarni moslashtirish", "E'lonlarni ommaviy tayyorlash"],
+		"audience": "Ko'p mahsulotli va ko'p kanalli savdo qiladigan e-tijorat sotuvchilari."
+	},
+	"agota-fiyat": {
+		"summary": "Raqib narxi, zaxira yoshi va maqsadli marjangizga qarab narxni dinamik yangilaydi hamda buybox (mahsulot kartasidagi asosiy sotuvchi o'rni) holatini kuzatadi.",
+		"manual": "Raqiblar narxini birma-bir ko'rib chiqib, narxlarni qo'lda o'zgartirish.",
+		"features": ["Maqsadli marja va minimal narx qoidalari", "Raqib narxi va buybox kuzatuvi", "Zaxira yoshiga qarab narx strategiyasi", "O'zgarishlar tarixi va tasdiqlash rejimi"],
+		"audience": "Raqobat narx bilan belgilanadigan kategoriyalarda sotadigan marketpleys sotuvchilari."
+	},
+	"agota-stoksenk": {
+		"summary": "Zaxirani barcha savdo kanallarida sinxron ushlab turadi; mahsulot tugasa, e'lonni yopadi, ortiqcha zaxira uchun aksiya taklif qiladi.",
+		"manual": "Bir kanalda sotilgan mahsulot zaxirasini boshqa kanallarda qo'lda kamaytirish, ortiqcha sotuv muammosi bilan ovora bo'lish.",
+		"features": ["Kanallararo zaxira sinxronizatsiyasi", "Tugagan mahsulot e'lonini avtomatik yopish", "Ortiqcha va eskirgan zaxira uchun aksiya taklifi", "Kanallar bo'yicha zaxira ajratish"],
+		"audience": "Bir xil zaxirani bir nechta marketpleysda va o'z saytida sotadigan korxonalar."
+	},
+	"agota-yorum": {
+		"summary": "Mijozlar savollari, sharhlar va qaytarish so'rovlariga belgilangan javob muddatingiz (SLA) ichida javob beradi; salbiy sharhlarning asosiy sababini tahlil qiladi.",
+		"manual": "Panellar orasida yurib, savollarga birma-bir javob berish va javob muddatini o'tkazib yuborish.",
+		"features": ["Barcha kanallar savollari bitta ekranda", "Mahsulot ma'lumotiga asoslangan javob loyihasi", "SLA nazorati va kechikish ogohlantirishi", "Salbiy sharhlarning asosiy sabablari hisoboti"],
+		"audience": "Kuniga o'nlab mijoz savollarini oladigan marketpleys do'konlari."
+	},
+	"agota-reklam": {
+		"summary": "Marketpleys, Meta va Google'dagi reklama byudjetingizni mahsulot rentabelligiga qarab taqsimlaydi; zarar keltirayotgan kampaniyalarni to'xtatadi.",
+		"manual": "Reklama panellaridan hisobot yuklab olib, qaysi kampaniya foyda keltirayotganini Excel'da hisoblash.",
+		"features": ["Kampaniya kesimida sof foyda hisobi", "Foydali mahsulotlarga byudjetni o'tkazish taklifi", "Zarar keltirayotgan kampaniyani to'xtatish qoidasi", "Haftalik reklama samaradorligi xulosasi"],
+		"audience": "Marketpleys va ijtimoiy tarmoqlardagi reklamaga muntazam byudjet ajratadigan sotuvchilar."
+	},
+	"agota-iade": {
+		"summary": "Qaytarilgan mahsulot suratidan shikastni aniqlaydi, qaytarish bo'yicha qaror taklif qiladi, yetkazib berish yorlig'i va pulni qaytarish yozuvini tayyorlaydi.",
+		"manual": "Har bir qaytarishni birma-bir ko'rib chiqib qaror qilish, yorliq va qaytarish yozuvini turli tizimlarda ochish.",
+		"features": ["Suratdan shikast va nuqsonni aniqlash", "Qaytarish siyosatingizga ko'ra qaror taklifi", "Yetkazib berish yorlig'i va qaytarish yozuvi", "Qaytarish sababi va mahsulot kesimida hisobot"],
+		"audience": "Qaytarishlar ulushi yuqori kategoriyalarda sotadigan e-tijorat korxonalari."
+	},
+	"agota-kargo": {
+		"summary": "Hajmiy og'irlik, narx va tezlikka qarab eng mos yetkazib berish xizmatini tanlaydi, yorliqlarni ommaviy chop etadi va kechikkan yetkazib berish haqida mijozga o'zi xabar beradi.",
+		"manual": "Har bir jo'natma uchun yetkazib berish xizmatini tanlash, yorliqlarni birma-bir chop etish va kechikishlarni kuzatish.",
+		"features": ["Hajmiy og'irlik, narx va tezlik bo'yicha xizmat tanlash", "Yorliqlarni ommaviy chop etish", "Yetkazib berishni kuzatish va kechikish ogohlantirishi", "Mijozga avtomatik holat xabari"],
+		"audience": "Kuniga o'nlab jo'natma yuboradigan e-tijorat korxonalari."
+	},
+	"agota-rakip": {
+		"summary": "Raqiblaringizning narx, zaxira va sharhlaridagi o'zgarishlarni kuzatadi; haftalik ovozli va yozma xulosa yuboradi.",
+		"manual": "Raqib do'konlariga har kuni birma-bir kirib, qaydlar yozib borish.",
+		"features": ["Raqib mahsulotlari va do'konlarini kuzatish ro'yxati", "Narx va zaxira o'zgarishi haqida ogohlantirishlar", "Sharh va reyting tendensiyasi", "Haftalik ovozli va yozma xulosa"],
+		"audience": "Raqobatli kategoriyalarda bozor ulushini kuzatmoqchi bo'lgan brendlar va sotuvchilar."
+	},
+	"agota-katalog": {
+		"summary": "Yetkazib beruvchining Excel yoki PDF narx ro'yxatini mahsulot kartalari va marketpleys e'lonlariga aylantiradi.",
+		"manual": "Yetkazib beruvchi ro'yxatlarini qatorma-qator mahsulot kartasiga ko'chirish, narx o'zgarsa, hammasini birma-bir yangilash.",
+		"features": ["Excel va PDF narx ro'yxatlarini o'qish", "Mavjud mahsulotlar bilan moslashtirish", "Yangi mahsulot kartasi va e'lon loyihasi", "Narx o'zgarishlarini ommaviy yangilash"],
+		"audience": "Ko'plab yetkazib beruvchilar bilan ishlaydigan, katalogi tez-tez o'zgaradigan chakana savdo va e-tijorat korxonalari."
+	},
+	"agota-teklif": {
+		"summary": "WhatsApp'dan kelgan \"5 tonna X, narxi qancha?\" kabi xabardan narx ro'yxati, tannarx va zaxiraga qarab PDF tijorat taklifini tayyorlaydi va tasdig'ingizga yuboradi.",
+		"manual": "Har bir narx so'rovi uchun ro'yxat, tannarx va zaxirani tekshirib, taklifni Word'da noldan tayyorlash.",
+		"features": ["Xabardan mahsulot va miqdorni ajratib olish", "Narx ro'yxati, tannarx va zaxira tekshiruvi", "Korporativ uslubingizdagi PDF tijorat taklifi", "Tasdiqlangach bir bosishda yuborish"],
+		"audience": "WhatsApp va e-pochta orqali narx so'rovlarini oladigan ishlab chiqaruvchilar va ulgurji savdogarlar."
+	},
+	"agota-siparis": {
+		"summary": "E-pochta, WhatsApp, Excel yoki ovozli xabar orqali kelgan buyurtmani tizimli buyurtmaga aylantiradi; zaxira va to'lov muddatini tekshiradi.",
+		"manual": "Turli kanallardan kelgan buyurtmalarni tizimga birma-bir kiritish, zaxira va risk limitini alohida tekshirish.",
+		"features": ["E-pochta, WhatsApp, Excel va ovozli yozuvdan buyurtma", "Mahsulot va mijozni moslashtirish", "Zaxira, narx, to'lov muddati va risk tekshiruvi", "Tasdiqlangach ERP'da buyurtma yozuvi"],
+		"audience": "Dilerlar va mijozlardan turli kanallar orqali buyurtma oladigan kompaniyalar."
+	},
+	"agota-musteri": {
+		"summary": "Xabarlar, qo'ng'iroq qaydlari va e-pochtalardan CRM'ni o'zi yangilaydi; unutilgan imkoniyatlar va jim qolgan mijozlarni eslatadi.",
+		"manual": "Uchrashuv qaydlarini CRM'ga kiritishni unutish, kuzatib borilishi kerak bo'lgan mijozni qo'ldan boy berish.",
+		"features": ["Xabar va e-pochtadan avtomatik mijoz yozuvi", "Suhbat xulosasi va keyingi qadam", "Unutilgan imkoniyatlar bo'yicha eslatmalar", "Jim qolgan mijoz haqida ogohlantirish"],
+		"audience": "Sotuv jamoasi CRM'ga ma'lumot kiritishda qiynaladigan B2B korxonalar."
+	},
+	"agota-bayi": {
+		"summary": "Dilerlaringiz o'z ko'chirmalari va buyurtmalarini shaxsiy portalda ko'radi; yordamchi har bir dilerga uning tarixiga qarab buyurtma taklif qiladi.",
+		"manual": "Dilerlarning ko'chirma va buyurtma holati haqidagi savollariga telefonda birma-bir javob berish.",
+		"features": ["Dilerga xos ko'chirma va qoldiq ekrani", "Portal orqali buyurtma", "Tarixga asoslangan buyurtma taklifi", "Diler kesimida aksiyalar va narx ro'yxati"],
+		"audience": "Dilerlar tarmog'i orqali sotadigan ishlab chiqaruvchilar va distribyutorlar."
+	},
+	"agota-plasiyer": {
+		"summary": "Savdo agentlari uchun ovozli yordamchi: \"Bu mijozning qoldig'i qancha, oxirgi buyurtmasi nima edi?\" degan savolga darhol javob, kunlik marshrut va to'lov yig'ish ro'yxati.",
+		"manual": "Joyidagi savdo agentining qoldiq va buyurtma ma'lumoti uchun ofisga qo'ng'iroq qilib kutib turishi.",
+		"features": ["Ovoz orqali mijoz qoldig'i va tarixini so'rash", "Kunlik tashriflar marshruti", "Joyida buyurtma va to'lov qaydi", "Tashrif qaydini ovoz bilan qoldirish"],
+		"audience": "Savdo agentlari jamoasi bilan ishlaydigan distribyutorlik kompaniyalari."
+	},
+	"agota-satinal": {
+		"summary": "Zaxira minimal darajaga tushganda yetkazib beruvchilardan narx so'raydi, takliflarni taqqoslaydi va xarid buyurtmasi loyihasini tayyorlaydi.",
+		"manual": "Zaxira kamayganda yetkazib beruvchilarga birma-bir qo'ng'iroq qilib narx olish va taqqoslash jadvalini tayyorlash.",
+		"features": ["Minimal zaxira darajasida avtomatik ishga tushish", "Yetkazib beruvchilarga ommaviy taklif so'rovi", "Narx, to'lov muddati va yetkazish muddatini taqqoslash", "Tasdiqlashga tayyor xarid buyurtmasi"],
+		"audience": "Muntazam xomashyo va tovar xarid qiladigan ishlab chiqarish va savdo kompaniyalari."
+	},
+	"agota-tedarikci": {
+		"summary": "Yetkazib beruvchilaringizni kechikish, sifat va narx og'ishi bo'yicha baholaydi; qaysi biri bilan ishlashni davom ettirish kerakligini ma'lumotlar asosida ko'rsatadi.",
+		"manual": "Yetkazib beruvchi samaradorligini xotira va eshitilgan gaplarga qarab baholash.",
+		"features": ["O'z vaqtida yetkazib berish ulushi", "Sifat va qaytarish qaydlari", "Narx og'ishini kuzatish", "Yetkazib beruvchi baholash kartasi va reytingi"],
+		"audience": "Ko'plab yetkazib beruvchilar bilan ishlaydigan xarid jamoalari."
+	},
+	"agota-ihale": {
+		"summary": "EKAP (Turkiyaning davlat xaridlari elektron portali) va xususiy tender e'lonlarini ko'rib chiqadi, korxonangizga mos kelganlarini taklif qiladi va taklif hujjatlari loyihasini tayyorlaydi.",
+		"manual": "Tender e'lonlarini har kuni qo'lda ko'rib chiqish va taklif hujjatlarini noldan tayyorlash.",
+		"features": ["Tender e'lonlarini ko'rib chiqish va saralash", "Moslik bahosi va tavsiya", "Ariza topshirish muddati eslatmalari", "Taklif hujjatlari loyihasi"],
+		"audience": "Davlat va xususiy sektor tenderlarida qatnashadigan kompaniyalar."
+	},
+	"agota-maliyet": {
+		"summary": "Mahsulot tannarxini xomashyo, mehnat va umumiy xarajatlar bo'yicha hisoblaydi; resurs narxi o'zgarsa, tannarx va tavsiya etilgan sotuv narxini yangilaydi.",
+		"manual": "Tannarx jadvallarini har bir narx oshishida Excel'da qaytadan hisoblash.",
+		"features": ["Xomashyo, mehnat va umumiy xarajatlarni taqsimlash", "Retseptga bog'liq tannarx hisobi", "Resurs narxi o'zgarganda avtomatik yangilash", "Maqsadli marjaga ko'ra sotuv narxi taklifi"],
+		"audience": "Ishlab chiqarish bilan shug'ullanadigan va xarajatlari tez-tez o'zgaradigan korxonalar."
+	},
+	"agota-depo": {
+		"summary": "Telefon kamerasi bilan inventarizatsiya qiladi, shtrix-kodi bo'lmagan mahsulotlarni tasviridan taniydi va javonlarga joylashtirishni taklif qiladi.",
+		"manual": "Inventarizatsiya ro'yxatlarini qog'ozga yozib, keyin tizimga kiritish, shtrix-kodsiz mahsulotlarni qo'lda qidirish.",
+		"features": ["Kamera bilan tezkor inventarizatsiya", "Shtrix-kodsiz mahsulotni tasvirdan tanish", "Javon va joylashtirish taklifi", "Inventarizatsiya farqlari hisoboti"],
+		"audience": "Ombor va do'konlarda muntazam inventarizatsiya o'tkazadigan korxonalar."
+	},
+	"agota-talep": {
+		"summary": "O'tgan savdolar va mavsumiylik asosida talab prognozini tuzadi; \"qaysi mahsulotdan qancha olish kerak\" ro'yxatini chiqaradi.",
+		"manual": "Buyurtma miqdorlarini tajriba va o'tgan yil raqamlariga qarab taxmin qilish.",
+		"features": ["Mavsumiylikni hisobga oluvchi talab prognozi", "Mahsulot bo'yicha tavsiya etilgan buyurtma miqdori", "Zaxirasiz qolish va ortiqcha zaxira xavfi", "Xaridga bir bosishda o'tkazish"],
+		"audience": "Mavsumiy mahsulot sotadigan chakana va ulgurji savdo korxonalari."
+	},
+	"agota-sevk": {
+		"summary": "Transport marshrutini rejalashtiradi, yuk xatlarini avtomatlashtiradi; haydovchiga marshrutni WhatsApp orqali yuboradi va yetkazib berish suratlarini yig'adi.",
+		"manual": "Marshrutlarni qo'lda rejalashtirish, yuk xatlarini birma-bir rasmiylashtirish, yetkazib berishni telefon orqali tasdiqlash.",
+		"features": ["Transport va marshrutni rejalashtirish", "Yuk xatlarini avtomatlashtirish", "Haydovchiga WhatsApp orqali marshrut", "Suratli yetkazib berish tasdig'i"],
+		"audience": "O'z transporti bilan tarqatishni amalga oshiradigan ulgurji savdogarlar va ishlab chiqaruvchilar."
+	},
+	"agota-uretim": {
+		"summary": "Buyurtmadan ish topshirig'i va ishlab chiqarish rejasini tuzadi; retsept (BOM) va quvvatga qarab \"bu buyurtma qachon tayyor bo'ladi?\" degan savolga javob beradi.",
+		"manual": "Ishlab chiqarish rejasini oq doskada yoki Excel'da yuritish, muddat haqidagi savolga taxminan javob berish.",
+		"features": ["Retsept (BOM) boshqaruvi", "Buyurtmadan avtomatik ish topshirig'i", "Quvvatga qarab ishlab chiqarish rejasi", "Tayyor bo'lish muddati prognozi va kechikish ogohlantirishi"],
+		"audience": "Buyurtma asosida ishlab chiqaradigan kichik va o'rta ishlab chiqaruvchilar."
+	},
+	"agota-fason": {
+		"summary": "To'qimachilik va metallga ishlov berish kabi sohalarda subpudratchi sexlarni kuzatadi; bosqichlar haqidagi xabarlarni WhatsApp orqali oladi va subpudrat rentabelligini hisoblaydi.",
+		"manual": "Subpudratchi sexlarga qo'ng'iroq qilib, ish qaysi bosqichda ekanini so'rash.",
+		"features": ["Subpudratga berilgan ish va materiallarni kuzatish", "WhatsApp orqali bosqich xabari", "Muddat va kechikishlarni kuzatish", "Subpudratchi kesimida rentabellik"],
+		"audience": "Subpudrat asosida ishlab chiqaradigan to'qimachilik, metall va mebel kompaniyalari."
+	},
+	"agota-kalite": {
+		"summary": "Nuqsonli mahsulot suratidan nuqson turini aniqlaydi va yetkazib beruvchiga yuboriladigan nomuvofiqlik hisobotini avtomatik tayyorlaydi.",
+		"manual": "Nuqsonlarni qog'oz shakllarga yozish, yetkazib beruvchi uchun hisobotlarni qo'lda tayyorlash.",
+		"features": ["Suratdan nuqsonlarni tasniflash", "Nomuvofiqlik hisoboti loyihasi", "Yetkazib beruvchi va partiya kesimida nuqsonlar statistikasi", "Tuzatuvchi choralarni kuzatish"],
+		"audience": "Sifat nazoratini yurituvchi ishlab chiqarish korxonalari."
+	},
+	"agota-bakim": {
+		"summary": "Uskunalarga texnik xizmat ko'rsatish taqvimini boshqaradi, nosozliklar haqida ovozli xabar berish imkonini beradi va to'xtab qolish xarajatini hisoblaydi.",
+		"manual": "Texnik xizmat sanalarini daftarda yuritish, nosozlikni og'zaki yetkazish, to'xtab qolishlarni qayd etmaslik.",
+		"features": ["Davriy texnik xizmat taqvimi", "Ovozli nosozlik xabari", "Nosozlik va ta'mirlash tarixi", "To'xtab qolish vaqti va xarajati"],
+		"audience": "Uskunalar parki bor ishlab chiqarish korxonalari."
+	},
+	"agota-bordro": {
+		"summary": "Tabel asosida ish haqi hisob-kitobi loyihasini tayyorlaydi, ta'til qoldiqlarini yuritadi va SGK (ijtimoiy sug'urta) muddatlarini eslatadi. Ish haqi hisob-kitobi moliyaviy maslahatchi tasdig'idan keyin yakunlanadi.",
+		"manual": "Tabelni Excel'da yig'ib maslahatchiga yuborish, ta'til qoldiqlarini qo'lda hisoblash.",
+		"features": ["Tabel asosida ish haqi loyihasi", "Ta'til qoldig'ini kuzatish", "SGK va to'lovlar taqvimi eslatmasi", "Maslahatchi tasdiqlash jarayoni"],
+		"audience": "Ish haqini moliyaviy maslahatchi bilan hisoblaydigan kichik va o'rta biznes."
+	},
+	"agota-aday": {
+		"summary": "Vakansiya e'lonini yozadi, rezyumelarni saralaydi, nomzod bilan WhatsApp orqali dastlabki suhbat o'tkazadi va suhbatlar jadvalini tuzadi.",
+		"manual": "Yuzlab rezyumeni birma-bir o'qish, nomzodlar bilan telefon orqali uchrashuv belgilash.",
+		"features": ["Vakansiya matnini tayyorlash", "Mezonlar bo'yicha rezyumelarni saralash", "WhatsApp orqali dastlabki suhbat", "Suhbatlar jadvali va eslatma"],
+		"audience": "Tez-tez xodim yollaydigan chakana savdo, ishlab chiqarish va xizmat ko'rsatish korxonalari."
+	},
+	"agota-vardiya": {
+		"summary": "Smena rejasini tuzadi, ta'tillar to'qnashuvini hal qiladi va qo'shimcha ish vaqtini hisoblaydi.",
+		"manual": "Smena jadvalini har hafta qo'lda tuzish, o'zgarishlarni guruh chatida e'lon qilish.",
+		"features": ["Avtomatik smena rejasi", "Ta'til va to'qnashuvlar nazorati", "Qo'shimcha ish vaqti hisobi", "Xodimga xabarnoma"],
+		"audience": "Smenali ishlaydigan zavodlar, do'konlar, restoranlar va tibbiyot muassasalari."
+	},
+	"agota-rehber": {
+		"summary": "\"Ta'tilga qanday chiqiladi, kimdan tasdiq olinadi?\" kabi savollarga kompaniya qoidalaringiz asosida javob beradigan ichki yordamchi; yangi xodimlarning moslashuvini tezlashtiradi.",
+		"manual": "Bir xil savollarni har bir yangi xodimga qayta-qayta tushuntirish.",
+		"features": ["Qoidalar va tartiblar bo'yicha bilimlar bazasi", "Oddiy tilda savol-javob", "Yangi xodim moslashuv rejasi", "Dolzarb hujjatlarga havolalar"],
+		"audience": "O'sib borayotgan va tez-tez yangi xodim oladigan jamoalar."
+	},
+	"agota-hat": {
+		"summary": "WhatsApp, Instagram va e-pochtani bitta kiruvchi qutida jamlaydi; birinchi javobni beradi, xabarni tasniflaydi, mas'ul xodimga biriktiradi va buyurtma/yetkazib berish holatini o'zi aytadi.",
+		"manual": "Bir nechta ilovadan kelayotgan xabarlarni kuzatish, bir xil savollarga qayta-qayta javob berish.",
+		"features": ["Ko'p kanalli umumiy kiruvchi quti", "Avtomatik birinchi javob va tasniflash", "Buyurtma va yetkazib berish holatini tekshirish", "Jamoa ichida biriktirish va nazorat"],
+		"audience": "Mijoz xabarlarini bir nechta kanaldan oladigan korxonalar."
+	},
+	"agota-ses": {
+		"summary": "Kiruvchi qo'ng'iroqlarni qabul qiluvchi ovozli yordamchi: qabulga yozadi, buyurtma va manzil ma'lumotlarini oladi, har bir qo'ng'iroqning yozma xulosasini tayyorlaydi.",
+		"manual": "Qo'ng'iroqlarga ulgurmaslik, o'tkazib yuborilgan qo'ng'iroqlarga qayta qo'ng'iroq qila olmaslik, suhbatlarni qayd etmaslik.",
+		"features": ["Ish vaqtidan tashqarida ham qo'ng'iroqlarni qabul qilish", "Qabulga yozish, buyurtma va manzilni qabul qilish", "Har bir qo'ng'iroqning yozma xulosasi", "Kerak bo'lganda mas'ul xodimga ulash"],
+		"audience": "Telefon orqali buyurtma va qabulga yozuv oladigan korxonalar."
+	},
+	"agota-sikayet": {
+		"summary": "Shikoyat saytlari, Google va marketpleyslardagi sharhlarni bir joyga to'playdi, ularga javob beradi va asosiy sabablar bo'yicha hisobot tayyorlaydi.",
+		"manual": "Turli saytlardagi shikoyatlarni birma-bir kuzatish va kech javob berish.",
+		"features": ["Shikoyat va sharh manbalarini bitta ro'yxatda jamlash", "Javob loyihasi va tasdiqlash", "Asosiy sabablar bo'yicha tasniflash", "Takrorlanuvchi muammolar hisoboti"],
+		"audience": "Onlayn obro'si savdosiga bevosita ta'sir qiladigan brendlar va korxonalar."
+	},
+	"agota-sadakat": {
+		"summary": "Mijozlaringizni segmentlarga ajratadi, qaytarish kampaniyalarini sozlaydi va ketib qolayotgan mijozga avtomatik tarzda murojaat qiladi.",
+		"manual": "Uzoq vaqtdan beri xarid qilmayotgan mijozlarni sezmay qolish.",
+		"features": ["Xarid xulq-atvoriga ko'ra segmentatsiya", "Ketib qolish xavfini aniqlash", "Avtomatik qaytarish xabarlari", "Kampaniya natijalarini o'lchash"],
+		"audience": "Doimiy mijozlar hisobiga o'sadigan chakana savdo, e-tijorat va xizmat ko'rsatish korxonalari."
+	},
+	"agota-studyo": {
+		"summary": "Mahsulot suratidan ijtimoiy tarmoq posti, Reels ssenariysi va mahsulot feed'ini yaratadi; haftalik kontent taqvimingizni o'zi to'ldiradi.",
+		"manual": "Har hafta nima joylashni o'ylash, tasvir va matnlarni noldan tayyorlash.",
+		"features": ["Suratdan post va matn", "Reels ssenariysi", "Mahsulot feed'ini tayyorlash", "Haftalik kontent taqvimi"],
+		"audience": "Ijtimoiy tarmoqlarda muntazam kontent yaratmoqchi bo'lgan brendlar."
+	},
+	"agota-site": {
+		"summary": "ERP'ga mahsulot qo'shilganda veb-saytingizda mahsulot sahifasi paydo bo'ladi va SEO matni yoziladi.",
+		"manual": "Har bir yangi mahsulot uchun saytda alohida sahifa ochish va tavsif yozish.",
+		"features": ["ERP bilan sinxron mahsulot sahifalari", "Avtomatik SEO sarlavhasi va tavsifi", "Narx va zaxirani yangilash", "Ko'p tilli kontentni qo'llab-quvvatlash"],
+		"audience": "Mahsulot katalogini veb-saytida ham namoyish etadigan korxonalar."
+	},
+	"agota-kampanya": {
+		"summary": "E-pochta, SMS va WhatsApp kampaniyalarini segment, matn va yuborish vaqti bilan birga tayyorlaydi; natijalar hisobotini chiqaradi.",
+		"manual": "Kampaniya ro'yxatlarini qo'lda tayyorlash va natijasini o'lchay olmaslik.",
+		"features": ["Maqsadli segmentni tanlash", "Kanalga mos matn taklifi", "Rejalashtirish va avtomatik yuborish", "Ochilish, bosish va sotuv hisoboti"],
+		"audience": "Mijozlar ro'yxatiga muntazam kampaniya yuboradigan korxonalar."
+	},
+	"agota-harita": {
+		"summary": "Google Biznes profilingizni boshqaradi: sharhlarga javob beradi, ish vaqti va suratlarni dolzarb holda saqlaydi.",
+		"manual": "Google sharhlarini javobsiz qoldirish, bayram kunlaridagi ish vaqtini yangilashni unutish.",
+		"features": ["Sharhlarga javob loyihasi", "Ish vaqti va ma'lumotlarni yangilash", "Surat va postlarni boshqarish", "Ko'rishlar va qidiruvlar hisoboti"],
+		"audience": "Mahalliy mijozlarga xizmat ko'rsatadigan do'konlar, restoranlar va klinikalar."
+	},
+	"agota-sozlesme": {
+		"summary": "Shartnomalarni o'qiydi, xavfli bandlarni belgilaydi, shablondan yangi shartnoma tayyorlaydi va uzaytirish sanalarini eslatadi. Yuristning o'rnini bosmaydi, uning ishini tezlashtiradi.",
+		"manual": "Shartnomalarni qatorma-qator o'qish va uzaytirish sanalarini o'tkazib yuborish.",
+		"features": ["Xavfli bandlarni aniqlash", "Shablondan shartnoma loyihasi", "Uzaytirish va bekor qilish sanalari eslatmasi", "Shartnomaning qisqacha kartasi"],
+		"audience": "Yetkazib beruvchi, mijoz va ijara shartnomalari ko'p bo'lgan korxonalar."
+	},
+	"agota-kvkk": {
+		"summary": "Shaxsiy ma'lumotlar inventarini tuzadi, xabardor qilish matni loyihasini tayyorlaydi, VERBİS (Turkiyadagi ma'lumotlar operatorlari reyestri) majburiyatlarini eslatadi va murojaatlarga javob loyihasini yozadi.",
+		"manual": "KVKK (Turkiyaning shaxsiy ma'lumotlarni himoya qilish qonuni) bo'yicha majburiyatlarni tarqoq fayllarda kuzatish.",
+		"features": ["Shaxsiy ma'lumotlar inventari", "Xabardor qilish matni loyihasi", "VERBİS va muddatlar eslatmalari", "Ma'lumot egasi murojaatiga javob loyihasi"],
+		"audience": "Mijoz va xodim ma'lumotlarini qayta ishlaydigan barcha korxonalar."
+	},
+	"agota-arsiv": {
+		"summary": "Barcha hujjatlaringizni qidiriladigan qiladi: \"o'tgan yilgi ijara shartnomasini top\" deyishingiz kifoya.",
+		"manual": "Papkalar va e-pochtalar ichidan hujjat qidirish.",
+		"features": ["Skanerlash va matnni tanib olish (OCR)", "Oddiy tilda qidiruv", "Hujjat turiga qarab avtomatik teglash", "Ruxsatlarga asoslangan kirish"],
+		"audience": "Qog'oz va raqamli hujjatlari tarqoq holda turgan korxonalar."
+	},
+	"agota-onay": {
+		"summary": "Xarajat, ta'til va chegirma tasdiqlarini yagona jarayonga jamlaydi; yordamchi so'rovni tayyorlaydi, mas'ul shaxs bir bosishda tasdiqlaydi.",
+		"manual": "Tasdiq olish uchun e-pochta zanjirlari va telefon qo'ng'iroqlari bilan ovora bo'lish.",
+		"features": ["Sozlanadigan tasdiqlash qoidalari", "So'rov loyihasini avtomatik tayyorlash", "Mobil qurilmadan bir bosishda tasdiqlash", "Tasdiqlar tarixi va audit izi"],
+		"audience": "Bir necha tasdiqlash bosqichi bo'lgan jamoalar."
+	},
+	"agota-dilekce": {
+		"summary": "Davlat idoralari bilan yozishmalar, ariza va murojaat loyihalarini tayyorlaydi.",
+		"manual": "Har bir rasmiy xat uchun to'g'ri formatni qidirish va matnni noldan yozish.",
+		"features": ["Idoraga mos format", "Kompaniya ma'lumotlari bilan avtomatik to'ldirish", "Yozishmalar arxivi", "Muddatlarni kuzatish"],
+		"audience": "Davlat idoralari bilan tez-tez yozishadigan korxonalar."
+	},
+	"agota-sor": {
+		"summary": "\"Bu oy eng foydali 10 ta mahsulot qaysi?\" deb so'rang; so'rovni o'zi yozadi, javobni jadval va grafik ko'rinishida beradi.",
+		"manual": "Hisobot uchun IT bo'limiga so'rov yuborish yoki Excel'da yig'ma jadval tayyorlash.",
+		"features": ["Oddiy tilda so'rov", "Avtomatik jadval va grafik", "So'rovni saqlash va ulashish", "Ruxsatga qarab ma'lumotlarga kirish"],
+		"audience": "Hisobot uchun boshqalarga qaram bo'lishni istamaydigan rahbarlar."
+	},
+	"agota-panel": {
+		"summary": "Biznes egasiga har hafta ovozli va yozma xulosa yuboradi; xulosani WhatsApp'da ham o'qish mumkin.",
+		"manual": "Haftalik holatni bilish uchun turli hisobotlarni birma-bir ochish.",
+		"features": ["Haftalik rahbar xulosasi", "Ovozli va yozma format", "WhatsApp orqali yetkazish", "Muhim o'zgarishlarni ajratib ko'rsatish"],
+		"audience": "Biznesidagi holatni qisqa vaqtda bilib olishni istaydigan biznes egalari."
+	},
+	"agota-uyari": {
+		"summary": "G'ayrioddiy holatlarni aniqlaydi: \"X mijozning buyurtmalari 40% kamaydi\", \"zaxira 3 kunda tugaydi\", \"bu yetkazib beruvchi 3-marta kechikdi\".",
+		"manual": "Muammolarni ish o'tib ketgandan keyin payqash.",
+		"features": ["Sotuv, zaxira va ta'minotdagi anomaliyalar", "Chegara va qoidalarni belgilash", "WhatsApp va e-pochta orqali xabarnoma", "Ogohlantirishlar tarixi"],
+		"audience": "Muammolarni erta aniqlamoqchi bo'lgan rahbarlar."
+	},
+	"agota-senaryo": {
+		"summary": "\"Narxni 5% oshirsam, foyda va sotuv hajmi qanday o'zgaradi?\" kabi ssenariylarni o'z ma'lumotlaringiz asosida hisoblaydi.",
+		"manual": "Narx va tannarx ssenariylarini Excel'da qo'lda modellashtirish.",
+		"features": ["Narx, tannarx va miqdor ssenariylari", "O'tgan ma'lumotlarga asoslangan talab elastikligi bahosi", "Ssenariylarni taqqoslash", "Ulashish mumkin bo'lgan natijalar hisoboti"],
+		"audience": "Narx va byudjet bo'yicha qaror qabul qiladigan rahbarlar."
+	},
+	"agota-saha": {
+		"summary": "Texnikka vazifa beradi, joylashuvini kuzatadi; ish surat bilan yakunlangach, servis varaqasi va hisob-fakturani o'zi tuzadi.",
+		"manual": "Servis varaqalarini qog'ozda to'ldirib, ofisda hisob-fakturaga aylantirish.",
+		"features": ["Vazifa berish va marshrut", "Joylashuvni kuzatish", "Ishni surat bilan yakunlash", "Avtomatik servis varaqasi va hisob-faktura"],
+		"audience": "Texnik servis, texnik xizmat ko'rsatish va o'rnatish jamoalari."
+	},
+	"agota-kesif": {
+		"summary": "Obyekt ko'rigidagi suratlar va ovozli qaydlardan tijorat taklifini tayyorlaydi: konditsioner, ta'mirlash, mebel, oynavand balkon.",
+		"manual": "Ko'rik qaydlarini ofisda tartibga keltirib, taklifni bir necha kundan keyin yuborish.",
+		"features": ["Surat va ovozli qayd bilan ko'rik", "O'lchamlar va materiallar ro'yxati", "Tijorat taklifi loyihasi", "Takliflarni kuzatish"],
+		"audience": "Konditsioner, ta'mirlash, mebel va oynavand balkon kompaniyalari."
+	},
+	"agota-mutfak": {
+		"summary": "Retsept tannarxini hisoblaydi, yo'qotishlarni kuzatadi va yetkazib beruvchiga yuboriladigan kunlik buyurtma ro'yxatini tayyorlaydi.",
+		"manual": "Retsept tannarxlarini Excel'da yuritish, kunlik mahsulot buyurtmasini taxminan berish.",
+		"features": ["Retsept va porsiya tannarxi", "Yo'qotishlarni kuzatish", "Yetkazib beruvchilarga kunlik buyurtma ro'yxati", "Menyu rentabelligi tahlili"],
+		"audience": "Restoranlar, kafelar va markaziy oshxonalar."
+	},
+	"agota-randevu": {
+		"summary": "Sartaroshxona, klinika, veterinariya va avtomoyka kabi korxonalarda WhatsApp va Instagram xabarlarini qabulga yozuvga aylantiradi.",
+		"manual": "Xabar orqali kelgan yozilish so'rovlarini taqvimga qo'lda kiritish.",
+		"features": ["WhatsApp va Instagram orqali qabulga yozish", "Xodim va xizmat bo'yicha taqvim", "Eslatma va bekor qilishni boshqarish", "Bo'sh vaqtlarni to'ldirish takliflari"],
+		"audience": "Qabulga yozuv asosida ishlaydigan xizmat ko'rsatish korxonalari."
+	},
+	"agota-klinik": {
+		"summary": "Bemor kartasi, davolash rejasi, qabul eslatmalari va sug'urta hujjatlarini bir joyda boshqaradi.",
+		"manual": "Bemor ma'lumotlarini tarqoq fayllarda saqlash, nazorat qabullarini eslatishni unutish.",
+		"features": ["Bemor kartasi va tarixi", "Davolash rejasi", "Qabul va nazorat ko'rigi eslatmasi", "Sug'urta hujjatlarini kuzatish"],
+		"audience": "Stomatologiya, estetik tibbiyot va fizioterapiya klinikalari hamda xususiy poliklinikalar."
+	},
+	"agota-konak": {
+		"summary": "Mehmonxona va mehmon uylarida Booking va Airbnb kabi kanallardagi bo'sh joylarni sinxron ushlab turadi, mehmonlarga WhatsApp yordamchisi orqali javob beradi va ro'yxatdan o'tishni (check-in) tezlashtiradi.",
+		"manual": "Har bir kanalda bo'sh joylarni qo'lda yangilash, mehmonlar savollariga birma-bir javob berish.",
+		"features": ["Kanallararo bo'sh joylar sinxronizatsiyasi", "Mehmonlar uchun WhatsApp yordamchisi", "Onlayn check-in", "Bandlik va daromad hisoboti"],
+		"audience": "Butik mehmonxonalar, mehmon uylari va apart-mehmonxonalar."
+	},
+	"agota-servis": {
+		"summary": "Avtoservisda davlat raqami bo'yicha avtomobil tarixini chiqaradi, ish topshirig'ini ovoz bilan ochadi, ehtiyot qismlarga buyurtma beradi va mijozga holat haqida xabar yuboradi.",
+		"manual": "Ish topshiriqlarini qog'ozga yozish, avtomobil holatini mijozga telefon orqali xabar qilish.",
+		"features": ["Davlat raqami bo'yicha avtomobil va texnik xizmat tarixi", "Ovozli ish topshirig'i", "Ehtiyot qismlar buyurtmasi", "Mijozga avtomatik holat xabari"],
+		"audience": "Avtoservislar, shinomontaj va kuzov ta'mirlash ustaxonalari."
+	},
+	"agota-emlak": {
+		"summary": "E'lon matnini tayyorlaydi, obyektlar portfelingizni xaridorlar so'rovlari bilan moslaydi va ko'rsatuv uchrashuvlarini rejalashtiradi.",
+		"manual": "Xaridorlar so'rovlarini yodda saqlash va mos obyektni qo'lda qidirish.",
+		"features": ["E'lon sarlavhasi va matni", "Xaridor so'rovi–obyekt moslashtirish", "Ko'rsatuv uchrashuvi", "Mijozni kuzatish eslatmalari"],
+		"audience": "Ko'chmas mulk agentliklari va rieltorlar."
+	},
+	"agota-santiye": {
+		"summary": "Qurilish maydonida bajarilgan ishlar dalolatnomasi, ish hajmlari va tabelni yuritadi; material so'rovlarini WhatsApp orqali qabul qiladi.",
+		"manual": "Bajarilgan ishlar dalolatnomasi va tabelni Excel'da, material so'rovlarini telefon orqali boshqarish.",
+		"features": ["Bajarilgan ishlar dalolatnomasini tayyorlash", "Ish hajmlarini kuzatish", "Qurilish maydoni tabeli", "WhatsApp orqali material so'rovi"],
+		"audience": "Pudratchi va subpudratchi qurilish kompaniyalari."
+	},
+	"agota-tarla": {
+		"summary": "Fermer xo'jaliklari va issiqxonalarda ishlab chiqarish tannarxini hisoblaydi, ulgurji meva-sabzavot bozori narxlarini kuzatadi, dorilash va sug'orish qaydlarini yuritadi.",
+		"manual": "Daladagi xarajatlar va bajarilgan ishlarni daftarga yozib borish.",
+		"features": ["Uchastka va ekin bo'yicha tannarx", "Ulgurji bozor narxlarini kuzatish", "Dorilash va sug'orish qaydlari", "Hosil va sotuvni kuzatish"],
+		"audience": "Fermerlar, issiqxona xo'jaliklari va ishlab chiqaruvchilar uyushmalari."
+	},
+	"agota-kurs": {
+		"summary": "O'quv kurslari, repetitorlik markazlari va sport zallarida qabul, bo'lib to'lash, davomat hamda ota-onalar va a'zolarni xabardor qilishni boshqaradi.",
+		"manual": "Qabul va to'lovlarni daftarda yuritish, ota-onalarga birma-bir xabar yozish.",
+		"features": ["O'quvchi va a'zolarni ro'yxatga olish", "Bo'lib to'lash va tushumlarni kuzatish", "Davomat", "Ota-onalar va a'zolar uchun xabarnomalar"],
+		"audience": "O'quv kurslari, repetitorlik markazlari, sport va raqs zallari."
+	},
+	"agota-musavir": {
+		"summary": "Moliyaviy maslahatchi va buxgalteriya ofislarida mijozlardan hujjat yig'adi, yetishmaganlarini so'rab boradi va deklaratsiyalar taqvimini boshqaradi.",
+		"manual": "Har oy o'nlab mijozga qo'ng'iroq qilib, hujjat so'rash.",
+		"features": ["Mijoz kesimida hujjatlarni kuzatish", "Yetishmayotgan hujjat eslatmalari", "Deklaratsiyalar taqvimi", "Mijozlar portali"],
+		"audience": "Moliyaviy maslahatchilar va buxgalteriya ofislari."
+	},
+	"agota-atolye": {
+		"summary": "Tikuvchilik sexlarida model va namunalar, bichish rejasi, subpudrat hamda ip va mato hisobini boshqaradi.",
+		"manual": "Model va bichish ma'lumotlarini qog'oz varaqalarda kuzatish.",
+		"features": ["Model va namuna kartasi", "Bichish rejasi", "Subpudratni kuzatish", "Ip va mato zaxirasi"],
+		"audience": "Tikuvchilik va to'qimachilik sexlari."
+	},
+	"agota-filo": {
+		"summary": "Yuk tashish kompaniyalarida transport, haydovchi va yukni moslashtiradi; yoqilg'i va jarimalarni hisobga oladi.",
+		"manual": "Yuklarni telefon orqali moslash, yoqilg'i va jarimalarni Excel'da kuzatish.",
+		"features": ["Transport va haydovchilarni boshqarish", "Yuk–transport moslashtirish", "Yoqilg'i hisobi", "Jarimalar va hujjatlar muddatini kuzatish"],
+		"audience": "Yuk tashish va logistika kompaniyalari."
+	},
+	"agota-market": {
+		"summary": "Market va mahalla do'konlari uchun savdo nuqtasi (POS), yaroqlilik muddatini kuzatish va yetkazib beruvchiga avtomatik buyurtma.",
+		"manual": "Yaroqlilik muddati yaqinlashgan mahsulotlarni javonma-javon tekshirish, buyurtmani chamalab berish.",
+		"features": ["Tezkor savdo ekrani (POS)", "Yaroqlilik muddati ogohlantirishlari", "Yetkazib beruvchiga avtomatik buyurtma", "Kunlik tushum va foyda xulosasi"],
+		"audience": "Marketlar, mahalla do'konlari va delikates do'konlari."
+	},
+	"agota-store": {
+		"summary": "Agota uchun ilovalar va yordamchilar do'koni: uchinchi tomon dasturchilari yordamchilar yaratadi va daromadni taqsimlash asosida joylashtiradi.",
+		"manual": "Kerakli har bir funksiya uchun alohida dastur izlash va uni integratsiya qilish.",
+		"features": ["Ilovalar va yordamchilar katalogi", "Bir bosishda o'rnatish", "Dasturchilar uchun hamkorlik dasturi", "Daromadni taqsimlash"],
+		"audience": "Agota foydalanuvchilari va dasturchilar."
+	},
+	"agota-tedarik": {
+		"summary": "Agota'dan foydalanadigan korxonalar o'rtasidagi B2B marketpleys: zaxiradagi mahsulot avtomatik joylashtiriladi; xaridorning xarid yordamchisi sotuvchining sotuv yordamchisidan taklif oladi.",
+		"manual": "Yetkazib beruvchi topish uchun telefon va e-pochta orqali takliflar yig'ish.",
+		"features": ["Zaxiradan avtomatik joylashtirish", "Yordamchilar o'rtasida takliflar almashinuvi", "ERP'da avtomatik buyurtma yozuvi", "Tasdiqlangan korxona profillari"],
+		"audience": "Xarid va sotuv bilan shug'ullanadigan kichik va o'rta biznes."
+	},
+	"agota-fasonpazar": {
+		"summary": "Bo'sh ishlab chiqarish quvvatini buyurtmalar bilan bog'laydi: \"1000 dona futbolka tikish, 2 hafta\" degan so'rovga mos sexni topadi.",
+		"manual": "Subpudratchi sex topish uchun tanishlar orasidan so'rab chiqish.",
+		"features": ["Bo'sh quvvat haqida e'lon", "Buyurtma–sex moslashtirish", "Taklif va muddatlarni taqqoslash", "Sexlar reytingi"],
+		"audience": "Ishlab chiqaruvchilar va subpudratchi sexlar."
+	},
+	"agota-hizmet": {
+		"summary": "Yuk tashish, tozalash, ta'mirlash va qo'riqlash kabi korporativ xizmatlar uchun takliflarni yig'adi va taqqoslaydi.",
+		"manual": "Har bir xizmat uchun kompaniyalarga alohida qo'ng'iroq qilib, taklif so'rash.",
+		"features": ["Xizmatga so'rov yaratish", "Takliflarni avtomatik yig'ish", "Narx va qamrovni taqqoslash", "Xizmat ko'rsatuvchilarni baholash"],
+		"audience": "Muntazam ravishda xizmatlar xarid qiladigan korxonalar."
+	},
+	"agota-makine": {
+		"summary": "Ishlatilgan stanok va uskunalar bozori: ERP'dagi asosiy vositalar ro'yxatingizdan bir bosishda sotuvga qo'ying.",
+		"manual": "Foydalanilmayotgan uskunalarni e'lon saytlarida birma-bir joylashtirish.",
+		"features": ["Asosiy vositalar ro'yxatidan e'lon", "Surat va texnik ma'lumotlar", "Xaridor so'rovlari bilan moslashtirish", "Xavfsiz aloqa"],
+		"audience": "Uskunalarini yangilayotgan ishlab chiqarish korxonalari."
+	},
+	"agota-endeks": {
+		"summary": "Anonimlashtirilgan ma'lumotlardan sohaviy narx, marja va to'lov yig'ish muddati indekslarini yaratadi; korxonangizni soha o'rtachasi bilan taqqoslaydi.",
+		"manual": "Soha o'rtacha ko'rsatkichlarini taxminan yoki eshitilgan gaplarga ko'ra bilish.",
+		"features": ["Soha va hudud kesimida indekslar", "O'z ko'rsatkichlaringiz bilan taqqoslash", "Anonimlashtirilgan va umumlashtirilgan ma'lumotlar", "Oylik indeks hisoboti"],
+		"audience": "Qarorlarini soha ma'lumotlari bilan asoslamoqchi bo'lgan korxonalar."
+	},
+	"agota-finans": {
+		"summary": "Hisob-faktura, tushum va pul ma'lumotlaringiz asosida faktoring va biznes krediti variantlarini baholash hamda ariza hujjatlarini tayyorlashda yordam beradi.",
+		"manual": "Bank va faktoring kompaniyalariga alohida-alohida hujjat tayyorlab, ariza topshirish.",
+		"features": ["Moliyalashtirish ehtiyojini tahlil qilish", "Hisob-faktura va debitorlik qarzi asosidagi moliyalashtirish variantlari", "Ariza hujjatlarini tayyorlash", "Takliflarni taqqoslash"],
+		"audience": "O'sish yoki aylanma mablag' ehtiyoji uchun moliyalashtirish izlayotgan kichik va o'rta biznes."
+	}
+}

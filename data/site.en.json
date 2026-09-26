@@ -4,7 +4,7 @@
     "site_name": "AgotaSoft",
     "logo": "/images/agotasoft-logo.png",
     "email": "info@agotasoft.com",
-    "phone": "+90 (216) 555 12 34",
+    "phone": "+90 (552) 517 57 81",
     "address": "İstanbul, Üsküdar",
     "copyright": "© {year} AgotaSoft. All rights reserved.",
     "header_cta": "Request a Demo",
@@ -19,11 +19,11 @@
     "calendly_url": "https://calendly.com/agotasoft",
     "seo_title": "AgotaSoft ERP | The One Platform Running Your Business",
     "seo_description": "Manage inventory, production, finance and procurement on one AI-assisted platform with AgotaSoft ERP.",
-    "hero": "{\"title\": \"AgotaSoft ERP: The One Platform Running Your Business\", \"subtitle\": \"Bring inventory, production, finance and procurement together on one screen. AI-assisted, quick to set up, easy to learn — say goodbye to clunky desktop software.\", \"cta_primary\": \"Request a Demo\", \"cta_primary_url\": \"/contact-us\", \"cta_secondary\": \"Explore the Platform\", \"cta_secondary_url\": \"/erp\", \"rating_text\": \"AI-assisted, built for SMEs\"}",
-    "cta": "{\"title\": \"Start Your Digital Transformation with AgotaSoft\", \"text\": \"Boost your business efficiency with our ERP, CRM, Bookkeeping and LMS solutions. Get a free demo from our expert team and see the difference.\", \"button\": \"Request a Free Demo\", \"button_url\": \"/contact-us\", \"note\": \"30-day trial period. No credit card required.\"}",
+    "hero": "{\"title\":\"AgotaSoft ERP: The One Platform Running Your Business\",\"subtitle\":\"Bring inventory, production, finance and procurement together on one screen. AI-assisted, quick to set up, easy to learn — say goodbye to clunky desktop software.\",\"cta_primary\":\"Request a Demo\",\"cta_primary_url\":\"/contact-us\",\"cta_secondary\":\"Explore the Platform\",\"cta_secondary_url\":\"/erp\",\"rating_text\":\"AI-assisted, built for SMEs\"}",
+    "cta": "{\"title\":\"Start Growing with AgotaSoft ERP Today\",\"text\":\"Unify your finance, inventory, and operations on one platform. Schedule a free demo with our expert team.\",\"button\":\"Request a Free Demo\",\"button_url\":\"/contact-us\",\"note\":\"Onboarding starts with a free consultation with our team.\"}",
     "why_choose": "{\"section1_title\": \"Empower Your Business With Digital Transformation\", \"section1_text\": \"Increase operational efficiency, cut costs and get ahead of the competition with AgotaSoft software solutions. Optimize your business processes with our integrated systems.\", \"section1_items\": [{\"title\": \"Automate Your Processes\", \"text\": \"Minimize manual work, automate your workflows and let your employees focus on more strategic tasks.\"}, {\"title\": \"Make Data-Driven Decisions\", \"text\": \"Track your business performance with real-time reports and analytics, make the right decisions and accelerate growth.\"}, {\"title\": \"Increase Customer Satisfaction\", \"text\": \"Strengthen customer relationships, raise service quality and build customer loyalty with our CRM system.\"}], \"section2_title\": \"Transform Your Business Processes With Technology\", \"section2_text\": \"Connect every department of your business, boost efficiency and optimize costs with AgotaSoft's integrated software solutions.\", \"section2_items\": [{\"title\": \"60% Faster Business Processes\", \"text\": \"Shorten process times and increase employee productivity with automated workflows and integrated systems.\"}, {\"title\": \"Instant Data Access & Reporting\", \"text\": \"Access all your data from one place and make fast, accurate decisions with real-time reports.\"}], \"button\": \"Request a Demo\", \"button_url\": \"/contact-us\"}",
     "home_services": "{\"title\": \"Software Solutions That Empower Your Business\", \"button\": \"All Solutions\", \"button_url\": \"/service\"}",
-    "footer": "{\"about\": \"Smart software that takes your business into the future. We lead your digital transformation with 15 years of ERP, CRM, Bookkeeping and LMS experience.\", \"about_alt\": \"AgotaSoft is a trusted technology partner for businesses on their digital transformation journey. We boost your efficiency with ERP, CRM, Bookkeeping and LMS solutions.\", \"col1_title\": \"Company\", \"col1_links\": [{\"label\": \"About Us\", \"url\": \"/about-us\"}, {\"label\": \"Case Studies\", \"url\": \"/portfolio\"}, {\"label\": \"Team\", \"url\": \"/team\"}, {\"label\": \"Blog\", \"url\": \"/blog\"}, {\"label\": \"Careers\", \"url\": \"/career\"}, {\"label\": \"Contact\", \"url\": \"/contact-us\"}, {\"label\": \"All Solutions\", \"url\": \"/service\"}, {\"label\": \"Pricing\", \"url\": \"/pricing\"}], \"col2_title\": \"Solutions\", \"col2_links\": [{\"label\": \"ERP System\", \"url\": \"/erp\"}, {\"label\": \"CRM System\", \"url\": \"/crm\"}, {\"label\": \"Bookkeeping\", \"url\": \"/pre-accounting\"}, {\"label\": \"LMS System\", \"url\": \"/lms\"}], \"col3_title\": \"Contact Info\", \"privacy_label\": \"Privacy Policy\", \"privacy_url\": \"/privacy-policy\", \"terms_label\": \"Terms of Service\", \"terms_url\": \"/terms-of-service\", \"cookies_label\": \"Cookie Policy\", \"cookies_url\": \"/cookies-policy\"}",
+    "footer": "{\"about\":\"The AI-native ERP platform that grows with your business. With 15 years of experience, we lead digital transformation for manufacturing and trading companies.\",\"about_alt\":\"AgotaSoft is the modern ERP platform that accelerates business growth. We unify your finance, inventory, and operations in a single system.\",\"col1_title\":\"Company\",\"col1_links\":[{\"label\":\"About Us\",\"url\":\"/about-us\"},{\"label\":\"Case Studies\",\"url\":\"/portfolio\"},{\"label\":\"Team\",\"url\":\"/team\"},{\"label\":\"Careers\",\"url\":\"/career\"},{\"label\":\"Contact\",\"url\":\"/contact-us\"},{\"label\":\"All Solutions\",\"url\":\"/service\"},{\"label\":\"Pricing\",\"url\":\"/pricing\"}],\"col2_title\":\"Solutions\",\"col2_links\":[{\"label\":\"ERP System\",\"url\":\"/erp\"},{\"label\":\"CRM System\",\"url\":\"/crm\"},{\"label\":\"Bookkeeping\",\"url\":\"/pre-accounting\"},{\"label\":\"LMS System\",\"url\":\"/lms\"},{\"label\":\"Kârlılık.NET\",\"url\":\"/karlilik\"},{\"label\":\"QR Menu\",\"url\":\"/adisyon-qr\"}],\"col3_title\":\"Contact Info\",\"privacy_label\":\"Privacy Policy\",\"privacy_url\":\"/privacy-policy\",\"terms_label\":\"Terms of Service\",\"terms_url\":\"/terms-of-service\",\"cookies_label\":\"Cookie Policy\",\"cookies_url\":\"/cookies-policy\"}",
     "pricing_products": "[{\"id\": \"all\", \"name\": \"All Solutions\", \"icon\": \"fas fa-th-large\"}, {\"id\": \"erp\", \"name\": \"ERP System\", \"icon\": \"fas fa-industry\"}, {\"id\": \"crm\", \"name\": \"CRM System\", \"icon\": \"fas fa-users\"}, {\"id\": \"accounting\", \"name\": \"Bookkeeping\", \"icon\": \"fas fa-calculator\"}, {\"id\": \"lms\", \"name\": \"LMS Training\", \"icon\": \"fas fa-graduation-cap\"}]",
     "partners_heading": "Our Technology Partners & Sponsors",
     "testimonials_heading": "What Our Customers Say About AgotaSoft"
@@ -64,11 +64,11 @@
           "url": "lms"
         },
         {
-          "title": "Karlılık.NET",
+          "title": "Kârlılık.NET",
           "url": "karlilik"
         },
         {
-          "title": "Adisyon QR",
+          "title": "QR Menu",
           "url": "adisyon-qr"
         }
       ]
@@ -172,19 +172,19 @@
     },
     {
       "title": "Bookkeeping",
-      "description": "Keep financial control in your hands with e-invoicing (Turkey), current account management and expense tracking.",
+      "description": "Bookkeeping software that tracks TRY, USD and EUR side by side and sells by barcode; iOS app and web panel.",
       "icon": "/images/v1/icon3.png",
       "link": "/pre-accounting",
       "category": "sofax-solution-accounting",
       "fa_icon": "fas fa-calculator",
       "page_class": "sofax-solution-accounting",
-      "long_description": "A comprehensive bookkeeping solution that simplifies financial processes for SMEs, including Turkish e-invoice (GİB) integration, current account management and expense tracking.",
+      "long_description": "Bookkeeping software that manages sales, accounts, stock and cash in one place. TRY, USD and EUR balances are kept separately; the iPhone app and the web panel work on the same data.",
       "bullets": [
-        "E-Invoice Integration (Turkey)",
-        "Current Account Management",
-        "Expense Tracking",
-        "Tax Management",
-        "Financial Reporting"
+        "TRY, USD and EUR multi-currency",
+        "Fast barcode sales",
+        "Accounts, cash and collections",
+        "Variant stock and low-stock alerts",
+        "iOS app and web panel"
       ],
       "slug": "bookkeeping",
       "id": "-n-muhasebe"
@@ -209,39 +209,39 @@
       "id": "lms-sistemi"
     },
     {
-      "title": "Karlılık.NET",
-      "description": "AI-powered profit analytics for Trendyol and Hepsiburada sellers, showing true net profit after commissions, shipping and taxes.",
+      "title": "Kârlılık.NET",
+      "description": "An analytics platform that shows Trendyol and Hepsiburada sellers their true net profit by order, product and store, after commission, shipping, withholding tax, VAT and ads.",
       "icon": "/images/v1/icon1.png",
       "link": "/karlilik",
       "category": "sofax-solution-karlilik",
       "fa_icon": "fas fa-chart-pie",
       "page_class": "sofax-solution-karlilik",
-      "long_description": "An AI-powered SaaS that shows marketplace sellers their true net profit in one dashboard. Connect your store, enter your costs, and see what you earn per order, product and store.",
+      "long_description": "Marketplace dashboards show revenue, not profit. Kârlılık.NET connects your store with an API key, pulls orders every 15 minutes and calculates the net profit of each one; once the payout is finalized, it shows your final profit with the actual deductions. 14 days free: karlilik.net",
       "bullets": [
-        "Trendyol and Hepsiburada integration",
-        "Net profit per order and product",
-        "AI invoice reading and Q&A",
-        "Price calculation from target margin",
-        "Payout reconciliation"
+        "Trendyol and Hepsiburada store connection",
+        "Net profit by order, product and store",
+        "Price calculator and payout reconciliation",
+        "AI invoice reading and profit assistant",
+        "14-day free trial, no card required"
       ],
       "slug": "karlilik-net",
       "id": "karlilik-net"
     },
     {
-      "title": "AgotaSoft Adisyon QR",
-      "description": "A cloud solution for cafés and restaurants that combines QR menu, ordering, kitchen display and billing in one system.",
+      "title": "AgotaSoft QR Menü",
+      "description": "A QR menu, table ordering, kitchen display and billing system for cafés and restaurants.",
       "icon": "/images/v1/icon1.png",
       "link": "/adisyon-qr",
       "category": "sofax-solution-adisyon-qr",
       "fa_icon": "fas fa-qrcode",
       "page_class": "sofax-solution-adisyon-qr",
-      "long_description": "Run the whole flow from the table QR to the till in one system: app-free QR menu and ordering, waiter approval, kitchen display, printers and billing.",
+      "long_description": "The whole flow from the table QR to the till in one system: menu, ordering and payment with no app to download; waiter approval, kitchen display, receipt printer and billing. qrmenu.agotasoft.com",
       "bullets": [
-        "App-free QR menu and ordering",
-        "Waiter approval and live floor view",
-        "Kitchen display and receipt printer integration",
-        "Bill splitting, discounts and checkout",
-        "iPhone, iPad and Android app"
+        "Menu, ordering and payment via QR, no app download",
+        "QR order approval and live floor view",
+        "Kitchen display (KDS) and ESC/POS receipt printer",
+        "Bill splitting, discounts, complimentary items and cashier shifts",
+        "Menu import via Excel/CSV and end-of-day summary"
       ],
       "slug": "adisyon-qr",
       "id": "adisyon-qr"
@@ -496,7 +496,7 @@
         "icon": "fas fa-calculator",
         "className": "sofax-solution-starter",
         "features": [
-          "E-invoice integration",
+          "TRY, USD and EUR multi-currency",
           "Basic current accounts",
           "Expense tracking",
           "3 users",
@@ -768,7 +768,7 @@
     },
     {
       "question": "Do you support Turkish e-invoice (GİB) integration?",
-      "answer": "Yes, the AgotaSoft Bookkeeping module is fully integrated with Turkey's e-invoice authority (GİB); you can run e-invoice, e-archive invoice and e-waybill processes directly from the system.",
+      "answer": "In AgotaSoft Bookkeeping, invoices are issued inside the system and each one can be tagged with a document type (e-invoice, e-archive or paper). There is currently no integrator connection that submits invoices directly to GİB.",
       "column": "2"
     },
     {
@@ -1365,145 +1365,146 @@
       "hero_image": "/images/products/lms-dashboard.png"
     },
     "pre-accounting": {
-      "title": "AgotaSoft Bookkeeping System",
-      "hero_title": "AgotaSoft Bookkeeping: Financial Control, Fully in Your Hands",
-      "hero_subtitle": "A comprehensive bookkeeping solution that simplifies SMEs' financial processes with Turkish e-invoice integration, current-account management, expense tracking and financial reporting.",
+      "title": "AgotaSoft Bookkeeping",
+      "badge": "iOS app + web panel",
+      "hero_subtitle": "Bookkeeping software that tracks TRY, USD and EUR side by side and closes a sale in seconds with a barcode scan. Sales, accounts, stock and cash in one place; the iPhone app and the web panel work on the same data.",
       "cta_primary": "Request a Demo",
-      "cta_secondary": "See Features",
-      "hero_card_title": "AgotaSoft Bookkeeping",
-      "hero_card_text": "Financial Control System",
-      "modules_title": "Bookkeeping Modules & Features",
-      "modules_subtitle": "Financial management tools designed specifically for SMEs",
+      "cta_secondary": "Explore Features",
+      "facts_title": "At a glance",
+      "facts": [
+        {
+          "icon": "fas fa-coins",
+          "label": "TRY, USD and EUR at once"
+        },
+        {
+          "icon": "fas fa-mobile-screen",
+          "label": "iOS app and web panel"
+        },
+        {
+          "icon": "fas fa-barcode",
+          "label": "Barcode sales in seconds"
+        },
+        {
+          "icon": "fas fa-user-lock",
+          "label": "Roles and permissions"
+        }
+      ],
+      "features": [
+        {
+          "label": "HIGHLIGHT",
+          "title": "Scan a barcode and the product opens in its own currency",
+          "text": "Find a product in seconds with the camera or by typing the barcode. With an empty cart, the invoice switches to the scanned product's currency: a USD product comes in USD, a EUR product in EUR.",
+          "bullets": [
+            "Barcode and product-name search by camera or keyboard",
+            "Separate quantities for colour and size variants",
+            "One-tap switch between TRY, USD and EUR on a new sale"
+          ],
+          "image": "/images/products/on-muhasebe/barkod-urun.webp",
+          "image_alt": "Product found by barcode scan"
+        },
+        {
+          "label": "MULTI-CURRENCY",
+          "title": "Three currencies, balances that never mix",
+          "text": "Every invoice is issued in its own currency, and every account card shows its TRY, USD and EUR balances separately. If a rate can't be fetched, the system doesn't silently assume 1:1; it warns you.",
+          "bullets": [
+            "Current USD/TRY and EUR/TRY rates",
+            "Invoices, collections and returns tracked in the same currency",
+            "Debit, credit and statement on the account card"
+          ],
+          "image": "/images/products/on-muhasebe/satis-doviz-secimi.webp",
+          "image_alt": "Choosing TRY, USD or EUR on a new sale"
+        }
+      ],
+      "modules_label": "MODULES",
+      "modules_title": "Everything bookkeeping software should have",
+      "modules_subtitle": "All on one database with one currency logic.",
       "modules": [
         {
           "icon": "fas fa-file-invoice",
-          "title": "E-Invoice Integration (Turkey)",
-          "description": "Automate e-invoice creation, sending and receiving through integration with Turkey's revenue administration (GİB).",
+          "title": "Sales and Invoicing",
+          "description": "New invoice, exchange and return flows; add lines fast with a barcode.",
           "bullets": [
-            "GİB integration",
-            "Automatic invoice creation",
-            "E-archive invoice",
-            "Bulk invoicing"
+            "Sales, exchanges and returns",
+            "Lines with colour and size variants",
+            "Open and paid invoice tracking"
           ]
         },
         {
           "icon": "fas fa-address-book",
-          "title": "Current Account Management",
-          "description": "Track your customer and supplier accounts, monitor receivables and payables.",
+          "title": "Accounts",
+          "description": "TRY, USD and EUR balances per customer; debit, credit and statements in one place.",
           "bullets": [
-            "Current-account cards",
-            "Receivables/payables tracking",
-            "Aging analysis",
-            "Account statements"
+            "Balance per currency",
+            "Statements and manual debit/credit",
+            "Collection entries"
           ]
         },
         {
-          "icon": "fas fa-receipt",
-          "title": "Expense Tracking",
-          "description": "Categorize, track and analyze all your expenses.",
+          "icon": "fas fa-truck",
+          "title": "Purchasing and Suppliers",
+          "description": "Purchase invoices update the weighted average cost automatically; supplier payments are tracked separately.",
           "bullets": [
-            "Expense categories",
-            "Receipt & document management",
-            "Expense approval workflow",
-            "Expense reports"
+            "Purchase invoices",
+            "Weighted average cost",
+            "Supplier balances and payments"
           ]
         },
         {
-          "icon": "fas fa-university",
-          "title": "Bank Management",
-          "description": "Track your bank accounts, control your cash flow and reconcile with the bank.",
+          "icon": "fas fa-cash-register",
+          "title": "Cash and Collections",
+          "description": "TRY, dollar and euro registers with separate balances; every movement lands in the right register instantly.",
           "bullets": [
-            "Multiple bank accounts",
-            "Cash-flow tracking",
-            "Bank reconciliation",
-            "Check/note management"
+            "Multiple registers",
+            "Collection and payment entries",
+            "Cash movements"
           ]
         },
         {
-          "icon": "fas fa-percentage",
-          "title": "Tax Management",
-          "description": "Automate VAT, withholding and other tax calculations, and prepare returns.",
+          "icon": "fas fa-barcode",
+          "title": "Stock and Barcode",
+          "description": "Products with colour and size variants, low-stock alerts and fast lookup by barcode.",
           "bullets": [
-            "Automatic tax calculation",
-            "VAT return",
-            "Withholding calculations",
-            "Tax reports"
+            "Variant product management",
+            "Low-stock alerts",
+            "Camera barcode scanning"
           ]
         },
         {
-          "icon": "fas fa-chart-bar",
-          "title": "Financial Reporting",
-          "description": "Detailed financial reports, income-expense analysis and profitability reports.",
+          "icon": "fas fa-chart-line",
+          "title": "Reports",
+          "description": "Profit and loss, product profitability and a 6-month financial analysis, with gross and net margin shown separately.",
           "bullets": [
-            "Income-expense report",
-            "Profitability analysis",
-            "Cash-flow report",
-            "Customizable reports"
+            "Profit and loss report",
+            "Product profitability",
+            "6-month financial analysis"
           ]
         }
       ],
-      "benefits_title": "Purpose-Built for SMEs",
-      "benefits_text": "AgotaSoft Bookkeeping is purpose-built to simplify the financial processes of small and medium-sized businesses.",
+      "benefits_title": "Stay in control as you grow",
+      "benefits_text": "As your team grows, you decide who sees what and who can change what.",
       "benefits": [
         {
-          "icon": "fas fa-clock",
-          "title": "70% Faster Invoicing",
-          "text": "Speed up your invoicing process with e-invoice integration."
+          "icon": "fas fa-user-lock",
+          "title": "Roles and permissions",
+          "text": "Each user sees only the modules they're allowed to; assigning a role beyond one's own authority is blocked by the system."
         },
         {
-          "icon": "fas fa-shield-alt",
-          "title": "100% Regulatory Compliance",
-          "text": "A system fully compliant with Turkish financial regulations."
+          "icon": "fas fa-clock-rotate-left",
+          "title": "Activity history",
+          "text": "Who changed which record and when; every movement is kept in an auditable log."
         },
         {
-          "icon": "fas fa-calculator",
-          "title": "Automatic Calculations",
-          "text": "Automatically calculate tax, VAT and withholding."
+          "icon": "fas fa-mobile-screen-button",
+          "title": "iOS and web on the same data",
+          "text": "The iPhone app in the field and the web panel at the office: same account, always up to date."
         }
       ],
-      "panel_title": "Financial Reporting",
-      "panel_text": "Detailed financial reports and analysis tools",
-      "local_pricing_title": "Start With Affordable Pricing",
-      "local_pricing_subtitle": "Special pricing packages for SMEs",
-      "local_plans": [
-        {
-          "title": "Starter",
-          "icon": "fas fa-seedling",
-          "price": "₺299",
-          "period": "/mo",
-          "popular": false,
-          "features": [
-            "Up to 5 users",
-            "E-invoice integration",
-            "Basic reports",
-            "Email support"
-          ],
-          "button": "Get Started"
-        },
-        {
-          "title": "Professional",
-          "icon": "fas fa-rocket",
-          "price": "₺599",
-          "period": "/mo",
-          "popular": true,
-          "features": [
-            "Up to 15 users",
-            "All modules",
-            "Advanced reports",
-            "Phone support",
-            "Integration support"
-          ],
-          "button": "Get Started"
-        }
-      ],
-      "cta_title": "Take Control of Your Finances",
-      "cta_text": "Discover the power of AgotaSoft Bookkeeping with a 30-day free trial. Setup and training support included.",
-      "cta_button": "Request a Free Demo",
-      "cta_phone": "Call Now",
-      "cta_phone_url": "tel:+908001234567",
+      "cta_title": "Bring currency, stock and sales together",
+      "cta_text": "In a short demo we'll walk through the whole flow together, from barcode sales to multiple cash registers.",
+      "cta_button": "Request a Demo",
+      "cta_secondary_link": "All Solutions",
       "slug": "pre-accounting",
-      "id": "pre-accounting",
-      "hero_image": "/images/products/pre-accounting-dashboard.png"
+      "id": "pre-accounting"
     },
     "terms": {
       "title": "Terms & condition of service :",
@@ -1610,11 +1611,14 @@
       "id": "single-career"
     },
     "karlilik": {
-      "title": "Karlılık.NET",
-      "badge": "Early access",
-      "hero_subtitle": "An AI-powered profit analytics platform that shows e-commerce sellers on Trendyol and Hepsiburada their true net profit in one dashboard. See what every order really earns you after commission, shipping, service fees, withholding tax, VAT and ad spend.",
-      "cta_primary": "Request Early Access",
-      "cta_secondary": "Explore Modules",
+      "title": "Kârlılık.NET",
+      "badge": "Live · 14 days free",
+      "hero_subtitle": "For Trendyol and Hepsiburada sellers: your net profit, not your revenue. See what every order really earns you, by order, product and store, after commission, shipping, service fees, withholding tax, VAT, ads and returns are deducted.",
+      "cta_primary": "Try it free",
+      "cta_primary_url": "https://karlilik.net/register",
+      "cta_secondary": "Try the demo",
+      "cta_secondary_url": "https://karlilik.net/login",
+      "hero_note": "14 days free · No card required · Cancel anytime · No sign-up for the demo",
       "facts_title": "At a glance",
       "facts": [
         {
@@ -1622,167 +1626,367 @@
           "label": "Trendyol and Hepsiburada"
         },
         {
-          "icon": "fas fa-robot",
-          "label": "AI-powered analysis"
+          "icon": "fas fa-lock",
+          "label": "Encrypted API keys (AES-256)"
         },
         {
-          "icon": "fas fa-shield-halved",
-          "label": "Encrypted API keys, KVKK compliant"
+          "icon": "fas fa-user-shield",
+          "label": "KVKK (Turkish data protection law): no buyer data stored"
         },
         {
-          "icon": "fas fa-file-excel",
-          "label": "Cost entry via Excel and invoices"
+          "icon": "fas fa-gift",
+          "label": "14 days free, no card required"
+        }
+      ],
+      "highlights": {
+        "label": "REVENUE IS NOT PROFIT",
+        "title": "Every deduction, right down to what you keep",
+        "text": "Marketplace dashboards show revenue, not profit. Kârlılık.NET deducts the items below from every order and flags products with missing costs separately, so the net profit you see is what you actually keep.",
+        "items": [
+          "Category commission",
+          "Shipping by volumetric weight, plus return shipping",
+          "Platform service fee",
+          "E-commerce withholding tax",
+          "Net VAT",
+          "Advertising and influencer costs",
+          "Penalties and early-payment deductions",
+          "Additional costs such as warehousing and accounting"
+        ]
+      },
+      "features_label": "SCREENS",
+      "features_title": "Everything you need to make decisions",
+      "features_text": "Screenshots are from the Kârlılık.NET demo account and show sample data.",
+      "features_frame": "browser",
+      "features_url": "karlilik.net",
+      "features": [
+        {
+          "label": "Dashboard",
+          "title": "Your business's profit picture on one screen",
+          "bullets": [
+            "Revenue, gross profit, net profit and cost coverage",
+            "Expense breakdown: where the money goes, line by line",
+            "Trendyol vs Hepsiburada comparison"
+          ],
+          "image": "/images/products/karlilik/dashboard.webp",
+          "image_alt": "Kârlılık.NET dashboard: revenue, gross profit, net profit and cost coverage cards"
+        },
+        {
+          "label": "Orders",
+          "title": "Profit on every order, from estimated to final",
+          "bullets": [
+            "Estimated profit at order time, final profit with the payout",
+            "Filters by status, store and profit",
+            "Search by order, package or barcode"
+          ],
+          "image": "/images/products/karlilik/siparisler.webp",
+          "image_alt": "Kârlılık.NET order list: amount and profit per order"
+        },
+        {
+          "label": "Reports",
+          "title": "Which products make money, and which lose it?",
+          "bullets": [
+            "Breakdowns by product, category, store, returns and ads",
+            "Units sold, returns, revenue, cost, marketplace fees and margin",
+            "One-click export to Excel"
+          ],
+          "image": "/images/products/karlilik/raporlar.webp",
+          "image_alt": "Kârlılık.NET product profitability report"
+        },
+        {
+          "label": "Price Calculator",
+          "title": "Set your price by your target margin",
+          "bullets": [
+            "Product cost, commission and volumetric weight filled in automatically",
+            "Line-by-line breakdown of deductions",
+            "Instantly see the difference from your current price"
+          ],
+          "image": "/images/products/karlilik/fiyat-hesaplayici.webp",
+          "image_alt": "Kârlılık.NET price calculator: suggested selling price from a target margin"
+        },
+        {
+          "label": "Reconciliation",
+          "title": "See every cent that was over-deducted",
+          "bullets": [
+            "Estimated vs final deductions: commission, shipping, service fee",
+            "Suspicious deductions listed per order",
+            "Impact on profit shown separately"
+          ],
+          "image": "/images/products/karlilik/mutabakat.webp",
+          "image_alt": "Kârlılık.NET payout reconciliation: deduction differences"
         }
       ],
       "steps_label": "HOW IT WORKS",
       "steps_title": "Your real profit in four steps",
       "steps": [
         {
+          "title": "Create your account",
+          "text": "14 days free; no card details required."
+        },
+        {
           "title": "Connect your store",
-          "text": "Add your store with your marketplace API key; your products are matched automatically by barcode."
+          "text": "Enter your API key; products are matched by barcode and past orders are imported."
         },
         {
           "title": "Enter your costs",
-          "text": "Enter them manually, via Excel, or let AI read your purchase invoice. A cost is entered once and used across every marketplace."
-        },
-        {
-          "title": "Data syncs automatically",
-          "text": "Orders, commissions, shipping and payout records are synced regularly in the background."
+          "text": "Manually, via Excel, or by uploading an invoice to be read. Entered once, used across all your stores."
         },
         {
           "title": "See your net profit",
-          "text": "Net profit by order, product, category and store; spot loss-making products instantly."
+          "text": "Orders update every 15 minutes, payouts every hour."
         }
       ],
-      "modules_label": "MODULES",
-      "modules_title": "Everything that clarifies your profit, in one dashboard",
-      "modules_subtitle": "The modules a marketplace seller needs, from store connection to payout reconciliation",
+      "modules_label": "FEATURES",
+      "modules_title": "Everything that sharpens your profit picture, in one dashboard",
+      "modules_subtitle": "The modules a marketplace seller needs, from store connection to payout reconciliation.",
       "modules": [
         {
-          "icon": "fas fa-link",
-          "title": "Store Connections",
-          "description": "Connect your Trendyol and Hepsiburada stores with API keys; keys are stored encrypted with AES-256.",
-          "bullets": [
-            "Instant verification with a connection test",
-            "Automatic product matching by barcode",
-            "Multiple stores in one account"
-          ]
+          "icon": "fas fa-plug",
+          "title": "Store connection",
+          "description": "Connect your Trendyol and Hepsiburada stores with an API key; orders, listings and payouts come in automatically."
         },
         {
           "icon": "fas fa-coins",
-          "title": "Cost Management",
-          "description": "Enter product costs three ways and keep a dated cost history.",
-          "bullets": [
-            "Manual entry and cost history",
-            "Excel import with preview",
-            "AI purchase-invoice reading"
-          ]
+          "title": "Cost management",
+          "description": "Enter costs manually, via Excel, or by having AI read your purchase invoice. Cost history is kept with dates."
+        },
+        {
+          "icon": "fas fa-receipt",
+          "title": "Profit per order",
+          "description": "Estimated profit as soon as an order comes in; final profit with the marketplace's actual deductions once the payout is finalized."
+        },
+        {
+          "icon": "fas fa-chart-column",
+          "title": "Reports",
+          "description": "Product, category, store, return and ad reports; your top earners and loss-makers. Export to Excel."
         },
         {
           "icon": "fas fa-calculator",
-          "title": "Profit Engine",
-          "description": "Net profit is calculated for every order using commission, volumetric shipping, service fee, withholding and VAT rules.",
-          "bullets": [
-            "Estimated profit at order time",
-            "Final profit when the payout arrives",
-            "Per-store expense rules"
-          ]
-        },
-        {
-          "icon": "fas fa-chart-line",
-          "title": "Reports and Dashboard",
-          "description": "Profitability reports by order, product, category and store.",
-          "bullets": [
-            "Top earners and loss-makers",
-            "Period comparison",
-            "Export to Excel"
-          ]
-        },
-        {
-          "icon": "fas fa-tags",
-          "title": "Price Calculator",
-          "description": "Enter your target margin and see the selling price that accounts for marketplace deductions.",
-          "bullets": [
-            "Selling price from target margin",
-            "Bulk price suggestions",
-            "Margin from price"
-          ]
+          "title": "Price calculator",
+          "description": "Selling price from your target margin, or profit from a price, with every deduction factored in. Bulk price suggestions."
         },
         {
           "icon": "fas fa-scale-balanced",
-          "title": "Payout Reconciliation",
-          "description": "Catch amounts the marketplace deducted more or less than expected, per order.",
-          "bullets": [
-            "Estimated vs final profit difference",
-            "Difference per deduction item",
-            "List of reconciliation gaps"
-          ]
-        }
-      ],
-      "benefits_title": "The AI doesn't make up numbers, it suggests actions",
-      "benefits_text": "Every figure comes from the calculation engine. The AI only reads and interprets those results and tells you what to do next.",
-      "benefits": [
-        {
-          "icon": "fas fa-comments",
-          "title": "Natural-language Q&A",
-          "text": "Ask \"Which 5 products lost the most money last month?\" and get an answer from your own data."
+          "title": "Payout reconciliation",
+          "description": "Catch commission, shipping and service fees the marketplace deducted beyond what was expected, per order."
         },
         {
-          "icon": "fas fa-envelope-open-text",
-          "title": "Weekly summary",
-          "text": "Every Monday, last week's profit summary and 3 concrete action items in your inbox."
-        },
-        {
-          "icon": "fas fa-file-invoice",
-          "title": "Invoice reading",
-          "text": "Upload a purchase invoice; the AI matches line items to your products. No cost is applied until you approve it."
-        },
-        {
-          "icon": "fas fa-triangle-exclamation",
-          "title": "Missing-cost alerts",
-          "text": "Revenue without costs makes profit meaningless; the system highlights the products that matter most."
-        },
-        {
-          "icon": "fas fa-user-shield",
-          "title": "KVKK compliant",
-          "text": "Buyers' names, addresses, phone numbers and national ID numbers are never stored."
+          "icon": "fas fa-wand-magic-sparkles",
+          "title": "AI assistant",
+          "description": "Ask about your profit in plain language; answers come from your own reports. A weekly summary with suggested actions every Monday."
         },
         {
           "icon": "fas fa-users",
           "title": "Team and roles",
-          "text": "Invite your team and give each user the right permissions."
+          "description": "Invite your team and decide who sees what with account owner, manager and member roles."
         }
       ],
-      "cta_title": "Ready to see your real profit?",
-      "cta_text": "Karlılık.NET is in early access. Get in touch to be among the first to connect your store.",
-      "cta_button": "Request Early Access",
-      "cta_secondary_link": "All Solutions",
+      "benefits_title": "Your store's keys are safe with us",
+      "benefits_text": "We collect the data needed for profit analysis, and nothing more.",
+      "benefits": [
+        {
+          "icon": "fas fa-lock",
+          "title": "Encrypted API keys",
+          "text": "Your marketplace keys are stored encrypted with AES-256 and never shown in plain text in any log or on any screen."
+        },
+        {
+          "icon": "fas fa-user-shield",
+          "title": "No buyer data stored",
+          "text": "Buyers' names, addresses, phone numbers and national ID numbers are never written to the system (KVKK)."
+        },
+        {
+          "icon": "fas fa-trash-can",
+          "title": "Your data is yours",
+          "text": "You can delete your account at any time; after a 7-day waiting period, all data is permanently deleted."
+        },
+        {
+          "icon": "fas fa-credit-card",
+          "title": "Secure payments",
+          "text": "Subscription payments are processed through iyzico; your card details are not stored by Kârlılık.NET."
+        }
+      ],
+      "links_title": "Kârlılık.NET links",
+      "links": [
+        {
+          "icon": "fas fa-globe",
+          "title": "karlilik.net",
+          "text": "Product overview, screens and FAQs",
+          "url": "https://karlilik.net/"
+        },
+        {
+          "icon": "fas fa-play",
+          "title": "Try the demo",
+          "text": "Explore every screen in a store with sample data, no sign-up needed; demo data resets every night.",
+          "url": "https://karlilik.net/login"
+        },
+        {
+          "icon": "fas fa-user-plus",
+          "title": "Create a free account",
+          "text": "14 days free; no card details required, cancel anytime.",
+          "url": "https://karlilik.net/register"
+        },
+        {
+          "icon": "fas fa-tags",
+          "title": "Plans and pricing",
+          "text": "See current plans and prices at karlilik.net.",
+          "url": "https://karlilik.net/#fiyatlar"
+        }
+      ],
+      "faq_title": "Frequently asked questions",
+      "faq": [
+        {
+          "question": "Which marketplaces do you support?",
+          "answer": "Trendyol and Hepsiburada. You can connect multiple stores to one account and report on them together or separately."
+        },
+        {
+          "question": "How often is my data updated?",
+          "answer": "Orders are pulled every 15 minutes, payout and financial records every hour, and listings every 6 hours. When you first connect a store, past orders are imported too."
+        },
+        {
+          "question": "What's the difference between estimated and final profit?",
+          "answer": "When an order comes in, profit is estimated using your store's commission, shipping rate tier and service fee rules. When the marketplace finalizes the payout, final profit is calculated with the actual deductions; any difference appears on the reconciliation screen."
+        },
+        {
+          "question": "How do I enter product costs?",
+          "answer": "One by one on the product screen, in bulk with an Excel template, or by uploading your purchase invoice. AI reads the invoice and matches it to your products; no cost is applied until you approve it."
+        },
+        {
+          "question": "Does the AI calculate the numbers itself?",
+          "answer": "No. All figures come from the profit engine; the assistant only reads and interprets your reports and makes suggestions. Your explicit consent is requested before any data is shared with it."
+        },
+        {
+          "question": "How does the free trial work?",
+          "answer": "A 14-day trial starts when you sign up, with no card details required. Before the trial ends, you can choose any plan and pay via iyzico."
+        },
+        {
+          "question": "Can I try it without signing up?",
+          "answer": "Yes. Use the demo on karlilik.net to explore every screen in a store with sample data; demo data resets every night."
+        }
+      ],
+      "cta_title": "See your real profit today",
+      "cta_text": "Connect your store, enter your costs, and find your loss-making products on day one.",
+      "cta_button": "Start your 14-day free trial",
+      "cta_button_url": "https://karlilik.net/register",
+      "cta_secondary_link": "Try the demo",
+      "cta_secondary_link_url": "https://karlilik.net/login",
       "slug": "karlilik",
       "id": "karlilik"
     },
     "adisyon-qr": {
-      "title": "AgotaSoft Adisyon QR",
-      "badge": "Early access",
-      "hero_subtitle": "A cloud solution for cafés and restaurants that combines QR menu, ordering, kitchen display and billing in one system. Guests scan the QR on the table, open the menu on their phone and order; the order flows from waiter to kitchen to till without a break.",
-      "cta_primary": "Request Early Access",
-      "cta_secondary": "Explore Modules",
+      "title": "AgotaSoft QR Menü",
+      "badge": "Live",
+      "hero_subtitle": "A QR menu, table ordering, kitchen display and billing system for cafés and restaurants. Guests scan the QR code on the table; the menu opens in their phone's browser, and they can order, call a waiter and view the bill. Orders flow seamlessly from waiter to kitchen and on to the till.",
+      "cta_primary": "Request a Demo",
+      "cta_secondary": "qrmenu.agotasoft.com",
+      "cta_secondary_url": "https://qrmenu.agotasoft.com/",
+      "hero_note": "Guests don't need to download an app, create an account or sign in.",
       "facts_title": "At a glance",
       "facts": [
         {
           "icon": "fas fa-qrcode",
-          "label": "No app install, opens from a QR"
+          "label": "Menu opens in the browser via QR"
         },
         {
-          "icon": "fas fa-mobile-screen",
-          "label": "iPhone, iPad and Android"
+          "icon": "fas fa-users-gear",
+          "label": "Waiter, cashier, kitchen and manager roles"
         },
         {
-          "icon": "fas fa-print",
-          "label": "Kitchen display and receipt printer"
+          "icon": "fas fa-fire-burner",
+          "label": "Kitchen display (KDS) and receipt printer"
         },
         {
-          "icon": "fas fa-language",
-          "label": "Multilingual menu"
+          "icon": "fas fa-credit-card",
+          "label": "Online payment at the table via iyzico"
+        }
+      ],
+      "highlights": {
+        "label": "FOR GUESTS",
+        "title": "Order, call a waiter and pay from the table",
+        "text": "Your guests order without creating an account or downloading an app. No name, phone number or email is required, and there are no ads or tracking.",
+        "items": [
+          "Categories, search and product details: photo, description, portion weight, calories and allergens",
+          "Allergen filter: hides products containing the selected allergens",
+          "Product options, quantity and item notes",
+          "Menu shown in the languages the venue has translated it into",
+          "My orders: live status tracking from awaiting approval to preparing to ready",
+          "Call a waiter, or ask for water or the bill, with a single tap",
+          "View the bill: items, discounts, amount paid and balance due",
+          "If the venue enables it, pay all or part of the bill, tip included, via iyzico"
+        ]
+      },
+      "gallery_title": "Guest screens",
+      "gallery_text": "The menu, order and bill screens that open when the QR code on the table is scanned. Screenshots are taken from a demo venue.",
+      "gallery": [
+        {
+          "src": "/images/products/qr-menu/01-musteri-menu.webp",
+          "caption": "Menu: categories, tags, prices and allergen filter"
+        },
+        {
+          "src": "/images/products/qr-menu/02-musteri-urun-ayrintisi.webp",
+          "caption": "Product details: description, preparation time, quantity and note"
+        },
+        {
+          "src": "/images/products/qr-menu/03-musteri-siparislerim.webp",
+          "caption": "My orders: order status; call a waiter, ask for water or the bill"
+        },
+        {
+          "src": "/images/products/qr-menu/04-musteri-hesap.webp",
+          "caption": "Bill: the table's bill item by item and the balance due"
+        }
+      ],
+      "features_label": "STAFF AND MANAGEMENT",
+      "features_title": "From floor to kitchen, from kitchen to till",
+      "features_text": "Waiter, kitchen, till and manager screens. Screenshots are taken from a demo venue.",
+      "features": [
+        {
+          "label": "Floor",
+          "title": "Live table status on one screen",
+          "bullets": [
+            "Empty, open and bill-requested statuses",
+            "QR orders awaiting approval",
+            "Waiter, water and bill requests"
+          ],
+          "image": "/images/products/qr-menu/05-salon.webp",
+          "image_alt": "AgotaSoft QR Menü floor screen: live table status and pending requests",
+          "frame": "browser",
+          "frame_url": "qrmenu.agotasoft.com/admin"
+        },
+        {
+          "label": "Kitchen display (KDS)",
+          "title": "Orders reach the kitchen by station",
+          "bullets": [
+            "Bar and kitchen stations",
+            "Tickets color-coded by waiting time",
+            "Tap an item to mark it preparing / ready"
+          ],
+          "image": "/images/products/qr-menu/06-mutfak-ekrani.webp",
+          "image_alt": "AgotaSoft QR Menü kitchen display (KDS): order tickets by station",
+          "frame": "screen"
+        },
+        {
+          "label": "Bill and till",
+          "title": "Table bill: take payment, split, close",
+          "bullets": [
+            "Orders, subtotal and VAT",
+            "Taking payments, discounts and complimentary items",
+            "Splitting and merging bills"
+          ],
+          "image": "/images/products/qr-menu/07-adisyon.webp",
+          "image_alt": "AgotaSoft QR Menü table bill: orders, subtotal, VAT and payment buttons",
+          "frame": "browser",
+          "frame_url": "qrmenu.agotasoft.com/admin"
+        },
+        {
+          "label": "Admin panel",
+          "title": "Manage your menu in one place",
+          "bullets": [
+            "Products, categories, price and VAT",
+            "Import/export via Excel and CSV",
+            "Options, menus, tables and QR codes"
+          ],
+          "image": "/images/products/qr-menu/08-menu-yonetimi.webp",
+          "image_alt": "AgotaSoft QR Menü admin panel: product list, price, VAT and Excel/CSV import/export",
+          "frame": "browser",
+          "frame_url": "qrmenu.agotasoft.com/admin"
         }
       ],
       "steps_label": "HOW IT WORKS",
@@ -1790,124 +1994,183 @@
       "steps": [
         {
           "title": "Scan the QR",
-          "text": "The guest scans the table QR; the menu opens in the phone's browser with no app to download."
+          "text": "The guest scans the QR code on the table; the menu opens in the phone's browser, with no app to download."
         },
         {
           "title": "Place the order",
-          "text": "They choose items and extras and send the order; they can also call a waiter or ask for the bill."
+          "text": "They choose items and options and send the order; they can also call a waiter or ask for water or the bill."
         },
         {
           "title": "Approval and kitchen",
-          "text": "The waiter approves the order and it lands instantly on the kitchen display and the right printer."
+          "text": "The waiter approves the QR order (or it can be approved automatically if you prefer); the order goes to the kitchen display and the right printer."
         },
         {
           "title": "Bill and payment",
-          "text": "At the till the bill is split or merged, discounts applied, payment taken and the receipt printed."
+          "text": "Payment is taken at the till; the bill can be split or merged, discounts and complimentary items applied, and the receipt printed."
         }
       ],
       "modules_label": "MODULES",
       "modules_title": "From floor to kitchen, from kitchen to till",
-      "modules_subtitle": "Modules that cover your entire service flow",
+      "modules_subtitle": "One system for waiter, cashier, kitchen and management teams; menu, tables, users and settings live in the web admin panel.",
       "modules": [
         {
           "icon": "fas fa-book-open",
           "title": "QR Menu",
-          "description": "A digital menu with categories, product photos, allergens and portion weights.",
+          "description": "A digital menu with categories, product photos, allergens, portion weights and calorie information.",
           "bullets": [
-            "Allergen and weight information",
-            "Turkish, English, Arabic, Russian and German",
-            "Time-based menus like breakfast and dinner"
+            "Allergen filter and product options",
+            "Menu in the languages the venue chooses",
+            "Time-based menus such as breakfast and dinner"
           ]
         },
         {
           "icon": "fas fa-bell-concierge",
-          "title": "Orders and Tables",
-          "description": "Table-based sessions and real-time order tracking.",
+          "title": "Floor and Orders",
+          "description": "Live table view and fast order taking.",
           "bullets": [
-            "Orders via QR or waiter",
-            "Call waiter and request the bill",
-            "Live floor view"
+            "Empty, open and bill-requested statuses",
+            "Fast ordering with categories, options, notes and courses",
+            "If the internet drops, waiter orders are queued"
+          ]
+        },
+        {
+          "icon": "fas fa-circle-check",
+          "title": "QR Order Approval",
+          "description": "Approve or reject orders guests place via QR.",
+          "bullets": [
+            "Optional auto-approval",
+            "Waiter, water and bill requests",
+            "Pending-approval markers on orders"
           ]
         },
         {
           "icon": "fas fa-fire-burner",
           "title": "Kitchen Display (KDS)",
-          "description": "Orders reach the kitchen display by station: hot, cold or bar.",
+          "description": "Orders reach the kitchen display by station.",
           "bullets": [
-            "Station-based routing",
-            "Color alerts by waiting time",
-            "Runs on a tablet"
+            "Stations such as kitchen and bar",
+            "Per-item preparing / ready status",
+            "Color-coded by waiting time; landscape on tablets"
           ]
         },
         {
           "icon": "fas fa-cash-register",
-          "title": "Billing and Checkout",
-          "description": "Split and merge bills, apply discounts, accept different payment methods.",
+          "title": "Till and Billing",
+          "description": "Take payments; split, merge and close bills.",
           "bullets": [
-            "Cash, card and meal cards",
-            "Split and merge bills",
-            "Cash drawer open and close"
+            "Cash, card, meal voucher cards and gift vouchers",
+            "Discounts and complimentary items; split by item or evenly",
+            "Cashier shifts and expected cash"
           ]
         },
         {
-          "icon": "fas fa-print",
-          "title": "Printer Integration",
-          "description": "Works with your existing receipt and kitchen printers (ESC/POS), no extra hardware needed.",
+          "icon": "fas fa-sliders",
+          "title": "Admin Panel and Reports",
+          "description": "Manage menu, tables, users and settings in the web panel.",
           "bullets": [
-            "Printer routing by category",
-            "Turkish character support",
-            "Automatic retry on failed prints"
-          ]
-        },
-        {
-          "icon": "fas fa-chart-simple",
-          "title": "Menu Management and Reports",
-          "description": "Import and export the menu via Excel and set prices per branch.",
-          "bullets": [
-            "Excel and CSV import/export",
-            "Per-branch price and availability",
-            "End-of-day report"
+            "Menu import/export via Excel and CSV",
+            "Tables and QR print page",
+            "End-of-day summary: sales, payment types, orders"
           ]
         }
       ],
-      "benefits_title": "We don't sell hardware; it runs on the devices you have",
-      "benefits_text": "Your phones, tablets and computers are enough; no special hardware required.",
+      "benefits_title": "Works with the devices you already have",
+      "benefits_text": "Your phones, tablets and computers are enough; printing goes through your existing ESC/POS receipt and kitchen printers.",
       "benefits": [
-        {
-          "icon": "fas fa-mobile-screen-button",
-          "title": "One app, two platforms",
-          "text": "Waiter, cashier and kitchen teams use the same app on iPhone, iPad and Android."
-        },
         {
           "icon": "fas fa-bolt",
           "title": "Real-time sync",
-          "text": "Order, kitchen and checkout screens update in real time."
+          "text": "Order, kitchen and till screens update in real time."
         },
         {
           "icon": "fas fa-wifi",
-          "title": "Resilient to outages",
-          "text": "If the connection drops, waiter orders are queued and sent once it's back."
+          "title": "Outage-resilient ordering",
+          "text": "When the connection drops, waiter orders are queued on the device and sent without duplicates once it's back."
+        },
+        {
+          "icon": "fas fa-print",
+          "title": "Receipt and kitchen printers",
+          "text": "Network ESC/POS printers work through the Print Agent running on a computer at the venue; print jobs are routed by category."
         },
         {
           "icon": "fas fa-store",
           "title": "Multi-branch ready",
-          "text": "Manage the menu in one place and set prices and availability per branch."
+          "text": "Manage the menu in one place; set prices and product availability per branch."
         },
         {
           "icon": "fas fa-shield-halved",
           "title": "Secure QR",
-          "text": "Each table's QR is signed, so copied codes can't be used for fake orders."
+          "text": "Each table's QR link carries a secret key, so no one can place orders by guessing table numbers."
         },
         {
           "icon": "fas fa-user-lock",
           "title": "Role-based access",
-          "text": "Separate screens and permissions for waiter, cashier, kitchen and manager."
+          "text": "Separate screens and permissions for waiters, cashiers, kitchen staff, managers and owners."
+        }
+      ],
+      "links_title": "AgotaSoft QR Menü links",
+      "links": [
+        {
+          "icon": "fas fa-globe",
+          "title": "qrmenu.agotasoft.com",
+          "text": "AgotaSoft QR Menü home page",
+          "url": "https://qrmenu.agotasoft.com/"
+        },
+        {
+          "icon": "fas fa-right-to-bracket",
+          "title": "Admin panel",
+          "text": "Sign-in for venue owners and managers",
+          "url": "https://qrmenu.agotasoft.com/admin"
+        },
+        {
+          "icon": "fas fa-life-ring",
+          "title": "Support",
+          "text": "FAQs for guests and venues",
+          "url": "https://qrmenu.agotasoft.com/destek"
+        },
+        {
+          "icon": "fas fa-user-shield",
+          "title": "Privacy",
+          "text": "Privacy policy and data deletion",
+          "url": "https://qrmenu.agotasoft.com/gizlilik"
+        }
+      ],
+      "faq_title": "Frequently asked questions",
+      "faq": [
+        {
+          "question": "Do guests need to download an app?",
+          "answer": "No. When guests scan the table QR code with their phone camera, the menu opens in the browser; they can order, call a waiter and view the bill. There's no sign-up or sign-in, and no name, phone number or email is required."
+        },
+        {
+          "question": "How do I open a business account?",
+          "answer": "Business accounts are set up by AgotaSoft. Write to us via the contact form or at info@agotasoft.com with your business name, and we'll get in touch to set you up."
+        },
+        {
+          "question": "How are staff accounts created?",
+          "answer": "From the Users page in the admin panel. Screens are available by role (waiter, cashier, kitchen, manager, owner); the staff app interface is in Turkish."
+        },
+        {
+          "question": "How do the printers work?",
+          "answer": "Network ESC/POS receipt and kitchen printers are used through the Print Agent running on a computer at the venue. Printers and category routing are set up in the admin panel."
+        },
+        {
+          "question": "What happens if the internet goes down?",
+          "answer": "The staff app queues waiter orders on the device and sends them once the connection is back; till operations can't be done offline. The guest menu may show the last menu it loaded, but no orders can be placed without a connection."
+        },
+        {
+          "question": "How do I enable online payments?",
+          "answer": "Each venue works with its own iyzico merchant account, so the money goes directly to the venue's account. The owner enables online payments by entering the iyzico keys on the Settings page of the admin panel."
+        },
+        {
+          "question": "Which languages is the menu shown in?",
+          "answer": "Menu content is shown in the languages the venue has translated it into; the guest interface is in Turkish and English."
         }
       ],
       "cta_title": "Speed up your venue with QR",
-      "cta_text": "AgotaSoft Adisyon QR is in early access. Get in touch to schedule a demo and be among the first users.",
-      "cta_button": "Request Early Access",
-      "cta_secondary_link": "All Solutions",
+      "cta_text": "Let's set up your menu, tables and team together. Contact us to open a business account and schedule a demo.",
+      "cta_button": "Request a Demo",
+      "cta_secondary_link": "qrmenu.agotasoft.com",
+      "cta_secondary_link_url": "https://qrmenu.agotasoft.com/",
       "slug": "adisyon-qr",
       "id": "adisyon-qr"
     }
@@ -2031,9 +2294,9 @@
     "/pre-accounting": {
       "path": "/pre-accounting",
       "label": "Ön Muhasebe",
-      "title": "AgotaSoft Ön Muhasebe | Finansal Kontrol Tamamen Sizin Elinizde",
-      "description": "E-Fatura, cari hesap, gider takibi ve finansal raporlama.",
-      "keywords": "ön muhasebe, e-fatura, cari hesap, AgotaSoft",
+      "title": "AgotaSoft Ön Muhasebe | Çoklu Döviz, Barkodla Satış, iOS ve Web",
+      "description": "TL, USD ve EUR'u aynı anda takip eden, barkodla satış yapan ön muhasebe programı; iOS uygulaması ve web paneli.",
+      "keywords": "ön muhasebe, çoklu döviz, barkodlu satış, cari hesap, kasa takibi, AgotaSoft",
       "author": "AgotaSoft",
       "robots": "index, follow",
       "canonical": "https://agotasoft.com/pre-accounting",
@@ -2850,11 +3113,11 @@
         "url": "/lms"
       },
       {
-        "label": "Karlılık.NET",
+        "label": "Kârlılık.NET",
         "url": "/karlilik"
       },
       {
-        "label": "Adisyon QR",
+        "label": "QR Menu",
         "url": "/adisyon-qr"
       }
     ],

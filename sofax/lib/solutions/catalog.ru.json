@@ -1,0 +1,796 @@
+{
+	"ui": {
+		"all_solutions": "Все решения",
+		"demo": "Запросить демо",
+		"explore_category": "Смотреть категорию",
+		"soon": "Скоро",
+		"view": "Подробнее",
+		"groups": {
+			"core": "Платформа",
+			"functions": "Бизнес-функции",
+			"industries": "Отрасли",
+			"ecosystem": "Экосистема"
+		},
+		"catalog_badge": "Решений: {products} · Категорий: {categories}",
+		"catalog_title": "Решения Agota для каждого направления вашего бизнеса",
+		"catalog_subtitle": "Решения, которые передают ручную работу программе: от финансов до маркетплейсов, от производства до общения с клиентами. Изучите уже доступные продукты, а по решениям в разработке оставьте запрос на демо и ранний доступ.",
+		"manual_label": "Что сегодня делается вручную",
+		"does_label": "Что делает Agota?",
+		"features_label": "Ключевые возможности",
+		"audience_label": "Для кого?",
+		"soon_note": "Это решение находится в разработке. Свяжитесь с нами: мы первыми сообщим вам, когда откроются демо и ранний доступ, и учтём ваши потребности в дорожной карте.",
+		"demo_cta": "Связаться с нами для демо",
+		"related_title": "Другие решения в этой категории",
+		"cta_title": "С какого решения вы хотите начать?",
+		"cta_text": "Расскажите о своих задачах — вместе подберём подходящие решения Agota и спланируем демо специально для вашего бизнеса.",
+		"home": "Главная",
+		"solutions": "Решения",
+		"contact_message": "Прошу предоставить информацию о решении «{product}» и провести демо.",
+		"meta_catalog_title": "Решения | AgotaSoft",
+		"meta_catalog_description": "Финансы, маркетплейсы, продажи, производство, HR, общение с клиентами и отраслевые решения: каталог продуктов AgotaSoft."
+	},
+	"categories": [
+		{
+			"id": "cekirdek",
+			"group": "core",
+			"icon": "fas fa-cubes",
+			"name": "Базовая платформа",
+			"description": "ERP, CRM и платформа обучения, на которых работают все приложения Agota.",
+			"products": [
+				{
+					"slug": "erp",
+					"name": "AgotaSoft ERP",
+					"icon": "fas fa-diagram-project",
+					"status": "live",
+					"href": "/erp",
+					"tagline": "Склад, продажи, закупки и финансы в одной системе"
+				},
+				{
+					"slug": "crm",
+					"name": "AgotaSoft CRM",
+					"icon": "fas fa-address-book",
+					"status": "live",
+					"href": "/crm",
+					"tagline": "Управление клиентами, сделками и воронкой продаж"
+				},
+				{
+					"slug": "lms",
+					"name": "AgotaSoft LMS",
+					"icon": "fas fa-graduation-cap",
+					"status": "live",
+					"href": "/lms",
+					"tagline": "Корпоративное обучение, тестирование и развитие"
+				}
+			]
+		},
+		{
+			"id": "finans",
+			"group": "functions",
+			"icon": "fas fa-coins",
+			"name": "Финансы и первичный учёт",
+			"description": "Автоматизирует ручной ввод и контроль счетов, банковских операций, поступлений и денежного потока.",
+			"products": [
+				{
+					"slug": "on-muhasebe",
+					"name": "AgotaSoft Бухгалтерия",
+					"icon": "fas fa-calculator",
+					"status": "live",
+					"href": "/pre-accounting",
+					"tagline": "Мультивалютность, продажи по штрихкоду, iOS и веб"
+				},
+				{
+					"slug": "agota-fatura",
+					"name": "AgotaFatura",
+					"icon": "fas fa-file-invoice",
+					"status": "soon",
+					"tagline": "Читает счета и чеки и сам заносит их в учёт"
+				},
+				{
+					"slug": "agota-banka",
+					"name": "AgotaBanka",
+					"icon": "fas fa-building-columns",
+					"status": "soon",
+					"tagline": "Сопоставляет банковские операции со счетами"
+				},
+				{
+					"slug": "agota-tahsilat",
+					"name": "AgotaTahsilat",
+					"icon": "fas fa-hand-holding-dollar",
+					"status": "soon",
+					"tagline": "Напоминает о сроках оплаты, следит за обещаниями"
+				},
+				{
+					"slug": "agota-mutabakat",
+					"name": "AgotaMutabakat",
+					"icon": "fas fa-scale-balanced",
+					"status": "soon",
+					"tagline": "В сверке с контрагентами показывает только расхождения"
+				},
+				{
+					"slug": "agota-nakit",
+					"name": "AgotaNakit",
+					"icon": "fas fa-chart-line",
+					"status": "soon",
+					"tagline": "Прогноз денежного потока на 13 недель"
+				},
+				{
+					"slug": "agota-cek",
+					"name": "AgotaCek",
+					"icon": "fas fa-money-check",
+					"status": "soon",
+					"tagline": "Портфель чеков и векселей, календарь сроков"
+				},
+				{
+					"slug": "agota-masraf",
+					"name": "AgotaMasraf",
+					"icon": "fas fa-receipt",
+					"status": "soon",
+					"tagline": "Сфотографируйте чек — отчёт о расходах заполнится сам"
+				},
+				{
+					"slug": "agota-beyan",
+					"name": "AgotaBeyan",
+					"icon": "fas fa-folder-open",
+					"status": "soon",
+					"tagline": "Собирает документы для бухгалтера и напоминает о недостающих"
+				},
+				{
+					"slug": "cepte-ne-var",
+					"name": "Cepte Ne Var",
+					"icon": "fas fa-wallet",
+					"status": "live",
+					"href": "/service/cepte-ne-var",
+					"tagline": "Коуч по расходам и бюджету в WhatsApp"
+				}
+			]
+		},
+		{
+			"id": "pazaryeri",
+			"group": "functions",
+			"icon": "fas fa-store",
+			"name": "Маркетплейсы и e-commerce",
+			"description": "Автоматизация прибыли, карточек товаров, цен, остатков и операций для продавцов маркетплейсов и интернет-магазинов.",
+			"products": [
+				{
+					"slug": "karlilik",
+					"name": "Kârlılık.NET",
+					"icon": "fas fa-chart-pie",
+					"status": "live",
+					"href": "/karlilik",
+					"tagline": "Реальная чистая прибыль для продавцов маркетплейсов"
+				},
+				{
+					"slug": "agota-liste",
+					"name": "AgotaListe",
+					"icon": "fas fa-wand-magic-sparkles",
+					"status": "soon",
+					"tagline": "Карточка для маркетплейса из 1 фото и 3 слов"
+				},
+				{
+					"slug": "agota-fiyat",
+					"name": "AgotaFiyat",
+					"icon": "fas fa-tags",
+					"status": "soon",
+					"tagline": "Динамические цены с учётом конкурентов и целевой маржи"
+				},
+				{
+					"slug": "agota-stoksenk",
+					"name": "AgotaStokSenk",
+					"icon": "fas fa-arrows-rotate",
+					"status": "soon",
+					"tagline": "Единые остатки во всех каналах продаж"
+				},
+				{
+					"slug": "agota-yorum",
+					"name": "AgotaYorum",
+					"icon": "fas fa-comments",
+					"status": "soon",
+					"tagline": "Своевременные ответы на вопросы, отзывы и возвраты"
+				},
+				{
+					"slug": "agota-reklam",
+					"name": "AgotaReklam",
+					"icon": "fas fa-bullhorn",
+					"status": "soon",
+					"tagline": "Распределяет рекламный бюджет по прибыльности товаров"
+				},
+				{
+					"slug": "agota-iade",
+					"name": "AgotaIade",
+					"icon": "fas fa-rotate-left",
+					"status": "soon",
+					"tagline": "Оценка повреждений по фото, решение и оформление возврата"
+				},
+				{
+					"slug": "agota-kargo",
+					"name": "AgotaKargo",
+					"icon": "fas fa-truck-fast",
+					"status": "soon",
+					"tagline": "Выбор перевозчика, массовые этикетки, оповещения о задержках"
+				},
+				{
+					"slug": "agota-rakip",
+					"name": "AgotaRakip",
+					"icon": "fas fa-binoculars",
+					"status": "soon",
+					"tagline": "Мониторинг цен, остатков и отзывов конкурентов"
+				},
+				{
+					"slug": "agota-katalog",
+					"name": "AgotaKatalog",
+					"icon": "fas fa-table-list",
+					"status": "soon",
+					"tagline": "От прайс-листа поставщика к карточке товара"
+				}
+			]
+		},
+		{
+			"id": "satis",
+			"group": "functions",
+			"icon": "fas fa-handshake",
+			"name": "Продажи и CRM",
+			"description": "Автоматически формирует коммерческие предложения, заказы и историю работы с клиентами из сообщений и заметок.",
+			"products": [
+				{
+					"slug": "agota-teklif",
+					"name": "AgotaTeklif",
+					"icon": "fas fa-file-invoice-dollar",
+					"status": "soon",
+					"tagline": "Коммерческое предложение в PDF из сообщения в WhatsApp"
+				},
+				{
+					"slug": "agota-siparis",
+					"name": "AgotaSiparis",
+					"icon": "fas fa-cart-shopping",
+					"status": "soon",
+					"tagline": "Структурирует заказы из любых каналов"
+				},
+				{
+					"slug": "agota-musteri",
+					"name": "AgotaMusteri",
+					"icon": "fas fa-user-group",
+					"status": "soon",
+					"tagline": "Ассистент, который сам обновляет CRM"
+				},
+				{
+					"slug": "agota-bayi",
+					"name": "AgotaBayi",
+					"icon": "fas fa-network-wired",
+					"status": "soon",
+					"tagline": "Портал самообслуживания для ваших дилеров"
+				},
+				{
+					"slug": "agota-plasiyer",
+					"name": "AgotaPlasiyer",
+					"icon": "fas fa-route",
+					"status": "soon",
+					"tagline": "Голосовой ассистент для торговых представителей"
+				}
+			]
+		},
+		{
+			"id": "satinalma",
+			"group": "functions",
+			"icon": "fas fa-cart-flatbed",
+			"name": "Закупки и снабжение",
+			"description": "Автоматизирует сбор цен, оценку поставщиков и расчёт себестоимости.",
+			"products": [
+				{
+					"slug": "agota-satinal",
+					"name": "AgotaSatinal",
+					"icon": "fas fa-cart-arrow-down",
+					"status": "soon",
+					"tagline": "При низком остатке собирает цены и готовит заказ"
+				},
+				{
+					"slug": "agota-tedarikci",
+					"name": "AgotaTedarikci",
+					"icon": "fas fa-star-half-stroke",
+					"status": "soon",
+					"tagline": "Рейтинг эффективности поставщиков"
+				},
+				{
+					"slug": "agota-ihale",
+					"name": "AgotaIhale",
+					"icon": "fas fa-gavel",
+					"status": "soon",
+					"tagline": "Находит подходящие тендеры и готовит заявку"
+				},
+				{
+					"slug": "agota-maliyet",
+					"name": "AgotaMaliyet",
+					"icon": "fas fa-sack-dollar",
+					"status": "soon",
+					"tagline": "Обновляет себестоимость при изменении цен на ресурсы"
+				}
+			]
+		},
+		{
+			"id": "stok",
+			"group": "functions",
+			"icon": "fas fa-warehouse",
+			"name": "Запасы, склад и логистика",
+			"description": "Управляет инвентаризацией, прогнозом спроса и отгрузками с помощью камеры телефона и WhatsApp.",
+			"products": [
+				{
+					"slug": "mobil-barkod",
+					"name": "Мобильная система штрихкодов",
+					"icon": "fas fa-barcode",
+					"status": "live",
+					"href": "/mobil-barkod",
+					"tagline": "Инвентаризация и учёт запасов с телефона"
+				},
+				{
+					"slug": "agota-depo",
+					"name": "AgotaDepo",
+					"icon": "fas fa-boxes-stacked",
+					"status": "soon",
+					"tagline": "Пересчёт камерой, распознавание товаров без штрихкода"
+				},
+				{
+					"slug": "agota-talep",
+					"name": "AgotaTalep",
+					"icon": "fas fa-chart-column",
+					"status": "soon",
+					"tagline": "Что и в каком количестве закупать?"
+				},
+				{
+					"slug": "agota-sevk",
+					"name": "AgotaSevk",
+					"icon": "fas fa-truck",
+					"status": "soon",
+					"tagline": "Маршруты, накладные и доставка с фотоподтверждением"
+				}
+			]
+		},
+		{
+			"id": "uretim",
+			"group": "functions",
+			"icon": "fas fa-industry",
+			"name": "Производство и цеха",
+			"description": "Управляет производственными заданиями, субподрядом, качеством и обслуживанием оборудования на основе заказов и фотографий.",
+			"products": [
+				{
+					"slug": "agota-uretim",
+					"name": "AgotaUretim",
+					"icon": "fas fa-gears",
+					"status": "soon",
+					"tagline": "От заказа к производственному заданию и плану"
+				},
+				{
+					"slug": "agota-fason",
+					"name": "AgotaFason",
+					"icon": "fas fa-people-carry-box",
+					"status": "soon",
+					"tagline": "Контроль субподрядных цехов и этапов работ"
+				},
+				{
+					"slug": "agota-kalite",
+					"name": "AgotaKalite",
+					"icon": "fas fa-clipboard-check",
+					"status": "soon",
+					"tagline": "Класс дефекта по фото и отчёт о несоответствии"
+				},
+				{
+					"slug": "agota-bakim",
+					"name": "AgotaBakim",
+					"icon": "fas fa-screwdriver-wrench",
+					"status": "soon",
+					"tagline": "График обслуживания станков и заявки о поломках"
+				}
+			]
+		},
+		{
+			"id": "ik",
+			"group": "functions",
+			"icon": "fas fa-users",
+			"name": "HR и зарплата",
+			"description": "Упрощает учёт рабочего времени, подбор персонала, планирование смен и обмен знаниями внутри компании.",
+			"products": [
+				{
+					"slug": "agota-bordro",
+					"name": "AgotaBordro",
+					"icon": "fas fa-money-bill-wave",
+					"status": "soon",
+					"tagline": "Черновик расчёта зарплаты по табелю"
+				},
+				{
+					"slug": "agota-aday",
+					"name": "AgotaAday",
+					"icon": "fas fa-user-plus",
+					"status": "soon",
+					"tagline": "Ассистент найма: от вакансии до собеседования"
+				},
+				{
+					"slug": "agota-vardiya",
+					"name": "AgotaVardiya",
+					"icon": "fas fa-business-time",
+					"status": "soon",
+					"tagline": "График смен и расчёт сверхурочных"
+				},
+				{
+					"slug": "agota-rehber",
+					"name": "AgotaRehber",
+					"icon": "fas fa-book-open",
+					"status": "soon",
+					"tagline": "Ассистент по внутренним правилам и адаптации"
+				},
+				{
+					"slug": "gorevim-ne",
+					"name": "Görevim Ne",
+					"icon": "fas fa-list-check",
+					"status": "live",
+					"href": "/service/gorevim-ne",
+					"tagline": "Управление задачами прямо в мессенджере"
+				}
+			]
+		},
+		{
+			"id": "iletisim",
+			"group": "functions",
+			"icon": "fas fa-headset",
+			"name": "Общение с клиентами",
+			"description": "Собирает в одном месте обращения клиентов из WhatsApp, Instagram, электронной почты и по телефону.",
+			"products": [
+				{
+					"slug": "agota-hat",
+					"name": "AgotaHat",
+					"icon": "fas fa-inbox",
+					"status": "soon",
+					"tagline": "WhatsApp, Instagram и e-mail в одной ленте входящих"
+				},
+				{
+					"slug": "agota-ses",
+					"name": "AgotaSes",
+					"icon": "fas fa-phone-volume",
+					"status": "soon",
+					"tagline": "Голосовой ассистент для входящих звонков"
+				},
+				{
+					"slug": "agota-sikayet",
+					"name": "AgotaSikayet",
+					"icon": "fas fa-face-frown",
+					"status": "soon",
+					"tagline": "Собирает жалобы и отзывы и отвечает на них"
+				},
+				{
+					"slug": "agota-sadakat",
+					"name": "AgotaSadakat",
+					"icon": "fas fa-heart",
+					"status": "soon",
+					"tagline": "Сегментация и возврат ушедших клиентов"
+				}
+			]
+		},
+		{
+			"id": "pazarlama",
+			"group": "functions",
+			"icon": "fas fa-bullseye",
+			"name": "Маркетинг и контент",
+			"description": "Автоматизирует создание контента, кампании и присутствие в интернете.",
+			"products": [
+				{
+					"slug": "kurumsal-website",
+					"name": "Корпоративный сайт",
+					"icon": "fas fa-globe",
+					"status": "live",
+					"href": "/kurumsal-website",
+					"tagline": "SEO-оптимизированный сайт с панелью управления"
+				},
+				{
+					"slug": "agota-studyo",
+					"name": "AgotaStudyo",
+					"icon": "fas fa-camera",
+					"status": "soon",
+					"tagline": "Контент-план из фотографий товаров"
+				},
+				{
+					"slug": "agota-site",
+					"name": "AgotaSite",
+					"icon": "fas fa-window-maximize",
+					"status": "soon",
+					"tagline": "Товар добавлен в ERP — и уже на сайте"
+				},
+				{
+					"slug": "agota-kampanya",
+					"name": "AgotaKampanya",
+					"icon": "fas fa-envelope-open-text",
+					"status": "soon",
+					"tagline": "Рассылки по e-mail, SMS и WhatsApp"
+				},
+				{
+					"slug": "agota-harita",
+					"name": "AgotaHarita",
+					"icon": "fas fa-map-location-dot",
+					"status": "soon",
+					"tagline": "Управление профилем компании в Google"
+				}
+			]
+		},
+		{
+			"id": "dokuman",
+			"group": "functions",
+			"icon": "fas fa-file-contract",
+			"name": "Документы, право и комплаенс",
+			"description": "Делает договоры, процессы по KVKK (закону Турции о персональных данных), архив и согласования доступными для поиска и контроля.",
+			"products": [
+				{
+					"slug": "agota-sozlesme",
+					"name": "AgotaSozlesme",
+					"icon": "fas fa-file-signature",
+					"status": "soon",
+					"tagline": "Отмечает рискованные пункты, напоминает о продлении"
+				},
+				{
+					"slug": "agota-kvkk",
+					"name": "AgotaKVKK",
+					"icon": "fas fa-user-shield",
+					"status": "soon",
+					"tagline": "Соответствие KVKK — закону Турции о персональных данных"
+				},
+				{
+					"slug": "agota-arsiv",
+					"name": "AgotaArsiv",
+					"icon": "fas fa-box-archive",
+					"status": "soon",
+					"tagline": "Поиск по всем вашим документам"
+				},
+				{
+					"slug": "agota-onay",
+					"name": "AgotaOnay",
+					"icon": "fas fa-stamp",
+					"status": "soon",
+					"tagline": "Согласование расходов, отпусков и скидок"
+				},
+				{
+					"slug": "agota-dilekce",
+					"name": "AgotaDilekce",
+					"icon": "fas fa-file-pen",
+					"status": "soon",
+					"tagline": "Черновики официальных писем и заявлений"
+				}
+			]
+		},
+		{
+			"id": "raporlama",
+			"group": "functions",
+			"icon": "fas fa-chart-simple",
+			"name": "Отчётность и решения",
+			"description": "Задавайте вопросы своим данным на естественном языке — сводки, предупреждения и сценарный анализ приходят сами.",
+			"products": [
+				{
+					"slug": "agota-sor",
+					"name": "AgotaSor",
+					"icon": "fas fa-magnifying-glass-chart",
+					"status": "soon",
+					"tagline": "Вопросы к вашим данным на естественном языке"
+				},
+				{
+					"slug": "agota-panel",
+					"name": "AgotaPanel",
+					"icon": "fas fa-gauge-high",
+					"status": "soon",
+					"tagline": "Еженедельная сводка для владельца бизнеса"
+				},
+				{
+					"slug": "agota-uyari",
+					"name": "AgotaUyari",
+					"icon": "fas fa-bell",
+					"status": "soon",
+					"tagline": "Предупреждает о нетипичных ситуациях"
+				},
+				{
+					"slug": "agota-senaryo",
+					"name": "AgotaSenaryo",
+					"icon": "fas fa-sliders",
+					"status": "soon",
+					"tagline": "Анализ «а что, если?»"
+				}
+			]
+		},
+		{
+			"id": "saha",
+			"group": "functions",
+			"icon": "fas fa-toolbox",
+			"name": "Выездные работы и сервис",
+			"description": "Автоматизирует работу выездных сервисных бригад и замерщиков — от заполнения формы до выставления счёта.",
+			"products": [
+				{
+					"slug": "agota-saha",
+					"name": "AgotaSaha",
+					"icon": "fas fa-user-gear",
+					"status": "soon",
+					"tagline": "Назначение задач и закрытие работ с фотоотчётом"
+				},
+				{
+					"slug": "agota-kesif",
+					"name": "AgotaKesif",
+					"icon": "fas fa-ruler-combined",
+					"status": "soon",
+					"tagline": "От выезда на замер до коммерческого предложения"
+				}
+			]
+		},
+		{
+			"id": "sektorel",
+			"group": "industries",
+			"layout": "tiles",
+			"icon": "fas fa-shop",
+			"name": "Отраслевые решения",
+			"description": "Базовая платформа плюс отраслевой ассистент: решения, выстроенные под рабочие процессы каждой отрасли.",
+			"products": [
+				{
+					"slug": "adisyon-qr",
+					"name": "AgotaSoft QR Menü",
+					"sector": "Рестораны и кафе",
+					"icon": "fas fa-qrcode",
+					"status": "live",
+					"href": "/adisyon-qr",
+					"tagline": "QR-меню, заказ со стола, кухонный экран и счета"
+				},
+				{
+					"slug": "agota-mutfak",
+					"name": "AgotaMutfak",
+					"sector": "Ресторанная кухня",
+					"icon": "fas fa-utensils",
+					"status": "soon",
+					"tagline": "Себестоимость рецептур, потери и заказ на день"
+				},
+				{
+					"slug": "agota-randevu",
+					"name": "AgotaRandevu",
+					"sector": "Парикмахерские и салоны красоты",
+					"icon": "fas fa-calendar-check",
+					"status": "soon",
+					"tagline": "Запись клиентов из сообщений WhatsApp и Instagram"
+				},
+				{
+					"slug": "agota-klinik",
+					"name": "AgotaKlinik",
+					"sector": "Клиники",
+					"icon": "fas fa-stethoscope",
+					"status": "soon",
+					"tagline": "Карта пациента, план лечения и напоминания"
+				},
+				{
+					"slug": "agota-konak",
+					"name": "AgotaKonak",
+					"sector": "Отели и гостевые дома",
+					"icon": "fas fa-hotel",
+					"status": "soon",
+					"tagline": "Синхронизация каналов и ассистент для гостей"
+				},
+				{
+					"slug": "agota-servis",
+					"name": "AgotaServis",
+					"sector": "Автосервис",
+					"icon": "fas fa-car-side",
+					"status": "soon",
+					"tagline": "История авто по госномеру, голосовой заказ-наряд"
+				},
+				{
+					"slug": "agota-emlak",
+					"name": "AgotaEmlak",
+					"sector": "Недвижимость",
+					"icon": "fas fa-house-chimney",
+					"status": "soon",
+					"tagline": "Тексты объявлений и подбор объектов для покупателей"
+				},
+				{
+					"slug": "agota-santiye",
+					"name": "AgotaSantiye",
+					"sector": "Строительство",
+					"icon": "fas fa-helmet-safety",
+					"status": "soon",
+					"tagline": "Акты выполненных работ, объёмы и табель"
+				},
+				{
+					"slug": "agota-tarla",
+					"name": "AgotaTarla",
+					"sector": "Сельское хозяйство и теплицы",
+					"icon": "fas fa-tractor",
+					"status": "soon",
+					"tagline": "Себестоимость, цены оптового рынка, обработки и полив"
+				},
+				{
+					"slug": "agota-kurs",
+					"name": "AgotaKurs",
+					"sector": "Учебные курсы и спортзалы",
+					"icon": "fas fa-chalkboard-user",
+					"status": "soon",
+					"tagline": "Запись, рассрочка, посещаемость и связь с родителями"
+				},
+				{
+					"slug": "agota-musavir",
+					"name": "AgotaMusavir",
+					"sector": "Бухгалтерские бюро",
+					"icon": "fas fa-briefcase",
+					"status": "soon",
+					"tagline": "Сбор документов у клиентов, календарь деклараций"
+				},
+				{
+					"slug": "agota-atolye",
+					"name": "AgotaAtolye",
+					"sector": "Швейное производство",
+					"icon": "fas fa-shirt",
+					"status": "soon",
+					"tagline": "Модели, образцы, план раскроя и контроль субподряда"
+				},
+				{
+					"slug": "agota-filo",
+					"name": "AgotaFilo",
+					"sector": "Грузоперевозки",
+					"icon": "fas fa-truck-moving",
+					"status": "soon",
+					"tagline": "Подбор машин, водителей и грузов"
+				},
+				{
+					"slug": "agota-market",
+					"name": "AgotaMarket",
+					"sector": "Продуктовые магазины",
+					"icon": "fas fa-basket-shopping",
+					"status": "soon",
+					"tagline": "Касса (POS), сроки годности, автозаказ поставщикам"
+				}
+			]
+		},
+		{
+			"id": "ekosistem",
+			"group": "ecosystem",
+			"icon": "fas fa-circle-nodes",
+			"name": "Экосистема и торговые площадки",
+			"description": "На этих площадках друг с другом торгуют не люди, а ассистенты компаний: платформенный уровень AgotaSoft.",
+			"products": [
+				{
+					"slug": "agota-store",
+					"name": "AgotaStore",
+					"icon": "fas fa-puzzle-piece",
+					"status": "soon",
+					"tagline": "Магазин приложений и ассистентов Agota"
+				},
+				{
+					"slug": "agota-tedarik",
+					"name": "AgotaTedarik",
+					"icon": "fas fa-right-left",
+					"status": "soon",
+					"tagline": "B2B-торговля напрямую из ERP в ERP"
+				},
+				{
+					"slug": "agota-fasonpazar",
+					"name": "AgotaFasonPazar",
+					"icon": "fas fa-handshake-angle",
+					"status": "soon",
+					"tagline": "Находит заказы для свободных производственных мощностей"
+				},
+				{
+					"slug": "agota-hizmet",
+					"name": "AgotaHizmet",
+					"icon": "fas fa-bell-concierge",
+					"status": "soon",
+					"tagline": "Закупка корпоративных услуг"
+				},
+				{
+					"slug": "agota-makine",
+					"name": "AgotaMakine",
+					"icon": "fas fa-dolly",
+					"status": "soon",
+					"tagline": "Площадка б/у станков и оборудования"
+				},
+				{
+					"slug": "agota-endeks",
+					"name": "AgotaEndeks",
+					"icon": "fas fa-chart-area",
+					"status": "soon",
+					"tagline": "Отраслевые индексы цен, маржи и сроков оплаты"
+				},
+				{
+					"slug": "agota-finans",
+					"name": "AgotaFinans",
+					"icon": "fas fa-landmark",
+					"status": "soon",
+					"tagline": "Доступ к финансированию на основе данных вашего бизнеса"
+				}
+			]
+		}
+	]
+}

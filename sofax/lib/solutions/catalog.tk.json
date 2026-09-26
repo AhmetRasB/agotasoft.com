@@ -1,0 +1,796 @@
+{
+	"ui": {
+		"all_solutions": "Ähli çözgütler",
+		"demo": "Demo sorap",
+		"explore_category": "Kategoriýany görmek",
+		"soon": "Ýakynda",
+		"view": "Görmek",
+		"groups": {
+			"core": "Platforma",
+			"functions": "Iş ugurlary",
+			"industries": "Pudaklar",
+			"ecosystem": "Ekosistema"
+		},
+		"catalog_badge": "{products} çözgüt · {categories} kategoriýa",
+		"catalog_title": "Biznesiňiziň her ugry üçin Agota çözgüdi",
+		"catalog_subtitle": "El bilen edilýän işleri programma tabşyrýan çözgütler: maliýeden marketpleýse, öndürişden müşderi aragatnaşygyna çenli. Elýeterli önümlerimiz bilen häzir tanyşyň; işlenip düzülýän çözgütler üçin demo we irki elýeterlilik islegiňizi bize iberiň.",
+		"manual_label": "Häzir el bilen edilýän iş",
+		"does_label": "Agota näme edýär?",
+		"features_label": "Esasy aýratynlyklar",
+		"audience_label": "Kimler üçin?",
+		"soon_note": "Bu çözgüt işlenip düzülýär. Biz bilen habarlaşyň: demo we irki elýeterlilik açylanda ilki size habar bereris, islegleriňizi ösüş meýilnamamyza goşarys.",
+		"demo_cta": "Demo üçin habarlaşyň",
+		"related_title": "Şu kategoriýadaky beýleki çözgütler",
+		"cta_title": "Haýsy çözgütden başlamak isleýärsiňiz?",
+		"cta_text": "Islegiňizi aýdyň; biznesiňize laýyk Agota çözgütlerini bilelikde saýlap, size ýörite demo meýilleşdireliň.",
+		"home": "Baş sahypa",
+		"solutions": "Çözgütler",
+		"contact_message": "{product} barada maglumat almak we demo görmek isleýärin.",
+		"meta_catalog_title": "Çözgütler | AgotaSoft",
+		"meta_catalog_description": "Maliýe, marketpleýs, satuw, öndüriş, adam resurslary, müşderi aragatnaşygy we pudak çözgütleri: AgotaSoft önüm katalogy."
+	},
+	"categories": [
+		{
+			"id": "cekirdek",
+			"group": "core",
+			"icon": "fas fa-cubes",
+			"name": "Esasy platforma",
+			"description": "Ähli Agota programmalarynyň esasynda işleýän ERP, CRM we okuw infrastrukturasy.",
+			"products": [
+				{
+					"slug": "erp",
+					"name": "AgotaSoft ERP",
+					"icon": "fas fa-diagram-project",
+					"status": "live",
+					"href": "/erp",
+					"tagline": "Ätiýaçlyk, satuw, satyn alma we maliýe bir ulgamda"
+				},
+				{
+					"slug": "crm",
+					"name": "AgotaSoft CRM",
+					"icon": "fas fa-address-book",
+					"status": "live",
+					"href": "/crm",
+					"tagline": "Müşderi, mümkinçilik we satuw akymy dolandyryşy"
+				},
+				{
+					"slug": "lms",
+					"name": "AgotaSoft LMS",
+					"icon": "fas fa-graduation-cap",
+					"status": "live",
+					"href": "/lms",
+					"tagline": "Korporatiw okuw, synag we ösüş platformasy"
+				}
+			]
+		},
+		{
+			"id": "finans",
+			"group": "functions",
+			"icon": "fas fa-coins",
+			"name": "Maliýe & Buhgalteriýa",
+			"description": "Faktura, bank, töleg ýygnamak we pul akymy boýunça el bilen edilýän ýazgylary we yzarlamany awtomatlaşdyrýar.",
+			"products": [
+				{
+					"slug": "on-muhasebe",
+					"name": "AgotaSoft Buhgalteriýa",
+					"icon": "fas fa-calculator",
+					"status": "live",
+					"href": "/pre-accounting",
+					"tagline": "Köp walýuta, ştrih-kod bilen satuw, iOS we web"
+				},
+				{
+					"slug": "agota-fatura",
+					"name": "AgotaFatura",
+					"icon": "fas fa-file-invoice",
+					"status": "soon",
+					"tagline": "Faktura we çekleri okaýar, ýazgyny özi açýar"
+				},
+				{
+					"slug": "agota-banka",
+					"name": "AgotaBanka",
+					"icon": "fas fa-building-columns",
+					"status": "soon",
+					"tagline": "Bank hereketlerini fakturalar bilen gabat getirýär"
+				},
+				{
+					"slug": "agota-tahsilat",
+					"name": "AgotaTahsilat",
+					"icon": "fas fa-hand-holding-dollar",
+					"status": "soon",
+					"tagline": "Möhleti ýetýän bergini ýatladýar, töleg wadasyny yzarlaýar"
+				},
+				{
+					"slug": "agota-mutabakat",
+					"name": "AgotaMutabakat",
+					"icon": "fas fa-scale-balanced",
+					"status": "soon",
+					"tagline": "Hasaplaşyk deňeşdirmesinde diňe tapawudy görkezýär"
+				},
+				{
+					"slug": "agota-nakit",
+					"name": "AgotaNakit",
+					"icon": "fas fa-chart-line",
+					"status": "soon",
+					"tagline": "13 hepdelik pul akymy çaklamasy"
+				},
+				{
+					"slug": "agota-cek",
+					"name": "AgotaCek",
+					"icon": "fas fa-money-check",
+					"status": "soon",
+					"tagline": "Çek we weksel portfeli, möhletler senenamasy"
+				},
+				{
+					"slug": "agota-masraf",
+					"name": "AgotaMasraf",
+					"icon": "fas fa-receipt",
+					"status": "soon",
+					"tagline": "Çegi surata alyň, çykdajy formy öz-özünden doldurylsyn"
+				},
+				{
+					"slug": "agota-beyan",
+					"name": "AgotaBeyan",
+					"icon": "fas fa-folder-open",
+					"status": "soon",
+					"tagline": "Geňeşçiňiz üçin resminama ýygnaýar, ýetmeýänini yzarlaýar"
+				},
+				{
+					"slug": "cepte-ne-var",
+					"name": "Cepte Ne Var",
+					"icon": "fas fa-wallet",
+					"status": "live",
+					"href": "/service/cepte-ne-var",
+					"tagline": "WhatsApp arkaly çykdajy we býudjet koçy"
+				}
+			]
+		},
+		{
+			"id": "pazaryeri",
+			"group": "functions",
+			"icon": "fas fa-store",
+			"name": "Marketpleýs & E-söwda",
+			"description": "Marketpleýs we e-söwda satyjylary üçin girdeji, bildiriş, baha, ätiýaçlyk we amallar awtomatlaşdyrmasy.",
+			"products": [
+				{
+					"slug": "karlilik",
+					"name": "Kârlılık.NET",
+					"icon": "fas fa-chart-pie",
+					"status": "live",
+					"href": "/karlilik",
+					"tagline": "Marketpleýs satyjylary üçin hakyky arassa girdeji"
+				},
+				{
+					"slug": "agota-liste",
+					"name": "AgotaListe",
+					"icon": "fas fa-wand-magic-sparkles",
+					"status": "soon",
+					"tagline": "1 surat + 3 sözden marketpleýs bildirişi"
+				},
+				{
+					"slug": "agota-fiyat",
+					"name": "AgotaFiyat",
+					"icon": "fas fa-tags",
+					"status": "soon",
+					"tagline": "Bäsdeşe we maksat marjasyna görä dinamik baha"
+				},
+				{
+					"slug": "agota-stoksenk",
+					"name": "AgotaStokSenk",
+					"icon": "fas fa-arrows-rotate",
+					"status": "soon",
+					"tagline": "Ähli satuw kanallarynda ýeke-täk ätiýaçlyk"
+				},
+				{
+					"slug": "agota-yorum",
+					"name": "AgotaYorum",
+					"icon": "fas fa-comments",
+					"status": "soon",
+					"tagline": "Soraga, teswire we gaýtarma islegine wagtynda jogap"
+				},
+				{
+					"slug": "agota-reklam",
+					"name": "AgotaReklam",
+					"icon": "fas fa-bullhorn",
+					"status": "soon",
+					"tagline": "Mahabat býudjetini önüm girdejiligine görä paýlaýar"
+				},
+				{
+					"slug": "agota-iade",
+					"name": "AgotaIade",
+					"icon": "fas fa-rotate-left",
+					"status": "soon",
+					"tagline": "Suratdan zeper barlagy, gaýtarma karary we ýazgysy"
+				},
+				{
+					"slug": "agota-kargo",
+					"name": "AgotaKargo",
+					"icon": "fas fa-truck-fast",
+					"status": "soon",
+					"tagline": "Laýyk kurýer, köpçülikleýin etiketka, gijikme habary"
+				},
+				{
+					"slug": "agota-rakip",
+					"name": "AgotaRakip",
+					"icon": "fas fa-binoculars",
+					"status": "soon",
+					"tagline": "Bäsdeşiň bahasyny, ätiýaçlygyny we teswirlerini yzarlamak"
+				},
+				{
+					"slug": "agota-katalog",
+					"name": "AgotaKatalog",
+					"icon": "fas fa-table-list",
+					"status": "soon",
+					"tagline": "Üpjün edijiniň baha sanawyndan önüm kartasyna"
+				}
+			]
+		},
+		{
+			"id": "satis",
+			"group": "functions",
+			"icon": "fas fa-handshake",
+			"name": "Satuw & CRM",
+			"description": "Teklipleri, sargytlary we müşderi yzarlamasyny habarlardan we belliklerden özi döredýär.",
+			"products": [
+				{
+					"slug": "agota-teklif",
+					"name": "AgotaTeklif",
+					"icon": "fas fa-file-invoice-dollar",
+					"status": "soon",
+					"tagline": "WhatsApp habaryndan PDF teklip"
+				},
+				{
+					"slug": "agota-siparis",
+					"name": "AgotaSiparis",
+					"icon": "fas fa-cart-shopping",
+					"status": "soon",
+					"tagline": "Her kanaldan gelen sargydy tertipli ýazga öwürýär"
+				},
+				{
+					"slug": "agota-musteri",
+					"name": "AgotaMusteri",
+					"icon": "fas fa-user-group",
+					"status": "soon",
+					"tagline": "CRM-i özi täzeleýän kömekçi"
+				},
+				{
+					"slug": "agota-bayi",
+					"name": "AgotaBayi",
+					"icon": "fas fa-network-wired",
+					"status": "soon",
+					"tagline": "Dilerleriňiz üçin öz-özüne hyzmat portaly"
+				},
+				{
+					"slug": "agota-plasiyer",
+					"name": "AgotaPlasiyer",
+					"icon": "fas fa-route",
+					"status": "soon",
+					"tagline": "Meýdan satuw işgäri üçin sesli kömekçi"
+				}
+			]
+		},
+		{
+			"id": "satinalma",
+			"group": "functions",
+			"icon": "fas fa-cart-flatbed",
+			"name": "Satyn alma & Üpjünçilik",
+			"description": "Baha ýygnamagy, üpjün edijileri bahalandyrmagy we özüne düşýän baha hasabyny awtomatlaşdyrýar.",
+			"products": [
+				{
+					"slug": "agota-satinal",
+					"name": "AgotaSatinal",
+					"icon": "fas fa-cart-arrow-down",
+					"status": "soon",
+					"tagline": "Ätiýaçlyk azalsa teklip ýygnaýar, sargyt taslamasyny düzýär"
+				},
+				{
+					"slug": "agota-tedarikci",
+					"name": "AgotaTedarikci",
+					"icon": "fas fa-star-half-stroke",
+					"status": "soon",
+					"tagline": "Üpjün edijiniň netijelilik baly"
+				},
+				{
+					"slug": "agota-ihale",
+					"name": "AgotaIhale",
+					"icon": "fas fa-gavel",
+					"status": "soon",
+					"tagline": "Size laýyk tenderi tapýar, teklip bukjasyny taýýarlaýar"
+				},
+				{
+					"slug": "agota-maliyet",
+					"name": "AgotaMaliyet",
+					"icon": "fas fa-sack-dollar",
+					"status": "soon",
+					"tagline": "Çykdajylar üýtgände özüne düşýän bahany täzeleýär"
+				}
+			]
+		},
+		{
+			"id": "stok",
+			"group": "functions",
+			"icon": "fas fa-warehouse",
+			"name": "Ätiýaçlyk, Ammar & Logistika",
+			"description": "Sanawy, isleg çaklamasyny we ýük ugratmagy telefon kamerasy we WhatsApp arkaly dolandyrýar.",
+			"products": [
+				{
+					"slug": "mobil-barkod",
+					"name": "Mobil ştrih-kod ulgamy",
+					"icon": "fas fa-barcode",
+					"status": "live",
+					"href": "/mobil-barkod",
+					"tagline": "Telefon bilen ätiýaçlyk sanawy we yzarlamasy"
+				},
+				{
+					"slug": "agota-depo",
+					"name": "AgotaDepo",
+					"icon": "fas fa-boxes-stacked",
+					"status": "soon",
+					"tagline": "Kamera bilen sanaw, ştrih-kodsyz önümi tanamak"
+				},
+				{
+					"slug": "agota-talep",
+					"name": "AgotaTalep",
+					"icon": "fas fa-chart-column",
+					"status": "soon",
+					"tagline": "Haýsy önümden näçe almaly?"
+				},
+				{
+					"slug": "agota-sevk",
+					"name": "AgotaSevk",
+					"icon": "fas fa-truck",
+					"status": "soon",
+					"tagline": "Marşrut, ýük haty we suratly eltip bermek"
+				}
+			]
+		},
+		{
+			"id": "uretim",
+			"group": "functions",
+			"icon": "fas fa-industry",
+			"name": "Öndüriş & Ussahana",
+			"description": "Iş tabşyryklaryny, daşarky öndürişi, hili we tehniki hyzmaty sargytdan we suratdan ugur alyp dolandyrýar.",
+			"products": [
+				{
+					"slug": "agota-uretim",
+					"name": "AgotaUretim",
+					"icon": "fas fa-gears",
+					"status": "soon",
+					"tagline": "Sargytdan iş tabşyrygy we öndüriş meýilnamasy"
+				},
+				{
+					"slug": "agota-fason",
+					"name": "AgotaFason",
+					"icon": "fas fa-people-carry-box",
+					"status": "soon",
+					"tagline": "Daşarky ussahanalary we iş tapgyrlaryny yzarlamak"
+				},
+				{
+					"slug": "agota-kalite",
+					"name": "AgotaKalite",
+					"icon": "fas fa-clipboard-check",
+					"status": "soon",
+					"tagline": "Suratdan kemçilik görnüşi we laýyk gelmezlik hasabaty"
+				},
+				{
+					"slug": "agota-bakim",
+					"name": "AgotaBakim",
+					"icon": "fas fa-screwdriver-wrench",
+					"status": "soon",
+					"tagline": "Enjamlaryň tehniki hyzmat senenamasy we näsazlyk habary"
+				}
+			]
+		},
+		{
+			"id": "ik",
+			"group": "functions",
+			"icon": "fas fa-users",
+			"name": "Adam resurslary & Aýlyk",
+			"description": "Iş wagty tabelini, işe alyşy, smenalary we kompaniýa içindäki maglumat alyşmany ýönekeýleşdirýär.",
+			"products": [
+				{
+					"slug": "agota-bordro",
+					"name": "AgotaBordro",
+					"icon": "fas fa-money-bill-wave",
+					"status": "soon",
+					"tagline": "Iş wagty tabelinden aýlyk taslamasy"
+				},
+				{
+					"slug": "agota-aday",
+					"name": "AgotaAday",
+					"icon": "fas fa-user-plus",
+					"status": "soon",
+					"tagline": "Bildirişden söhbetdeşlige çenli işe alyş kömekçisi"
+				},
+				{
+					"slug": "agota-vardiya",
+					"name": "AgotaVardiya",
+					"icon": "fas fa-business-time",
+					"status": "soon",
+					"tagline": "Smena meýilnamasy we artyk iş wagtynyň hasaby"
+				},
+				{
+					"slug": "agota-rehber",
+					"name": "AgotaRehber",
+					"icon": "fas fa-book-open",
+					"status": "soon",
+					"tagline": "Kompaniýa içindäki maglumat we uýgunlaşma kömekçisi"
+				},
+				{
+					"slug": "gorevim-ne",
+					"name": "Görevim Ne",
+					"icon": "fas fa-list-check",
+					"status": "live",
+					"href": "/service/gorevim-ne",
+					"tagline": "Habarlaşma programmasyndan wezipe dolandyryşy"
+				}
+			]
+		},
+		{
+			"id": "iletisim",
+			"group": "functions",
+			"icon": "fas fa-headset",
+			"name": "Müşderi aragatnaşygy",
+			"description": "WhatsApp, Instagram, e-poçta we telefon arkaly gelýän müşderi ýüzlenmelerini bir ýerde kabul edýär.",
+			"products": [
+				{
+					"slug": "agota-hat",
+					"name": "AgotaHat",
+					"icon": "fas fa-inbox",
+					"status": "soon",
+					"tagline": "WhatsApp, Instagram we e-poçta bir gelen habarlar gutusynda"
+				},
+				{
+					"slug": "agota-ses",
+					"name": "AgotaSes",
+					"icon": "fas fa-phone-volume",
+					"status": "soon",
+					"tagline": "Gelýän jaňlary kabul edýän sesli kömekçi"
+				},
+				{
+					"slug": "agota-sikayet",
+					"name": "AgotaSikayet",
+					"icon": "fas fa-face-frown",
+					"status": "soon",
+					"tagline": "Şikaýatlary we teswirleri ýygnaýar, jogap berýär"
+				},
+				{
+					"slug": "agota-sadakat",
+					"name": "AgotaSadakat",
+					"icon": "fas fa-heart",
+					"status": "soon",
+					"tagline": "Segmentasiýa we gidýän müşderini yzyna getirmek"
+				}
+			]
+		},
+		{
+			"id": "pazarlama",
+			"group": "functions",
+			"icon": "fas fa-bullseye",
+			"name": "Marketing & Mazmun",
+			"description": "Mazmun taýýarlamagy, kampaniýalary we sanly giňişlikde görnüp durmagy awtomatlaşdyrýar.",
+			"products": [
+				{
+					"slug": "kurumsal-website",
+					"name": "Korporatiw web sahypa",
+					"icon": "fas fa-globe",
+					"status": "live",
+					"href": "/kurumsal-website",
+					"tagline": "SEO-a laýyk, dolandyryş panelli korporatiw web sahypa"
+				},
+				{
+					"slug": "agota-studyo",
+					"name": "AgotaStudyo",
+					"icon": "fas fa-camera",
+					"status": "soon",
+					"tagline": "Önüm suratyndan mazmun meýilnamasyna"
+				},
+				{
+					"slug": "agota-site",
+					"name": "AgotaSite",
+					"icon": "fas fa-window-maximize",
+					"status": "soon",
+					"tagline": "ERP-de goşulan önüm web sahypada hem peýda bolýar"
+				},
+				{
+					"slug": "agota-kampanya",
+					"name": "AgotaKampanya",
+					"icon": "fas fa-envelope-open-text",
+					"status": "soon",
+					"tagline": "E-poçta, SMS we WhatsApp kampaniýalary"
+				},
+				{
+					"slug": "agota-harita",
+					"name": "AgotaHarita",
+					"icon": "fas fa-map-location-dot",
+					"status": "soon",
+					"tagline": "Google Business Profile dolandyryşy"
+				}
+			]
+		},
+		{
+			"id": "dokuman",
+			"group": "functions",
+			"icon": "fas fa-file-contract",
+			"name": "Resminama, Hukuk & Laýyklyk",
+			"description": "Şertnama, şahsy maglumatlary goramak (KVKK), arhiw we tassyklama proseslerini gözläp tapmak we yzarlamak mümkin bolar ýaly edýär.",
+			"products": [
+				{
+					"slug": "agota-sozlesme",
+					"name": "AgotaSozlesme",
+					"icon": "fas fa-file-signature",
+					"status": "soon",
+					"tagline": "Töwekgelçilikli maddany belleýär, uzaltmagy ýatladýar"
+				},
+				{
+					"slug": "agota-kvkk",
+					"name": "AgotaKVKK",
+					"icon": "fas fa-user-shield",
+					"status": "soon",
+					"tagline": "KVKK (şahsy maglumatlar kanuny) boýunça laýyklygy yzarlamak"
+				},
+				{
+					"slug": "agota-arsiv",
+					"name": "AgotaArsiv",
+					"icon": "fas fa-box-archive",
+					"status": "soon",
+					"tagline": "Ähli resminamalaryňyz gözlegde tapylýar"
+				},
+				{
+					"slug": "agota-onay",
+					"name": "AgotaOnay",
+					"icon": "fas fa-stamp",
+					"status": "soon",
+					"tagline": "Çykdajy, rugsat we arzanladyş üçin tassyklama akymlary"
+				},
+				{
+					"slug": "agota-dilekce",
+					"name": "AgotaDilekce",
+					"icon": "fas fa-file-pen",
+					"status": "soon",
+					"tagline": "Resmi hatlaryň we arzalaryň taslamalary"
+				}
+			]
+		},
+		{
+			"id": "raporlama",
+			"group": "functions",
+			"icon": "fas fa-chart-simple",
+			"name": "Hasabat & Karar",
+			"description": "Maglumatlaryňyza gündelik dilde sorag beriň; gysgaça hasabatlar, duýduryşlar we ssenariý seljermeleri özi gelsin.",
+			"products": [
+				{
+					"slug": "agota-sor",
+					"name": "AgotaSor",
+					"icon": "fas fa-magnifying-glass-chart",
+					"status": "soon",
+					"tagline": "Maglumatlaryňyza gündelik dilde sorag beriň"
+				},
+				{
+					"slug": "agota-panel",
+					"name": "AgotaPanel",
+					"icon": "fas fa-gauge-high",
+					"status": "soon",
+					"tagline": "Biznes eýesine hepdelik gysgaça hasabat"
+				},
+				{
+					"slug": "agota-uyari",
+					"name": "AgotaUyari",
+					"icon": "fas fa-bell",
+					"status": "soon",
+					"tagline": "Adaty bolmadyk ýagdaýda sizi duýdurýar"
+				},
+				{
+					"slug": "agota-senaryo",
+					"name": "AgotaSenaryo",
+					"icon": "fas fa-sliders",
+					"status": "soon",
+					"tagline": "\"Şeýle bolsa näme bolar?\" seljermesi"
+				}
+			]
+		},
+		{
+			"id": "saha",
+			"group": "functions",
+			"icon": "fas fa-toolbox",
+			"name": "Meýdan & Tehniki hyzmat",
+			"description": "Tehniki hyzmat we ýerinde barlag toparlarynyň meýdandaky işini formdan faktura çenli awtomatlaşdyrýar.",
+			"products": [
+				{
+					"slug": "agota-saha",
+					"name": "AgotaSaha",
+					"icon": "fas fa-user-gear",
+					"status": "soon",
+					"tagline": "Wezipe bermek we işi surat bilen tamamlamak"
+				},
+				{
+					"slug": "agota-kesif",
+					"name": "AgotaKesif",
+					"icon": "fas fa-ruler-combined",
+					"status": "soon",
+					"tagline": "Ýerinde barlagdan teklibe"
+				}
+			]
+		},
+		{
+			"id": "sektorel",
+			"group": "industries",
+			"layout": "tiles",
+			"icon": "fas fa-shop",
+			"name": "Pudak çözgütleri",
+			"description": "Esasy platforma we pudaga ýörite kömekçi: her pudagyň öz iş akymyna görä taýýarlanan çözgütler.",
+			"products": [
+				{
+					"slug": "adisyon-qr",
+					"name": "AgotaSoft QR Menü",
+					"sector": "Restoran & Kafe",
+					"icon": "fas fa-qrcode",
+					"status": "live",
+					"href": "/adisyon-qr",
+					"tagline": "QR menýu, stoldan sargyt, aşhana ekrany we hasap"
+				},
+				{
+					"slug": "agota-mutfak",
+					"name": "AgotaMutfak",
+					"sector": "Restoran aşhanasy",
+					"icon": "fas fa-utensils",
+					"status": "soon",
+					"tagline": "Resept bahasy, ýitgi we gündelik sargyt sanawy"
+				},
+				{
+					"slug": "agota-randevu",
+					"name": "AgotaRandevu",
+					"sector": "Saç salony & Gözellik",
+					"icon": "fas fa-calendar-check",
+					"status": "soon",
+					"tagline": "WhatsApp we Instagram habaryndan nobata ýazylyşa"
+				},
+				{
+					"slug": "agota-klinik",
+					"name": "AgotaKlinik",
+					"sector": "Klinika",
+					"icon": "fas fa-stethoscope",
+					"status": "soon",
+					"tagline": "Näsag kartasy, bejeriş meýilnamasy we ýatlatma"
+				},
+				{
+					"slug": "agota-konak",
+					"name": "AgotaKonak",
+					"sector": "Myhmanhana & Myhman öýi",
+					"icon": "fas fa-hotel",
+					"status": "soon",
+					"tagline": "Kanal sinhronlaşdyrmasy we myhman kömekçisi"
+				},
+				{
+					"slug": "agota-servis",
+					"name": "AgotaServis",
+					"sector": "Awtoserwis",
+					"icon": "fas fa-car-side",
+					"status": "soon",
+					"tagline": "Döwlet belgisinden ulag taryhy, sesli iş tabşyrygy"
+				},
+				{
+					"slug": "agota-emlak",
+					"name": "AgotaEmlak",
+					"sector": "Gozgalmaýan emläk",
+					"icon": "fas fa-house-chimney",
+					"status": "soon",
+					"tagline": "Bildiriş teksti we alyjy–portfel gabat getirmek"
+				},
+				{
+					"slug": "agota-santiye",
+					"name": "AgotaSantiye",
+					"sector": "Gurluşyk",
+					"icon": "fas fa-helmet-safety",
+					"status": "soon",
+					"tagline": "Ýerine ýetirilen işler, iş göwrümi we iş wagty tabeli"
+				},
+				{
+					"slug": "agota-tarla",
+					"name": "AgotaTarla",
+					"sector": "Oba hojalygy & Ýyladyşhana",
+					"icon": "fas fa-tractor",
+					"status": "soon",
+					"tagline": "Çykdajy, lomaý bazar bahasy, dermanlama we suwaryş"
+				},
+				{
+					"slug": "agota-kurs",
+					"name": "AgotaKurs",
+					"sector": "Kurs & Sport zaly",
+					"icon": "fas fa-chalkboard-user",
+					"status": "soon",
+					"tagline": "Hasaba alyş, bölekleýin töleg, gatnaşyk we ene-ata habary"
+				},
+				{
+					"slug": "agota-musavir",
+					"name": "AgotaMusavir",
+					"sector": "Maliýe geňeşçisi",
+					"icon": "fas fa-briefcase",
+					"status": "soon",
+					"tagline": "Müşderilerden resminama ýygnamak, beýannama senenamasy"
+				},
+				{
+					"slug": "agota-atolye",
+					"name": "AgotaAtolye",
+					"sector": "Tikinçilik",
+					"icon": "fas fa-shirt",
+					"status": "soon",
+					"tagline": "Model, nusga, biçiş meýilnamasy we daşarky ussahanalar"
+				},
+				{
+					"slug": "agota-filo",
+					"name": "AgotaFilo",
+					"sector": "Ýük daşamak",
+					"icon": "fas fa-truck-moving",
+					"status": "soon",
+					"tagline": "Ulagy, sürüjini we ýüki gabat getirmek"
+				},
+				{
+					"slug": "agota-market",
+					"name": "AgotaMarket",
+					"sector": "Market & Azyk dükany",
+					"icon": "fas fa-basket-shopping",
+					"status": "soon",
+					"tagline": "POS, ýaramlylyk möhletine gözegçilik, awtomatik sargyt"
+				}
+			]
+		},
+		{
+			"id": "ekosistem",
+			"group": "ecosystem",
+			"icon": "fas fa-circle-nodes",
+			"name": "Ekosistema & Söwda meýdançalary",
+			"description": "Söwda meýdançasynda adamlar däl, kärhanalaryň kömekçileri biri-biri bilen söwda edýär: AgotaSoft-yň platforma gatlagy.",
+			"products": [
+				{
+					"slug": "agota-store",
+					"name": "AgotaStore",
+					"icon": "fas fa-puzzle-piece",
+					"status": "soon",
+					"tagline": "Agota programmalarynyň we kömekçileriniň dükany"
+				},
+				{
+					"slug": "agota-tedarik",
+					"name": "AgotaTedarik",
+					"icon": "fas fa-right-left",
+					"status": "soon",
+					"tagline": "ERP-ler arasynda göni B2B söwda"
+				},
+				{
+					"slug": "agota-fasonpazar",
+					"name": "AgotaFasonPazar",
+					"icon": "fas fa-handshake-angle",
+					"status": "soon",
+					"tagline": "Boş öndüriş kuwwatyny iş bilen gabat getirýär"
+				},
+				{
+					"slug": "agota-hizmet",
+					"name": "AgotaHizmet",
+					"icon": "fas fa-bell-concierge",
+					"status": "soon",
+					"tagline": "Korporatiw hyzmatlary satyn almak"
+				},
+				{
+					"slug": "agota-makine",
+					"name": "AgotaMakine",
+					"icon": "fas fa-dolly",
+					"status": "soon",
+					"tagline": "Ulanylan enjam we abzal bazary"
+				},
+				{
+					"slug": "agota-endeks",
+					"name": "AgotaEndeks",
+					"icon": "fas fa-chart-area",
+					"status": "soon",
+					"tagline": "Pudak boýunça baha, marja we töleg ýygnamak indeksleri"
+				},
+				{
+					"slug": "agota-finans",
+					"name": "AgotaFinans",
+					"icon": "fas fa-landmark",
+					"status": "soon",
+					"tagline": "Biznes maglumatlaryňyz bilen maliýeleşdirmä ýol"
+				}
+			]
+		}
+	]
+}

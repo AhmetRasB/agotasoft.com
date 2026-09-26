@@ -4,7 +4,7 @@
     "site_name": "AgotaSoft",
     "logo": "/images/agotasoft-logo.png",
     "email": "info@agotasoft.com",
-    "phone": "+90 (216) 555 12 34",
+    "phone": "+90 (552) 517 57 81",
     "address": "İstanbul, Üsküdar",
     "copyright": "© {year} AgotaSoft. Ähli hukuklar goralan.",
     "header_cta": "Demo sorap",
@@ -19,11 +19,11 @@
     "calendly_url": "https://calendly.com/agotasoft",
     "seo_title": "AgotaSoft ERP | Işiňizi dolandyrýan ýeke-täk platforma",
     "seo_description": "AI kömekli AgotaSoft ERP bilen ammar, öndüriş, maliýe we satyn alma proseslerini bir platformada dolandyryň.",
-    "hero": "{\"title\": \"AgotaSoft ERP: işiňizi dolandyrýan ýeke-täk platforma\", \"subtitle\": \"Ammar, öndüriş, maliýe we satyn almany bir ekranda birleşdiriň. AI kömegi bilen, çalt gurulýan we öwrenmesi aňsat ERP — çylşyrymly desktop programmalaryna hoş gal aýdyň.\", \"cta_primary\": \"Demo sorap\", \"cta_primary_url\": \"/contact-us\", \"cta_secondary\": \"Platformany görüň\", \"cta_secondary_url\": \"/erp\", \"rating_text\": \"AI kömegi bilen, KOK'lar üçin döredildi\"}",
-    "cta": "{\"title\": \"AgotaSoft bilen sanly özgertmäňizi başlaň\", \"text\": \"ERP, CRM, buhgalteriýa we LMS çözgütlerimiz bilen biznesiňiziň netijeligini ýokarlandyryň. Bilermenler toparymyzdan mugt demo alyň we tapawudy görüň.\", \"button\": \"Mugt demo sorap\", \"button_url\": \"/contact-us\", \"note\": \"30 günlük synag döwri. Bank kartasy talap edilmeýär.\"}",
+    "hero": "{\"title\":\"AgotaSoft ERP: işiňizi dolandyrýan ýeke-täk platforma\",\"subtitle\":\"Ammar, öndüriş, maliýe we satyn almany bir ekranda birleşdiriň. AI kömegi bilen, çalt gurulýan we öwrenmesi aňsat ERP — çylşyrymly desktop programmalaryna hoş gal aýdyň.\",\"cta_primary\":\"Demo sorap\",\"cta_primary_url\":\"/contact-us\",\"cta_secondary\":\"Platformany görüň\",\"cta_secondary_url\":\"/erp\",\"rating_text\":\"AI kömegi bilen, KOK'lar üçin döredildi\"}",
+    "cta": "{\"title\":\"Şu gün AgotaSoft ERP bilen ösüşe başlaň\",\"text\":\"Maliýe, ammar we amallaryňyzy bir platformada birleşdiriň. Bilermenler toparymyz bilen mugt demo guruň.\",\"button\":\"Mugt demo sorap\",\"button_url\":\"/contact-us\",\"note\":\"Ornaşdyrmak toparymyz bilen mugt maslahat bilen başlaýar.\"}",
     "why_choose": "{\"section1_title\": \"Biznesiňizi sanly özgertme bilen güýçlendiriň\", \"section1_text\": \"AgotaSoft programma çözgütleri bilen amaly netijeligi ýokarlandyryň, çykdajylary azaldyň we bäsdeşlikde öňe geçiň. Integrirlenen ulgamlarymyz bilen biznes prosesleriňizi optimizirläň.\", \"section1_items\": [{\"title\": \"Prosesleri awtomatlaşdyryň\", \"text\": \"Elde ýerine ýetirilýän işleri azaldyň, iş akymlaryňyzy awtomatlaşdyryň we işgärleriňiziň strategiki işlere ünsi jemlemegini üpjün ediň.\"}, {\"title\": \"Maglumata esaslanan çözgütler kabul ediň\", \"text\": \"Real wagt hasabatlary we seljermeler bilen biznesiňiziň netijeligini yzarlaň, dogry çözgütler kabul ediň we ösüşi çaltlandyryň.\"}, {\"title\": \"Müşderi kanagatlanmasyny ýokarlandyryň\", \"text\": \"CRM ulgamymyz bilen müşderi gatnaşyklaryny güýçlendiriň, hyzmat hilini ýokarlandyryň we müşderi wepalylygyny artdyryň.\"}], \"section2_title\": \"Tehnologiýa bilen biznes prosesleriňizi özgerdiň\", \"section2_text\": \"AgotaSoft-yň integrirlenen programma çözgütleri bilen kompaniýaňyzyň ähli bölümlerini birikdiriň, netijeligi ýokarlandyryň we çykdajylary optimizirläň.\", \"section2_items\": [{\"title\": \"60% has çalt biznes prosesleri\", \"text\": \"Awtomatlaşdyrylan iş akymlary we integrirlenen ulgamlar bilen proses wagtyny gysgaldyň, işgärleriň netijeligini ýokarlandyryň.\"}, {\"title\": \"Anyk maglumat elýeterligi we hasabat\", \"text\": \"Ähli maglumatlaryňyza bir ýerden giriň, real wagt hasabatlary bilen çalt we dogry çözgütler kabul ediň.\"}], \"button\": \"Demo sorap\", \"button_url\": \"/contact-us\"}",
     "home_services": "{\"title\": \"Biznesiňizi güýçlendirýän programma çözgütleri\", \"button\": \"Ähli çözgütler\", \"button_url\": \"/service\"}",
-    "footer": "{\"about\": \"Biznesiňizi geljege alyp barýan akylly programma üpjünçiligi. ERP, CRM, buhgalteriýa we LMS ugurlarynda 15 ýyllyk tejribämiz bilen sanly özgertmäňize ýol açýarys.\", \"about_alt\": \"AgotaSoft — kompaniýalaryň sanly özgertme ýolunda ynamdar tehnologiýa hyzmatdaşy. ERP, CRM, buhgalteriýa we LMS çözgütleri bilen netijeliligiňizi ýokarlandyrýarys.\", \"col1_title\": \"Kompaniýa\", \"col1_links\": [{\"label\": \"Biz hakda\", \"url\": \"/about-us\"}, {\"label\": \"Taslamalarymyz\", \"url\": \"/portfolio\"}, {\"label\": \"Topar\", \"url\": \"/team\"}, {\"label\": \"Blog\", \"url\": \"/blog\"}, {\"label\": \"Karýera\", \"url\": \"/career\"}, {\"label\": \"Habarlaşmak\", \"url\": \"/contact-us\"}, {\"label\": \"Ähli çözgütler\", \"url\": \"/service\"}, {\"label\": \"Bahalar\", \"url\": \"/pricing\"}], \"col2_title\": \"Çözgütlerimiz\", \"col2_links\": [{\"label\": \"ERP ulgamy\", \"url\": \"/erp\"}, {\"label\": \"CRM ulgamy\", \"url\": \"/crm\"}, {\"label\": \"Buhgalteriýa\", \"url\": \"/pre-accounting\"}, {\"label\": \"LMS ulgamy\", \"url\": \"/lms\"}], \"col3_title\": \"Habarlaşmak maglumatlary\", \"privacy_label\": \"Gizlinlik syýasaty\", \"privacy_url\": \"/privacy-policy\", \"terms_label\": \"Ulanyş şertleri\", \"terms_url\": \"/terms-of-service\", \"cookies_label\": \"Cookie syýasaty\", \"cookies_url\": \"/cookies-policy\"}",
+    "footer": "{\"about\":\"Işiňizi ösdürýän emeli intellekt esasly ERP platformasy. 15 ýyllyk tejribämiz bilen önümçilik we söwda kompaniýalarynyň sanly özgerişine ýolbaşçylyk edýäris.\",\"about_alt\":\"AgotaSoft — işewürligiň ösüşini çaltlandyrýan döwrebap ERP platformasy. Maliýe, ammar we amallaryňyzy bir ulgamda birleşdirýäris.\",\"col1_title\":\"Kompaniýa\",\"col1_links\":[{\"label\":\"Biz hakda\",\"url\":\"/about-us\"},{\"label\":\"Taslamalarymyz\",\"url\":\"/portfolio\"},{\"label\":\"Topar\",\"url\":\"/team\"},{\"label\":\"Karýera\",\"url\":\"/career\"},{\"label\":\"Habarlaşmak\",\"url\":\"/contact-us\"},{\"label\":\"Ähli çözgütler\",\"url\":\"/service\"},{\"label\":\"Bahalar\",\"url\":\"/pricing\"}],\"col2_title\":\"Çözgütlerimiz\",\"col2_links\":[{\"label\":\"ERP ulgamy\",\"url\":\"/erp\"},{\"label\":\"CRM ulgamy\",\"url\":\"/crm\"},{\"label\":\"Buhgalteriýa\",\"url\":\"/pre-accounting\"},{\"label\":\"LMS ulgamy\",\"url\":\"/lms\"},{\"label\":\"Kârlılık.NET\",\"url\":\"/karlilik\"},{\"label\":\"QR menýu\",\"url\":\"/adisyon-qr\"}],\"col3_title\":\"Habarlaşmak maglumatlary\",\"privacy_label\":\"Gizlinlik syýasaty\",\"privacy_url\":\"/privacy-policy\",\"terms_label\":\"Ulanyş şertleri\",\"terms_url\":\"/terms-of-service\",\"cookies_label\":\"Cookie syýasaty\",\"cookies_url\":\"/cookies-policy\"}",
     "pricing_products": "[{\"id\": \"all\", \"name\": \"Ähli çözgütler\", \"icon\": \"fas fa-th-large\"}, {\"id\": \"erp\", \"name\": \"ERP ulgamy\", \"icon\": \"fas fa-industry\"}, {\"id\": \"crm\", \"name\": \"CRM ulgamy\", \"icon\": \"fas fa-users\"}, {\"id\": \"accounting\", \"name\": \"Buhgalteriýa\", \"icon\": \"fas fa-calculator\"}, {\"id\": \"lms\", \"name\": \"LMS bilim\", \"icon\": \"fas fa-graduation-cap\"}]",
     "partners_heading": "Tehnologiýa hyzmatdaşlarymyz we hemaýatkärlerimiz",
     "testimonials_heading": "Müşderilerimiziň AgotaSoft hakyndaky pikirleri"
@@ -64,11 +64,11 @@
           "url": "lms"
         },
         {
-          "title": "Karlılık.NET",
+          "title": "Kârlılık.NET",
           "url": "karlilik"
         },
         {
-          "title": "Adisyon QR",
+          "title": "QR menýu",
           "url": "adisyon-qr"
         }
       ]
@@ -172,19 +172,19 @@
     },
     {
       "title": "Buhgalteriýa",
-      "description": "Elektron hasap-faktura (Türkiýe), jari hasap dolandyryşy we çykdajy yzarlamasy bilen maliýe gözegçiligini elde saklaň.",
+      "description": "TRY, USD we EUR-y bir wagtda alyp barýan, ştrih-kod bilen satuw edýän buhgalteriýa programmasy; iOS programmasy we web paneli.",
       "icon": "/images/v1/icon3.png",
       "link": "/pre-accounting",
       "category": "sofax-solution-accounting",
       "fa_icon": "fas fa-calculator",
       "page_class": "sofax-solution-accounting",
-      "long_description": "Türkiýäniň e-hasap-faktura (GİB) integrasiýasy, jari hasap dolandyryşy we çykdajy yzarlamasy bilen kiçi we orta kärhanalaryň maliýe proseslerini ýeňilleşdirýän giň gerimli buhgalteriýa çözgüdi.",
+      "long_description": "Satuwy, kontragentleri, ammary we kassany bir ýerde dolandyrýan buhgalteriýa programmasy. TRY, USD we EUR balanslary aýratyn saklanýar; iPhone programmasy we web paneli şol bir maglumat bilen işleýär.",
       "bullets": [
-        "E-hasap-faktura integrasiýasy (Türkiýe)",
-        "Jari hasap dolandyryşy",
-        "Çykdajy yzarlamasy",
-        "Salgyt dolandyryşy",
-        "Maliýe hasabaty"
+        "TRY, USD we EUR köp walýuta",
+        "Ştrih-kod bilen çalt satuw",
+        "Kontragentler, kassa we tölegler",
+        "Görnüşli ammar we möhüm ätiýaçlyk",
+        "iOS programmasy we web paneli"
       ],
       "slug": "bookkeeping",
       "id": "-n-muhasebe"
@@ -209,39 +209,39 @@
       "id": "lms-sistemi"
     },
     {
-      "title": "Karlılık.NET",
-      "description": "Trendyol we Hepsiburada satyjylary üçin komissiýa, eltip bermek we salgytlar hasaba alnyp hakyky arassa girdejini görkezýän emeli intellektli seljeriş platformasy.",
+      "title": "Kârlılık.NET",
+      "description": "Trendyol we Hepsiburada satyjylary üçin komissiýa, eltip bermek, saklanýan salgyt, GBS we mahabat aýrylandan soňky hakyky arassa girdejini sargyt, önüm we dükan boýunça görkezýän seljeriş platformasy.",
       "icon": "/images/v1/icon1.png",
       "link": "/karlilik",
       "category": "sofax-solution-karlilik",
       "fa_icon": "fas fa-chart-pie",
       "page_class": "sofax-solution-karlilik",
-      "long_description": "Marketpleýs satyjylaryna hakyky arassa girdejini bir panelde görkezýän emeli intellektli SaaS. Dükanyňyzy birikdiriň, özüne düşýän bahalary giriziň we her sargyt, önüm we dükan boýunça näçe gazanýandygyňyzy görüň.",
+      "long_description": "Marketpleýs panelleri dolanyşygy görkezýär, girdejini däl. Kârlılık.NET dükanyňyzy API açary bilen birikdirýär, sargytlary her 15 minutda çekýär we her sargydyň arassa girdejisini hasaplaýar; hasaplaşyk tassyklananda hakyky tutumlar bilen takyk girdejini görkezýär. 14 gün mugt: karlilik.net",
       "bullets": [
-        "Trendyol we Hepsiburada integrasiýasy",
-        "Sargyt we önüm boýunça arassa girdeji",
-        "Emeli intellekt bilen faktura okamak we sorag-jogap",
-        "Maksat marjasyndan baha hasaplamak",
-        "Tölegleri deňeşdirmek"
+        "Trendyol we Hepsiburada dükanlaryny birikdirmek",
+        "Sargyt, önüm we dükan boýunça arassa girdeji",
+        "Baha kalkulýatory we hasaplaşyklary deňeşdirmek",
+        "Emeli intellekt bilen faktura okamak we girdeji kömekçisi",
+        "14 gün mugt, kart maglumaty gerek däl"
       ],
       "slug": "karlilik-net",
       "id": "karlilik-net"
     },
     {
-      "title": "AgotaSoft Adisyon QR",
-      "description": "Kafe we restoranlar üçin QR menýu, sargyt, aşhana ekrany we hasaby bir ulgamda birleşdirýän bulut çözgüdi.",
+      "title": "AgotaSoft QR Menü",
+      "description": "Kafe we restoranlar üçin QR menýu, stoldan sargyt, aşhana ekrany we hasap ulgamy.",
       "icon": "/images/v1/icon1.png",
       "link": "/adisyon-qr",
       "category": "sofax-solution-adisyon-qr",
       "fa_icon": "fas fa-qrcode",
       "page_class": "sofax-solution-adisyon-qr",
-      "long_description": "Stoluň üstündäki QR-dan kassa çenli ähli işi bir ulgamda dolandyryň: programmasyz QR menýu we sargyt, ofisiant tassyklamasy, aşhana ekrany, printerler we hasap.",
+      "long_description": "Stoldaky QR-dan kassa çenli ähli akym bir ulgamda: programma ýüklemezden menýu, sargyt we töleg; ofisiant tassyklamasy, aşhana ekrany, çek printeri we hasap. qrmenu.agotasoft.com",
       "bullets": [
-        "Programmasyz QR menýu we sargyt",
-        "Ofisiant tassyklamasy we janly zal görnüşi",
-        "Aşhana ekrany we çek printeri integrasiýasy",
-        "Hasaby bölmek, arzanladyş we kassa",
-        "iPhone, iPad we Android programmasy"
+        "QR arkaly programma ýüklemezden menýu, sargyt we töleg",
+        "QR sargytlaryny tassyklamak we janly zal görnüşi",
+        "Aşhana ekrany (KDS) we ESC/POS çek printeri",
+        "Hasaby bölmek, arzanladyş, mugt hödür we kassa smenasy",
+        "Excel/CSV arkaly menýu geçirmek we gün ahyry jemi"
       ],
       "slug": "adisyon-qr",
       "id": "adisyon-qr"
@@ -496,7 +496,7 @@
         "icon": "fas fa-calculator",
         "className": "sofax-solution-starter",
         "features": [
-          "E-hasap-faktura integrasiýasy",
+          "TRY, USD we EUR köp walýuta",
           "Esasy jari hasap",
           "Çykdajy yzarlamasy",
           "3 ulanyjy",
@@ -768,7 +768,7 @@
     },
     {
       "question": "Türkiýäniň e-hasap-faktura (GİB) integrasiýasy barmy?",
-      "answer": "Hawa, AgotaSoft buhgalteriýa moduly Türkiýäniň salgyt edarasy (GİB) bilen doly integrirlenen; e-hasap-faktura, e-arhiw hasap-faktura we e-ýük hatynyň işlerini ulgam arkaly awtomatik ýerine ýetirip bilersiňiz.",
+      "answer": "AgotaSoft buhgalteriýasynda hasap-fakturalar ulgamyň içinde çykarylýar we her birine resminama görnüşi (e-hasap-faktura, e-arhiw ýa-da kagyz) bellenip bilner. Hasap-fakturalary GİB-e gönüden-göni iberýän integrator birikmesi häzirlikçe ýok.",
       "column": "2"
     },
     {
@@ -1365,145 +1365,146 @@
       "hero_image": "/images/products/lms-dashboard.png"
     },
     "pre-accounting": {
-      "title": "AgotaSoft buhgalteriýa ulgamy",
-      "hero_title": "AgotaSoft buhgalteriýa: maliýe gözegçiligi doly siziň elilizde",
-      "hero_subtitle": "E-hasap-faktura integrasiýasy, jari hasap dolandyryşy, çykdajy yzarlamasy we maliýe hasabaty bilen kiçi we orta kärhanalaryň maliýe proseslerini ýeňilleşdirýän giň gerimli buhgalteriýa çözgüdi.",
+      "title": "AgotaSoft Buhgalteriýa",
+      "badge": "iOS programmasy + web paneli",
+      "hero_subtitle": "TRY, USD we EUR-y bir wagtda alyp barýan, ştrih-kody skanirläp satuwy sekuntlarda tamamlaýan başlangyç buhgalteriýa programmasy. Satuw, kontragentler, ammar we kassa bir ýerde; iPhone programmasy we web paneli şol bir maglumat bilen işleýär.",
       "cta_primary": "Demo sorap",
-      "cta_secondary": "Aýratynlyklary görüň",
-      "hero_card_title": "AgotaSoft buhgalteriýa",
-      "hero_card_text": "Maliýe gözegçilik ulgamy",
-      "modules_title": "Buhgalteriýa modullary we aýratynlyklary",
-      "modules_subtitle": "Kiçi we orta kärhanalar üçin ýörite döredilen maliýe dolandyryş gurallary",
+      "cta_secondary": "Aýratynlyklary görmek",
+      "facts_title": "Gysgaça",
+      "facts": [
+        {
+          "icon": "fas fa-coins",
+          "label": "TRY, USD we EUR bir wagtda"
+        },
+        {
+          "icon": "fas fa-mobile-screen",
+          "label": "iOS programmasy we web paneli"
+        },
+        {
+          "icon": "fas fa-barcode",
+          "label": "Ştrih-kod bilen sekuntlarda satuw"
+        },
+        {
+          "icon": "fas fa-user-lock",
+          "label": "Rollar we rugsatlar"
+        }
+      ],
+      "features": [
+        {
+          "label": "ESASY",
+          "title": "Ştrih-kody skanirläň, önüm öz walýutasynda açylsyn",
+          "text": "Önümi kamera ýa-da ştrih-kody el bilen girizip sekuntlarda tapyň. Sebet boş bolsa, faktura skanirlenen önümiň walýutasyna geçýär: USD önüm USD-de, EUR önüm EUR-da gelýär.",
+          "bullets": [
+            "Kamera ýa-da el bilen ştrih-kod we at boýunça gözleg",
+            "Reňk we ölçeg görnüşleri üçin aýratyn mukdar",
+            "Täze satuwda TRY, USD we EUR arasynda bir basyşda geçiş"
+          ],
+          "image": "/images/products/on-muhasebe/barkod-urun.webp",
+          "image_alt": "Ştrih-kod bilen tapylan önüm"
+        },
+        {
+          "label": "KÖP WALÝUTA",
+          "title": "Üç walýuta, garyşmaýan balanslar",
+          "text": "Her faktura öz walýutasynda çykarylýar; her kontragent kartasy TRY, USD we EUR balansyny aýratyn görkezýär. Kurs alynmasa, ulgam sessiz 1:1 hasaplamaýar, sizi duýdurýar.",
+          "bullets": [
+            "Häzirki USD/TRY we EUR/TRY kurslary",
+            "Faktura, töleg we yzyna gaýtarma şol bir walýutada",
+            "Bergi, awans we göçürme kontragent kartasynda"
+          ],
+          "image": "/images/products/on-muhasebe/satis-doviz-secimi.webp",
+          "image_alt": "Täze satuwda TRY, USD ýa-da EUR saýlamak"
+        }
+      ],
+      "modules_label": "MODULLAR",
+      "modules_title": "Buhgalteriýa programmasynda bolmaly ähli zat",
+      "modules_subtitle": "Hemmesi bir maglumat bazasynda we bir kurs logikasynda işleýär.",
       "modules": [
         {
           "icon": "fas fa-file-invoice",
-          "title": "E-hasap-faktura integrasiýasy (Türkiýe)",
-          "description": "Türkiýäniň salgyt edarasy (GİB) bilen integrasiýa arkaly e-hasap-faktura döretmegi, ibermegi we kabul etmegi awtomatlaşdyryň.",
+          "title": "Satuw we faktura",
+          "description": "Täze faktura, çalyşma we yzyna gaýtarma; ştrih-kod bilen çalt goşmak.",
           "bullets": [
-            "GİB integrasiýasy",
-            "Awtomatik hasap-faktura döretmek",
-            "E-arhiw hasap-faktura",
-            "Köpçülikleýin hasap-faktura"
+            "Satuw, çalyşma we yzyna gaýtarma",
+            "Reňk we ölçeg görnüşli pozisiýalar",
+            "Açyk we tölenen fakturalar"
           ]
         },
         {
           "icon": "fas fa-address-book",
-          "title": "Jari hasap dolandyryşy",
-          "description": "Müşderi we üpjün ediji hasaplaryňyzy yzarlaň, bergi-alajak ýagdaýyny gözegçilikde saklaň.",
+          "title": "Kontragentler",
+          "description": "Her müşderi üçin TRY, USD we EUR balanslary aýratyn; bergi, awans we göçürme bir ýerde.",
           "bullets": [
-            "Jari hasap kartlary",
-            "Bergi-alajak yzarlamasy",
-            "Möhlet seljermesi",
-            "Hasap göçürmeleri"
+            "Walýuta boýunça balans",
+            "Göçürme we el bilen ýazgylar",
+            "Tölegleri bellige almak"
           ]
         },
         {
-          "icon": "fas fa-receipt",
-          "title": "Çykdajy yzarlamasy",
-          "description": "Ähli çykdajylaryňyzy toparlara bölüň, yzarlaň we seljeriň.",
+          "icon": "fas fa-truck",
+          "title": "Satyn alyş we üpjün edijiler",
+          "description": "Satyn alyş fakturalary ortaça agramly özüne düşýän bahany awtomatik täzeleýär; üpjün edijilere tölegler aýratyn alnyp barylýar.",
           "bullets": [
-            "Çykdajy toparlary",
-            "Çek we resminama dolandyryşy",
-            "Çykdajy tassyklama prosesi",
-            "Çykdajy hasabatlary"
+            "Satyn alyş fakturalary",
+            "Ortaça agramly baha",
+            "Üpjün ediji balanslary we tölegler"
           ]
         },
         {
-          "icon": "fas fa-university",
-          "title": "Bank dolandyryşy",
-          "description": "Bank hasaplaryňyzy yzarlaň, pul akymyňyzy gözegçilikde saklaň we bank bilen deňeşdiriň.",
+          "icon": "fas fa-cash-register",
+          "title": "Kassa we tölegler",
+          "description": "Lira, dollar we ýewro kassalary aýratyn galyndylar bilen; her hereket derrew degişli kassa düşýär.",
           "bullets": [
-            "Köp bank hasaby",
-            "Pul akymy yzarlamasy",
-            "Bank deňeşdirmesi",
-            "Çek-weksel dolandyryşy"
+            "Birnäçe kassa",
+            "Girdeji we çykdajy ýazgylary",
+            "Kassa hereketleri"
           ]
         },
         {
-          "icon": "fas fa-percentage",
-          "title": "Salgyt dolandyryşy",
-          "description": "GDS, saklap galma we beýleki salgyt hasaplamalaryny awtomatlaşdyryň, jarnama taýýarlaň.",
+          "icon": "fas fa-barcode",
+          "title": "Ammar we ştrih-kod",
+          "description": "Reňk we ölçeg görnüşli önümler, möhüm ätiýaçlyk duýduryşlary we ştrih-kod bilen çalt gözleg.",
           "bullets": [
-            "Awtomatik salgyt hasaplamasy",
-            "GDS jarnamasy",
-            "Saklap galma hasaplamalary",
-            "Salgyt hasabatlary"
+            "Görnüşli önümler",
+            "Möhüm ätiýaçlyk duýduryşlary",
+            "Kamera bilen skanirlemek"
           ]
         },
         {
-          "icon": "fas fa-chart-bar",
-          "title": "Maliýe hasabaty",
-          "description": "Jikme-jik maliýe hasabatlary, girdeji-çykdajy seljermesi we girdejililik hasabatlary.",
+          "icon": "fas fa-chart-line",
+          "title": "Hasabatlar",
+          "description": "Girdeji we zyýan, önüm girdejiligi we 6 aýlyk maliýe seljermesi; umumy we arassa marja aýratyn.",
           "bullets": [
-            "Girdeji-çykdajy hasabaty",
-            "Girdejililik seljermesi",
-            "Pul akymy hasabaty",
-            "Şahsylaşdyrylýan hasabatlar"
+            "Girdeji we zyýan hasabaty",
+            "Önüm girdejiligi",
+            "6 aýlyk maliýe seljermesi"
           ]
         }
       ],
-      "benefits_title": "Kiçi we orta kärhanalar üçin ýörite döredilen",
-      "benefits_text": "AgotaSoft buhgalteriýa kiçi we orta kärhanalaryň maliýe proseslerini ýeňilleşdirmek üçin ýörite döredildi.",
+      "benefits_title": "Ösende-de gözegçilik sizde",
+      "benefits_text": "Toparyňyz ösdügiçe kimiň nämäni görýändigini we nämäni üýtgedip bilýändigini siz kesgitleýärsiňiz.",
       "benefits": [
         {
-          "icon": "fas fa-clock",
-          "title": "70% has çalt hasap-fakturalaşdyrma",
-          "text": "E-hasap-faktura integrasiýasy bilen hasap-fakturalaşdyrma prosesiňizi çaltlandyryň."
+          "icon": "fas fa-user-lock",
+          "title": "Rollar we rugsatlar",
+          "text": "Her ulanyjy diňe rugsat berlen modullary görýär; öz ygtyýaryndan ýokary rol bermegi ulgam petikleýär."
         },
         {
-          "icon": "fas fa-shield-alt",
-          "title": "100% kanuny laýyklyk",
-          "text": "Türkiýedäki ähli kanuny düzgünlere doly laýyk ulgam."
+          "icon": "fas fa-clock-rotate-left",
+          "title": "Amallar taryhy",
+          "text": "Kim, haçan we haýsy ýazgyny üýtgetdi; ähli hereketler barlag üçin saklanýar."
         },
         {
-          "icon": "fas fa-calculator",
-          "title": "Awtomatik hasaplamalar",
-          "text": "Salgyt, GDS we saklap galmalary awtomatik hasaplaň."
+          "icon": "fas fa-mobile-screen-button",
+          "title": "iOS we web şol bir maglumatda",
+          "text": "Meýdanda iPhone programmasy, ofisde web paneli: bir hasap, elmydama täze maglumat."
         }
       ],
-      "panel_title": "Maliýe hasabaty",
-      "panel_text": "Jikme-jik maliýe hasabatlary we seljerme gurallary",
-      "local_pricing_title": "Amatly bahalar bilen başlaň",
-      "local_pricing_subtitle": "Kiçi we orta kärhanalar üçin ýörite baha paketleri",
-      "local_plans": [
-        {
-          "title": "Başlangyç",
-          "icon": "fas fa-seedling",
-          "price": "₺299",
-          "period": "/aý",
-          "popular": false,
-          "features": [
-            "5 ulanyja çenli",
-            "E-hasap-faktura integrasiýasy",
-            "Esasy hasabatlar",
-            "E-poçta goldawy"
-          ],
-          "button": "Başla"
-        },
-        {
-          "title": "Professional",
-          "icon": "fas fa-rocket",
-          "price": "₺599",
-          "period": "/aý",
-          "popular": true,
-          "features": [
-            "15 ulanyja çenli",
-            "Ähli modullar",
-            "Giňeldilen hasabatlar",
-            "Telefon goldawy",
-            "Integrasiýa goldawy"
-          ],
-          "button": "Başla"
-        }
-      ],
-      "cta_title": "Maliýe gözegçiligiňizi öz eliňize alyň",
-      "cta_text": "30 günlük mugt synag döwri bilen AgotaSoft buhgalteriýa güýjüni açyň. Gurnama we okuw goldawy girýär.",
-      "cta_button": "Mugt demo sorap",
-      "cta_phone": "Häzir jaň ediň",
-      "cta_phone_url": "tel:+908001234567",
+      "cta_title": "Walýutany, ammary we satuwy bir ýere jemläň",
+      "cta_text": "Gysga demoda ştrih-kod bilen satuwdan birnäçe kassa çenli ähli akymy bilelikde görüp çykalyň.",
+      "cta_button": "Demo sorap",
+      "cta_secondary_link": "Ähli çözgütler",
       "slug": "pre-accounting",
-      "id": "pre-accounting",
-      "hero_image": "/images/products/pre-accounting-dashboard.png"
+      "id": "pre-accounting"
     },
     "terms": {
       "title": "Terms & condition of service :",
@@ -1610,11 +1611,14 @@
       "id": "single-career"
     },
     "karlilik": {
-      "title": "Karlılık.NET",
-      "badge": "Irki elýeterlilik",
-      "hero_subtitle": "Trendyol we Hepsiburada-da satýan elektron söwda satyjylaryna hakyky arassa girdejini bir panelde görkezýän emeli intellektli girdeji seljeriş platformasy. Komissiýa, eltip bermek, hyzmat tölegi, saklanýan salgyt, GBS we mahabat çykdajylary hasaba alnyp, her sargydyň size hakykatda näçe girdeji getirýändigini görüň.",
-      "cta_primary": "Irki elýeterlilik soramak",
-      "cta_secondary": "Modullary görmek",
+      "title": "Kârlılık.NET",
+      "badge": "Elýeterli · 14 gün mugt",
+      "hero_subtitle": "Trendyol we Hepsiburada satyjylary üçin: dolanyşygyňyz däl, arassa girdejiňiz. Komissiýa, eltip bermek, hyzmat tölegi, saklanýan salgyt, GBS, mahabat we gaýtarmalar aýrylandan soň her sargydyň size hakykatda näçe gazandyrýandygyny sargyt, önüm we dükan boýunça görüň.",
+      "cta_primary": "Mugt synap görüň",
+      "cta_primary_url": "https://karlilik.net/register",
+      "cta_secondary": "Demony synap görüň",
+      "cta_secondary_url": "https://karlilik.net/login",
+      "hero_note": "14 gün mugt · Kart maglumaty gerek däl · Islän wagtyňyz ýatyryň · Demo üçin hasaba durmak gerek däl",
       "facts_title": "Gysgaça",
       "facts": [
         {
@@ -1622,167 +1626,367 @@
           "label": "Trendyol we Hepsiburada"
         },
         {
-          "icon": "fas fa-robot",
-          "label": "Emeli intellektli seljeriş"
+          "icon": "fas fa-lock",
+          "label": "Şifrlenen API açarlary (AES-256)"
         },
         {
-          "icon": "fas fa-shield-halved",
-          "label": "Şifrlenen API açarlary, KVKK laýyk"
+          "icon": "fas fa-user-shield",
+          "label": "KVKK: alyjy maglumatlary saklanmaýar"
         },
         {
-          "icon": "fas fa-file-excel",
-          "label": "Excel we faktura arkaly özüne düşýän baha"
+          "icon": "fas fa-gift",
+          "label": "14 gün mugt, kart gerek däl"
+        }
+      ],
+      "highlights": {
+        "label": "DOLANYŞYK GIRDEJI DÄL",
+        "title": "Jübiňize galýan pula çenli her tutum",
+        "text": "Marketpleýs panelleri dolanyşygy görkezýär, girdejini däl. Kârlılık.NET her sargytdan aşakdaky çykdajylary aýyrýar we özüne düşýän bahasy girizilmedik önümler barada aýratyn duýdurýar; şeýlelikde görýän arassa girdejiňiz hakykatdan hem jübiňize galýan puldur.",
+        "items": [
+          "Kategoriýa komissiýasy",
+          "Göwrüm agramy (desi) boýunça eltip bermek we gaýtarma eltip bermegi",
+          "Platformanyň hyzmat tölegi",
+          "Elektron söwda boýunça saklanýan salgyt",
+          "Arassa GBS",
+          "Mahabat we influenser çykdajylary",
+          "Jerimeler we irki töleg tutumlary",
+          "Ammar, buhgalteriýa ýaly goşmaça çykdajylar"
+        ]
+      },
+      "features_label": "EKRANLAR",
+      "features_title": "Karar bermek üçin gerek bolan ähli zat",
+      "features_text": "Ekran suratlary Kârlılık.NET demo hasabyndan alnandyr; mysal maglumatlar bilen görkezilýär.",
+      "features_frame": "browser",
+      "features_url": "karlilik.net",
+      "features": [
+        {
+          "label": "Dolandyryş paneli",
+          "title": "Işiňiziň girdeji suraty bir ekranda",
+          "bullets": [
+            "Dolanyşyk, ýalpy girdeji, arassa girdeji we özüne düşýän baha doluşy",
+            "Çykdajylaryň bölünişi: pul nirä gidýär, madda-madda",
+            "Trendyol bilen Hepsiburadanyň deňeşdirmesi"
+          ],
+          "image": "/images/products/karlilik/dashboard.webp",
+          "image_alt": "Kârlılık.NET dolandyryş paneli: dolanyşyk, ýalpy girdeji, arassa girdeji we özüne düşýän baha doluşy kartlary"
+        },
+        {
+          "label": "Sargytlar",
+          "title": "Her sargydyň girdejisi: çaklamadan takyga",
+          "bullets": [
+            "Sargyt wagtynda çaklanýan girdeji, hasaplaşyk bilen takyk girdeji",
+            "Ýagdaý, dükan we girdeji süzgüçleri",
+            "Sargyt, paket ýa-da ştrih-kod boýunça gözleg"
+          ],
+          "image": "/images/products/karlilik/siparisler.webp",
+          "image_alt": "Kârlılık.NET sargytlar sanawy: möçber we sargyt boýunça girdeji"
+        },
+        {
+          "label": "Hasabatlar",
+          "title": "Haýsy önüm gazandyrýar, haýsysy zyýan getirýär?",
+          "bullets": [
+            "Önüm, kategoriýa, dükan, gaýtarma we mahabat boýunça bölünişler",
+            "Satylan, gaýtarylan, dolanyşyk, özüne düşýän baha, marketpleýs çykdajylary we marja",
+            "Bir basyşda Excel-e eksport"
+          ],
+          "image": "/images/products/karlilik/raporlar.webp",
+          "image_alt": "Kârlılık.NET önüm girdejiligi hasabaty"
+        },
+        {
+          "label": "Baha kalkulýatory",
+          "title": "Bahaňyzy maksat marjaňyza görä belläň",
+          "bullets": [
+            "Önümiň özüne düşýän bahasy, komissiýasy we göwrüm agramy awtomatik doldurylýar",
+            "Tutumlaryň madda-madda sanawy",
+            "Häzirki baha bilen tapawudy derrew görüň"
+          ],
+          "image": "/images/products/karlilik/fiyat-hesaplayici.webp",
+          "image_alt": "Kârlılık.NET baha kalkulýatory: maksat marjasyndan teklip edilýän satuw bahasy"
+        },
+        {
+          "label": "Deňeşdirme",
+          "title": "Artyk tutulan her teňňäni görüň",
+          "bullets": [
+            "Çaklanýan we takyk tutumlaryň tapawudy: komissiýa, eltip bermek, hyzmat tölegi",
+            "Şübheli tutumlar sargyt boýunça sanawda görkezilýär",
+            "Girdejä täsiri aýratyn görkezilýär"
+          ],
+          "image": "/images/products/karlilik/mutabakat.webp",
+          "image_alt": "Kârlılık.NET hasaplaşyk deňeşdirmesi: tutum tapawutlary"
         }
       ],
       "steps_label": "NÄHILI IŞLEÝÄR",
       "steps_title": "Dört ädimde hakyky girdejiňiz",
       "steps": [
         {
+          "title": "Hasap açyň",
+          "text": "14 gün mugt; kart maglumaty soralmaýar."
+        },
+        {
           "title": "Dükanyňyzy birikdiriň",
-          "text": "Marketpleýs API açary bilen dükanyňyzy goşuň; önümleriňiz ştrih-kod boýunça awtomatik gabat getirilýär."
+          "text": "API açaryňyzy giriziň; önümler ştrih-kod boýunça gabat getirilýär, öňki sargytlar çekilýär."
         },
         {
           "title": "Özüne düşýän bahalary giriziň",
-          "text": "El bilen, Excel arkaly ýa-da satyn alyş fakturaňyzy emeli intellekte okadyp giriziň. Baha bir gezek girizilýär we ähli marketpleýslerde ulanylýar."
-        },
-        {
-          "title": "Maglumatlar awtomatik çekilýär",
-          "text": "Sargytlar, komissiýalar, eltip bermek we töleg ýazgylary fonda yzygiderli sinhronlanýar."
+          "text": "El bilen, Excel arkaly ýa-da fakturany okadyp. Bir gezek girizilýär, ähli dükanlarda ulanylýar."
         },
         {
           "title": "Arassa girdejiňizi görüň",
-          "text": "Sargyt, önüm, kategoriýa we dükan boýunça arassa girdeji; zyýan getirýän önümleri derrew görüň."
+          "text": "Sargytlar her 15 minutda, hasaplaşyklar her sagatda täzelenýär."
         }
       ],
-      "modules_label": "MODULLAR",
-      "modules_title": "Girdejiňizi aýdyňlaşdyrýan ähli zat bir panelde",
-      "modules_subtitle": "Dükany birikdirmekden tölegleri deňeşdirmäge çenli marketpleýs satyjysyna gerek modullar",
+      "modules_label": "AÝRATYNLYKLAR",
+      "modules_title": "Girdeji suratyňyzy aýdyňlaşdyrýan ähli zat bir panelde",
+      "modules_subtitle": "Dükany birikdirmekden hasaplaşyklary deňeşdirmäge çenli marketpleýs satyjysyna gerek modullar.",
       "modules": [
         {
-          "icon": "fas fa-link",
-          "title": "Dükan birikmeleri",
-          "description": "Trendyol we Hepsiburada dükanlaryňyzy API açarlary bilen birikdiriň; açarlar AES-256 bilen şifrlenip saklanýar.",
-          "bullets": [
-            "Birikme synagy bilen derrew barlag",
-            "Ştrih-kod boýunça awtomatik gabat getirmek",
-            "Bir hasapda birnäçe dükan"
-          ]
+          "icon": "fas fa-plug",
+          "title": "Dükan birikmesi",
+          "description": "Trendyol we Hepsiburada dükanlaryňyzy API açary bilen birikdiriň; sargytlar, bildirişler we hasaplaşyklar öz-özünden gelýär."
         },
         {
           "icon": "fas fa-coins",
           "title": "Özüne düşýän bahany dolandyrmak",
-          "description": "Önümleriň bahasyny üç usulda giriziň we seneli taryhyny saklaň.",
-          "bullets": [
-            "El bilen girizmek we taryh",
-            "Excel importy we deslapky görnüş",
-            "Emeli intellekt bilen satyn alyş fakturasyny okamak"
-          ]
+          "description": "Özüne düşýän bahany el bilen, Excel arkaly ýa-da satyn alyş fakturasyny emeli intellekte okadyp giriziň. Bahalaryň taryhy senesi bilen saklanýar."
+        },
+        {
+          "icon": "fas fa-receipt",
+          "title": "Sargyt boýunça girdeji",
+          "description": "Sargyt gelen badyna çaklanýan girdeji; hasaplaşyk tassyklananda marketpleýsiň hakyky tutumlary bilen takyk girdeji."
+        },
+        {
+          "icon": "fas fa-chart-column",
+          "title": "Hasabatlar",
+          "description": "Önüm, kategoriýa, dükan, gaýtarma we mahabat hasabatlary; iň köp gazandyrýan we zyýan getirýän önümler. Excel-e eksport ediň."
         },
         {
           "icon": "fas fa-calculator",
-          "title": "Girdeji hereketlendirijisi",
-          "description": "Komissiýa, göwrüm agramy boýunça eltip bermek, hyzmat tölegi, saklanýan salgyt we GBS düzgünleri bilen her sargyt üçin arassa girdeji hasaplanýar.",
-          "bullets": [
-            "Sargyt wagtynda çaklaňan girdeji",
-            "Töleg gelende takyk girdeji",
-            "Dükan boýunça çykdajy düzgünleri"
-          ]
-        },
-        {
-          "icon": "fas fa-chart-line",
-          "title": "Hasabatlar we dolandyryş paneli",
-          "description": "Sargyt, önüm, kategoriýa we dükan boýunça girdejilik hasabatlary.",
-          "bullets": [
-            "Iň köp gazandyrýan we zyýan getirýän önümler",
-            "Döwürleri deňeşdirmek",
-            "Excel-e eksport"
-          ]
-        },
-        {
-          "icon": "fas fa-tags",
           "title": "Baha kalkulýatory",
-          "description": "Maksat marjaňyzy giriziň we marketpleýs tutumlaryny hasaba alýan satuw bahasyny görüň.",
-          "bullets": [
-            "Maksat marjasyndan baha",
-            "Köpçülikleýin baha teklipleri",
-            "Bahadan marja hasaby"
-          ]
+          "description": "Maksat marjaňyzdan satuw bahasy ýa-da bahadan girdeji; ähli tutumlar hasaba alynýar. Köpçülikleýin baha teklibi."
         },
         {
           "icon": "fas fa-scale-balanced",
-          "title": "Tölegleri deňeşdirmek",
-          "description": "Marketpleýsiň garaşylandan köp ýa-da az tutan möçberlerini sargyt boýunça tapyň.",
-          "bullets": [
-            "Çaklaňan we takyk girdeji tapawudy",
-            "Tutum maddasy boýunça tapawut",
-            "Tapawutlaryň sanawy"
-          ]
-        }
-      ],
-      "benefits_title": "Emeli intellekt san oýlap tapmaýar, hereket teklip edýär",
-      "benefits_text": "Ähli sanlar hasaplaýyş hereketlendirijisinden gelýär. Emeli intellekt diňe netijeleri okaýar, düşündirýär we näme etmelidigini aýdýar.",
-      "benefits": [
-        {
-          "icon": "fas fa-comments",
-          "title": "Tebigy dilde sorag-jogap",
-          "text": "\"Geçen aý iň köp zyýan getiren 5 önüm haýsy?\" diýip soraň; jogap öz maglumatlaryňyzdan gelýär."
+          "title": "Hasaplaşyklary deňeşdirmek",
+          "description": "Marketpleýsiň garaşylandan artyk tutan komissiýasyny, eltip bermek we hyzmat tölegini sargyt boýunça tapyň."
         },
         {
-          "icon": "fas fa-envelope-open-text",
-          "title": "Hepdelik jemleme",
-          "text": "Her duşenbe geçen hepdäniň girdeji jemlemesi we 3 anyk hereket teklibi poçtaňyzda."
-        },
-        {
-          "icon": "fas fa-file-invoice",
-          "title": "Faktura okamak",
-          "text": "Satyn alyş fakturaňyzy ýükläň; emeli intellekt pozisiýalary önümleriňiz bilen gabat getirýär. Siz tassyklamasaňyz hiç bir baha ulanylmaýar."
-        },
-        {
-          "icon": "fas fa-triangle-exclamation",
-          "title": "Baha ýetmezçiligi barada duýduryş",
-          "text": "Bahasyz girdeji peýdany manysyz edýär; ulgam iň möhüm önümleri öňe çykarýar."
-        },
-        {
-          "icon": "fas fa-user-shield",
-          "title": "KVKK laýyk",
-          "text": "Alyjylaryň ady, salgysy, telefony we şahsy belgisi asla saklanmaýar."
+          "icon": "fas fa-wand-magic-sparkles",
+          "title": "AI kömekçi",
+          "description": "Girdejiňiz barada tebigy dilde soraň; jogaplar öz hasabatlaryňyzdan gelýär. Her duşenbe hepdelik jemleme we hereket teklipleri."
         },
         {
           "icon": "fas fa-users",
           "title": "Topar we rollar",
-          "text": "Toparyňyzy çagyryň we her ulanyja laýyk hukuk beriň."
+          "description": "Toparyňyzy çagyryň; hasap eýesi, dolandyryjy we agza rollary bilen kimiň nämäni görjekdigini kesgitläň."
         }
       ],
-      "cta_title": "Hakyky girdejiňizi görmäge taýýarmy?",
-      "cta_text": "Karlılık.NET irki elýeterlilik tapgyrynda. Dükanyny ilkinjileriň hatarynda birikdirmek üçin biz bilen habarlaşyň.",
-      "cta_button": "Irki elýeterlilik soramak",
-      "cta_secondary_link": "Ähli çözgütler",
+      "benefits_title": "Dükanyňyzyň açary bizde howpsuz",
+      "benefits_text": "Girdeji seljermesi üçin gerek maglumaty alýarys, artygyny däl.",
+      "benefits": [
+        {
+          "icon": "fas fa-lock",
+          "title": "Şifrlenen API açarlary",
+          "text": "Marketpleýs açarlaryňyz AES-256 bilen şifrlenip saklanýar; hiç bir ýazgyda we ekranda açyk görkezilmeýär."
+        },
+        {
+          "icon": "fas fa-user-shield",
+          "title": "Alyjy maglumatlary saklanmaýar",
+          "text": "Alyjylaryň ady, salgysy, telefony we TC şahsyýet belgisi ulgama asla ýazylmaýar (KVKK, Türkiýäniň şahsy maglumatlary goramak baradaky kanuny)."
+        },
+        {
+          "icon": "fas fa-trash-can",
+          "title": "Maglumatlaryňyz siziňki",
+          "text": "Hasabyňyzy islän wagtyňyz pozup bilersiňiz; 7 günlük garaşma möhletiniň ahyrynda ähli maglumatlar hemişelik pozulýar."
+        },
+        {
+          "icon": "fas fa-credit-card",
+          "title": "Howpsuz töleg",
+          "text": "Abuna tölegleri iyzico arkaly kabul edilýär; kart maglumatlaryňyz Kârlılık.NET-de saklanmaýar."
+        }
+      ],
+      "links_title": "Kârlılık.NET baglanyşyklary",
+      "links": [
+        {
+          "icon": "fas fa-globe",
+          "title": "karlilik.net",
+          "text": "Önüm bilen tanyşdyryş, ekranlar we ýygy-ýygydan soralýan soraglar",
+          "url": "https://karlilik.net/"
+        },
+        {
+          "icon": "fas fa-play",
+          "title": "Demony synap görüň",
+          "text": "Hasaba durmazdan mysal maglumatly dükanda ähli ekranlary gözden geçiriň; demo maglumatlary her gije başlangyç ýagdaýyna gaýtarylýar.",
+          "url": "https://karlilik.net/login"
+        },
+        {
+          "icon": "fas fa-user-plus",
+          "title": "Mugt hasap açyň",
+          "text": "14 gün mugt; kart maglumaty soralmaýar, islän wagtyňyz ýatyryp bilersiňiz.",
+          "url": "https://karlilik.net/register"
+        },
+        {
+          "icon": "fas fa-tags",
+          "title": "Tarifler we bahalar",
+          "text": "Häzirki tarifleri we bahalary karlilik.net sahypasynda görüň.",
+          "url": "https://karlilik.net/#fiyatlar"
+        }
+      ],
+      "faq_title": "Ýygy-ýygydan soralýan soraglar",
+      "faq": [
+        {
+          "question": "Haýsy marketpleýsleri goldaýarsyňyz?",
+          "answer": "Trendyol we Hepsiburada (Türkiýäniň marketpleýsleri). Bir hasapda birnäçe dükany birikdirip, olar boýunça bilelikde ýa-da aýratynlykda hasabat alyp bilersiňiz."
+        },
+        {
+          "question": "Maglumatlarym näçe ýygy täzelenýär?",
+          "answer": "Sargytlar her 15 minutda, hasaplaşyk we maliýe ýazgylary her sagatda, bildirişler her 6 sagatda çekilýär. Dükany ilkinji gezek birikdireniňizde öňki sargytlar hem gelýär."
+        },
+        {
+          "question": "Çaklanýan girdeji bilen takyk girdejiniň tapawudy näme?",
+          "answer": "Sargyt gelende girdeji dükanyňyzyň komissiýa, eltip bermek tarifi we hyzmat tölegi düzgünleri boýunça çaklanýar. Marketpleýs hasaplaşygy tassyklanda hakyky tutumlar bilen takyk girdeji hasaplanýar; aradaky tapawut deňeşdirme ekranynda görünýär."
+        },
+        {
+          "question": "Önümleriň özüne düşýän bahasyny nädip girizmeli?",
+          "answer": "Önüm ekranyndan birme-bir, Excel şablony arkaly köpçülikleýin ýa-da satyn alyş fakturaňyzy ýükläp. Fakturany emeli intellekt okaýar we önümleriňiz bilen gabat getirýär; siz tassyklamasaňyz hiç bir baha ulanylmaýar."
+        },
+        {
+          "question": "Sanlary emeli intellektiň özi hasaplaýarmy?",
+          "answer": "Ýok. Ähli sanlar girdeji hasaplaýyş hereketlendirijisinden gelýär; kömekçi diňe siziň hasabatlaryňyzy okaýar, düşündirýär we teklip berýär. Maglumatlary geçirmek üçin aç-açan razylygyňyz soralýar."
+        },
+        {
+          "question": "Mugt synag nähili işleýär?",
+          "answer": "Hasaba duranyňyzda 14 günlük synag başlaýar, kart maglumaty soralmaýar. Synag gutarmanka islän tarifiňizi saýlap, iyzico arkaly töläp bilersiňiz."
+        },
+        {
+          "question": "Hasaba durmazdan synap görüp bolarmy?",
+          "answer": "Hawa. karlilik.net sahypasyndaky \"Demoyu deneyin\" (Demony synap görüň) düwmesi arkaly mysal maglumatly dükanda ähli ekranlary gözden geçirip bilersiňiz; demo maglumatlary her gije başlangyç ýagdaýyna gaýtarylýar."
+        }
+      ],
+      "cta_title": "Hakyky girdejiňizi şu gün görüň",
+      "cta_text": "Dükanyňyzy birikdiriň, özüne düşýän bahalary giriziň; zyýan getirýän önümleri ilkinji günden tapyň.",
+      "cta_button": "14 gün mugt synap görüň",
+      "cta_button_url": "https://karlilik.net/register",
+      "cta_secondary_link": "Demony synap görüň",
+      "cta_secondary_link_url": "https://karlilik.net/login",
       "slug": "karlilik",
       "id": "karlilik"
     },
     "adisyon-qr": {
-      "title": "AgotaSoft Adisyon QR",
-      "badge": "Irki elýeterlilik",
-      "hero_subtitle": "Kafe we restoranlar üçin QR menýu, sargyt, aşhana ekrany we hasaby bir ulgamda birleşdirýän bulut çözgüdi. Myhman stoluň üstündäki QR-y skanirleýär, menýuny telefonynda açýar we sargyt berýär; sargyt ofisiantdan aşhana, ondan kassa bökdençsiz geçýär.",
-      "cta_primary": "Irki elýeterlilik soramak",
-      "cta_secondary": "Modullary görmek",
+      "title": "AgotaSoft QR Menü",
+      "badge": "Elýeterli",
+      "hero_subtitle": "Kafe we restoranlar üçin QR menýu, stoldan sargyt, aşhana ekrany we hasap ulgamy. Myhman stoldaky QR kody skanirleýär; menýu telefonynyň brauzerinde açylýar, ol sargyt berýär, ofisianty çagyrýar we hasaby görýär. Sargyt ofisiantdan aşhana, ondan kassa bökdençsiz geçýär.",
+      "cta_primary": "Demo soraň",
+      "cta_secondary": "qrmenu.agotasoft.com",
+      "cta_secondary_url": "https://qrmenu.agotasoft.com/",
+      "hero_note": "Myhman üçin programma ýüklemek, hasaba durmak ýa-da ulgama girmek gerek däl.",
       "facts_title": "Gysgaça",
       "facts": [
         {
           "icon": "fas fa-qrcode",
-          "label": "Programma gurmak gerek däl, QR bilen açylýar"
+          "label": "Menýu QR arkaly brauzerde açylýar"
         },
         {
-          "icon": "fas fa-mobile-screen",
-          "label": "iPhone, iPad we Android"
+          "icon": "fas fa-users-gear",
+          "label": "Ofisiant, kassa, aşhana we dolandyryjy rollary"
         },
         {
-          "icon": "fas fa-print",
-          "label": "Aşhana ekrany we çek printeri"
+          "icon": "fas fa-fire-burner",
+          "label": "Aşhana ekrany (KDS) we çek printeri"
         },
         {
-          "icon": "fas fa-language",
-          "label": "Köp dilli menýu"
+          "icon": "fas fa-credit-card",
+          "label": "iyzico arkaly stoldan onlaýn töleg"
+        }
+      ],
+      "highlights": {
+        "label": "MYHMAN TARAPY",
+        "title": "Stoldan sargyt, ofisianty çagyrmak we töleg",
+        "text": "Myhmanlaryňyz hasaba durmazdan, programma ýüklemezden sargyt berýär. Ady, telefony ýa-da e-poçtasy soralmaýar; mahabat we yzarlama ýok.",
+        "items": [
+          "Kategoriýalar, gözleg we önüm jikme-jiklikleri: surat, düşündiriş, agram, kaloriýa we allergenler",
+          "Allergen süzgüji: saýlanan allergenleri saklaýan önümleri gizleýär",
+          "Önüm saýlawlary, sany we önüme bellik",
+          "Menýu kärhananyň terjime eden dillerinde görkezilýär",
+          "Sargytlarym: tassyklama garaşýar, taýýarlanýar we taýýar ýagdaýlaryny janly yzarlamak",
+          "Bir basyşda ofisianty çagyrmak, suw ýa-da hasap soramak",
+          "Hasaby görmek: pozisiýalar, arzanladyşlar, tölenen we galan möçber",
+          "Kärhana açan bolsa, hasabyň hemmesini ýa-da bir bölegini çaý puly bilen bilelikde iyzico arkaly tölemek"
+        ]
+      },
+      "gallery_title": "Myhman ekranlary",
+      "gallery_text": "Stoldaky QR kod skanirlenende açylýan menýu, sargyt we hasap ekranlary. Ekran suratlary demo kärhanadan alyndy.",
+      "gallery": [
+        {
+          "src": "/images/products/qr-menu/01-musteri-menu.webp",
+          "caption": "Menýu: kategoriýalar, ýarlyklar, bahalar we allergen süzgüji"
+        },
+        {
+          "src": "/images/products/qr-menu/02-musteri-urun-ayrintisi.webp",
+          "caption": "Önüm jikme-jiklikleri: düşündiriş, taýýarlanyş wagty, sany we bellik"
+        },
+        {
+          "src": "/images/products/qr-menu/03-musteri-siparislerim.webp",
+          "caption": "Sargytlarym: sargydyň ýagdaýy; ofisianty çagyrmak, suw we hasap soramak"
+        },
+        {
+          "src": "/images/products/qr-menu/04-musteri-hesap.webp",
+          "caption": "Hasap: stoluň hasaby pozisiýalar boýunça we galan möçber"
+        }
+      ],
+      "features_label": "IŞGÄRLER WE DOLANDYRYŞ",
+      "features_title": "Zaldan aşhana, aşhanadan kassa",
+      "features_text": "Ofisiant, aşhana, kassa we dolandyryjy ekranlary. Ekran suratlary demo kärhanadan alyndy.",
+      "features": [
+        {
+          "label": "Zal",
+          "title": "Stollaryň janly ýagdaýy bir ekranda",
+          "bullets": [
+            "Boş, açyk we hasap soraldy ýagdaýlary",
+            "Tassyklama garaşýan QR sargytlary",
+            "Ofisiant, suw we hasap çagyryşlary"
+          ],
+          "image": "/images/products/qr-menu/05-salon.webp",
+          "image_alt": "AgotaSoft QR Menü zal ekrany: stollaryň janly ýagdaýy we garaşýan çagyryşlar",
+          "frame": "browser",
+          "frame_url": "qrmenu.agotasoft.com/admin"
+        },
+        {
+          "label": "Aşhana ekrany (KDS)",
+          "title": "Sargytlar stansiýalar boýunça aşhana düşýär",
+          "bullets": [
+            "Bar we aşhana stansiýalary",
+            "Garaşma wagtyna görä reňklenýän biletler",
+            "Pozisiýa basyp taýýarlanýar / taýýar"
+          ],
+          "image": "/images/products/qr-menu/06-mutfak-ekrani.webp",
+          "image_alt": "AgotaSoft QR Menü aşhana ekrany (KDS): stansiýalar boýunça sargyt biletleri",
+          "frame": "screen"
+        },
+        {
+          "label": "Hasap we kassa",
+          "title": "Stoluň hasaby: töleg kabul ediň, bölüň, ýapyň",
+          "bullets": [
+            "Sargytlar, aralyk jemi we GBS",
+            "Töleg kabul etmek, arzanladyş we mugt hödür",
+            "Hasaby bölmek we birleşdirmek"
+          ],
+          "image": "/images/products/qr-menu/07-adisyon.webp",
+          "image_alt": "AgotaSoft QR Menü stol hasaby: sargytlar, aralyk jemi, GBS we töleg düwmeleri",
+          "frame": "browser",
+          "frame_url": "qrmenu.agotasoft.com/admin"
+        },
+        {
+          "label": "Dolandyryş paneli",
+          "title": "Menýuny bir ýerden dolandyryň",
+          "bullets": [
+            "Önümler, kategoriýalar, baha we GBS",
+            "Excel we CSV arkaly import/eksport",
+            "Saýlawlar, menýular, stollar we QR kodlar"
+          ],
+          "image": "/images/products/qr-menu/08-menu-yonetimi.webp",
+          "image_alt": "AgotaSoft QR Menü dolandyryş paneli: önüm sanawy, baha, GBS we Excel/CSV import/eksport",
+          "frame": "browser",
+          "frame_url": "qrmenu.agotasoft.com/admin"
         }
       ],
       "steps_label": "NÄHILI IŞLEÝÄR",
@@ -1790,94 +1994,89 @@
       "steps": [
         {
           "title": "QR-y skanirläň",
-          "text": "Myhman stoluň üstündäki QR kody skanirleýär; menýu telefonyň brauzerinde açylýar, programma ýüklemek gerek däl."
+          "text": "Myhman stoldaky QR kody skanirleýär; menýu telefonynyň brauzerinde açylýar, programma ýüklemek gerek däl."
         },
         {
           "title": "Sargyt beriň",
-          "text": "Nahary we goşmaçalary saýlap sargyt iberýär; ofisianty çagyryp ýa-da hasaby sorap bilýär."
+          "text": "Önümi we saýlawlary saýlap sargydy iberýär; ofisianty çagyryp, suw ýa-da hasap sorap bilýär."
         },
         {
           "title": "Tassyklama we aşhana",
-          "text": "Ofisiant sargydy tassyklaýar; sargyt derrew aşhana ekranyna we degişli printere düşýär."
+          "text": "Ofisiant QR sargydyny tassyklaýar (isleseňiz awtomatik tassyklanýar); sargyt aşhana ekranyna we degişli printere düşýär."
         },
         {
           "title": "Hasap we töleg",
-          "text": "Kassada hasap bölünýär ýa-da birleşdirilýär, arzanladyş ulanylýar, töleg kabul edilýär we çek çap edilýär."
+          "text": "Kassada töleg kabul edilýär; hasap bölünýär ýa-da birleşdirilýär, arzanladyş we mugt hödür ulanylýar, çek çap edilýär."
         }
       ],
       "modules_label": "MODULLAR",
       "modules_title": "Zaldan aşhana, aşhanadan kassa",
-      "modules_subtitle": "Ähli hyzmat akymyny öz içine alýan modullar",
+      "modules_subtitle": "Ofisiant, kassa, aşhana we dolandyryjy toparlary üçin bir ulgam; menýu, stollar, ulanyjylar we sazlamalar web dolandyryş panelinde.",
       "modules": [
         {
           "icon": "fas fa-book-open",
           "title": "QR menýu",
-          "description": "Kategoriýalar, nahar suratlary, allergenler we agram maglumaty bilen sanly menýu.",
+          "description": "Kategoriýalar, önüm suratlary, allergen, agram we kaloriýa maglumaty bilen sanly menýu.",
           "bullets": [
-            "Allergen we agram maglumaty",
-            "Türk, iňlis, arap, rus we nemes dilleri",
-            "Ertirlik we agşamlyk ýaly wagtlaýyn menýular"
+            "Allergen süzgüji we önüm saýlawlary",
+            "Kärhananyň saýlan dillerinde menýu",
+            "Ertirlik we agşamlyk ýaly wagta görä menýular"
           ]
         },
         {
           "icon": "fas fa-bell-concierge",
-          "title": "Sargyt we stollar",
-          "description": "Stol boýunça sessiýalar we sargytlary hakyky wagtda yzarlamak.",
+          "title": "Zal we sargyt",
+          "description": "Stollaryň janly görnüşi we çalt sargyt kabul etmek.",
           "bullets": [
-            "QR ýa-da ofisiant arkaly sargyt",
-            "Ofisianty çagyrmak we hasap soramak",
-            "Janly zal görnüşi"
+            "Boş, açyk we hasap soraldy ýagdaýlary",
+            "Kategoriýa, saýlaw, bellik we tapgyr bilen çalt sargyt",
+            "Internet kesilse, ofisiant sargytlary nobata alynýar"
+          ]
+        },
+        {
+          "icon": "fas fa-circle-check",
+          "title": "QR sargydyny tassyklamak",
+          "description": "Myhmanlaryň QR arkaly beren sargytlaryny tassyklaň ýa-da ret ediň.",
+          "bullets": [
+            "Islege görä awtomatik tassyklama",
+            "Ofisiant, suw we hasap çagyryşlary",
+            "Tassyklama garaşýan sargyt bellikleri"
           ]
         },
         {
           "icon": "fas fa-fire-burner",
           "title": "Aşhana ekrany (KDS)",
-          "description": "Sargytlar gyzgyn, sowuk we bar ýaly stansiýalar boýunça aşhana ekranyna düşýär.",
+          "description": "Sargytlar stansiýalar boýunça aşhana ekranyna düşýär.",
           "bullets": [
-            "Stansiýa boýunça ugrukdyrma",
-            "Garaşma wagtyna görä reňkli duýduryş",
-            "Planşetde işleýär"
+            "Aşhana we bar ýaly stansiýalar",
+            "Pozisiýa boýunça taýýarlanýar / taýýar",
+            "Garaşma wagtyna görä reňkler; planşetde gorizontal"
           ]
         },
         {
           "icon": "fas fa-cash-register",
-          "title": "Hasap we kassa",
-          "description": "Hasaby bölmek we birleşdirmek, arzanladyş we dürli töleg usullary.",
+          "title": "Kassa we hasap",
+          "description": "Töleg kabul ediň, hasaby bölüň, birleşdiriň we ýapyň.",
           "bullets": [
-            "Nagt, kart we nahar kartlary",
-            "Hasaby bölmek we birleşdirmek",
-            "Kassany açmak we ýapmak"
+            "Nagt, kart, nahar kartlary we sowgat sertifikaty",
+            "Arzanladyş, mugt hödür; pozisiýa boýunça ýa-da deň bölmek",
+            "Kassa smenasy we garaşylýan nagt"
           ]
         },
         {
-          "icon": "fas fa-print",
-          "title": "Printer integrasiýasy",
-          "description": "Bar bolan çek we aşhana printerleriňiz (ESC/POS) bilen işleýär, goşmaça enjam gerek däl.",
+          "icon": "fas fa-sliders",
+          "title": "Dolandyryş paneli we hasabatlar",
+          "description": "Menýu, stollar, ulanyjylar we sazlamalar web panelinde dolandyrylýar.",
           "bullets": [
-            "Kategoriýa boýunça printere ugrukdyrma",
-            "Türk harplaryny goldamak",
-            "Çap şowsuz bolanda awtomatik gaýtalama"
-          ]
-        },
-        {
-          "icon": "fas fa-chart-simple",
-          "title": "Menýuny dolandyrmak we hasabatlar",
-          "description": "Menýuny Excel arkaly import/eksport ediň, şahamça boýunça baha belläň.",
-          "bullets": [
-            "Excel we CSV import/eksport",
-            "Şahamça boýunça baha we elýeterlilik",
-            "Gün ahyry hasabaty"
+            "Excel we CSV arkaly menýu importy/eksporty",
+            "Stollar we QR çap sahypasy",
+            "Gün ahyry jemi: satuwlar, töleg görnüşleri, sargytlar"
           ]
         }
       ],
-      "benefits_title": "Enjam satmaýarys, bar bolan enjamlaryňyzda işleýär",
-      "benefits_text": "Telefonlaryňyz, planşetleriňiz we kompýuterleriňiz ýeterlik; ýörite enjam gerek däl.",
+      "benefits_title": "Bar bolan enjamlaryňyzda işleýär",
+      "benefits_text": "Telefonlaryňyz, planşetleriňiz we kompýuterleriňiz ýeterlik; çap etmek bar bolan ESC/POS çek we aşhana printerleriňizde amala aşyrylýar.",
       "benefits": [
-        {
-          "icon": "fas fa-mobile-screen-button",
-          "title": "Bir programma, iki platforma",
-          "text": "Ofisiant, kassa we aşhana toparlary şol bir programmany iPhone, iPad we Android-da ulanýar."
-        },
         {
           "icon": "fas fa-bolt",
           "title": "Hakyky wagtda sinhronlama",
@@ -1885,29 +2084,93 @@
         },
         {
           "icon": "fas fa-wifi",
-          "title": "Internet kesilmesine durnukly",
-          "text": "Aragatnaşyk kesilende ofisiant sargytlary nobata alynýar we aragatnaşyk dikeldilende iberilýär."
+          "title": "Aragatnaşyk kesilmesine durnukly sargyt",
+          "text": "Aragatnaşyk kesilende ofisiant sargytlary enjamda nobata alynýar, aragatnaşyk dikelende gaýtalanmazdan iberilýär."
+        },
+        {
+          "icon": "fas fa-print",
+          "title": "Çek we aşhana printerleri",
+          "text": "Tora birikdirilen ESC/POS printerler kärhanadaky kompýuterde işleýän Print Agent arkaly ulanylýar; kategoriýa boýunça ugrukdyrylýar."
         },
         {
           "icon": "fas fa-store",
           "title": "Köp şahamçaly gurluş",
-          "text": "Menýu bir ýerden dolandyrylýar; baha we elýeterlilik şahamça boýunça sazlanýar."
+          "text": "Menýu bir ýerden dolandyrylýar; baha we önümiň ýagdaýy şahamça boýunça sazlanýar."
         },
         {
           "icon": "fas fa-shield-halved",
           "title": "Howpsuz QR",
-          "text": "Her stoluň QR kody gol çekilen; göçürilen kod bilen ýalan sargyt berip bolmaýar."
+          "text": "Her stoluň QR baglanyşygynda gizlin açar bar; stol belgisini çaklap sargyt berip bolmaýar."
         },
         {
           "icon": "fas fa-user-lock",
           "title": "Rola esaslanan hukuklar",
-          "text": "Ofisiant, kassir, aşhana we dolandyryjy üçin aýratyn ekranlar we hukuklar."
+          "text": "Ofisiant, kassir, aşhana, dolandyryjy we kärhananyň eýesi üçin aýratyn ekranlar we hukuklar."
+        }
+      ],
+      "links_title": "AgotaSoft QR Menü baglanyşyklary",
+      "links": [
+        {
+          "icon": "fas fa-globe",
+          "title": "qrmenu.agotasoft.com",
+          "text": "AgotaSoft QR Menü-niň baş sahypasy",
+          "url": "https://qrmenu.agotasoft.com/"
+        },
+        {
+          "icon": "fas fa-right-to-bracket",
+          "title": "Dolandyryş paneli",
+          "text": "Kärhananyň eýesi we dolandyryjy üçin giriş",
+          "url": "https://qrmenu.agotasoft.com/admin"
+        },
+        {
+          "icon": "fas fa-life-ring",
+          "title": "Goldaw",
+          "text": "Myhmanlar we kärhanalar üçin ýygy-ýygydan soralýan soraglar",
+          "url": "https://qrmenu.agotasoft.com/destek"
+        },
+        {
+          "icon": "fas fa-user-shield",
+          "title": "Gizlinlik",
+          "text": "Gizlinlik syýasaty we maglumatlary pozmak",
+          "url": "https://qrmenu.agotasoft.com/gizlilik"
+        }
+      ],
+      "faq_title": "Ýygy-ýygydan soralýan soraglar",
+      "faq": [
+        {
+          "question": "Myhman programma ýüklemelimi?",
+          "answer": "Ýok. Stoldaky QR kod telefonyň kamerasy bilen skanirlenende menýu brauzerde açylýar; myhman sargyt berip, ofisianty çagyryp we hasaby görüp bilýär. Hasaba durmak ýa-da ulgama girmek ýok; ady, telefony ýa-da e-poçtasy soralmaýar."
+        },
+        {
+          "question": "Kärhana hasabyny nädip açmaly?",
+          "answer": "Kärhana hasaplaryny AgotaSoft açýar. Habarlaşmak formy arkaly ýa-da info@agotasoft.com salgysyna kärhanaňyzyň adyny görkezip ýazyň; gurnamak üçin siz bilen habarlaşarys."
+        },
+        {
+          "question": "Işgär hasaplary nädip döredilýär?",
+          "answer": "Dolandyryş panelindäki Ulanyjylar sahypasyndan. Ekranlar rola görä (ofisiant, kassir, aşhana, dolandyryjy, kärhananyň eýesi) açylýar; işgär programmasynyň interfeýsi türk dilinde."
+        },
+        {
+          "question": "Printerler nähili işleýär?",
+          "answer": "Tora birikdirilen ESC/POS çek we aşhana printerleri kärhanadaky kompýuterde işleýän Print Agent arkaly ulanylýar. Printerler we kategoriýa ugrukdyrmalary dolandyryş panelinden kesgitlenýär."
+        },
+        {
+          "question": "Internet kesilse näme bolýar?",
+          "answer": "Işgär programmasy ofisiant sargytlaryny enjamda nobata alýar we aragatnaşyk dikelende iberýär; kassa amallaryny oflaýn ýagdaýda ýerine ýetirip bolmaýar. Myhman menýusy iň soňky görlen menýuny görkezip biler, emma aragatnaşyk ýokka sargyt kabul edilmeýär."
+        },
+        {
+          "question": "Onlaýn tölegi nädip açmaly?",
+          "answer": "Her kärhana öz iyzico söwda hasaby bilen işleýär; pul göni kärhananyň hasabyna geçýär. Kärhananyň eýesi dolandyryş panelindäki Sazlamalar sahypasynda iyzico açarlaryny girizip, onlaýn tölegi açýar."
+        },
+        {
+          "question": "Menýu haýsy dillerde görkezilýär?",
+          "answer": "Menýunyň mazmuny kärhananyň terjime eden dillerinde görkezilýär; myhman interfeýsi türk we iňlis dillerinde."
         }
       ],
       "cta_title": "Kärhanaňyzy QR bilen çaltlandyryň",
-      "cta_text": "AgotaSoft Adisyon QR irki elýeterlilik tapgyrynda. Demo meýilleşdirmek we ilkinji ulanyjylaryň hatarynda bolmak üçin biz bilen habarlaşyň.",
-      "cta_button": "Irki elýeterlilik soramak",
-      "cta_secondary_link": "Ähli çözgütler",
+      "cta_text": "Menýuňyzy, stollaryňyzy we toparyňyzy bilelikde guralyň. Kärhana hasabyny açmak we demo meýilleşdirmek üçin biz bilen habarlaşyň.",
+      "cta_button": "Demo soraň",
+      "cta_secondary_link": "qrmenu.agotasoft.com",
+      "cta_secondary_link_url": "https://qrmenu.agotasoft.com/",
       "slug": "adisyon-qr",
       "id": "adisyon-qr"
     }
@@ -2031,9 +2294,9 @@
     "/pre-accounting": {
       "path": "/pre-accounting",
       "label": "Ön Muhasebe",
-      "title": "AgotaSoft Ön Muhasebe | Finansal Kontrol Tamamen Sizin Elinizde",
-      "description": "E-Fatura, cari hesap, gider takibi ve finansal raporlama.",
-      "keywords": "ön muhasebe, e-fatura, cari hesap, AgotaSoft",
+      "title": "AgotaSoft Ön Muhasebe | Çoklu Döviz, Barkodla Satış, iOS ve Web",
+      "description": "TL, USD ve EUR'u aynı anda takip eden, barkodla satış yapan ön muhasebe programı; iOS uygulaması ve web paneli.",
+      "keywords": "ön muhasebe, çoklu döviz, barkodlu satış, cari hesap, kasa takibi, AgotaSoft",
       "author": "AgotaSoft",
       "robots": "index, follow",
       "canonical": "https://agotasoft.com/pre-accounting",
@@ -2850,11 +3113,11 @@
         "url": "/lms"
       },
       {
-        "label": "Karlılık.NET",
+        "label": "Kârlılık.NET",
         "url": "/karlilik"
       },
       {
-        "label": "Adisyon QR",
+        "label": "QR menýu",
         "url": "/adisyon-qr"
       }
     ],

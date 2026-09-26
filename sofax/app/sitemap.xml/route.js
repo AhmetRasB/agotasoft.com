@@ -1,10 +1,12 @@
 import { LOCALES, LOCALE_HREFLANG, SITE_URL, localePrefix } from "@/lib/i18n/config";
+import { detailSlugs } from "@/lib/solutions";
 
 const PATHS = [
 	{ path: "/", changefreq: "weekly", priority: "1.0" },
 	{ path: "/about-us", changefreq: "monthly", priority: "0.8" },
 	{ path: "/contact-us", changefreq: "monthly", priority: "0.8" },
 	{ path: "/service", changefreq: "weekly", priority: "0.9" },
+	{ path: "/solutions", changefreq: "weekly", priority: "0.9" },
 	{ path: "/erp", changefreq: "weekly", priority: "0.9" },
 	{ path: "/crm", changefreq: "weekly", priority: "0.9" },
 	{ path: "/pre-accounting", changefreq: "weekly", priority: "0.9" },
@@ -18,6 +20,7 @@ const PATHS = [
 	{ path: "/team", changefreq: "monthly", priority: "0.5" },
 	{ path: "/faq", changefreq: "monthly", priority: "0.5" },
 	{ path: "/career", changefreq: "monthly", priority: "0.5" },
+	...detailSlugs().map((slug) => ({ path: `/solutions/${slug}`, changefreq: "monthly", priority: "0.6" })),
 ];
 
 function urlFor(path, locale) {

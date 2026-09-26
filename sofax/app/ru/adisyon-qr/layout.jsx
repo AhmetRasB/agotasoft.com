@@ -2,21 +2,25 @@ import Footer from "@/components/home/home-one/footer";
 import Header from "@/components/home/home-one/header/multi-page";
 import { buildAlternates } from "@/lib/i18n/config";
 
+const title = "AgotaSoft QR Menü | QR-меню, заказ со стола и счета";
+const description = "QR-меню, заказ и оплата со стола, кухонный экран (KDS), чековый принтер и система счетов для кафе и ресторанов. qrmenu.agotasoft.com";
+
 export const metadata = {
-	title: "AgotaSoft Adisyon QR",
-	description: "Облачное решение для кафе и ресторанов: QR-меню, заказы, кухонный экран и счета в одной системе.",
+	title,
+	description,
 	author: "AgotaSoft",
 	alternates: buildAlternates("/adisyon-qr"),
 	openGraph: {
-		title: "AgotaSoft Adisyon QR",
-		description: "Облачное решение для кафе и ресторанов: QR-меню, заказы, кухонный экран и счета в одной системе.",
+		title,
+		description,
 		type: "website",
-		url: "https://agotasoft.com/adisyon-qr",
+		url: "https://agotasoft.com/ru/adisyon-qr",
+		locale: "ru_RU",
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "AgotaSoft Adisyon QR",
-		description: "Облачное решение для кафе и ресторанов: QR-меню, заказы, кухонный экран и счета в одной системе.",
+		title,
+		description,
 	},
 };
 

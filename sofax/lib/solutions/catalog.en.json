@@ -1,0 +1,796 @@
+{
+	"ui": {
+		"all_solutions": "All Solutions",
+		"demo": "Request a Demo",
+		"explore_category": "Explore category",
+		"soon": "Coming soon",
+		"view": "View",
+		"groups": {
+			"core": "Platform",
+			"functions": "Business functions",
+			"industries": "Industries",
+			"ecosystem": "Ecosystem"
+		},
+		"catalog_badge": "{products} solutions · {categories} categories",
+		"catalog_title": "An Agota solution for every part of your business",
+		"catalog_subtitle": "Solutions that hand manual work over to software, from finance to marketplaces and from production to customer communication. Explore our live products today; for those still in development, get in touch to request a demo and early access.",
+		"manual_label": "Done by hand today",
+		"does_label": "What Agota does",
+		"features_label": "Highlights",
+		"audience_label": "Who it's for",
+		"soon_note": "This solution is in development. Get in touch and we'll let you know first when the demo and early access open, and we'll add your needs to our roadmap.",
+		"demo_cta": "Contact us for a demo",
+		"related_title": "More solutions in this category",
+		"cta_title": "Which solution would you like to start with?",
+		"cta_text": "Tell us what you need; together we'll identify the right Agota solutions for your business and plan a demo tailored to you.",
+		"home": "Home",
+		"solutions": "Solutions",
+		"contact_message": "I would like information and a demo of {product}.",
+		"meta_catalog_title": "Solutions | AgotaSoft",
+		"meta_catalog_description": "Finance, marketplace, sales, production, HR, customer communication and industry solutions: the AgotaSoft product catalog."
+	},
+	"categories": [
+		{
+			"id": "cekirdek",
+			"group": "core",
+			"icon": "fas fa-cubes",
+			"name": "Core Platform",
+			"description": "The ERP, CRM and training infrastructure that every Agota application runs on.",
+			"products": [
+				{
+					"slug": "erp",
+					"name": "AgotaSoft ERP",
+					"icon": "fas fa-diagram-project",
+					"status": "live",
+					"href": "/erp",
+					"tagline": "Inventory, sales, purchasing and finance in one system"
+				},
+				{
+					"slug": "crm",
+					"name": "AgotaSoft CRM",
+					"icon": "fas fa-address-book",
+					"status": "live",
+					"href": "/crm",
+					"tagline": "Manage customers, opportunities and your sales pipeline"
+				},
+				{
+					"slug": "lms",
+					"name": "AgotaSoft LMS",
+					"icon": "fas fa-graduation-cap",
+					"status": "live",
+					"href": "/lms",
+					"tagline": "Corporate training, exams and development platform"
+				}
+			]
+		},
+		{
+			"id": "finans",
+			"group": "functions",
+			"icon": "fas fa-coins",
+			"name": "Finance & Bookkeeping",
+			"description": "Automates the manual data entry and follow-up in invoicing, banking, collections and cash flow.",
+			"products": [
+				{
+					"slug": "on-muhasebe",
+					"name": "AgotaSoft Bookkeeping",
+					"icon": "fas fa-calculator",
+					"status": "live",
+					"href": "/pre-accounting",
+					"tagline": "Multi-currency, barcode sales, iOS and web"
+				},
+				{
+					"slug": "agota-fatura",
+					"name": "AgotaFatura",
+					"icon": "fas fa-file-invoice",
+					"status": "soon",
+					"tagline": "Reads invoices and receipts, then records them for you"
+				},
+				{
+					"slug": "agota-banka",
+					"name": "AgotaBanka",
+					"icon": "fas fa-building-columns",
+					"status": "soon",
+					"tagline": "Matches bank transactions to invoices"
+				},
+				{
+					"slug": "agota-tahsilat",
+					"name": "AgotaTahsilat",
+					"icon": "fas fa-hand-holding-dollar",
+					"status": "soon",
+					"tagline": "Chases receivables when due, tracks payment promises"
+				},
+				{
+					"slug": "agota-mutabakat",
+					"name": "AgotaMutabakat",
+					"icon": "fas fa-scale-balanced",
+					"status": "soon",
+					"tagline": "Balance reconciliation that shows you only the differences"
+				},
+				{
+					"slug": "agota-nakit",
+					"name": "AgotaNakit",
+					"icon": "fas fa-chart-line",
+					"status": "soon",
+					"tagline": "13-week cash flow forecast"
+				},
+				{
+					"slug": "agota-cek",
+					"name": "AgotaCek",
+					"icon": "fas fa-money-check",
+					"status": "soon",
+					"tagline": "Cheque and promissory note portfolio, maturity calendar"
+				},
+				{
+					"slug": "agota-masraf",
+					"name": "AgotaMasraf",
+					"icon": "fas fa-receipt",
+					"status": "soon",
+					"tagline": "Snap the receipt and the expense form fills itself in"
+				},
+				{
+					"slug": "agota-beyan",
+					"name": "AgotaBeyan",
+					"icon": "fas fa-folder-open",
+					"status": "soon",
+					"tagline": "Gathers documents for your accountant, chases gaps"
+				},
+				{
+					"slug": "cepte-ne-var",
+					"name": "Cepte Ne Var",
+					"icon": "fas fa-wallet",
+					"status": "live",
+					"href": "/service/cepte-ne-var",
+					"tagline": "Spending and budget coach on WhatsApp"
+				}
+			]
+		},
+		{
+			"id": "pazaryeri",
+			"group": "functions",
+			"icon": "fas fa-store",
+			"name": "Marketplace & E-commerce",
+			"description": "Profit, listing, pricing, stock and operations automation for marketplace and e-commerce sellers.",
+			"products": [
+				{
+					"slug": "karlilik",
+					"name": "Kârlılık.NET",
+					"icon": "fas fa-chart-pie",
+					"status": "live",
+					"href": "/karlilik",
+					"tagline": "True net profit for marketplace sellers"
+				},
+				{
+					"slug": "agota-liste",
+					"name": "AgotaListe",
+					"icon": "fas fa-wand-magic-sparkles",
+					"status": "soon",
+					"tagline": "A marketplace listing from 1 photo + 3 words"
+				},
+				{
+					"slug": "agota-fiyat",
+					"name": "AgotaFiyat",
+					"icon": "fas fa-tags",
+					"status": "soon",
+					"tagline": "Dynamic pricing by competitor and target margin"
+				},
+				{
+					"slug": "agota-stoksenk",
+					"name": "AgotaStokSenk",
+					"icon": "fas fa-arrows-rotate",
+					"status": "soon",
+					"tagline": "One stock across every sales channel"
+				},
+				{
+					"slug": "agota-yorum",
+					"name": "AgotaYorum",
+					"icon": "fas fa-comments",
+					"status": "soon",
+					"tagline": "Timely replies to questions, reviews and return requests"
+				},
+				{
+					"slug": "agota-reklam",
+					"name": "AgotaReklam",
+					"icon": "fas fa-bullhorn",
+					"status": "soon",
+					"tagline": "Allocates ad budget by product profitability"
+				},
+				{
+					"slug": "agota-iade",
+					"name": "AgotaIade",
+					"icon": "fas fa-rotate-left",
+					"status": "soon",
+					"tagline": "Damage detection from photos, return decision and record"
+				},
+				{
+					"slug": "agota-kargo",
+					"name": "AgotaKargo",
+					"icon": "fas fa-truck-fast",
+					"status": "soon",
+					"tagline": "The right carrier, bulk labels, delay notifications"
+				},
+				{
+					"slug": "agota-rakip",
+					"name": "AgotaRakip",
+					"icon": "fas fa-binoculars",
+					"status": "soon",
+					"tagline": "Tracks competitor prices, stock and reviews"
+				},
+				{
+					"slug": "agota-katalog",
+					"name": "AgotaKatalog",
+					"icon": "fas fa-table-list",
+					"status": "soon",
+					"tagline": "From supplier price list to product card"
+				}
+			]
+		},
+		{
+			"id": "satis",
+			"group": "functions",
+			"icon": "fas fa-handshake",
+			"name": "Sales & CRM",
+			"description": "Builds quotes, orders and customer records automatically from messages and notes.",
+			"products": [
+				{
+					"slug": "agota-teklif",
+					"name": "AgotaTeklif",
+					"icon": "fas fa-file-invoice-dollar",
+					"status": "soon",
+					"tagline": "A quote PDF from a WhatsApp message"
+				},
+				{
+					"slug": "agota-siparis",
+					"name": "AgotaSiparis",
+					"icon": "fas fa-cart-shopping",
+					"status": "soon",
+					"tagline": "Structures orders arriving from every channel"
+				},
+				{
+					"slug": "agota-musteri",
+					"name": "AgotaMusteri",
+					"icon": "fas fa-user-group",
+					"status": "soon",
+					"tagline": "An assistant that keeps your CRM up to date for you"
+				},
+				{
+					"slug": "agota-bayi",
+					"name": "AgotaBayi",
+					"icon": "fas fa-network-wired",
+					"status": "soon",
+					"tagline": "A self-service portal for your dealers"
+				},
+				{
+					"slug": "agota-plasiyer",
+					"name": "AgotaPlasiyer",
+					"icon": "fas fa-route",
+					"status": "soon",
+					"tagline": "A voice assistant for field sales reps"
+				}
+			]
+		},
+		{
+			"id": "satinalma",
+			"group": "functions",
+			"icon": "fas fa-cart-flatbed",
+			"name": "Purchasing & Supply",
+			"description": "Automates price gathering, supplier evaluation and cost calculation.",
+			"products": [
+				{
+					"slug": "agota-satinal",
+					"name": "AgotaSatinal",
+					"icon": "fas fa-cart-arrow-down",
+					"status": "soon",
+					"tagline": "Gathers quotes when stock runs low, drafts the order"
+				},
+				{
+					"slug": "agota-tedarikci",
+					"name": "AgotaTedarikci",
+					"icon": "fas fa-star-half-stroke",
+					"status": "soon",
+					"tagline": "Supplier performance scoring"
+				},
+				{
+					"slug": "agota-ihale",
+					"name": "AgotaIhale",
+					"icon": "fas fa-gavel",
+					"status": "soon",
+					"tagline": "Finds tenders that fit you, prepares the bid file"
+				},
+				{
+					"slug": "agota-maliyet",
+					"name": "AgotaMaliyet",
+					"icon": "fas fa-sack-dollar",
+					"status": "soon",
+					"tagline": "Updates costs when input prices change"
+				}
+			]
+		},
+		{
+			"id": "stok",
+			"group": "functions",
+			"icon": "fas fa-warehouse",
+			"name": "Inventory, Warehouse & Logistics",
+			"description": "Manages stock counts, demand forecasting and shipments using a phone camera and WhatsApp.",
+			"products": [
+				{
+					"slug": "mobil-barkod",
+					"name": "Mobile Barcode System",
+					"icon": "fas fa-barcode",
+					"status": "live",
+					"href": "/mobil-barkod",
+					"tagline": "Stock counting and inventory tracking by phone"
+				},
+				{
+					"slug": "agota-depo",
+					"name": "AgotaDepo",
+					"icon": "fas fa-boxes-stacked",
+					"status": "soon",
+					"tagline": "Camera counts, recognizes products without barcodes"
+				},
+				{
+					"slug": "agota-talep",
+					"name": "AgotaTalep",
+					"icon": "fas fa-chart-column",
+					"status": "soon",
+					"tagline": "How much of which product should you buy?"
+				},
+				{
+					"slug": "agota-sevk",
+					"name": "AgotaSevk",
+					"icon": "fas fa-truck",
+					"status": "soon",
+					"tagline": "Routes, delivery notes and photo proof of delivery"
+				}
+			]
+		},
+		{
+			"id": "uretim",
+			"group": "functions",
+			"icon": "fas fa-industry",
+			"name": "Production & Workshop",
+			"description": "Runs work orders, subcontracting, quality and maintenance from sales orders and photos.",
+			"products": [
+				{
+					"slug": "agota-uretim",
+					"name": "AgotaUretim",
+					"icon": "fas fa-gears",
+					"status": "soon",
+					"tagline": "Work orders and production plans from sales orders"
+				},
+				{
+					"slug": "agota-fason",
+					"name": "AgotaFason",
+					"icon": "fas fa-people-carry-box",
+					"status": "soon",
+					"tagline": "Subcontractor workshop and stage tracking"
+				},
+				{
+					"slug": "agota-kalite",
+					"name": "AgotaKalite",
+					"icon": "fas fa-clipboard-check",
+					"status": "soon",
+					"tagline": "Defect classes and non-conformance reports from photos"
+				},
+				{
+					"slug": "agota-bakim",
+					"name": "AgotaBakim",
+					"icon": "fas fa-screwdriver-wrench",
+					"status": "soon",
+					"tagline": "Machine maintenance schedule and breakdown reporting"
+				}
+			]
+		},
+		{
+			"id": "ik",
+			"group": "functions",
+			"icon": "fas fa-users",
+			"name": "HR & Payroll",
+			"description": "Simplifies timesheets, hiring, shift planning and the flow of information inside the company.",
+			"products": [
+				{
+					"slug": "agota-bordro",
+					"name": "AgotaBordro",
+					"icon": "fas fa-money-bill-wave",
+					"status": "soon",
+					"tagline": "Draft payroll from timesheets"
+				},
+				{
+					"slug": "agota-aday",
+					"name": "AgotaAday",
+					"icon": "fas fa-user-plus",
+					"status": "soon",
+					"tagline": "A hiring assistant from job posting to interview"
+				},
+				{
+					"slug": "agota-vardiya",
+					"name": "AgotaVardiya",
+					"icon": "fas fa-business-time",
+					"status": "soon",
+					"tagline": "Shift planning and overtime calculation"
+				},
+				{
+					"slug": "agota-rehber",
+					"name": "AgotaRehber",
+					"icon": "fas fa-book-open",
+					"status": "soon",
+					"tagline": "Internal knowledge and onboarding assistant"
+				},
+				{
+					"slug": "gorevim-ne",
+					"name": "Görevim Ne",
+					"icon": "fas fa-list-check",
+					"status": "live",
+					"href": "/service/gorevim-ne",
+					"tagline": "Task management from your messaging app"
+				}
+			]
+		},
+		{
+			"id": "iletisim",
+			"group": "functions",
+			"icon": "fas fa-headset",
+			"name": "Customer Communication",
+			"description": "Handles customer conversations from WhatsApp, Instagram, email and phone in one place.",
+			"products": [
+				{
+					"slug": "agota-hat",
+					"name": "AgotaHat",
+					"icon": "fas fa-inbox",
+					"status": "soon",
+					"tagline": "WhatsApp, Instagram and email in one inbox"
+				},
+				{
+					"slug": "agota-ses",
+					"name": "AgotaSes",
+					"icon": "fas fa-phone-volume",
+					"status": "soon",
+					"tagline": "A voice assistant that answers incoming calls"
+				},
+				{
+					"slug": "agota-sikayet",
+					"name": "AgotaSikayet",
+					"icon": "fas fa-face-frown",
+					"status": "soon",
+					"tagline": "Collects and responds to complaints and reviews"
+				},
+				{
+					"slug": "agota-sadakat",
+					"name": "AgotaSadakat",
+					"icon": "fas fa-heart",
+					"status": "soon",
+					"tagline": "Customer segmentation and win-back"
+				}
+			]
+		},
+		{
+			"id": "pazarlama",
+			"group": "functions",
+			"icon": "fas fa-bullseye",
+			"name": "Marketing & Content",
+			"description": "Automates content creation, campaigns and digital visibility.",
+			"products": [
+				{
+					"slug": "kurumsal-website",
+					"name": "Corporate Website",
+					"icon": "fas fa-globe",
+					"status": "live",
+					"href": "/kurumsal-website",
+					"tagline": "SEO-friendly corporate site with an admin panel"
+				},
+				{
+					"slug": "agota-studyo",
+					"name": "AgotaStudyo",
+					"icon": "fas fa-camera",
+					"status": "soon",
+					"tagline": "A content calendar from your product photos"
+				},
+				{
+					"slug": "agota-site",
+					"name": "AgotaSite",
+					"icon": "fas fa-window-maximize",
+					"status": "soon",
+					"tagline": "Add a product in the ERP and it's live on your site"
+				},
+				{
+					"slug": "agota-kampanya",
+					"name": "AgotaKampanya",
+					"icon": "fas fa-envelope-open-text",
+					"status": "soon",
+					"tagline": "Email, SMS and WhatsApp campaigns"
+				},
+				{
+					"slug": "agota-harita",
+					"name": "AgotaHarita",
+					"icon": "fas fa-map-location-dot",
+					"status": "soon",
+					"tagline": "Google Business Profile management"
+				}
+			]
+		},
+		{
+			"id": "dokuman",
+			"group": "functions",
+			"icon": "fas fa-file-contract",
+			"name": "Documents, Legal & Compliance",
+			"description": "Makes contracts, KVKK (Turkish personal data law) compliance, archives and approvals searchable and trackable.",
+			"products": [
+				{
+					"slug": "agota-sozlesme",
+					"name": "AgotaSozlesme",
+					"icon": "fas fa-file-signature",
+					"status": "soon",
+					"tagline": "Flags risky clauses, reminds you of renewals"
+				},
+				{
+					"slug": "agota-kvkk",
+					"name": "AgotaKVKK",
+					"icon": "fas fa-user-shield",
+					"status": "soon",
+					"tagline": "Tracking for KVKK (Turkish data protection) compliance"
+				},
+				{
+					"slug": "agota-arsiv",
+					"name": "AgotaArsiv",
+					"icon": "fas fa-box-archive",
+					"status": "soon",
+					"tagline": "All your documents, searchable"
+				},
+				{
+					"slug": "agota-onay",
+					"name": "AgotaOnay",
+					"icon": "fas fa-stamp",
+					"status": "soon",
+					"tagline": "Approval flows for expenses, leave and discounts"
+				},
+				{
+					"slug": "agota-dilekce",
+					"name": "AgotaDilekce",
+					"icon": "fas fa-file-pen",
+					"status": "soon",
+					"tagline": "Drafts of official letters and petitions"
+				}
+			]
+		},
+		{
+			"id": "raporlama",
+			"group": "functions",
+			"icon": "fas fa-chart-simple",
+			"name": "Reporting & Decisions",
+			"description": "Ask your data questions in plain language; summaries, alerts and scenario analyses come to you automatically.",
+			"products": [
+				{
+					"slug": "agota-sor",
+					"name": "AgotaSor",
+					"icon": "fas fa-magnifying-glass-chart",
+					"status": "soon",
+					"tagline": "Ask your data questions in plain language"
+				},
+				{
+					"slug": "agota-panel",
+					"name": "AgotaPanel",
+					"icon": "fas fa-gauge-high",
+					"status": "soon",
+					"tagline": "A weekly summary for the business owner"
+				},
+				{
+					"slug": "agota-uyari",
+					"name": "AgotaUyari",
+					"icon": "fas fa-bell",
+					"status": "soon",
+					"tagline": "Alerts you when something looks abnormal"
+				},
+				{
+					"slug": "agota-senaryo",
+					"name": "AgotaSenaryo",
+					"icon": "fas fa-sliders",
+					"status": "soon",
+					"tagline": "\"What if?\" scenario analysis"
+				}
+			]
+		},
+		{
+			"id": "saha",
+			"group": "functions",
+			"icon": "fas fa-toolbox",
+			"name": "Field & Service",
+			"description": "Automates the field work of technical service and site-survey teams, from service form to invoice.",
+			"products": [
+				{
+					"slug": "agota-saha",
+					"name": "AgotaSaha",
+					"icon": "fas fa-user-gear",
+					"status": "soon",
+					"tagline": "Job assignment and photo-verified job completion"
+				},
+				{
+					"slug": "agota-kesif",
+					"name": "AgotaKesif",
+					"icon": "fas fa-ruler-combined",
+					"status": "soon",
+					"tagline": "From site survey to quote"
+				}
+			]
+		},
+		{
+			"id": "sektorel",
+			"group": "industries",
+			"layout": "tiles",
+			"icon": "fas fa-shop",
+			"name": "Industry Solutions",
+			"description": "The core platform plus an industry-specific assistant: solutions built around each industry's own workflow.",
+			"products": [
+				{
+					"slug": "adisyon-qr",
+					"name": "AgotaSoft QR Menü",
+					"sector": "Restaurant & Café",
+					"icon": "fas fa-qrcode",
+					"status": "live",
+					"href": "/adisyon-qr",
+					"tagline": "QR menu, table ordering, kitchen display and billing"
+				},
+				{
+					"slug": "agota-mutfak",
+					"name": "AgotaMutfak",
+					"sector": "Restaurant Kitchen",
+					"icon": "fas fa-utensils",
+					"status": "soon",
+					"tagline": "Recipe costing, waste and daily order lists"
+				},
+				{
+					"slug": "agota-randevu",
+					"name": "AgotaRandevu",
+					"sector": "Hair & Beauty",
+					"icon": "fas fa-calendar-check",
+					"status": "soon",
+					"tagline": "From WhatsApp and Instagram messages to bookings"
+				},
+				{
+					"slug": "agota-klinik",
+					"name": "AgotaKlinik",
+					"sector": "Clinic",
+					"icon": "fas fa-stethoscope",
+					"status": "soon",
+					"tagline": "Patient records, treatment plans and reminders"
+				},
+				{
+					"slug": "agota-konak",
+					"name": "AgotaKonak",
+					"sector": "Hotel & Guesthouse",
+					"icon": "fas fa-hotel",
+					"status": "soon",
+					"tagline": "Channel sync and a guest assistant"
+				},
+				{
+					"slug": "agota-servis",
+					"name": "AgotaServis",
+					"sector": "Auto Repair",
+					"icon": "fas fa-car-side",
+					"status": "soon",
+					"tagline": "Vehicle history from the plate, voice work orders"
+				},
+				{
+					"slug": "agota-emlak",
+					"name": "AgotaEmlak",
+					"sector": "Real Estate",
+					"icon": "fas fa-house-chimney",
+					"status": "soon",
+					"tagline": "Listing copy and buyer–property matching"
+				},
+				{
+					"slug": "agota-santiye",
+					"name": "AgotaSantiye",
+					"sector": "Construction",
+					"icon": "fas fa-helmet-safety",
+					"status": "soon",
+					"tagline": "Progress payments, quantity take-offs and timesheets"
+				},
+				{
+					"slug": "agota-tarla",
+					"name": "AgotaTarla",
+					"sector": "Agriculture & Greenhouse",
+					"icon": "fas fa-tractor",
+					"status": "soon",
+					"tagline": "Crop costs, produce market prices, spray and irrigation logs"
+				},
+				{
+					"slug": "agota-kurs",
+					"name": "AgotaKurs",
+					"sector": "Courses & Gyms",
+					"icon": "fas fa-chalkboard-user",
+					"status": "soon",
+					"tagline": "Enrollment, installments, attendance and parent updates"
+				},
+				{
+					"slug": "agota-musavir",
+					"name": "AgotaMusavir",
+					"sector": "Accounting Firms",
+					"icon": "fas fa-briefcase",
+					"status": "soon",
+					"tagline": "Document collection from clients, tax filing calendar"
+				},
+				{
+					"slug": "agota-atolye",
+					"name": "AgotaAtolye",
+					"sector": "Apparel Manufacturing",
+					"icon": "fas fa-shirt",
+					"status": "soon",
+					"tagline": "Styles, samples, cutting plans and subcontractor tracking"
+				},
+				{
+					"slug": "agota-filo",
+					"name": "AgotaFilo",
+					"sector": "Freight Transport",
+					"icon": "fas fa-truck-moving",
+					"status": "soon",
+					"tagline": "Vehicle, driver and load matching"
+				},
+				{
+					"slug": "agota-market",
+					"name": "AgotaMarket",
+					"sector": "Grocery & Convenience",
+					"icon": "fas fa-basket-shopping",
+					"status": "soon",
+					"tagline": "POS, expiry date tracking, automatic reordering"
+				}
+			]
+		},
+		{
+			"id": "ekosistem",
+			"group": "ecosystem",
+			"icon": "fas fa-circle-nodes",
+			"name": "Ecosystem & Marketplaces",
+			"description": "Marketplaces where businesses' assistants, not people, trade with one another: AgotaSoft's platform layer.",
+			"products": [
+				{
+					"slug": "agota-store",
+					"name": "AgotaStore",
+					"icon": "fas fa-puzzle-piece",
+					"status": "soon",
+					"tagline": "The Agota app and assistant marketplace"
+				},
+				{
+					"slug": "agota-tedarik",
+					"name": "AgotaTedarik",
+					"icon": "fas fa-right-left",
+					"status": "soon",
+					"tagline": "ERP-to-ERP B2B trade"
+				},
+				{
+					"slug": "agota-fasonpazar",
+					"name": "AgotaFasonPazar",
+					"icon": "fas fa-handshake-angle",
+					"status": "soon",
+					"tagline": "Matches idle production capacity with work"
+				},
+				{
+					"slug": "agota-hizmet",
+					"name": "AgotaHizmet",
+					"icon": "fas fa-bell-concierge",
+					"status": "soon",
+					"tagline": "Procurement of business services"
+				},
+				{
+					"slug": "agota-makine",
+					"name": "AgotaMakine",
+					"icon": "fas fa-dolly",
+					"status": "soon",
+					"tagline": "Used machinery and equipment marketplace"
+				},
+				{
+					"slug": "agota-endeks",
+					"name": "AgotaEndeks",
+					"icon": "fas fa-chart-area",
+					"status": "soon",
+					"tagline": "Industry price, margin and collection indices"
+				},
+				{
+					"slug": "agota-finans",
+					"name": "AgotaFinans",
+					"icon": "fas fa-landmark",
+					"status": "soon",
+					"tagline": "Access to financing with your business data"
+				}
+			]
+		}
+	]
+}

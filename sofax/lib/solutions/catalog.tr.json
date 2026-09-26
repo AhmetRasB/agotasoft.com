@@ -1,0 +1,796 @@
+{
+	"ui": {
+		"all_solutions": "Tüm çözümler",
+		"demo": "Demo talep et",
+		"explore_category": "Kategoriyi incele",
+		"soon": "Yakında",
+		"view": "İncele",
+		"groups": {
+			"core": "Platform",
+			"functions": "İş alanları",
+			"industries": "Sektörler",
+			"ecosystem": "Ekosistem"
+		},
+		"catalog_badge": "{products} çözüm · {categories} kategori",
+		"catalog_title": "İşletmenizin her alanı için bir Agota çözümü",
+		"catalog_subtitle": "Elle yapılan işi yazılıma devreden çözümler: finanstan pazaryerine, üretimden müşteri iletişimine. Yayındaki ürünlerimizi hemen inceleyin; geliştirme aşamasındakiler için demo ve erken erişim talebinizi bize iletin.",
+		"manual_label": "Bugün elle yapılan",
+		"does_label": "Agota ne yapar?",
+		"features_label": "Öne çıkanlar",
+		"audience_label": "Kimler için?",
+		"soon_note": "Bu çözüm geliştirme aşamasında. Bizimle iletişime geçin; demo ve erken erişim açıldığında ilk sizi haberdar edelim, ihtiyaçlarınızı yol haritamıza ekleyelim.",
+		"demo_cta": "Demo için iletişime geçin",
+		"related_title": "Aynı kategorideki diğer çözümler",
+		"cta_title": "Hangi çözümle başlamak istersiniz?",
+		"cta_text": "İhtiyacınızı anlatın; işletmenize uygun Agota çözümlerini birlikte belirleyip size özel bir demo planlayalım.",
+		"home": "Anasayfa",
+		"solutions": "Çözümler",
+		"contact_message": "{product} hakkında bilgi ve demo talep ediyorum.",
+		"meta_catalog_title": "Çözümler | AgotaSoft",
+		"meta_catalog_description": "Finans, pazaryeri, satış, üretim, İK, müşteri iletişimi ve sektörel çözümler: AgotaSoft ürün kataloğu."
+	},
+	"categories": [
+		{
+			"id": "cekirdek",
+			"group": "core",
+			"icon": "fas fa-cubes",
+			"name": "Çekirdek Platform",
+			"description": "Tüm Agota uygulamalarının üzerinde çalıştığı ERP, CRM ve eğitim altyapısı.",
+			"products": [
+				{
+					"slug": "erp",
+					"name": "AgotaSoft ERP",
+					"icon": "fas fa-diagram-project",
+					"status": "live",
+					"href": "/erp",
+					"tagline": "Stok, satış, satın alma ve finans tek sistemde"
+				},
+				{
+					"slug": "crm",
+					"name": "AgotaSoft CRM",
+					"icon": "fas fa-address-book",
+					"status": "live",
+					"href": "/crm",
+					"tagline": "Müşteri, fırsat ve satış hattı yönetimi"
+				},
+				{
+					"slug": "lms",
+					"name": "AgotaSoft LMS",
+					"icon": "fas fa-graduation-cap",
+					"status": "live",
+					"href": "/lms",
+					"tagline": "Kurumsal eğitim, sınav ve gelişim platformu"
+				}
+			]
+		},
+		{
+			"id": "finans",
+			"group": "functions",
+			"icon": "fas fa-coins",
+			"name": "Finans & Ön Muhasebe",
+			"description": "Fatura, banka, tahsilat ve nakit akışında elle yapılan kayıt ve takibi otomatikleştirir.",
+			"products": [
+				{
+					"slug": "on-muhasebe",
+					"name": "AgotaSoft Ön Muhasebe",
+					"icon": "fas fa-calculator",
+					"status": "live",
+					"href": "/pre-accounting",
+					"tagline": "Çoklu döviz, barkodla satış, iOS ve web"
+				},
+				{
+					"slug": "agota-fatura",
+					"name": "AgotaFatura",
+					"icon": "fas fa-file-invoice",
+					"status": "soon",
+					"tagline": "Fatura ve fişi okur, kaydı kendisi açar"
+				},
+				{
+					"slug": "agota-banka",
+					"name": "AgotaBanka",
+					"icon": "fas fa-building-columns",
+					"status": "soon",
+					"tagline": "Banka hareketlerini faturalarla eşleştirir"
+				},
+				{
+					"slug": "agota-tahsilat",
+					"name": "AgotaTahsilat",
+					"icon": "fas fa-hand-holding-dollar",
+					"status": "soon",
+					"tagline": "Vadesi gelen alacağı hatırlatır, sözü takip eder"
+				},
+				{
+					"slug": "agota-mutabakat",
+					"name": "AgotaMutabakat",
+					"icon": "fas fa-scale-balanced",
+					"status": "soon",
+					"tagline": "Cari mutabakatta size yalnızca farkı gösterir"
+				},
+				{
+					"slug": "agota-nakit",
+					"name": "AgotaNakit",
+					"icon": "fas fa-chart-line",
+					"status": "soon",
+					"tagline": "13 haftalık nakit akışı tahmini"
+				},
+				{
+					"slug": "agota-cek",
+					"name": "AgotaCek",
+					"icon": "fas fa-money-check",
+					"status": "soon",
+					"tagline": "Çek ve senet portföyü, vade takvimi"
+				},
+				{
+					"slug": "agota-masraf",
+					"name": "AgotaMasraf",
+					"icon": "fas fa-receipt",
+					"status": "soon",
+					"tagline": "Fişi çekin, masraf formu kendiliğinden dolsun"
+				},
+				{
+					"slug": "agota-beyan",
+					"name": "AgotaBeyan",
+					"icon": "fas fa-folder-open",
+					"status": "soon",
+					"tagline": "Müşavire gidecek evrakı derler, eksikleri kovalar"
+				},
+				{
+					"slug": "cepte-ne-var",
+					"name": "Cepte Ne Var",
+					"icon": "fas fa-wallet",
+					"status": "live",
+					"href": "/service/cepte-ne-var",
+					"tagline": "WhatsApp'tan harcama ve bütçe koçu"
+				}
+			]
+		},
+		{
+			"id": "pazaryeri",
+			"group": "functions",
+			"icon": "fas fa-store",
+			"name": "Pazaryeri & E-ticaret",
+			"description": "Pazaryeri ve e-ticaret satıcıları için kâr, ilan, fiyat, stok ve operasyon otomasyonu.",
+			"products": [
+				{
+					"slug": "karlilik",
+					"name": "Kârlılık.NET",
+					"icon": "fas fa-chart-pie",
+					"status": "live",
+					"href": "/karlilik",
+					"tagline": "Pazaryeri satıcıları için gerçek net kâr"
+				},
+				{
+					"slug": "agota-liste",
+					"name": "AgotaListe",
+					"icon": "fas fa-wand-magic-sparkles",
+					"status": "soon",
+					"tagline": "1 fotoğraf + 3 kelimeden pazaryeri ilanı"
+				},
+				{
+					"slug": "agota-fiyat",
+					"name": "AgotaFiyat",
+					"icon": "fas fa-tags",
+					"status": "soon",
+					"tagline": "Rakibe ve hedef marja göre dinamik fiyat"
+				},
+				{
+					"slug": "agota-stoksenk",
+					"name": "AgotaStokSenk",
+					"icon": "fas fa-arrows-rotate",
+					"status": "soon",
+					"tagline": "Tüm satış kanallarında tek stok"
+				},
+				{
+					"slug": "agota-yorum",
+					"name": "AgotaYorum",
+					"icon": "fas fa-comments",
+					"status": "soon",
+					"tagline": "Soru, yorum ve iade talebine zamanında yanıt"
+				},
+				{
+					"slug": "agota-reklam",
+					"name": "AgotaReklam",
+					"icon": "fas fa-bullhorn",
+					"status": "soon",
+					"tagline": "Reklam bütçesini ürün kârlılığına göre dağıtır"
+				},
+				{
+					"slug": "agota-iade",
+					"name": "AgotaIade",
+					"icon": "fas fa-rotate-left",
+					"status": "soon",
+					"tagline": "Fotoğraftan hasar tespiti, iade kararı ve kaydı"
+				},
+				{
+					"slug": "agota-kargo",
+					"name": "AgotaKargo",
+					"icon": "fas fa-truck-fast",
+					"status": "soon",
+					"tagline": "Doğru kargo firması, toplu etiket, gecikme bildirimi"
+				},
+				{
+					"slug": "agota-rakip",
+					"name": "AgotaRakip",
+					"icon": "fas fa-binoculars",
+					"status": "soon",
+					"tagline": "Rakip fiyat, stok ve yorum takibi"
+				},
+				{
+					"slug": "agota-katalog",
+					"name": "AgotaKatalog",
+					"icon": "fas fa-table-list",
+					"status": "soon",
+					"tagline": "Tedarikçi fiyat listesinden ürün kartına"
+				}
+			]
+		},
+		{
+			"id": "satis",
+			"group": "functions",
+			"icon": "fas fa-handshake",
+			"name": "Satış & CRM",
+			"description": "Teklif, sipariş ve müşteri takibini mesajlardan ve notlardan kendiliğinden oluşturur.",
+			"products": [
+				{
+					"slug": "agota-teklif",
+					"name": "AgotaTeklif",
+					"icon": "fas fa-file-invoice-dollar",
+					"status": "soon",
+					"tagline": "WhatsApp mesajından teklif PDF'i"
+				},
+				{
+					"slug": "agota-siparis",
+					"name": "AgotaSiparis",
+					"icon": "fas fa-cart-shopping",
+					"status": "soon",
+					"tagline": "Her kanaldan gelen siparişi yapılandırır"
+				},
+				{
+					"slug": "agota-musteri",
+					"name": "AgotaMusteri",
+					"icon": "fas fa-user-group",
+					"status": "soon",
+					"tagline": "CRM'i kendisi güncelleyen asistan"
+				},
+				{
+					"slug": "agota-bayi",
+					"name": "AgotaBayi",
+					"icon": "fas fa-network-wired",
+					"status": "soon",
+					"tagline": "Bayileriniz için self-servis portal"
+				},
+				{
+					"slug": "agota-plasiyer",
+					"name": "AgotaPlasiyer",
+					"icon": "fas fa-route",
+					"status": "soon",
+					"tagline": "Saha satışçısına sesli asistan"
+				}
+			]
+		},
+		{
+			"id": "satinalma",
+			"group": "functions",
+			"icon": "fas fa-cart-flatbed",
+			"name": "Satın Alma & Tedarik",
+			"description": "Fiyat toplama, tedarikçi değerlendirme ve maliyet hesabını otomatikleştirir.",
+			"products": [
+				{
+					"slug": "agota-satinal",
+					"name": "AgotaSatinal",
+					"icon": "fas fa-cart-arrow-down",
+					"status": "soon",
+					"tagline": "Stok azalınca teklif toplar, sipariş taslağı çıkarır"
+				},
+				{
+					"slug": "agota-tedarikci",
+					"name": "AgotaTedarikci",
+					"icon": "fas fa-star-half-stroke",
+					"status": "soon",
+					"tagline": "Tedarikçi performans skoru"
+				},
+				{
+					"slug": "agota-ihale",
+					"name": "AgotaIhale",
+					"icon": "fas fa-gavel",
+					"status": "soon",
+					"tagline": "Size uygun ihaleyi bulur, dosyayı hazırlar"
+				},
+				{
+					"slug": "agota-maliyet",
+					"name": "AgotaMaliyet",
+					"icon": "fas fa-sack-dollar",
+					"status": "soon",
+					"tagline": "Girdi fiyatı değişince maliyeti günceller"
+				}
+			]
+		},
+		{
+			"id": "stok",
+			"group": "functions",
+			"icon": "fas fa-warehouse",
+			"name": "Stok, Depo & Lojistik",
+			"description": "Sayım, talep tahmini ve sevkiyatı telefon kamerası ve WhatsApp üzerinden yönetir.",
+			"products": [
+				{
+					"slug": "mobil-barkod",
+					"name": "Mobil Barkod",
+					"icon": "fas fa-barcode",
+					"status": "live",
+					"href": "/mobil-barkod",
+					"tagline": "Telefonla stok sayımı ve envanter takibi"
+				},
+				{
+					"slug": "agota-depo",
+					"name": "AgotaDepo",
+					"icon": "fas fa-boxes-stacked",
+					"status": "soon",
+					"tagline": "Kamerayla sayım, barkodsuz ürün tanıma"
+				},
+				{
+					"slug": "agota-talep",
+					"name": "AgotaTalep",
+					"icon": "fas fa-chart-column",
+					"status": "soon",
+					"tagline": "Hangi üründen ne kadar almalı?"
+				},
+				{
+					"slug": "agota-sevk",
+					"name": "AgotaSevk",
+					"icon": "fas fa-truck",
+					"status": "soon",
+					"tagline": "Rota, irsaliye ve fotoğraflı teslimat"
+				}
+			]
+		},
+		{
+			"id": "uretim",
+			"group": "functions",
+			"icon": "fas fa-industry",
+			"name": "Üretim & Atölye",
+			"description": "İş emri, fason, kalite ve bakım süreçlerini siparişten ve fotoğraftan yönetir.",
+			"products": [
+				{
+					"slug": "agota-uretim",
+					"name": "AgotaUretim",
+					"icon": "fas fa-gears",
+					"status": "soon",
+					"tagline": "Siparişten iş emri ve üretim planı"
+				},
+				{
+					"slug": "agota-fason",
+					"name": "AgotaFason",
+					"icon": "fas fa-people-carry-box",
+					"status": "soon",
+					"tagline": "Fason atölye ve aşama takibi"
+				},
+				{
+					"slug": "agota-kalite",
+					"name": "AgotaKalite",
+					"icon": "fas fa-clipboard-check",
+					"status": "soon",
+					"tagline": "Fotoğraftan hata sınıfı ve uygunsuzluk raporu"
+				},
+				{
+					"slug": "agota-bakim",
+					"name": "AgotaBakim",
+					"icon": "fas fa-screwdriver-wrench",
+					"status": "soon",
+					"tagline": "Makine bakım takvimi ve arıza bildirimi"
+				}
+			]
+		},
+		{
+			"id": "ik",
+			"group": "functions",
+			"icon": "fas fa-users",
+			"name": "İK & Bordro",
+			"description": "Puantaj, işe alım, vardiya ve şirket içi bilgi akışını sadeleştirir.",
+			"products": [
+				{
+					"slug": "agota-bordro",
+					"name": "AgotaBordro",
+					"icon": "fas fa-money-bill-wave",
+					"status": "soon",
+					"tagline": "Puantajdan bordro taslağı"
+				},
+				{
+					"slug": "agota-aday",
+					"name": "AgotaAday",
+					"icon": "fas fa-user-plus",
+					"status": "soon",
+					"tagline": "İlandan mülakata işe alım asistanı"
+				},
+				{
+					"slug": "agota-vardiya",
+					"name": "AgotaVardiya",
+					"icon": "fas fa-business-time",
+					"status": "soon",
+					"tagline": "Vardiya planı ve fazla mesai hesabı"
+				},
+				{
+					"slug": "agota-rehber",
+					"name": "AgotaRehber",
+					"icon": "fas fa-book-open",
+					"status": "soon",
+					"tagline": "Şirket içi bilgi ve uyum asistanı"
+				},
+				{
+					"slug": "gorevim-ne",
+					"name": "Görevim Ne",
+					"icon": "fas fa-list-check",
+					"status": "live",
+					"href": "/service/gorevim-ne",
+					"tagline": "Mesajlaşma uygulamasından görev yönetimi"
+				}
+			]
+		},
+		{
+			"id": "iletisim",
+			"group": "functions",
+			"icon": "fas fa-headset",
+			"name": "Müşteri İletişimi",
+			"description": "WhatsApp, Instagram, e-posta ve telefondan gelen müşteri iletişimini tek yerde karşılar.",
+			"products": [
+				{
+					"slug": "agota-hat",
+					"name": "AgotaHat",
+					"icon": "fas fa-inbox",
+					"status": "soon",
+					"tagline": "WhatsApp, Instagram ve e-posta tek gelen kutusunda"
+				},
+				{
+					"slug": "agota-ses",
+					"name": "AgotaSes",
+					"icon": "fas fa-phone-volume",
+					"status": "soon",
+					"tagline": "Gelen aramayı karşılayan sesli asistan"
+				},
+				{
+					"slug": "agota-sikayet",
+					"name": "AgotaSikayet",
+					"icon": "fas fa-face-frown",
+					"status": "soon",
+					"tagline": "Şikâyet ve yorumları toplar, yanıtlar"
+				},
+				{
+					"slug": "agota-sadakat",
+					"name": "AgotaSadakat",
+					"icon": "fas fa-heart",
+					"status": "soon",
+					"tagline": "Segmentasyon ve müşteri geri kazanımı"
+				}
+			]
+		},
+		{
+			"id": "pazarlama",
+			"group": "functions",
+			"icon": "fas fa-bullseye",
+			"name": "Pazarlama & İçerik",
+			"description": "İçerik üretimini, kampanyaları ve dijital görünürlüğü otomatikleştirir.",
+			"products": [
+				{
+					"slug": "kurumsal-website",
+					"name": "Kurumsal Website",
+					"icon": "fas fa-globe",
+					"status": "live",
+					"href": "/kurumsal-website",
+					"tagline": "SEO uyumlu, yönetim panelli kurumsal site"
+				},
+				{
+					"slug": "agota-studyo",
+					"name": "AgotaStudyo",
+					"icon": "fas fa-camera",
+					"status": "soon",
+					"tagline": "Ürün fotoğrafından içerik takvimi"
+				},
+				{
+					"slug": "agota-site",
+					"name": "AgotaSite",
+					"icon": "fas fa-window-maximize",
+					"status": "soon",
+					"tagline": "ERP'ye eklenen ürün sitede yayında"
+				},
+				{
+					"slug": "agota-kampanya",
+					"name": "AgotaKampanya",
+					"icon": "fas fa-envelope-open-text",
+					"status": "soon",
+					"tagline": "E-posta, SMS ve WhatsApp kampanyası"
+				},
+				{
+					"slug": "agota-harita",
+					"name": "AgotaHarita",
+					"icon": "fas fa-map-location-dot",
+					"status": "soon",
+					"tagline": "Google İşletme Profili yönetimi"
+				}
+			]
+		},
+		{
+			"id": "dokuman",
+			"group": "functions",
+			"icon": "fas fa-file-contract",
+			"name": "Doküman, Hukuk & Uyum",
+			"description": "Sözleşme, KVKK, arşiv ve onay süreçlerini aranabilir ve takip edilebilir hale getirir.",
+			"products": [
+				{
+					"slug": "agota-sozlesme",
+					"name": "AgotaSozlesme",
+					"icon": "fas fa-file-signature",
+					"status": "soon",
+					"tagline": "Riskli maddeyi işaretler, yenilemeyi hatırlatır"
+				},
+				{
+					"slug": "agota-kvkk",
+					"name": "AgotaKVKK",
+					"icon": "fas fa-user-shield",
+					"status": "soon",
+					"tagline": "KVKK uyum süreçlerinin takibi"
+				},
+				{
+					"slug": "agota-arsiv",
+					"name": "AgotaArsiv",
+					"icon": "fas fa-box-archive",
+					"status": "soon",
+					"tagline": "Tüm evrakınız aranabilir"
+				},
+				{
+					"slug": "agota-onay",
+					"name": "AgotaOnay",
+					"icon": "fas fa-stamp",
+					"status": "soon",
+					"tagline": "Harcama, izin ve indirim onay akışları"
+				},
+				{
+					"slug": "agota-dilekce",
+					"name": "AgotaDilekce",
+					"icon": "fas fa-file-pen",
+					"status": "soon",
+					"tagline": "Resmi yazışma ve dilekçe taslakları"
+				}
+			]
+		},
+		{
+			"id": "raporlama",
+			"group": "functions",
+			"icon": "fas fa-chart-simple",
+			"name": "Raporlama & Karar",
+			"description": "Verinize doğal dilde soru sorun; özetler, uyarılar ve senaryo analizleri kendiliğinden gelsin.",
+			"products": [
+				{
+					"slug": "agota-sor",
+					"name": "AgotaSor",
+					"icon": "fas fa-magnifying-glass-chart",
+					"status": "soon",
+					"tagline": "Verinize doğal dilde soru sorun"
+				},
+				{
+					"slug": "agota-panel",
+					"name": "AgotaPanel",
+					"icon": "fas fa-gauge-high",
+					"status": "soon",
+					"tagline": "İşletme sahibine haftalık özet"
+				},
+				{
+					"slug": "agota-uyari",
+					"name": "AgotaUyari",
+					"icon": "fas fa-bell",
+					"status": "soon",
+					"tagline": "Anormal bir durumda sizi uyarır"
+				},
+				{
+					"slug": "agota-senaryo",
+					"name": "AgotaSenaryo",
+					"icon": "fas fa-sliders",
+					"status": "soon",
+					"tagline": "\"Ya şöyle olursa?\" analizi"
+				}
+			]
+		},
+		{
+			"id": "saha",
+			"group": "functions",
+			"icon": "fas fa-toolbox",
+			"name": "Saha & Servis",
+			"description": "Teknik servis ve keşif ekiplerinin sahadaki işini formdan faturaya kadar otomatikleştirir.",
+			"products": [
+				{
+					"slug": "agota-saha",
+					"name": "AgotaSaha",
+					"icon": "fas fa-user-gear",
+					"status": "soon",
+					"tagline": "Görev atama ve fotoğraflı iş bitirme"
+				},
+				{
+					"slug": "agota-kesif",
+					"name": "AgotaKesif",
+					"icon": "fas fa-ruler-combined",
+					"status": "soon",
+					"tagline": "Keşif ziyaretinden teklife"
+				}
+			]
+		},
+		{
+			"id": "sektorel",
+			"group": "industries",
+			"layout": "tiles",
+			"icon": "fas fa-shop",
+			"name": "Sektörel Çözümler",
+			"description": "Çekirdek platform ve sektöre özel asistan: her sektörün kendi iş akışına göre hazırlanmış çözümler.",
+			"products": [
+				{
+					"slug": "adisyon-qr",
+					"name": "AgotaSoft QR Menü",
+					"sector": "Restoran & Kafe",
+					"icon": "fas fa-qrcode",
+					"status": "live",
+					"href": "/adisyon-qr",
+					"tagline": "QR menü, masadan sipariş, mutfak ekranı ve adisyon"
+				},
+				{
+					"slug": "agota-mutfak",
+					"name": "AgotaMutfak",
+					"sector": "Restoran Mutfağı",
+					"icon": "fas fa-utensils",
+					"status": "soon",
+					"tagline": "Reçete maliyeti, fire ve günlük sipariş listesi"
+				},
+				{
+					"slug": "agota-randevu",
+					"name": "AgotaRandevu",
+					"sector": "Kuaför & Güzellik",
+					"icon": "fas fa-calendar-check",
+					"status": "soon",
+					"tagline": "WhatsApp ve Instagram mesajından randevuya"
+				},
+				{
+					"slug": "agota-klinik",
+					"name": "AgotaKlinik",
+					"sector": "Klinik",
+					"icon": "fas fa-stethoscope",
+					"status": "soon",
+					"tagline": "Hasta kaydı, tedavi planı ve hatırlatma"
+				},
+				{
+					"slug": "agota-konak",
+					"name": "AgotaKonak",
+					"sector": "Otel & Pansiyon",
+					"icon": "fas fa-hotel",
+					"status": "soon",
+					"tagline": "Kanal senkronu ve misafir asistanı"
+				},
+				{
+					"slug": "agota-servis",
+					"name": "AgotaServis",
+					"sector": "Oto Servis",
+					"icon": "fas fa-car-side",
+					"status": "soon",
+					"tagline": "Plakadan araç geçmişi, sesli iş emri"
+				},
+				{
+					"slug": "agota-emlak",
+					"name": "AgotaEmlak",
+					"sector": "Emlak",
+					"icon": "fas fa-house-chimney",
+					"status": "soon",
+					"tagline": "İlan metni ve alıcı–portföy eşleştirme"
+				},
+				{
+					"slug": "agota-santiye",
+					"name": "AgotaSantiye",
+					"sector": "İnşaat",
+					"icon": "fas fa-helmet-safety",
+					"status": "soon",
+					"tagline": "Hakediş, metraj ve puantaj"
+				},
+				{
+					"slug": "agota-tarla",
+					"name": "AgotaTarla",
+					"sector": "Tarım & Sera",
+					"icon": "fas fa-tractor",
+					"status": "soon",
+					"tagline": "Üretim maliyeti, hal fiyatı, ilaç ve sulama kaydı"
+				},
+				{
+					"slug": "agota-kurs",
+					"name": "AgotaKurs",
+					"sector": "Kurs & Spor Salonu",
+					"icon": "fas fa-chalkboard-user",
+					"status": "soon",
+					"tagline": "Kayıt, taksit, yoklama ve veli bilgilendirme"
+				},
+				{
+					"slug": "agota-musavir",
+					"name": "AgotaMusavir",
+					"sector": "Mali Müşavir",
+					"icon": "fas fa-briefcase",
+					"status": "soon",
+					"tagline": "Mükelleften evrak toplama, beyanname takvimi"
+				},
+				{
+					"slug": "agota-atolye",
+					"name": "AgotaAtolye",
+					"sector": "Konfeksiyon",
+					"icon": "fas fa-shirt",
+					"status": "soon",
+					"tagline": "Model, numune, kesim planı ve fason takibi"
+				},
+				{
+					"slug": "agota-filo",
+					"name": "AgotaFilo",
+					"sector": "Nakliye",
+					"icon": "fas fa-truck-moving",
+					"status": "soon",
+					"tagline": "Araç, sürücü ve yük eşleştirme"
+				},
+				{
+					"slug": "agota-market",
+					"name": "AgotaMarket",
+					"sector": "Market & Bakkal",
+					"icon": "fas fa-basket-shopping",
+					"status": "soon",
+					"tagline": "POS, son kullanma tarihi takibi, otomatik sipariş"
+				}
+			]
+		},
+		{
+			"id": "ekosistem",
+			"group": "ecosystem",
+			"icon": "fas fa-circle-nodes",
+			"name": "Ekosistem & Pazar Yerleri",
+			"description": "Pazar yerinde insanlar değil, işletmelerin asistanları birbiriyle alışveriş yapar: AgotaSoft'un platform katmanı.",
+			"products": [
+				{
+					"slug": "agota-store",
+					"name": "AgotaStore",
+					"icon": "fas fa-puzzle-piece",
+					"status": "soon",
+					"tagline": "Agota uygulama ve asistan marketi"
+				},
+				{
+					"slug": "agota-tedarik",
+					"name": "AgotaTedarik",
+					"icon": "fas fa-right-left",
+					"status": "soon",
+					"tagline": "ERP'den ERP'ye B2B ticaret"
+				},
+				{
+					"slug": "agota-fasonpazar",
+					"name": "AgotaFasonPazar",
+					"icon": "fas fa-handshake-angle",
+					"status": "soon",
+					"tagline": "Boş üretim kapasitesini işle eşleştirir"
+				},
+				{
+					"slug": "agota-hizmet",
+					"name": "AgotaHizmet",
+					"icon": "fas fa-bell-concierge",
+					"status": "soon",
+					"tagline": "Kurumsal hizmet tedariki"
+				},
+				{
+					"slug": "agota-makine",
+					"name": "AgotaMakine",
+					"icon": "fas fa-dolly",
+					"status": "soon",
+					"tagline": "İkinci el makine ve ekipman pazarı"
+				},
+				{
+					"slug": "agota-endeks",
+					"name": "AgotaEndeks",
+					"icon": "fas fa-chart-area",
+					"status": "soon",
+					"tagline": "Sektörel fiyat, marj ve tahsilat endeksi"
+				},
+				{
+					"slug": "agota-finans",
+					"name": "AgotaFinans",
+					"icon": "fas fa-landmark",
+					"status": "soon",
+					"tagline": "İşletme verinizle finansmana erişim"
+				}
+			]
+		}
+	]
+}
