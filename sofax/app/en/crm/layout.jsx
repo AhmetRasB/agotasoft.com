@@ -6,12 +6,12 @@ export const metadata = {
 	title: "AgotaSoft CRM System | AgotaSoft",
 	description: "Accelerate your business growth with a comprehensive customer database, sales opportunity tracking, marketing automation and customer service. Raise satisfaction, optimize sales performance.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/crm"),
+	alternates: buildAlternates("/crm", "en"),
 	openGraph: {
 		title: "AgotaSoft CRM: Strengthen Customer Relationships, Grow Your Sales",
 		description: "Accelerate your business growth with a comprehensive customer database, sales opportunity tracking, marketing automation and customer service. Raise satisfaction, optimize sales performance.",
 		type: "website",
-		url: "https://agotasoft.com/crm",
+		url: "https://agotasoft.com/en/crm",
 	},
 	twitter: {
 		card: "summary_large_image",
@@ -24,7 +24,7 @@ function CRMLayout({ children }) {
 	return (
 		<>
 			<Header />
-			{children}
+			<main id="main-content">{children}</main>
 			<Footer />
 		</>
 	);

@@ -6,12 +6,12 @@ export const metadata = {
 	title: "AgotaSoft Mobil shtrix-kod tizimi | AgotaSoft",
 	description: "Ombor va do'konlaringizda inventarizatsiya, kirim-chiqim va zaxira kuzatuvini mobil shtrix-kod skanerlari bilan tezlashtiring.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/mobil-barkod"),
+	alternates: buildAlternates("/mobil-barkod", "uz"),
 	openGraph: {
 		title: "AgotaSoft Mobil shtrix-kod tizimi",
 		description: "Ombor va do'konlaringizda inventarizatsiya, kirim-chiqim va zaxira kuzatuvini mobil shtrix-kod skanerlari bilan tezlashtiring.",
 		type: "website",
-		url: "https://agotasoft.com/mobil-barkod",
+		url: "https://agotasoft.com/uz/mobil-barkod",
 	},
 	twitter: {
 		card: "summary_large_image",
@@ -24,7 +24,7 @@ function MobilBarkodLayout({ children }) {
 	return (
 		<>
 			<Header />
-			{children}
+			<main id="main-content">{children}</main>
 			<Footer />
 		</>
 	);

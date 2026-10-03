@@ -8,12 +8,12 @@ export const metadata = {
 	title: "Jamoamiz | AgotaSoft",
 	description: "Mutaxassis jamoamiz bilan kompaniyalarning raqamli transformatsiyasiga yo'l boshlaymiz.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/team"),
+	alternates: buildAlternates("/team", "uz"),
 	openGraph: {
 		title: "Jamoamiz | AgotaSoft",
 		description: "Mutaxassis jamoamiz bilan kompaniyalarning raqamli transformatsiyasiga yo'l boshlaymiz.",
 		type: "website",
-		url: "https://agotasoft.com/team",
+		url: "https://agotasoft.com/uz/team",
 	},
 	twitter: {
 		card: "summary_large_image",

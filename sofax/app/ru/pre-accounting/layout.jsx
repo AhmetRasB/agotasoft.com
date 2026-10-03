@@ -6,12 +6,12 @@ export const metadata = {
 	title: "AgotaSoft Бухгалтерия",
 	description: "Программа первичного учёта с TRY, USD и EUR одновременно и продажами по штрихкоду; приложение iOS и веб-панель.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/pre-accounting"),
+	alternates: buildAlternates("/pre-accounting", "ru"),
 	openGraph: {
 		title: "AgotaSoft Бухгалтерия",
 		description: "Программа первичного учёта с TRY, USD и EUR одновременно и продажами по штрихкоду; приложение iOS и веб-панель.",
 		type: "website",
-		url: "https://agotasoft.com/pre-accounting",
+		url: "https://agotasoft.com/ru/pre-accounting",
 	},
 	twitter: {
 		card: "summary_large_image",
@@ -24,7 +24,7 @@ function PreAccountingLayout({ children }) {
 	return (
 		<>
 			<Header />
-			{children}
+			<main id="main-content">{children}</main>
 			<Footer />
 		</>
 	);

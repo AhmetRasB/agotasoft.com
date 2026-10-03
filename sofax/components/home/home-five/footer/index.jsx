@@ -4,6 +4,7 @@ import { useCms } from "@/hooks/useCms";
 import { useLocalePrefix } from "@/hooks/useLocale";
 import { withLocale } from "@/lib/i18n/config";
 import LanguageSwitcher from "@/components/common/header/LanguageSwitcher";
+import ResponsiveImage from "@/components/common/ResponsiveImage";
 
 function Footer() {
 	const cms = useCms();
@@ -14,9 +15,9 @@ function Footer() {
 	const copyright = (settings.copyright || `© ${year} AgotaSoft. Tüm hakları saklıdır.`).replace(/©\s*\d{4}/, `© ${year}`);
 
 	const socials = [
-		{ href: settings.social_instagram, icon: "fa-instagram" },
-		{ href: settings.social_linkedin, icon: "fa-linkedin-in" },
-		{ href: settings.social_github, icon: "fa-github" },
+		{ href: settings.social_instagram, icon: "fa-instagram", label: "Instagram" },
+		{ href: settings.social_linkedin, icon: "fa-linkedin-in", label: "LinkedIn" },
+		{ href: settings.social_github, icon: "fa-github", label: "GitHub" },
 	].filter((s) => s.href);
 
 	return (
@@ -25,21 +26,28 @@ function Footer() {
 				<div className="agf-footer-top">
 					<div className="agf-footer-about">
 						<Link href={prefix || "/"} className="agf-logo">
-							<img src={settings.logo || "/images/agotasoft-logo.png"} alt={settings.site_name || "AgotaSoft"} />
+							<ResponsiveImage src={settings.logo || "/images/agotasoft-logo.png"} alt={settings.site_name || "AgotaSoft"} sizes="56px" />
 						</Link>
 						<p>{footer.about_alt || footer.about}</p>
 						{socials.length ? (
 							<div className="agf-social-row">
 								{socials.map((s) => (
-									<a key={s.icon} href={s.href} target="_blank" rel="noopener noreferrer" className="agf-social-icon">
-										<i className={`fab ${s.icon}`}></i>
+									<a
+										key={s.icon}
+										href={s.href}
+										target="_blank"
+										rel="noopener noreferrer"
+										className="agf-social-icon"
+										aria-label={`AgotaSoft ${s.label}`}
+									>
+										<i className={`fab ${s.icon}`} aria-hidden="true"></i>
 									</a>
 								))}
 							</div>
 						) : null}
 					</div>
 					<div className="agf-footer-col">
-						<h5>{footer.col1_title || "Kurumsal"}</h5>
+						<h2 className="agf-footer-title">{footer.col1_title || "Kurumsal"}</h2>
 						<ul>
 							{(footer.col1_links || []).map((link) => (
 								<li key={link.url}>
@@ -49,7 +57,7 @@ function Footer() {
 						</ul>
 					</div>
 					<div className="agf-footer-col">
-						<h5>{footer.col2_title || "Çözümlerimiz"}</h5>
+						<h2 className="agf-footer-title">{footer.col2_title || "Çözümlerimiz"}</h2>
 						<ul>
 							{(footer.col2_links || []).map((link) => (
 								<li key={link.url}>
@@ -59,7 +67,7 @@ function Footer() {
 						</ul>
 					</div>
 					<div className="agf-footer-col">
-						<h5>{footer.col3_title || "İletişim"}</h5>
+						<h2 className="agf-footer-title">{footer.col3_title || "İletişim"}</h2>
 						<ul>
 							{settings.address ? (
 								<li>

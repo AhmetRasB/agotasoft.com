@@ -8,7 +8,7 @@
 	--bg-soft-2: #f1f1f4;
 	--ink: #0b0c0f;
 	--ink-soft: #4b4f58;
-	--ink-faint: #8a8f9a;
+	--ink-faint: #676c77; /* ≥4.5:1 on white and the soft greys (WCAG AA) */
 	--border: #e7e8ec;
 	--border-strong: #d7d9df;
 	--accent: #5b4fe8;
@@ -36,7 +36,7 @@ body {
 }
 
 body {
-	font-family: var(--font-inter), -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+	font-family: var(--font-inter-cyrillic), var(--font-inter), -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.6;
 	-webkit-font-smoothing: antialiased;
@@ -44,7 +44,7 @@ body {
 }
 
 .agf-headline {
-	font-family: var(--font-clash-grotesk), var(--font-DM-Sans), var(--font-inter), sans-serif;
+	font-family: var(--font-clash-grotesk), var(--font-inter-cyrillic), var(--font-inter), sans-serif;
 	font-weight: 600;
 	letter-spacing: -0.02em;
 	line-height: 1.08;
@@ -201,7 +201,7 @@ a {
 .agf-logo {
 	display: flex;
 	align-items: center;
-	font-family: var(--font-clash-grotesk), sans-serif;
+	font-family: var(--font-clash-grotesk), var(--font-inter-cyrillic), var(--font-inter), sans-serif;
 	font-weight: 600;
 	font-size: 20px;
 	letter-spacing: -0.01em;
@@ -598,7 +598,7 @@ a {
 }
 
 .agf-stat-num {
-	font-family: var(--font-clash-grotesk), sans-serif;
+	font-family: var(--font-clash-grotesk), var(--font-inter-cyrillic), var(--font-inter), sans-serif;
 	font-size: clamp(26px, 3vw, 34px);
 	font-weight: 600;
 	color: var(--ink);
@@ -655,6 +655,7 @@ a {
 	flex-shrink: 0;
 }
 
+.agf-benefit-row h3,
 .agf-benefit-row h4 {
 	font-size: 15px;
 	font-weight: 600;
@@ -724,6 +725,7 @@ a {
 	flex-shrink: 0;
 }
 
+.agf-mini-card h3,
 .agf-mini-card h4 {
 	font-size: 14px;
 	font-weight: 600;
@@ -799,7 +801,9 @@ a {
 	margin: 14px 0 18px;
 }
 
-.agf-footer-col h5 {
+.agf-footer-col h5,
+.agf-footer-title {
+	font-family: inherit;
 	font-size: 13px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -1085,7 +1089,8 @@ a {
 	margin-bottom: 22px;
 }
 
-.agf-contact-item h6 {
+.agf-contact-item h6,
+.agf-contact-label {
 	margin: 0 0 4px;
 	font-size: 13px;
 	color: var(--ink-faint);
@@ -1336,6 +1341,7 @@ a {
 	padding: 16px 18px 20px;
 }
 
+.agf-team-card-body h3,
 .agf-team-card-body h4 {
 	margin: 0 0 4px;
 	font-size: 16px;
@@ -1406,8 +1412,15 @@ a {
 	box-shadow: 0 0 0 3px rgba(31, 157, 99, 0.15);
 }
 
-.agf-facts h3 {
+.agf-facts h3,
+.agf-facts-title {
 	margin: 0 0 14px;
+}
+
+.agf-facts-title {
+	font-size: 16px;
+	font-weight: 600;
+	color: var(--ink);
 }
 
 .agf-facts ul {
@@ -1446,7 +1459,7 @@ a {
 
 .agf-step-num {
 	display: inline-block;
-	font-family: var(--font-clash-grotesk), sans-serif;
+	font-family: var(--font-clash-grotesk), var(--font-inter-cyrillic), var(--font-inter), sans-serif;
 	font-size: 26px;
 	font-weight: 600;
 	color: var(--accent);
@@ -1647,7 +1660,7 @@ button.agf-nav-link {
 }
 
 .agf-mega-title {
-	font-family: var(--font-clash-grotesk), sans-serif;
+	font-family: var(--font-clash-grotesk), var(--font-inter-cyrillic), var(--font-inter), sans-serif;
 	font-size: 20px;
 	font-weight: 600;
 	color: var(--ink);
@@ -2325,4 +2338,18 @@ button.agf-nav-link {
 
 .agf-gallery .agf-shot figcaption {
 	text-align: center;
+}
+
+/* retagged headings keep their previous look */
+.agf-contact-option-title {
+	font-size: 15px;
+	font-weight: 600;
+	margin: 0 0 8px;
+}
+
+.agf-meta-value {
+	margin: 0;
+	font-size: 16px;
+	font-weight: 600;
+	color: var(--ink);
 }

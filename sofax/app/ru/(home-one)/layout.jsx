@@ -5,7 +5,7 @@ export const metadata = {
 	title: "AgotaSoft ERP | Единая платформа для вашего бизнеса",
 	description: "Управляйте складом, производством, финансами и закупками на одной платформе с ИИ — AgotaSoft ERP.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/"),
+	alternates: buildAlternates("/", "ru"),
 	openGraph: {
 		title: "AgotaSoft ERP: единая платформа для управления бизнесом",
 		description: "Объедините склад, производство, финансы и закупки на одном экране. С поддержкой ИИ, быстрая настройка.",
@@ -22,7 +22,7 @@ function LayoutOne({ children }) {
 	return (
 		<>
 			<Header />
-			{children}
+			<main id="main-content">{children}</main>
 			<Footer />
 		</>
 	);

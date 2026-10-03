@@ -7,12 +7,12 @@ export const metadata = {
 	title: "Çözgütlerimiz | AgotaSoft",
 	description: "Bilermenler toparymyz ERP, CRM, buhgalteriýa we LMS ugurlarynda biznesiňiziň ähli isleglerine jogap berýär.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/service"),
+	alternates: buildAlternates("/service", "tk"),
 	openGraph: {
 		title: "Çözgütlerimiz | AgotaSoft",
 		description: "Bilermenler toparymyz ERP, CRM, buhgalteriýa we LMS ugurlarynda biznesiňiziň ähli isleglerine jogap berýär.",
 		type: "website",
-		url: "https://agotasoft.com/service",
+		url: "https://agotasoft.com/tk/service",
 	},
 	twitter: {
 		card: "summary_large_image",

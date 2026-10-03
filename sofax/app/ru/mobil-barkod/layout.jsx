@@ -6,12 +6,12 @@ export const metadata = {
 	title: "AgotaSoft Мобильная система штрихкодов | AgotaSoft",
 	description: "Ускорьте инвентаризацию, приёмку/отгрузку и учёт запасов на складах и в магазинах с помощью мобильных сканеров.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/mobil-barkod"),
+	alternates: buildAlternates("/mobil-barkod", "ru"),
 	openGraph: {
 		title: "AgotaSoft Мобильная система штрихкодов",
 		description: "Ускорьте инвентаризацию, приёмку/отгрузку и учёт запасов на складах и в магазинах с помощью мобильных сканеров.",
 		type: "website",
-		url: "https://agotasoft.com/mobil-barkod",
+		url: "https://agotasoft.com/ru/mobil-barkod",
 	},
 	twitter: {
 		card: "summary_large_image",
@@ -24,7 +24,7 @@ function MobilBarkodLayout({ children }) {
 	return (
 		<>
 			<Header />
-			{children}
+			<main id="main-content">{children}</main>
 			<Footer />
 		</>
 	);

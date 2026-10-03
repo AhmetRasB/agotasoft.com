@@ -8,12 +8,12 @@ export const metadata = {
 	title: "Наша команда | AgotaSoft",
 	description: "Наша команда экспертов возглавляет цифровую трансформацию бизнеса.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/team"),
+	alternates: buildAlternates("/team", "ru"),
 	openGraph: {
 		title: "Наша команда | AgotaSoft",
 		description: "Наша команда экспертов возглавляет цифровую трансформацию бизнеса.",
 		type: "website",
-		url: "https://agotasoft.com/team",
+		url: "https://agotasoft.com/ru/team",
 	},
 	twitter: {
 		card: "summary_large_image",

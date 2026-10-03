@@ -6,12 +6,12 @@ export const metadata = {
 	title: "AgotaSoft Buxgalteriya",
 	description: "TRY, USD va EUR'ni bir vaqtda yurituvchi, shtrix-kod bilan sotuv qiladigan buxgalteriya dasturi; iOS ilovasi va veb-panel.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/pre-accounting"),
+	alternates: buildAlternates("/pre-accounting", "uz"),
 	openGraph: {
 		title: "AgotaSoft Buxgalteriya",
 		description: "TRY, USD va EUR'ni bir vaqtda yurituvchi, shtrix-kod bilan sotuv qiladigan buxgalteriya dasturi; iOS ilovasi va veb-panel.",
 		type: "website",
-		url: "https://agotasoft.com/pre-accounting",
+		url: "https://agotasoft.com/uz/pre-accounting",
 	},
 	twitter: {
 		card: "summary_large_image",
@@ -24,7 +24,7 @@ function PreAccountingLayout({ children }) {
 	return (
 		<>
 			<Header />
-			{children}
+			<main id="main-content">{children}</main>
 			<Footer />
 		</>
 	);

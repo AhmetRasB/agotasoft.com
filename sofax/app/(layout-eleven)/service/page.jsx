@@ -1,8 +1,10 @@
 import BreadCrumb from "@/components/common/Breadcrumb";
 import CmsText from "@/components/cms/CmsText";
 import ServiceContent from "@/components/service-page/ServiceContent";
+import { buildAlternates } from "@/lib/i18n/config";
 
 export const metadata = {
+	alternates: buildAlternates("/service"),
 	title: "AgotaSoft Çözümlerimiz | ERP, CRM, Ön Muhasebe ve LMS Hizmetleri",
 	description: "AgotaSoft'ın sunduğu ERP, CRM, Ön Muhasebe ve LMS çözümlerini keşfedin. İşletmenizin ihtiyaçlarına özel yazılım hizmetleri.",
 	keywords: "AgotaSoft hizmetler, ERP çözümleri, CRM hizmetleri, ön muhasebe, LMS eğitim sistemi",

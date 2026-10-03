@@ -104,7 +104,7 @@ export default function AboutContent() {
 									<i className={item.icon}></i>
 								</div>
 								<div>
-									<h4>{item.title}</h4>
+									<h3>{item.title}</h3>
 									<p>{item.text}</p>
 								</div>
 							</div>

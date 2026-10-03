@@ -7,6 +7,8 @@ import PlatformSection from "@/components/erp-landing/PlatformSection";
 import AiSection from "@/components/erp-landing/AiSection";
 import StatsSection from "@/components/erp-landing/StatsSection";
 import FinalCta from "@/components/erp-landing/FinalCta";
+import ResponsiveImage from "@/components/common/ResponsiveImage";
+import StructuredData, { softwareApplication } from "@/components/common/StructuredData";
 
 export default function ErpContent() {
 	const cms = useCms();
@@ -16,6 +18,9 @@ export default function ErpContent() {
 
 	return (
 		<>
+			<StructuredData
+				data={softwareApplication({ name: page.title, description: page.hero_subtitle, path: "/erp", prefix, image: page.showcase_image })}
+			/>
 			<section className="agf-section--tight">
 				<div className="agf-container">
 					<p className="agf-lede" style={{ margin: "0 auto 24px", textAlign: "center", maxWidth: 680 }}>
@@ -54,7 +59,7 @@ export default function ErpContent() {
 											<i className={b.icon}></i>
 										</div>
 										<div>
-											<h4>{b.title}</h4>
+											<h3>{b.title}</h3>
 											<p>{b.text}</p>
 										</div>
 									</div>
@@ -68,7 +73,7 @@ export default function ErpContent() {
 									<span className="agf-browser-dot"></span>
 									<span className="agf-browser-dot"></span>
 								</div>
-								<img src={page.showcase_image || "/images/about/Benefits.png"} alt={page.showcase_title || "AgotaSoft ERP"} />
+								<ResponsiveImage src={page.showcase_image || "/images/about/Benefits.png"} alt={page.showcase_title || "AgotaSoft ERP"} sizes="(max-width: 860px) calc(100vw - 32px), 560px" />
 							</div>
 						</div>
 					</div>

@@ -6,12 +6,12 @@ export const metadata = {
 	title: "AgotaSoft ERP tizimi | AgotaSoft",
 	description: "Ombor, moliya, ishlab chiqarishni rejalashtirish, xarid va inson resurslari jarayonlarini yagona integratsiyalashgan tizim bilan boshqaring. Samaradorlikni oshiring, xarajatlarni kamaytiring va o'sishni tezlashtiring.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/erp"),
+	alternates: buildAlternates("/erp", "uz"),
 	openGraph: {
 		title: "AgotaSoft ERP: ishlab chiqarishdan moliyagacha barcha jarayonlar bitta platformada",
 		description: "Ombor, moliya, ishlab chiqarishni rejalashtirish, xarid va inson resurslari jarayonlarini yagona integratsiyalashgan tizim bilan boshqaring. Samaradorlikni oshiring, xarajatlarni kamaytiring va o'sishni tezlashtiring.",
 		type: "website",
-		url: "https://agotasoft.com/erp",
+		url: "https://agotasoft.com/uz/erp",
 	},
 	twitter: {
 		card: "summary_large_image",
@@ -24,7 +24,7 @@ function ERPLayout({ children }) {
 	return (
 		<>
 			<Header />
-			{children}
+			<main id="main-content">{children}</main>
 			<Footer />
 		</>
 	);

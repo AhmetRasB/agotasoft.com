@@ -9,7 +9,7 @@ export const metadata = {
 	title,
 	description,
 	author: "AgotaSoft",
-	alternates: buildAlternates("/karlilik"),
+	alternates: buildAlternates("/karlilik", "ru"),
 	openGraph: {
 		title,
 		description,
@@ -30,7 +30,7 @@ function KarlilikLayout({ children }) {
 	return (
 		<>
 			<Header />
-			{children}
+			<main id="main-content">{children}</main>
 			<Footer />
 		</>
 	);

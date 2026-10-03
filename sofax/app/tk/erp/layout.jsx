@@ -6,12 +6,12 @@ export const metadata = {
 	title: "AgotaSoft ERP ulgamy | AgotaSoft",
 	description: "Ammar, maliýe, öndüriş meýilnamalaşdyrmasy, satyn alma we adam resurslary proseslerini ýeke-täk integrirlenen ulgam bilen dolandyryň. Netijeligi ýokarlandyryň, çykdajylary azaldyň we ösüşi çaltlandyryň.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/erp"),
+	alternates: buildAlternates("/erp", "tk"),
 	openGraph: {
 		title: "AgotaSoft ERP: öndürişden maliýä çenli ähli proseslerňiz bir platformada",
 		description: "Ammar, maliýe, öndüriş meýilnamalaşdyrmasy, satyn alma we adam resurslary proseslerini ýeke-täk integrirlenen ulgam bilen dolandyryň. Netijeligi ýokarlandyryň, çykdajylary azaldyň we ösüşi çaltlandyryň.",
 		type: "website",
-		url: "https://agotasoft.com/erp",
+		url: "https://agotasoft.com/tk/erp",
 	},
 	twitter: {
 		card: "summary_large_image",
@@ -24,7 +24,7 @@ function ERPLayout({ children }) {
 	return (
 		<>
 			<Header />
-			{children}
+			<main id="main-content">{children}</main>
 			<Footer />
 		</>
 	);

@@ -69,9 +69,9 @@ export default function DemoRequestForm() {
 
 	return (
 		<div>
-			<h3 className="agf-h3" style={{ marginBottom: 8 }}>
+			<h2 className="agf-h3" style={{ marginBottom: 8 }}>
 				{page.form_title || "Demo Talep Formu"}
-			</h3>
+			</h2>
 			<p className="agf-small" style={{ marginBottom: 24 }}>
 				{page.form_intro ||
 					"Aşağıdaki formu doldurarak ücretsiz demo talebinde bulunabilir, uzman ekibimizle görüşme ayarlayabilirsiniz."}
@@ -82,30 +82,30 @@ export default function DemoRequestForm() {
 
 				<div className="agf-form-row">
 					<div className="agf-field">
-						<label>Ad Soyad *</label>
-						<input type="text" name="name" placeholder="Adınız ve soyadınız" required />
+						<label htmlFor="demo-name">Ad Soyad *</label>
+						<input type="text" id="demo-name" name="name" placeholder="Adınız ve soyadınız" required />
 					</div>
 					<div className="agf-field">
-						<label>Şirket Adı *</label>
-						<input type="text" name="company" placeholder="Şirket adınız" required />
-					</div>
-				</div>
-
-				<div className="agf-form-row">
-					<div className="agf-field">
-						<label>E-posta *</label>
-						<input type="email" name="email" placeholder="ornek@sirket.com" required />
-					</div>
-					<div className="agf-field">
-						<label>Telefon *</label>
-						<input type="tel" name="phone" placeholder="+90 (5xx) xxx xx xx" required />
+						<label htmlFor="demo-company">Şirket Adı *</label>
+						<input type="text" id="demo-company" name="company" placeholder="Şirket adınız" required />
 					</div>
 				</div>
 
 				<div className="agf-form-row">
 					<div className="agf-field">
-						<label>İlgilendiğiniz Çözüm *</label>
-						<select name="subject" required defaultValue={preset?.name || ""}>
+						<label htmlFor="demo-email">E-posta *</label>
+						<input type="email" id="demo-email" name="email" placeholder="ornek@sirket.com" required />
+					</div>
+					<div className="agf-field">
+						<label htmlFor="demo-phone">Telefon *</label>
+						<input type="tel" id="demo-phone" name="phone" placeholder="+90 (5xx) xxx xx xx" required />
+					</div>
+				</div>
+
+				<div className="agf-form-row">
+					<div className="agf-field">
+						<label htmlFor="demo-subject">İlgilendiğiniz Çözüm *</label>
+						<select id="demo-subject" name="subject" required defaultValue={preset?.name || ""}>
 							<option value="">Seçiniz</option>
 							{preset ? <option value={preset.name}>{preset.name}</option> : null}
 							<option value="erp">ERP Sistemi</option>
@@ -117,8 +117,8 @@ export default function DemoRequestForm() {
 						</select>
 					</div>
 					<div className="agf-field">
-						<label>Çalışan Sayısı</label>
-						<select name="employees" defaultValue="">
+						<label htmlFor="demo-employees">Çalışan Sayısı</label>
+						<select id="demo-employees" name="employees" defaultValue="">
 							<option value="">Seçiniz</option>
 							<option value="1-10">1-10 kişi</option>
 							<option value="11-50">11-50 kişi</option>
@@ -130,8 +130,8 @@ export default function DemoRequestForm() {
 				</div>
 
 				<div className="agf-field">
-					<label>Mesajınız</label>
-					<textarea name="message" rows="5" defaultValue={preset?.message || ""} placeholder="Projeniz, ihtiyaçlarınız veya sorularınız hakkında detaylar..."></textarea>
+					<label htmlFor="demo-message">Mesajınız</label>
+					<textarea id="demo-message" name="message" rows="5" defaultValue={preset?.message || ""} placeholder="Projeniz, ihtiyaçlarınız veya sorularınız hakkında detaylar..."></textarea>
 				</div>
 
 				<label className="agf-checkbox">

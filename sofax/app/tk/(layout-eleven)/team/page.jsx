@@ -8,12 +8,12 @@ export const metadata = {
 	title: "Toparymyz | AgotaSoft",
 	description: "Bilermenler toparymyz bilen kompaniýalaryň sanly özgertmesine ýol açýarys.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/team"),
+	alternates: buildAlternates("/team", "tk"),
 	openGraph: {
 		title: "Toparymyz | AgotaSoft",
 		description: "Bilermenler toparymyz bilen kompaniýalaryň sanly özgertmesine ýol açýarys.",
 		type: "website",
-		url: "https://agotasoft.com/team",
+		url: "https://agotasoft.com/tk/team",
 	},
 	twitter: {
 		card: "summary_large_image",

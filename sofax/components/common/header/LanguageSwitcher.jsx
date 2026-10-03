@@ -41,8 +41,15 @@ function LanguageSwitcher() {
 
 	return (
 		<div className="agf-lang">
-			<button type="button" className="agf-lang-btn" onClick={() => setOpen((v) => !v)} aria-label="Change language">
-				<span>{FLAG[current]}</span>
+			<button
+				type="button"
+				className="agf-lang-btn"
+				onClick={() => setOpen((v) => !v)}
+				aria-haspopup="true"
+				aria-expanded={open}
+				title="Dil / Language"
+			>
+				<span aria-hidden="true">{FLAG[current]}</span>
 				<span>{current.toUpperCase()}</span>
 			</button>
 			{open ? (

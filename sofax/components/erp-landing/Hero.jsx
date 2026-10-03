@@ -2,6 +2,7 @@
 import { useCms } from "@/hooks/useCms";
 import { useLocalePrefix } from "@/hooks/useLocale";
 import { withLocale } from "@/lib/i18n/config";
+import ResponsiveImage from "@/components/common/ResponsiveImage";
 
 export default function Hero() {
 	const cms = useCms();
@@ -13,7 +14,7 @@ export default function Hero() {
 		<section className="agf-hero">
 			<div className="agf-container">
 				<div className="agf-hero-badge">
-					<i className="fas fa-sparkles"></i> {hero.rating_text || "AI destekli, KOBİ'ler için tasarlandı"}
+					<i className="fas fa-wand-magic-sparkles" aria-hidden="true"></i> {hero.rating_text || "AI destekli, KOBİ'ler için tasarlandı"}
 				</div>
 				<h1 className="agf-headline agf-h1">{hero.title}</h1>
 				<p className="agf-hero-lede">{hero.subtitle}</p>
@@ -33,7 +34,7 @@ export default function Hero() {
 						<span className="agf-browser-dot"></span>
 						<span className="agf-browser-dot"></span>
 					</div>
-					<img src={heroImage} alt="AgotaSoft ERP Dashboard" />
+					<ResponsiveImage src={heroImage} alt="AgotaSoft ERP Dashboard" priority sizes="(max-width: 1240px) calc(100vw - 32px), 1180px" />
 				</div>
 			</div>
 		</section>

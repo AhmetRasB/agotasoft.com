@@ -1,6 +1,8 @@
 import TermsContent from "@/components/terms-page/TermsContent";
+import { buildAlternates } from "@/lib/i18n/config";
 
 export const metadata = {
+	alternates: buildAlternates("/terms-and-condition"),
 	title: "Kullanım Koşulları | AgotaSoft",
 	description: "AgotaSoft hizmet kullanım koşulları.",
 };

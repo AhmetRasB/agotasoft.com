@@ -6,12 +6,12 @@ export const metadata = {
 	title: "AgotaSoft LMS System | AgotaSoft",
 	description: "Digitize your corporate training processes with course management, online exams and performance reporting.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/lms"),
+	alternates: buildAlternates("/lms", "en"),
 	openGraph: {
 		title: "AgotaSoft LMS: Your Corporate Training and Development Platform",
 		description: "Digitize your corporate training processes with course management, online exams and performance reporting.",
 		type: "website",
-		url: "https://agotasoft.com/lms",
+		url: "https://agotasoft.com/en/lms",
 	},
 	twitter: {
 		card: "summary_large_image",
@@ -24,7 +24,7 @@ function LMSLayout({ children }) {
 	return (
 		<>
 			<Header />
-			{children}
+			<main id="main-content">{children}</main>
 			<Footer />
 		</>
 	);

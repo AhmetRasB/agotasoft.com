@@ -40,17 +40,18 @@ export function withLocale(path, prefix) {
 
 // Builds the alternates.languages block for generateMetadata / metadata exports.
 // `path` is the canonical (default-locale) path, e.g. "/erp" or "/".
-export function buildAlternates(path) {
+export function buildAlternates(path, locale = DEFAULT_LOCALE) {
 	const languages = {};
-	for (const locale of LOCALES) {
-		const prefix = localePrefix(locale);
+	for (const code of LOCALES) {
+		const prefix = localePrefix(code);
 		const url = path === "/" ? `${SITE_URL}${prefix}/` : `${SITE_URL}${prefix}${path}`;
-		languages[LOCALE_HREFLANG[locale]] = url;
+		languages[LOCALE_HREFLANG[code]] = url;
 	}
 	languages["x-default"] = path === "/" ? `${SITE_URL}/` : `${SITE_URL}${path}`;
-	const canonicalPrefix = "";
+	// Each language version is canonical for itself; hreflang links tie the versions together.
+	const canonicalPrefix = localePrefix(locale);
 	return {
-		canonical: path === "/" ? `${SITE_URL}/` : `${SITE_URL}${canonicalPrefix}${path}`,
+		canonical: path === "/" ? `${SITE_URL}${canonicalPrefix}/` : `${SITE_URL}${canonicalPrefix}${path}`,
 		languages,
 	};
 }

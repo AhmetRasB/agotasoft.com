@@ -7,12 +7,12 @@ export const metadata = {
 	title: "Aloqa | AgotaSoft",
 	description: "AgotaSoft dasturiy yechimlari haqida batafsil ma'lumot olish, demo so'rash yoki loyihalaringizni muhokama qilish uchun biz bilan bog'laning.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/contact-us"),
+	alternates: buildAlternates("/contact-us", "uz"),
 	openGraph: {
 		title: "Aloqa | AgotaSoft",
 		description: "AgotaSoft dasturiy yechimlari haqida batafsil ma'lumot olish, demo so'rash yoki loyihalaringizni muhokama qilish uchun biz bilan bog'laning.",
 		type: "website",
-		url: "https://agotasoft.com/contact-us",
+		url: "https://agotasoft.com/uz/contact-us",
 	},
 	twitter: {
 		card: "summary_large_image",

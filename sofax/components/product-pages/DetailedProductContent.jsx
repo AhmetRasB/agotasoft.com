@@ -5,6 +5,8 @@ import ProductModules from "@/components/product-pages/ProductModules";
 import { useCms } from "@/hooks/useCms";
 import { useLocalePrefix } from "@/hooks/useLocale";
 import { withLocale } from "@/lib/i18n/config";
+import ResponsiveImage from "@/components/common/ResponsiveImage";
+import StructuredData, { faqPage, softwareApplication } from "@/components/common/StructuredData";
 
 const isExternal = (url) => /^https?:\/\//.test(url || "");
 
@@ -28,7 +30,7 @@ function FeatureFrame({ frame, url, image, alt }) {
 	if (frame === "screen") {
 		return (
 			<figure className="agf-browser agf-browser--screen">
-				<img src={image} alt={alt} loading="lazy" />
+				<ResponsiveImage src={image} alt={alt} sizes="(max-width: 860px) calc(100vw - 52px), 680px" />
 			</figure>
 		);
 	}
@@ -41,13 +43,13 @@ function FeatureFrame({ frame, url, image, alt }) {
 					<span></span>
 					{url ? <em>{url}</em> : null}
 				</div>
-				<img src={image} alt={alt} loading="lazy" />
+				<ResponsiveImage src={image} alt={alt} sizes="(max-width: 860px) calc(100vw - 34px), 690px" />
 			</figure>
 		);
 	}
 	return (
 		<div className="agf-phone">
-			<img src={image} alt={alt} loading="lazy" />
+			<ResponsiveImage src={image} alt={alt} sizes="272px" />
 		</div>
 	);
 }
@@ -90,6 +92,16 @@ export default function DetailedProductContent({ pageKey, fallbackIcon = "fas fa
 
 	return (
 		<>
+			<StructuredData
+				data={softwareApplication({
+					name: page.title,
+					description: page.hero_subtitle,
+					path: `/${pageKey}`,
+					prefix,
+					image: features[0]?.image || gallery[0]?.src,
+				})}
+			/>
+			<StructuredData data={faqPage(faq)} />
 			<section className="agf-section--tight">
 				<div className="agf-container">
 					<div className="agf-split">
@@ -119,7 +131,7 @@ export default function DetailedProductContent({ pageKey, fallbackIcon = "fas fa
 								<div className="agf-card-icon" style={{ width: 52, height: 52, fontSize: 22 }}>
 									<i className={fallbackIcon}></i>
 								</div>
-								<h3>{page.facts_title}</h3>
+								<p className="agf-facts-title">{page.facts_title}</p>
 								<ul>
 									{facts.map((fact) => (
 										<li key={fact.label}>
@@ -173,7 +185,7 @@ export default function DetailedProductContent({ pageKey, fallbackIcon = "fas fa
 							{gallery.map((shot) => (
 								<figure className="agf-shot" key={shot.src}>
 									<div className="agf-phone">
-										<img src={shot.src} alt={shot.caption} loading="lazy" />
+										<ResponsiveImage src={shot.src} alt={shot.caption} sizes="272px" />
 									</div>
 									<figcaption>{shot.caption}</figcaption>
 								</figure>

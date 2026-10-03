@@ -74,7 +74,11 @@ export default function CmsSeo() {
 		upsertMeta("name", "keywords", seo.keywords);
 		upsertMeta("name", "author", seo.author);
 		upsertMeta("name", "robots", seo.robots);
-		upsertLink("canonical", seo.canonical);
+		// The static page already carries the correct per-locale canonical (buildAlternates);
+		// a second one from the CMS would conflict, so only fill it in when it is missing.
+		if (!document.head.querySelector('link[rel="canonical"]:not([data-cms-seo])')) {
+			upsertLink("canonical", seo.canonical);
+		}
 
 		upsertMeta("property", "og:title", seo.og_title || seo.title);
 		upsertMeta("property", "og:description", seo.og_description || seo.description);

@@ -46,7 +46,7 @@ export default function OtherProducts() {
 									<i className={item.fa_icon || "fas fa-cube"}></i>
 								</div>
 								<div>
-									<h4>{item.title}</h4>
+									<h3>{item.title}</h3>
 									<p>{item.description}</p>
 								</div>
 							</a>

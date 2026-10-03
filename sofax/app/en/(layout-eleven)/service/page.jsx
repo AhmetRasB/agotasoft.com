@@ -7,12 +7,12 @@ export const metadata = {
 	title: "Solutions | AgotaSoft",
 	description: "Our expert team meets all your business needs across ERP, CRM, Bookkeeping and LMS.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/service"),
+	alternates: buildAlternates("/service", "en"),
 	openGraph: {
 		title: "Solutions | AgotaSoft",
 		description: "Our expert team meets all your business needs across ERP, CRM, Bookkeeping and LMS.",
 		type: "website",
-		url: "https://agotasoft.com/service",
+		url: "https://agotasoft.com/en/service",
 	},
 	twitter: {
 		card: "summary_large_image",

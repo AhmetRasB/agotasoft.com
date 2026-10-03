@@ -1,7 +1,9 @@
 import Footer from "@/components/home/home-one/footer";
 import Header from "@/components/home/home-one/header/multi-page";
+import { buildAlternates } from "@/lib/i18n/config";
 
 export const metadata = {
+	alternates: buildAlternates("/erp"),
 	title: "AgotaSoft ERP | Üretimden Finansa Tüm Süreçleriniz Tek Platformda",
 	description: "AgotaSoft ERP sistemi ile stok yönetimi, finans, üretim, satın alma ve daha fazlasını tek platformda yönetin. İşletmenizin verimliliğini artırın.",
 	keywords: "ERP, işletme kaynak planlaması, stok yönetimi, finans yönetimi, üretim planlaması, satın alma yönetimi, AgotaSoft ERP",
@@ -23,7 +25,7 @@ function ERPLayout({ children }) {
 	return (
 		<>
 			<Header />
-			{children}
+			<main id="main-content">{children}</main>
 			<Footer />
 		</>
 	);

@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { useCms } from "@/hooks/useCms";
 import { useLocalePrefix } from "@/hooks/useLocale";
+import ResponsiveImage from "@/components/common/ResponsiveImage";
 
 function HeaderLogo() {
 	const cms = useCms();
@@ -10,7 +11,7 @@ function HeaderLogo() {
 	const name = cms.settings?.site_name || "AgotaSoft";
 	return (
 		<Link href={prefix || "/"} className="agf-logo">
-			<img src={src} alt={name} />
+			<ResponsiveImage src={src} alt={name} eager sizes="56px" />
 		</Link>
 	);
 }

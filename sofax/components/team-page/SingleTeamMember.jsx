@@ -14,7 +14,7 @@ function SingleTeamMember({ member }) {
 				<CmsImg src={member.image} alt={member.name || "team member"} width={400} height={480} />
 			</div>
 			<div className="agf-team-card-body">
-				<h4>{member.name}</h4>
+				<h3>{member.name}</h3>
 				<p>{member.title}</p>
 			</div>
 		</Link>

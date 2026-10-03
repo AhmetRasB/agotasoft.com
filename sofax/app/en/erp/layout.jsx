@@ -6,12 +6,12 @@ export const metadata = {
 	title: "AgotaSoft ERP System | AgotaSoft",
 	description: "Manage inventory, finance, production planning, procurement and HR with one integrated system. Increase efficiency, cut costs and accelerate growth.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/erp"),
+	alternates: buildAlternates("/erp", "en"),
 	openGraph: {
 		title: "AgotaSoft ERP: Every Process From Production to Finance, on One Platform",
 		description: "Manage inventory, finance, production planning, procurement and HR with one integrated system. Increase efficiency, cut costs and accelerate growth.",
 		type: "website",
-		url: "https://agotasoft.com/erp",
+		url: "https://agotasoft.com/en/erp",
 	},
 	twitter: {
 		card: "summary_large_image",
@@ -24,7 +24,7 @@ function ERPLayout({ children }) {
 	return (
 		<>
 			<Header />
-			{children}
+			<main id="main-content">{children}</main>
 			<Footer />
 		</>
 	);

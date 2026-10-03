@@ -22,7 +22,7 @@ export function catalogMetadata(locale) {
 	return {
 		title: ui.meta_catalog_title,
 		description: ui.meta_catalog_description,
-		alternates: buildAlternates("/solutions"),
+		alternates: buildAlternates("/solutions", locale),
 		openGraph: { title: ui.meta_catalog_title, description: ui.meta_catalog_description, type: "website" },
 	};
 }
@@ -36,7 +36,7 @@ export function detailMetadata(locale, slug) {
 	return {
 		title,
 		description,
-		alternates: buildAlternates(`/solutions/${slug}`),
+		alternates: buildAlternates(`/solutions/${slug}`, locale),
 		openGraph: { title, description, type: "website" },
 	};
 }

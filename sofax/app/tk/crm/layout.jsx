@@ -6,12 +6,12 @@ export const metadata = {
 	title: "AgotaSoft CRM ulgamy | AgotaSoft",
 	description: "Giň gerimli müşderi maglumat bazasy, satuw mümkinçiligi yzarlamasy, marketing awtomatlaşdyrmasy we müşderi hyzmaty bilen biznesiňiziň ösüşini çaltlandyryň.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/crm"),
+	alternates: buildAlternates("/crm", "tk"),
 	openGraph: {
 		title: "AgotaSoft CRM: müşderi gatnaşyklaryňyzy güýçlendiriň, satuwlaryňyzy artdyryň",
 		description: "Giň gerimli müşderi maglumat bazasy, satuw mümkinçiligi yzarlamasy, marketing awtomatlaşdyrmasy we müşderi hyzmaty bilen biznesiňiziň ösüşini çaltlandyryň.",
 		type: "website",
-		url: "https://agotasoft.com/crm",
+		url: "https://agotasoft.com/tk/crm",
 	},
 	twitter: {
 		card: "summary_large_image",
@@ -24,7 +24,7 @@ function CRMLayout({ children }) {
 	return (
 		<>
 			<Header />
-			{children}
+			<main id="main-content">{children}</main>
 			<Footer />
 		</>
 	);

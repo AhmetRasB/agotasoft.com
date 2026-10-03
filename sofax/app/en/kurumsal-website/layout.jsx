@@ -6,12 +6,12 @@ export const metadata = {
 	title: "AgotaSoft Corporate Website | AgotaSoft",
 	description: "Professional corporate website design and development. Responsive, SEO-friendly solutions with an admin panel.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/kurumsal-website"),
+	alternates: buildAlternates("/kurumsal-website", "en"),
 	openGraph: {
 		title: "AgotaSoft Corporate Website",
 		description: "Professional corporate website design and development. Responsive, SEO-friendly solutions with an admin panel.",
 		type: "website",
-		url: "https://agotasoft.com/kurumsal-website",
+		url: "https://agotasoft.com/en/kurumsal-website",
 	},
 	twitter: {
 		card: "summary_large_image",
@@ -24,7 +24,7 @@ function CorporateWebsiteLayout({ children }) {
 	return (
 		<>
 			<Header />
-			{children}
+			<main id="main-content">{children}</main>
 			<Footer />
 		</>
 	);

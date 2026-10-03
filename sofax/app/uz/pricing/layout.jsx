@@ -6,12 +6,12 @@ export const metadata = {
 	title: "Narxlar | AgotaSoft",
 	description: "AgotaSoft dasturiy yechimlari uchun moslashuvchan narx variantlari. Kichik bizneslardan yirik kompaniyalargacha hammaga mos paketlar.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/pricing"),
+	alternates: buildAlternates("/pricing", "uz"),
 	openGraph: {
 		title: "Biznesingiz hajmiga mos paketlar",
 		description: "AgotaSoft dasturiy yechimlari uchun moslashuvchan narx variantlari. Kichik bizneslardan yirik kompaniyalargacha hammaga mos paketlar.",
 		type: "website",
-		url: "https://agotasoft.com/pricing",
+		url: "https://agotasoft.com/uz/pricing",
 	},
 	twitter: {
 		card: "summary_large_image",
@@ -24,7 +24,7 @@ function PricingLayout({ children }) {
 	return (
 		<>
 			<Header />
-			{children}
+			<main id="main-content">{children}</main>
 			<Footer />
 		</>
 	);

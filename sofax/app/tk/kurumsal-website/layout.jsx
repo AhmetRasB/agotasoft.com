@@ -6,12 +6,12 @@ export const metadata = {
 	title: "AgotaSoft Korporatiw web sahypa | AgotaSoft",
 	description: "Professional korporatiw web sahypa dizaýny we ösdürilmesi. Uýgunlaşykly, SEO-a laýyk, dolandyryş paneli bilen çözgütler.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/kurumsal-website"),
+	alternates: buildAlternates("/kurumsal-website", "tk"),
 	openGraph: {
 		title: "AgotaSoft Korporatiw web sahypa",
 		description: "Professional korporatiw web sahypa dizaýny we ösdürilmesi. Uýgunlaşykly, SEO-a laýyk, dolandyryş paneli bilen çözgütler.",
 		type: "website",
-		url: "https://agotasoft.com/kurumsal-website",
+		url: "https://agotasoft.com/tk/kurumsal-website",
 	},
 	twitter: {
 		card: "summary_large_image",
@@ -24,7 +24,7 @@ function CorporateWebsiteLayout({ children }) {
 	return (
 		<>
 			<Header />
-			{children}
+			<main id="main-content">{children}</main>
 			<Footer />
 		</>
 	);

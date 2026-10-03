@@ -5,7 +5,7 @@ export const metadata = {
 	title: "AgotaSoft ERP | Işiňizi dolandyrýan ýeke-täk platforma",
 	description: "AI kömekli AgotaSoft ERP bilen ammar, öndüriş, maliýe we satyn alma proseslerini bir platformada dolandyryň.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/"),
+	alternates: buildAlternates("/", "tk"),
 	openGraph: {
 		title: "AgotaSoft ERP: işiňizi dolandyrýan ýeke-täk platforma",
 		description: "Ammar, öndüriş, maliýe we satyn almany bir ekranda birleşdiriň. AI kömegi bilen, çalt gurulýar.",
@@ -22,7 +22,7 @@ function LayoutOne({ children }) {
 	return (
 		<>
 			<Header />
-			{children}
+			<main id="main-content">{children}</main>
 			<Footer />
 		</>
 	);

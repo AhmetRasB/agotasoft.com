@@ -7,12 +7,12 @@ export const metadata = {
 	title: "Biz haqimizda | AgotaSoft",
 	description: "2021 yildan beri mutaxassis jamoamiz ERP, CRM, buxgalteriya va LMS sohalarida kompaniyalarning raqamli transformatsiyasiga yo'l boshlamoqda.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/about-us"),
+	alternates: buildAlternates("/about-us", "uz"),
 	openGraph: {
 		title: "Biz haqimizda | AgotaSoft",
 		description: "2021 yildan beri mutaxassis jamoamiz ERP, CRM, buxgalteriya va LMS sohalarida kompaniyalarning raqamli transformatsiyasiga yo'l boshlamoqda.",
 		type: "website",
-		url: "https://agotasoft.com/about-us",
+		url: "https://agotasoft.com/uz/about-us",
 	},
 	twitter: {
 		card: "summary_large_image",

@@ -2,6 +2,7 @@
 import { useCms } from "@/hooks/useCms";
 import { useLocalePrefix } from "@/hooks/useLocale";
 import { itemPath } from "@/lib/cms/itemSlug";
+import ResponsiveImage from "@/components/common/ResponsiveImage";
 
 const LABEL = { tr: "Referanslarımız", en: "Case Studies", ru: "Наши проекты", uz: "Loyihalarimiz", tk: "Taslamalarymyz" };
 
@@ -24,7 +25,7 @@ export default function CaseStudies() {
 				<div className="agf-grid agf-grid--3">
 					{items.map((item) => (
 						<a className="agf-case-card" href={`${prefix}${itemPath("portfolio", item)}`} key={item.slug}>
-							<img src={item.image} alt={item.title} />
+							<ResponsiveImage src={item.image} alt={item.title} sizes="(max-width: 860px) calc(100vw - 32px), 380px" />
 							<div className="agf-case-body">
 								<h3>{item.title}</h3>
 								<p>{item.category_label}</p>

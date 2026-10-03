@@ -3,7 +3,9 @@ import BreadCrumb from "@/components/common/Breadcrumb";
 import CmsText from "@/components/cms/CmsText";
 import Faq from "@/components/home/home-five/faq";
 import TeamMembers from "@/components/team-page/TeamMembers";
+import { buildAlternates } from "@/lib/i18n/config";
 export const metadata = {
+	alternates: buildAlternates("/team"),
 	title: "Ekibimiz | AgotaSoft",
 	description: "AgotaSoft ekibiyle tanışın.",
 };

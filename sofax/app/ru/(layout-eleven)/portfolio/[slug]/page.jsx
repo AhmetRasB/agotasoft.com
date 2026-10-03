@@ -4,6 +4,7 @@ import PortfolioDetails from "@/components/portfolio/single/PortfolioDetails";
 import RelatedProject from "@/components/portfolio/single/RelatedProject";
 import { cmsList, staticParamsFor } from "@/lib/cms/staticParams";
 import { findItem } from "@/lib/cms/itemSlug";
+import { buildAlternates } from "@/lib/i18n/config";
 
 export function generateStaticParams() {
 	return staticParamsFor("portfolio", "ru");
@@ -12,6 +13,7 @@ export function generateStaticParams() {
 export function generateMetadata({ params }) {
 	const item = findItem(cmsList("portfolio", "ru"), params.slug) || {};
 	return {
+		alternates: buildAlternates(`/portfolio/${params.slug}`, "ru"),
 		title: `${item.title || "Portfolio"} | AgotaSoft`,
 		description: item.overview || item.category_label || "Кейс AgotaSoft",
 	};

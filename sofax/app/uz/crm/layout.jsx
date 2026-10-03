@@ -6,12 +6,12 @@ export const metadata = {
 	title: "AgotaSoft CRM tizimi | AgotaSoft",
 	description: "Keng qamrovli mijozlar ma'lumotlar bazasi, sotuv imkoniyatlarini kuzatish, marketing avtomatlashtirish va mijozlarga xizmat bilan biznesingiz o'sishini tezlashtiring.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/crm"),
+	alternates: buildAlternates("/crm", "uz"),
 	openGraph: {
 		title: "AgotaSoft CRM: mijozlar bilan munosabatlaringizni mustahkamlang, sotuvlaringizni oshiring",
 		description: "Keng qamrovli mijozlar ma'lumotlar bazasi, sotuv imkoniyatlarini kuzatish, marketing avtomatlashtirish va mijozlarga xizmat bilan biznesingiz o'sishini tezlashtiring.",
 		type: "website",
-		url: "https://agotasoft.com/crm",
+		url: "https://agotasoft.com/uz/crm",
 	},
 	twitter: {
 		card: "summary_large_image",
@@ -24,7 +24,7 @@ function CRMLayout({ children }) {
 	return (
 		<>
 			<Header />
-			{children}
+			<main id="main-content">{children}</main>
 			<Footer />
 		</>
 	);

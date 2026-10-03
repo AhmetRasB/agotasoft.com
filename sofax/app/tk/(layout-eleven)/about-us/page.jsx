@@ -7,12 +7,12 @@ export const metadata = {
 	title: "Biz hakda | AgotaSoft",
 	description: "2021-nji ýyldan bäri bilermenler toparymyz ERP, CRM, buhgalteriýa we LMS ugurlarynda kompaniýalaryň sanly özgertmesine ýol açýar.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/about-us"),
+	alternates: buildAlternates("/about-us", "tk"),
 	openGraph: {
 		title: "Biz hakda | AgotaSoft",
 		description: "2021-nji ýyldan bäri bilermenler toparymyz ERP, CRM, buhgalteriýa we LMS ugurlarynda kompaniýalaryň sanly özgertmesine ýol açýar.",
 		type: "website",
-		url: "https://agotasoft.com/about-us",
+		url: "https://agotasoft.com/tk/about-us",
 	},
 	twitter: {
 		card: "summary_large_image",

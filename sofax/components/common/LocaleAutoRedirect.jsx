@@ -7,12 +7,23 @@ import { detectBrowserLocale } from "@/lib/i18n/detectLocale";
 
 const STORAGE_KEY = "agf-locale-decided";
 
+// Crawlers, PageSpeed/Lighthouse and automated browsers must see the URL they asked for:
+// redirecting them would hide the Turkish pages from search engines and distort measurements.
+const BOT_PATTERN =
+	/bot|crawl|spider|slurp|lighthouse|pagespeed|headless|google|bing|yandex|baidu|duckduck|facebookexternalhit|embedly|preview/i;
+
+function isAutomatedVisitor() {
+	if (typeof navigator === "undefined") return true;
+	return Boolean(navigator.webdriver) || BOT_PATTERN.test(navigator.userAgent || "");
+}
+
 export default function LocaleAutoRedirect() {
 	const pathname = usePathname() || "/";
 	const router = useRouter();
 
 	useEffect(() => {
 		try {
+			if (isAutomatedVisitor()) return;
 			if (window.localStorage.getItem(STORAGE_KEY)) return;
 
 			const firstSegment = pathname.split("/")[1];

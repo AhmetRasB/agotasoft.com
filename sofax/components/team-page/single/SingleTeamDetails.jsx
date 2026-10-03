@@ -16,7 +16,7 @@ function SingleTeamDetails({ itemSlug, locale = "tr" }) {
 	const phone = member.phone?.trim();
 	const socials = [
 		{ href: member.social_linkedin, icon: "fab fa-linkedin-in" },
-		{ href: member.social_twitter, icon: "fab fa-x-twitter" },
+		{ href: member.social_twitter, icon: "fab fa-twitter" },
 		{ href: member.social_facebook, icon: "fab fa-facebook-f" },
 		{ href: member.social_instagram, icon: "fab fa-instagram" },
 	].filter((s) => s.href);

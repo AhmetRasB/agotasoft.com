@@ -10,12 +10,12 @@ export const metadata = {
 	title: "Karyera | AgotaSoft",
 	description: "Ochiq lavozimlarimizga qo'shiling, AgotaSoft jamoasida dasturiy ta'minot va raqamli transformatsiya loyihalarida ishtirok eting.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/career"),
+	alternates: buildAlternates("/career", "uz"),
 	openGraph: {
 		title: "Karyera | AgotaSoft",
 		description: "Ochiq lavozimlarimizga qo'shiling, AgotaSoft jamoasida dasturiy ta'minot va raqamli transformatsiya loyihalarida ishtirok eting.",
 		type: "website",
-		url: "https://agotasoft.com/career",
+		url: "https://agotasoft.com/uz/career",
 	},
 	twitter: {
 		card: "summary_large_image",

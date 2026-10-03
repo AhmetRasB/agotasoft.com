@@ -7,12 +7,12 @@ export const metadata = {
 	title: "Habarlaşmak | AgotaSoft",
 	description: "AgotaSoft programma çözgütleri barada jikme-jik maglumat almak, demo sorap ýa-da taslamalaryňyzy maslahatlaşmak üçin biz bilen habarlaşyň.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/contact-us"),
+	alternates: buildAlternates("/contact-us", "tk"),
 	openGraph: {
 		title: "Habarlaşmak | AgotaSoft",
 		description: "AgotaSoft programma çözgütleri barada jikme-jik maglumat almak, demo sorap ýa-da taslamalaryňyzy maslahatlaşmak üçin biz bilen habarlaşyň.",
 		type: "website",
-		url: "https://agotasoft.com/contact-us",
+		url: "https://agotasoft.com/tk/contact-us",
 	},
 	twitter: {
 		card: "summary_large_image",

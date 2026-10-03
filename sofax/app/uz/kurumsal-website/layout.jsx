@@ -6,12 +6,12 @@ export const metadata = {
 	title: "AgotaSoft Korporativ veb-sayt | AgotaSoft",
 	description: "Professional korporativ veb-sayt dizayni va ishlab chiqish. Moslashuvchan, SEO'ga mos, boshqaruv paneli bilan yechimlar.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/kurumsal-website"),
+	alternates: buildAlternates("/kurumsal-website", "uz"),
 	openGraph: {
 		title: "AgotaSoft Korporativ veb-sayt",
 		description: "Professional korporativ veb-sayt dizayni va ishlab chiqish. Moslashuvchan, SEO'ga mos, boshqaruv paneli bilan yechimlar.",
 		type: "website",
-		url: "https://agotasoft.com/kurumsal-website",
+		url: "https://agotasoft.com/uz/kurumsal-website",
 	},
 	twitter: {
 		card: "summary_large_image",
@@ -24,7 +24,7 @@ function CorporateWebsiteLayout({ children }) {
 	return (
 		<>
 			<Header />
-			{children}
+			<main id="main-content">{children}</main>
 			<Footer />
 		</>
 	);

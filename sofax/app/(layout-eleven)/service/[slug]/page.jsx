@@ -4,6 +4,7 @@ import Faq from "@/components/home/home-five/faq";
 import SingleServiceDetails from "@/components/service-page/single";
 import { cmsList, staticParamsFor } from "@/lib/cms/staticParams";
 import { findItem } from "@/lib/cms/itemSlug";
+import { buildAlternates } from "@/lib/i18n/config";
 
 export function generateStaticParams() {
 	return staticParamsFor("services");
@@ -12,6 +13,7 @@ export function generateStaticParams() {
 export function generateMetadata({ params }) {
 	const item = findItem(cmsList("services"), params.slug) || {};
 	return {
+		alternates: buildAlternates(`/service/${params.slug}`),
 		title: `${item.title || "Service"} | AgotaSoft`,
 		description: item.description || "AgotaSoft çözüm detayı",
 	};

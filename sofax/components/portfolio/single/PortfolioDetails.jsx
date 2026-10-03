@@ -26,19 +26,19 @@ function PortfolioDetails({ itemSlug }) {
 						<p className="agf-small" style={{ color: "var(--ink-faint)", marginBottom: 4 }}>
 							Müşteri
 						</p>
-						<h4 style={{ margin: 0 }}>{item.client || item.title}</h4>
+						<p className="agf-meta-value">{item.client || item.title}</p>
 					</div>
 					<div>
 						<p className="agf-small" style={{ color: "var(--ink-faint)", marginBottom: 4 }}>
 							Kullanılan Çözüm
 						</p>
-						<h4 style={{ margin: 0 }}>{item.services || item.category_label || "AgotaSoft ERP"}</h4>
+						<p className="agf-meta-value">{item.services || item.category_label || "AgotaSoft ERP"}</p>
 					</div>
 					<div>
 						<p className="agf-small" style={{ color: "var(--ink-faint)", marginBottom: 4 }}>
 							Durum
 						</p>
-						<h4 style={{ margin: 0 }}>{item.date || "Devam eden proje"}</h4>
+						<p className="agf-meta-value">{item.date || "Devam eden proje"}</p>
 					</div>
 					{item.website ? (
 						<div>

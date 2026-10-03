@@ -7,12 +7,12 @@ export const metadata = {
 	title: "Contact | AgotaSoft",
 	description: "Contact us for detailed information about AgotaSoft software solutions, to request a demo, or to discuss your projects.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/contact-us"),
+	alternates: buildAlternates("/contact-us", "en"),
 	openGraph: {
 		title: "Contact | AgotaSoft",
 		description: "Contact us for detailed information about AgotaSoft software solutions, to request a demo, or to discuss your projects.",
 		type: "website",
-		url: "https://agotasoft.com/contact-us",
+		url: "https://agotasoft.com/en/contact-us",
 	},
 	twitter: {
 		card: "summary_large_image",

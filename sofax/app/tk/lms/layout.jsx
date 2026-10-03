@@ -6,12 +6,12 @@ export const metadata = {
 	title: "AgotaSoft LMS ulgamy | AgotaSoft",
 	description: "Sapak dolandyryşy, onlaýn synag we netijelilik hasabaty bilen korporatiw bilim proseslerňizi sanlylaşdyryň.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/lms"),
+	alternates: buildAlternates("/lms", "tk"),
 	openGraph: {
 		title: "AgotaSoft LMS: korporatiw bilim we ösüş platformaňyz",
 		description: "Sapak dolandyryşy, onlaýn synag we netijelilik hasabaty bilen korporatiw bilim proseslerňizi sanlylaşdyryň.",
 		type: "website",
-		url: "https://agotasoft.com/lms",
+		url: "https://agotasoft.com/tk/lms",
 	},
 	twitter: {
 		card: "summary_large_image",
@@ -24,7 +24,7 @@ function LMSLayout({ children }) {
 	return (
 		<>
 			<Header />
-			{children}
+			<main id="main-content">{children}</main>
 			<Footer />
 		</>
 	);

@@ -7,12 +7,12 @@ export const metadata = {
 	title: "About Us | AgotaSoft",
 	description: "Since 2021, our expert team has been leading businesses through digital transformation across ERP, CRM, Bookkeeping and LMS.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/about-us"),
+	alternates: buildAlternates("/about-us", "en"),
 	openGraph: {
 		title: "About Us | AgotaSoft",
 		description: "Since 2021, our expert team has been leading businesses through digital transformation across ERP, CRM, Bookkeeping and LMS.",
 		type: "website",
-		url: "https://agotasoft.com/about-us",
+		url: "https://agotasoft.com/en/about-us",
 	},
 	twitter: {
 		card: "summary_large_image",

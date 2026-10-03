@@ -3,6 +3,8 @@
 import { useCms } from "@/hooks/useCms";
 import { useLocalePrefix } from "@/hooks/useLocale";
 import { withLocale } from "@/lib/i18n/config";
+import ResponsiveImage from "@/components/common/ResponsiveImage";
+import StructuredData, { softwareApplication } from "@/components/common/StructuredData";
 
 const DEMO_LABEL = { tr: "Ücretsiz Demo", en: "Free Demo", ru: "Бесплатное демо", uz: "Bepul demo", tk: "Mugt demo" };
 const FEATURES_LABEL = { tr: "Özellikleri İncele", en: "See Features", ru: "Возможности", uz: "Imkoniyatlar", tk: "Aýratynlyklar" };
@@ -18,6 +20,9 @@ export default function SimpleProductContent({ serviceId }) {
 
 	return (
 		<>
+			<StructuredData
+				data={softwareApplication({ name: item.title, description: item.description, path: item.link || "", prefix })}
+			/>
 			<section className="agf-section--tight">
 				<div className="agf-container">
 					<div className="agf-split">
@@ -45,7 +50,7 @@ export default function SimpleProductContent({ serviceId }) {
 										<span className="agf-browser-dot"></span>
 										<span className="agf-browser-dot"></span>
 									</div>
-									<img src={item.image} alt={item.title} />
+									<ResponsiveImage src={item.image} alt={item.title} sizes="(max-width: 860px) calc(100vw - 32px), 560px" />
 								</div>
 							) : null}
 						</div>

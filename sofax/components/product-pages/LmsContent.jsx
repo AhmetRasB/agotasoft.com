@@ -4,6 +4,8 @@ import ProductModules from "@/components/product-pages/ProductModules";
 import { useCms } from "@/hooks/useCms";
 import { useLocalePrefix } from "@/hooks/useLocale";
 import { withLocale } from "@/lib/i18n/config";
+import ResponsiveImage from "@/components/common/ResponsiveImage";
+import StructuredData, { softwareApplication } from "@/components/common/StructuredData";
 
 export default function LmsContent() {
 	const cms = useCms();
@@ -12,6 +14,9 @@ export default function LmsContent() {
 
 	return (
 		<>
+			<StructuredData
+				data={softwareApplication({ name: page.title, description: page.hero_subtitle, path: "/lms", prefix, image: page.hero_image })}
+			/>
 			<section className="agf-section--tight">
 				<div className="agf-container">
 					<div className="agf-split">
@@ -34,7 +39,7 @@ export default function LmsContent() {
 										<span className="agf-browser-dot"></span>
 										<span className="agf-browser-dot"></span>
 									</div>
-									<img src={page.hero_image} alt={page.hero_card_title || "AgotaSoft LMS"} />
+									<ResponsiveImage src={page.hero_image} alt={page.hero_card_title || "AgotaSoft LMS"} priority sizes="(max-width: 860px) calc(100vw - 32px), 560px" />
 								</div>
 							) : (
 								<div className="agf-card agf-center" style={{ padding: 48 }}>

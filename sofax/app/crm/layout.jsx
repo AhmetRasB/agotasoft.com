@@ -1,7 +1,9 @@
 import Footer from "@/components/home/home-one/footer";
 import Header from "@/components/home/home-one/header/multi-page";
+import { buildAlternates } from "@/lib/i18n/config";
 
 export const metadata = {
+	alternates: buildAlternates("/crm"),
 	title: "AgotaSoft CRM | Müşteri İlişkilerinizi Güçlendirin, Satışlarınızı Artırın",
 	description: "AgotaSoft CRM sistemi ile müşteri veritabanı yönetimi, satış fırsatı takibi, pazarlama otomasyonu ve müşteri hizmetlerini optimize edin.",
 	keywords: "CRM, müşteri ilişkileri yönetimi, satış yönetimi, pazarlama otomasyonu, müşteri hizmetleri, AgotaSoft CRM",
@@ -23,7 +25,7 @@ function CRMLayout({ children }) {
 	return (
 		<>
 			<Header />
-			{children}
+			<main id="main-content">{children}</main>
 			<Footer />
 		</>
 	);

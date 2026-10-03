@@ -4,6 +4,7 @@ import { useCms } from "@/hooks/useCms";
 import { useLocalePrefix } from "@/hooks/useLocale";
 import { withLocale } from "@/lib/i18n/config";
 import { itemPath } from "@/lib/cms/itemSlug";
+import ResponsiveImage from "@/components/common/ResponsiveImage";
 
 const DETAILS_LABEL = { tr: "Detaylı Bilgi", en: "Learn More", ru: "Подробнее", uz: "Batafsil ma'lumot", tk: "Giňişleýin maglumat" };
 const VISIT_LABEL = { tr: "Siteyi Ziyaret Et", en: "Visit Site", ru: "Перейти на сайт", uz: "Saytga o'ting", tk: "Sahypa git" };
@@ -89,7 +90,7 @@ export default function ServiceContent() {
 									<span className="agf-browser-dot"></span>
 									<span className="agf-browser-dot"></span>
 								</div>
-								<img src="/images/about/DashboardTR.png" alt="AgotaSoft Çözümleri" />
+								<ResponsiveImage src="/images/about/DashboardTR.png" alt="AgotaSoft Çözümleri" sizes="(max-width: 860px) calc(100vw - 32px), 560px" />
 							</div>
 						</div>
 					</div>

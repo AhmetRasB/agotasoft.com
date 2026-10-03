@@ -1,0 +1,542 @@
+{
+	"/images/CRM.png": {
+		"w": 2536,
+		"h": 1014,
+		"widths": [
+			160,
+			480,
+			720,
+			960,
+			1600
+		]
+	},
+	"/images/about/Benefits.png": {
+		"w": 2517,
+		"h": 1069,
+		"widths": [
+			160,
+			480,
+			720,
+			960,
+			1600
+		]
+	},
+	"/images/about/DashboardTR.png": {
+		"w": 2531,
+		"h": 1283,
+		"widths": [
+			160,
+			480,
+			720,
+			960,
+			1600
+		]
+	},
+	"/images/agotasoft-logo.png": {
+		"w": 1706,
+		"h": 975,
+		"widths": [
+			160,
+			480,
+			720,
+			960,
+			1600
+		]
+	},
+	"/images/apple-touch-icon.png": {
+		"w": 180,
+		"h": 180
+	},
+	"/images/blog/blogthumb1.png": {
+		"w": 790,
+		"h": 500,
+		"widths": [
+			160,
+			480,
+			720,
+			790
+		]
+	},
+	"/images/blog/blogthumb2.png": {
+		"w": 790,
+		"h": 500,
+		"widths": [
+			160,
+			480,
+			720,
+			790
+		]
+	},
+	"/images/blog/blogthumb3.png": {
+		"w": 790,
+		"h": 500,
+		"widths": [
+			160,
+			480,
+			720,
+			790
+		]
+	},
+	"/images/contact/icon1.png": {
+		"w": 65,
+		"h": 60
+	},
+	"/images/contact/icon2.png": {
+		"w": 60,
+		"h": 60
+	},
+	"/images/contact/icon3.png": {
+		"w": 60,
+		"h": 60
+	},
+	"/images/contact/icon5.png": {
+		"w": 26,
+		"h": 28
+	},
+	"/images/icon-192.png": {
+		"w": 192,
+		"h": 192
+	},
+	"/images/og-default.png": {
+		"w": 1200,
+		"h": 630,
+		"widths": [
+			160,
+			480,
+			720,
+			960,
+			1200
+		]
+	},
+	"/images/portfolio/ozsim-iplik.png": {
+		"w": 1200,
+		"h": 800,
+		"widths": [
+			160,
+			480,
+			720,
+			960,
+			1200
+		]
+	},
+	"/images/portfolio/ronex-tekstil.png": {
+		"w": 1200,
+		"h": 800,
+		"widths": [
+			160,
+			480,
+			720,
+			960,
+			1200
+		]
+	},
+	"/images/portfolio/simad-brode.png": {
+		"w": 1200,
+		"h": 800,
+		"widths": [
+			160,
+			480,
+			720,
+			960,
+			1200
+		]
+	},
+	"/images/products/karlilik/dashboard.webp": {
+		"w": 1600,
+		"h": 900,
+		"widths": [
+			160,
+			480,
+			720,
+			960,
+			1600
+		]
+	},
+	"/images/products/karlilik/fiyat-hesaplayici.webp": {
+		"w": 1600,
+		"h": 900,
+		"widths": [
+			160,
+			480,
+			720,
+			960,
+			1600
+		]
+	},
+	"/images/products/karlilik/mutabakat.webp": {
+		"w": 1600,
+		"h": 900,
+		"widths": [
+			160,
+			480,
+			720,
+			960,
+			1600
+		]
+	},
+	"/images/products/karlilik/raporlar.webp": {
+		"w": 1600,
+		"h": 900,
+		"widths": [
+			160,
+			480,
+			720,
+			960,
+			1600
+		]
+	},
+	"/images/products/karlilik/siparisler.webp": {
+		"w": 1600,
+		"h": 900,
+		"widths": [
+			160,
+			480,
+			720,
+			960,
+			1600
+		]
+	},
+	"/images/products/lms-dashboard.png": {
+		"w": 1920,
+		"h": 1080,
+		"widths": [
+			160,
+			480,
+			720,
+			960,
+			1600
+		]
+	},
+	"/images/products/on-muhasebe/barkod-urun.webp": {
+		"w": 600,
+		"h": 1304,
+		"widths": [
+			160,
+			480,
+			600
+		]
+	},
+	"/images/products/on-muhasebe/satis-doviz-secimi.webp": {
+		"w": 600,
+		"h": 1304,
+		"widths": [
+			160,
+			480,
+			600
+		]
+	},
+	"/images/products/qr-menu/01-musteri-menu.webp": {
+		"w": 600,
+		"h": 1304,
+		"widths": [
+			160,
+			480,
+			600
+		]
+	},
+	"/images/products/qr-menu/02-musteri-urun-ayrintisi.webp": {
+		"w": 600,
+		"h": 1304,
+		"widths": [
+			160,
+			480,
+			600
+		]
+	},
+	"/images/products/qr-menu/03-musteri-siparislerim.webp": {
+		"w": 600,
+		"h": 1304,
+		"widths": [
+			160,
+			480,
+			600
+		]
+	},
+	"/images/products/qr-menu/04-musteri-hesap.webp": {
+		"w": 600,
+		"h": 1304,
+		"widths": [
+			160,
+			480,
+			600
+		]
+	},
+	"/images/products/qr-menu/05-salon.webp": {
+		"w": 1600,
+		"h": 900,
+		"widths": [
+			160,
+			480,
+			720,
+			960,
+			1600
+		]
+	},
+	"/images/products/qr-menu/06-mutfak-ekrani.webp": {
+		"w": 1600,
+		"h": 900,
+		"widths": [
+			160,
+			480,
+			720,
+			960,
+			1600
+		]
+	},
+	"/images/products/qr-menu/07-adisyon.webp": {
+		"w": 1600,
+		"h": 900,
+		"widths": [
+			160,
+			480,
+			720,
+			960,
+			1600
+		]
+	},
+	"/images/products/qr-menu/08-menu-yonetimi.webp": {
+		"w": 1600,
+		"h": 900,
+		"widths": [
+			160,
+			480,
+			720,
+			960,
+			1600
+		]
+	},
+	"/images/service/icon2.png": {
+		"w": 60,
+		"h": 60
+	},
+	"/images/service/icon3.png": {
+		"w": 60,
+		"h": 60
+	},
+	"/images/service/icon4.png": {
+		"w": 60,
+		"h": 60
+	},
+	"/images/service/image1.png": {
+		"w": 170,
+		"h": 170
+	},
+	"/images/service/image2.png": {
+		"w": 170,
+		"h": 170
+	},
+	"/images/service/image3.png": {
+		"w": 170,
+		"h": 170
+	},
+	"/images/service/image4.png": {
+		"w": 170,
+		"h": 170
+	},
+	"/images/service/image5.png": {
+		"w": 170,
+		"h": 170
+	},
+	"/images/service/image6.png": {
+		"w": 170,
+		"h": 170
+	},
+	"/images/service/service-thumb.png": {
+		"w": 532,
+		"h": 555,
+		"widths": [
+			160,
+			480,
+			532
+		]
+	},
+	"/images/service/shape1.png": {
+		"w": 173,
+		"h": 173
+	},
+	"/images/team/founder-ceo.png": {
+		"w": 400,
+		"h": 400,
+		"widths": [
+			160,
+			400
+		]
+	},
+	"/images/team/mehmet-altekin.png": {
+		"w": 400,
+		"h": 400,
+		"widths": [
+			160,
+			400
+		]
+	},
+	"/images/v1/alterbone.png": {
+		"w": 201,
+		"h": 48
+	},
+	"/images/v1/carbonia.png": {
+		"w": 189,
+		"h": 40
+	},
+	"/images/v1/icon1.png": {
+		"w": 80,
+		"h": 80
+	},
+	"/images/v1/icon10.png": {
+		"w": 453,
+		"h": 335,
+		"widths": [
+			160,
+			453
+		]
+	},
+	"/images/v1/icon2.png": {
+		"w": 80,
+		"h": 80
+	},
+	"/images/v1/icon3.png": {
+		"w": 80,
+		"h": 80
+	},
+	"/images/v1/icon5.png": {
+		"w": 107,
+		"h": 60
+	},
+	"/images/v1/icon6.png": {
+		"w": 65,
+		"h": 62
+	},
+	"/images/v1/icon7.png": {
+		"w": 47,
+		"h": 60
+	},
+	"/images/v1/icon8.png": {
+		"w": 26,
+		"h": 26
+	},
+	"/images/v1/logoipsum.png": {
+		"w": 199,
+		"h": 49
+	},
+	"/images/v1/tinygone.png": {
+		"w": 196,
+		"h": 48
+	},
+	"/images/v1/waverio.png": {
+		"w": 199,
+		"h": 48
+	},
+	"/images/v5/aboutthumb.png": {
+		"w": 532,
+		"h": 555,
+		"widths": [
+			160,
+			480,
+			532
+		]
+	},
+	"/images/v5/contentthumb.png": {
+		"w": 532,
+		"h": 555,
+		"widths": [
+			160,
+			480,
+			532
+		]
+	},
+	"/images/v5/herothumb.png": {
+		"w": 1820,
+		"h": 798,
+		"widths": [
+			160,
+			480,
+			720,
+			960,
+			1600
+		]
+	},
+	"/images/v5/icon1.png": {
+		"w": 70,
+		"h": 70
+	},
+	"/images/v5/icon2.png": {
+		"w": 77,
+		"h": 70
+	},
+	"/images/v5/icon3.png": {
+		"w": 60,
+		"h": 70
+	},
+	"/images/v5/icon4.png": {
+		"w": 24,
+		"h": 24
+	},
+	"/images/v5/icon5.png": {
+		"w": 38,
+		"h": 33
+	},
+	"/images/v5/icon6.png": {
+		"w": 22,
+		"h": 31
+	},
+	"/images/v5/icon7.png": {
+		"w": 131,
+		"h": 131
+	},
+	"/images/v5/image1.png": {
+		"w": 614,
+		"h": 596,
+		"widths": [
+			160,
+			480,
+			614
+		]
+	},
+	"/images/v5/image2.png": {
+		"w": 614,
+		"h": 446,
+		"widths": [
+			160,
+			480,
+			614
+		]
+	},
+	"/images/v5/image3.png": {
+		"w": 614,
+		"h": 446,
+		"widths": [
+			160,
+			480,
+			614
+		]
+	},
+	"/images/v5/image4.png": {
+		"w": 614,
+		"h": 596,
+		"widths": [
+			160,
+			480,
+			614
+		]
+	},
+	"/images/v5/image5.png": {
+		"w": 59,
+		"h": 59
+	},
+	"/images/v5/shape1.png": {
+		"w": 83,
+		"h": 80
+	},
+	"/images/v5/shape2.png": {
+		"w": 174,
+		"h": 171
+	},
+	"/images/v5/shape3.png": {
+		"w": 273,
+		"h": 204
+	},
+	"/images/v5/shape5.png": {
+		"w": 273,
+		"h": 203
+	}
+}

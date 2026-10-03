@@ -10,12 +10,12 @@ export const metadata = {
 	title: "Karýera | AgotaSoft",
 	description: "Açyk orunlarymyza goşulyň, AgotaSoft toparynda programma üpjünçilik we sanly özgertme taslamalarynda ýer alyň.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/career"),
+	alternates: buildAlternates("/career", "tk"),
 	openGraph: {
 		title: "Karýera | AgotaSoft",
 		description: "Açyk orunlarymyza goşulyň, AgotaSoft toparynda programma üpjünçilik we sanly özgertme taslamalarynda ýer alyň.",
 		type: "website",
-		url: "https://agotasoft.com/career",
+		url: "https://agotasoft.com/tk/career",
 	},
 	twitter: {
 		card: "summary_large_image",

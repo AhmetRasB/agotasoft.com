@@ -6,12 +6,12 @@ export const metadata = {
 	title: "AgotaSoft Mobile Barcode System | AgotaSoft",
 	description: "Speed up stock counting, check-in/out and inventory tracking in your warehouses and stores with mobile barcode scanners.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/mobil-barkod"),
+	alternates: buildAlternates("/mobil-barkod", "en"),
 	openGraph: {
 		title: "AgotaSoft Mobile Barcode System",
 		description: "Speed up stock counting, check-in/out and inventory tracking in your warehouses and stores with mobile barcode scanners.",
 		type: "website",
-		url: "https://agotasoft.com/mobil-barkod",
+		url: "https://agotasoft.com/en/mobil-barkod",
 	},
 	twitter: {
 		card: "summary_large_image",
@@ -24,7 +24,7 @@ function MobilBarkodLayout({ children }) {
 	return (
 		<>
 			<Header />
-			{children}
+			<main id="main-content">{children}</main>
 			<Footer />
 		</>
 	);

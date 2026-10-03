@@ -6,12 +6,12 @@ export const metadata = {
 	title: "AgotaSoft LMS tizimi | AgotaSoft",
 	description: "Kurs boshqaruvi, onlayn imtihon, samaradorlik hisoboti bilan korporativ ta'lim jarayonlaringizni raqamlashtiring.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/lms"),
+	alternates: buildAlternates("/lms", "uz"),
 	openGraph: {
 		title: "AgotaSoft LMS: korporativ ta'lim va rivojlanish platformangiz",
 		description: "Kurs boshqaruvi, onlayn imtihon, samaradorlik hisoboti bilan korporativ ta'lim jarayonlaringizni raqamlashtiring.",
 		type: "website",
-		url: "https://agotasoft.com/lms",
+		url: "https://agotasoft.com/uz/lms",
 	},
 	twitter: {
 		card: "summary_large_image",
@@ -24,7 +24,7 @@ function LMSLayout({ children }) {
 	return (
 		<>
 			<Header />
-			{children}
+			<main id="main-content">{children}</main>
 			<Footer />
 		</>
 	);

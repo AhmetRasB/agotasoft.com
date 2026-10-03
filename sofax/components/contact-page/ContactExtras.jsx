@@ -55,7 +55,7 @@ export default function ContactExtras() {
 								<div className="agf-card-icon" style={{ margin: "0 auto 16px" }}>
 									<i className={opt.icon}></i>
 								</div>
-								<h5>{opt.title}</h5>
+								<h3 className="agf-contact-option-title">{opt.title}</h3>
 								<p className="agf-small" style={{ marginBottom: 18 }}>
 									{opt.text}
 								</p>
@@ -78,7 +78,7 @@ export default function ContactExtras() {
 						<div className="agf-contact-map">
 							<iframe src={map} loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="AgotaSoft Ofis Konumu"></iframe>
 							<div className="agf-contact-map-badge">
-								<h6 style={{ margin: "0 0 2px", fontSize: 14 }}>{page.map_label || "AgotaSoft"}</h6>
+								<p style={{ margin: "0 0 2px", fontSize: 14, fontWeight: 600 }}>{page.map_label || "AgotaSoft"}</p>
 								<p className="agf-small" style={{ margin: 0 }}>
 									{settings.address}
 								</p>

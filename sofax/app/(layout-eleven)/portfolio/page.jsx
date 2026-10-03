@@ -2,12 +2,14 @@ import BreadCrumb from "@/components/common/Breadcrumb";
 import CmsText from "@/components/cms/CmsText";
 import Faq from "@/components/home/home-five/faq";
 import dynamic from "next/dynamic";
+import { buildAlternates } from "@/lib/i18n/config";
 
 const PortfolioList = dynamic(() => import("@/components/portfolio/PortfolioList"), {
 	ssr: false,
 });
 
 export const metadata = {
+	alternates: buildAlternates("/portfolio"),
 	title: "Referanslarımız | AgotaSoft",
 	description: "AgotaSoft'un gerçekleştirdiği projeler ve referans müşterileri.",
 };

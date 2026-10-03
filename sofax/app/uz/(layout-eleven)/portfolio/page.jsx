@@ -12,12 +12,12 @@ export const metadata = {
 	title: "Loyihalarimiz | AgotaSoft",
 	description: "Loyihalarimiz va yakunlangan ishlarimiz",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/portfolio"),
+	alternates: buildAlternates("/portfolio", "uz"),
 	openGraph: {
 		title: "Loyihalarimiz | AgotaSoft",
 		description: "Loyihalarimiz va yakunlangan ishlarimiz",
 		type: "website",
-		url: "https://agotasoft.com/portfolio",
+		url: "https://agotasoft.com/uz/portfolio",
 	},
 	twitter: {
 		card: "summary_large_image",

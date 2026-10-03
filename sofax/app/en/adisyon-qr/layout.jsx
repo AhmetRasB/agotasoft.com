@@ -9,7 +9,7 @@ export const metadata = {
 	title,
 	description,
 	author: "AgotaSoft",
-	alternates: buildAlternates("/adisyon-qr"),
+	alternates: buildAlternates("/adisyon-qr", "en"),
 	openGraph: {
 		title,
 		description,
@@ -28,7 +28,7 @@ function AdisyonQrLayout({ children }) {
 	return (
 		<>
 			<Header />
-			{children}
+			<main id="main-content">{children}</main>
 			<Footer />
 		</>
 	);

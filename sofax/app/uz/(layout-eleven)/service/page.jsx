@@ -7,12 +7,12 @@ export const metadata = {
 	title: "Yechimlarimiz | AgotaSoft",
 	description: "Mutaxassis jamoamiz ERP, CRM, buxgalteriya va LMS sohalarida biznesingizning barcha ehtiyojlariga javob beradi.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/service"),
+	alternates: buildAlternates("/service", "uz"),
 	openGraph: {
 		title: "Yechimlarimiz | AgotaSoft",
 		description: "Mutaxassis jamoamiz ERP, CRM, buxgalteriya va LMS sohalarida biznesingizning barcha ehtiyojlariga javob beradi.",
 		type: "website",
-		url: "https://agotasoft.com/service",
+		url: "https://agotasoft.com/uz/service",
 	},
 	twitter: {
 		card: "summary_large_image",

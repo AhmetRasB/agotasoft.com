@@ -6,12 +6,12 @@ export const metadata = {
 	title: "Тарифы | AgotaSoft",
 	description: "Гибкие тарифные планы для программных решений AgotaSoft. Пакеты для всех — от малого бизнеса до крупных предприятий.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/pricing"),
+	alternates: buildAlternates("/pricing", "ru"),
 	openGraph: {
 		title: "Пакеты, подходящие для размера вашего бизнеса",
 		description: "Гибкие тарифные планы для программных решений AgotaSoft. Пакеты для всех — от малого бизнеса до крупных предприятий.",
 		type: "website",
-		url: "https://agotasoft.com/pricing",
+		url: "https://agotasoft.com/ru/pricing",
 	},
 	twitter: {
 		card: "summary_large_image",
@@ -24,7 +24,7 @@ function PricingLayout({ children }) {
 	return (
 		<>
 			<Header />
-			{children}
+			<main id="main-content">{children}</main>
 			<Footer />
 		</>
 	);

@@ -1,7 +1,9 @@
 import Footer from "@/components/home/home-one/footer";
 import Header from "@/components/home/home-one/header/multi-page";
+import { buildAlternates } from "@/lib/i18n/config";
 
 export const metadata = {
+	alternates: buildAlternates("/lms"),
 	title: "AgotaSoft LMS | Kurumsal Eğitim ve Gelişim Platformunuz",
 	description: "AgotaSoft LMS ile ders yönetimi, online sınav, performans raporlama ve kurumsal eğitim süreçlerinizi dijitalleştirin.",
 	keywords: "LMS, öğrenme yönetim sistemi, kurumsal eğitim, online eğitim, ders yönetimi, sınav sistemi, AgotaSoft LMS",
@@ -23,7 +25,7 @@ function LMSLayout({ children }) {
 	return (
 		<>
 			<Header />
-			{children}
+			<main id="main-content">{children}</main>
 			<Footer />
 		</>
 	);

@@ -10,12 +10,12 @@ export const metadata = {
 	title: "Карьера | AgotaSoft",
 	description: "Присоединяйтесь к нашим открытым вакансиям и участвуйте в проектах по разработке ПО и цифровой трансформации в AgotaSoft.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/career"),
+	alternates: buildAlternates("/career", "ru"),
 	openGraph: {
 		title: "Карьера | AgotaSoft",
 		description: "Присоединяйтесь к нашим открытым вакансиям и участвуйте в проектах по разработке ПО и цифровой трансформации в AgotaSoft.",
 		type: "website",
-		url: "https://agotasoft.com/career",
+		url: "https://agotasoft.com/ru/career",
 	},
 	twitter: {
 		card: "summary_large_image",

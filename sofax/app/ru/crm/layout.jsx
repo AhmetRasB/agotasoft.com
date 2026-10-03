@@ -6,12 +6,12 @@ export const metadata = {
 	title: "Система AgotaSoft CRM | AgotaSoft",
 	description: "Ускорьте рост бизнеса благодаря комплексной базе клиентов, отслеживанию сделок, автоматизации маркетинга и обслуживанию клиентов. Повышайте удовлетворённость, оптимизируйте продажи.",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/crm"),
+	alternates: buildAlternates("/crm", "ru"),
 	openGraph: {
 		title: "AgotaSoft CRM: укрепите отношения с клиентами, увеличьте продажи",
 		description: "Ускорьте рост бизнеса благодаря комплексной базе клиентов, отслеживанию сделок, автоматизации маркетинга и обслуживанию клиентов. Повышайте удовлетворённость, оптимизируйте продажи.",
 		type: "website",
-		url: "https://agotasoft.com/crm",
+		url: "https://agotasoft.com/ru/crm",
 	},
 	twitter: {
 		card: "summary_large_image",
@@ -24,7 +24,7 @@ function CRMLayout({ children }) {
 	return (
 		<>
 			<Header />
-			{children}
+			<main id="main-content">{children}</main>
 			<Footer />
 		</>
 	);

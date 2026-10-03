@@ -4,6 +4,8 @@ import ProductModules from "@/components/product-pages/ProductModules";
 import { useCms } from "@/hooks/useCms";
 import { useLocalePrefix } from "@/hooks/useLocale";
 import { withLocale } from "@/lib/i18n/config";
+import ResponsiveImage from "@/components/common/ResponsiveImage";
+import StructuredData, { softwareApplication } from "@/components/common/StructuredData";
 
 export default function CrmContent() {
 	const cms = useCms();
@@ -12,6 +14,9 @@ export default function CrmContent() {
 
 	return (
 		<>
+			<StructuredData
+				data={softwareApplication({ name: page.title, description: page.hero_subtitle, path: "/crm", prefix, image: page.hero_image })}
+			/>
 			<section className="agf-section--tight">
 				<div className="agf-container">
 					<div className="agf-split">
@@ -33,7 +38,7 @@ export default function CrmContent() {
 									<span className="agf-browser-dot"></span>
 									<span className="agf-browser-dot"></span>
 								</div>
-								<img src={page.hero_image || "/images/CRM.png"} alt="AgotaSoft CRM Dashboard" />
+								<ResponsiveImage src={page.hero_image || "/images/CRM.png"} alt="AgotaSoft CRM Dashboard" priority sizes="(max-width: 860px) calc(100vw - 32px), 560px" />
 							</div>
 						</div>
 					</div>

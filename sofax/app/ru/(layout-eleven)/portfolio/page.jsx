@@ -12,12 +12,12 @@ export const metadata = {
 	title: "Наши проекты | AgotaSoft",
 	description: "Наши проекты и реализованные кейсы",
 	author: "AgotaSoft",
-	alternates: buildAlternates("/portfolio"),
+	alternates: buildAlternates("/portfolio", "ru"),
 	openGraph: {
 		title: "Наши проекты | AgotaSoft",
 		description: "Наши проекты и реализованные кейсы",
 		type: "website",
-		url: "https://agotasoft.com/portfolio",
+		url: "https://agotasoft.com/ru/portfolio",
 	},
 	twitter: {
 		card: "summary_large_image",
