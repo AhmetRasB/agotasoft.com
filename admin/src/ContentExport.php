@@ -25,7 +25,7 @@ final class ContentExport
      */
     public static function paths(): array
     {
-        $raw = (string) Config::get('CMS_JSON_PATHS', 'sofax/public/data/site.json');
+        $raw = (string) Config::get('CMS_JSON_PATHS', 'web/public/data/site.json');
         $paths = [];
         foreach (explode(',', $raw) as $rel) {
             $rel = trim($rel);
@@ -34,14 +34,14 @@ final class ContentExport
             }
             $paths[] = str_starts_with($rel, '/') ? $rel : ROOT_PATH . '/' . $rel;
         }
-        $paths[] = ROOT_PATH . '/sofax/public/data/site.json';
+        $paths[] = ROOT_PATH . '/web/public/data/site.json';
         $paths[] = ROOT_PATH . '/data/site.json';
-        $out = ROOT_PATH . '/sofax/out/data/site.json';
-        if (is_dir(ROOT_PATH . '/sofax/out')) {
+        $out = ROOT_PATH . '/web/out/data/site.json';
+        if (is_dir(ROOT_PATH . '/web/out')) {
             $paths[] = $out;
         }
-        $final = ROOT_PATH . '/sofax/agotasoft-website-final/data/site.json';
-        if (is_dir(ROOT_PATH . '/sofax/agotasoft-website-final')) {
+        $final = ROOT_PATH . '/web/agotasoft-website-final/data/site.json';
+        if (is_dir(ROOT_PATH . '/web/agotasoft-website-final')) {
             $paths[] = $final;
         }
         return array_values(array_unique($paths));
@@ -191,7 +191,7 @@ final class ContentExport
         if ($count > 0) {
             return;
         }
-        $seedFile = ROOT_PATH . '/sofax/lib/cms/defaults.json';
+        $seedFile = ROOT_PATH . '/web/lib/cms/defaults.json';
         if (!is_file($seedFile)) {
             $seedFile = ROOT_PATH . '/database/site-seed.json';
         }

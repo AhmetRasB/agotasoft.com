@@ -1,7 +1,7 @@
 <div class="row-head">
     <h1>SEO / Meta etiketleri</h1>
 </div>
-<p>Hard-coded Sofax sayfaları dahil tüm public rotaların title, description, Open Graph, Twitter ve özel meta etiketleri burada. Yeni bir yol da ekleyebilirsiniz.</p>
+<p>Sabit kodlu sayfalar dahil tüm public rotaların title, description, Open Graph, Twitter ve özel meta etiketleri burada. Yeni bir yol da ekleyebilirsiniz.</p>
 
 <form method="post" class="seo-add" action="<?= e(base_url('seo')) ?>">
     <?= Csrf::field() ?>

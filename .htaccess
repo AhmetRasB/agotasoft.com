@@ -13,7 +13,7 @@ Options -Indexes
     Header set Referrer-Policy "strict-origin-when-cross-origin"
 
     # Caching. Fonts are content-hashed or versioned -> one year. (_next/static gets its own
-    # .htaccess with a one-year rule, written by sofax/scripts/postbuild.mjs.)
+    # .htaccess with a one-year rule, written by web/scripts/postbuild.mjs.)
     <FilesMatch "\.(woff2?|ttf)$">
         Header set Cache-Control "public, max-age=31536000, immutable"
     </FilesMatch>

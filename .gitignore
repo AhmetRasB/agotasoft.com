@@ -6,7 +6,7 @@ storage/sessions/*
 storage/logs/*
 !storage/sessions/.gitkeep
 !storage/logs/.gitkeep
-sofax/node_modules/
-sofax/.next/
-sofax/out/
+web/node_modules/
+web/.next/
+web/out/
 *.zip

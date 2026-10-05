@@ -2,19 +2,19 @@
 
 Public marketing site for AgotaSoft, plus a PHP + MySQL admin CMS that publishes JSON the site reads at runtime.
 
-**Do not change the Sofax visual design from the admin.** The CMS only edits copy, lists, and settings. New public pages or sections are not part of this stack.
+**Do not change the visual design from the admin.** The CMS only edits copy, lists, and settings. New public pages or sections are not part of this stack.
 
 ## Stack
 
 | Layer | What it is |
 | --- | --- |
-| Public site | Next.js 14 App Router in `sofax/` (Sofax template, Turkish AgotaSoft copy). **Static export is enabled** (`output: "export"` in `sofax/next.config.mjs`) so shared hosting does **not** need Node. |
+| Public site | Next.js 14 App Router in `web/` (Turkish AgotaSoft copy). **Static export is enabled** (`output: "export"` in `web/next.config.mjs`) so shared hosting does **not** need Node. |
 | Admin CMS | PHP 8.1+ in `admin/` (login, dashboard, settings, account, messages, generic CRUD, publish JSON) |
 | Public APIs | `api/content.php` (JSON), `api/contact.php` (demo form) |
 | Database | MySQL / MariaDB — schema + default admin in `database/install.sql` |
-| Published content | `sofax/public/data/site.json` locally; `data/site.json` on the live document root after Publish |
+| Published content | `web/public/data/site.json` locally; `data/site.json` on the live document root after Publish |
 
-The Next app already falls back to `sofax/lib/cms/defaults.json` if live JSON is missing, so an empty CMS still looks like the current site.
+The Next app already falls back to `web/lib/cms/defaults.json` if live JSON is missing, so an empty CMS still looks like the current site.
 
 ## Default admin login
 
@@ -58,12 +58,12 @@ cd /Users/ahmetrasb/Projects/agotasoft.com
 php -S 127.0.0.1:8080 "$(pwd)/cms-router.php"
 ```
 
-Open [http://127.0.0.1:8080/admin](http://127.0.0.1:8080/admin), log in, then click **Yayınla** so `sofax/public/data/site.json` is written.
+Open [http://127.0.0.1:8080/admin](http://127.0.0.1:8080/admin), log in, then click **Yayınla** so `web/public/data/site.json` is written.
 
 ### 3. Next.js public site
 
 ```bash
-cd sofax
+cd web
 cp .env.example .env.local
 npm install
 npm run dev
@@ -99,7 +99,7 @@ Also CMS-driven (same markup, fallbacks to current copy):
 
 Admin CRUD types: nav, partner, service, testimonial, pricing, team, portfolio, blog, faq, career, page.
 
-Template-only Sofax demos (`/one-page/*`, `/multi-page/*`, auth, coming-soon, error-page) are unchanged leftovers and are not part of the AgotaSoft sitemap.
+Template-only demos (`/one-page/*`, `/multi-page/*`, auth, coming-soon, error-page) are unchanged leftovers and are not part of the AgotaSoft sitemap.
 
 ## cPanel / Plesk shared hosting
 
@@ -108,16 +108,16 @@ Shared hosting has **no Node**. Build the public site on your laptop, then uploa
 ### 1. Build Next locally
 
 ```bash
-cd sofax
+cd web
 npm install
 npm run build
 ```
 
-`output: "export"` writes **`sofax/out/`**. That folder is the public site (HTML, `_next/`, `images/`, `data/site.json`, …). Trailing slashes are on (`/about-us/index.html`).
+`output: "export"` writes **`web/out/`**. That folder is the public site (HTML, `_next/`, `images/`, `data/site.json`, …). Trailing slashes are on (`/about-us/index.html`).
 
 ### 2. Upload list (document root, usually `public_html/`)
 
-Upload **the contents of** `sofax/out/` into the document root (so `index.html` is at `/`).
+Upload **the contents of** `web/out/` into the document root (so `index.html` is at `/`).
 
 Then also upload these from the repo root (do not put them inside `_next`):
 
@@ -128,7 +128,7 @@ Then also upload these from the repo root (do not put them inside `_next`):
 5. `storage/` (empty `sessions/` and `logs/` with `.gitkeep`)
 6. `.env` created **on the server** from `.env.example` — **never upload a git-tracked secrets file**
 
-Do **not** upload: `sofax/` source, `node_modules/`, `.git/`, local `.env`.
+Do **not** upload: `web/` source, `node_modules/`, `.git/`, local `.env`.
 
 After upload the document root should look like:
 
@@ -214,8 +214,8 @@ On production, leave `NEXT_PUBLIC_CMS_API` unset in the Next build so the form p
 
 1. Open `https://agotasoft.com/admin`
 2. Log in, change password
-3. Confirm CRUD types have seed content (first login seeds from `defaults.json` if `entries` is empty — this requires `sofax/lib/cms/defaults.json` **or** you already imported content). On shared hosting the Sofax source is not uploaded, so **publish once locally** and upload `data/site.json`, **or** copy `sofax/lib/cms/defaults.json` next to the CMS if you want server-side seed.
-   - Practical path: after local admin publish, upload `sofax/public/data/site.json` as `public_html/data/site.json`. First login can also seed from `database/site-seed.json` (uploaded with `database/`).
+3. Confirm CRUD types have seed content (first login seeds from `defaults.json` if `entries` is empty — this requires `web/lib/cms/defaults.json` **or** you already imported content). On shared hosting the site source is not uploaded, so **publish once locally** and upload `data/site.json`, **or** copy `web/lib/cms/defaults.json` next to the CMS if you want server-side seed.
+   - Practical path: after local admin publish, upload `web/public/data/site.json` as `public_html/data/site.json`. First login can also seed from `database/site-seed.json` (uploaded with `database/`).
 4. Click **Yayınla** whenever content changes so `/data/site.json` updates. The static site fetches that file in the browser; you do not need to rebuild Next for copy edits.
 
 ## Composer on the server
@@ -234,7 +234,7 @@ PHPMailer is required for SMTP.
 | Change | What to do |
 | --- | --- |
 | Text, menus, prices, team, blog posts | Admin → save / Yayınla (updates `site.json` only) |
-| Layout, CSS, new Next components | `npm run build` in `sofax/`, re-upload `out/` |
+| Layout, CSS, new Next components | `npm run build` in `web/`, re-upload `out/` |
 
 ## Security notes
 

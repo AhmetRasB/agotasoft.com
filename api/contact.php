@@ -62,12 +62,51 @@ $message = trim((string) ($payload['message'] ?? ''));
 $newsletter = !empty($payload['newsletter']) ? 1 : 0;
 $ip = $_SERVER['REMOTE_ADDR'] ?? null;
 
+// Lead attribution (UTM / click ids), sent only when the visitor accepted tracking.
+$consent = !empty($payload['consent']);
+$eventId = $consent ? substr(preg_replace('/[^A-Za-z0-9_-]/', '', (string) ($payload['event_id'] ?? '')) ?? '', 0, 64) : '';
+$attribution = [];
+if ($consent && is_array($payload['attribution'] ?? null)) {
+    $allowed = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term', 'gclid', 'fbclid', 'ttclid', 'msclkid', 'fbp', 'fbc', 'landing_page', 'referrer'];
+    foreach ($allowed as $key) {
+        $value = $payload['attribution'][$key] ?? null;
+        if (is_string($value) && $value !== '') {
+            $attribution[$key] = mb_substr($value, 0, 300);
+        }
+    }
+}
+
 try {
     $stmt = Database::pdo()->prepare(
         'INSERT INTO contact_messages (name, company, email, phone, subject, employees, message, newsletter, ip_address)
          VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)'
     );
     $stmt->execute([$name, $company, $email, $phone, $subject, $employees, $message, $newsletter, $ip]);
+    $messageId = (int) Database::pdo()->lastInsertId();
+    if ($attribution || $eventId !== '') {
+        // Columns come from database/migrations/2026-10-lead-attribution.sql; a database that
+        // has not run it yet must still accept the lead.
+        try {
+            Database::pdo()
+                ->prepare('UPDATE contact_messages SET attribution = ?, event_id = ? WHERE id = ?')
+                ->execute([$attribution ? json_encode($attribution, JSON_UNESCAPED_UNICODE) : null, $eventId !== '' ? $eventId : null, $messageId]);
+        } catch (Throwable $e) {
+            // ignore: attribution is optional
+        }
+    }
+    if ($consent && $eventId !== '') {
+        try {
+            ServerEvents::lead([
+                'email' => $email,
+                'phone' => $phone,
+                'event_id' => $eventId,
+                'source_url' => (string) ($attribution['landing_page'] ?? ''),
+                'attribution' => $attribution,
+            ]);
+        } catch (Throwable $e) {
+            // ignore: a tracking failure must never fail the lead
+        }
+    }
     (new Mailer())->notifyContact([
         'name' => $name,
         'company' => $company,

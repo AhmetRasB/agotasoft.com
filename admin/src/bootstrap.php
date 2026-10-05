@@ -18,6 +18,7 @@ require ADMIN_PATH . '/src/Fields.php';
 require ADMIN_PATH . '/src/SeoRoutes.php';
 require ADMIN_PATH . '/src/ContentExport.php';
 require ADMIN_PATH . '/src/Mailer.php';
+require ADMIN_PATH . '/src/ServerEvents.php';
 
 $autoload = ADMIN_PATH . '/vendor/autoload.php';
 if (is_file($autoload)) {

@@ -1,5 +1,5 @@
 <h1>Özet</h1>
-<p>Bu panel yalnızca mevcut Sofax sitesindeki metinleri yönetir. Yeni public sayfa eklemez.</p>
+<p>Bu panel yalnızca mevcut sitedeki metinleri yönetir. Yeni public sayfa eklemez.</p>
 <div class="cards">
     <?php foreach ($counts as $type => $count): ?>
         <a class="card" href="<?= e(base_url($type)) ?>">

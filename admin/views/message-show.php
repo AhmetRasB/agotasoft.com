@@ -8,6 +8,15 @@
     <dt>Çalışan</dt><dd><?= e($message['employees']) ?></dd>
     <dt>IP</dt><dd><?= e($message['ip_address']) ?></dd>
     <dt>Tarih</dt><dd><?= e($message['created_at']) ?></dd>
+    <?php $attribution = json_decode((string) ($message['attribution'] ?? ''), true); ?>
+    <?php if (is_array($attribution) && $attribution) : ?>
+        <dt>Kaynak</dt>
+        <dd>
+            <?php foreach ($attribution as $key => $value) : ?>
+                <?= e((string) $key) ?>: <?= e((string) $value) ?><br>
+            <?php endforeach; ?>
+        </dd>
+    <?php endif; ?>
     <dt>Mesaj</dt><dd><?= nl2br(e($message['message'])) ?></dd>
 </dl>
 <form method="post" onsubmit="return confirm('Silinsin mi?');">

@@ -1,4 +1,4 @@
--- AgotaSoft Sofax CMS — MySQL/MariaDB 5.7+ / 8.x / 10.x
+-- AgotaSoft CMS — MySQL/MariaDB 5.7+ / 8.x / 10.x
 -- Import in phpMyAdmin, then copy .env.example to .env
 -- Default admin is inserted below; change it immediately after first login.
 
@@ -56,6 +56,8 @@ CREATE TABLE IF NOT EXISTS `contact_messages` (
   `message` MEDIUMTEXT NULL,
   `newsletter` TINYINT(1) NOT NULL DEFAULT 0,
   `ip_address` VARCHAR(45) NULL,
+  `attribution` TEXT NULL,
+  `event_id` VARCHAR(64) NULL,
   `status` ENUM('new','read','archived') NOT NULL DEFAULT 'new',
   `created_at` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)

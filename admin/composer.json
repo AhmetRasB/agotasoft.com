@@ -1,6 +1,6 @@
 {
   "name": "agotasoft/cms",
-  "description": "PHP+MySQL CMS for the existing AgotaSoft Sofax marketing site",
+  "description": "PHP+MySQL CMS for the existing AgotaSoft marketing site",
   "type": "project",
   "license": "proprietary",
   "require": {

@@ -137,9 +137,9 @@
       "description": "Üretimden finansa, stok yönetiminden satın almaya kadar tüm işletme süreçlerinizi tek platformda yönetin.",
       "icon": "/images/v1/icon1.png",
       "link": "/erp",
-      "category": "sofax-solution-erp",
+      "category": "agota-solution-erp",
       "fa_icon": "fas fa-cogs",
-      "page_class": "sofax-solution-erp",
+      "page_class": "agota-solution-erp",
       "long_description": "Üretimden finansa, stok yönetiminden satın almaya kadar tüm işletme süreçlerinizi tek platformda yönetin. Entegre ERP çözümümüz ile operasyonel verimliliğinizi artırın.",
       "bullets": [
         "Stok ve Depo Yönetimi",
@@ -156,9 +156,9 @@
       "description": "Müşteri ilişkilerinizi güçlendirin, satış fırsatlarını takip edin ve pazarlama otomasyonu ile büyüyün.",
       "icon": "/images/v1/icon2.png",
       "link": "/crm",
-      "category": "sofax-solution-crm",
+      "category": "agota-solution-crm",
       "fa_icon": "fas fa-handshake",
-      "page_class": "sofax-solution-crm",
+      "page_class": "agota-solution-crm",
       "long_description": "Müşteri ilişkilerinizi güçlendirin, satış süreçlerinizi optimize edin ve pazarlama otomasyonu ile büyümenizi hızlandırın. 360° müşteri görünümü ile satışlarınızı artırın.",
       "bullets": [
         "Müşteri Veritabanı Yönetimi",
@@ -175,9 +175,9 @@
       "description": "TL, USD ve EUR'u aynı anda takip eden, barkodla satış yapan ön muhasebe programı; iOS uygulaması ve web paneli.",
       "icon": "/images/v1/icon3.png",
       "link": "/pre-accounting",
-      "category": "sofax-solution-accounting",
+      "category": "agota-solution-accounting",
       "fa_icon": "fas fa-calculator",
-      "page_class": "sofax-solution-accounting",
+      "page_class": "agota-solution-accounting",
       "long_description": "Satış, cari, stok ve kasayı tek yerde yöneten ön muhasebe programı. TRY, USD ve EUR bakiyeleri ayrı ayrı tutulur; iPhone uygulaması ve web paneli aynı veriyle çalışır.",
       "bullets": [
         "TRY, USD ve EUR çoklu döviz",
@@ -194,9 +194,9 @@
       "description": "Kurumsal eğitim ve gelişim platformunuzla çalışan performansınızı artırın, online eğitimler düzenleyin.",
       "icon": "/images/v1/icon1.png",
       "link": "/lms",
-      "category": "sofax-solution-lms",
+      "category": "agota-solution-lms",
       "fa_icon": "fas fa-graduation-cap",
-      "page_class": "sofax-solution-lms",
+      "page_class": "agota-solution-lms",
       "long_description": "Ders yönetimi, online sınav sistemi, performans raporlama ve sertifika yönetimi ile çalışanlarınızın gelişimini destekleyin.",
       "bullets": [
         "Online Ders Yönetimi",
@@ -213,9 +213,9 @@
       "description": "Trendyol ve Hepsiburada satıcıları için komisyon, kargo, stopaj, KDV ve reklam düşülmüş gerçek net kârı sipariş, ürün ve mağaza bazında gösteren analiz platformu.",
       "icon": "/images/v1/icon1.png",
       "link": "/karlilik",
-      "category": "sofax-solution-karlilik",
+      "category": "agota-solution-karlilik",
       "fa_icon": "fas fa-chart-pie",
-      "page_class": "sofax-solution-karlilik",
+      "page_class": "agota-solution-karlilik",
       "long_description": "Pazaryeri panelleri ciroyu gösterir, kârı değil. Kârlılık.NET mağazanızı API anahtarıyla bağlar, siparişleri 15 dakikada bir çeker ve her siparişin net kârını hesaplar; hakediş kesinleşince gerçek kesintilerle kesin kârı gösterir. 14 gün ücretsiz: karlilik.net",
       "bullets": [
         "Trendyol ve Hepsiburada mağaza bağlantısı",
@@ -232,9 +232,9 @@
       "description": "Kafe ve restoranlar için QR menü, masadan sipariş, mutfak ekranı ve adisyon sistemi.",
       "icon": "/images/v1/icon1.png",
       "link": "/adisyon-qr",
-      "category": "sofax-solution-adisyon-qr",
+      "category": "agota-solution-adisyon-qr",
       "fa_icon": "fas fa-qrcode",
-      "page_class": "sofax-solution-adisyon-qr",
+      "page_class": "agota-solution-adisyon-qr",
       "long_description": "Masadaki QR'dan kasaya kadar tüm akış tek sistemde: uygulama indirmeden menü, sipariş ve ödeme; garson onayı, mutfak ekranı, fiş yazıcı ve adisyon. qrmenu.agotasoft.com",
       "bullets": [
         "QR ile uygulama indirmeden menü, sipariş ve ödeme",
@@ -251,9 +251,9 @@
       "description": "Profesyonel kurumsal web sitesi tasarımı ve geliştirme. Responsive, SEO uyumlu ve yönetim panelli çözümler.",
       "icon": "/images/v1/icon3.png",
       "link": "/kurumsal-website",
-      "category": "sofax-solution-website",
+      "category": "agota-solution-website",
       "fa_icon": "fas fa-globe",
-      "page_class": "sofax-solution-website",
+      "page_class": "agota-solution-website",
       "long_description": "Profesyonel kurumsal web sitesi tasarımı ve geliştirme. Modern, responsive ve SEO uyumlu web çözümleri.",
       "bullets": [
         "Responsive Tasarım",
@@ -270,9 +270,9 @@
       "description": "Depo ve mağazalarınızda stok sayımı, giriş-çıkış ve envanter takibini mobil barkod okuyucularla hızlandırın.",
       "icon": "/images/v1/icon2.png",
       "link": "/mobil-barkod",
-      "category": "sofax-solution-barkod",
+      "category": "agota-solution-barkod",
       "fa_icon": "fas fa-barcode",
-      "page_class": "sofax-solution-barkod",
+      "page_class": "agota-solution-barkod",
       "long_description": "Mobil cihaz veya el terminalleri ile barkod okutarak stok sayımı, depo transferi ve ürün giriş-çıkışlarını anlık olarak AgotaSoft ERP'ye işleyin.",
       "bullets": [
         "Mobil Barkod Okuma",
@@ -289,9 +289,9 @@
       "description": "WhatsApp ve Telegram üzerinden mesaj atarak harcamalarınızı, bütçenizi ve yatırımlarınızı AI koçunuzla yönetin.",
       "icon": "/images/v1/icon1.png",
       "link": "https://ceptenevar.com",
-      "category": "sofax-solution-ceptenevar",
+      "category": "agota-solution-ceptenevar",
       "fa_icon": "fas fa-comments-dollar",
-      "page_class": "sofax-solution-ceptenevar",
+      "page_class": "agota-solution-ceptenevar",
       "long_description": "AgotaSoft'ın bireysel kullanıcılara yönelik AI destekli kişisel finans asistanı. WhatsApp veya Telegram'dan mesaj atarak harcama takibi, bütçe analizi ve tasarruf önerileri alın.",
       "bullets": [
         "WhatsApp / Telegram Entegrasyonu",
@@ -308,9 +308,9 @@
       "description": "WhatsApp, Telegram, Slack veya Teams üzerinden ekibinizin görevlerini AI ile oluşturun, atayın ve takip edin.",
       "icon": "/images/v1/icon3.png",
       "link": "https://gorevimne.com",
-      "category": "sofax-solution-gorevimne",
+      "category": "agota-solution-gorevimne",
       "fa_icon": "fas fa-tasks",
-      "page_class": "sofax-solution-gorevimne",
+      "page_class": "agota-solution-gorevimne",
       "long_description": "AgotaSoft'ın AI destekli omnichannel görev yönetimi ürünü. Mesajlaşma platformlarından görev oluşturma, otomatik atama, akıllı eskalasyon ve her sabah ekibinizi arayan AI Daily özelliği ile ekip verimliliğinizi artırın.",
       "bullets": [
         "Omnichannel Görev Yönetimi",
@@ -330,7 +330,7 @@
         "title": "Başlangıç Paketi",
         "subtitle": "Küçük işletmeler için ideal",
         "icon": "fas fa-seedling",
-        "className": "sofax-solution-starter",
+        "className": "agota-solution-starter",
         "features": [
           "Temel ERP modülleri",
           "CRM müşteri yönetimi",
@@ -348,7 +348,7 @@
         "title": "Profesyonel Paket",
         "subtitle": "Büyüyen işletmeler için",
         "icon": "fas fa-rocket",
-        "className": "sofax-solution-professional",
+        "className": "agota-solution-professional",
         "popular": true,
         "features": [
           "Tüm ERP modülleri",
@@ -367,7 +367,7 @@
         "title": "Kurumsal Paket",
         "subtitle": "Büyük şirketler için",
         "icon": "fas fa-crown",
-        "className": "sofax-solution-enterprise",
+        "className": "agota-solution-enterprise",
         "features": [
           "Özelleştirilebilir tüm modüller",
           "AI destekli analiz",
@@ -388,7 +388,7 @@
         "title": "Temel ERP",
         "subtitle": "Küçük işletmeler için",
         "icon": "fas fa-seedling",
-        "className": "sofax-solution-starter",
+        "className": "agota-solution-starter",
         "features": [
           "Stok yönetimi",
           "Temel finans",
@@ -405,7 +405,7 @@
         "title": "Profesyonel ERP",
         "subtitle": "Büyüyen işletmeler için",
         "icon": "fas fa-industry",
-        "className": "sofax-solution-professional",
+        "className": "agota-solution-professional",
         "popular": true,
         "features": [
           "Tüm ERP modülleri",
@@ -422,7 +422,7 @@
         "title": "Kurumsal ERP",
         "subtitle": "Büyük şirketler için",
         "icon": "fas fa-crown",
-        "className": "sofax-solution-enterprise",
+        "className": "agota-solution-enterprise",
         "features": [
           "Özelleştirilebilir modüller",
           "API entegrasyonları",
@@ -441,7 +441,7 @@
         "title": "Temel CRM",
         "subtitle": "Küçük satış ekipleri için",
         "icon": "fas fa-user-friends",
-        "className": "sofax-solution-starter",
+        "className": "agota-solution-starter",
         "features": [
           "Müşteri yönetimi",
           "Satış takibi",
@@ -458,7 +458,7 @@
         "title": "Profesyonel CRM",
         "subtitle": "Büyüyen satış ekipleri için",
         "icon": "fas fa-chart-line",
-        "className": "sofax-solution-professional",
+        "className": "agota-solution-professional",
         "popular": true,
         "features": [
           "Gelişmiş CRM özellikleri",
@@ -475,7 +475,7 @@
         "title": "Kurumsal CRM",
         "subtitle": "Büyük satış organizasyonları için",
         "icon": "fas fa-trophy",
-        "className": "sofax-solution-enterprise",
+        "className": "agota-solution-enterprise",
         "features": [
           "AI destekli analiz",
           "Özel entegrasyonlar",
@@ -494,7 +494,7 @@
         "title": "Temel Ön Muhasebe",
         "subtitle": "Küçük işletmeler için",
         "icon": "fas fa-calculator",
-        "className": "sofax-solution-starter",
+        "className": "agota-solution-starter",
         "features": [
           "TRY, USD ve EUR çoklu döviz",
           "Temel cari hesap",
@@ -511,7 +511,7 @@
         "title": "Profesyonel Ön Muhasebe",
         "subtitle": "Büyüyen işletmeler için",
         "icon": "fas fa-file-invoice-dollar",
-        "className": "sofax-solution-professional",
+        "className": "agota-solution-professional",
         "popular": true,
         "features": [
           "Gelişmiş cari hesap",
@@ -528,7 +528,7 @@
         "title": "Kurumsal Ön Muhasebe",
         "subtitle": "Büyük şirketler için",
         "icon": "fas fa-building",
-        "className": "sofax-solution-enterprise",
+        "className": "agota-solution-enterprise",
         "features": [
           "Çoklu şirket desteği",
           "API entegrasyonları",
@@ -547,7 +547,7 @@
         "title": "Temel LMS",
         "subtitle": "Küçük eğitim kurumları için",
         "icon": "fas fa-book",
-        "className": "sofax-solution-starter",
+        "className": "agota-solution-starter",
         "features": [
           "Online ders yönetimi",
           "Temel sınav sistemi",
@@ -564,7 +564,7 @@
         "title": "Profesyonel LMS",
         "subtitle": "Büyüyen eğitim kurumları için",
         "icon": "fas fa-graduation-cap",
-        "className": "sofax-solution-professional",
+        "className": "agota-solution-professional",
         "popular": true,
         "features": [
           "Gelişmiş sınav sistemi",
@@ -581,7 +581,7 @@
         "title": "Kurumsal LMS",
         "subtitle": "Büyük eğitim organizasyonları için",
         "icon": "fas fa-university",
-        "className": "sofax-solution-enterprise",
+        "className": "agota-solution-enterprise",
         "features": [
           "Özelleştirilebilir platform",
           "API entegrasyonları",
@@ -628,7 +628,7 @@
       "name": "Ahmet Rasim Beyhan",
       "title": "Founder & CEO",
       "image": "/images/team/founder-ceo.png",
-      "className": "sofax-team-member-aboutus",
+      "className": "agota-team-member-aboutus",
       "column": "0",
       "bio": "AgotaSoft'un kurucusu olarak, karmaşık iş süreçlerine çözüm üreten ERP sistemleri geliştirmeye odaklanıyorum. Halen Teklas'ta Junior Software Developer olarak çalışıyor, sürekli öğrenme ve yenilikçilikle kurumlara ve kullanıcılarına değer katan ölçeklenebilir teknolojiler üretmeyi hedefliyorum.",
       "experience": "",
@@ -646,7 +646,7 @@
       "name": "Mehmet Altekin",
       "title": "Ortak Kurucu",
       "image": "/images/team/mehmet-altekin.png",
-      "className": "sofax-team-member-aboutus",
+      "className": "agota-team-member-aboutus",
       "column": "1",
       "bio": "AgotaSoft'un ortak kurucusu. Marmara Üniversitesi'nde Almanca İşletme (Finans) bölümünde eğitimine devam ediyor; finans, davranışsal finans, sermaye piyasaları ve yatırım stratejileri alanlarına ilgi duyuyor.",
       "experience": "",
@@ -2867,7 +2867,7 @@
     "/multi-page/home-one": {
       "path": "/multi-page/home-one",
       "label": "Multi-page home (tema)",
-      "title": "Sofax Multi-page Home",
+      "title": "AgotaSoft Multi-page Home",
       "description": "",
       "keywords": "",
       "author": "AgotaSoft",
@@ -2890,7 +2890,7 @@
     "/one-page/home-one": {
       "path": "/one-page/home-one",
       "label": "One-page 1 (tema)",
-      "title": "Sofax One-page 1",
+      "title": "AgotaSoft One-page 1",
       "description": "",
       "keywords": "",
       "author": "AgotaSoft",
@@ -2913,7 +2913,7 @@
     "/one-page/home-two": {
       "path": "/one-page/home-two",
       "label": "One-page 2 (tema)",
-      "title": "Sofax One-page 2",
+      "title": "AgotaSoft One-page 2",
       "description": "",
       "keywords": "",
       "author": "AgotaSoft",
@@ -2936,7 +2936,7 @@
     "/one-page/home-three": {
       "path": "/one-page/home-three",
       "label": "One-page 3 (tema)",
-      "title": "Sofax One-page 3",
+      "title": "AgotaSoft One-page 3",
       "description": "",
       "keywords": "",
       "author": "AgotaSoft",
@@ -2959,7 +2959,7 @@
     "/one-page/home-four": {
       "path": "/one-page/home-four",
       "label": "One-page 4 (tema)",
-      "title": "Sofax One-page 4",
+      "title": "AgotaSoft One-page 4",
       "description": "",
       "keywords": "",
       "author": "AgotaSoft",
@@ -2982,7 +2982,7 @@
     "/one-page/home-five": {
       "path": "/one-page/home-five",
       "label": "One-page 5 (tema)",
-      "title": "Sofax One-page 5",
+      "title": "AgotaSoft One-page 5",
       "description": "",
       "keywords": "",
       "author": "AgotaSoft",
@@ -3005,7 +3005,7 @@
     "/one-page/home-six": {
       "path": "/one-page/home-six",
       "label": "One-page 6 (tema)",
-      "title": "Sofax One-page 6",
+      "title": "AgotaSoft One-page 6",
       "description": "",
       "keywords": "",
       "author": "AgotaSoft",
@@ -3028,7 +3028,7 @@
     "/one-page/home-seven": {
       "path": "/one-page/home-seven",
       "label": "One-page 7 (tema)",
-      "title": "Sofax One-page 7",
+      "title": "AgotaSoft One-page 7",
       "description": "",
       "keywords": "",
       "author": "AgotaSoft",
@@ -3051,7 +3051,7 @@
     "/one-page/home-eight": {
       "path": "/one-page/home-eight",
       "label": "One-page 8 (tema)",
-      "title": "Sofax One-page 8",
+      "title": "AgotaSoft One-page 8",
       "description": "",
       "keywords": "",
       "author": "AgotaSoft",
@@ -3074,7 +3074,7 @@
     "/one-page/home-nine": {
       "path": "/one-page/home-nine",
       "label": "One-page 9 (tema)",
-      "title": "Sofax One-page 9",
+      "title": "AgotaSoft One-page 9",
       "description": "",
       "keywords": "",
       "author": "AgotaSoft",
@@ -3097,7 +3097,7 @@
     "/one-page/home-ten": {
       "path": "/one-page/home-ten",
       "label": "One-page 10 (tema)",
-      "title": "Sofax One-page 10",
+      "title": "AgotaSoft One-page 10",
       "description": "",
       "keywords": "",
       "author": "AgotaSoft",

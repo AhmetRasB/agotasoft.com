@@ -30,5 +30,5 @@ if (str_starts_with($uri, '/api/') && is_file($file)) {
 
 http_response_code(404);
 header('Content-Type: text/plain; charset=utf-8');
-echo "Not found.\nPublic site: http://localhost:3000 (cd sofax && npm run dev)\nCMS: http://127.0.0.1:8080/admin\n";
+echo "Not found.\nPublic site: http://localhost:3000 (cd web && npm run dev)\nCMS: http://127.0.0.1:8080/admin\n";
 return true;
