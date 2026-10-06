@@ -638,11 +638,12 @@
 				},
 				{
 					"slug": "agota-randevu",
-					"name": "AgotaRandevu",
+					"name": "Planlayalim",
 					"sector": "Kuaför & Güzellik",
 					"icon": "fas fa-calendar-check",
 					"status": "soon",
-					"tagline": "WhatsApp ve Instagram mesajından randevuya"
+					"href": "https://planlayalim.com",
+					"tagline": "Takvim, online randevu ve müşteri defteri tek uygulamada"
 				},
 				{
 					"slug": "agota-klinik",

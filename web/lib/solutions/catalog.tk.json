@@ -638,11 +638,12 @@
 				},
 				{
 					"slug": "agota-randevu",
-					"name": "AgotaRandevu",
+					"name": "Planlayalim",
 					"sector": "Saç salony & Gözellik",
 					"icon": "fas fa-calendar-check",
 					"status": "soon",
-					"tagline": "WhatsApp we Instagram habaryndan nobata ýazylyşa"
+					"href": "https://planlayalim.com",
+					"tagline": "Senenama, onlaýn ýazylyş we müşderi depderi bir programmada"
 				},
 				{
 					"slug": "agota-klinik",

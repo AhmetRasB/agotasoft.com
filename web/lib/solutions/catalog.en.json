@@ -638,11 +638,12 @@
 				},
 				{
 					"slug": "agota-randevu",
-					"name": "AgotaRandevu",
+					"name": "Planlayalim",
 					"sector": "Hair & Beauty",
 					"icon": "fas fa-calendar-check",
 					"status": "soon",
-					"tagline": "From WhatsApp and Instagram messages to bookings"
+					"href": "https://planlayalim.com",
+					"tagline": "Calendar, online booking and customer book in one app"
 				},
 				{
 					"slug": "agota-klinik",

@@ -638,11 +638,12 @@
 				},
 				{
 					"slug": "agota-randevu",
-					"name": "AgotaRandevu",
+					"name": "Planlayalim",
 					"sector": "Парикмахерские и салоны красоты",
 					"icon": "fas fa-calendar-check",
 					"status": "soon",
-					"tagline": "Запись клиентов из сообщений WhatsApp и Instagram"
+					"href": "https://planlayalim.com",
+					"tagline": "Календарь, онлайн-запись и клиентская база в одном приложении"
 				},
 				{
 					"slug": "agota-klinik",

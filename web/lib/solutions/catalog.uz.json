@@ -638,11 +638,12 @@
 				},
 				{
 					"slug": "agota-randevu",
-					"name": "AgotaRandevu",
+					"name": "Planlayalim",
 					"sector": "Sartaroshxona va go'zallik",
 					"icon": "fas fa-calendar-check",
 					"status": "soon",
-					"tagline": "WhatsApp va Instagram xabaridan qabulga yozish"
+					"href": "https://planlayalim.com",
+					"tagline": "Taqvim, onlayn yozilish va mijozlar daftari bitta ilovada"
 				},
 				{
 					"slug": "agota-klinik",
