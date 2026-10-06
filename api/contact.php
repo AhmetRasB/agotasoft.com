@@ -3,7 +3,12 @@
 declare(strict_types=1);
 
 header('Content-Type: application/json; charset=utf-8');
-header('Access-Control-Allow-Origin: *');
+// Only our own pages may call this from a browser (localhost for the dev server).
+$origin = (string) ($_SERVER['HTTP_ORIGIN'] ?? '');
+if (preg_match('#^https://(www\.)?agotasoft\.com$#', $origin) || preg_match('#^http://(localhost|127\.0\.0\.1)(:\d+)?$#', $origin)) {
+    header('Access-Control-Allow-Origin: ' . $origin);
+    header('Vary: Origin');
+}
 header('Access-Control-Allow-Methods: POST, OPTIONS');
 header('Access-Control-Allow-Headers: Content-Type');
 
@@ -34,6 +39,13 @@ if (!$payload) {
 
 if (trim((string) ($payload['website'] ?? '')) !== '') {
     echo json_encode(['ok' => true]);
+    exit;
+}
+
+// 5 submissions per IP per 10 minutes.
+if (!RateLimiter::allow('contact', (string) ($_SERVER['REMOTE_ADDR'] ?? ''), 5, 600)) {
+    http_response_code(429);
+    echo json_encode(['ok' => false, 'error' => 'Çok fazla istek. Lütfen biraz sonra tekrar deneyin.']);
     exit;
 }
 
@@ -94,6 +106,14 @@ try {
             // ignore: attribution is optional
         }
     }
+    if (!empty($payload['privacy'])) {
+        // Column from database/migrations/2026-10-privacy-consent.sql; ignore if not migrated yet.
+        try {
+            Database::pdo()->prepare('UPDATE contact_messages SET privacy_accepted_at = NOW() WHERE id = ?')->execute([$messageId]);
+        } catch (Throwable $e) {
+            // ignore
+        }
+    }
     if ($consent && $eventId !== '') {
         try {
             ServerEvents::lead([
@@ -107,6 +127,8 @@ try {
             // ignore: a tracking failure must never fail the lead
         }
     }
+    // The automatic reply goes to whatever address was typed in: at most one per address per hour.
+    $autoReply = RateLimiter::allow('autoreply', strtolower($email), 1, 3600);
     (new Mailer())->notifyContact([
         'name' => $name,
         'company' => $company,
@@ -115,7 +137,7 @@ try {
         'subject' => $subject,
         'employees' => $employees,
         'message' => $message,
-    ]);
+    ], $autoReply);
     echo json_encode(['ok' => true]);
 } catch (Throwable $e) {
     http_response_code(500);

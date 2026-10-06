@@ -47,7 +47,7 @@ final class Mailer
         }
     }
 
-    public function notifyContact(array $payload): void
+    public function notifyContact(array $payload, bool $autoReply = true): void
     {
         $admin = (string) Config::get('MAIL_ADMIN_TO', 'info@agotasoft.com');
         $this->send([
@@ -57,6 +57,9 @@ final class Mailer
             'replyName' => $payload['name'],
             'html' => $this->adminHtml($payload),
         ]);
+        if (!$autoReply) {
+            return;
+        }
         $this->send([
             'to' => $payload['email'],
             'subject' => 'Talebinizi aldık — AgotaSoft',

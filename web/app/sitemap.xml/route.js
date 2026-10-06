@@ -19,21 +19,16 @@ const PATHS = [
 	{ path: "/portfolio", changefreq: "weekly", priority: "0.7" },
 	{ path: "/team", changefreq: "monthly", priority: "0.5" },
 	{ path: "/faq", changefreq: "monthly", priority: "0.5" },
-	{ path: "/career", changefreq: "monthly", priority: "0.5" },
 	...detailSlugs().map((slug) => ({ path: `/solutions/${slug}`, changefreq: "monthly", priority: "0.6" })),
 ];
 
 function urlFor(path, locale) {
 	const prefix = localePrefix(locale);
-	if (path === "/") {
-		return `${SITE_URL}${prefix}/`;
-	}
-	return `${SITE_URL}${prefix}${path}`;
+	// Trailing slash: that is the URL the host serves (trailingSlash export) and the canonical.
+	return `${SITE_URL}${prefix}${path === "/" ? "" : path}/`;
 }
 
 export async function GET() {
-	const now = new Date().toISOString();
-
 	const entries = PATHS.map(({ path, changefreq, priority }) => {
 		const alternates = LOCALES.map(
 			(locale) => `    <xhtml:link rel="alternate" hreflang="${LOCALE_HREFLANG[locale]}" href="${urlFor(path, locale)}" />`,
@@ -43,7 +38,6 @@ export async function GET() {
 		return LOCALES.map(
 			(locale) => `  <url>
     <loc>${urlFor(path, locale)}</loc>
-    <lastmod>${now}</lastmod>
     <changefreq>${changefreq}</changefreq>
     <priority>${priority}</priority>
 ${alternates}

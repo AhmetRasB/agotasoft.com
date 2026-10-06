@@ -1,6 +1,6 @@
 -- AgotaSoft CMS — MySQL/MariaDB 5.7+ / 8.x / 10.x
 -- Import in phpMyAdmin, then copy .env.example to .env
--- Default admin is inserted below; change it immediately after first login.
+-- No user is created here: add your own admin as described in README.md ("First admin user").
 
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
@@ -55,6 +55,7 @@ CREATE TABLE IF NOT EXISTS `contact_messages` (
   `employees` VARCHAR(40) NULL,
   `message` MEDIUMTEXT NULL,
   `newsletter` TINYINT(1) NOT NULL DEFAULT 0,
+  `privacy_accepted_at` DATETIME NULL,
   `ip_address` VARCHAR(45) NULL,
   `attribution` TEXT NULL,
   `event_id` VARCHAR(64) NULL,
@@ -64,10 +65,3 @@ CREATE TABLE IF NOT EXISTS `contact_messages` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 SET FOREIGN_KEY_CHECKS = 1;
-
--- Default admin: admin@agotasoft.com / ChangeMeNow!2026
--- Change this password from /admin/account after first login.
-INSERT INTO `users` (`name`, `email`, `password_hash`, `role`, `is_active`)
-SELECT 'AgotaSoft Admin', 'admin@agotasoft.com', '$2y$12$E6aTGIsz.LCibrKIffJMM.z/gurQRLxfnJ0uNNRPhAM9jT4SfQ3tK', 'admin', 1
-FROM DUAL
-WHERE NOT EXISTS (SELECT 1 FROM `users` WHERE `email` = 'admin@agotasoft.com');

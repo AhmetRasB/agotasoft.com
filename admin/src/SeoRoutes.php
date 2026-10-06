@@ -79,11 +79,6 @@ final class SeoRoutes
                 'description' => 'AgotaSoft referansları ve tamamlanan projeler.',
                 'canonical' => $site . '/portfolio',
             ]),
-            self::row('/blog', 'Blog', 'Asıl site', [
-                'title' => 'AgotaSoft Blog | Yazılım ve Dijital Dönüşüm',
-                'description' => 'ERP, CRM ve dijital dönüşüm yazıları.',
-                'canonical' => $site . '/blog',
-            ]),
             self::row('/faq', 'SSS', 'Asıl site', [
                 'title' => 'AgotaSoft SSS | Sıkça Sorulan Sorular',
                 'description' => 'AgotaSoft ürünleri hakkında sıkça sorulan sorular.',
@@ -100,67 +95,6 @@ final class SeoRoutes
                 'canonical' => $site . '/terms-and-condition',
                 'robots' => 'noindex, follow',
             ]),
-            self::row('/single-blog', 'Tekil blog (şablon)', 'Asıl site', [
-                'title' => 'AgotaSoft Blog Yazısı',
-                'description' => 'AgotaSoft blog detay sayfası.',
-                'canonical' => $site . '/single-blog',
-            ]),
-            self::row('/single-portfolio', 'Tekil portföy (şablon)', 'Asıl site', [
-                'title' => 'AgotaSoft Proje Detayı',
-                'description' => 'AgotaSoft portföy detay sayfası.',
-                'canonical' => $site . '/single-portfolio',
-            ]),
-            self::row('/single-career', 'Tekil kariyer (şablon)', 'Asıl site', [
-                'title' => 'AgotaSoft İş İlanı',
-                'description' => 'AgotaSoft açık pozisyon detayı.',
-                'canonical' => $site . '/single-career',
-            ]),
-            self::row('/single-team', 'Tekil ekip (şablon)', 'Asıl site', [
-                'title' => 'AgotaSoft Ekip Üyesi',
-                'description' => 'AgotaSoft ekip üyesi profili.',
-                'canonical' => $site . '/single-team',
-            ]),
-            self::row('/single-service', 'Tekil çözüm (şablon)', 'Asıl site', [
-                'title' => 'AgotaSoft Çözüm Detayı',
-                'description' => 'AgotaSoft çözüm detay sayfası.',
-                'canonical' => $site . '/single-service',
-            ]),
-            self::row('/error-page', '404 sayfası', 'Asıl site', [
-                'title' => '404 - Sayfa Bulunamadı | AgotaSoft',
-                'description' => 'Aradığınız sayfa bulunamadı.',
-                'robots' => 'noindex, nofollow',
-            ]),
-            self::row('/coming-soon', 'Yakında', 'Tema / diğer', [
-                'title' => 'AgotaSoft | Yakında',
-                'description' => 'Sayfa yakında yayınlanacak.',
-                'robots' => 'noindex, follow',
-            ]),
-            self::row('/sign-in', 'Giriş (tema)', 'Tema / diğer', [
-                'title' => 'Giriş | AgotaSoft',
-                'robots' => 'noindex, nofollow',
-            ]),
-            self::row('/sign-up', 'Kayıt (tema)', 'Tema / diğer', [
-                'title' => 'Kayıt | AgotaSoft',
-                'robots' => 'noindex, nofollow',
-            ]),
-            self::row('/reset-password', 'Şifre sıfırla (tema)', 'Tema / diğer', [
-                'title' => 'Şifre sıfırla | AgotaSoft',
-                'robots' => 'noindex, nofollow',
-            ]),
-            self::row('/multi-page/home-one', 'Multi-page home (tema)', 'Tema / diğer', [
-                'title' => 'AgotaSoft Multi-page Home',
-                'robots' => 'noindex, follow',
-            ]),
-            self::row('/one-page/home-one', 'One-page 1 (tema)', 'Tema / diğer', ['title' => 'AgotaSoft One-page 1', 'robots' => 'noindex, follow']),
-            self::row('/one-page/home-two', 'One-page 2 (tema)', 'Tema / diğer', ['title' => 'AgotaSoft One-page 2', 'robots' => 'noindex, follow']),
-            self::row('/one-page/home-three', 'One-page 3 (tema)', 'Tema / diğer', ['title' => 'AgotaSoft One-page 3', 'robots' => 'noindex, follow']),
-            self::row('/one-page/home-four', 'One-page 4 (tema)', 'Tema / diğer', ['title' => 'AgotaSoft One-page 4', 'robots' => 'noindex, follow']),
-            self::row('/one-page/home-five', 'One-page 5 (tema)', 'Tema / diğer', ['title' => 'AgotaSoft One-page 5', 'robots' => 'noindex, follow']),
-            self::row('/one-page/home-six', 'One-page 6 (tema)', 'Tema / diğer', ['title' => 'AgotaSoft One-page 6', 'robots' => 'noindex, follow']),
-            self::row('/one-page/home-seven', 'One-page 7 (tema)', 'Tema / diğer', ['title' => 'AgotaSoft One-page 7', 'robots' => 'noindex, follow']),
-            self::row('/one-page/home-eight', 'One-page 8 (tema)', 'Tema / diğer', ['title' => 'AgotaSoft One-page 8', 'robots' => 'noindex, follow']),
-            self::row('/one-page/home-nine', 'One-page 9 (tema)', 'Tema / diğer', ['title' => 'AgotaSoft One-page 9', 'robots' => 'noindex, follow']),
-            self::row('/one-page/home-ten', 'One-page 10 (tema)', 'Tema / diğer', ['title' => 'AgotaSoft One-page 10', 'robots' => 'noindex, follow']),
         ];
     }
 

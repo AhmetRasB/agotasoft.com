@@ -19,11 +19,11 @@ Object.assign(defaults.pages.about, {
 		{ icon: "fas fa-users", title: "Ekip Ruhu", text: "Güçlü ekip çalışması ile en zorlu projeleri başarıyla tamamlıyoruz." },
 	],
 	why_title: "Neden AgotaSoft'ı Seçmelisiniz?",
-	why_text: "3 yıllık deneyimimiz, uzman ekibimiz ve müşteri odaklı yaklaşımımızla işletmenizin dijital dönüşümünde en güvenilir ortağınızız.",
+	why_text: "Odaklı ekibimiz ve müşteri odaklı yaklaşımımızla işletmenizin dijital dönüşümünde yanınızdayız.",
 	why_items: [
-		{ icon: "fas fa-cogs", title: "Uzman Kadro", text: "Alanında uzman 15+ yazılım geliştirici ve danışman ekibimiz." },
-		{ icon: "fas fa-headset", title: "7/24 Destek", text: "Kesintisiz teknik destek ve müşteri hizmetleri." },
-		{ icon: "fas fa-shield-alt", title: "Yüksek Güvenlik", text: "ISO 27001 sertifikalı güvenlik standartları." },
+		{ icon: "fas fa-cogs", title: "Doğrudan İletişim", text: "İki kişilik ekibimizle çalışırsınız; sorularınıza doğrudan ve hızlı dönüş alırsınız." },
+		{ icon: "fas fa-headset", title: "Ulaşılabilir Destek", text: "E-posta ve telefonla ekibimize ulaşabilirsiniz." },
+		{ icon: "fas fa-shield-alt", title: "Veri Güvenliği", text: "Verileriniz SSL şifreleme ile iletilir." },
 		{ icon: "fas fa-puzzle-piece", title: "Kolay Entegrasyon", text: "Mevcut sistemlerinizle sorunsuz entegrasyon." },
 	],
 });
@@ -45,11 +45,11 @@ Object.assign(defaults.pages.contact, {
 
 Object.assign(defaults.pages.service, {
 	why_title: "Neden AgotaSoft Çözümlerini Seçmelisiniz?",
-	why_text: "15 yıllık sektör deneyimi, uzman ekip ve müşteri odaklı yaklaşımımızla işletmenizin dijital dönüşümünde güvenilir ortağınızız.",
+	why_text: "Odaklı ekibimiz ve müşteri odaklı yaklaşımımızla işletmenizin dijital dönüşümünde yanınızdayız.",
 	why_items: [
 		{ icon: "fas fa-rocket", title: "Hızlı Implementasyon", text: "2-4 hafta içinde sisteminizi devreye alıyoruz." },
-		{ icon: "fas fa-headset", title: "7/24 Destek", text: "Kesintisiz teknik destek ve müşteri hizmetleri." },
-		{ icon: "fas fa-shield-alt", title: "Yüksek Güvenlik", text: "ISO 27001 sertifikalı güvenlik standartları." },
+		{ icon: "fas fa-headset", title: "Ulaşılabilir Destek", text: "E-posta ve telefonla ekibimize ulaşabilirsiniz." },
+		{ icon: "fas fa-shield-alt", title: "Veri Güvenliği", text: "Verileriniz SSL şifreleme ile iletilir." },
 		{ icon: "fas fa-cog", title: "Özelleştirme", text: "İşletmenizin ihtiyaçlarına özel çözümler." },
 	],
 	cta_title: "Hangi Çözüm İşletmenize Uygun?",

@@ -46,3 +46,14 @@ function json_decode_array(?string $json): array
     $decoded = json_decode($json, true);
     return is_array($decoded) ? $decoded : [];
 }
+
+/** URL slug with Turkish letters transliterated ("Ön Muhasebe" -> "on-muhasebe"). */
+function slugify(string $text): string
+{
+    $text = strtr($text, [
+        'ç' => 'c', 'Ç' => 'c', 'ğ' => 'g', 'Ğ' => 'g', 'ı' => 'i', 'İ' => 'i', 'I' => 'i',
+        'ö' => 'o', 'Ö' => 'o', 'ş' => 's', 'Ş' => 's', 'ü' => 'u', 'Ü' => 'u', 'â' => 'a', 'Â' => 'a',
+    ]);
+    $slug = strtolower(preg_replace('/[^a-z0-9]+/i', '-', $text) ?? '');
+    return trim($slug, '-');
+}

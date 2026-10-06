@@ -47,36 +47,6 @@
 		"w": 180,
 		"h": 180
 	},
-	"/images/blog/blogthumb1.png": {
-		"w": 790,
-		"h": 500,
-		"widths": [
-			160,
-			480,
-			720,
-			790
-		]
-	},
-	"/images/blog/blogthumb2.png": {
-		"w": 790,
-		"h": 500,
-		"widths": [
-			160,
-			480,
-			720,
-			790
-		]
-	},
-	"/images/blog/blogthumb3.png": {
-		"w": 790,
-		"h": 500,
-		"widths": [
-			160,
-			480,
-			720,
-			790
-		]
-	},
 	"/images/contact/icon1.png": {
 		"w": 65,
 		"h": 60

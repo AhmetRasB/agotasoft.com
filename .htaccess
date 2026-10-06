@@ -11,6 +11,7 @@ Options -Indexes
     Header set X-Content-Type-Options "nosniff"
     Header set X-Frame-Options "SAMEORIGIN"
     Header set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set Strict-Transport-Security "max-age=31536000"
 
     # Caching. Fonts are content-hashed or versioned -> one year. (_next/static gets its own
     # .htaccess with a one-year rule, written by web/scripts/postbuild.mjs.)
@@ -32,6 +33,10 @@ Options -Indexes
 
 <IfModule mod_rewrite.c>
     RewriteEngine On
+
+    # www -> apex
+    RewriteCond %{HTTP_HOST} ^www\.agotasoft\.com$ [NC]
+    RewriteRule ^ https://agotasoft.com%{REQUEST_URI} [L,R=301]
 
     # Force HTTPS (comment out on local Apache if needed)
     RewriteCond %{HTTPS} off

@@ -24,7 +24,10 @@
             <?= Csrf::field() ?>
             <button type="submit" class="btn btn-ghost">JSON yayınla</button>
         </form>
-        <a class="logout" href="<?= e(base_url('logout')) ?>">Çıkış</a>
+        <form method="post" action="<?= e(base_url('logout')) ?>">
+            <?= Csrf::field() ?>
+            <button type="submit" class="btn btn-ghost logout">Çıkış</button>
+        </form>
     </aside>
     <main class="main">
         <?php if ($flash): ?>

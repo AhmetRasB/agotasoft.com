@@ -40,9 +40,11 @@ export function withLocale(path, prefix) {
 
 // Builds the alternates.languages block for generateMetadata / metadata exports.
 // `path` is the canonical (default-locale) path, e.g. "/erp" or "/".
-export function buildAlternates(path, locale = DEFAULT_LOCALE) {
+// `opts.onlyLocale` limits hreflang to that one language (pages that exist in a single language,
+// such as the legal pages, so no hreflang points at a 404).
+export function buildAlternates(path, locale = DEFAULT_LOCALE, opts = {}) {
 	const languages = {};
-	for (const code of LOCALES) {
+	for (const code of opts.onlyLocale ? [opts.onlyLocale] : LOCALES) {
 		const prefix = localePrefix(code);
 		const url = path === "/" ? `${SITE_URL}${prefix}/` : `${SITE_URL}${prefix}${path}`;
 		languages[LOCALE_HREFLANG[code]] = url;

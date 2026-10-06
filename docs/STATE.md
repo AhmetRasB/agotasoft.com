@@ -1,4 +1,4 @@
-# STATE (2026-10-05)
+# STATE (2026-10-06)
 
 ## Hedef
 agotasoft.com: Next.js 14 statik export (`web/`) + PHP/MySQL admin (`admin/`, `api/`), cPanel
@@ -20,7 +20,12 @@ paylaşımlı hostingde, Cloudflare arkasında. ERP odaklı sade site; 5 dil (tr
 - Template adı her yerden kalktı (klasör `sofax/` → `web/`, CSS öneki `sofax-` → `agota-`); favicon AgotaSoft "A" işaretiyle yenilendi; tk "re jim" → "režim".
 - Ölçüm rehberi uygulandı (`docs/OLCUM.md`): GTM + çerez banner'ı + kaynak kaydı + CAPI; `NEXT_PUBLIC_GTM_ID` boş olduğu için canlıda kapalı.
 
+- Kod düzeltme turu (commit edilmedi, canlıya yüklenmedi): 5 dilde kanıtsız iddialar (ISO, 7/24, rakamlar) temizlendi; admin sertleştirme (src/views/vendor 404, giriş kilidi, POST çıkış, boşta zaman aşımı); contact API hız sınırı + CORS; demo formu 5 dil + ürün listesi; yasal link/404 düzeltmeleri; og:image, sitemap slash, HSTS, www→apex; kariyer gizli (noindex, sitemap/menüde yok); CI (`.github/workflows/build.yml`) ve `npm run check:links`.
+
 ## Yarım / açık
+- Canlı DB eşitlemesi yapılmadı: `entries`/`settings` hâlâ eski iddia metinlerini ve şablon SEO kayıtlarını taşıyor; **canlıda "JSON yayınla"ya basma**. Ayrıca migration'lar: 2026-10-privacy-consent.sql (attribution/rename migration'ları çalıştı). cPanel oturumu kapandı, yeniden giriş gerekir.
+- İzin denetimi iki işi engelledi: ContentExport'a "JSON'dan DB'yi yeniden yükle + yayın öncesi yedek" eklemek ve zip parçalama. Ayarı gevşetmeden yapılamıyor.
+- Karar bekleyenler: fiyat sayfası (fiyatlar), 76 "Yakında" ürünün vitrini, ana sayfa konumlandırması, admin için Cloudflare Access, diğer dillerde yasal metin, veri sorumlusu unvanı.
 - Canlı DB'ye iki migration: `database/migrations/2026-10-rename-template-name.sql` (Yayınla'dan ÖNCE, yoksa eski adlar data/*.json'a geri yazılır) ve `2026-10-lead-attribution.sql`.
 - `web/agotasoft-website-final/` ve `web/*.zip` eski çıktı kopyaları, içlerinde hâlâ "sofax" geçiyor; `web/public/images/v5/Sofax for Dev.zip` şablondan kalma. Silme kararı kullanıcıda.
 - KVKK aydınlatma metni ve iade/iptal sayfaları yok (reklam onayı için gerekli).

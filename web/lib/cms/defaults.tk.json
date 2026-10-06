@@ -16,14 +16,14 @@
     "social_linkedin": "https://www.linkedin.com/company/agotasoft",
     "social_github": "https://github.com/AgotaSoft",
     "map_embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12040.31!2d29.0236!3d41.0214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7650656bd63%3A0x8ca058b28c20b6c3!2zw5xza8O8ZGFyLCDEsHN0YW5idWw!5e0!3m2!1str!2str!4v1234567890!5m2!1str!2str",
-    "calendly_url": "https://calendly.com/agotasoft",
+    "calendly_url": "",
     "seo_title": "AgotaSoft ERP | Işiňizi dolandyrýan ýeke-täk platforma",
     "seo_description": "AI kömekli AgotaSoft ERP bilen ammar, öndüriş, maliýe we satyn alma proseslerini bir platformada dolandyryň.",
     "hero": "{\"title\":\"AgotaSoft ERP: işiňizi dolandyrýan ýeke-täk platforma\",\"subtitle\":\"Ammar, öndüriş, maliýe we satyn almany bir ekranda birleşdiriň. AI kömegi bilen, çalt gurulýan we öwrenmesi aňsat ERP — çylşyrymly desktop programmalaryna hoş gal aýdyň.\",\"cta_primary\":\"Demo sorap\",\"cta_primary_url\":\"/contact-us\",\"cta_secondary\":\"Platformany görüň\",\"cta_secondary_url\":\"/erp\",\"rating_text\":\"AI kömegi bilen, KOK'lar üçin döredildi\"}",
     "cta": "{\"title\":\"Şu gün AgotaSoft ERP bilen ösüşe başlaň\",\"text\":\"Maliýe, ammar we amallaryňyzy bir platformada birleşdiriň. Bilermenler toparymyz bilen mugt demo guruň.\",\"button\":\"Mugt demo sorap\",\"button_url\":\"/contact-us\",\"note\":\"Ornaşdyrmak toparymyz bilen mugt maslahat bilen başlaýar.\"}",
-    "why_choose": "{\"section1_title\": \"Biznesiňizi sanly özgertme bilen güýçlendiriň\", \"section1_text\": \"AgotaSoft programma çözgütleri bilen amaly netijeligi ýokarlandyryň, çykdajylary azaldyň we bäsdeşlikde öňe geçiň. Integrirlenen ulgamlarymyz bilen biznes prosesleriňizi optimizirläň.\", \"section1_items\": [{\"title\": \"Prosesleri awtomatlaşdyryň\", \"text\": \"Elde ýerine ýetirilýän işleri azaldyň, iş akymlaryňyzy awtomatlaşdyryň we işgärleriňiziň strategiki işlere ünsi jemlemegini üpjün ediň.\"}, {\"title\": \"Maglumata esaslanan çözgütler kabul ediň\", \"text\": \"Real wagt hasabatlary we seljermeler bilen biznesiňiziň netijeligini yzarlaň, dogry çözgütler kabul ediň we ösüşi çaltlandyryň.\"}, {\"title\": \"Müşderi kanagatlanmasyny ýokarlandyryň\", \"text\": \"CRM ulgamymyz bilen müşderi gatnaşyklaryny güýçlendiriň, hyzmat hilini ýokarlandyryň we müşderi wepalylygyny artdyryň.\"}], \"section2_title\": \"Tehnologiýa bilen biznes prosesleriňizi özgerdiň\", \"section2_text\": \"AgotaSoft-yň integrirlenen programma çözgütleri bilen kompaniýaňyzyň ähli bölümlerini birikdiriň, netijeligi ýokarlandyryň we çykdajylary optimizirläň.\", \"section2_items\": [{\"title\": \"60% has çalt biznes prosesleri\", \"text\": \"Awtomatlaşdyrylan iş akymlary we integrirlenen ulgamlar bilen proses wagtyny gysgaldyň, işgärleriň netijeligini ýokarlandyryň.\"}, {\"title\": \"Anyk maglumat elýeterligi we hasabat\", \"text\": \"Ähli maglumatlaryňyza bir ýerden giriň, real wagt hasabatlary bilen çalt we dogry çözgütler kabul ediň.\"}], \"button\": \"Demo sorap\", \"button_url\": \"/contact-us\"}",
+    "why_choose": "{\"section1_title\": \"Biznesiňizi sanly özgertme bilen güýçlendiriň\", \"section1_text\": \"AgotaSoft programma çözgütleri bilen amaly netijeligi ýokarlandyryň, çykdajylary azaldyň we bäsdeşlikde öňe geçiň. Integrirlenen ulgamlarymyz bilen biznes prosesleriňizi optimizirläň.\", \"section1_items\": [{\"title\": \"Prosesleri awtomatlaşdyryň\", \"text\": \"Elde ýerine ýetirilýän işleri azaldyň, iş akymlaryňyzy awtomatlaşdyryň we işgärleriňiziň strategiki işlere ünsi jemlemegini üpjün ediň.\"}, {\"title\": \"Maglumata esaslanan çözgütler kabul ediň\", \"text\": \"Real wagt hasabatlary we seljermeler bilen biznesiňiziň netijeligini yzarlaň, dogry çözgütler kabul ediň we ösüşi çaltlandyryň.\"}, {\"title\": \"Müşderi kanagatlanmasyny ýokarlandyryň\", \"text\": \"CRM ulgamymyz bilen müşderi gatnaşyklaryny güýçlendiriň, hyzmat hilini ýokarlandyryň we müşderi wepalylygyny artdyryň.\"}], \"section2_title\": \"Tehnologiýa bilen biznes prosesleriňizi özgerdiň\", \"section2_text\": \"AgotaSoft-yň integrirlenen programma çözgütleri bilen kompaniýaňyzyň ähli bölümlerini birikdiriň, netijeligi ýokarlandyryň we çykdajylary optimizirläň.\", \"section2_items\": [{\"title\": \"Has çalt biznes prosesleri\", \"text\": \"Awtomatlaşdyrylan iş akymlary we integrirlenen ulgamlar bilen proses wagtyny gysgaldyň, işgärleriň netijeligini ýokarlandyryň.\"}, {\"title\": \"Anyk maglumat elýeterligi we hasabat\", \"text\": \"Ähli maglumatlaryňyza bir ýerden giriň, real wagt hasabatlary bilen çalt we dogry çözgütler kabul ediň.\"}], \"button\": \"Demo sorap\", \"button_url\": \"/contact-us\"}",
     "home_services": "{\"title\": \"Biznesiňizi güýçlendirýän programma çözgütleri\", \"button\": \"Ähli çözgütler\", \"button_url\": \"/service\"}",
-    "footer": "{\"about\":\"Işiňizi ösdürýän emeli intellekt esasly ERP platformasy. 15 ýyllyk tejribämiz bilen önümçilik we söwda kompaniýalarynyň sanly özgerişine ýolbaşçylyk edýäris.\",\"about_alt\":\"AgotaSoft — işewürligiň ösüşini çaltlandyrýan döwrebap ERP platformasy. Maliýe, ammar we amallaryňyzy bir ulgamda birleşdirýäris.\",\"col1_title\":\"Kompaniýa\",\"col1_links\":[{\"label\":\"Biz hakda\",\"url\":\"/about-us\"},{\"label\":\"Taslamalarymyz\",\"url\":\"/portfolio\"},{\"label\":\"Topar\",\"url\":\"/team\"},{\"label\":\"Karýera\",\"url\":\"/career\"},{\"label\":\"Habarlaşmak\",\"url\":\"/contact-us\"},{\"label\":\"Ähli çözgütler\",\"url\":\"/service\"},{\"label\":\"Bahalar\",\"url\":\"/pricing\"}],\"col2_title\":\"Çözgütlerimiz\",\"col2_links\":[{\"label\":\"ERP ulgamy\",\"url\":\"/erp\"},{\"label\":\"CRM ulgamy\",\"url\":\"/crm\"},{\"label\":\"Buhgalteriýa\",\"url\":\"/pre-accounting\"},{\"label\":\"LMS ulgamy\",\"url\":\"/lms\"},{\"label\":\"Kârlılık.NET\",\"url\":\"/karlilik\"},{\"label\":\"QR menýu\",\"url\":\"/adisyon-qr\"}],\"col3_title\":\"Habarlaşmak maglumatlary\",\"privacy_label\":\"Gizlinlik syýasaty\",\"privacy_url\":\"/privacy-policy\",\"terms_label\":\"Ulanyş şertleri\",\"terms_url\":\"/terms-of-service\",\"cookies_label\":\"Cookie syýasaty\",\"cookies_url\":\"/cookies-policy\"}",
+    "footer": "{\"about\":\"Işiňizi ösdürýän emeli intellekt esasly ERP platformasy. Önümçilik we söwda kompaniýalarynyň sanly özgertmesine goldaw berýäris.\",\"about_alt\":\"AgotaSoft — işewürligiň ösüşini çaltlandyrýan döwrebap ERP platformasy. Maliýe, ammar we amallaryňyzy bir ulgamda birleşdirýäris.\",\"col1_title\":\"Kompaniýa\",\"col1_links\":[{\"label\":\"Biz hakda\",\"url\":\"/about-us\"},{\"label\":\"Taslamalarymyz\",\"url\":\"/portfolio\"},{\"label\":\"Topar\",\"url\":\"/team\"},{\"label\":\"Habarlaşmak\",\"url\":\"/contact-us\"},{\"label\":\"Ähli çözgütler\",\"url\":\"/service\"},{\"label\":\"Bahalar\",\"url\":\"/pricing\"}],\"col2_title\":\"Çözgütlerimiz\",\"col2_links\":[{\"label\":\"ERP ulgamy\",\"url\":\"/erp\"},{\"label\":\"CRM ulgamy\",\"url\":\"/crm\"},{\"label\":\"Buhgalteriýa\",\"url\":\"/pre-accounting\"},{\"label\":\"LMS ulgamy\",\"url\":\"/lms\"},{\"label\":\"Kârlılık.NET\",\"url\":\"/karlilik\"},{\"label\":\"QR menýu\",\"url\":\"/adisyon-qr\"}],\"col3_title\":\"Habarlaşmak maglumatlary\",\"privacy_label\":\"Gizlinlik syýasaty\",\"privacy_url\":\"/privacy-policy\",\"terms_label\":\"Ulanyş şertleri\",\"terms_url\":\"/terms-and-condition\",\"cookies_label\":\"Cookie syýasaty\",\"cookies_url\":\"/cookies-policy\"}",
     "pricing_products": "[{\"id\": \"all\", \"name\": \"Ähli çözgütler\", \"icon\": \"fas fa-th-large\"}, {\"id\": \"erp\", \"name\": \"ERP ulgamy\", \"icon\": \"fas fa-industry\"}, {\"id\": \"crm\", \"name\": \"CRM ulgamy\", \"icon\": \"fas fa-users\"}, {\"id\": \"accounting\", \"name\": \"Buhgalteriýa\", \"icon\": \"fas fa-calculator\"}, {\"id\": \"lms\", \"name\": \"LMS bilim\", \"icon\": \"fas fa-graduation-cap\"}]",
     "partners_heading": "Tehnologiýa hyzmatdaşlarymyz we hemaýatkärlerimiz",
     "testimonials_heading": "Müşderilerimiziň AgotaSoft hakyndaky pikirleri"
@@ -373,7 +373,7 @@
           "AI esasly seljerme",
           "API integrasiýalary",
           "Çäksiz ulanyjy",
-          "24/7 ileri tutulýan goldaw",
+          "Ileri tutulýan goldaw",
           "Ýörite hasabatlar",
           "Ýörite integrasiýalar"
         ],
@@ -427,7 +427,7 @@
           "Şahsylaşdyrylýan modullar",
           "API integrasiýalary",
           "Çäksiz ulanyjy",
-          "24/7 goldaw",
+          "E-poçta we telefon goldawy",
           "Ýörite hasabatlar"
         ],
         "product_id": "erp",
@@ -480,7 +480,7 @@
           "AI esasly seljerme",
           "Ýörite integrasiýalar",
           "Çäksiz ulanyjy",
-          "24/7 goldaw",
+          "E-poçta we telefon goldawy",
           "Ýörite hasabatlar"
         ],
         "product_id": "crm",
@@ -533,7 +533,7 @@
           "Köp kompaniýa goldawy",
           "API integrasiýalary",
           "Çäksiz ulanyjy",
-          "24/7 goldaw",
+          "E-poçta we telefon goldawy",
           "Ýörite hasabatlar"
         ],
         "product_id": "accounting",
@@ -586,7 +586,7 @@
           "Şahsylaşdyrylýan platforma",
           "API integrasiýalary",
           "Çäksiz okuwçy",
-          "24/7 goldaw",
+          "E-poçta we telefon goldawy",
           "Ýörite hasabatlar"
         ],
         "product_id": "lms",
@@ -705,36 +705,7 @@
       "overview": "Özsim İplik üçin fiziki dükandan e-söwda özgertmesini alyp barýarys: e-söwda infrastrukturasyny gurnamak, mahabat hasaplaryny (Google/Meta) dolandyrmak we onlaýn töleg integrasiýasy bilen dükan internet arkaly satuw edip biler ýaly boldy."
     }
   ],
-  "blog": [
-    {
-      "title": "Optimizing your online store for a maximum to sales impact your business to the world.",
-      "category": "Technology",
-      "date": "April 13, 2024",
-      "image": "/images/blog/blogthumb1.png",
-      "description": "Optimizing your online store for maximum sales impact and exposure involves a multifaceted approach & incorporating a blog can be a crucial aspect.",
-      "content": "Optimizing your online store for maximum sales impact & exposure involves a multifaceted approach & incorporating a blog can be a crucial aspect of that strategy. Here's a detailed breakdown of how to leverage a blog to enhance your online store's performance:\n\n1. Mobile Optimization\nEnsure your online store is mobile-friendly, as a significant portion of online shopping occurs on mobile devices. Optimize your website design and user experience for smartphones and tablets to maximize accessibility and conversion rates.\n\n2. Search Engine Optimization\nImplement SEO best practices to improve your website's visibility in search engine results. This includes optimizing product descriptions, meta tags & URLs as well as building quality backlinks & creating valuable content that aligns with relevant keywords.\n\n3. Review & Testimonials\nDisplay customer reviews and testimonials prominently on your website to build trust and credibility. Positive reviews can reassure potential buyers and encourage them to complete their purchase.\n\n4. Social Media Marketing\nLeverage social media platforms to promote your online store & engage with your target audience. Create compelling content, run targeted ad campaigns, and actively interact with followers to drive traffic and generate sales.",
-      "slug": "optimizing-your-online-store",
-      "id": "optimizing-your-online-store"
-    },
-    {
-      "title": "We’re here to explain how data analytics with AgotaSoft can help to grow your business.",
-      "category": "Business",
-      "date": "11 April 2024",
-      "image": "/images/blog/blogthumb2.png",
-      "description": "Businesses better understand their customer base by segmenting them based on various criteria such as demographics, purchasing behavior, and preferences.",
-      "slug": "we-re-here-to-explain-how-data-analytics-with-agota-can-help-to-grow-your-business-",
-      "id": "we-re-here-to-explain-how-data-analytics-with-agota-can-help-to-grow-your-business-"
-    },
-    {
-      "title": "The importance of logo design in branding strategies development with logo design.",
-      "category": "Agency",
-      "date": "10 April 2024",
-      "image": "/images/blog/blogthumb3.png",
-      "description": "A logo is often the first point of contact between a company & its audience. It’s the visual representation of the brand & sets the tone for how the brand is perceived.",
-      "slug": "the-importance-of-logo-design-in-branding-strategies-development-with-logo-design-",
-      "id": "the-importance-of-logo-design-in-branding-strategies-development-with-logo-design-"
-    }
-  ],
+  "blog": [],
   "faq": [
     {
       "question": "AgotaSoft ERP-niň gurnalyşy näçe wagt alýar?",
@@ -748,7 +719,7 @@
     },
     {
       "question": "Maglumatlarymyz näderejede howpsuz?",
-      "answer": "Ähli maglumatlar 256-bitli SSL şifrlemesi bilen goralýar, yzygiderli ätiýaçlandyrylýar we ISO 27001 ülňülerine laýyk infrastrukturada saklanýar. Rol esasly rugsatlar bilen kimiň haýsy maglumata girip biljekdigini özüňiz kesgitleýärsiňiz.",
+      "answer": "Maglumatlar SSL şifrlemesi arkaly iberilýär. Maglumatlaryň nädip işlenýändigi we saklanýandygy Gizlinlik syýasatymyzda düşündirilýär.",
       "column": "1"
     },
     {
@@ -773,7 +744,7 @@
     },
     {
       "question": "Goldaw hyzmaty nähili işleýär?",
-      "answer": "Ähli müşderilerimize e-poçta we telefon arkaly goldaw berýäris; korporatiw paketlerde 24/7 ileri tutulýan goldaw hödürleýäris. Gurnamadan soň toparyňyza mugt okuw berýäris.",
+      "answer": "Ähli müşderilerimize e-poçta we telefon arkaly goldaw berýäris. Gurnamadan soň toparyňyza mugt okuw berýäris.",
       "column": "2"
     },
     {
@@ -799,12 +770,12 @@
     "about": {
       "title": "Biz hakda",
       "hero_title": "AgotaSoft: biznesiňiziň geljegi üçin programma hyzmatdaşyňyz",
-      "hero_subtitle": "2021-nji ýyldan bäri bilermenler toparymyz ERP, CRM, buhgalteriýa we LMS ugurlarynda kompaniýalaryň sanly özgertmesine ýol açýar.",
-      "body": "Türkiýäniň öňdebaryjy programma üpjünçilik kompaniýalarynyň biri bolan AgotaSoft, kompaniýalaryň amaly netijeligini ýokarlandyrýan, çykdajylaryny azaldýan we bäsdeşlik ukybyny artdyrýan integrirlenen programma çözgütlerini hödürleýär.",
-      "stat1_number": "3+",
-      "stat1_label": "Ýyllyk tejribe",
-      "stat2_number": "150+",
-      "stat2_label": "Kanagatlanan müşderi",
+      "hero_subtitle": "Iki adamdan ybarat toparymyz ERP, CRM, buhgalteriýa we LMS ugurlarynda kompaniýalaryň sanly özgertmesine kömek edýär.",
+      "body": "AgotaSoft kompaniýalaryň amaly netijeligini ýokarlandyrýan, çykdajylaryny azaldýan we bäsdeşlik ukybyny artdyrýan integrirlenen programma çözgütlerini hödürleýär.",
+      "stat1_number": "2",
+      "stat1_label": "Topar agzasy",
+      "stat2_number": "3",
+      "stat2_label": "Referens",
       "mission_title": "Wezipämiz",
       "mission_text": "Kompaniýalaryň sanly özgertmesinde ynamdar hyzmatdaş bolmak, tehnologiýa bilen biznes proseslerini optimizirläp, müşderilerimiziň bäsdeşlik artykmaçlygyny gazanmagyny üpjün etmek.",
       "vision_title": "Maksadymyz",
@@ -847,22 +818,22 @@
         }
       ],
       "why_title": "Näme üçin AgotaSoft-y saýlamaly?",
-      "why_text": "3 ýyllyk tejribämiz, bilermenler toparymyz we müşderä gönükdirilen çemeleşmämiz bilen biznesiňiziň sanly özgertmesinde iň ynamdar hyzmatdaşyňyzdyrys.",
+      "why_text": "Bir ugra gönükdirilen toparymyz we müşderä gönükdirilen çemeleşmämiz bilen biznesiňiziň sanly özgertmesinde ýanyňyzdadyrys.",
       "why_items": [
         {
           "icon": "fas fa-cogs",
-          "title": "Bilermenler topary",
-          "text": "Ugrunda bilermen 15+ programmaçy we maslahatçy toparymyz."
+          "title": "Gönüden-göni aragatnaşyk",
+          "text": "Iki adamlyk toparymyz bilen işleýärsiňiz we soraglaryňyza çalt jogap alýarsyňyz."
         },
         {
           "icon": "fas fa-headset",
-          "title": "24/7 goldaw",
-          "text": "Bökdençsiz tehniki goldaw we müşderi hyzmaty."
+          "title": "Elýeterli goldaw",
+          "text": "Toparymyz bilen e-poçta we telefon arkaly habarlaşyp bilersiňiz."
         },
         {
           "icon": "fas fa-shield-alt",
-          "title": "Ýokary howpsuzlyk",
-          "text": "ISO 27001 sertifikatly howpsuzlyk ülňüleri."
+          "title": "Maglumat howpsuzlygy",
+          "text": "Maglumatlaryňyz SSL şifrlemesi arkaly iberilýär."
         },
         {
           "icon": "fas fa-puzzle-piece",
@@ -899,7 +870,7 @@
       "hero_title": "Biznesiňizi güýçlendirýän programma çözgütleri",
       "hero_subtitle": "Bilermenler toparymyz ERP, CRM, buhgalteriýa we LMS ugurlarynda biznesiňiziň ähli isleglerine jogap berýär.",
       "why_title": "Näme üçin AgotaSoft çözgütlerini saýlamaly?",
-      "why_text": "15 ýyllyk pudak tejribesi, bilermenler topary we müşderä gönükdirilen çemeleşme bilen biznesiňiziň sanly özgertmesinde ynamdar hyzmatdaşyňyzdyrys.",
+      "why_text": "Bir ugra gönükdirilen toparymyz we müşderä gönükdirilen çemeleşmämiz bilen biznesiňiziň sanly özgertmesinde ýanyňyzdadyrys.",
       "why_items": [
         {
           "icon": "fas fa-rocket",
@@ -908,13 +879,13 @@
         },
         {
           "icon": "fas fa-headset",
-          "title": "24/7 goldaw",
-          "text": "Bökdençsiz tehniki goldaw we müşderi hyzmaty."
+          "title": "Elýeterli goldaw",
+          "text": "Toparymyz bilen e-poçta we telefon arkaly habarlaşyp bilersiňiz."
         },
         {
           "icon": "fas fa-shield-alt",
-          "title": "Ýokary howpsuzlyk",
-          "text": "ISO 27001 sertifikatly howpsuzlyk ülňüleri."
+          "title": "Maglumat howpsuzlygy",
+          "text": "Maglumatlaryňyz SSL şifrlemesi arkaly iberilýär."
         },
         {
           "icon": "fas fa-cog",
@@ -1028,7 +999,7 @@
       "benefits": [
         {
           "icon": "fas fa-rocket",
-          "title": "40% has çalt prosesler",
+          "title": "Has çalt prosesler",
           "text": "Awtomatlaşdyrylan iş akymlary we integrirlenen ulgamlar bilen proses wagtyny gysgaldyň."
         },
         {
@@ -1045,24 +1016,7 @@
       "showcase_title": "ERP ulgamy bilen gazanjak peýdalaryňyz",
       "showcase_text": "AgotaSoft ERP bilen biznesiňiziň ähli proseslerini optimizirläň we bäsdeşlikde öňe geçiň.",
       "showcase_image": "/images/about/Benefits.png",
-      "stats": [
-        {
-          "number": "60%",
-          "label": "Wagt tygşytlamasy"
-        },
-        {
-          "number": "45%",
-          "label": "Çykdajy azalmasy"
-        },
-        {
-          "number": "80%",
-          "label": "Netijelilik ösüşi"
-        },
-        {
-          "number": "90%",
-          "label": "Müşderi kanagatlanmasy"
-        }
-      ],
+      "stats": [],
       "cta_title": "ERP ulgamyňyzy şu gün gurnamaga başlaň",
       "cta_text": "30 günlük mugt synag döwri bilen AgotaSoft ERP güýjüni açyň. Gurnama we okuw goldawy girýär.",
       "cta_button": "Mugt demo sorap",
@@ -1176,38 +1130,21 @@
       "benefits": [
         {
           "icon": "fas fa-chart-line",
-          "title": "35% köp satuw",
+          "title": "Köp satuw",
           "text": "Netijeli mümkin müşderi dolandyryşy we satuw prosesi optimizasiýasy bilen satuwlaryňyzy artdyryň."
         },
         {
           "icon": "fas fa-heart",
-          "title": "50% ýokary müşderi kanagatlanmasy",
+          "title": "Ýokary müşderi kanagatlanmasy",
           "text": "Şahsylaşdyrylan hyzmat we çalt jogap bermek bilen müşderi kanagatlanmasyny artdyryň."
         },
         {
           "icon": "fas fa-clock",
-          "title": "60% wagt tygşytlamasy",
+          "title": "Wagt tygşytlamasy",
           "text": "Awtomatlaşdyrylan prosesler we integrirlenen ulgam bilen wagtyňyzy tygşytlaň."
         }
       ],
-      "stats": [
-        {
-          "number": "98%",
-          "label": "Müşderi kanagatlanmasy"
-        },
-        {
-          "number": "35%",
-          "label": "Satuw ösüşi"
-        },
-        {
-          "number": "60%",
-          "label": "Wagt tygşytlamasy"
-        },
-        {
-          "number": "10K+",
-          "label": "Kanagatlanan ulanyjy"
-        }
-      ],
+      "stats": [],
       "cta_title": "CRM özgertmäňizi şu gün başlaň",
       "cta_text": "14 günlük mugt synag döwri bilen AgotaSoft CRM güýjüni açyň. Gurnama we okuw goldawy girýär.",
       "cta_button": "Mugt demo sorap",
@@ -1298,12 +1235,12 @@
       "benefits": [
         {
           "icon": "fas fa-graduation-cap",
-          "title": "80% has netijeli okuw",
+          "title": "Has netijeli okuw",
           "text": "Interaktiw mazmun we gamifikasiýa bilen okuw netijeligini artdyryň."
         },
         {
           "icon": "fas fa-clock",
-          "title": "60% wagt tygşytlamasy",
+          "title": "Wagt tygşytlamasy",
           "text": "Awtomatik bahalandyrma we hasabat bilen bilim dolandyryşynda wagt tygşytlaň."
         },
         {
@@ -1338,24 +1275,7 @@
           "text": "Programma üpjünçilik okuwy, tehniki başarnyk ösdürmek we sertifikatlaşdyrma programmalary."
         }
       ],
-      "stats": [
-        {
-          "number": "50K+",
-          "label": "Işjeň okuwçy"
-        },
-        {
-          "number": "1000+",
-          "label": "Tamamlanan sapak"
-        },
-        {
-          "number": "95%",
-          "label": "Üstünlik derejesi"
-        },
-        {
-          "number": "500+",
-          "label": "Korporatiw müşderi"
-        }
-      ],
+      "stats": [],
       "cta_title": "Korporatiw bilim özgertmäňizi başlaň",
       "cta_text": "30 günlük mugt synag döwri bilen AgotaSoft LMS güýjüni açyň. Gurnama, mazmun ýüklemek we okuw goldawy girýär.",
       "cta_button": "Mugt demo sorap",
@@ -2429,29 +2349,6 @@
       "json_ld": "",
       "extra_tags": []
     },
-    "/blog": {
-      "path": "/blog",
-      "label": "Blog",
-      "title": "AgotaSoft Blog | Yazılım ve Dijital Dönüşüm",
-      "description": "ERP, CRM ve dijital dönüşüm yazıları.",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "index, follow",
-      "canonical": "https://agotasoft.com/blog",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
     "/faq": {
       "path": "/faq",
       "label": "SSS",
@@ -2520,489 +2417,6 @@
       "twitter_image": "/images/agotasoft-logo.png",
       "json_ld": "",
       "extra_tags": []
-    },
-    "/single-blog": {
-      "path": "/single-blog",
-      "label": "Tekil blog (şablon)",
-      "title": "AgotaSoft Blog Yazısı",
-      "description": "AgotaSoft blog detay sayfası.",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "index, follow",
-      "canonical": "https://agotasoft.com/single-blog",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/single-portfolio": {
-      "path": "/single-portfolio",
-      "label": "Tekil portföy (şablon)",
-      "title": "AgotaSoft Proje Detayı",
-      "description": "AgotaSoft portföy detay sayfası.",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "index, follow",
-      "canonical": "https://agotasoft.com/single-portfolio",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/single-career": {
-      "path": "/single-career",
-      "label": "Tekil kariyer (şablon)",
-      "title": "AgotaSoft İş İlanı",
-      "description": "AgotaSoft açık pozisyon detayı.",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "index, follow",
-      "canonical": "https://agotasoft.com/single-career",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/single-team": {
-      "path": "/single-team",
-      "label": "Tekil ekip (şablon)",
-      "title": "AgotaSoft Ekip Üyesi",
-      "description": "AgotaSoft ekip üyesi profili.",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "index, follow",
-      "canonical": "https://agotasoft.com/single-team",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/single-service": {
-      "path": "/single-service",
-      "label": "Tekil çözüm (şablon)",
-      "title": "AgotaSoft Çözüm Detayı",
-      "description": "AgotaSoft çözüm detay sayfası.",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "index, follow",
-      "canonical": "https://agotasoft.com/single-service",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/error-page": {
-      "path": "/error-page",
-      "label": "404 sayfası",
-      "title": "404 - Sayfa Bulunamadı | AgotaSoft",
-      "description": "Aradığınız sayfa bulunamadı.",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "noindex, nofollow",
-      "canonical": "",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/coming-soon": {
-      "path": "/coming-soon",
-      "label": "Yakında",
-      "title": "AgotaSoft | Yakında",
-      "description": "Sayfa yakında yayınlanacak.",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "noindex, follow",
-      "canonical": "",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/sign-in": {
-      "path": "/sign-in",
-      "label": "Giriş (tema)",
-      "title": "Giriş | AgotaSoft",
-      "description": "",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "noindex, nofollow",
-      "canonical": "",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/sign-up": {
-      "path": "/sign-up",
-      "label": "Kayıt (tema)",
-      "title": "Kayıt | AgotaSoft",
-      "description": "",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "noindex, nofollow",
-      "canonical": "",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/reset-password": {
-      "path": "/reset-password",
-      "label": "Şifre sıfırla (tema)",
-      "title": "Şifre sıfırla | AgotaSoft",
-      "description": "",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "noindex, nofollow",
-      "canonical": "",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/multi-page/home-one": {
-      "path": "/multi-page/home-one",
-      "label": "Multi-page home (tema)",
-      "title": "AgotaSoft Multi-page Home",
-      "description": "",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "noindex, follow",
-      "canonical": "",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/one-page/home-one": {
-      "path": "/one-page/home-one",
-      "label": "One-page 1 (tema)",
-      "title": "AgotaSoft One-page 1",
-      "description": "",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "noindex, follow",
-      "canonical": "",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/one-page/home-two": {
-      "path": "/one-page/home-two",
-      "label": "One-page 2 (tema)",
-      "title": "AgotaSoft One-page 2",
-      "description": "",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "noindex, follow",
-      "canonical": "",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/one-page/home-three": {
-      "path": "/one-page/home-three",
-      "label": "One-page 3 (tema)",
-      "title": "AgotaSoft One-page 3",
-      "description": "",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "noindex, follow",
-      "canonical": "",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/one-page/home-four": {
-      "path": "/one-page/home-four",
-      "label": "One-page 4 (tema)",
-      "title": "AgotaSoft One-page 4",
-      "description": "",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "noindex, follow",
-      "canonical": "",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/one-page/home-five": {
-      "path": "/one-page/home-five",
-      "label": "One-page 5 (tema)",
-      "title": "AgotaSoft One-page 5",
-      "description": "",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "noindex, follow",
-      "canonical": "",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/one-page/home-six": {
-      "path": "/one-page/home-six",
-      "label": "One-page 6 (tema)",
-      "title": "AgotaSoft One-page 6",
-      "description": "",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "noindex, follow",
-      "canonical": "",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/one-page/home-seven": {
-      "path": "/one-page/home-seven",
-      "label": "One-page 7 (tema)",
-      "title": "AgotaSoft One-page 7",
-      "description": "",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "noindex, follow",
-      "canonical": "",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/one-page/home-eight": {
-      "path": "/one-page/home-eight",
-      "label": "One-page 8 (tema)",
-      "title": "AgotaSoft One-page 8",
-      "description": "",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "noindex, follow",
-      "canonical": "",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/one-page/home-nine": {
-      "path": "/one-page/home-nine",
-      "label": "One-page 9 (tema)",
-      "title": "AgotaSoft One-page 9",
-      "description": "",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "noindex, follow",
-      "canonical": "",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/one-page/home-ten": {
-      "path": "/one-page/home-ten",
-      "label": "One-page 10 (tema)",
-      "title": "AgotaSoft One-page 10",
-      "description": "",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "noindex, follow",
-      "canonical": "",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
     }
   },
   "why_choose": {
@@ -3026,7 +2440,7 @@
     "section2_text": "AgotaSoft-yň integrirlenen programma çözgütleri bilen kompaniýaňyzyň ähli bölümlerini birikdiriň, netijeligi ýokarlandyryň we çykdajylary optimizirläň.",
     "section2_items": [
       {
-        "title": "60% has çalt biznes prosesleri",
+        "title": "Has çalt biznes prosesleri",
         "text": "Awtomatlaşdyrylan iş akymlary we integrirlenen ulgamlar bilen proses wagtyny gysgaldyň, işgärleriň netijeligini ýokarlandyryň."
       },
       {
@@ -3061,7 +2475,7 @@
   "partners_heading": "Tehnologiýa hyzmatdaşlarymyz we hemaýatkärlerimiz",
   "testimonials_heading": "Müşderilerimiziň AgotaSoft hakyndaky pikirleri",
   "footer": {
-    "about": "Işiňizi ösdürýän emeli intellekt esasly ERP platformasy. 15 ýyllyk tejribämiz bilen önümçilik we söwda kompaniýalarynyň sanly özgerişine ýolbaşçylyk edýäris.",
+    "about": "Işiňizi ösdürýän emeli intellekt esasly ERP platformasy. Önümçilik we söwda kompaniýalarynyň sanly özgertmesine goldaw berýäris.",
     "about_alt": "AgotaSoft — işewürligiň ösüşini çaltlandyrýan döwrebap ERP platformasy. Maliýe, ammar we amallaryňyzy bir ulgamda birleşdirýäris.",
     "col1_title": "Kompaniýa",
     "col1_links": [
@@ -3076,10 +2490,6 @@
       {
         "label": "Topar",
         "url": "/team"
-      },
-      {
-        "label": "Karýera",
-        "url": "/career"
       },
       {
         "label": "Habarlaşmak",
@@ -3125,7 +2535,7 @@
     "privacy_label": "Gizlinlik syýasaty",
     "privacy_url": "/privacy-policy",
     "terms_label": "Ulanyş şertleri",
-    "terms_url": "/terms-of-service",
+    "terms_url": "/terms-and-condition",
     "cookies_label": "Cookie syýasaty",
     "cookies_url": "/cookies-policy"
   }

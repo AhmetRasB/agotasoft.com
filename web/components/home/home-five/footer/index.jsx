@@ -93,9 +93,9 @@ function Footer() {
 				<div className="agf-footer-bottom">
 					<p>{copyright}</p>
 					<div className="agf-footer-legal">
-						<a href={withLocale(footer.privacy_url || "/privacy-policy", prefix)}>{footer.privacy_label || "Gizlilik Politikası"}</a>
-						<a href={withLocale(footer.terms_url || "/terms-and-condition", prefix)}>{footer.terms_label || "Kullanım Şartları"}</a>
-						<a href={withLocale(footer.cookies_url || "/cookies-policy", prefix)}>{footer.cookies_label || "Çerez Politikası"}</a>
+						<a href={footer.privacy_url || "/privacy-policy"}>{footer.privacy_label || "Gizlilik Politikası"}</a>
+						<a href={footer.terms_url || "/terms-and-condition"}>{footer.terms_label || "Kullanım Şartları"}</a>
+						<a href={footer.cookies_url || "/cookies-policy"}>{footer.cookies_label || "Çerez Politikası"}</a>
 						<ConsentLink />
 					</div>
 					<LanguageSwitcher />

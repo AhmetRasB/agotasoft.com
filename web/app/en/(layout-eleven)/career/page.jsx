@@ -7,6 +7,7 @@ const Career = dynamic(() => import("@/components/career-page"), {
 });
 import { buildAlternates } from "@/lib/i18n/config";
 export const metadata = {
+	robots: { index: false, follow: true }, // no open positions yet
 	title: "Careers | AgotaSoft",
 	description: "Join our open positions and take part in software and digital-transformation projects at AgotaSoft.",
 	author: "AgotaSoft",

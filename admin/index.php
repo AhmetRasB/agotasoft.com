@@ -22,8 +22,13 @@ if ($action === 'login') {
     exit;
 }
 if ($action === 'logout') {
-    Auth::logout();
-    redirect(base_url('login'));
+    // POST + CSRF so a stray link or image cannot sign the admin out.
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        Csrf::verify();
+        Auth::logout();
+        redirect(base_url('login'));
+    }
+    redirect(base_url('dashboard'));
 }
 
 Auth::requireAdmin();
@@ -79,7 +84,9 @@ function handle_login(): void
         $email = trim((string) ($_POST['email'] ?? ''));
         $password = (string) ($_POST['password'] ?? '');
         if (!Auth::attempt($email, $password)) {
-            $error = 'E-posta veya şifre hatalı.';
+            $error = Auth::isLocked()
+                ? 'Çok fazla başarısız deneme. 15 dakika sonra tekrar deneyin.'
+                : 'E-posta veya şifre hatalı.';
         } else {
             redirect(base_url('dashboard'));
         }

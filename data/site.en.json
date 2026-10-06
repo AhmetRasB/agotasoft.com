@@ -16,14 +16,14 @@
     "social_linkedin": "https://www.linkedin.com/company/agotasoft",
     "social_github": "https://github.com/AgotaSoft",
     "map_embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12040.31!2d29.0236!3d41.0214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7650656bd63%3A0x8ca058b28c20b6c3!2zw5xza8O8ZGFyLCDEsHN0YW5idWw!5e0!3m2!1str!2str!4v1234567890!5m2!1str!2str",
-    "calendly_url": "https://calendly.com/agotasoft",
+    "calendly_url": "",
     "seo_title": "AgotaSoft ERP | The One Platform Running Your Business",
     "seo_description": "Manage inventory, production, finance and procurement on one AI-assisted platform with AgotaSoft ERP.",
     "hero": "{\"title\":\"AgotaSoft ERP: The One Platform Running Your Business\",\"subtitle\":\"Bring inventory, production, finance and procurement together on one screen. AI-assisted, quick to set up, easy to learn — say goodbye to clunky desktop software.\",\"cta_primary\":\"Request a Demo\",\"cta_primary_url\":\"/contact-us\",\"cta_secondary\":\"Explore the Platform\",\"cta_secondary_url\":\"/erp\",\"rating_text\":\"AI-assisted, built for SMEs\"}",
     "cta": "{\"title\":\"Start Growing with AgotaSoft ERP Today\",\"text\":\"Unify your finance, inventory, and operations on one platform. Schedule a free demo with our expert team.\",\"button\":\"Request a Free Demo\",\"button_url\":\"/contact-us\",\"note\":\"Onboarding starts with a free consultation with our team.\"}",
-    "why_choose": "{\"section1_title\": \"Empower Your Business With Digital Transformation\", \"section1_text\": \"Increase operational efficiency, cut costs and get ahead of the competition with AgotaSoft software solutions. Optimize your business processes with our integrated systems.\", \"section1_items\": [{\"title\": \"Automate Your Processes\", \"text\": \"Minimize manual work, automate your workflows and let your employees focus on more strategic tasks.\"}, {\"title\": \"Make Data-Driven Decisions\", \"text\": \"Track your business performance with real-time reports and analytics, make the right decisions and accelerate growth.\"}, {\"title\": \"Increase Customer Satisfaction\", \"text\": \"Strengthen customer relationships, raise service quality and build customer loyalty with our CRM system.\"}], \"section2_title\": \"Transform Your Business Processes With Technology\", \"section2_text\": \"Connect every department of your business, boost efficiency and optimize costs with AgotaSoft's integrated software solutions.\", \"section2_items\": [{\"title\": \"60% Faster Business Processes\", \"text\": \"Shorten process times and increase employee productivity with automated workflows and integrated systems.\"}, {\"title\": \"Instant Data Access & Reporting\", \"text\": \"Access all your data from one place and make fast, accurate decisions with real-time reports.\"}], \"button\": \"Request a Demo\", \"button_url\": \"/contact-us\"}",
+    "why_choose": "{\"section1_title\": \"Empower Your Business With Digital Transformation\", \"section1_text\": \"Increase operational efficiency, cut costs and get ahead of the competition with AgotaSoft software solutions. Optimize your business processes with our integrated systems.\", \"section1_items\": [{\"title\": \"Automate Your Processes\", \"text\": \"Minimize manual work, automate your workflows and let your employees focus on more strategic tasks.\"}, {\"title\": \"Make Data-Driven Decisions\", \"text\": \"Track your business performance with real-time reports and analytics, make the right decisions and accelerate growth.\"}, {\"title\": \"Increase Customer Satisfaction\", \"text\": \"Strengthen customer relationships, raise service quality and build customer loyalty with our CRM system.\"}], \"section2_title\": \"Transform Your Business Processes With Technology\", \"section2_text\": \"Connect every department of your business, boost efficiency and optimize costs with AgotaSoft's integrated software solutions.\", \"section2_items\": [{\"title\": \"Faster Business Processes\", \"text\": \"Shorten process times and increase employee productivity with automated workflows and integrated systems.\"}, {\"title\": \"Instant Data Access & Reporting\", \"text\": \"Access all your data from one place and make fast, accurate decisions with real-time reports.\"}], \"button\": \"Request a Demo\", \"button_url\": \"/contact-us\"}",
     "home_services": "{\"title\": \"Software Solutions That Empower Your Business\", \"button\": \"All Solutions\", \"button_url\": \"/service\"}",
-    "footer": "{\"about\":\"The AI-native ERP platform that grows with your business. With 15 years of experience, we lead digital transformation for manufacturing and trading companies.\",\"about_alt\":\"AgotaSoft is the modern ERP platform that accelerates business growth. We unify your finance, inventory, and operations in a single system.\",\"col1_title\":\"Company\",\"col1_links\":[{\"label\":\"About Us\",\"url\":\"/about-us\"},{\"label\":\"Case Studies\",\"url\":\"/portfolio\"},{\"label\":\"Team\",\"url\":\"/team\"},{\"label\":\"Careers\",\"url\":\"/career\"},{\"label\":\"Contact\",\"url\":\"/contact-us\"},{\"label\":\"All Solutions\",\"url\":\"/service\"},{\"label\":\"Pricing\",\"url\":\"/pricing\"}],\"col2_title\":\"Solutions\",\"col2_links\":[{\"label\":\"ERP System\",\"url\":\"/erp\"},{\"label\":\"CRM System\",\"url\":\"/crm\"},{\"label\":\"Bookkeeping\",\"url\":\"/pre-accounting\"},{\"label\":\"LMS System\",\"url\":\"/lms\"},{\"label\":\"Kârlılık.NET\",\"url\":\"/karlilik\"},{\"label\":\"QR Menu\",\"url\":\"/adisyon-qr\"}],\"col3_title\":\"Contact Info\",\"privacy_label\":\"Privacy Policy\",\"privacy_url\":\"/privacy-policy\",\"terms_label\":\"Terms of Service\",\"terms_url\":\"/terms-of-service\",\"cookies_label\":\"Cookie Policy\",\"cookies_url\":\"/cookies-policy\"}",
+    "footer": "{\"about\":\"The AI-native ERP platform that grows with your business. We support the digital transformation of manufacturing and trading companies.\",\"about_alt\":\"AgotaSoft is the modern ERP platform that accelerates business growth. We unify your finance, inventory, and operations in a single system.\",\"col1_title\":\"Company\",\"col1_links\":[{\"label\":\"About Us\",\"url\":\"/about-us\"},{\"label\":\"Case Studies\",\"url\":\"/portfolio\"},{\"label\":\"Team\",\"url\":\"/team\"},{\"label\":\"Contact\",\"url\":\"/contact-us\"},{\"label\":\"All Solutions\",\"url\":\"/service\"},{\"label\":\"Pricing\",\"url\":\"/pricing\"}],\"col2_title\":\"Solutions\",\"col2_links\":[{\"label\":\"ERP System\",\"url\":\"/erp\"},{\"label\":\"CRM System\",\"url\":\"/crm\"},{\"label\":\"Bookkeeping\",\"url\":\"/pre-accounting\"},{\"label\":\"LMS System\",\"url\":\"/lms\"},{\"label\":\"Kârlılık.NET\",\"url\":\"/karlilik\"},{\"label\":\"QR Menu\",\"url\":\"/adisyon-qr\"}],\"col3_title\":\"Contact Info\",\"privacy_label\":\"Privacy Policy\",\"privacy_url\":\"/privacy-policy\",\"terms_label\":\"Terms of Service\",\"terms_url\":\"/terms-and-condition\",\"cookies_label\":\"Cookie Policy\",\"cookies_url\":\"/cookies-policy\"}",
     "pricing_products": "[{\"id\": \"all\", \"name\": \"All Solutions\", \"icon\": \"fas fa-th-large\"}, {\"id\": \"erp\", \"name\": \"ERP System\", \"icon\": \"fas fa-industry\"}, {\"id\": \"crm\", \"name\": \"CRM System\", \"icon\": \"fas fa-users\"}, {\"id\": \"accounting\", \"name\": \"Bookkeeping\", \"icon\": \"fas fa-calculator\"}, {\"id\": \"lms\", \"name\": \"LMS Training\", \"icon\": \"fas fa-graduation-cap\"}]",
     "partners_heading": "Our Technology Partners & Sponsors",
     "testimonials_heading": "What Our Customers Say About AgotaSoft"
@@ -373,7 +373,7 @@
           "AI-powered analytics",
           "API integrations",
           "Unlimited users",
-          "24/7 priority support",
+          "Priority support",
           "Custom reports",
           "Custom integrations"
         ],
@@ -427,7 +427,7 @@
           "Customizable modules",
           "API integrations",
           "Unlimited users",
-          "24/7 support",
+          "Email and phone support",
           "Custom reports"
         ],
         "product_id": "erp",
@@ -480,7 +480,7 @@
           "AI-powered analytics",
           "Custom integrations",
           "Unlimited users",
-          "24/7 support",
+          "Email and phone support",
           "Custom reports"
         ],
         "product_id": "crm",
@@ -533,7 +533,7 @@
           "Multi-company support",
           "API integrations",
           "Unlimited users",
-          "24/7 support",
+          "Email and phone support",
           "Custom reports"
         ],
         "product_id": "accounting",
@@ -586,7 +586,7 @@
           "Customizable platform",
           "API integrations",
           "Unlimited learners",
-          "24/7 support",
+          "Email and phone support",
           "Custom reports"
         ],
         "product_id": "lms",
@@ -705,36 +705,7 @@
       "overview": "We manage Özsim İplik's digital transformation from a physical store to e-commerce: setting up the e-commerce infrastructure, managing ad accounts (Google/Meta) and integrating online payments so the store can sell over the internet."
     }
   ],
-  "blog": [
-    {
-      "title": "Optimizing your online store for a maximum to sales impact your business to the world.",
-      "category": "Technology",
-      "date": "April 13, 2024",
-      "image": "/images/blog/blogthumb1.png",
-      "description": "Optimizing your online store for maximum sales impact and exposure involves a multifaceted approach & incorporating a blog can be a crucial aspect.",
-      "content": "Optimizing your online store for maximum sales impact & exposure involves a multifaceted approach & incorporating a blog can be a crucial aspect of that strategy. Here's a detailed breakdown of how to leverage a blog to enhance your online store's performance:\n\n1. Mobile Optimization\nEnsure your online store is mobile-friendly, as a significant portion of online shopping occurs on mobile devices. Optimize your website design and user experience for smartphones and tablets to maximize accessibility and conversion rates.\n\n2. Search Engine Optimization\nImplement SEO best practices to improve your website's visibility in search engine results. This includes optimizing product descriptions, meta tags & URLs as well as building quality backlinks & creating valuable content that aligns with relevant keywords.\n\n3. Review & Testimonials\nDisplay customer reviews and testimonials prominently on your website to build trust and credibility. Positive reviews can reassure potential buyers and encourage them to complete their purchase.\n\n4. Social Media Marketing\nLeverage social media platforms to promote your online store & engage with your target audience. Create compelling content, run targeted ad campaigns, and actively interact with followers to drive traffic and generate sales.",
-      "slug": "optimizing-your-online-store",
-      "id": "optimizing-your-online-store"
-    },
-    {
-      "title": "We’re here to explain how data analytics with AgotaSoft can help to grow your business.",
-      "category": "Business",
-      "date": "11 April 2024",
-      "image": "/images/blog/blogthumb2.png",
-      "description": "Businesses better understand their customer base by segmenting them based on various criteria such as demographics, purchasing behavior, and preferences.",
-      "slug": "we-re-here-to-explain-how-data-analytics-with-agota-can-help-to-grow-your-business-",
-      "id": "we-re-here-to-explain-how-data-analytics-with-agota-can-help-to-grow-your-business-"
-    },
-    {
-      "title": "The importance of logo design in branding strategies development with logo design.",
-      "category": "Agency",
-      "date": "10 April 2024",
-      "image": "/images/blog/blogthumb3.png",
-      "description": "A logo is often the first point of contact between a company & its audience. It’s the visual representation of the brand & sets the tone for how the brand is perceived.",
-      "slug": "the-importance-of-logo-design-in-branding-strategies-development-with-logo-design-",
-      "id": "the-importance-of-logo-design-in-branding-strategies-development-with-logo-design-"
-    }
-  ],
+  "blog": [],
   "faq": [
     {
       "question": "How long does an AgotaSoft ERP setup take?",
@@ -748,7 +719,7 @@
     },
     {
       "question": "How secure is our data?",
-      "answer": "All data is protected with 256-bit SSL encryption, backed up regularly and hosted on ISO 27001-compliant infrastructure. Role-based permissions let you decide who can access what.",
+      "answer": "Data is transmitted over SSL encryption. How data is processed and stored is explained in our Privacy Policy.",
       "column": "1"
     },
     {
@@ -773,7 +744,7 @@
     },
     {
       "question": "How does support work?",
-      "answer": "All customers get email and phone support; enterprise packages include 24/7 priority support. We provide free training for your team after setup.",
+      "answer": "All customers get email and phone support. We provide free training for your team after setup.",
       "column": "2"
     },
     {
@@ -799,12 +770,12 @@
     "about": {
       "title": "About Us",
       "hero_title": "AgotaSoft: Your Software Partner for the Future of Your Business",
-      "hero_subtitle": "Since 2021, our expert team has been leading businesses through digital transformation across ERP, CRM, Bookkeeping and LMS.",
-      "body": "AgotaSoft, one of Turkey's leading software companies, delivers integrated software solutions that raise operational efficiency, cut costs and boost the competitiveness of businesses.",
-      "stat1_number": "3+",
-      "stat1_label": "Years of Experience",
-      "stat2_number": "150+",
-      "stat2_label": "Happy Customers",
+      "hero_subtitle": "With our two-person team, we help businesses with digital transformation across ERP, CRM, Bookkeeping and LMS.",
+      "body": "AgotaSoft delivers integrated software solutions that raise operational efficiency, cut costs and boost the competitiveness of businesses.",
+      "stat1_number": "2",
+      "stat1_label": "Team Members",
+      "stat2_number": "3",
+      "stat2_label": "References",
       "mission_title": "Our Mission",
       "mission_text": "To be a trusted partner in businesses' digital transformation, helping our customers gain a competitive edge by optimizing their processes with technology.",
       "vision_title": "Our Vision",
@@ -847,22 +818,22 @@
         }
       ],
       "why_title": "Why Choose AgotaSoft?",
-      "why_text": "With 3 years of experience, an expert team and a customer-focused approach, we're your most reliable partner in digital transformation.",
+      "why_text": "With a focused team and a customer-focused approach, we're by your side in your digital transformation.",
       "why_items": [
         {
           "icon": "fas fa-cogs",
-          "title": "Expert Team",
-          "text": "15+ software developers and consultants who are experts in their field."
+          "title": "Direct Contact",
+          "text": "You work with our two-person team and get direct, quick answers to your questions."
         },
         {
           "icon": "fas fa-headset",
-          "title": "24/7 Support",
-          "text": "Uninterrupted technical support and customer service."
+          "title": "Reachable Support",
+          "text": "Reach our team by email and phone."
         },
         {
           "icon": "fas fa-shield-alt",
-          "title": "High Security",
-          "text": "ISO 27001-certified security standards."
+          "title": "Data Security",
+          "text": "Your data is transmitted over SSL encryption."
         },
         {
           "icon": "fas fa-puzzle-piece",
@@ -899,7 +870,7 @@
       "hero_title": "Software Solutions That Empower Your Business",
       "hero_subtitle": "Our expert team meets all your business needs across ERP, CRM, Bookkeeping and LMS.",
       "why_title": "Why Choose AgotaSoft Solutions?",
-      "why_text": "With 15 years of industry experience, an expert team and a customer-focused approach, we're your reliable partner in digital transformation.",
+      "why_text": "With a focused team and a customer-focused approach, we're by your side in your digital transformation.",
       "why_items": [
         {
           "icon": "fas fa-rocket",
@@ -908,13 +879,13 @@
         },
         {
           "icon": "fas fa-headset",
-          "title": "24/7 Support",
-          "text": "Uninterrupted technical support and customer service."
+          "title": "Reachable Support",
+          "text": "Reach our team by email and phone."
         },
         {
           "icon": "fas fa-shield-alt",
-          "title": "High Security",
-          "text": "ISO 27001-certified security standards."
+          "title": "Data Security",
+          "text": "Your data is transmitted over SSL encryption."
         },
         {
           "icon": "fas fa-cog",
@@ -1028,7 +999,7 @@
       "benefits": [
         {
           "icon": "fas fa-rocket",
-          "title": "40% Faster Processes",
+          "title": "Faster Processes",
           "text": "Shorten process times with automated workflows and integrated systems."
         },
         {
@@ -1045,24 +1016,7 @@
       "showcase_title": "Benefits You'll Gain With the ERP System",
       "showcase_text": "Optimize every process in your business and get ahead of the competition with AgotaSoft ERP.",
       "showcase_image": "/images/about/Benefits.png",
-      "stats": [
-        {
-          "number": "60%",
-          "label": "Time Saved"
-        },
-        {
-          "number": "45%",
-          "label": "Lower Costs"
-        },
-        {
-          "number": "80%",
-          "label": "Higher Efficiency"
-        },
-        {
-          "number": "90%",
-          "label": "Customer Satisfaction"
-        }
-      ],
+      "stats": [],
       "cta_title": "Start Setting Up Your ERP System Today",
       "cta_text": "Discover the power of AgotaSoft ERP with a 30-day free trial. Setup and training support included.",
       "cta_button": "Request a Free Demo",
@@ -1176,38 +1130,21 @@
       "benefits": [
         {
           "icon": "fas fa-chart-line",
-          "title": "35% More Sales",
+          "title": "More Sales",
           "text": "Increase sales with effective lead management and sales-process optimization."
         },
         {
           "icon": "fas fa-heart",
-          "title": "50% Higher Customer Satisfaction",
+          "title": "Higher Customer Satisfaction",
           "text": "Raise customer satisfaction with personalized service and fast response times."
         },
         {
           "icon": "fas fa-clock",
-          "title": "60% Time Saved",
+          "title": "Time Saved",
           "text": "Save time with automated processes and an integrated system."
         }
       ],
-      "stats": [
-        {
-          "number": "98%",
-          "label": "Customer Satisfaction"
-        },
-        {
-          "number": "35%",
-          "label": "Sales Increase"
-        },
-        {
-          "number": "60%",
-          "label": "Time Saved"
-        },
-        {
-          "number": "10K+",
-          "label": "Happy Users"
-        }
-      ],
+      "stats": [],
       "cta_title": "Start Your CRM Transformation Today",
       "cta_text": "Discover the power of AgotaSoft CRM with a 14-day free trial. Setup and training support included.",
       "cta_button": "Request a Free Demo",
@@ -1298,12 +1235,12 @@
       "benefits": [
         {
           "icon": "fas fa-graduation-cap",
-          "title": "80% More Effective Learning",
+          "title": "More Effective Learning",
           "text": "Boost learning efficiency with interactive content and gamification."
         },
         {
           "icon": "fas fa-clock",
-          "title": "60% Time Saved",
+          "title": "Time Saved",
           "text": "Save time on training administration with automatic grading and reporting."
         },
         {
@@ -1338,24 +1275,7 @@
           "text": "Software training, technical skill development and certification programs."
         }
       ],
-      "stats": [
-        {
-          "number": "50K+",
-          "label": "Active Learners"
-        },
-        {
-          "number": "1000+",
-          "label": "Courses Completed"
-        },
-        {
-          "number": "95%",
-          "label": "Success Rate"
-        },
-        {
-          "number": "500+",
-          "label": "Enterprise Customers"
-        }
-      ],
+      "stats": [],
       "cta_title": "Start Your Corporate Training Transformation",
       "cta_text": "Discover the power of AgotaSoft LMS with a 30-day free trial. Setup, content upload and training support included.",
       "cta_button": "Request a Free Demo",
@@ -2429,29 +2349,6 @@
       "json_ld": "",
       "extra_tags": []
     },
-    "/blog": {
-      "path": "/blog",
-      "label": "Blog",
-      "title": "AgotaSoft Blog | Yazılım ve Dijital Dönüşüm",
-      "description": "ERP, CRM ve dijital dönüşüm yazıları.",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "index, follow",
-      "canonical": "https://agotasoft.com/blog",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
     "/faq": {
       "path": "/faq",
       "label": "SSS",
@@ -2520,489 +2417,6 @@
       "twitter_image": "/images/agotasoft-logo.png",
       "json_ld": "",
       "extra_tags": []
-    },
-    "/single-blog": {
-      "path": "/single-blog",
-      "label": "Tekil blog (şablon)",
-      "title": "AgotaSoft Blog Yazısı",
-      "description": "AgotaSoft blog detay sayfası.",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "index, follow",
-      "canonical": "https://agotasoft.com/single-blog",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/single-portfolio": {
-      "path": "/single-portfolio",
-      "label": "Tekil portföy (şablon)",
-      "title": "AgotaSoft Proje Detayı",
-      "description": "AgotaSoft portföy detay sayfası.",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "index, follow",
-      "canonical": "https://agotasoft.com/single-portfolio",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/single-career": {
-      "path": "/single-career",
-      "label": "Tekil kariyer (şablon)",
-      "title": "AgotaSoft İş İlanı",
-      "description": "AgotaSoft açık pozisyon detayı.",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "index, follow",
-      "canonical": "https://agotasoft.com/single-career",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/single-team": {
-      "path": "/single-team",
-      "label": "Tekil ekip (şablon)",
-      "title": "AgotaSoft Ekip Üyesi",
-      "description": "AgotaSoft ekip üyesi profili.",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "index, follow",
-      "canonical": "https://agotasoft.com/single-team",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/single-service": {
-      "path": "/single-service",
-      "label": "Tekil çözüm (şablon)",
-      "title": "AgotaSoft Çözüm Detayı",
-      "description": "AgotaSoft çözüm detay sayfası.",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "index, follow",
-      "canonical": "https://agotasoft.com/single-service",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/error-page": {
-      "path": "/error-page",
-      "label": "404 sayfası",
-      "title": "404 - Sayfa Bulunamadı | AgotaSoft",
-      "description": "Aradığınız sayfa bulunamadı.",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "noindex, nofollow",
-      "canonical": "",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/coming-soon": {
-      "path": "/coming-soon",
-      "label": "Yakında",
-      "title": "AgotaSoft | Yakında",
-      "description": "Sayfa yakında yayınlanacak.",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "noindex, follow",
-      "canonical": "",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/sign-in": {
-      "path": "/sign-in",
-      "label": "Giriş (tema)",
-      "title": "Giriş | AgotaSoft",
-      "description": "",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "noindex, nofollow",
-      "canonical": "",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/sign-up": {
-      "path": "/sign-up",
-      "label": "Kayıt (tema)",
-      "title": "Kayıt | AgotaSoft",
-      "description": "",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "noindex, nofollow",
-      "canonical": "",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/reset-password": {
-      "path": "/reset-password",
-      "label": "Şifre sıfırla (tema)",
-      "title": "Şifre sıfırla | AgotaSoft",
-      "description": "",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "noindex, nofollow",
-      "canonical": "",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/multi-page/home-one": {
-      "path": "/multi-page/home-one",
-      "label": "Multi-page home (tema)",
-      "title": "AgotaSoft Multi-page Home",
-      "description": "",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "noindex, follow",
-      "canonical": "",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/one-page/home-one": {
-      "path": "/one-page/home-one",
-      "label": "One-page 1 (tema)",
-      "title": "AgotaSoft One-page 1",
-      "description": "",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "noindex, follow",
-      "canonical": "",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/one-page/home-two": {
-      "path": "/one-page/home-two",
-      "label": "One-page 2 (tema)",
-      "title": "AgotaSoft One-page 2",
-      "description": "",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "noindex, follow",
-      "canonical": "",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/one-page/home-three": {
-      "path": "/one-page/home-three",
-      "label": "One-page 3 (tema)",
-      "title": "AgotaSoft One-page 3",
-      "description": "",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "noindex, follow",
-      "canonical": "",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/one-page/home-four": {
-      "path": "/one-page/home-four",
-      "label": "One-page 4 (tema)",
-      "title": "AgotaSoft One-page 4",
-      "description": "",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "noindex, follow",
-      "canonical": "",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/one-page/home-five": {
-      "path": "/one-page/home-five",
-      "label": "One-page 5 (tema)",
-      "title": "AgotaSoft One-page 5",
-      "description": "",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "noindex, follow",
-      "canonical": "",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/one-page/home-six": {
-      "path": "/one-page/home-six",
-      "label": "One-page 6 (tema)",
-      "title": "AgotaSoft One-page 6",
-      "description": "",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "noindex, follow",
-      "canonical": "",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/one-page/home-seven": {
-      "path": "/one-page/home-seven",
-      "label": "One-page 7 (tema)",
-      "title": "AgotaSoft One-page 7",
-      "description": "",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "noindex, follow",
-      "canonical": "",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/one-page/home-eight": {
-      "path": "/one-page/home-eight",
-      "label": "One-page 8 (tema)",
-      "title": "AgotaSoft One-page 8",
-      "description": "",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "noindex, follow",
-      "canonical": "",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/one-page/home-nine": {
-      "path": "/one-page/home-nine",
-      "label": "One-page 9 (tema)",
-      "title": "AgotaSoft One-page 9",
-      "description": "",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "noindex, follow",
-      "canonical": "",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
-    },
-    "/one-page/home-ten": {
-      "path": "/one-page/home-ten",
-      "label": "One-page 10 (tema)",
-      "title": "AgotaSoft One-page 10",
-      "description": "",
-      "keywords": "",
-      "author": "AgotaSoft",
-      "robots": "noindex, follow",
-      "canonical": "",
-      "og_title": "",
-      "og_description": "",
-      "og_image": "/images/agotasoft-logo.png",
-      "og_url": "",
-      "og_type": "website",
-      "og_locale": "tr_TR",
-      "og_site_name": "AgotaSoft",
-      "twitter_card": "summary_large_image",
-      "twitter_title": "",
-      "twitter_description": "",
-      "twitter_image": "/images/agotasoft-logo.png",
-      "json_ld": "",
-      "extra_tags": []
     }
   },
   "why_choose": {
@@ -3026,7 +2440,7 @@
     "section2_text": "Connect every department of your business, boost efficiency and optimize costs with AgotaSoft's integrated software solutions.",
     "section2_items": [
       {
-        "title": "60% Faster Business Processes",
+        "title": "Faster Business Processes",
         "text": "Shorten process times and increase employee productivity with automated workflows and integrated systems."
       },
       {
@@ -3061,7 +2475,7 @@
   "partners_heading": "Our Technology Partners & Sponsors",
   "testimonials_heading": "What Our Customers Say About AgotaSoft",
   "footer": {
-    "about": "The AI-native ERP platform that grows with your business. With 15 years of experience, we lead digital transformation for manufacturing and trading companies.",
+    "about": "The AI-native ERP platform that grows with your business. We support the digital transformation of manufacturing and trading companies.",
     "about_alt": "AgotaSoft is the modern ERP platform that accelerates business growth. We unify your finance, inventory, and operations in a single system.",
     "col1_title": "Company",
     "col1_links": [
@@ -3076,10 +2490,6 @@
       {
         "label": "Team",
         "url": "/team"
-      },
-      {
-        "label": "Careers",
-        "url": "/career"
       },
       {
         "label": "Contact",
@@ -3125,7 +2535,7 @@
     "privacy_label": "Privacy Policy",
     "privacy_url": "/privacy-policy",
     "terms_label": "Terms of Service",
-    "terms_url": "/terms-of-service",
+    "terms_url": "/terms-and-condition",
     "cookies_label": "Cookie Policy",
     "cookies_url": "/cookies-policy"
   }

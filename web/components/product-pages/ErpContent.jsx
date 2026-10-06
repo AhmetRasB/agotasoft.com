@@ -27,7 +27,7 @@ export default function ErpContent() {
 						{page.hero_subtitle}
 					</p>
 					<div className="agf-hero-actions">
-						<a className="agf-btn agf-btn--primary" href={withLocale("/contact-us", prefix)}>
+						<a className="agf-btn agf-btn--primary" href={withLocale("/contact-us?urun=erp#demo", prefix)}>
 							{page.cta_primary || "Ücretsiz Demo"}
 						</a>
 						<a className="agf-btn agf-btn--ghost" href="#platform">

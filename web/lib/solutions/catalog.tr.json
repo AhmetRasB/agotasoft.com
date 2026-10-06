@@ -139,7 +139,7 @@
 					"name": "Cepte Ne Var",
 					"icon": "fas fa-wallet",
 					"status": "live",
-					"href": "/service/cepte-ne-var",
+					"href": "https://ceptenevar.com",
 					"tagline": "WhatsApp'tan harcama ve bütçe koçu"
 				}
 			]
@@ -420,7 +420,7 @@
 					"name": "Görevim Ne",
 					"icon": "fas fa-list-check",
 					"status": "live",
-					"href": "/service/gorevim-ne",
+					"href": "https://gorevimne.com",
 					"tagline": "Mesajlaşma uygulamasından görev yönetimi"
 				}
 			]

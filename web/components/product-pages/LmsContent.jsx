@@ -23,7 +23,7 @@ export default function LmsContent() {
 						<div>
 							<p className="agf-lede">{page.hero_subtitle}</p>
 							<div className="agf-hero-actions" style={{ justifyContent: "flex-start" }}>
-								<a href={withLocale("/contact-us", prefix)} className="agf-btn agf-btn--primary">
+								<a href={withLocale("/contact-us?urun=lms#demo", prefix)} className="agf-btn agf-btn--primary">
 									{page.cta_primary || "Ücretsiz Demo"}
 								</a>
 								<a href="#features" className="agf-btn agf-btn--ghost">
@@ -57,16 +57,18 @@ export default function LmsContent() {
 
 			<ProductModules title={page.modules_title} subtitle={page.modules_subtitle} modules={page.modules} numberLabel="01" sectionLabel="MODÜLLER" />
 
-			<section className="agf-container">
-				<div className="agf-stats">
-					{(page.stats || []).map((s) => (
-						<div className="agf-stat" key={s.label}>
-							<div className="agf-stat-num">{s.number}</div>
-							<div className="agf-stat-label">{s.label}</div>
-						</div>
-					))}
-				</div>
-			</section>
+			{page.stats?.length ? (
+				<section className="agf-container">
+					<div className="agf-stats">
+						{page.stats.map((s) => (
+							<div className="agf-stat" key={s.label}>
+								<div className="agf-stat-num">{s.number}</div>
+								<div className="agf-stat-label">{s.label}</div>
+							</div>
+						))}
+					</div>
+				</section>
+			) : null}
 
 			<section className="agf-section">
 				<div className="agf-container">
@@ -122,7 +124,7 @@ export default function LmsContent() {
 						<h2 className="agf-headline agf-h2">{page.cta_title}</h2>
 						<p>{page.cta_text}</p>
 						<div className="agf-hero-actions">
-							<a href={withLocale("/contact-us", prefix)} className="agf-btn agf-btn--primary">
+							<a href={withLocale("/contact-us?urun=lms#demo", prefix)} className="agf-btn agf-btn--primary">
 								{page.cta_button || "Ücretsiz Demo Talep Edin"}
 							</a>
 							<a href={withLocale("/pricing", prefix)} className="agf-btn agf-btn--ghost" style={{ borderColor: "rgba(255,255,255,.3)", color: "#fff" }}>

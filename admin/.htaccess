@@ -3,6 +3,8 @@ Options -Indexes
 <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteBase /admin/
+    # Internal code is never served directly (a direct hit would print PHP errors with server paths).
+    RewriteRule ^(src|views|vendor)(/|$) - [R=404,L]
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule ^(.*)$ index.php [QSA,L]

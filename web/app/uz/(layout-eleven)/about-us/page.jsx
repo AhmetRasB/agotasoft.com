@@ -5,19 +5,19 @@ import AboutContent from "@/components/about-page/AboutContent";
 import { buildAlternates } from "@/lib/i18n/config";
 export const metadata = {
 	title: "Biz haqimizda | AgotaSoft",
-	description: "2021 yildan beri mutaxassis jamoamiz ERP, CRM, buxgalteriya va LMS sohalarida kompaniyalarning raqamli transformatsiyasiga yo'l boshlamoqda.",
+	description: "Ikki kishilik jamoamiz ERP, CRM, buxgalteriya va LMS sohalarida kompaniyalarning raqamli transformatsiyasiga yordam beradi.",
 	author: "AgotaSoft",
 	alternates: buildAlternates("/about-us", "uz"),
 	openGraph: {
 		title: "Biz haqimizda | AgotaSoft",
-		description: "2021 yildan beri mutaxassis jamoamiz ERP, CRM, buxgalteriya va LMS sohalarida kompaniyalarning raqamli transformatsiyasiga yo'l boshlamoqda.",
+		description: "Ikki kishilik jamoamiz ERP, CRM, buxgalteriya va LMS sohalarida kompaniyalarning raqamli transformatsiyasiga yordam beradi.",
 		type: "website",
 		url: "https://agotasoft.com/uz/about-us",
 	},
 	twitter: {
 		card: "summary_large_image",
 		title: "Biz haqimizda | AgotaSoft",
-		description: "2021 yildan beri mutaxassis jamoamiz ERP, CRM, buxgalteriya va LMS sohalarida kompaniyalarning raqamli transformatsiyasiga yo'l boshlamoqda.",
+		description: "Ikki kishilik jamoamiz ERP, CRM, buxgalteriya va LMS sohalarida kompaniyalarning raqamli transformatsiyasiga yordam beradi.",
 	},
 };
 

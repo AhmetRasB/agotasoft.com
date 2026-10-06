@@ -7,6 +7,7 @@ const Career = dynamic(() => import("@/components/career-page"), {
 	ssr: false,
 });
 export const metadata = {
+	robots: { index: false, follow: true }, // no open positions yet
 	alternates: buildAlternates("/career"),
 	title: "Kariyer | AgotaSoft",
 	description: "AgotaSoft'ta kariyer fırsatlarını keşfedin.",

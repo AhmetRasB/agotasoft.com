@@ -22,11 +22,11 @@ export default function AboutContent() {
 					</p>
 					<div className="agf-hero-actions" style={{ marginTop: 32 }}>
 						<div className="agf-stat">
-							<div className="agf-stat-num">{page.stat1_number || "3+"}</div>
+							<div className="agf-stat-num">{page.stat1_number || "2"}</div>
 							<div className="agf-stat-label">{page.stat1_label}</div>
 						</div>
 						<div className="agf-stat">
-							<div className="agf-stat-num">{page.stat2_number || "150+"}</div>
+							<div className="agf-stat-num">{page.stat2_number || "3"}</div>
 							<div className="agf-stat-label">{page.stat2_label}</div>
 						</div>
 					</div>

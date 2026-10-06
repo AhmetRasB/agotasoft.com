@@ -11,19 +11,25 @@ Public marketing site for AgotaSoft, plus a PHP + MySQL admin CMS that publishes
 | Public site | Next.js 14 App Router in `web/` (Turkish AgotaSoft copy). **Static export is enabled** (`output: "export"` in `web/next.config.mjs`) so shared hosting does **not** need Node. |
 | Admin CMS | PHP 8.1+ in `admin/` (login, dashboard, settings, account, messages, generic CRUD, publish JSON) |
 | Public APIs | `api/content.php` (JSON), `api/contact.php` (demo form) |
-| Database | MySQL / MariaDB — schema + default admin in `database/install.sql` |
+| Database | MySQL / MariaDB — schema in `database/install.sql` |
 | Published content | `web/public/data/site.json` locally; `data/site.json` on the live document root after Publish |
 
 The Next app already falls back to `web/lib/cms/defaults.json` if live JSON is missing, so an empty CMS still looks like the current site.
 
-## Default admin login
+## First admin user
 
-After importing `database/install.sql`:
+`database/install.sql` creates no user. After importing it, create your own admin in phpMyAdmin (SQL tab) with a password only you know:
 
-- Email: `admin@agotasoft.com`
-- Password: `ChangeMeNow!2026`
+```bash
+php -r 'echo password_hash("YOUR-PASSWORD", PASSWORD_BCRYPT, ["cost" => 12]), PHP_EOL;'
+```
 
-**Change this immediately** at `/admin/account`.
+```sql
+INSERT INTO users (name, email, password_hash, role, is_active)
+VALUES ('Admin', 'you@example.com', '<hash from above>', 'admin', 1);
+```
+
+Sign-in is limited to 5 failed attempts per IP per 15 minutes, and sessions expire after 30 idle minutes.
 
 ## Local development
 
@@ -206,14 +212,14 @@ On production, leave `NEXT_PUBLIC_CMS_API` unset in the Next build so the form p
 
 - `APP_DEBUG=false`
 - `SESSION_SECURE=true`
-- Change the default admin password
+- Use a strong, unique admin password (never commit it)
 - Keep `.env` unreadable (`.htaccess` denies it)
 - `storage/` is denied from HTTP
 
 ### 9. First publish on the server
 
 1. Open `https://agotasoft.com/admin`
-2. Log in, change password
+2. Log in
 3. Confirm CRUD types have seed content (first login seeds from `defaults.json` if `entries` is empty — this requires `web/lib/cms/defaults.json` **or** you already imported content). On shared hosting the site source is not uploaded, so **publish once locally** and upload `data/site.json`, **or** copy `web/lib/cms/defaults.json` next to the CMS if you want server-side seed.
    - Practical path: after local admin publish, upload `web/public/data/site.json` as `public_html/data/site.json`. First login can also seed from `database/site-seed.json` (uploaded with `database/`).
 4. Click **Yayınla** whenever content changes so `/data/site.json` updates. The static site fetches that file in the browser; you do not need to rebuild Next for copy edits.
@@ -239,3 +245,11 @@ PHPMailer is required for SMTP.
 ## Security notes
 
 Admin uses prepared statements, CSRF tokens, `htmlspecialchars` escaping, and `password_hash`. Keep it that way.
+
+## Backups and data retention
+
+- **Database:** phpMyAdmin > `agotaso1_web` > Export (Quick, SQL) before every admin release or content import. Keep the file outside `public_html`.
+- **Published content:** the live `data/site*.json` files are the last published state. Copy them (cPanel File Manager > Compress) before uploading a new build, because the build's `data/` folder overwrites them.
+- **Never press "JSON yayınla" in the admin right after a code release** unless the database content matches the site (the admin rebuilds `data/site.json` from the database, which can bring back text that was changed only in the repo files).
+- **Contact messages** hold personal data (name, email, phone, IP, UTM ids). Delete messages you no longer need from `/admin/messages`; the privacy policy does not promise a fixed retention period, so set one and write it there once decided.
+

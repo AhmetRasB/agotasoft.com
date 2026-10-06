@@ -3,7 +3,6 @@
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import { useLocale } from "@/hooks/useLocale";
-import { withLocale, localePrefix } from "@/lib/i18n/config";
 import {
 	GTM_ID,
 	captureAttribution,
@@ -123,7 +122,7 @@ export default function Analytics() {
 		<div className="agf-consent" role="dialog" aria-label={copy.label}>
 			<p>
 				{copy.text}{" "}
-				<a href={withLocale("/cookies-policy", localePrefix(locale))}>{copy.more}</a>
+				<a href="/cookies-policy">{copy.more}</a>
 			</p>
 			<div className="agf-consent-actions">
 				<button type="button" className="agf-btn agf-btn--ghost agf-btn--sm" onClick={() => decide(false)}>

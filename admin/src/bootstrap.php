@@ -19,6 +19,7 @@ require ADMIN_PATH . '/src/SeoRoutes.php';
 require ADMIN_PATH . '/src/ContentExport.php';
 require ADMIN_PATH . '/src/Mailer.php';
 require ADMIN_PATH . '/src/ServerEvents.php';
+require ADMIN_PATH . '/src/RateLimiter.php';
 
 $autoload = ADMIN_PATH . '/vendor/autoload.php';
 if (is_file($autoload)) {

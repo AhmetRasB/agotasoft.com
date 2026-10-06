@@ -10,6 +10,8 @@ const DEMO_LABEL = { tr: "Ücretsiz Demo", en: "Free Demo", ru: "Бесплат�
 const FEATURES_LABEL = { tr: "Özellikleri İncele", en: "See Features", ru: "Возможности", uz: "Imkoniyatlar", tk: "Aýratynlyklar" };
 const FEATURES_TITLE = { tr: "Özellikler", en: "Features", ru: "Возможности", uz: "Imkoniyatlar", tk: "Aýratynlyklar" };
 
+const CATALOG_SLUG = { "mobil-barkod-sistemi": "mobil-barkod", "kurumsal-website": "kurumsal-website" };
+
 export default function SimpleProductContent({ serviceId }) {
 	const cms = useCms();
 	const prefix = useLocalePrefix();
@@ -34,7 +36,7 @@ export default function SimpleProductContent({ serviceId }) {
 								{item.long_description || item.description}
 							</p>
 							<div className="agf-hero-actions" style={{ justifyContent: "flex-start" }}>
-								<a href={withLocale("/contact-us", prefix)} className="agf-btn agf-btn--primary">
+								<a href={withLocale(`/contact-us?urun=${CATALOG_SLUG[serviceId] || serviceId}#demo`, prefix)} className="agf-btn agf-btn--primary">
 									{DEMO_LABEL[locale] || DEMO_LABEL.tr}
 								</a>
 								<a href="#features" className="agf-btn agf-btn--ghost">
@@ -84,7 +86,7 @@ export default function SimpleProductContent({ serviceId }) {
 						<h2 className="agf-headline agf-h2">{servicePage.cta_title}</h2>
 						<p>{servicePage.cta_text}</p>
 						<div className="agf-hero-actions">
-							<a href={withLocale("/contact-us", prefix)} className="agf-btn agf-btn--primary">
+							<a href={withLocale(`/contact-us?urun=${CATALOG_SLUG[serviceId] || serviceId}#demo`, prefix)} className="agf-btn agf-btn--primary">
 								{servicePage.cta_primary || DEMO_LABEL[locale] || DEMO_LABEL.tr}
 							</a>
 							<a

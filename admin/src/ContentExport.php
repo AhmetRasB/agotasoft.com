@@ -40,10 +40,6 @@ final class ContentExport
         if (is_dir(ROOT_PATH . '/web/out')) {
             $paths[] = $out;
         }
-        $final = ROOT_PATH . '/web/agotasoft-website-final/data/site.json';
-        if (is_dir(ROOT_PATH . '/web/agotasoft-website-final')) {
-            $paths[] = $final;
-        }
         return array_values(array_unique($paths));
     }
 
@@ -278,7 +274,7 @@ final class ContentExport
             $i = 0;
             foreach ($seed[$seedKey] ?? [] as $item) {
                 $title = (string) ($item['title'] ?? $item['name'] ?? $item['author'] ?? $item['question'] ?? ('item-' . $i));
-                $slug = (string) ($item['slug'] ?? $item['id'] ?? strtolower(preg_replace('/[^a-z0-9]+/i', '-', $title)));
+                $slug = (string) ($item['slug'] ?? $item['id'] ?? slugify($title));
                 if (isset($item['bullets']) && is_array($item['bullets'])) {
                     $item['bullets'] = implode("\n", $item['bullets']);
                 }
