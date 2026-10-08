@@ -2,8 +2,10 @@
 
 import { useState } from "react";
 import { useCms } from "@/hooks/useCms";
-import { useLocalePrefix } from "@/hooks/useLocale";
+import { useLocale, useLocalePrefix } from "@/hooks/useLocale";
 import { withLocale } from "@/lib/i18n/config";
+import { findProduct, getCatalog, productHref } from "@/lib/solutions";
+import { READY_COPY, READY_PRODUCTS, formatPrice } from "@/lib/i18n/readyProducts";
 
 const DEFAULT_PRODUCTS = [
 	{ id: "all", name: "Tüm Çözümler", icon: "fas fa-th-large" },
@@ -16,6 +18,9 @@ const DEFAULT_PRODUCTS = [
 export default function PricingContent() {
 	const cms = useCms();
 	const prefix = useLocalePrefix();
+	const locale = useLocale();
+	const ready = READY_COPY[locale] || READY_COPY.tr;
+	const catalog = getCatalog(locale);
 	const page = cms.pages?.pricing || {};
 	const products = cms.pricing_products?.length ? cms.pricing_products : DEFAULT_PRODUCTS;
 	const [selectedProduct, setSelectedProduct] = useState("all");
@@ -86,6 +91,37 @@ export default function PricingContent() {
 								</a>
 							</div>
 						))}
+					</div>
+				</div>
+			</section>
+
+			<section className="agf-section--tight">
+				<div className="agf-container">
+					<div className="agf-platform-head">
+						<h2 className="agf-headline agf-h2">{ready.title}</h2>
+						<p className="agf-lede" style={{ margin: "12px auto 0" }}>
+							{ready.subtitle}
+						</p>
+					</div>
+					<div className="agf-grid agf-grid--4">
+						{READY_PRODUCTS.map(({ slug, price }) => {
+							const found = findProduct(catalog, slug);
+							if (!found) return null;
+							const { product } = found;
+							return (
+								<div className="agf-price-card" key={slug} style={{ display: "flex", flexDirection: "column" }}>
+									<div className="agf-card-icon">
+										<i className={product.icon}></i>
+									</div>
+									<h3>{product.name}</h3>
+									<p className="agf-small">{product.tagline}</p>
+									<p style={{ fontWeight: 700, fontSize: 18, margin: "12px 0" }}>{formatPrice(price, ready.units[price.per], locale)}</p>
+									<a href={productHref(product, prefix)} className="agf-btn agf-btn--ghost" style={{ marginTop: "auto" }}>
+										{ready.cta}
+									</a>
+								</div>
+							);
+						})}
 					</div>
 				</div>
 			</section>

@@ -47,22 +47,6 @@
 		"w": 180,
 		"h": 180
 	},
-	"/images/contact/icon1.png": {
-		"w": 65,
-		"h": 60
-	},
-	"/images/contact/icon2.png": {
-		"w": 60,
-		"h": 60
-	},
-	"/images/contact/icon3.png": {
-		"w": 60,
-		"h": 60
-	},
-	"/images/contact/icon5.png": {
-		"w": 26,
-		"h": 28
-	},
 	"/images/icon-192.png": {
 		"w": 192,
 		"h": 192
@@ -275,55 +259,6 @@
 			1600
 		]
 	},
-	"/images/service/icon2.png": {
-		"w": 60,
-		"h": 60
-	},
-	"/images/service/icon3.png": {
-		"w": 60,
-		"h": 60
-	},
-	"/images/service/icon4.png": {
-		"w": 60,
-		"h": 60
-	},
-	"/images/service/image1.png": {
-		"w": 170,
-		"h": 170
-	},
-	"/images/service/image2.png": {
-		"w": 170,
-		"h": 170
-	},
-	"/images/service/image3.png": {
-		"w": 170,
-		"h": 170
-	},
-	"/images/service/image4.png": {
-		"w": 170,
-		"h": 170
-	},
-	"/images/service/image5.png": {
-		"w": 170,
-		"h": 170
-	},
-	"/images/service/image6.png": {
-		"w": 170,
-		"h": 170
-	},
-	"/images/service/service-thumb.png": {
-		"w": 532,
-		"h": 555,
-		"widths": [
-			160,
-			480,
-			532
-		]
-	},
-	"/images/service/shape1.png": {
-		"w": 173,
-		"h": 173
-	},
 	"/images/team/founder-ceo.png": {
 		"w": 400,
 		"h": 400,
@@ -340,25 +275,9 @@
 			400
 		]
 	},
-	"/images/v1/alterbone.png": {
-		"w": 201,
-		"h": 48
-	},
-	"/images/v1/carbonia.png": {
-		"w": 189,
-		"h": 40
-	},
 	"/images/v1/icon1.png": {
 		"w": 80,
 		"h": 80
-	},
-	"/images/v1/icon10.png": {
-		"w": 453,
-		"h": 335,
-		"widths": [
-			160,
-			453
-		]
 	},
 	"/images/v1/icon2.png": {
 		"w": 80,
@@ -367,146 +286,5 @@
 	"/images/v1/icon3.png": {
 		"w": 80,
 		"h": 80
-	},
-	"/images/v1/icon5.png": {
-		"w": 107,
-		"h": 60
-	},
-	"/images/v1/icon6.png": {
-		"w": 65,
-		"h": 62
-	},
-	"/images/v1/icon7.png": {
-		"w": 47,
-		"h": 60
-	},
-	"/images/v1/icon8.png": {
-		"w": 26,
-		"h": 26
-	},
-	"/images/v1/logoipsum.png": {
-		"w": 199,
-		"h": 49
-	},
-	"/images/v1/tinygone.png": {
-		"w": 196,
-		"h": 48
-	},
-	"/images/v1/waverio.png": {
-		"w": 199,
-		"h": 48
-	},
-	"/images/v5/aboutthumb.png": {
-		"w": 532,
-		"h": 555,
-		"widths": [
-			160,
-			480,
-			532
-		]
-	},
-	"/images/v5/contentthumb.png": {
-		"w": 532,
-		"h": 555,
-		"widths": [
-			160,
-			480,
-			532
-		]
-	},
-	"/images/v5/herothumb.png": {
-		"w": 1820,
-		"h": 798,
-		"widths": [
-			160,
-			480,
-			720,
-			960,
-			1600
-		]
-	},
-	"/images/v5/icon1.png": {
-		"w": 70,
-		"h": 70
-	},
-	"/images/v5/icon2.png": {
-		"w": 77,
-		"h": 70
-	},
-	"/images/v5/icon3.png": {
-		"w": 60,
-		"h": 70
-	},
-	"/images/v5/icon4.png": {
-		"w": 24,
-		"h": 24
-	},
-	"/images/v5/icon5.png": {
-		"w": 38,
-		"h": 33
-	},
-	"/images/v5/icon6.png": {
-		"w": 22,
-		"h": 31
-	},
-	"/images/v5/icon7.png": {
-		"w": 131,
-		"h": 131
-	},
-	"/images/v5/image1.png": {
-		"w": 614,
-		"h": 596,
-		"widths": [
-			160,
-			480,
-			614
-		]
-	},
-	"/images/v5/image2.png": {
-		"w": 614,
-		"h": 446,
-		"widths": [
-			160,
-			480,
-			614
-		]
-	},
-	"/images/v5/image3.png": {
-		"w": 614,
-		"h": 446,
-		"widths": [
-			160,
-			480,
-			614
-		]
-	},
-	"/images/v5/image4.png": {
-		"w": 614,
-		"h": 596,
-		"widths": [
-			160,
-			480,
-			614
-		]
-	},
-	"/images/v5/image5.png": {
-		"w": 59,
-		"h": 59
-	},
-	"/images/v5/shape1.png": {
-		"w": 83,
-		"h": 80
-	},
-	"/images/v5/shape2.png": {
-		"w": 174,
-		"h": 171
-	},
-	"/images/v5/shape3.png": {
-		"w": 273,
-		"h": 204
-	},
-	"/images/v5/shape5.png": {
-		"w": 273,
-		"h": 203
 	}
 }
