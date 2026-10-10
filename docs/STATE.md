@@ -1,4 +1,4 @@
-# STATE (2026-10-08)
+# STATE (2026-10-10)
 
 ## Hedef
 agotasoft.com: Next.js 14 statik export (`web/`) + PHP/MySQL admin (`admin/`, `api/`), cPanel
@@ -32,16 +32,18 @@ ERP odaklı sade site; 5 dil (tr/en/ru/uz/tk). Brain projesi: `agotasoft-web` (b
 - Gizlilik metni: veri sorumlusu, KVKK 6698 atfı, hukuki dayanak, yurt dışına aktarım; rol/yedekleme vaadi çıktı.
 - CI workflow ve `npm run check:links` (504 sayfada kırık link yok).
 - Canlı DB `data/site.json`'dan yeniden kuruldu (`database/resync-2026-10-06.sql`): 81 içerik kaydı, blog 0, SEO 36→14, calendly boş, mesajlar (2) korundu. Yedekler: `entries_bak_20261006x`, `settings_bak_20261006x` (+ önceki `entries_bak_20261005`, `entries_bak_20261006`, `settings_bak_20261006`).
+- Fiyat sayfası "Hazır Ürünler" (web/lib/i18n/readyProducts.js): Kârlılık.NET ₺499–3.499/ay, Cepte Ne Var 1.490–2.990 TL/yıl, Görevim Ne 199 TL/kullanıcı/ay, Planlayalim 399–899 TL/ay, Ön Muhasebe "Başlangıç ₺590/ay + KDV"; ERP, CRM, LMS "Yakında · bekleme listesi" (düğme demo formunu `?urun=<slug>&waitlist=1` ile açar). Fiyat önerisi raporu: `AgotaSoftBrain/docs/FIYAT-ONERISI.md`; yalnızca bu kararlar uygulandı.
+- Ana sayfa "Partnerlerimiz": Claude for Startups, ElevenLabs, Cloudflare for Startups, AWS (yakında), metin etiketi (logo yok). 260 ölü şablon bileşeni ve eski build kopyası/zip'ler depodan silindi. Hepsi canlıda (10 Ekim).
 - Canlı sunucuda dosya yedeği: `/home/agotaso1/backup-20261006` (`data/`, `.htaccess`, yükleme zip parçaları).
 
 ## Yarım / açık
 - **Sizde (yapılmadı):** eski `public_html/sofax/` klasörü hâlâ erişilebilir (`/sofax/public/data/site.json`), Çöp Kutusu'na taşınmalı; Cloudflare > Purge Everything; canlı admin şifresi değişmeli (varsayılan şifre git geçmişinde ve repo public); yedek tablolar ve `backup-20261006` klasörü işiniz bitince silinebilir.
 - Doğrulanmadı: giriş kilidinin canlıdaki çalışması, iletişim formu hız sınırı ve "Kaynak" alanının admin mesajında görünmesi (bir test talebi gönderip bakın).
-- Karar bekleyenler: fiyat sayfası (Kârlılık.NET, Cepte Ne Var, Görevim Ne, Planlayalim fiyatları ve ERP/CRM başlangıç fiyatı), 76 "Yakında" ürünün vitrini, ana sayfa konumlandırması (ERP mi, hazır ürünler mi), admin için Cloudflare Access/IP kısıtı, diğer dillerde yasal metin, veri sorumlusunun tescilli unvanı ve mesaj saklama süresi.
+- Karar bekleyenler: Brain fiyat önerisinin kalanı (Kârlılık orta paketi, ücretsiz katmanlar, yıllıkta 2 ay hediye), başvuru önerileri (Aikido, Porter, CircleCI, Auth0, Notion, Framer: ortaklık olmadan partner alanına eklenmez), 76 "Yakında" ürünün vitrini, ana sayfa konumlandırması (ERP mi, hazır ürünler mi), admin için Cloudflare Access/IP kısıtı, diğer dillerde yasal metin, veri sorumlusunun tescilli unvanı ve mesaj saklama süresi.
 - GTM container ID girilmedi (izleme kapalı), GTM içi etiketler (GA4, Meta Pixel, Google Ads) ve Search Console doğrulaması yok; KVKK aydınlatma metni ve iade/iptal sayfaları yok (reklam onayı için gerekli).
 - Cloudflare Cache Rule (HTML önbelleği, /admin ve /api hariç) eklenmedi; sunucu TTFB 1-3 sn, kalan en büyük kayıp. Eklenince her yüklemeden sonra Purge Everything. CSP başlığı yok (GTM ve satır içi betikler için ayrı tasarım gerekir); Next 14.2.20 yükseltilmedi.
 - CMS yalnız TR içeriği yönetiyor (diğer diller ve katalog JSON'da); panel değişikliği botlara rebuild olmadan yansımaz; admin'de görsel yükleme ve yayın öncesi `site.json` yedeği yok; 2FA ve rol kontrolü yok; Cloudflare Turnstile yok.
-- Silinemeyenler (izin denetimi silme işlemlerini engelliyor, `git rm` ile siz): `web/agotasoft-website-final/`, `web/*.zip`, `web/public/images/v5/Sofax for Dev.zip`, `web/staticwebapp.config.json`, `web/.github`, ~200 kullanılmayan şablon bileşeni. Canlıda eski AgotaRandevu detay sayfası dosyaları da kaldı (yeni derleme üretmiyor).
+- Canlıda eski AgotaRandevu detay sayfası dosyaları kaldı (yeni derleme üretmiyor).
 - İletişim haritası Taksim, adres Üsküdar; fiyat sayfasındaki doğrulanmamış maddeler (vergi hesabı, çoklu şirket, API) ve "Mobil uygulama" maddesi gözden geçirilmedi; subdomain'de "ERP" etiketi ve agotasoft.com linki sorusu cevaplanmadı.
 - `web/agotasoft-website-final/data/` ve `.claude/`, `web/.claude/` yerel, commit dışı.
 
