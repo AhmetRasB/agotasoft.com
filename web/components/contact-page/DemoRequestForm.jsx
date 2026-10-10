@@ -32,7 +32,8 @@ export default function DemoRequestForm() {
 		const pkg = params.get("package") || "";
 		const found = slug ? findProduct(getCatalog(locale), slug) : null;
 		if (!found && !pkg) return;
-		const base = found ? fill(getCatalog(locale).ui.contact_message, { product: found.product.name }) : "";
+		const template = params.get("waitlist") ? copy.waitlistMsg : getCatalog(locale).ui.contact_message;
+		const base = found ? fill(template, { product: found.product.name }) : "";
 		setPreset({
 			name: found?.product.name || "",
 			message: [base, pkg ? `${copy.package}: ${pkg.slice(0, 80)}` : ""].filter(Boolean).join("\n"),

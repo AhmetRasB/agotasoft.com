@@ -104,7 +104,7 @@ export default function PricingContent() {
 						</p>
 					</div>
 					<div className="agf-grid agf-grid--4">
-						{READY_PRODUCTS.map(({ slug, price }) => {
+						{READY_PRODUCTS.map(({ slug, price, waitlist }) => {
 							const found = findProduct(catalog, slug);
 							if (!found) return null;
 							const { product } = found;
@@ -115,9 +115,15 @@ export default function PricingContent() {
 									</div>
 									<h3>{product.name}</h3>
 									<p className="agf-small">{product.tagline}</p>
-									<p style={{ fontWeight: 700, fontSize: 18, margin: "12px 0" }}>{formatPrice(price, ready.units[price.per], locale)}</p>
-									<a href={productHref(product, prefix)} className="agf-btn agf-btn--ghost" style={{ marginTop: "auto" }}>
-										{ready.cta}
+									<p style={{ fontWeight: 700, fontSize: 18, margin: "12px 0" }}>
+										{waitlist ? ready.waitlist : formatPrice(price, ready.units[price.per], locale)}
+									</p>
+									<a
+										href={waitlist ? withLocale(`/contact-us?urun=${slug}&waitlist=1#demo`, prefix) : productHref(product, prefix)}
+										className={`agf-btn ${waitlist ? "agf-btn--primary" : "agf-btn--ghost"}`}
+										style={{ marginTop: "auto" }}
+									>
+										{waitlist ? ready.join : ready.cta}
 									</a>
 								</div>
 							);

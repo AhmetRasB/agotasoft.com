@@ -2,6 +2,7 @@
 // so the form is not Turkish on every language.
 export const DEMO_FORM = {
 	tr: {
+		waitlistMsg: "{product} için bekleme listesine katılmak istiyorum.",
 		name: "Ad Soyad", namePh: "Adınız ve soyadınız", company: "Şirket Adı", companyPh: "Şirket adınız",
 		email: "E-posta", emailPh: "ornek@sirket.com", phone: "Telefon", phonePh: "+90 (5xx) xxx xx xx",
 		subject: "İlgilendiğiniz Çözüm", choose: "Seçiniz", all: "Tüm Çözümler", other: "Diğer",
@@ -16,6 +17,7 @@ export const DEMO_FORM = {
 		title: "Demo Talep Formu", intro: "Aşağıdaki formu doldurarak ücretsiz demo talebinde bulunabilir, uzman ekibimizle görüşme ayarlayabilirsiniz.",
 	},
 	en: {
+		waitlistMsg: "I would like to join the waiting list for {product}.",
 		name: "Full name", namePh: "Your full name", company: "Company", companyPh: "Your company",
 		email: "Email", emailPh: "name@company.com", phone: "Phone", phonePh: "+90 (5xx) xxx xx xx",
 		subject: "Solution of interest", choose: "Select", all: "All solutions", other: "Other",
@@ -30,6 +32,7 @@ export const DEMO_FORM = {
 		title: "Demo Request Form", intro: "Fill in the form to request a free demo and set up a call with our team.",
 	},
 	ru: {
+		waitlistMsg: "Хочу встать в список ожидания {product}.",
 		name: "Имя и фамилия", namePh: "Ваше имя и фамилия", company: "Компания", companyPh: "Название компании",
 		email: "Эл. почта", emailPh: "name@company.com", phone: "Телефон", phonePh: "+90 (5xx) xxx xx xx",
 		subject: "Интересующее решение", choose: "Выберите", all: "Все решения", other: "Другое",
@@ -44,6 +47,7 @@ export const DEMO_FORM = {
 		title: "Форма запроса демо", intro: "Заполните форму, чтобы запросить бесплатное демо и договориться о звонке с нашей командой.",
 	},
 	uz: {
+		waitlistMsg: "{product} uchun kutish ro'yxatiga yozilmoqchiman.",
 		name: "Ism familiya", namePh: "Ism va familiyangiz", company: "Kompaniya", companyPh: "Kompaniya nomi",
 		email: "E-pochta", emailPh: "name@company.com", phone: "Telefon", phonePh: "+90 (5xx) xxx xx xx",
 		subject: "Qiziqqan yechim", choose: "Tanlang", all: "Barcha yechimlar", other: "Boshqa",
@@ -58,6 +62,7 @@ export const DEMO_FORM = {
 		title: "Demo so'rov shakli", intro: "Bepul demo so'rash va jamoamiz bilan uchrashuv belgilash uchun shaklni to'ldiring.",
 	},
 	tk: {
+		waitlistMsg: "{product} üçin garaşma sanawyna goşulmak isleýärin.",
 		name: "Ady, familiýasy", namePh: "Adyňyz we familiýaňyz", company: "Kompaniýa", companyPh: "Kompaniýanyň ady",
 		email: "E-poçta", emailPh: "name@company.com", phone: "Telefon", phonePh: "+90 (5xx) xxx xx xx",
 		subject: "Gyzyklanýan çözgüdiňiz", choose: "Saýlaň", all: "Ähli çözgütler", other: "Başga",

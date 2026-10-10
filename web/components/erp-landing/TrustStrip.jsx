@@ -3,6 +3,8 @@ import { useLocale } from "@/hooks/useLocale";
 
 const PARTNERS = [
 	{ name: "Claude for Startups", soon: false },
+	{ name: "ElevenLabs", soon: false },
+	{ name: "Cloudflare for Startups", soon: false },
 	{ name: "AWS", soon: true },
 ];
 
